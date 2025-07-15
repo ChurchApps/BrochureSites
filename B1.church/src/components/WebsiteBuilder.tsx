@@ -18,13 +18,13 @@ const WebsiteBuilder = () => {
           </div>
 
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Build Your Church Website
+            Free Church Website Builder
             <span className="text-gradient block">In Minutes, Not Months</span>
           </h2>
 
           <p className="text-xl text-muted-foreground leading-relaxed">
-            Create a beautiful, professional church website with our built-in website builder.
-            No coding required - just drag, drop, and publish.
+            Create a beautiful, professional church website with our free built-in website builder.
+            No coding required - just drag, drop, and publish your church website.
           </p>
         </div>
 
@@ -81,10 +81,11 @@ const WebsiteBuilder = () => {
           <div className="relative">
             <div className="gradient-glass rounded-3xl p-4">
               <div className="bg-card rounded-2xl overflow-hidden shadow-soft">
-                <img 
+                <img
                   src="/website-builder-interface.png"
-                  alt="Website Builder Interface"
+                  alt="B1 Church Website Builder Interface - Free Church Website Builder"
                   className="w-full h-auto rounded-xl"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -103,12 +104,12 @@ const WebsiteBuilder = () => {
         <div className="text-center mt-16">
           <Button variant="gradient" size="xl" className="shadow-glow" asChild>
             <Link to="/login#register">
-              Start Building Your Website
+              Start Building Your Church Website
               <Monitor className="w-6 h-6" />
             </Link>
           </Button>
           <p className="text-sm text-muted-foreground mt-4">
-            Complete website builder included with every account
+            Complete free church website builder included with every account
           </p>
         </div>
       </div>

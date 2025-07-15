@@ -12,6 +12,8 @@ const Hero = () => {
         style={{
           backgroundImage: `url(${churchCommunity})`,
         }}
+        role="img"
+        aria-label="Church community gathering showing people connecting and fellowship"
       />
 
       {/* Content */}
@@ -31,7 +33,7 @@ const Hero = () => {
 
           {/* Subheadline */}
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            The completely free church platform that strengthens community bonds and deepens relationships. A ministry serving churches, not a business.
+            Complete church management software with mobile app, website builder, digital giving, and community features. 100% free church platform designed by a ministry, for ministries.
           </p>
 
           {/* CTA Buttons */}
@@ -42,9 +44,9 @@ const Hero = () => {
                 <Play className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
               </Link>
             </Button>
-            <Button 
-              variant="outline" 
-              size="xl" 
+            <Button
+              variant="outline"
+              size="xl"
               className="gradient-glass border-primary/30 hover:border-primary"
               onClick={() => document.getElementById('features')?.scrollIntoView({ behavior: 'smooth' })}
             >

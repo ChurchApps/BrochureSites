@@ -12,10 +12,12 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <img 
-              src="/b1-church-header-logo.png" 
-              alt="B1 Church" 
+            <img
+              src="/b1-church-header-logo.png"
+              alt="B1 Church - Free Church Management Platform Logo"
               className="h-8 w-auto"
+              width="auto"
+              height="32"
             />
           </div>
 
@@ -38,7 +40,7 @@ const Header = () => {
               <Link to="/login">Sign In</Link>
             </Button>
             <Button className="bg-white text-blue-900 hover:bg-gray-50 shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105 font-semibold" size="lg" asChild>
-              <Link to="/login#register">Get Started</Link>
+              <Link to="/login#register">Get Started Free</Link>
             </Button>
           </div>
 
@@ -69,7 +71,7 @@ const Header = () => {
                   <Link to="/login">Sign In</Link>
                 </Button>
                 <Button className="bg-white text-blue-900 hover:bg-gray-50 shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105 font-semibold" asChild>
-                  <Link to="/login#register">Get Started</Link>
+                  <Link to="/login#register">Get Started Free</Link>
                 </Button>
               </div>
             </nav>

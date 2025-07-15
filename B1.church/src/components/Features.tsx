@@ -14,10 +14,10 @@ import checkinPhoto from "@/assets/checkin-photo.jpg";
 import heroImage from "@/assets/hero-image.jpg";
 
 const Features = () => {
-const features = [
+  const features = [
     {
       icon: Users,
-      title: "Community Connection",
+      title: "Church Community Connection",
       description: "Build deeper relationships through groups, discussions, messaging, and events. Connect members beyond Sunday services with meaningful interactions.",
       image: communityPhoto,
       phoneImage: "/community-groups-phone.png",
@@ -28,7 +28,7 @@ const features = [
     },
     {
       icon: Play,
-      title: "Digital Content Hub",
+      title: "Digital Church Content Hub",
       description: "Access sermons, classroom lessons, verse of the days and full bible translations. Keep your community engaged with fresh content throughout the week.",
       image: heroImage, // Using hero image for digital content hub
       phoneImage: "/sermons-phone.png",
@@ -39,7 +39,7 @@ const features = [
     },
     {
       icon: CreditCard,
-      title: "Digital Giving",
+      title: "Online Church Giving",
       description: "Secure donations via credit/bank with recurring options and fund-specific giving. No fees from B1 - direct Stripe integration.",
       image: givingPhoto,
       phoneImage: "/giving-phone.png",
@@ -50,7 +50,7 @@ const features = [
     },
     {
       icon: CheckCircle,
-      title: "Smart Check-in",
+      title: "Church Check-in Platform",
       description: "Contactless service check-in with family management and automatic group assignment. Streamline attendance tracking.",
       image: checkinPhoto,
       phoneImage: "/checkin-phone.png",
@@ -74,6 +74,8 @@ const features = [
                 style={{
                   backgroundImage: `url(${feature.image})`,
                 }}
+                role="img"
+                aria-label={`Background image for ${feature.title} feature`}
               />
             )
           ) : (
@@ -128,6 +130,7 @@ const features = [
                         src={feature.phoneImage}
                         alt={feature.phoneAlt}
                         className="w-full h-auto"
+                        loading="lazy"
                       />
                     </div>
                   </div>
@@ -152,16 +155,18 @@ const features = [
           style={{
             backgroundImage: `url(${givingPhoto})`,
           }}
+          role="img"
+          aria-label="Church giving and stewardship background"
         />
 
         <div className="relative z-10 container mx-auto px-4 text-center">
           <div className="gradient-glass rounded-3xl p-12 md:p-16 max-w-4xl mx-auto">
             <h2 className="text-5xl md:text-6xl font-bold mb-6">
               Ready to Build Stronger
-              <span className="text-gradient block">Community?</span>
+              <span className="text-gradient block">Church Community?</span>
             </h2>
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Transform your church with our comprehensive platform designed to deepen relationships and strengthen communities.
+              Transform your church with our comprehensive free platform designed to deepen relationships and strengthen church communities through modern technology.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <Button variant="gradient" size="xl" className="shadow-glow" asChild>
