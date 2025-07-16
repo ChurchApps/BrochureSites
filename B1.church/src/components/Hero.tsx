@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Play, ArrowDown } from "lucide-react";
 import { Link } from "react-router-dom";
 import churchCommunity from "@/assets/church-community.jpg";
+import { trackChurchSignup, trackFeatureClick } from "@/utils/analytics";
 
 const Hero = () => {
   return (
@@ -38,7 +39,13 @@ const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-6 justify-center pt-8">
-            <Button variant="gradient" size="xl" className="group shadow-glow" asChild>
+            <Button 
+              variant="gradient" 
+              size="xl" 
+              className="group shadow-glow" 
+              asChild
+              onClick={() => trackChurchSignup('hero_primary_cta')}
+            >
               <Link to="/login#register">
                 Get Started Free
                 <Play className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
@@ -48,7 +55,10 @@ const Hero = () => {
               variant="outline"
               size="xl"
               className="gradient-glass border-primary/30 hover:border-primary"
-              onClick={() => document.getElementById('features')?.scrollIntoView({ behavior: 'smooth' })}
+              onClick={() => {
+                trackFeatureClick('see_how_it_works');
+                document.getElementById('features')?.scrollIntoView({ behavior: 'smooth' });
+              }}
             >
               See How It Works
               <Play className="w-6 h-6" />

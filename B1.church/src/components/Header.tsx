@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { Link } from "react-router-dom";
+import { trackChurchSignup } from "@/utils/analytics";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -39,7 +40,12 @@ const Header = () => {
             <Button variant="ghost" className="text-white hover:text-white hover:bg-white/10" asChild>
               <Link to="/login">Sign In</Link>
             </Button>
-            <Button className="bg-white text-blue-900 hover:bg-gray-50 shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105 font-semibold" size="lg" asChild>
+            <Button 
+              className="bg-white text-blue-900 hover:bg-gray-50 shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105 font-semibold" 
+              size="lg" 
+              asChild
+              onClick={() => trackChurchSignup('header_cta')}
+            >
               <Link to="/login#register">Get Started Free</Link>
             </Button>
           </div>
@@ -70,7 +76,11 @@ const Header = () => {
                 <Button variant="ghost" className="justify-start text-white hover:text-white hover:bg-white/10" asChild>
                   <Link to="/login">Sign In</Link>
                 </Button>
-                <Button className="bg-white text-blue-900 hover:bg-gray-50 shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105 font-semibold" asChild>
+                <Button 
+                  className="bg-white text-blue-900 hover:bg-gray-50 shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105 font-semibold" 
+                  asChild
+                  onClick={() => trackChurchSignup('mobile_header_cta')}
+                >
                   <Link to="/login#register">Get Started Free</Link>
                 </Button>
               </div>

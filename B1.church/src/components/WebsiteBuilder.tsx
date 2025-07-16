@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Monitor, Palette, Globe, Zap } from "lucide-react";
 import { Link } from "react-router-dom";
 import communityPhoto from "@/assets/community-photo.jpg";
+import { trackWebsiteBuilderClick } from "@/utils/analytics";
 
 const WebsiteBuilder = () => {
   return (
@@ -102,7 +103,13 @@ const WebsiteBuilder = () => {
 
         {/* CTA */}
         <div className="text-center mt-16">
-          <Button variant="gradient" size="xl" className="shadow-glow" asChild>
+          <Button 
+            variant="gradient" 
+            size="xl" 
+            className="shadow-glow" 
+            asChild
+            onClick={() => trackWebsiteBuilderClick()}
+          >
             <Link to="/login#register">
               Start Building Your Church Website
               <Monitor className="w-6 h-6" />
