@@ -46,7 +46,7 @@ const Hero = () => {
               asChild
               onClick={() => trackChurchSignup('hero_primary_cta')}
             >
-              <Link to="/login#register">
+              <Link to="/login">
                 Get Started Free
                 <Play className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
               </Link>
