@@ -46,7 +46,7 @@ const Header = () => {
               asChild
               onClick={() => trackChurchSignup('header_cta')}
             >
-              <Link to="/login">Get Started Free</Link>
+              <Link to="/login#register">Get Started Free</Link>
             </Button>
           </div>
 
@@ -81,7 +81,7 @@ const Header = () => {
                   asChild
                   onClick={() => trackChurchSignup('mobile_header_cta')}
                 >
-                  <Link to="/login">Get Started Free</Link>
+                  <Link to="/login#register">Get Started Free</Link>
                 </Button>
               </div>
             </nav>

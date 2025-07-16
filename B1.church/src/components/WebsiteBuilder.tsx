@@ -110,7 +110,7 @@ const WebsiteBuilder = () => {
             asChild
             onClick={() => trackWebsiteBuilderClick()}
           >
-            <Link to="/login">
+            <Link to="/login#register">
               Start Building Your Church Website
               <Monitor className="w-6 h-6" />
             </Link>

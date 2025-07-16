@@ -112,7 +112,7 @@ const Features = () => {
                   </div>
 
                   <Button variant="gradient" size="lg" className="group" asChild>
-                    <Link to="/login">
+                    <Link to="/login#register">
                       {feature.ctaText}
                       <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                     </Link>
@@ -170,7 +170,7 @@ const Features = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <Button variant="gradient" size="xl" className="shadow-glow" asChild>
-                <Link to="/login">Get Started Free</Link>
+                <Link to="/login#register">Get Started Free</Link>
               </Button>
             </div>
           </div>
