@@ -10,10 +10,10 @@ const testimonials = [
     rating: 5
   },
   {
-    name: "Lisa Chen",
-    church: "New Life Assembly",
-    location: "San Francisco, CA",
-    content: "As a church administrator, CHUMS has made my job so much easier. The automated workflows handle follow-ups and the reporting gives our leadership the insights they need.",
+    name: "Theresa Fraser",
+    church: "Mission of Hope Worship Center",
+    location: "Orlando, FL",
+    content: "CHUMS is a church saver. As a small Church with a limited budget, this software is GOD SENT and a blessing. It is user- friendly and easy to set up. Donation reports are easy to draft. In addition, the fact that data I can export to excel, makes analysis of records very simple. CHUMS has shaved off at least 25% of my Clerk’s office time. Lastly, Customer support is fast and Helpful and the response is awesome. I truly recommend CHUMS!!!",
     rating: 5
   },
   {

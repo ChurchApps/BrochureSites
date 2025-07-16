@@ -9,7 +9,7 @@
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy-prod": "export REACT_APP_STAGE=prod&& npm run build",
+    "predeploy-prod": "npm run build",
     "exec-deploy-prod": "aws s3 sync dist/ s3://chums-web",
     "invalidate-chums": "aws cloudfront create-invalidation --distribution-id E3HSNKONYYRLKN --paths \"/*\"",
     "deploy-prod": "npm run predeploy-prod && npm run exec-deploy-prod && npm run invalidate-chums"
