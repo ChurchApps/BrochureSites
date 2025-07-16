@@ -241,7 +241,7 @@ const Login: React.FC = () => {
   };
 
   const handleChurchSelection = (userChurch: UserChurch) => {
-    const redirectUrl = `https://${userChurch.church.subDomain}.b1.church/`;
+    const redirectUrl = `https://${userChurch.church.subDomain}.b1.church/login?jwt=${userChurch.jwt}`;
     window.location.href = redirectUrl;
   };
 
@@ -306,6 +306,16 @@ const Login: React.FC = () => {
                   </div>
                 );
               })}
+            </div>
+            <div className="border-t border-gray-200 pt-4 mt-4">
+              <button
+                className="w-full p-3 text-center text-red-600 hover:bg-red-50 rounded font-medium"
+                onClick={() => {
+                  window.location.href = '/login';
+                }}
+              >
+                Logout
+              </button>
             </div>
           </DialogContent>
         </Dialog>
