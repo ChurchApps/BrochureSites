@@ -82,6 +82,13 @@ const Login: React.FC = () => {
   const timestampParam = search.get("timestamp");
 
   useEffect(() => {
+    // Check for hash-based routing
+    const hash = window.location.hash;
+    if (hash === '#register') {
+      setFormMode('register');
+      return;
+    }
+
     if (authParam) {
       // Check for timestamp and link expiration (10 minutes)
       if (timestampParam) {
@@ -589,9 +596,9 @@ const Login: React.FC = () => {
                                 )}
                                 <div>
                                   <div className="text-blue-500 font-medium">{church.name}</div>
-                                  {church.address1 && <div className="text-gray-600 text-sm">{church.address1}</div>}
+                                  {church.address1 && <div className="text-gray-800 text-sm">{church.address1}</div>}
                                   {(church.city || church.state) && (
-                                    <div className="text-gray-600 text-sm">
+                                    <div className="text-gray-800 text-sm">
                                       {church.city && church.city + ", "}{church.state}
                                     </div>
                                   )}
@@ -604,12 +611,12 @@ const Login: React.FC = () => {
                     )}
 
                     {searchResults.length === 0 && searchText && (
-                      <p className="text-gray-600 text-center">No churches found matching your search.</p>
+                      <p className="text-gray-800 text-center">No churches found matching your search.</p>
                     )}
 
                     <div className="text-center">
                       <button
-                        className="text-blue-600 hover:underline"
+                        className="text-blue-700 hover:underline font-medium"
                         onClick={(e) => {
                           e.preventDefault();
                           if (window.confirm("Are you sure you want to register a new church?")) {
@@ -624,7 +631,7 @@ const Login: React.FC = () => {
                   </>
                 ) : (
                   <div className="space-y-4">
-                    <h3 className="text-lg font-semibold">Register New Church</h3>
+                    <h3 className="text-lg font-semibold text-gray-900">Register New Church</h3>
                     <form onSubmit={handleRegisterChurch} className="space-y-3">
                       <Input
                         required
@@ -685,6 +692,7 @@ const Login: React.FC = () => {
                         <Button
                           type="button"
                           variant="outline"
+                          className="bg-white text-gray-900 border-gray-300 hover:bg-gray-50"
                           onClick={() => setShowRegisterChurch(false)}
                         >
                           Back
@@ -726,7 +734,7 @@ const Login: React.FC = () => {
                           )}
                           <div className="flex-1">
                             <div className="text-blue-500 font-medium text-base">{churchName}</div>
-                            <div className="text-gray-600 text-sm">{userChurch.church.subDomain}.b1.church</div>
+                            <div className="text-gray-800 text-sm">{userChurch.church.subDomain}.b1.church</div>
                           </div>
                         </div>
                       </button>
@@ -739,7 +747,7 @@ const Login: React.FC = () => {
                 
                 <div className="border-t border-gray-200 pt-4 mt-4">
                   <button
-                    className="w-full text-center text-blue-600 hover:underline"
+                    className="w-full text-center text-blue-700 hover:underline font-medium"
                     onClick={() => setShowSearch(true)}
                   >
                     Search for Another Church
@@ -1006,7 +1014,7 @@ const Login: React.FC = () => {
 
       return (
         <form onSubmit={handleForgotPassword} className="space-y-4">
-          <p className="text-gray-600 text-sm">Enter your email address and we'll send you a link to reset your password.</p>
+          <p className="text-gray-800 text-sm">Enter your email address and we'll send you a link to reset your password.</p>
           <div className="space-y-2">
             <label htmlFor="forgot-email" className="text-sm font-medium text-gray-700">Email</label>
             <Input
