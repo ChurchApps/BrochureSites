@@ -199,7 +199,10 @@ const Login: React.FC = () => {
             setFormMode('selectChurch');
           }
         } else {
-          setError("No churches found for this account.");
+          // No churches found - show the church selection modal with search
+          setChurches([]);
+          setShowChurchModal(true);
+          setFormMode('selectChurch');
         }
       } else {
         const errorData = await response.json();
@@ -283,7 +286,10 @@ const Login: React.FC = () => {
                 setFormMode('selectChurch');
               }
             } else {
-              setError("No churches found for this account.");
+              // No churches found - show the church selection modal with search
+              setChurches([]);
+              setShowChurchModal(true);
+              setFormMode('selectChurch');
             }
           } else {
             setError("Login failed after password set.");
