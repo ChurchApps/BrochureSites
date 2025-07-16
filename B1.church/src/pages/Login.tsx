@@ -260,44 +260,50 @@ const Login: React.FC = () => {
         <Dialog open={showChurchModal} onOpenChange={() => {}}>
           <DialogContent className="sm:max-w-md max-h-[80vh] bg-white border-gray-200">
             <DialogHeader>
-              <DialogTitle>Select Your Church</DialogTitle>
+              <DialogTitle className="text-gray-900 text-xl font-semibold">Select Your Church</DialogTitle>
               <DialogDescription className="text-gray-700">
                 Choose which church you'd like to access:
               </DialogDescription>
             </DialogHeader>
-            <div className="max-h-96 overflow-y-auto space-y-2 pr-2">
-              {churches.map((userChurch) => {
+            <div className="max-h-96 overflow-y-auto">
+              {churches.map((userChurch, index) => {
                 const logo = getChurchLogo(userChurch.church);
                 const churchName = userChurch.church?.name || 'Unknown Church';
                 const churchId = userChurch.church?.id || Math.random().toString();
                 
                 return (
-                  <Button
-                    key={churchId}
-                    variant="outline"
-                    className="w-full justify-start h-auto p-4 text-left"
-                    onClick={() => handleChurchSelection(userChurch)}
-                  >
-                    <div className="flex items-center gap-3 w-full">
-                      {logo ? (
-                        <img 
-                          src={logo} 
-                          alt={`${churchName} logo`}
-                          className="w-8 h-8 object-contain flex-shrink-0"
-                          onError={(e) => {
-                            (e.target as HTMLImageElement).style.display = 'none';
-                          }}
-                        />
-                      ) : (
-                        <div className="w-8 h-8 bg-gray-200 rounded flex items-center justify-center flex-shrink-0">
-                          <span className="text-xs font-semibold text-gray-800">
-                            {churchName.charAt(0).toUpperCase()}
-                          </span>
+                  <div key={churchId}>
+                    <button
+                      className="w-full p-4 text-left hover:bg-gray-50 transition-colors duration-150"
+                      onClick={() => handleChurchSelection(userChurch)}
+                    >
+                      <div className="flex items-center gap-4">
+                        {logo ? (
+                          <img 
+                            src={logo} 
+                            alt={`${churchName} logo`}
+                            className="w-12 h-12 object-contain flex-shrink-0"
+                            onError={(e) => {
+                              (e.target as HTMLImageElement).style.display = 'none';
+                            }}
+                          />
+                        ) : (
+                          <div className="w-12 h-12 bg-blue-100 rounded flex items-center justify-center flex-shrink-0">
+                            <span className="text-lg font-semibold text-blue-600">
+                              {churchName.charAt(0).toUpperCase()}
+                            </span>
+                          </div>
+                        )}
+                        <div className="flex-1">
+                          <div className="text-blue-500 font-medium text-base">{churchName}</div>
+                          <div className="text-gray-600 text-sm">{userChurch.church.subDomain}.b1.church</div>
                         </div>
-                      )}
-                      <span className="flex-1 text-sm text-gray-800">{churchName}</span>
-                    </div>
-                  </Button>
+                      </div>
+                    </button>
+                    {index < churches.length - 1 && (
+                      <div className="border-b border-gray-200 mx-4"></div>
+                    )}
+                  </div>
                 );
               })}
             </div>
@@ -335,7 +341,7 @@ const Login: React.FC = () => {
               onChange={(e) => setEmail(e.target.value)}
               disabled={isLoading}
               required
-              className="bg-white border-gray-300 focus:border-blue-500"
+              className="bg-white border-gray-300 focus:border-blue-500 text-gray-900"
             />
           </div>
           <div className="space-y-2">
@@ -346,7 +352,7 @@ const Login: React.FC = () => {
               onChange={(e) => setPassword(e.target.value)}
               disabled={isLoading}
               required
-              className="bg-white border-gray-300 focus:border-blue-500"
+              className="bg-white border-gray-300 focus:border-blue-500 text-gray-900"
             />
           </div>
           <Button type="submit" className="w-full" disabled={isLoading}>
@@ -386,7 +392,7 @@ const Login: React.FC = () => {
               onChange={(e) => setFirstName(e.target.value)}
               disabled={isLoading}
               required
-              className="bg-white border-gray-300 focus:border-blue-500"
+              className="bg-white border-gray-300 focus:border-blue-500 text-gray-900"
             />
             <Input
               type="text"
@@ -395,7 +401,7 @@ const Login: React.FC = () => {
               onChange={(e) => setLastName(e.target.value)}
               disabled={isLoading}
               required
-              className="bg-white border-gray-300 focus:border-blue-500"
+              className="bg-white border-gray-300 focus:border-blue-500 text-gray-900"
             />
           </div>
           <div className="space-y-2">
@@ -406,7 +412,7 @@ const Login: React.FC = () => {
               onChange={(e) => setEmail(e.target.value)}
               disabled={isLoading}
               required
-              className="bg-white border-gray-300 focus:border-blue-500"
+              className="bg-white border-gray-300 focus:border-blue-500 text-gray-900"
             />
           </div>
           <div className="space-y-2">
@@ -417,7 +423,7 @@ const Login: React.FC = () => {
               onChange={(e) => setPassword(e.target.value)}
               disabled={isLoading}
               required
-              className="bg-white border-gray-300 focus:border-blue-500"
+              className="bg-white border-gray-300 focus:border-blue-500 text-gray-900"
             />
           </div>
           <div className="space-y-2">
@@ -428,7 +434,7 @@ const Login: React.FC = () => {
               onChange={(e) => setConfirmPassword(e.target.value)}
               disabled={isLoading}
               required
-              className="bg-white border-gray-300 focus:border-blue-500"
+              className="bg-white border-gray-300 focus:border-blue-500 text-gray-900"
             />
           </div>
           <Button type="submit" className="w-full" disabled={isLoading}>
@@ -458,7 +464,7 @@ const Login: React.FC = () => {
               onChange={(e) => setEmail(e.target.value)}
               disabled={isLoading}
               required
-              className="bg-white border-gray-300 focus:border-blue-500"
+              className="bg-white border-gray-300 focus:border-blue-500 text-gray-900"
             />
           </div>
           <Button type="submit" className="w-full" disabled={isLoading}>
@@ -489,7 +495,7 @@ const Login: React.FC = () => {
               className="h-16 mx-auto"
             />
           </div>
-          <CardTitle className="text-2xl font-bold">{getFormTitle()}</CardTitle>
+          <CardTitle className="text-2xl font-bold text-gray-900">{getFormTitle()}</CardTitle>
           <CardDescription className="text-gray-700">
             {getFormDescription()}
           </CardDescription>

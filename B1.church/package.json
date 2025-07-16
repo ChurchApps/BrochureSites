@@ -11,7 +11,7 @@
     "preview": "vite preview",
     "predeploy-prod": "npm run build",
     "exec-deploy-prod": "aws s3 sync dist/ s3://b1-church-web",
-    "invalidate-prod": "aws cloudfront create-invalidation --distribution-id E3HSNKONYYRLKN --paths \"/*\"",
+    "invalidate-prod": "aws cloudfront create-invalidation --distribution-id E1ZX3V10U41G91 --paths \"/*\"",
     "deploy-prod": "npm run predeploy-prod && npm run exec-deploy-prod && npm run invalidate-prod"
   },
   "dependencies": {
