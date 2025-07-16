@@ -10,6 +10,11 @@ interface Church {
   id: string;
   name: string;
   subDomain: string;
+  settings?: Array<{
+    keyName: string;
+    value: string;
+    public: boolean;
+  }>;
 }
 
 interface UserChurch {
@@ -240,28 +245,61 @@ const Login: React.FC = () => {
     window.location.href = redirectUrl;
   };
 
+  const getChurchLogo = (church: Church) => {
+    if (church.settings) {
+      const logoLight = church.settings.find(s => s.keyName === 'logoLight');
+      const logoDark = church.settings.find(s => s.keyName === 'logoDark');
+      return logoLight?.value || logoDark?.value || null;
+    }
+    return null;
+  };
+
   if (showChurchModal) {
     return (
       <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
         <Dialog open={showChurchModal} onOpenChange={() => {}}>
-          <DialogContent className="sm:max-w-md">
+          <DialogContent className="sm:max-w-md max-h-[80vh]">
             <DialogHeader>
               <DialogTitle>Select Your Church</DialogTitle>
               <DialogDescription>
                 Choose which church you'd like to access:
               </DialogDescription>
             </DialogHeader>
-            <div className="space-y-2">
-              {churches.map((userChurch) => (
-                <Button
-                  key={userChurch.church.id}
-                  variant="outline"
-                  className="w-full justify-start"
-                  onClick={() => handleChurchSelection(userChurch)}
-                >
-                  {userChurch.church.name}
-                </Button>
-              ))}
+            <div className="max-h-96 overflow-y-auto space-y-2 pr-2">
+              {churches.map((userChurch) => {
+                const logo = getChurchLogo(userChurch.church);
+                const churchName = userChurch.church?.name || 'Unknown Church';
+                const churchId = userChurch.church?.id || Math.random().toString();
+                
+                return (
+                  <Button
+                    key={churchId}
+                    variant="outline"
+                    className="w-full justify-start h-auto p-4 text-left"
+                    onClick={() => handleChurchSelection(userChurch)}
+                  >
+                    <div className="flex items-center gap-3 w-full">
+                      {logo ? (
+                        <img 
+                          src={logo} 
+                          alt={`${churchName} logo`}
+                          className="w-8 h-8 object-contain flex-shrink-0"
+                          onError={(e) => {
+                            (e.target as HTMLImageElement).style.display = 'none';
+                          }}
+                        />
+                      ) : (
+                        <div className="w-8 h-8 bg-gray-200 rounded flex items-center justify-center flex-shrink-0">
+                          <span className="text-xs font-semibold text-gray-600">
+                            {churchName.charAt(0).toUpperCase()}
+                          </span>
+                        </div>
+                      )}
+                      <span className="flex-1 text-sm">{churchName}</span>
+                    </div>
+                  </Button>
+                );
+              })}
             </div>
           </DialogContent>
         </Dialog>
