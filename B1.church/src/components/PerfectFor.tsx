@@ -117,9 +117,11 @@ const PerfectFor = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
-              <Button variant="gradient" size="xl" className="group shadow-glow">
-                Start Free Today
-                <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
+              <Button variant="gradient" size="xl" className="group shadow-glow" asChild>
+                <a href="/login#register">
+                  Start Free Today
+                  <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
+                </a>
               </Button>
             </div>
 
