@@ -41,6 +41,7 @@ const Login: React.FC = () => {
   const [success, setSuccess] = useState("");
   const [churches, setChurches] = useState<UserChurch[]>([]);
   const [showChurchModal, setShowChurchModal] = useState(false);
+  const [registered, setRegistered] = useState(false);
   const context = useContext(UserContext);
 
   const search = new URLSearchParams(window.location?.search);
@@ -128,25 +129,31 @@ const Login: React.FC = () => {
     }
   };
 
+  const validateEmail = (email: string) => (/^\w+([.-]?\w+)*@\w+([.-]?\w+)*(.\w{2,3})+$/.test(email));
+
+  const validateRegistration = () => {
+    let errors = [];
+    if (!email?.trim()) errors.push("Please enter a valid email address.");
+    else if (!validateEmail(email)) errors.push("Please enter a valid email address.");
+    if (!firstName?.trim()) errors.push("Please enter your first name.");
+    if (!lastName?.trim()) errors.push("Please enter your last name.");
+    
+    if (errors.length > 0) {
+      setError(errors[0]);
+      return false;
+    }
+    return true;
+  };
+
   const handleRegister = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!email || !password || !firstName || !lastName) {
-      setError("Please fill in all fields.");
-      return;
-    }
+    setError("");
 
-    if (password !== confirmPassword) {
-      setError("Passwords do not match.");
-      return;
-    }
-
-    if (password.length < 6) {
-      setError("Password must be at least 6 characters long.");
+    if (!validateRegistration()) {
       return;
     }
 
     setIsLoading(true);
-    setError("");
 
     try {
       const response = await fetch("https://membershipapi.churchapps.org/users/register", {
@@ -156,26 +163,19 @@ const Login: React.FC = () => {
         },
         body: JSON.stringify({
           email,
-          password,
           firstName,
           lastName,
-          appName: "B1"
+          appName: "B1",
+          appUrl: window.location.origin
         }),
       });
 
       if (response.ok) {
-        const data: LoginResponse = await response.json();
-        if (data.userChurches && data.userChurches.length > 0) {
-          setChurches(data.userChurches);
-          if (data.userChurches.length === 1) {
-            handleChurchSelection(data.userChurches[0]);
-          } else {
-            setShowChurchModal(true);
-          }
+        const data = await response.json();
+        if (data.errors) {
+          setError(data.errors[0] || "Registration failed. Please try again.");
         } else {
-          setSuccess("Account created successfully! Please log in.");
-          setFormMode('login');
-          resetForm();
+          setRegistered(true);
         }
       } else {
         const errorData = await response.json();
@@ -233,6 +233,7 @@ const Login: React.FC = () => {
     setLastName("");
     setError("");
     setSuccess("");
+    setRegistered(false);
   };
 
   const switchMode = (mode: FormMode) => {
@@ -392,6 +393,21 @@ const Login: React.FC = () => {
     }
 
     if (formMode === 'register') {
+      if (registered) {
+        return (
+          <div className="text-center space-y-4">
+            <p className="text-gray-700">Thank you for registering! Please check your email for further instructions.</p>
+            <button
+              type="button"
+              className="text-sm text-blue-600 hover:underline"
+              onClick={() => switchMode('login')}
+            >
+              Back to sign in
+            </button>
+          </div>
+        );
+      }
+
       return (
         <form onSubmit={handleRegister} className="space-y-4">
           <div className="grid grid-cols-2 gap-2">
@@ -425,30 +441,8 @@ const Login: React.FC = () => {
               className="bg-white border-gray-300 focus:border-blue-500 text-gray-900"
             />
           </div>
-          <div className="space-y-2">
-            <Input
-              type="password"
-              placeholder="Password"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-              disabled={isLoading}
-              required
-              className="bg-white border-gray-300 focus:border-blue-500 text-gray-900"
-            />
-          </div>
-          <div className="space-y-2">
-            <Input
-              type="password"
-              placeholder="Confirm Password"
-              value={confirmPassword}
-              onChange={(e) => setConfirmPassword(e.target.value)}
-              disabled={isLoading}
-              required
-              className="bg-white border-gray-300 focus:border-blue-500 text-gray-900"
-            />
-          </div>
           <Button type="submit" className="w-full" disabled={isLoading}>
-            {isLoading ? "Creating account..." : "Create Account"}
+            {isLoading ? "Please wait..." : "Register"}
           </Button>
           <div className="text-center">
             <button
