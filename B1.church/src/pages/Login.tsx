@@ -256,12 +256,12 @@ const Login: React.FC = () => {
 
   if (showChurchModal) {
     return (
-      <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
+      <div className="min-h-screen bg-white flex items-center justify-center p-4">
         <Dialog open={showChurchModal} onOpenChange={() => {}}>
-          <DialogContent className="sm:max-w-md max-h-[80vh]">
+          <DialogContent className="sm:max-w-md max-h-[80vh] bg-white border-gray-200">
             <DialogHeader>
               <DialogTitle>Select Your Church</DialogTitle>
-              <DialogDescription>
+              <DialogDescription className="text-gray-700">
                 Choose which church you'd like to access:
               </DialogDescription>
             </DialogHeader>
@@ -290,12 +290,12 @@ const Login: React.FC = () => {
                         />
                       ) : (
                         <div className="w-8 h-8 bg-gray-200 rounded flex items-center justify-center flex-shrink-0">
-                          <span className="text-xs font-semibold text-gray-600">
+                          <span className="text-xs font-semibold text-gray-800">
                             {churchName.charAt(0).toUpperCase()}
                           </span>
                         </div>
                       )}
-                      <span className="flex-1 text-sm">{churchName}</span>
+                      <span className="flex-1 text-sm text-gray-800">{churchName}</span>
                     </div>
                   </Button>
                 );
@@ -335,6 +335,7 @@ const Login: React.FC = () => {
               onChange={(e) => setEmail(e.target.value)}
               disabled={isLoading}
               required
+              className="bg-white border-gray-300 focus:border-blue-500"
             />
           </div>
           <div className="space-y-2">
@@ -345,6 +346,7 @@ const Login: React.FC = () => {
               onChange={(e) => setPassword(e.target.value)}
               disabled={isLoading}
               required
+              className="bg-white border-gray-300 focus:border-blue-500"
             />
           </div>
           <Button type="submit" className="w-full" disabled={isLoading}>
@@ -358,7 +360,7 @@ const Login: React.FC = () => {
             >
               Forgot your password?
             </button>
-            <div className="text-sm text-gray-600">
+            <div className="text-sm text-gray-800">
               Don't have an account?{" "}
               <button
                 type="button"
@@ -384,6 +386,7 @@ const Login: React.FC = () => {
               onChange={(e) => setFirstName(e.target.value)}
               disabled={isLoading}
               required
+              className="bg-white border-gray-300 focus:border-blue-500"
             />
             <Input
               type="text"
@@ -392,6 +395,7 @@ const Login: React.FC = () => {
               onChange={(e) => setLastName(e.target.value)}
               disabled={isLoading}
               required
+              className="bg-white border-gray-300 focus:border-blue-500"
             />
           </div>
           <div className="space-y-2">
@@ -402,6 +406,7 @@ const Login: React.FC = () => {
               onChange={(e) => setEmail(e.target.value)}
               disabled={isLoading}
               required
+              className="bg-white border-gray-300 focus:border-blue-500"
             />
           </div>
           <div className="space-y-2">
@@ -412,6 +417,7 @@ const Login: React.FC = () => {
               onChange={(e) => setPassword(e.target.value)}
               disabled={isLoading}
               required
+              className="bg-white border-gray-300 focus:border-blue-500"
             />
           </div>
           <div className="space-y-2">
@@ -422,6 +428,7 @@ const Login: React.FC = () => {
               onChange={(e) => setConfirmPassword(e.target.value)}
               disabled={isLoading}
               required
+              className="bg-white border-gray-300 focus:border-blue-500"
             />
           </div>
           <Button type="submit" className="w-full" disabled={isLoading}>
@@ -451,6 +458,7 @@ const Login: React.FC = () => {
               onChange={(e) => setEmail(e.target.value)}
               disabled={isLoading}
               required
+              className="bg-white border-gray-300 focus:border-blue-500"
             />
           </div>
           <Button type="submit" className="w-full" disabled={isLoading}>
@@ -471,8 +479,8 @@ const Login: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
-      <Card className="w-full max-w-md">
+    <div className="min-h-screen bg-white flex items-center justify-center p-4">
+      <Card className="w-full max-w-md bg-white border-gray-200 shadow-lg">
         <CardHeader className="text-center">
           <div className="mx-auto mb-4">
             <img 
@@ -482,7 +490,7 @@ const Login: React.FC = () => {
             />
           </div>
           <CardTitle className="text-2xl font-bold">{getFormTitle()}</CardTitle>
-          <CardDescription>
+          <CardDescription className="text-gray-700">
             {getFormDescription()}
           </CardDescription>
         </CardHeader>
