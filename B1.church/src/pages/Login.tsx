@@ -19,14 +19,21 @@ interface UserChurch {
 
 interface LoginResponse {
   user: any;
-  churches: UserChurch[];
+  userChurches: UserChurch[];
 }
 
+type FormMode = 'login' | 'register' | 'forgot';
+
 const Login: React.FC = () => {
+  const [formMode, setFormMode] = useState<FormMode>('login');
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [confirmPassword, setConfirmPassword] = useState("");
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState("");
+  const [success, setSuccess] = useState("");
   const [churches, setChurches] = useState<UserChurch[]>([]);
   const [showChurchModal, setShowChurchModal] = useState(false);
   const context = useContext(UserContext);
@@ -54,10 +61,10 @@ const Login: React.FC = () => {
 
       if (response.ok) {
         const data: LoginResponse = await response.json();
-        if (data.churches && data.churches.length > 0) {
-          setChurches(data.churches);
-          if (data.churches.length === 1) {
-            handleChurchSelection(data.churches[0]);
+        if (data.userChurches && data.userChurches.length > 0) {
+          setChurches(data.userChurches);
+          if (data.userChurches.length === 1) {
+            handleChurchSelection(data.userChurches[0]);
           } else {
             setShowChurchModal(true);
           }
@@ -95,10 +102,10 @@ const Login: React.FC = () => {
 
       if (response.ok) {
         const data: LoginResponse = await response.json();
-        if (data.churches && data.churches.length > 0) {
-          setChurches(data.churches);
-          if (data.churches.length === 1) {
-            handleChurchSelection(data.churches[0]);
+        if (data.userChurches && data.userChurches.length > 0) {
+          setChurches(data.userChurches);
+          if (data.userChurches.length === 1) {
+            handleChurchSelection(data.userChurches[0]);
           } else {
             setShowChurchModal(true);
           }
@@ -114,6 +121,118 @@ const Login: React.FC = () => {
     } finally {
       setIsLoading(false);
     }
+  };
+
+  const handleRegister = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!email || !password || !firstName || !lastName) {
+      setError("Please fill in all fields.");
+      return;
+    }
+
+    if (password !== confirmPassword) {
+      setError("Passwords do not match.");
+      return;
+    }
+
+    if (password.length < 6) {
+      setError("Password must be at least 6 characters long.");
+      return;
+    }
+
+    setIsLoading(true);
+    setError("");
+
+    try {
+      const response = await fetch("https://membershipapi.churchapps.org/users/register", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          email,
+          password,
+          firstName,
+          lastName,
+          appName: "B1"
+        }),
+      });
+
+      if (response.ok) {
+        const data: LoginResponse = await response.json();
+        if (data.userChurches && data.userChurches.length > 0) {
+          setChurches(data.userChurches);
+          if (data.userChurches.length === 1) {
+            handleChurchSelection(data.userChurches[0]);
+          } else {
+            setShowChurchModal(true);
+          }
+        } else {
+          setSuccess("Account created successfully! Please log in.");
+          setFormMode('login');
+          resetForm();
+        }
+      } else {
+        const errorData = await response.json();
+        setError(errorData.message || "Registration failed. Please try again.");
+      }
+    } catch (err) {
+      setError("Network error. Please try again.");
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  const handleForgotPassword = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!email) {
+      setError("Please enter your email address.");
+      return;
+    }
+
+    setIsLoading(true);
+    setError("");
+
+    try {
+      const response = await fetch("https://membershipapi.churchapps.org/users/requestPassword", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          email,
+          appName: "B1"
+        }),
+      });
+
+      if (response.ok) {
+        setSuccess("Password reset instructions have been sent to your email.");
+        setFormMode('login');
+        resetForm();
+      } else {
+        const errorData = await response.json();
+        setError(errorData.message || "Failed to send reset email. Please try again.");
+      }
+    } catch (err) {
+      setError("Network error. Please try again.");
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  const resetForm = () => {
+    setEmail("");
+    setPassword("");
+    setConfirmPassword("");
+    setFirstName("");
+    setLastName("");
+    setError("");
+    setSuccess("");
+  };
+
+  const switchMode = (mode: FormMode) => {
+    setFormMode(mode);
+    resetForm();
   };
 
   const handleChurchSelection = (userChurch: UserChurch) => {
@@ -150,6 +269,169 @@ const Login: React.FC = () => {
     );
   }
 
+  const getFormTitle = () => {
+    switch (formMode) {
+      case 'register': return 'Create Account';
+      case 'forgot': return 'Reset Password';
+      default: return 'Sign In';
+    }
+  };
+
+  const getFormDescription = () => {
+    switch (formMode) {
+      case 'register': return 'Create a new account to access your church';
+      case 'forgot': return 'Enter your email to receive password reset instructions';
+      default: return 'Enter your email and password to access your church';
+    }
+  };
+
+  const renderForm = () => {
+    if (formMode === 'login') {
+      return (
+        <form onSubmit={handleLogin} className="space-y-4">
+          <div className="space-y-2">
+            <Input
+              type="email"
+              placeholder="Email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              disabled={isLoading}
+              required
+            />
+          </div>
+          <div className="space-y-2">
+            <Input
+              type="password"
+              placeholder="Password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              disabled={isLoading}
+              required
+            />
+          </div>
+          <Button type="submit" className="w-full" disabled={isLoading}>
+            {isLoading ? "Signing in..." : "Sign In"}
+          </Button>
+          <div className="text-center space-y-2">
+            <button
+              type="button"
+              className="text-sm text-blue-600 hover:underline"
+              onClick={() => switchMode('forgot')}
+            >
+              Forgot your password?
+            </button>
+            <div className="text-sm text-gray-600">
+              Don't have an account?{" "}
+              <button
+                type="button"
+                className="text-blue-600 hover:underline"
+                onClick={() => switchMode('register')}
+              >
+                Sign up
+              </button>
+            </div>
+          </div>
+        </form>
+      );
+    }
+
+    if (formMode === 'register') {
+      return (
+        <form onSubmit={handleRegister} className="space-y-4">
+          <div className="grid grid-cols-2 gap-2">
+            <Input
+              type="text"
+              placeholder="First Name"
+              value={firstName}
+              onChange={(e) => setFirstName(e.target.value)}
+              disabled={isLoading}
+              required
+            />
+            <Input
+              type="text"
+              placeholder="Last Name"
+              value={lastName}
+              onChange={(e) => setLastName(e.target.value)}
+              disabled={isLoading}
+              required
+            />
+          </div>
+          <div className="space-y-2">
+            <Input
+              type="email"
+              placeholder="Email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              disabled={isLoading}
+              required
+            />
+          </div>
+          <div className="space-y-2">
+            <Input
+              type="password"
+              placeholder="Password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              disabled={isLoading}
+              required
+            />
+          </div>
+          <div className="space-y-2">
+            <Input
+              type="password"
+              placeholder="Confirm Password"
+              value={confirmPassword}
+              onChange={(e) => setConfirmPassword(e.target.value)}
+              disabled={isLoading}
+              required
+            />
+          </div>
+          <Button type="submit" className="w-full" disabled={isLoading}>
+            {isLoading ? "Creating account..." : "Create Account"}
+          </Button>
+          <div className="text-center">
+            <button
+              type="button"
+              className="text-sm text-blue-600 hover:underline"
+              onClick={() => switchMode('login')}
+            >
+              Already have an account? Sign in
+            </button>
+          </div>
+        </form>
+      );
+    }
+
+    if (formMode === 'forgot') {
+      return (
+        <form onSubmit={handleForgotPassword} className="space-y-4">
+          <div className="space-y-2">
+            <Input
+              type="email"
+              placeholder="Email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              disabled={isLoading}
+              required
+            />
+          </div>
+          <Button type="submit" className="w-full" disabled={isLoading}>
+            {isLoading ? "Sending..." : "Send Reset Email"}
+          </Button>
+          <div className="text-center">
+            <button
+              type="button"
+              className="text-sm text-blue-600 hover:underline"
+              onClick={() => switchMode('login')}
+            >
+              Back to sign in
+            </button>
+          </div>
+        </form>
+      );
+    }
+  };
+
   return (
     <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
       <Card className="w-full max-w-md">
@@ -161,42 +443,23 @@ const Login: React.FC = () => {
               className="h-16 mx-auto"
             />
           </div>
-          <CardTitle className="text-2xl font-bold">Sign In</CardTitle>
+          <CardTitle className="text-2xl font-bold">{getFormTitle()}</CardTitle>
           <CardDescription>
-            Enter your email and password to access your church
+            {getFormDescription()}
           </CardDescription>
         </CardHeader>
         <CardContent>
-          <form onSubmit={handleLogin} className="space-y-4">
-            {error && (
-              <Alert variant="destructive">
-                <AlertDescription>{error}</AlertDescription>
-              </Alert>
-            )}
-            <div className="space-y-2">
-              <Input
-                type="email"
-                placeholder="Email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                disabled={isLoading}
-                required
-              />
-            </div>
-            <div className="space-y-2">
-              <Input
-                type="password"
-                placeholder="Password"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                disabled={isLoading}
-                required
-              />
-            </div>
-            <Button type="submit" className="w-full" disabled={isLoading}>
-              {isLoading ? "Signing in..." : "Sign In"}
-            </Button>
-          </form>
+          {error && (
+            <Alert variant="destructive" className="mb-4">
+              <AlertDescription>{error}</AlertDescription>
+            </Alert>
+          )}
+          {success && (
+            <Alert className="mb-4">
+              <AlertDescription>{success}</AlertDescription>
+            </Alert>
+          )}
+          {renderForm()}
         </CardContent>
       </Card>
     </div>
