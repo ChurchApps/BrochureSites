@@ -128,7 +128,7 @@ export const Pricing = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="hero" size="xl" asChild>
-                <a href="https://app.chums.org/login#register">
+                <a href="https://app.chums.org/login?action=register">
                   Get Started for Free
                 </a>
               </Button>

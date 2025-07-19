@@ -103,14 +103,14 @@ const WebsiteBuilder = () => {
 
         {/* CTA */}
         <div className="text-center mt-16">
-          <Button 
-            variant="gradient" 
-            size="xl" 
-            className="shadow-glow" 
+          <Button
+            variant="gradient"
+            size="xl"
+            className="shadow-glow"
             asChild
             onClick={() => trackWebsiteBuilderClick()}
           >
-            <Link to="/login#register">
+            <Link to="/login?action=register">
               Start Building Your Church Website
               <Monitor className="w-6 h-6" />
             </Link>

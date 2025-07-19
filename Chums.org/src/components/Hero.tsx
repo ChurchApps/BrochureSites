@@ -27,14 +27,14 @@ export const Hero = () => {
           </h1>
 
           <p className="text-xl md:text-2xl text-foreground/80 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Professional <strong>church management software</strong> with attendance tracking, member database, giving management, and communication tools. 
-            Completely <strong>free church software</strong> provided by Live Church Solutions, a 501(c)(3) non-profit ministry. 
+            Professional <strong>church management software</strong> with attendance tracking, member database, giving management, and communication tools.
+            Completely <strong>free church software</strong> provided by Live Church Solutions, a 501(c)(3) non-profit ministry.
             Join 100+ churches saving thousands on ministry software costs.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Button variant="hero" size="xl" className="group" asChild>
-              <a href="https://app.chums.org/login#register" onClick={() => trackButtonClick('Get Started for Free', 'Hero')}>
+              <a href="https://app.chums.org/login?action=register" onClick={() => trackButtonClick('Get Started for Free', 'Hero')}>
                 Get Started for Free
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </a>

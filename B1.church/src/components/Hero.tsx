@@ -39,14 +39,14 @@ const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-6 justify-center pt-8">
-            <Button 
-              variant="gradient" 
-              size="xl" 
-              className="group shadow-glow" 
+            <Button
+              variant="gradient"
+              size="xl"
+              className="group shadow-glow"
               asChild
               onClick={() => trackChurchSignup('hero_primary_cta')}
             >
-              <Link to="/login#register">
+              <Link to="/login?action=register">
                 Get Started Free
                 <Play className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
               </Link>
