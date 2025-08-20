@@ -23,12 +23,12 @@ const Hero = () => {
           {/* Badge */}
           <div className="inline-flex items-center space-x-2 gradient-glass px-6 py-3 rounded-full text-sm font-medium">
             <div className="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
-            <span>100% Free • Ministry-Driven Platform</span>
+            <span className="text-foreground">100% Free • Ministry-Driven Platform</span>
           </div>
 
           {/* Main Headline */}
           <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold leading-tight">
-            <span className="block">Church Community</span>
+            <span className="block text-foreground">Church Community</span>
             <span className="text-[hsl(var(--primary-vibrant))] block">Without Barriers</span>
           </h1>
 
@@ -54,7 +54,7 @@ const Hero = () => {
             <Button
               variant="outline"
               size="xl"
-              className="gradient-glass border-primary/30 hover:border-primary"
+              className="gradient-glass border-primary/30 hover:border-primary text-foreground"
               onClick={() => {
                 trackFeatureClick('see_how_it_works');
                 document.getElementById('features')?.scrollIntoView({ behavior: 'smooth' });

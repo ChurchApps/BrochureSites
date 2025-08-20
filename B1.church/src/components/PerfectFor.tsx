@@ -54,7 +54,7 @@ const PerfectFor = () => {
         <div className="text-center mb-16">
           <div className="gradient-glass rounded-3xl p-8 md:p-12 max-w-4xl mx-auto">
             <h2 className="text-5xl md:text-6xl font-bold mb-6">
-              Free For Every
+              <span className="text-foreground">Free For Every</span>
               <span className="text-gradient block">Church Community</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
@@ -70,7 +70,7 @@ const PerfectFor = () => {
               <div className="w-16 h-16 bg-primary rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-glow">
                 <audience.icon className="w-8 h-8 text-primary-foreground" />
               </div>
-              <h3 className="text-lg font-semibold mb-2">{audience.title}</h3>
+              <h3 className="text-lg font-semibold mb-2 text-foreground">{audience.title}</h3>
               <p className="text-muted-foreground text-sm mb-4">{audience.description}</p>
               <div className="text-xs font-medium text-primary bg-primary/10 px-3 py-1 rounded-full">
                 {audience.stats}
@@ -83,7 +83,7 @@ const PerfectFor = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-16">
           <div className="gradient-glass rounded-2xl p-8 card-hover text-center">
             <Users className="w-12 h-12 text-primary mx-auto mb-4" />
-            <h3 className="text-xl font-semibold mb-4">ChuMS Integration</h3>
+            <h3 className="text-xl font-semibold mb-4 text-foreground">ChuMS Integration</h3>
             <p className="text-muted-foreground">
               Seamlessly integrated with ChuMS church management software for complete workflow automation.
             </p>
@@ -91,7 +91,7 @@ const PerfectFor = () => {
 
           <div className="gradient-glass rounded-2xl p-8 card-hover text-center">
             <Globe className="w-12 h-12 text-accent mx-auto mb-4" />
-            <h3 className="text-xl font-semibold mb-4">Web Portal Included</h3>
+            <h3 className="text-xl font-semibold mb-4 text-foreground">Web Portal Included</h3>
             <p className="text-muted-foreground">
               Comprehensive web portal with website builder alongside the powerful mobile app experience.
             </p>
@@ -99,7 +99,7 @@ const PerfectFor = () => {
 
           <div className="gradient-glass rounded-2xl p-8 card-hover text-center">
             <Zap className="w-12 h-12 text-primary mx-auto mb-4" />
-            <h3 className="text-xl font-semibold mb-4">Instant Setup</h3>
+            <h3 className="text-xl font-semibold mb-4 text-foreground">Instant Setup</h3>
             <p className="text-muted-foreground">
               Get started in minutes with our streamlined onboarding process and dedicated support team.
             </p>
@@ -109,7 +109,7 @@ const PerfectFor = () => {
         {/* Final CTA */}
         <div className="text-center">
           <div className="gradient-glass rounded-3xl p-8 md:p-12 max-w-3xl mx-auto">
-            <h3 className="text-3xl font-bold mb-6">
+            <h3 className="text-3xl font-bold mb-6 text-foreground">
               Ready to Strengthen Your Community?
             </h3>
             <p className="text-lg text-muted-foreground mb-8">

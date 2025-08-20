@@ -94,7 +94,7 @@ const Features = () => {
                       <feature.icon className="w-8 h-8 text-primary-foreground" />
                     </div>
                     <div>
-                      <h2 className="text-4xl md:text-5xl font-bold">{feature.title}</h2>
+                      <h2 className="text-4xl md:text-5xl font-bold text-foreground">{feature.title}</h2>
                     </div>
                   </div>
 
@@ -106,7 +106,7 @@ const Features = () => {
                     {feature.features.map((item, idx) => (
                       <div key={idx} className="flex items-center space-x-3">
                         <CheckCircle className="w-5 h-5 text-accent" />
-                        <span className="text-sm">{item}</span>
+                        <span className="text-sm text-foreground">{item}</span>
                       </div>
                     ))}
                   </div>
@@ -161,7 +161,7 @@ const Features = () => {
 
         <div className="relative z-10 container mx-auto px-4 text-center">
           <div className="gradient-glass rounded-3xl p-12 md:p-16 max-w-4xl mx-auto">
-            <h2 className="text-5xl md:text-6xl font-bold mb-6">
+            <h2 className="text-5xl md:text-6xl font-bold text-foreground mb-6">
               Ready to Build Stronger
               <span className="text-gradient block">Church Community?</span>
             </h2>

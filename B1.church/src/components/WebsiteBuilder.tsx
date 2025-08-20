@@ -15,11 +15,11 @@ const WebsiteBuilder = () => {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center space-x-2 gradient-glass px-6 py-3 rounded-full text-sm font-medium mb-8">
             <Monitor className="w-4 h-4 text-primary" />
-            <span>Web Portal Feature</span>
+            <span className="text-foreground">Web Portal Feature</span>
           </div>
 
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Free Church Website Builder
+            <span className="text-foreground">Free Church Website Builder</span>
             <span className="text-gradient block">In Minutes, Not Months</span>
           </h2>
 
@@ -38,7 +38,7 @@ const WebsiteBuilder = () => {
                   <Palette className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold mb-2">Drag & Drop Builder</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-foreground">Drag & Drop Builder</h3>
                   <p className="text-muted-foreground">
                     Intuitive visual editor with pre-designed components. Create stunning pages
                     without any technical knowledge.
@@ -53,7 +53,7 @@ const WebsiteBuilder = () => {
                   <Globe className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold mb-2">Church-Focused Templates</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-foreground">Church-Focused Templates</h3>
                   <p className="text-muted-foreground">
                     Beautiful templates designed specifically for churches. Include sermon pages,
                     event calendars, and ministry showcases.
@@ -68,7 +68,7 @@ const WebsiteBuilder = () => {
                   <Zap className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold mb-2">App Integration</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-foreground">App Integration</h3>
                   <p className="text-muted-foreground">
                     Seamlessly connect your website with the mobile app. Events, sermons,
                     and community updates sync automatically.
