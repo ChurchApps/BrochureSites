@@ -7,8 +7,10 @@ import {
   ArrowRight,
   Users,
   Globe,
-  Zap
+  Zap,
+  Check
 } from "lucide-react";
+import { Link } from "react-router-dom";
 import campusWide from "@/assets/campus-wide.jpg";
 
 const PerfectFor = () => {
@@ -106,6 +108,93 @@ const PerfectFor = () => {
           </div>
         </div>
 
+        {/* About Our Mission */}
+        <div className="mb-16">
+          <div className="gradient-glass rounded-2xl p-8 md:p-12 max-w-5xl mx-auto">
+            <div className="text-center mb-12">
+              <Heart className="h-12 w-12 text-primary mx-auto mb-4" />
+              <h3 className="text-3xl font-bold mb-4 text-foreground">About Our Free Software</h3>
+              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+                We're a 501(c)(3) non-profit ministry dedicated to providing completely free church management software.
+                Our mission is to empower churches to focus on ministry, not software costs.
+              </p>
+            </div>
+
+            {/* Stats Cards */}
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+              <div className="text-center p-4 rounded-xl border border-border/30">
+                <div className="text-2xl font-bold text-gradient mb-1">100%</div>
+                <div className="text-sm text-muted-foreground">Free Forever</div>
+              </div>
+              <div className="text-center p-4 rounded-xl border border-border/30">
+                <div className="text-2xl font-bold text-gradient mb-1">$0</div>
+                <div className="text-sm text-muted-foreground">Setup Costs</div>
+              </div>
+              <div className="text-center p-4 rounded-xl border border-border/30">
+                <div className="text-2xl font-bold text-gradient mb-1">100+</div>
+                <div className="text-sm text-muted-foreground">Churches Served</div>
+              </div>
+              <div className="text-center p-4 rounded-xl border border-border/30">
+                <div className="text-2xl font-bold text-gradient mb-1">Open</div>
+                <div className="text-sm text-muted-foreground">Source Code</div>
+              </div>
+            </div>
+
+            {/* Features List */}
+            <div className="grid md:grid-cols-2 gap-x-8 gap-y-3 mb-8 text-left max-w-3xl mx-auto">
+              <div className="flex items-start space-x-3">
+                <Check className="h-5 w-5 text-accent mt-0.5 flex-shrink-0" />
+                <span className="text-foreground/80">No credit card required</span>
+              </div>
+              <div className="flex items-start space-x-3">
+                <Check className="h-5 w-5 text-accent mt-0.5 flex-shrink-0" />
+                <span className="text-foreground/80">Unlimited users & members</span>
+              </div>
+              <div className="flex items-start space-x-3">
+                <Check className="h-5 w-5 text-accent mt-0.5 flex-shrink-0" />
+                <span className="text-foreground/80">All features included</span>
+              </div>
+              <div className="flex items-start space-x-3">
+                <Check className="h-5 w-5 text-accent mt-0.5 flex-shrink-0" />
+                <span className="text-foreground/80">Regular updates & improvements</span>
+              </div>
+              <div className="flex items-start space-x-3">
+                <Check className="h-5 w-5 text-accent mt-0.5 flex-shrink-0" />
+                <span className="text-foreground/80">24/7 community support</span>
+              </div>
+              <div className="flex items-start space-x-3">
+                <Check className="h-5 w-5 text-accent mt-0.5 flex-shrink-0" />
+                <span className="text-foreground/80">Mobile & web access</span>
+              </div>
+              <div className="flex items-start space-x-3">
+                <Check className="h-5 w-5 text-accent mt-0.5 flex-shrink-0" />
+                <span className="text-foreground/80">Data import assistance</span>
+              </div>
+              <div className="flex items-start space-x-3">
+                <Check className="h-5 w-5 text-accent mt-0.5 flex-shrink-0" />
+                <span className="text-foreground/80">Open source transparency</span>
+              </div>
+            </div>
+
+            {/* Learn More Links */}
+            <div className="text-center pt-6 border-t border-border/30">
+              <p className="text-muted-foreground mb-4">Learn more about our ministry and mission</p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <Button variant="outline" size="sm" asChild>
+                  <a href="https://churchapps.org/" target="_blank" rel="noopener noreferrer">
+                    About ChurchApps
+                  </a>
+                </Button>
+                <Button variant="outline" size="sm" asChild>
+                  <a href="https://github.com/ChurchApps" target="_blank" rel="noopener noreferrer">
+                    View on GitHub
+                  </a>
+                </Button>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* Final CTA */}
         <div className="text-center">
           <div className="gradient-glass rounded-3xl p-8 md:p-12 max-w-3xl mx-auto">
@@ -117,9 +206,11 @@ const PerfectFor = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
-              <Button variant="gradient" size="xl" className="group shadow-glow">
-                Start Free Today
-                <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
+              <Button variant="gradient" size="xl" className="group shadow-glow" asChild>
+                <Link to="/login">
+                  Start Free Today
+                  <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
+                </Link>
               </Button>
             </div>
 

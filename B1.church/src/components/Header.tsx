@@ -27,6 +27,9 @@ const Header = () => {
             <a href="#features" className="text-white hover:text-white/80 transition-colors">
               Features
             </a>
+            <Link to="/church-management" className="text-white hover:text-white/80 transition-colors">
+              Church Management
+            </Link>
             <a href="#about" className="text-white hover:text-white/80 transition-colors">
               About
             </a>
@@ -66,6 +69,9 @@ const Header = () => {
               <a href="#features" className="text-white hover:text-white/80 transition-colors">
                 Features
               </a>
+              <Link to="/church-management" className="text-white hover:text-white/80 transition-colors">
+                Church Management
+              </Link>
               <a href="#about" className="text-white hover:text-white/80 transition-colors">
                 About
               </a>
