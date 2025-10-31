@@ -27,7 +27,7 @@ const Hero = () => {
           </div>
 
           {/* Main Headline */}
-          <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold leading-tight">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold leading-tight">
             <span className="block text-foreground">Church Community</span>
             <span className="text-[hsl(var(--primary-vibrant))] block">Without Barriers</span>
           </h1>
@@ -66,7 +66,7 @@ const Hero = () => {
           </div>
 
           {/* Stats */}
-          <div className="grid grid-cols-3 gap-8 pt-16 max-w-2xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-8 pt-16 max-w-2xl mx-auto">
             <div className="gradient-glass rounded-2xl p-6 card-hover">
               <div className="text-3xl font-bold text-primary">100%</div>
               <div className="text-sm text-muted-foreground">Free Forever</div>

@@ -30,7 +30,7 @@ const Footer = () => {
     <footer id="contact" className="bg-gray-900/95 text-white backdrop-blur-md">
       {/* Main Footer */}
       <div className="container mx-auto px-4 py-16">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="space-y-6">
             <div className="flex items-center">

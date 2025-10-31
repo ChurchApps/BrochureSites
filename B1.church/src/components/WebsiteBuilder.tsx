@@ -18,12 +18,12 @@ const WebsiteBuilder = () => {
             <span className="text-foreground">Web Portal Feature</span>
           </div>
 
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
             <span className="text-foreground">Free Church Website Builder</span>
             <span className="text-gradient block">In Minutes, Not Months</span>
           </h2>
 
-          <p className="text-xl text-muted-foreground leading-relaxed">
+          <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed">
             Create a beautiful, professional church website with our free built-in website builder.
             No coding required - just drag, drop, and publish your church website.
           </p>

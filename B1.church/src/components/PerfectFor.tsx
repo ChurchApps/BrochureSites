@@ -54,19 +54,19 @@ const PerfectFor = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4" style={{ marginTop: 30, marginBottom: 30 }}>
         <div className="text-center mb-16">
-          <div className="gradient-glass rounded-3xl p-8 md:p-12 max-w-4xl mx-auto">
-            <h2 className="text-5xl md:text-6xl font-bold mb-6">
+          <div className="gradient-glass rounded-3xl p-6 sm:p-8 md:p-12 max-w-4xl mx-auto">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
               <span className="text-foreground">Free For Every</span>
               <span className="text-gradient block">Church Community</span>
             </h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto">
               Completely free platform for all church sizes. Our ministry mission means no hidden costs, no feature limits, no surprises.
             </p>
           </div>
         </div>
 
         {/* Audience Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
           {audiences.map((audience, index) => (
             <div key={index} className="gradient-glass rounded-2xl p-6 card-hover text-center">
               <div className="w-16 h-16 bg-primary rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-glow">
@@ -82,7 +82,7 @@ const PerfectFor = () => {
         </div>
 
         {/* Integration Benefits */}
-        <div className="grid md:grid-cols-3 gap-8 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
           <div className="gradient-glass rounded-2xl p-8 card-hover text-center">
             <Users className="w-12 h-12 text-primary mx-auto mb-4" />
             <h3 className="text-xl font-semibold mb-4 text-foreground">ChuMS Integration</h3>
@@ -110,11 +110,11 @@ const PerfectFor = () => {
 
         {/* About Our Mission */}
         <div className="mb-16">
-          <div className="gradient-glass rounded-2xl p-8 md:p-12 max-w-5xl mx-auto">
+          <div className="gradient-glass rounded-2xl p-6 sm:p-8 md:p-12 max-w-5xl mx-auto">
             <div className="text-center mb-12">
               <Heart className="h-12 w-12 text-primary mx-auto mb-4" />
-              <h3 className="text-3xl font-bold mb-4 text-foreground">About Our Free Software</h3>
-              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              <h3 className="text-2xl sm:text-3xl font-bold mb-4 text-foreground">About Our Free Software</h3>
+              <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto">
                 We're a 501(c)(3) non-profit ministry dedicated to providing completely free church management software.
                 Our mission is to empower churches to focus on ministry, not software costs.
               </p>
@@ -197,11 +197,11 @@ const PerfectFor = () => {
 
         {/* Final CTA */}
         <div className="text-center">
-          <div className="gradient-glass rounded-3xl p-8 md:p-12 max-w-3xl mx-auto">
-            <h3 className="text-3xl font-bold mb-6 text-foreground">
+          <div className="gradient-glass rounded-3xl p-6 sm:p-8 md:p-12 max-w-3xl mx-auto">
+            <h3 className="text-2xl sm:text-3xl font-bold mb-6 text-foreground">
               Ready to Strengthen Your Community?
             </h3>
-            <p className="text-lg text-muted-foreground mb-8">
+            <p className="text-base sm:text-lg text-muted-foreground mb-8">
               Discover how our comprehensive ministry platform can help you build deeper relationships and stronger communities.
             </p>
 

@@ -32,11 +32,11 @@ export const Testimonials = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-3xl md:text-5xl font-bold mb-6">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
             Loved by Churches{" "}
             <span className="text-gradient">Everywhere</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto">
             Join growing churches that have transformed their ministry with our completely free platform.
             Here's what pastors and church administrators have to say about B1.
           </p>
@@ -97,11 +97,11 @@ export const Testimonials = () => {
 
         {/* Bottom CTA */}
         <div className="text-center mt-16">
-          <div className="gradient-glass rounded-2xl p-8 border border-border/50 max-w-3xl mx-auto">
-            <h3 className="text-2xl font-bold mb-4">
+          <div className="gradient-glass rounded-2xl p-6 sm:p-8 border border-border/50 max-w-3xl mx-auto">
+            <h3 className="text-xl sm:text-2xl font-bold mb-4">
               Ready to Transform Your Church Management?
             </h3>
-            <p className="text-muted-foreground mb-6">
+            <p className="text-sm sm:text-base text-muted-foreground mb-6">
               Join the growing community of churches already using B1 - completely free forever.
               No credit card required, no trials, no hidden fees.
             </p>

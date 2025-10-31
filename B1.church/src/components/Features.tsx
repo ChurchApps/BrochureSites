@@ -101,12 +101,12 @@ const Features = () => {
               {/* Text Content */}
               <div className={`space-y-8 ${feature.reverse ? 'lg:order-2' : ''}`}>
                 <div className="gradient-glass rounded-3xl p-8 md:p-12">
-                  <div className="flex items-center space-x-4 mb-6">
-                    <div className="w-16 h-16 bg-primary rounded-2xl flex items-center justify-center shadow-glow">
-                      <feature.icon className="w-8 h-8 text-primary-foreground" />
+                  <div className="flex items-start sm:items-center space-x-4 mb-6">
+                    <div className="w-12 h-12 sm:w-16 sm:h-16 bg-primary rounded-2xl flex items-center justify-center shadow-glow flex-shrink-0">
+                      <feature.icon className="w-6 h-6 sm:w-8 sm:h-8 text-primary-foreground" />
                     </div>
                     <div>
-                      <h2 className="text-4xl md:text-5xl font-bold text-foreground">{feature.title}</h2>
+                      <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-foreground">{feature.title}</h2>
                     </div>
                   </div>
 
@@ -114,10 +114,10 @@ const Features = () => {
                     {feature.description}
                   </p>
 
-                  <div className="grid grid-cols-2 gap-4 mb-8">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
                     {feature.features.map((item, idx) => (
                       <div key={idx} className="flex items-center space-x-3">
-                        <CheckCircle className="w-5 h-5 text-accent" />
+                        <CheckCircle className="w-5 h-5 text-accent flex-shrink-0" />
                         <span className="text-sm text-foreground">{item}</span>
                       </div>
                     ))}
@@ -165,11 +165,11 @@ const Features = () => {
         <div className="relative z-10 container mx-auto px-4">
           {/* Header */}
           <div className="text-center mb-16 animate-fade-in">
-            <h2 className="text-3xl md:text-5xl font-bold mb-6">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
               Complete{" "}
               <span className="text-gradient">Church Management System</span>
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto">
               Professional church database software with member management, attendance tracking,
               giving administration, and ministry communication tools. Free church management system
               designed specifically for growing congregations and multi-campus churches.
@@ -395,12 +395,12 @@ const Features = () => {
         />
 
         <div className="relative z-10 container mx-auto px-4 text-center">
-          <div className="gradient-glass rounded-3xl p-12 md:p-16 max-w-4xl mx-auto">
-            <h2 className="text-5xl md:text-6xl font-bold text-foreground mb-6">
+          <div className="gradient-glass rounded-3xl p-8 md:p-12 lg:p-16 max-w-4xl mx-auto">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6">
               Ready to Build Stronger
               <span className="text-gradient block">Church Community?</span>
             </h2>
-            <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
+            <p className="text-lg sm:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
               Transform your church with our comprehensive free platform designed to deepen relationships and strengthen church communities through modern technology.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
