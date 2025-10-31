@@ -15,8 +15,8 @@
     "deploy-prod": "npm run predeploy-prod && npm run exec-deploy-prod && npm run invalidate-prod"
   },
   "dependencies": {
-    "@churchapps/apphelper": "^0.4.35",
-    "@churchapps/apphelper-login": "^0.4.35",
+    "@churchapps/apphelper": "^0.5.4",
+    "@churchapps/apphelper-login": "^0.5.1",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
     "@hookform/resolvers": "^3.9.0",
