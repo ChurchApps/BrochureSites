@@ -16,13 +16,16 @@ const Login: React.FC = () => {
     userChurch?: LoginUserChurchInterface,
     userChurches?: LoginUserChurchInterface[]
   ) => {
-    // If user is logged in and has churches, redirect to their church subdomain login page
-    // with JWT and returnUrl to ultimately land on /my page
+    // If user is logged in and has churches
     if (userChurch?.church?.subDomain && userChurch?.jwt) {
-      window.location.href = `https://${userChurch.church.subDomain}.b1.church/login?jwt=${userChurch.jwt}&returnUrl=/my`;
-    } else if (url) {
-      window.location.href = url;
-    }
+      // Check if user has "View People" permission
+      const membershipApi = userChurch.apis?.find(api => api.keyName === "MembershipApi");
+      const hasViewPeoplePermission = membershipApi?.permissions?.some(p => p.contentType === "People" && p.action === "View");
+
+      if (hasViewPeoplePermission) window.location.href = `https://admin.b1.church/login?jwt=${userChurch.jwt}&returnUrl=/`;
+      else window.location.href = `https://${userChurch.church.subDomain}.b1.church/login?jwt=${userChurch.jwt}&returnUrl=/my`;
+    } else if (url) window.location.href = url;
+    
   };
 
   return (
