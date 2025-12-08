@@ -1,11 +1,34 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate, useLocation } from "react-router-dom";
 import { trackChurchSignup } from "@/utils/analytics";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const scrollToSection = (sectionId: string) => {
+    setIsMenuOpen(false);
+
+    if (location.pathname !== "/") {
+      // Navigate to home page first, then scroll after a brief delay
+      navigate("/");
+      setTimeout(() => {
+        const element = document.getElementById(sectionId);
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth" });
+        }
+      }, 100);
+    } else {
+      // Already on home page, just scroll
+      const element = document.getElementById(sectionId);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  };
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-blue-900 to-blue-700 border-b border-border/30">
@@ -24,18 +47,27 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#features" className="text-white hover:text-white/80 transition-colors">
+            <button
+              onClick={() => scrollToSection("features")}
+              className="text-white hover:text-white/80 transition-colors"
+            >
               Features
-            </a>
+            </button>
             <Link to="/church-management" className="text-white hover:text-white/80 transition-colors">
               Church Management
             </Link>
-            <a href="#about" className="text-white hover:text-white/80 transition-colors">
+            <button
+              onClick={() => scrollToSection("about")}
+              className="text-white hover:text-white/80 transition-colors"
+            >
               About
-            </a>
-            <a href="#contact" className="text-white hover:text-white/80 transition-colors">
+            </button>
+            <button
+              onClick={() => scrollToSection("contact")}
+              className="text-white hover:text-white/80 transition-colors"
+            >
               Contact
-            </a>
+            </button>
           </nav>
 
           {/* Desktop CTA */}
@@ -66,18 +98,31 @@ const Header = () => {
         {isMenuOpen && (
           <div className="md:hidden py-4 border-t border-border">
             <nav className="flex flex-col space-y-4">
-              <a href="#features" className="text-white hover:text-white/80 transition-colors">
+              <button
+                onClick={() => scrollToSection("features")}
+                className="text-white hover:text-white/80 transition-colors text-left"
+              >
                 Features
-              </a>
-              <Link to="/church-management" className="text-white hover:text-white/80 transition-colors">
+              </button>
+              <Link
+                to="/church-management"
+                onClick={() => setIsMenuOpen(false)}
+                className="text-white hover:text-white/80 transition-colors"
+              >
                 Church Management
               </Link>
-              <a href="#about" className="text-white hover:text-white/80 transition-colors">
+              <button
+                onClick={() => scrollToSection("about")}
+                className="text-white hover:text-white/80 transition-colors text-left"
+              >
                 About
-              </a>
-              <a href="#contact" className="text-white hover:text-white/80 transition-colors">
+              </button>
+              <button
+                onClick={() => scrollToSection("contact")}
+                className="text-white hover:text-white/80 transition-colors text-left"
+              >
                 Contact
-              </a>
+              </button>
               <div className="flex flex-col space-y-2 pt-4 border-t border-white/20">
                 <Button variant="ghost" className="justify-start text-white hover:text-white hover:bg-white/10" asChild>
                   <Link to="/login">Sign In</Link>
