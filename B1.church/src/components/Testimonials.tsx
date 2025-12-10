@@ -1,6 +1,16 @@
 import { Star, Quote } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+  type CarouselApi,
+} from "@/components/ui/carousel";
+import Autoplay from "embla-carousel-autoplay";
+import { useState, useEffect, useRef } from "react";
 
 const testimonials = [
   {
@@ -23,10 +33,43 @@ const testimonials = [
     location: "Monmouth County, NJ",
     content: "ChurchApps is more than software—it's a practical tool that supports the mission, vision, and daily work of ministry. I am grateful for the opportunity to learn it, teach it, and witness how it empowers churches to operate with greater clarity, efficiency, and purpose.",
     rating: 5
+  },
+  {
+    name: "Krista Thomason",
+    church: "A New Name in Indonesia",
+    location: "",
+    content: "Having the donation page has increased giving to our organization. Not only do people appreciate the ease of scanning a code to take them directly to the donation page, monthly giving can be set up for those who want online giving to be easy.",
+    rating: 5
+  },
+  {
+    name: "Daniel Webster",
+    church: "Believers Bible Assembly",
+    location: "Kumasi, Ghana",
+    content: "I like to keep attendance records, and we use B1 Admin every Sunday for that purpose. We really appreciate the service of B1 Admin, which has proven an effective way for our church to keep records of people and attendance.",
+    rating: 5
   }
 ];
 
 export const Testimonials = () => {
+  const [api, setApi] = useState<CarouselApi>();
+  const [current, setCurrent] = useState(0);
+  const [count, setCount] = useState(0);
+
+  const plugin = useRef(
+    Autoplay({ delay: 4000, stopOnInteraction: false })
+  );
+
+  useEffect(() => {
+    if (!api) return;
+
+    setCount(api.scrollSnapList().length);
+    setCurrent(api.selectedScrollSnap());
+
+    api.on("select", () => {
+      setCurrent(api.selectedScrollSnap());
+    });
+  }, [api]);
+
   return (
     <section id="testimonials" className="py-24 pattern-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -62,37 +105,67 @@ export const Testimonials = () => {
           </div>
         </div>
 
-        {/* Testimonials Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {testimonials.map((testimonial, index) => (
-            <div
-              key={index}
-              className="gradient-glass rounded-2xl p-6 border border-border/50 hover:border-primary/30 transition-all duration-300 hover:shadow-primary hover:-translate-y-1 group"
-              style={{ animationDelay: `${index * 100}ms` }}
-            >
-              {/* Quote Icon */}
-              <div className="flex items-center justify-between mb-4">
-                <Quote className="h-8 w-8 text-primary/50" />
-                <div className="flex items-center space-x-1">
-                  {Array.from({ length: testimonial.rating }).map((_, i) => (
-                    <Star key={i} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
-                  ))}
-                </div>
-              </div>
+        {/* Testimonials Carousel */}
+        <div className="px-12">
+          <Carousel
+            setApi={setApi}
+            opts={{
+              align: "start",
+              loop: true,
+            }}
+            plugins={[plugin.current]}
+            className="w-full"
+          >
+            <CarouselContent className="-ml-4">
+              {testimonials.map((testimonial, index) => (
+                <CarouselItem key={index} className="pl-4 basis-full md:basis-1/2 lg:basis-1/3">
+                  <div
+                    className="gradient-glass rounded-2xl p-6 border border-border/50 hover:border-primary/30 transition-all duration-300 hover:shadow-primary group h-full flex flex-col"
+                  >
+                    {/* Quote Icon */}
+                    <div className="flex items-center justify-between mb-4">
+                      <Quote className="h-8 w-8 text-primary/50" />
+                      <div className="flex items-center space-x-1">
+                        {Array.from({ length: testimonial.rating }).map((_, i) => (
+                          <Star key={i} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
+                        ))}
+                      </div>
+                    </div>
 
-              {/* Content */}
-              <p className="text-foreground/80 mb-6 leading-relaxed">
-                "{testimonial.content}"
-              </p>
+                    {/* Content */}
+                    <p className="text-foreground/80 mb-6 leading-relaxed flex-grow">
+                      "{testimonial.content}"
+                    </p>
 
-              {/* Author */}
-              <div className="border-t border-border/30 pt-4">
-                <div className="font-semibold text-foreground">{testimonial.name}</div>
-                {testimonial.church && <div className="text-sm text-muted-foreground">{testimonial.church}</div>}
-                {testimonial.location && <div className="text-sm text-muted-foreground">{testimonial.location}</div>}
-              </div>
-            </div>
-          ))}
+                    {/* Author */}
+                    <div className="border-t border-border/30 pt-4 mt-auto">
+                      <div className="font-semibold text-foreground">{testimonial.name}</div>
+                      {testimonial.church && <div className="text-sm text-muted-foreground">{testimonial.church}</div>}
+                      {testimonial.location && <div className="text-sm text-muted-foreground">{testimonial.location}</div>}
+                    </div>
+                  </div>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious />
+            <CarouselNext />
+          </Carousel>
+
+          {/* Dot indicators */}
+          <div className="flex justify-center gap-2 mt-6">
+            {Array.from({ length: count }).map((_, index) => (
+              <button
+                key={index}
+                className={`w-2 h-2 rounded-full transition-all duration-300 ${
+                  index === current
+                    ? "bg-primary w-6"
+                    : "bg-muted-foreground/30 hover:bg-muted-foreground/50"
+                }`}
+                onClick={() => api?.scrollTo(index)}
+                aria-label={`Go to slide ${index + 1}`}
+              />
+            ))}
+          </div>
         </div>
 
         {/* Bottom CTA */}
