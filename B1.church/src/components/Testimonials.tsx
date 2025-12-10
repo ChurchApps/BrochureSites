@@ -4,24 +4,24 @@ import { Link } from "react-router-dom";
 
 const testimonials = [
   {
-    name: "Pastor Daniel Webster",
-    church: "Believers Bible Assembly",
-    location: "Kumasi, Ghana",
-    content: "We use this platform every Sunday to track attendance and keep records of everyone who attends, including our Sunday school children. As missionaries with a limited budget, we appreciate that B1 is free and effective.",
+    name: "Ken Idleman, A.B. M.Div. D.D.",
+    church: "",
+    location: "",
+    content: "I heartily recommend ChurchApps. It is a ministry in the truest and best sense of the word. ChurchApps provides technical services to enhance and elevate the church's spiritual impact in their communities. They will help the infrastructure of the Church for years to come.",
     rating: 5
   },
   {
-    name: "Theresa Fraser",
-    church: "Mission of Hope Worship Center",
-    location: "Orlando, FL",
-    content: "B1 is a church saver. As a small Church with a limited budget, this software is GOD SENT and a blessing. It is user-friendly and easy to set up. Donation reports are easy to draft. In addition, the fact that I can export data to excel makes analysis of records very simple. B1 has shaved off at least 25% of my Clerk's office time. Lastly, Customer support is fast and Helpful and the response is awesome. I truly recommend B1!!!",
+    name: "Robert Cooper",
+    church: "Friend and Kin",
+    location: "",
+    content: "ChurchApps helped us become more visible in our community—boosting awareness, donations, and volunteers so we can better serve families in need.",
     rating: 5
   },
   {
-    name: "Maria Rodriguez",
-    church: "St. Mark's Episcopal",
-    location: "Phoenix, AZ",
-    content: "B1 helped us transition to digital giving seamlessly during the pandemic. The support team was fantastic and the platform is incredibly reliable. Being free allowed us to redirect our software budget to actual ministry.",
+    name: "Theresa Hooper, CEO",
+    church: "OnBoard Strategies, LLC",
+    location: "Monmouth County, NJ",
+    content: "ChurchApps is more than software—it's a practical tool that supports the mission, vision, and daily work of ministry. I am grateful for the opportunity to learn it, teach it, and witness how it empowers churches to operate with greater clarity, efficiency, and purpose.",
     rating: 5
   }
 ];
@@ -87,9 +87,9 @@ export const Testimonials = () => {
 
               {/* Author */}
               <div className="border-t border-border/30 pt-4">
-                <div className="font-semibold">{testimonial.name}</div>
-                <div className="text-sm text-muted-foreground">{testimonial.church}</div>
-                <div className="text-sm text-muted-foreground">{testimonial.location}</div>
+                <div className="font-semibold text-foreground">{testimonial.name}</div>
+                {testimonial.church && <div className="text-sm text-muted-foreground">{testimonial.church}</div>}
+                {testimonial.location && <div className="text-sm text-muted-foreground">{testimonial.location}</div>}
               </div>
             </div>
           ))}
