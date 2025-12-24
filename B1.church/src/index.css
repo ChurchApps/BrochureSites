@@ -220,7 +220,7 @@ All colors MUST be HSL.
     background-position: 0 0, 0 0, 40px 40px, 0 0, 0 0;
   }
 
-  /* CHUMS-style animations */
+  /* B1-style animations */
   .animate-float {
     animation: float 6s ease-in-out infinite;
   }

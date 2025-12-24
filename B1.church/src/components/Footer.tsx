@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
+import { useNavigate, useLocation } from "react-router-dom";
 import {
   Mail,
   Phone,
@@ -26,6 +27,28 @@ const AndroidIcon = ({ className }: { className?: string }) => (
 );
 
 const Footer = () => {
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const scrollToSection = (sectionId: string) => {
+    if (location.pathname !== "/") {
+      // Navigate to home first, then scroll
+      navigate("/");
+      setTimeout(() => {
+        const element = document.getElementById(sectionId);
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth" });
+        }
+      }, 100);
+    } else {
+      // Already on home, just scroll
+      const element = document.getElementById(sectionId);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  };
+
   return (
     <footer id="contact" className="bg-gray-900/95 text-white backdrop-blur-md">
       {/* Main Footer */}
@@ -71,9 +94,10 @@ const Footer = () => {
           <div className="space-y-6">
             <h3 className="text-lg font-semibold">Product</h3>
             <ul className="space-y-3">
-              <li><a href="#features" className="text-gray-300 hover:text-white transition-colors">Mobile Features</a></li>
-              <li><a href="#siteBuilder" className="text-gray-300 hover:text-white transition-colors">Website Builder</a></li>
-              <li><a href="https://churchapps.org/" className="text-gray-300 hover:text-white transition-colors">About ChurchApps</a></li>
+              <li><button onClick={() => scrollToSection("features")} className="text-gray-300 hover:text-white transition-colors text-left">Mobile Features</button></li>
+              <li><button onClick={() => scrollToSection("siteBuilder")} className="text-gray-300 hover:text-white transition-colors text-left">Website Builder</button></li>
+              <li><button onClick={() => navigate("/faq")} className="text-gray-300 hover:text-white transition-colors text-left">FAQ</button></li>
+              <li><a href="https://churchapps.org/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">About ChurchApps</a></li>
             </ul>
           </div>
 
@@ -83,8 +107,9 @@ const Footer = () => {
             <ul className="space-y-3">
               <li><a href="https://play.google.com/store/apps/details?id=church.b1.mobile" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">Android App</a></li>
               <li><a href="https://apps.apple.com/us/app/b1-church/id1610587256" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">iOS App</a></li>
-              <li><a href="https://support.churchapps.org/" className="text-gray-300 hover:text-white transition-colors">Help Center</a></li>
-              <li><a href="https://chums.org/" className="text-gray-300 hover:text-white transition-colors">ChuMS</a></li>
+              <li><a href="https://support.churchapps.org/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">Help Center</a></li>
+              <li><a href="https://freeshow.app/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">FreeShow</a></li>
+              <li><a href="https://lessons.church/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">Lessons.church</a></li>
             </ul>
           </div>
 

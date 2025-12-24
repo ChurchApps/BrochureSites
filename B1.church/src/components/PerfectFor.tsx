@@ -85,9 +85,9 @@ const PerfectFor = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
           <div className="gradient-glass rounded-2xl p-8 card-hover text-center">
             <Users className="w-12 h-12 text-primary mx-auto mb-4" />
-            <h3 className="text-xl font-semibold mb-4 text-foreground">ChuMS Integration</h3>
+            <h3 className="text-xl font-semibold mb-4 text-foreground">B1 Admin Integration</h3>
             <p className="text-muted-foreground">
-              Seamlessly integrated with ChuMS church management software for complete workflow automation.
+              Seamlessly integrated with B1 Admin church management software for complete workflow automation.
             </p>
           </div>
 

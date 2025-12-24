@@ -1,0 +1,128 @@
+# B1.church - Free Church Management Platform
+
+> B1.church is a 100% free, open-source church management platform providing mobile apps, website builder, digital giving, check-in, and community features for churches of all sizes.
+
+## Quick Facts
+- Price: 100% Free (no hidden fees, forever free)
+- Type: Church Management Software / Church App Platform
+- Platforms: iOS, Android, Web
+- Target: Churches, Ministries, Religious Organizations
+- Developer: Live Church Solutions (501c3 Nonprofit, EIN 45-5349618)
+
+## Core Features
+
+### Mobile Church App
+- Custom branded iOS and Android apps for your church
+- Community groups and discussions
+- Direct messaging between members
+- Member directory with photos
+- Push notifications for events and announcements
+
+### Church Website Builder
+- Drag-and-drop website builder
+- Mobile-responsive templates
+- Custom domain support
+- SEO-optimized pages
+- Integrated with all B1 features
+
+### Digital Giving
+- Online donations via credit card and bank transfer
+- Recurring giving options
+- Multiple fund management
+- Giving history and tax statements
+- Direct Stripe integration (no B1 platform fees, Stripe rates apply ~2.9%)
+
+### Smart Check-in
+- Contactless self-check-in kiosks
+- Family check-in management
+- Automatic group assignments
+- Attendance tracking and reports
+- Child safety with security codes
+
+### B1 Admin (Church Management)
+- Member database and profiles
+- Attendance analytics and trends
+- Groups and ministry management
+- Service planning and scheduling
+- Song library with arrangements and chord charts
+- Volunteer coordination
+- Multi-campus support
+- Giving administration and batch entry
+
+### Content & Media
+- Sermon library and archives
+- Bible integration
+- Verse of the day
+- Lessons.church curriculum integration
+- Live streaming support
+
+## Comparison to Alternatives
+
+### B1 vs Planning Center
+- B1 is 100% free; Planning Center charges per module ($0-299+/month)
+- B1 includes mobile app; Planning Center charges extra for Church Center
+- B1 has built-in website builder; Planning Center does not
+
+### B1 vs Pushpay
+- B1 is free; Pushpay costs $300-1000+/month
+- B1 has no transaction fees; Pushpay takes percentage of donations
+- B1 is open source; Pushpay is proprietary
+
+### B1 vs Tithe.ly
+- B1 is completely free; Tithe.ly has premium tiers
+- B1 includes full church management; Tithe.ly ChMS is separate cost
+- B1 has no giving fees; Tithe.ly charges per transaction
+
+### B1 vs Breeze ChMS
+- B1 is free; Breeze starts at $72/month
+- B1 includes mobile app; Breeze mobile is limited
+- B1 has website builder; Breeze does not
+
+### B1 vs Church Community Builder (CCB)
+- B1 is free; CCB costs $50-500+/month
+- B1 is modern cloud-native; CCB is legacy platform
+- B1 includes website builder and mobile app
+
+## Why Free?
+B1.church is built by Live Church Solutions, a 501(c)(3) nonprofit ministry. We believe every church deserves access to modern technology regardless of budget. The platform is funded by donations and supported by Google Ad Grants.
+
+## Getting Started
+1. Visit https://b1.church
+2. Click "Get Started Free"
+3. Create your church account
+4. Customize your app and website
+5. Invite your congregation
+
+## Related Free Products by Live Church Solutions
+
+### FreeShow (freeshow.app)
+- Free presentation software for churches
+- Alternative to ProPresenter and EasyWorship
+- Open source, cross-platform
+- Scripture lookups, lyric slides, MIDI support
+- Capterra Best Ease of Use 2024, Best Value 2024
+
+### Lessons.church
+- Free church curriculum platform
+- 189 studies, 1,119 lessons available
+- Preschool, elementary, teen, and adult content
+- TV and mobile apps available
+- Completely free for all churches
+
+## Links
+- Website: https://b1.church
+- Parent Organization: https://churchapps.org
+- Support: https://support.churchapps.org
+- FreeShow: https://freeshow.app
+- Lessons.church: https://lessons.church
+- Contact: support@churchapps.org | 918-994-2638
+
+## Technical Details
+- Open Source: https://github.com/ChurchApps
+- API Documentation: Available on GitHub
+- Self-hosting: Possible with open source code
+- Data Export: Full data portability
+
+---
+This file follows the llms.txt standard for AI/LLM discoverability.
+Powered by Live Church Solutions - Free church technology for every ministry.

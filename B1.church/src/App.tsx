@@ -8,6 +8,8 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Index from "./pages/Index";
 import Login from "./pages/Login";
 import ChurchManagement from "./pages/ChurchManagement";
+import FAQ from "./pages/FAQ";
+import Compare from "./pages/Compare";
 import NotFound from "./pages/NotFound";
 import { UserProvider } from "./context/UserContext";
 import { EnvironmentHelper } from "./helpers/EnvironmentHelper";
@@ -44,6 +46,9 @@ const App = () => (
                 <Route path="/" element={<Index />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/church-management" element={<ChurchManagement />} />
+                <Route path="/faq" element={<FAQ />} />
+                <Route path="/compare" element={<Compare />} />
+                <Route path="/compare/:competitor" element={<Compare />} />
                 {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
                 <Route path="*" element={<NotFound />} />
               </Routes>
