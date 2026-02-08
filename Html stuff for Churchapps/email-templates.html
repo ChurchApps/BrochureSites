@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChurchApps Ambassador - Email Templates</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+        .template-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .template {
+            background: white;
+            padding: 40px;
+            margin: 30px 0;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-left: 5px solid #667eea;
+        }
+        .template-header {
+            background: #667eea;
+            color: white;
+            padding: 15px 20px;
+            margin: -40px -40px 30px -40px;
+            border-radius: 10px 10px 0 0;
+        }
+        .template-header h2 {
+            margin: 0;
+        }
+        .email-subject {
+            background: #f8f9ff;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            border-left: 3px solid #667eea;
+        }
+        .email-subject strong {
+            color: #667eea;
+        }
+        .email-body {
+            line-height: 1.8;
+        }
+        .button {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 15px 0;
+        }
+        .note {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 5px 5px 0;
+        }
+        .variable {
+            background: #e7f3ff;
+            color: #0066cc;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+        h1 {
+            text-align: center;
+            color: #667eea;
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="template-container">
+        <h1>ChurchApps Ambassador Email Templates</h1>
+
+        <!-- Email 1: Application Received -->
+        <div class="template">
+            <div class="template-header">
+                <h2>Email 1: Application Received (Auto-Response)</h2>
+            </div>
+
+            <div class="email-subject">
+                <strong>Subject:</strong> We received your ChurchApps Ambassador application!
+            </div>
+
+            <div class="email-body">
+                <p>Hi <span class="variable">{FIRST_NAME}</span>,</p>
+
+                <p>Thank you for applying to become a ChurchApps Ambassador for <span class="variable">{REGION}</span>! We're excited about your interest in helping churches in your area adopt free, open-source ministry tools.</p>
+
+                <p><strong>What happens next?</strong></p>
+                <ol>
+                    <li><strong>Photo Proof (Action Required):</strong> Please reply to this email with 2-3 photos showing your church/ministry using ChurchApps products. This helps us verify your hands-on experience.</li>
+                    <li><strong>Initial Review:</strong> Our team will review your application within 3 business days.</li>
+                    <li><strong>Reference Check:</strong> We'll reach out to the references you provided.</li>
+                    <li><strong>Video Call:</strong> If approved, we'll schedule a 30-minute video call to discuss your vision.</li>
+                </ol>
+
+                <p><strong>What to include in your photos:</strong></p>
+                <ul>
+                    <li>Screenshots of ChurchApps products in use during services</li>
+                    <li>Photos of your setup (worship presentation screen, check-in station, etc.)</li>
+                    <li>Any documentation/guides you've created</li>
+                </ul>
+
+                <p>If you have any questions while we review your application, feel free to reply to this email.</p>
+
+                <p>In the meantime, you might enjoy connecting with our community:</p>
+                <ul>
+                    <li>Join our Facebook group: <a href="#">ChurchApps Users</a></li>
+                    <li>Check out our blog: <a href="#">churchapps.org/blog</a></li>
+                    <li>Watch tutorial videos: <a href="#">YouTube Channel</a></li>
+                </ul>
+
+                <p><strong>Helping churches help each other,</strong><br>
+                The ChurchApps Team</p>
+
+                <hr style="margin: 30px 0; border: none; border-top: 1px solid #e9ecef;">
+
+                <p style="font-size: 0.9em; color: #666;">
+                    <strong>Application Summary:</strong><br>
+                    Name: <span class="variable">{FULL_NAME}</span><br>
+                    Region: <span class="variable">{REGION}</span><br>
+                    Languages: <span class="variable">{LANGUAGES}</span><br>
+                    Submitted: <span class="variable">{DATE}</span>
+                </p>
+            </div>
+
+            <div class="note">
+                <strong>Note for Team:</strong> This email is sent automatically upon form submission. Monitor for photo replies within 48 hours.
+            </div>
+        </div>
+
+        <!-- Email 2: Request for More Info (If Needed) -->
+        <div class="template">
+            <div class="template-header">
+                <h2>Email 2: Request for More Information (If Needed)</h2>
+            </div>
+
+            <div class="email-subject">
+                <strong>Subject:</strong> ChurchApps Ambassador Application - Additional Information Needed
+            </div>
+
+            <div class="email-body">
+                <p>Hi <span class="variable">{FIRST_NAME}</span>,</p>
+
+                <p>Thank you for your application to become a ChurchApps Ambassador for <span class="variable">{REGION}</span>.</p>
+
+                <p>We're excited about your interest, but we need a bit more information to move forward:</p>
+
+                <p><span class="variable">{SPECIFIC_REQUEST}</span></p>
+
+                <p>Examples of what we might need:</p>
+                <ul>
+                    <li>Photos showing your church using ChurchApps products (if not yet provided)</li>
+                    <li>Clarification about your role in your church/ministry</li>
+                    <li>More details about your proposed user group activities</li>
+                    <li>Updated reference contact information</li>
+                </ul>
+
+                <p>Please reply to this email with the requested information within the next 7 days so we can continue processing your application.</p>
+
+                <p>Thanks for your patience!</p>
+
+                <p><strong>The ChurchApps Team</strong></p>
+            </div>
+
+            <div class="note">
+                <strong>Note for Team:</strong> Personalize the {SPECIFIC_REQUEST} section with exactly what's missing. Set reminder to follow up in 7 days.
+            </div>
+        </div>
+
+        <!-- Email 3: Reference Check -->
+        <div class="template">
+            <div class="template-header">
+                <h2>Email 3: Reference Check (Sent to References)</h2>
+            </div>
+
+            <div class="email-subject">
+                <strong>Subject:</strong> Reference Check: <span class="variable">{APPLICANT_NAME}</span> - ChurchApps Ambassador
+            </div>
+
+            <div class="email-body">
+                <p>Hi <span class="variable">{REFERENCE_NAME}</span>,</p>
+
+                <p><span class="variable">{APPLICANT_NAME}</span> has applied to become a ChurchApps Ambassador and listed you as a reference.</p>
+
+                <p><strong>What is ChurchApps?</strong><br>
+                ChurchApps is a nonprofit providing free, open-source software for churches (worship presentation, church management, kids ministry tools, etc.). Our Ambassador Program connects local church leaders who volunteer to help other churches in their region get started with these tools.</p>
+
+                <p><strong>Why we're reaching out:</strong><br>
+                We want to ensure our ambassadors are trustworthy Christians who will serve churches well and never charge for help. Your input is valuable.</p>
+
+                <p><strong>Please take 2 minutes to answer these questions:</strong></p>
+
+                <a href="<span class="variable">{REFERENCE_FORM_LINK}</span>" class="button">Complete Reference Check</a>
+
+                <p>Questions you'll answer:</p>
+                <ol>
+                    <li>How do you know <span class="variable">{APPLICANT_NAME}</span>?</li>
+                    <li>Can you verify they are an active Christian involved in ministry?</li>
+                    <li>Would you trust them to represent a Christian organization well?</li>
+                    <li>Do you recommend them for this volunteer position?</li>
+                    <li>Any concerns we should know about?</li>
+                </ol>
+
+                <p>Your responses will be kept confidential and only used to evaluate <span class="variable">{APPLICANT_NAME}</span>'s application.</p>
+
+                <p>Thank you for helping us maintain quality and integrity in our ambassador network!</p>
+
+                <p><strong>The ChurchApps Team</strong><br>
+                ambassadors@churchapps.org</p>
+            </div>
+
+            <div class="note">
+                <strong>Note for Team:</strong> Send within 24 hours of receiving applicant's photos. Track responses; need at least 1 positive reference to proceed.
+            </div>
+        </div>
+
+        <!-- Email 4: Schedule Video Call -->
+        <div class="template">
+            <div class="template-header">
+                <h2>Email 4: Schedule Video Call</h2>
+            </div>
+
+            <div class="email-subject">
+                <strong>Subject:</strong> Great news! Let's schedule your ChurchApps Ambassador interview
+            </div>
+
+            <div class="email-body">
+                <p>Hi <span class="variable">{FIRST_NAME}</span>,</p>
+
+                <p>Wonderful news! We've reviewed your application and references, and we'd like to move forward with a video call.</p>
+
+                <p><strong>This is not a test</strong> - it's a conversation. We want to:</p>
+                <ul>
+                    <li>Get to know you personally</li>
+                    <li>Hear more about your vision for a ChurchApps user group in <span class="variable">{REGION}</span></li>
+                    <li>Answer any questions you have</li>
+                    <li>Make sure we're a good mutual fit</li>
+                </ul>
+
+                <p><strong>Schedule your 30-minute call:</strong></p>
+
+                <a href="<span class="variable">{CALENDLY_LINK}</span>" class="button">Book a Time</a>
+
+                <p><strong>You'll meet with:</strong> <span class="variable">{INTERVIEWER_NAME}</span> from the ChurchApps team</p>
+
+                <p><strong>Before the call, think about:</strong></p>
+                <ol>
+                    <li>What are 2-3 specific activities you'd like to organize in your first 90 days?</li>
+                    <li>Who are the 3-5 people or churches you'd invite to your first user group meeting?</li>
+                    <li>What unique needs or challenges do churches in your region face?</li>
+                    <li>What questions do you have for us?</li>
+                </ol>
+
+                <p>We're excited to connect with you!</p>
+
+                <p><strong>The ChurchApps Team</strong></p>
+            </div>
+
+            <div class="note">
+                <strong>Note for Team:</strong> Send only after references clear. Use Calendly or similar. Terry/Michael to conduct calls initially.
+            </div>
+        </div>
+
+        <!-- Email 5: Acceptance & Agreement -->
+        <div class="template">
+            <div class="template-header">
+                <h2>Email 5: Acceptance & Agreement Signing</h2>
+            </div>
+
+            <div class="email-subject">
+                <strong>Subject:</strong> 🎉 Welcome to the ChurchApps Ambassador family!
+            </div>
+
+            <div class="email-body">
+                <p>Hi <span class="variable">{FIRST_NAME}</span>,</p>
+
+                <p>We're thrilled to officially invite you to become a ChurchApps Ambassador for <span class="variable">{REGION}</span>!</p>
+
+                <p>After reviewing your application and enjoying our conversation, we believe you'll be a fantastic addition to our global ambassador network.</p>
+
+                <p><strong>Next Step: Sign the Ambassador Covenant</strong></p>
+
+                <p>Please review and digitally sign the Ambassador Covenant, which outlines:</p>
+                <ul>
+                    <li>Your role and responsibilities</li>
+                    <li>Our commitment to support you</li>
+                    <li>Guidelines and expectations (including the "no charging" policy)</li>
+                    <li>Quarterly reporting requirements</li>
+                </ul>
+
+                <a href="<span class="variable">{DOCUSIGN_LINK}</span>" class="button">Review & Sign Covenant</a>
+
+                <p>The covenant typically takes 5-10 minutes to read and sign.</p>
+
+                <p><strong>What happens after you sign?</strong></p>
+                <ol>
+                    <li>We'll set up your regional email: <strong><span class="variable">{REGION_EMAIL}</span>@churchapps.org</strong></li>
+                    <li>You'll receive access to the Ambassador Resource Hub</li>
+                    <li>We'll add you to the private Ambassador Facebook group</li>
+                    <li>Your profile will go live on our website</li>
+                </ol>
+
+                <p>We're honored to partner with you in helping churches across <span class="variable">{REGION}</span> discover and effectively use ChurchApps tools!</p>
+
+                <p><strong>Welcome to the team,</strong><br>
+                <span class="variable">{TEAM_MEMBER_NAME}</span><br>
+                ChurchApps</p>
+            </div>
+
+            <div class="note">
+                <strong>Note for Team:</strong> Send within 24 hours of positive video call. Prepare DocuSign with personalized covenant. Don't proceed to Email 6 until signature received.
+            </div>
+        </div>
+
+        <!-- Email 6: Rejection (If Needed) -->
+        <div class="template">
+            <div class="template-header">
+                <h2>Email 6: Gracious Rejection (If Needed)</h2>
+            </div>
+
+            <div class="email-subject">
+                <strong>Subject:</strong> Update on your ChurchApps Ambassador application
+            </div>
+
+            <div class="email-body">
+                <p>Hi <span class="variable">{FIRST_NAME}</span>,</p>
+
+                <p>Thank you so much for your interest in becoming a ChurchApps Ambassador for <span class="variable">{REGION}</span>. We appreciate the time you took to apply and share your vision.</p>
+
+                <p>After careful consideration, we've decided not to move forward with your application at this time. <span class="variable">{OPTIONAL_REASON}</span></p>
+
+                <p>Common reasons we don't approve applications:</p>
+                <ul>
+                    <li>We already have an active ambassador in your region</li>
+                    <li>We need to see more hands-on experience with ChurchApps products first</li>
+                    <li>The timing isn't quite right for a new user group in your area</li>
+                    <li>Reference checks raised concerns</li>
+                </ul>
+
+                <p><strong>This doesn't mean you can't be involved!</strong> Here are other ways to engage:</p>
+                <ul>
+                    <li>Join your regional ChurchApps user group (if one exists)</li>
+                    <li>Participate in our online community</li>
+                    <li>Contribute to open-source development</li>
+                    <li>Help translate documentation</li>
+                    <li>Reapply in 6-12 months after gaining more experience</li>
+                </ul>
+
+                <p>We're grateful for your enthusiasm and hope you'll continue to be part of the ChurchApps community in other ways.</p>
+
+                <p><strong>Blessings,</strong><br>
+                The ChurchApps Team</p>
+            </div>
+
+            <div class="note">
+                <strong>Note for Team:</strong> Be gracious but firm. Optionally include brief, kind reason. Offer alternative involvement. Keep door open for future.
+            </div>
+        </div>
+
+        <!-- Email 7: Onboarding & Welcome -->
+        <div class="template">
+            <div class="template-header">
+                <h2>Email 7: Complete Onboarding & Welcome</h2>
+            </div>
+
+            <div class="email-subject">
+                <strong>Subject:</strong> 🚀 You're all set! Here's everything you need to launch
+            </div>
+
+            <div class="email-body">
+                <p>Hi <span class="variable">{FIRST_NAME}</span>,</p>
+
+                <p>Welcome to the ChurchApps Ambassador family! Everything is now set up for you to launch your user group in <span class="variable">{REGION}</span>.</p>
+
+                <p><strong>🎯 Your Ambassador Profile</strong></p>
+                <ul>
+                    <li><strong>Email:</strong> <span class="variable">{REGION_EMAIL}</span>@churchapps.org (forwards to <span class="variable">{PERSONAL_EMAIL}</span>)</li>
+                    <li><strong>Profile:</strong> <a href="#">View your profile on our website</a></li>
+                    <li><strong>Badge:</strong> You've earned your first badge: "Ambassador 🌟"</li>
+                </ul>
+
+                <p><strong>📚 Resources & Access</strong></p>
+                <ul>
+                    <li><a href="#">Ambassador Resource Hub</a> - Login with: <span class="variable">{LOGIN_INFO}</span></li>
+                    <li><a href="#">Join the Private Facebook Group</a> - Connect with other ambassadors</li>
+                    <li><a href="#">Download Brand Assets</a> - Logos, templates, slide decks</li>
+                    <li><a href="#">User Group Starter Package PDF</a> - Your roadmap</li>
+                </ul>
+
+                <p><strong>✅ Your First 90 Days - Simple Steps</strong></p>
+                <ol>
+                    <li><strong>Week 1:</strong> Choose your communication platform (WhatsApp, Facebook Group, Discord, etc.)</li>
+                    <li><strong>Week 2:</strong> Invite 5-10 people to join your group</li>
+                    <li><strong>Week 3-4:</strong> Host your first meeting (virtual or in-person)
+                        <ul>
+                            <li>Keep it simple: introductions, share experiences, identify needs</li>
+                            <li>Take a photo and share it in the Ambassador Facebook group!</li>
+                        </ul>
+                    </li>
+                    <li><strong>Day 90:</strong> Submit your first quarterly report (we'll remind you)</li>
+                </ol>
+
+                <p><strong>💡 Pro Tips from Experienced Ambassadors</strong></p>
+                <ul>
+                    <li>"Start small - 3-5 committed people is better than 20 passive members"</li>
+                    <li>"Focus on helping, not teaching - ask what people need, then figure it out together"</li>
+                    <li>"Take photos at every meeting - they're gold for quarterly reports"</li>
+                    <li>"Don't try to be the expert - you're the connector"</li>
+                </ul>
+
+                <p><strong>🆘 Need Help?</strong></p>
+                <ul>
+                    <li><strong>Technical questions:</strong> Post in the Ambassador Facebook group</li>
+                    <li><strong>Urgent issues:</strong> Email ambassadors@churchapps.org</li>
+                    <li><strong>Monthly check-in:</strong> We'll schedule a brief call each month for your first quarter</li>
+                </ul>
+
+                <p><strong>🏆 Earn More Badges!</strong></p>
+                <p>Your next badges to unlock:</p>
+                <ul>
+                    <li><strong>First Meeting 🎉</strong> - Host your first user group gathering</li>
+                    <li><strong>5 Churches ⛪</strong> - Help 5 churches adopt ChurchApps</li>
+                    <li><strong>Story Teller 📸</strong> - Submit 5 testimonials/photos</li>
+                </ul>
+
+                <p><strong>📅 Important Dates</strong></p>
+                <ul>
+                    <li><strong><span class="variable">{FIRST_REPORT_DATE}</span>:</strong> First quarterly report due</li>
+                    <li><strong><span class="variable">{MONTHLY_CALL_DATE}</span>:</strong> Your first monthly check-in call</li>
+                </ul>
+
+                <hr style="margin: 30px 0; border: none; border-top: 1px solid #e9ecef;">
+
+                <p><strong>We're so excited to see what God does through you in <span class="variable">{REGION}</span>!</strong></p>
+
+                <p>Remember: you're not alone. You have a global family of ambassadors cheering you on, and we're here to support you every step of the way.</p>
+
+                <p><strong>Let's help churches help each other,</strong></p>
+
+                <p><span class="variable">{TEAM_MEMBER_NAME}</span><br>
+                ChurchApps Team<br>
+                ambassadors@churchapps.org</p>
+
+                <p style="margin-top: 30px; padding: 20px; background: #f8f9ff; border-radius: 5px; border-left: 3px solid #667eea;">
+                    <strong>P.S.</strong> Once you host your first meeting, reply to this email with a photo and brief summary. We'd love to celebrate with you and feature it in our newsletter!
+                </p>
+            </div>
+
+            <div class="note">
+                <strong>Note for Team:</strong> Send within 24 hours of covenant signing and after all systems are set up (email, website profile, resource access). Include personalized monthly call link.
+            </div>
+        </div>
+
+        <!-- Email 8: Monthly Check-in (Ongoing) -->
+        <div class="template">
+            <div class="template-header">
+                <h2>Email 8: Monthly Check-In (First 3 Months)</h2>
+            </div>
+
+            <div class="email-subject">
+                <strong>Subject:</strong> How's it going, <span class="variable">{FIRST_NAME}</span>? Monthly ambassador check-in
+            </div>
+
+            <div class="email-body">
+                <p>Hi <span class="variable">{FIRST_NAME}</span>,</p>
+
+                <p>Just checking in to see how things are going with your ChurchApps user group in <span class="variable">{REGION}</span>!</p>
+
+                <p><strong>Quick pulse check:</strong></p>
+                <ul>
+                    <li>Have you hosted your first meeting yet? If so, how did it go?</li>
+                    <li>How many people are in your group now?</li>
+                    <li>Any challenges or questions we can help with?</li>
+                    <li>Any wins to celebrate?</li>
+                </ul>
+
+                <p>Feel free to reply to this email or let's hop on a quick 15-minute call if you'd like to chat:</p>
+
+                <a href="<span class="variable">{CALENDLY_LINK}</span>" class="button">Schedule Optional Call</a>
+
+                <p><strong>Resources you might find helpful:</strong></p>
+                <ul>
+                    <li><a href="#">Meeting Agenda Templates</a></li>
+                    <li><a href="#">How to Run a Hack Night</a></li>
+                    <li><a href="#">Ambassador Success Stories</a></li>
+                </ul>
+
+                <p><strong>Reminder:</strong> Your first quarterly report is due on <span class="variable">{REPORT_DATE}</span>. Don't worry - it's simple and should take less than 15 minutes.</p>
+
+                <p>Keep up the great work!</p>
+
+                <p><strong><span class="variable">{TEAM_MEMBER_NAME}</span></strong><br>
+                ChurchApps Team</p>
+            </div>
+
+            <div class="note">
+                <strong>Note for Team:</strong> Send monthly for first 3 months, then transition to quarterly. Track responses to identify struggling ambassadors early.
+            </div>
+        </div>
+
+        <!-- Email 9: Quarterly Report Reminder -->
+        <div class="template">
+            <div class="template-header">
+                <h2>Email 9: Quarterly Report Reminder</h2>
+            </div>
+
+            <div class="email-subject">
+                <strong>Subject:</strong> ⏰ Quarterly report due in 2 weeks - <span class="variable">{REGION}</span> Ambassador
+            </div>
+
+            <div class="email-body">
+                <p>Hi <span class="variable">{FIRST_NAME}</span>,</p>
+
+                <p>Your quarterly ChurchApps Ambassador report is due on <strong><span class="variable">{DUE_DATE}</span></strong> (2 weeks from today).</p>
+
+                <p><strong>This is super simple - takes about 10-15 minutes!</strong></p>
+
+                <a href="<span class="variable">{REPORT_FORM_LINK}</span>" class="button">Submit Quarterly Report</a>
+
+                <p><strong>What we're asking for:</strong></p>
+                <ol>
+                    <li>How many meetings/events did you host? (Even if it's zero, that's okay!)</li>
+                    <li>How many churches did you help?</li>
+                    <li>What's one surprising thing you learned?</li>
+                    <li>What's one challenge you faced?</li>
+                    <li>What's one need you're seeing in your region?</li>
+                    <li>Optional: Photos, testimonials, or stories to share</li>
+                </ol>
+
+                <p><strong>Why we ask for this:</strong></p>
+                <ul>
+                    <li>Stay connected with what's happening in your region</li>
+                    <li>Learn what features/resources churches need most</li>
+                    <li>Celebrate wins and unlock new badges for you</li>
+                    <li>Identify where we can better support you</li>
+                </ul>
+
+                <p><strong>Heads up:</strong> Missing 2 consecutive quarterly reports will pause your ambassador status, so please don't skip it!</p>
+
+                <p>Thanks for all you're doing in <span class="variable">{REGION}</span>!</p>
+
+                <p><strong>The ChurchApps Team</strong></p>
+            </div>
+
+            <div class="note">
+                <strong>Note for Team:</strong> Send 2 weeks before due date. Send final reminder 3 days before. Track completion rates.
+            </div>
+        </div>
+
+        <hr style="margin: 60px 0; border: 2px solid #667eea;">
+
+        <div style="text-align: center; padding: 40px; background: white; border-radius: 10px;">
+            <h2 style="color: #667eea;">Email Template Variables Guide</h2>
+            <p>Replace these variables when sending emails:</p>
+            <ul style="list-style: none; padding: 0; max-width: 500px; margin: 20px auto; text-align: left;">
+                <li><span class="variable">{FIRST_NAME}</span> - Applicant's first name</li>
+                <li><span class="variable">{FULL_NAME}</span> - Full name</li>
+                <li><span class="variable">{REGION}</span> - City/region they're serving</li>
+                <li><span class="variable">{REGION_EMAIL}</span> - Their ambassador email prefix (e.g., "korea")</li>
+                <li><span class="variable">{LANGUAGES}</span> - Languages they speak</li>
+                <li><span class="variable">{DATE}</span> - Relevant date</li>
+                <li><span class="variable">{PERSONAL_EMAIL}</span> - Their personal email</li>
+                <li><span class="variable">{CALENDLY_LINK}</span> - Booking link</li>
+                <li><span class="variable">{DOCUSIGN_LINK}</span> - Agreement signing link</li>
+                <li><span class="variable">{TEAM_MEMBER_NAME}</span> - Staff member name</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

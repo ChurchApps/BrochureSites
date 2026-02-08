@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChurchApps Ambassador Badges - Component Library</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 50px;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .section {
+            background: white;
+            padding: 40px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .section h2 {
+            color: #667eea;
+            margin-bottom: 25px;
+            font-size: 2em;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 15px;
+        }
+
+        /* Badge Styles */
+        .badge-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin: 30px 0;
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 18px;
+            border-radius: 25px;
+            font-weight: 600;
+            font-size: 0.95em;
+            transition: all 0.3s;
+            cursor: pointer;
+            position: relative;
+        }
+
+        /* Badge Tiers */
+        .badge.standard {
+            background: #f8f9ff;
+            color: #667eea;
+            border: 2px solid #667eea;
+        }
+
+        .badge.standard:hover {
+            background: #667eea;
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(102, 126, 234, 0.3);
+        }
+
+        .badge.gold {
+            background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
+            color: #8B4513;
+            border: 2px solid #DAA520;
+            box-shadow: 0 2px 8px rgba(255, 215, 0, 0.4);
+        }
+
+        .badge.gold:hover {
+            transform: translateY(-2px) scale(1.05);
+            box-shadow: 0 6px 12px rgba(255, 215, 0, 0.5);
+        }
+
+        .badge.platinum {
+            background: linear-gradient(135deg, #E5E4E2 0%, #BCC6CC 100%);
+            color: #2c3e50;
+            border: 2px solid #95A5A6;
+            box-shadow: 0 2px 8px rgba(189, 195, 199, 0.4);
+        }
+
+        .badge.platinum:hover {
+            transform: translateY(-2px) scale(1.05);
+            box-shadow: 0 6px 12px rgba(189, 195, 199, 0.5);
+        }
+
+        .badge.locked {
+            background: #e9ecef;
+            color: #6c757d;
+            border: 2px dashed #ced4da;
+            opacity: 0.7;
+            cursor: default;
+        }
+
+        .badge.locked:hover {
+            transform: none;
+            box-shadow: none;
+        }
+
+        /* Badge Icon */
+        .badge .icon {
+            font-size: 1.3em;
+        }
+
+        /* Tooltip */
+        .badge-tooltip {
+            position: absolute;
+            bottom: 110%;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #2c3e50;
+            color: white;
+            padding: 12px 16px;
+            border-radius: 8px;
+            font-size: 0.85em;
+            white-space: nowrap;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s;
+            z-index: 100;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+
+        .badge-tooltip::after {
+            content: '';
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            border: 6px solid transparent;
+            border-top-color: #2c3e50;
+        }
+
+        .badge:hover .badge-tooltip {
+            opacity: 1;
+        }
+
+        /* Badge Card (Detailed View) */
+        .badge-card {
+            background: white;
+            border: 2px solid #e9ecef;
+            border-radius: 10px;
+            padding: 25px;
+            margin: 20px 0;
+            transition: all 0.3s;
+        }
+
+        .badge-card:hover {
+            border-color: #667eea;
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2);
+        }
+
+        .badge-card-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+
+        .badge-card-icon {
+            font-size: 3em;
+            width: 80px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background: #f8f9ff;
+        }
+
+        .badge-card-title {
+            flex: 1;
+        }
+
+        .badge-card-title h3 {
+            color: #667eea;
+            margin-bottom: 5px;
+            font-size: 1.5em;
+        }
+
+        .badge-card-title .tier {
+            font-size: 0.85em;
+            color: #666;
+            font-weight: 600;
+        }
+
+        .badge-card-description {
+            color: #666;
+            margin-bottom: 15px;
+            line-height: 1.7;
+        }
+
+        .badge-card-criteria {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 3px solid #667eea;
+        }
+
+        .badge-card-criteria strong {
+            color: #667eea;
+        }
+
+        /* Progress Bar for Badges */
+        .badge-progress {
+            margin: 20px 0;
+        }
+
+        .progress-label {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #667eea;
+        }
+
+        .progress-bar {
+            background: #e9ecef;
+            height: 25px;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            height: 100%;
+            transition: width 0.5s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 600;
+            font-size: 0.85em;
+        }
+
+        /* Badge Grid Layout */
+        .badge-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        /* Code Examples */
+        .code-example {
+            background: #2c3e50;
+            color: #ecf0f1;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            overflow-x: auto;
+        }
+
+        .code-example pre {
+            margin: 0;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+
+        /* Badge Stats */
+        .badge-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .stat-label {
+            color: #666;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🏆 ChurchApps Ambassador Badges</h1>
+            <p>Recognition system for contributions and milestones</p>
+        </div>
+
+        <!-- Badge Overview -->
+        <div class="section">
+            <h2>All Available Badges</h2>
+            <p>Ambassadors earn badges by completing activities and helping churches. Hover over badges to see requirements.</p>
+
+            <div class="badge-container">
+                <!-- Standard Tier -->
+                <div class="badge standard">
+                    <span class="icon">🌟</span>
+                    <span>Ambassador</span>
+                    <div class="badge-tooltip">Completed onboarding - Welcome!</div>
+                </div>
+
+                <div class="badge standard">
+                    <span class="icon">🎉</span>
+                    <span>First Meeting</span>
+                    <div class="badge-tooltip">Hosted your first user group meeting</div>
+                </div>
+
+                <div class="badge standard">
+                    <span class="icon">⛪</span>
+                    <span>5 Churches</span>
+                    <div class="badge-tooltip">Helped 5 churches adopt ChurchApps</div>
+                </div>
+
+                <div class="badge standard">
+                    <span class="icon">👥</span>
+                    <span>Community Builder</span>
+                    <div class="badge-tooltip">User group has 15+ active members</div>
+                </div>
+
+                <div class="badge standard">
+                    <span class="icon">📸</span>
+                    <span>Story Teller</span>
+                    <div class="badge-tooltip">Submitted 5+ testimonials/photos</div>
+                </div>
+
+                <!-- Gold Tier -->
+                <div class="badge gold">
+                    <span class="icon">⛪⛪</span>
+                    <span>10 Churches</span>
+                    <div class="badge-tooltip">Helped 10+ churches - major impact!</div>
+                </div>
+
+                <div class="badge gold">
+                    <span class="icon">🎤</span>
+                    <span>Seminar Leader</span>
+                    <div class="badge-tooltip">Led a training seminar or conference workshop</div>
+                </div>
+
+                <div class="badge gold">
+                    <span class="icon">📚</span>
+                    <span>Translator</span>
+                    <div class="badge-tooltip">Translated documentation to local language</div>
+                </div>
+
+                <div class="badge gold">
+                    <span class="icon">💻</span>
+                    <span>Contributor</span>
+                    <div class="badge-tooltip">Contributed code/docs to open source</div>
+                </div>
+
+                <div class="badge gold">
+                    <span class="icon">🔥</span>
+                    <span>Consistent</span>
+                    <div class="badge-tooltip">4 consecutive quarterly reports submitted</div>
+                </div>
+
+                <!-- Platinum Tier -->
+                <div class="badge platinum">
+                    <span class="icon">⛪⛪⛪</span>
+                    <span>25 Churches</span>
+                    <div class="badge-tooltip">Helped 25+ churches - incredible reach!</div>
+                </div>
+
+                <div class="badge platinum">
+                    <span class="icon">🎂</span>
+                    <span>Year 1 Veteran</span>
+                    <div class="badge-tooltip">Active ambassador for 1 full year</div>
+                </div>
+
+                <div class="badge platinum">
+                    <span class="icon">🌍</span>
+                    <span>Regional Leader</span>
+                    <div class="badge-tooltip">Mentoring other ambassadors in your region</div>
+                </div>
+
+                <div class="badge platinum">
+                    <span class="icon">💎</span>
+                    <span>Elite</span>
+                    <div class="badge-tooltip">Earned 10+ total badges</div>
+                </div>
+
+                <!-- Locked Example -->
+                <div class="badge locked">
+                    <span class="icon">🔒</span>
+                    <span>Locked</span>
+                    <div class="badge-tooltip">Keep going to unlock this badge!</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Detailed Badge Cards -->
+        <div class="section">
+            <h2>Badge Details</h2>
+            <p>Complete requirements to earn badges and level up your ambassador profile.</p>
+
+            <div class="badge-grid">
+                <!-- Ambassador Badge -->
+                <div class="badge-card">
+                    <div class="badge-card-header">
+                        <div class="badge-card-icon">🌟</div>
+                        <div class="badge-card-title">
+                            <h3>Ambassador</h3>
+                            <div class="tier">STANDARD TIER</div>
+                        </div>
+                    </div>
+                    <div class="badge-card-description">
+                        You've completed onboarding and officially joined the ChurchApps Ambassador network. Welcome to the family!
+                    </div>
+                    <div class="badge-card-criteria">
+                        <strong>How to earn:</strong> Complete onboarding process and sign ambassador covenant
+                    </div>
+                </div>
+
+                <!-- First Meeting -->
+                <div class="badge-card">
+                    <div class="badge-card-header">
+                        <div class="badge-card-icon">🎉</div>
+                        <div class="badge-card-title">
+                            <h3>First Meeting</h3>
+                            <div class="tier">STANDARD TIER</div>
+                        </div>
+                    </div>
+                    <div class="badge-card-description">
+                        You've taken action! Your first user group meeting is a big milestone. Even if only 3 people showed up, you started something.
+                    </div>
+                    <div class="badge-card-criteria">
+                        <strong>How to earn:</strong> Host your first user group meeting or event
+                    </div>
+                </div>
+
+                <!-- 5 Churches -->
+                <div class="badge-card">
+                    <div class="badge-card-header">
+                        <div class="badge-card-icon">⛪</div>
+                        <div class="badge-card-title">
+                            <h3>5 Churches</h3>
+                            <div class="tier">STANDARD TIER</div>
+                        </div>
+                    </div>
+                    <div class="badge-card-description">
+                        You've directly helped 5 churches adopt or improve their use of ChurchApps tools. Real impact!
+                    </div>
+                    <div class="badge-card-criteria">
+                        <strong>How to earn:</strong> Help 5 churches adopt ChurchApps products
+                    </div>
+                    <div class="badge-progress">
+                        <div class="progress-label">
+                            <span>Progress</span>
+                            <span>3/5 churches</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 60%">60%</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 10 Churches -->
+                <div class="badge-card">
+                    <div class="badge-card-header">
+                        <div class="badge-card-icon">⛪⛪</div>
+                        <div class="badge-card-title">
+                            <h3>10 Churches</h3>
+                            <div class="tier">GOLD TIER</div>
+                        </div>
+                    </div>
+                    <div class="badge-card-description">
+                        Double digits! You're making significant regional impact. 10 churches means hundreds of people benefiting from better tools.
+                    </div>
+                    <div class="badge-card-criteria">
+                        <strong>How to earn:</strong> Help 10+ churches adopt ChurchApps products
+                    </div>
+                </div>
+
+                <!-- Seminar Leader -->
+                <div class="badge-card">
+                    <div class="badge-card-header">
+                        <div class="badge-card-icon">🎤</div>
+                        <div class="badge-card-title">
+                            <h3>Seminar Leader</h3>
+                            <div class="tier">GOLD TIER</div>
+                        </div>
+                    </div>
+                    <div class="badge-card-description">
+                        You've stepped up to lead a formal training seminar or workshop. Your expertise is helping many churches at once.
+                    </div>
+                    <div class="badge-card-criteria">
+                        <strong>How to earn:</strong> Lead a training seminar, conference workshop, or formal presentation about ChurchApps
+                    </div>
+                </div>
+
+                <!-- Translator -->
+                <div class="badge-card">
+                    <div class="badge-card-header">
+                        <div class="badge-card-icon">📚</div>
+                        <div class="badge-card-title">
+                            <h3>Translator</h3>
+                            <div class="tier">GOLD TIER</div>
+                        </div>
+                    </div>
+                    <div class="badge-card-description">
+                        You've made ChurchApps accessible to non-English speakers by translating documentation, UI elements, or resources.
+                    </div>
+                    <div class="badge-card-criteria">
+                        <strong>How to earn:</strong> Translate significant documentation, UI elements, or resources to your local language
+                    </div>
+                </div>
+
+                <!-- Story Teller -->
+                <div class="badge-card">
+                    <div class="badge-card-header">
+                        <div class="badge-card-icon">📸</div>
+                        <div class="badge-card-title">
+                            <h3>Story Teller</h3>
+                            <div class="tier">STANDARD TIER</div>
+                        </div>
+                    </div>
+                    <div class="badge-card-description">
+                        You're helping us tell the ChurchApps story through photos, testimonials, and case studies. Marketing gold!
+                    </div>
+                    <div class="badge-card-criteria">
+                        <strong>How to earn:</strong> Submit 5+ photos, testimonials, or success stories
+                    </div>
+                </div>
+
+                <!-- Year 1 Veteran -->
+                <div class="badge-card">
+                    <div class="badge-card-header">
+                        <div class="badge-card-icon">🎂</div>
+                        <div class="badge-card-title">
+                            <h3>Year 1 Veteran</h3>
+                            <div class="tier">PLATINUM TIER</div>
+                        </div>
+                    </div>
+                    <div class="badge-card-description">
+                        You've been an active ambassador for a full year. Your faithfulness and consistency are inspiring!
+                    </div>
+                    <div class="badge-card-criteria">
+                        <strong>How to earn:</strong> Remain an active ambassador for 12 months with all quarterly reports submitted
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Implementation Examples -->
+        <div class="section">
+            <h2>HTML Implementation Examples</h2>
+
+            <h3>Simple Badge Display</h3>
+            <div class="code-example">
+                <pre>&lt;div class="badge standard"&gt;
+    &lt;span class="icon"&gt;🌟&lt;/span&gt;
+    &lt;span&gt;Ambassador&lt;/span&gt;
+    &lt;div class="badge-tooltip"&gt;Completed onboarding&lt;/div&gt;
+&lt;/div&gt;</pre>
+            </div>
+
+            <h3>Badge Container</h3>
+            <div class="code-example">
+                <pre>&lt;div class="badge-container"&gt;
+    &lt;div class="badge standard"&gt;...&lt;/div&gt;
+    &lt;div class="badge gold"&gt;...&lt;/div&gt;
+    &lt;div class="badge locked"&gt;...&lt;/div&gt;
+&lt;/div&gt;</pre>
+            </div>
+
+            <h3>Badge with Progress</h3>
+            <div class="code-example">
+                <pre>&lt;div class="badge-progress"&gt;
+    &lt;div class="progress-label"&gt;
+        &lt;span&gt;Progress&lt;/span&gt;
+        &lt;span&gt;3/5 churches&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class="progress-bar"&gt;
+        &lt;div class="progress-fill" style="width: 60%"&gt;60%&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</pre>
+            </div>
+        </div>
+
+        <!-- Badge Statistics -->
+        <div class="section">
+            <h2>Badge System Statistics</h2>
+            <div class="badge-stats">
+                <div class="stat-item">
+                    <div class="stat-number">14</div>
+                    <div class="stat-label">Total Badges</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">6</div>
+                    <div class="stat-label">Standard Tier</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">5</div>
+                    <div class="stat-label">Gold Tier</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">4</div>
+                    <div class="stat-label">Platinum Tier</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Badge Awarding Guidelines -->
+        <div class="section">
+            <h2>Badge Awarding Guidelines</h2>
+
+            <h3>Automatic vs Manual</h3>
+            <ul style="line-height: 2;">
+                <li><strong>Automatic:</strong> Ambassador, First Meeting (with photo proof)</li>
+                <li><strong>Manual Review:</strong> All others require quarterly report review and verification</li>
+                <li><strong>Team Awarded:</strong> Platinum tier badges require team decision</li>
+            </ul>
+
+            <h3>Verification Process</h3>
+            <ol style="line-height: 2;">
+                <li>Ambassador submits quarterly report with evidence</li>
+                <li>Team reviews claims and supporting materials (photos, links, testimonials)</li>
+                <li>Badges awarded and profile updated</li>
+                <li>Email notification sent to ambassador celebrating new badge</li>
+            </ol>
+
+            <h3>Badge Revocation</h3>
+            <p>Badges can be revoked if:</p>
+            <ul style="line-height: 2;">
+                <li>Evidence was fabricated or misleading</li>
+                <li>Ambassador violated covenant (especially charging policy)</li>
+                <li>Ambassador status is terminated</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

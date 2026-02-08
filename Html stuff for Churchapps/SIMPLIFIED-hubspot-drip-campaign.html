@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ChurchApps Ambassador - HubSpot Drip Campaign</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: #f5f5f5;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+            border-radius: 10px;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            margin: 0 0 10px 0;
+            font-size: 2.2em;
+        }
+
+        .email-card {
+            background: white;
+            padding: 30px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border-left: 5px solid #667eea;
+        }
+
+        .email-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #e9ecef;
+        }
+
+        .email-number {
+            background: #667eea;
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .email-timing {
+            background: #f8f9fa;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            color: #667eea;
+            font-weight: 600;
+        }
+
+        .subject {
+            background: #f8f9ff;
+            padding: 12px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            border-left: 3px solid #667eea;
+        }
+
+        .subject strong {
+            color: #667eea;
+        }
+
+        .email-body {
+            color: #333;
+            line-height: 1.7;
+        }
+
+        .action-item {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+
+        .trigger {
+            background: #d4edda;
+            border-left: 4px solid #28a745;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+
+        .trigger strong {
+            color: #155724;
+        }
+
+        .overview {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .overview h2 {
+            color: #667eea;
+            margin-top: 0;
+        }
+
+        .workflow-steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .step {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            border: 2px solid #e9ecef;
+        }
+
+        .step-number {
+            color: #667eea;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        code {
+            background: #f8f9fa;
+            padding: 2px 8px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            color: #e83e8c;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>HubSpot Drip Campaign</h1>
+        <p>ChurchApps Ambassador Onboarding Sequence</p>
+    </div>
+
+    <div class="overview">
+        <h2>Campaign Overview</h2>
+        <p><strong>Purpose:</strong> Automatically onboard new ambassadors with helpful information over their first 30 days</p>
+        <p><strong>Trigger:</strong> Form submission on ambassador registration page</p>
+        <p><strong>Total Emails:</strong> 6 emails over 30 days</p>
+
+        <div class="workflow-steps">
+            <div class="step">
+                <div class="step-number">📝</div>
+                <div>Form Submit</div>
+            </div>
+            <div class="step">
+                <div class="step-number">Day 0</div>
+                <div>Welcome Email</div>
+            </div>
+            <div class="step">
+                <div class="step-number">Day 3</div>
+                <div>Resources</div>
+            </div>
+            <div class="step">
+                <div class="step-number">Day 7</div>
+                <div>First Meeting</div>
+            </div>
+            <div class="step">
+                <div class="step-number">Day 14</div>
+                <div>Success Stories</div>
+            </div>
+            <div class="step">
+                <div class="step-number">Day 30</div>
+                <div>Check-in</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Email 1 -->
+    <div class="email-card">
+        <div class="email-header">
+            <div style="display: flex; align-items: center; gap: 15px;">
+                <div class="email-number">1</div>
+                <h2 style="margin: 0;">Welcome & Next Steps</h2>
+            </div>
+            <div class="email-timing">Immediate (Day 0)</div>
+        </div>
+
+        <div class="trigger">
+            <strong>🔔 Trigger:</strong> Form submission
+        </div>
+
+        <div class="subject">
+            <strong>Subject:</strong> Welcome to the ChurchApps Ambassador family! 🎉
+        </div>
+
+        <div class="email-body">
+            <p>Hi [First Name],</p>
+
+            <p>Thank you for applying to become a ChurchApps Ambassador for [Region]! We're excited about your interest in helping churches in your area.</p>
+
+            <p><strong>What happens next?</strong></p>
+            <ol>
+                <li><strong>Photo Proof (Action Required):</strong> Please reply with 2-3 photos showing your church using ChurchApps products</li>
+                <li>Our team will review your application within 3 business days</li>
+                <li>We'll schedule a quick video call to discuss your vision</li>
+            </ol>
+
+            <p>We've attached a quick one-sheet PDF with more info about the program.</p>
+
+            <p>Looking forward to partnering with you!</p>
+
+            <p><strong>The ChurchApps Team</strong></p>
+        </div>
+
+        <div class="action-item">
+            <strong>📎 Attachment:</strong> SIMPLIFIED-ambassador-one-sheet.pdf<br>
+            <strong>🔗 CTA Button:</strong> "View Ambassador Program Details" → Link to program page
+        </div>
+    </div>
+
+    <!-- Email 2 -->
+    <div class="email-card">
+        <div class="email-header">
+            <div style="display: flex; align-items: center; gap: 15px;">
+                <div class="email-number">2</div>
+                <h2 style="margin: 0;">Your Ambassador Resources</h2>
+            </div>
+            <div class="email-timing">Day 3</div>
+        </div>
+
+        <div class="trigger">
+            <strong>🔔 Trigger:</strong> 3 days after form submission
+        </div>
+
+        <div class="subject">
+            <strong>Subject:</strong> Here are your ChurchApps Ambassador resources
+        </div>
+
+        <div class="email-body">
+            <p>Hi [First Name],</p>
+
+            <p>While we review your application, here are some helpful resources to get you familiar with ChurchApps:</p>
+
+            <p><strong>📚 Essential Resources:</strong></p>
+            <ul>
+                <li><strong>Brand Kit:</strong> Logos, colors, and usage guidelines [Link]</li>
+                <li><strong>Tutorial Videos:</strong> Share these with churches you help [Link]</li>
+                <li><strong>User Group Starter Guide:</strong> How to launch in 7 days [Link]</li>
+            </ul>
+
+            <p><strong>💡 Pro Tip:</strong> Start thinking about 5-10 people or churches you'd invite to your first user group meeting.</p>
+
+            <p>Questions? Just reply to this email!</p>
+        </div>
+
+        <div class="action-item">
+            <strong>🔗 CTA Button:</strong> "Browse All Resources"
+        </div>
+    </div>
+
+    <!-- Email 3 -->
+    <div class="email-card">
+        <div class="email-header">
+            <div style="display: flex; align-items: center; gap: 15px;">
+                <div class="email-number">3</div>
+                <h2 style="margin: 0;">Planning Your First Meeting</h2>
+            </div>
+            <div class="email-timing">Day 7</div>
+        </div>
+
+        <div class="trigger">
+            <strong>🔔 Trigger:</strong> 7 days after form submission
+        </div>
+
+        <div class="subject">
+            <strong>Subject:</strong> Ready to plan your first user group meeting?
+        </div>
+
+        <div class="email-body">
+            <p>Hi [First Name],</p>
+
+            <p>Your first user group meeting doesn't need to be complicated! Here are 3 simple formats that work:</p>
+
+            <p><strong>Option 1: Virtual Coffee Chat (30 min)</strong></p>
+            <ul>
+                <li>Invite 3-5 church leaders to a Zoom call</li>
+                <li>Share your story and why you love ChurchApps</li>
+                <li>Ask: "What are your biggest church tech challenges?"</li>
+            </ul>
+
+            <p><strong>Option 2: Demo Night (45 min)</strong></p>
+            <ul>
+                <li>Pick one product (like FreeShow) to demonstrate</li>
+                <li>Show how you use it in your church</li>
+                <li>Offer to help others get started</li>
+            </ul>
+
+            <p><strong>Option 3: In-Person Setup Help</strong></p>
+            <ul>
+                <li>Visit a church and help them set up ChurchApps</li>
+                <li>Document the process with photos</li>
+                <li>Share the success story with us!</li>
+            </ul>
+
+            <p><strong>Remember:</strong> You're not the expert, you're the connector!</p>
+        </div>
+
+        <div class="action-item">
+            <strong>📎 Download:</strong> Meeting Agenda Templates
+        </div>
+    </div>
+
+    <!-- Email 4 -->
+    <div class="email-card">
+        <div class="email-header">
+            <div style="display: flex; align-items: center; gap: 15px;">
+                <div class="email-number">4</div>
+                <h2 style="margin: 0;">Success Stories to Inspire You</h2>
+            </div>
+            <div class="email-timing">Day 14</div>
+        </div>
+
+        <div class="trigger">
+            <strong>🔔 Trigger:</strong> 14 days after form submission
+        </div>
+
+        <div class="subject">
+            <strong>Subject:</strong> See what other ambassadors are doing 🌟
+        </div>
+
+        <div class="email-body">
+            <p>Hi [First Name],</p>
+
+            <p>Want some inspiration? Here are real stories from ambassadors around the world:</p>
+
+            <p><strong>🇰🇷 Park Min-soo - Seoul, South Korea</strong><br>
+            "I hosted a simple training session for 8 small churches. Now 12 churches in my city are saving thousands of dollars per year by using FreeShow instead of paid software!"</p>
+
+            <p><strong>🇧🇷 João Silva - São Paulo, Brazil</strong><br>
+            "I translated the FreeShow documentation to Portuguese. Now it's accessible to 200+ million Portuguese speakers. It took just one weekend!"</p>
+
+            <p><strong>🇺🇸 Sarah Johnson - Austin, USA</strong><br>
+            "Started with a coffee chat with 3 friends. Now we have a 40-person WhatsApp group where church tech volunteers help each other daily."</p>
+
+            <p><strong>The common thread?</strong> They all started small and simple.</p>
+
+            <p>What will your story be?</p>
+        </div>
+    </div>
+
+    <!-- Email 5 -->
+    <div class="email-card">
+        <div class="email-header">
+            <div style="display: flex; align-items: center; gap: 15px;">
+                <div class="email-number">5</div>
+                <h2 style="margin: 0;">30-Day Check-In</h2>
+            </div>
+            <div class="email-timing">Day 30</div>
+        </div>
+
+        <div class="trigger">
+            <strong>🔔 Trigger:</strong> 30 days after form submission
+        </div>
+
+        <div class="subject">
+            <strong>Subject:</strong> How's your first month going?
+        </div>
+
+        <div class="email-body">
+            <p>Hi [First Name],</p>
+
+            <p>You've been an ambassador for a month now! How's it going?</p>
+
+            <p><strong>Quick check-in questions:</strong></p>
+            <ul>
+                <li>Have you hosted your first meeting or activity?</li>
+                <li>How many people/churches are you connecting with?</li>
+                <li>What's been your biggest challenge so far?</li>
+                <li>How can we better support you?</li>
+            </ul>
+
+            <p>Just reply to this email - we'd love to hear from you!</p>
+
+            <p><strong>Upcoming reminder:</strong> Your first quarterly report will be due on [Date]. It's super simple - just 10 minutes to share what you've been up to.</p>
+
+            <p>Keep up the great work!</p>
+        </div>
+
+        <div class="action-item">
+            <strong>🔗 CTA Button:</strong> "Join Ambassador Community Chat"
+        </div>
+    </div>
+
+    <!-- Email 6 - Quarterly Report Reminder -->
+    <div class="email-card">
+        <div class="email-header">
+            <div style="display: flex; align-items: center; gap: 15px;">
+                <div class="email-number">6</div>
+                <h2 style="margin: 0;">Quarterly Report Reminder</h2>
+            </div>
+            <div class="email-timing">14 days before Q1 end</div>
+        </div>
+
+        <div class="trigger">
+            <strong>🔔 Trigger:</strong> March 17, June 17, Sept 17, Dec 17 (14 days before quarter end)
+        </div>
+
+        <div class="subject">
+            <strong>Subject:</strong> Your Q[X] report is due soon - 10 minutes to complete
+        </div>
+
+        <div class="email-body">
+            <p>Hi [First Name],</p>
+
+            <p>Your quarterly ambassador report is due in 2 weeks (<strong>[Date]</strong>).</p>
+
+            <p><strong>This is quick and easy - just answer:</strong></p>
+            <ul>
+                <li>How many meetings/events did you host?</li>
+                <li>How many churches did you help?</li>
+                <li>What challenges are churches in your region facing?</li>
+                <li>Any success stories or photos to share?</li>
+            </ul>
+
+            <p><strong>Why this matters:</strong> Your feedback helps us build better products and support you better. Plus, submitting reports unlocks new badges! 🏆</p>
+
+            <p>Even if you hosted zero events this quarter, that's okay - just tell us why so we can help!</p>
+        </div>
+
+        <div class="action-item">
+            <strong>🔗 CTA Button:</strong> "Submit Quarterly Report" → Link to form
+        </div>
+    </div>
+
+    <div class="overview" style="margin-top: 40px;">
+        <h2>HubSpot Setup Instructions</h2>
+
+        <h3>1. Create the Workflow</h3>
+        <ul>
+            <li>Go to Automation → Workflows → Create workflow</li>
+            <li>Choose "Contact-based"</li>
+            <li>Set enrollment trigger: <code>Form submission = Ambassador Registration Form</code></li>
+        </ul>
+
+        <h3>2. Add Delays & Emails</h3>
+        <ul>
+            <li>Email 1: Send immediately</li>
+            <li>Delay: 3 days → Email 2</li>
+            <li>Delay: 4 days → Email 3 (Day 7 total)</li>
+            <li>Delay: 7 days → Email 4 (Day 14 total)</li>
+            <li>Delay: 16 days → Email 5 (Day 30 total)</li>
+        </ul>
+
+        <h3>3. Create Separate Quarterly Report Workflow</h3>
+        <ul>
+            <li>Create date-based workflow</li>
+            <li>Trigger on specific dates: March 17, June 17, Sept 17, Dec 17</li>
+            <li>Filter: Contact property "Ambassador Status" = "Active"</li>
+        </ul>
+
+        <h3>4. Personalization Tokens</h3>
+        <p>Use these HubSpot tokens in your emails:</p>
+        <ul>
+            <li><code>{{ contact.firstname }}</code> - First name</li>
+            <li><code>{{ contact.ambassador_region }}</code> - Custom property for region</li>
+            <li><code>{{ contact.ambassador_email }}</code> - Their ambassador email</li>
+        </ul>
+
+        <h3>5. Track Engagement</h3>
+        <ul>
+            <li>Monitor email open rates (target: 40%+)</li>
+            <li>Track CTA clicks (especially resource downloads)</li>
+            <li>Flag contacts who don't reply to photos within 7 days</li>
+            <li>Set task reminder for team to follow up on low engagement</li>
+        </ul>
+    </div>
+</body>
+</html>
+
+<!--
+    NEXT STEPS TO IMPLEMENT IN HUBSPOT:
+    1. Create custom contact properties:
+       - Ambassador Status (Active/Pending/Inactive)
+       - Ambassador Region
+       - Ambassador Email
+       - Application Date
+       - Last Activity Date
+
+    2. Create the registration form in HubSpot Forms
+
+    3. Build this workflow in HubSpot Automation
+
+    4. Upload the one-sheet PDF to HubSpot Files
+
+    5. Test the workflow with a test contact
+-->

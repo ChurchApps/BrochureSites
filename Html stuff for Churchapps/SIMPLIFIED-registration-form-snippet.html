@@ -1,0 +1,130 @@
+<!--
+    CHURCHAPPS AMBASSADOR REGISTRATION FORM
+    Simple form snippet to plug into B1 Admin
+    Copy and paste this into your B1 form builder
+-->
+
+<style>
+    .ambassador-form {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .form-group {
+        margin-bottom: 20px;
+    }
+    .form-group label {
+        display: block;
+        font-weight: 600;
+        color: #667eea;
+        margin-bottom: 8px;
+    }
+    .form-group input,
+    .form-group textarea,
+    .form-group select {
+        width: 100%;
+        padding: 12px;
+        border: 2px solid #e9ecef;
+        border-radius: 5px;
+        font-size: 1em;
+    }
+    .form-group textarea {
+        min-height: 100px;
+    }
+    .required {
+        color: #dc3545;
+    }
+    .submit-btn {
+        background: #667eea;
+        color: white;
+        border: none;
+        padding: 15px 40px;
+        border-radius: 25px;
+        font-size: 1.1em;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .submit-btn:hover {
+        background: #764ba2;
+    }
+</style>
+
+<div class="ambassador-form">
+    <h2 style="color: #667eea; text-align: center; margin-bottom: 30px;">Become a ChurchApps Ambassador</h2>
+
+    <p style="text-align: center; margin-bottom: 30px;">Help churches in your region discover free, open-source ministry tools.</p>
+
+    <form>
+        <!-- Personal Info -->
+        <div class="form-group">
+            <label>Full Name <span class="required">*</span></label>
+            <input type="text" name="name" required>
+        </div>
+
+        <div class="form-group">
+            <label>Email <span class="required">*</span></label>
+            <input type="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label>Phone Number <span class="required">*</span></label>
+            <input type="tel" name="phone" required>
+        </div>
+
+        <div class="form-group">
+            <label>City/Region <span class="required">*</span></label>
+            <input type="text" name="region" placeholder="e.g., Seoul, South Korea" required>
+        </div>
+
+        <div class="form-group">
+            <label>Country <span class="required">*</span></label>
+            <input type="text" name="country" required>
+        </div>
+
+        <!-- Church/Ministry -->
+        <div class="form-group">
+            <label>Church/Organization Name <span class="required">*</span></label>
+            <input type="text" name="church" required>
+        </div>
+
+        <div class="form-group">
+            <label>Your Role <span class="required">*</span></label>
+            <input type="text" name="role" placeholder="e.g., Pastor, Tech Volunteer" required>
+        </div>
+
+        <!-- Experience -->
+        <div class="form-group">
+            <label>Which ChurchApps products do you use? <span class="required">*</span></label>
+            <textarea name="products" placeholder="e.g., FreeShow for worship, B1.church for member management" required></textarea>
+        </div>
+
+        <div class="form-group">
+            <label>Brief Christian Faith Statement <span class="required">*</span></label>
+            <textarea name="faith" placeholder="In 2-3 sentences, describe your relationship with Jesus Christ" required></textarea>
+        </div>
+
+        <!-- Vision -->
+        <div class="form-group">
+            <label>Why do you want to be an ambassador? <span class="required">*</span></label>
+            <textarea name="vision" placeholder="Describe your vision for helping churches in your region" required></textarea>
+        </div>
+
+        <!-- Agreement -->
+        <div class="form-group">
+            <label style="display: flex; align-items: flex-start;">
+                <input type="checkbox" name="no_charging" required style="width: auto; margin-right: 10px; margin-top: 5px;">
+                <span>I understand this is volunteer work and I will never charge churches for ChurchApps support. <span class="required">*</span></span>
+            </label>
+        </div>
+
+        <div style="text-align: center; margin-top: 30px;">
+            <button type="submit" class="submit-btn">Submit Application</button>
+        </div>
+    </form>
+</div>
+
+<!--
+    AFTER FORM SUBMISSION:
+    1. Send auto-response email via HubSpot
+    2. Request photos via email
+    3. Trigger HubSpot drip campaign
+-->

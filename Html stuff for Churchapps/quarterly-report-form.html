@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChurchApps Ambassador Quarterly Report</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 50px 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            opacity: 0.95;
+            font-size: 1.2em;
+        }
+
+        .content {
+            padding: 50px 40px;
+        }
+
+        .intro-box {
+            background: #f8f9ff;
+            border-left: 4px solid #667eea;
+            padding: 25px;
+            margin-bottom: 40px;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .intro-box h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        .alert {
+            padding: 20px;
+            border-radius: 8px;
+            margin: 25px 0;
+        }
+
+        .alert-success {
+            background: #d4edda;
+            border-left: 4px solid #28a745;
+            color: #155724;
+        }
+
+        .alert-info {
+            background: #d1ecf1;
+            border-left: 4px solid #0c5460;
+            color: #0c5460;
+        }
+
+        .form-group {
+            margin-bottom: 35px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: 600;
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        .form-group .help-text {
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 8px;
+            font-style: italic;
+        }
+
+        .required {
+            color: #dc3545;
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="number"],
+        .form-group input[type="email"],
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 14px;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            font-size: 1em;
+            font-family: inherit;
+            transition: border-color 0.3s;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .form-group textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+
+        .section-header {
+            color: #667eea;
+            font-size: 1.8em;
+            margin: 50px 0 25px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #667eea;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .section-header .icon {
+            font-size: 1.2em;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 25px 0;
+        }
+
+        .stat-box {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            border: 2px solid #e9ecef;
+        }
+
+        .stat-box label {
+            display: block;
+            font-weight: 600;
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 0.95em;
+        }
+
+        .stat-box input {
+            width: 100%;
+            text-align: center;
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            border: 2px solid #e9ecef;
+            border-radius: 5px;
+        }
+
+        .checkbox-list {
+            margin: 15px 0;
+        }
+
+        .checkbox-item {
+            margin: 15px 0;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .checkbox-item input {
+            width: auto;
+            margin-right: 12px;
+            margin-top: 4px;
+        }
+
+        .checkbox-item label {
+            font-weight: normal;
+            color: #333;
+            margin-bottom: 0;
+        }
+
+        .submit-section {
+            margin-top: 50px;
+            padding-top: 40px;
+            border-top: 2px solid #e9ecef;
+            text-align: center;
+        }
+
+        .submit-btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 18px 60px;
+            border-radius: 50px;
+            font-size: 1.2em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 4px 10px rgba(102, 126, 234, 0.3);
+        }
+
+        .submit-btn:hover {
+            background: #764ba2;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .upload-area {
+            border: 2px dashed #667eea;
+            background: #f8f9ff;
+            padding: 30px;
+            border-radius: 8px;
+            text-align: center;
+            margin: 20px 0;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .upload-area:hover {
+            background: #e7f0ff;
+            border-color: #764ba2;
+        }
+
+        .upload-area .icon {
+            font-size: 3em;
+            margin-bottom: 15px;
+            color: #667eea;
+        }
+
+        .footer {
+            background: #f8f9fa;
+            padding: 30px;
+            text-align: center;
+            color: #666;
+        }
+
+        .badge-preview {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 20px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+
+        .badge {
+            background: white;
+            border: 2px solid #667eea;
+            color: #667eea;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .badge.earned {
+            background: #667eea;
+            color: white;
+        }
+
+        .progress-bar {
+            background: #e9ecef;
+            height: 30px;
+            border-radius: 15px;
+            overflow: hidden;
+            margin: 20px 0;
+        }
+
+        .progress-fill {
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            height: 100%;
+            transition: width 0.5s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 600;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📊 Quarterly Report</h1>
+            <p>ChurchApps Ambassador Program</p>
+        </div>
+
+        <div class="content">
+            <div class="intro-box">
+                <h3>Welcome back, Ambassador!</h3>
+                <p>Thank you for taking 10-15 minutes to share what's been happening in your region. Your insights help us improve ChurchApps and support you better.</p>
+                <p style="margin-top: 10px;"><strong>Reporting Period:</strong> <span id="period">[Quarter] [Year]</span></p>
+            </div>
+
+            <div class="alert alert-info">
+                <strong>Be honest!</strong> We want to hear about challenges and struggles, not just wins. Zero activities this quarter? That's okay - just tell us why. This helps us support you better.
+            </div>
+
+            <form id="quarterly-report">
+                <!-- Ambassador Info -->
+                <h2 class="section-header">
+                    <span class="icon">👤</span>
+                    Ambassador Information
+                </h2>
+
+                <div class="form-group">
+                    <label>Your Name <span class="required">*</span></label>
+                    <input type="text" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Region <span class="required">*</span></label>
+                    <input type="text" name="region" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Email <span class="required">*</span></label>
+                    <input type="email" name="email" required>
+                </div>
+
+                <!-- Activity Summary -->
+                <h2 class="section-header">
+                    <span class="icon">📅</span>
+                    Activity Summary
+                </h2>
+
+                <div class="stats-grid">
+                    <div class="stat-box">
+                        <label>Meetings/Events Hosted</label>
+                        <input type="number" name="meetings_count" min="0" value="0" required>
+                    </div>
+
+                    <div class="stat-box">
+                        <label>Churches Helped</label>
+                        <input type="number" name="churches_count" min="0" value="0" required>
+                    </div>
+
+                    <div class="stat-box">
+                        <label>Individuals Engaged</label>
+                        <input type="number" name="individuals_count" min="0" value="0" required>
+                    </div>
+
+                    <div class="stat-box">
+                        <label>User Group Size</label>
+                        <input type="number" name="group_size" min="0" value="0" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>If you hosted meetings/events, please describe them <span class="required">*</span></label>
+                    <textarea name="activities_description" placeholder="e.g., 'Hosted 2 training sessions on FreeShow (15 attendees total), helped 3 churches set up B1.church one-on-one, organized a hack night for translating documentation (8 participants)'" required></textarea>
+                    <div class="help-text">If you didn't host any, explain why (e.g., "Too busy with church plant launch, plan to resume next quarter")</div>
+                </div>
+
+                <div class="form-group">
+                    <label>What ChurchApps products did you focus on this quarter?</label>
+                    <div class="checkbox-list">
+                        <div class="checkbox-item">
+                            <input type="checkbox" name="products" value="freeshow" id="prod-freeshow">
+                            <label for="prod-freeshow">FreeShow (worship presentations)</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" name="products" value="lessons" id="prod-lessons">
+                            <label for="prod-lessons">Lessons.church (curriculum platform)</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" name="products" value="b1" id="prod-b1">
+                            <label for="prod-b1">B1.church (church management)</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" name="products" value="worship-tools" id="prod-worship">
+                            <label for="prod-worship">Worship.tools</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" name="products" value="other" id="prod-other">
+                            <label for="prod-other">Other ChurchApps products</label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Insights & Feedback -->
+                <h2 class="section-header">
+                    <span class="icon">💡</span>
+                    Insights & Feedback
+                </h2>
+
+                <div class="form-group">
+                    <label>What are the top 2-3 recurring questions or challenges you're hearing from churches? <span class="required">*</span></label>
+                    <textarea name="recurring_challenges" placeholder="e.g., '1) Many struggle with initial setup - need simpler onboarding, 2) Want mobile app for check-in, 3) Translation of UI into Korean needed'" required></textarea>
+                    <div class="help-text">This is gold for our development team!</div>
+                </div>
+
+                <div class="form-group">
+                    <label>What's one surprising win or success story from this quarter?</label>
+                    <textarea name="win_story" placeholder="e.g., 'A small church of 30 saved $2,400/year by switching to FreeShow from ProPresenter. Pastor was thrilled and wants to help other small churches.'"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>What's one cultural or regional insight we should know about?</label>
+                    <textarea name="cultural_insight" placeholder="e.g., 'In Korea, churches are very hesitant about cloud-based solutions due to privacy concerns. Local hosting options would help adoption significantly.'"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>What's one idea or feature request worth exploring?</label>
+                    <textarea name="feature_idea" placeholder="e.g., 'Ability to schedule posts in advance for church announcements - many pastors want to batch-create content on Mondays for the whole week'"></textarea>
+                </div>
+
+                <!-- Challenges & Support -->
+                <h2 class="section-header">
+                    <span class="icon">🤔</span>
+                    Challenges & Support Needed
+                </h2>
+
+                <div class="form-group">
+                    <label>What challenges did YOU face as an ambassador this quarter? <span class="required">*</span></label>
+                    <textarea name="personal_challenges" placeholder="e.g., 'Hard to find time with new job starting, felt overwhelmed not knowing all the technical answers, struggled to get people to commit to meetings'" required></textarea>
+                    <div class="help-text">Be honest - we want to help!</div>
+                </div>
+
+                <div class="form-group">
+                    <label>How can the ChurchApps team better support you?</label>
+                    <textarea name="support_needed" placeholder="e.g., 'Need more beginner-friendly video tutorials I can share, would love a monthly ambassador call to share best practices, need translated documentation for Korean churches'"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>What resources or tools would be most helpful for you?</label>
+                    <textarea name="resource_requests" placeholder="e.g., 'Ready-made slide deck for introducing ChurchApps to church boards, FAQ document in Korean, demo accounts I can use for training'"></textarea>
+                </div>
+
+                <!-- Contributions & Content -->
+                <h2 class="section-header">
+                    <span class="icon">📸</span>
+                    Stories, Photos & Testimonials
+                </h2>
+
+                <div class="alert alert-success">
+                    <strong>Share your content!</strong> Photos, testimonials, and stories help us promote ChurchApps and unlock badges for you. Even a simple photo from a meeting is valuable!
+                </div>
+
+                <div class="form-group">
+                    <label>Do you have photos from meetings or churches using ChurchApps?</label>
+                    <div class="upload-area">
+                        <div class="icon">📷</div>
+                        <p><strong>Click to upload photos</strong></p>
+                        <p style="font-size: 0.9em; color: #666; margin-top: 10px;">Or email them to ambassadors@churchapps.org after submitting</p>
+                        <input type="file" name="photos" multiple accept="image/*" style="display: none;">
+                    </div>
+                    <div class="help-text">Include captions describing what's shown</div>
+                </div>
+
+                <div class="form-group">
+                    <label>Any testimonials or quotes from churches you helped?</label>
+                    <textarea name="testimonials" placeholder='e.g., "This saved us so much money! We can now afford to hire a youth pastor with what we were spending on church software." - Pastor Kim, Seoul Community Church'></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>Links to any content you created (blog posts, videos, translations, etc.)</label>
+                    <textarea name="content_links" placeholder="Paste URLs to any documentation, tutorials, or resources you created"></textarea>
+                </div>
+
+                <!-- Looking Ahead -->
+                <h2 class="section-header">
+                    <span class="icon">🎯</span>
+                    Looking Ahead
+                </h2>
+
+                <div class="form-group">
+                    <label>What are your goals for next quarter?</label>
+                    <textarea name="next_quarter_goals" placeholder="e.g., 'Host first in-person meetup with 10+ attendees, help 5 new churches get started, translate FreeShow documentation into Korean'"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>Are you planning any special events or initiatives?</label>
+                    <textarea name="upcoming_events" placeholder="e.g., 'Planning a regional conference in May with ChurchApps booth, want to do a webinar series on church tech basics'"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>Overall, how are you feeling about your ambassador role?</label>
+                    <select name="satisfaction" required>
+                        <option value="">Select...</option>
+                        <option value="thriving">Thriving - loving it!</option>
+                        <option value="good">Good - going well</option>
+                        <option value="okay">Okay - manageable</option>
+                        <option value="struggling">Struggling - feeling overwhelmed</option>
+                        <option value="need-break">Need a break - considering pausing</option>
+                    </select>
+                </div>
+
+                <!-- Badge Progress -->
+                <h2 class="section-header">
+                    <span class="icon">🏆</span>
+                    Your Badge Progress
+                </h2>
+
+                <p style="margin-bottom: 20px;">Based on your report, you may unlock new badges! We'll review and update your profile.</p>
+
+                <div class="badge-preview">
+                    <div class="badge earned">🌟 Ambassador</div>
+                    <div class="badge">🎉 First Meeting</div>
+                    <div class="badge">⛪ 5 Churches</div>
+                    <div class="badge">⛪⛪ 10 Churches</div>
+                    <div class="badge">🎤 Seminar Leader</div>
+                    <div class="badge">📚 Translator</div>
+                    <div class="badge">💻 Contributor</div>
+                    <div class="badge">📸 Story Teller</div>
+                    <div class="badge">🎂 Year 1 Veteran</div>
+                </div>
+
+                <div class="help-text" style="text-align: center; margin-top: 10px;">
+                    Badges are awarded based on verified activities. Photos help us verify!
+                </div>
+
+                <!-- Final Confirmation -->
+                <h2 class="section-header">
+                    <span class="icon">✅</span>
+                    Confirmation
+                </h2>
+
+                <div class="form-group">
+                    <div class="checkbox-item">
+                        <input type="checkbox" name="truthful" required id="truthful">
+                        <label for="truthful">I certify that the information in this report is accurate and truthful. <span class="required">*</span></label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="checkbox-item">
+                        <input type="checkbox" name="no_charging_confirm" required id="no-charging">
+                        <label for="no-charging">I confirm that I have not charged any fees for ChurchApps-related services this quarter. <span class="required">*</span></label>
+                    </div>
+                </div>
+
+                <div class="submit-section">
+                    <p style="margin-bottom: 25px; color: #666; font-size: 1.1em;">
+                        <strong>Thank you for your faithfulness in serving churches!</strong>
+                    </p>
+                    <button type="submit" class="submit-btn">Submit Quarterly Report</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="footer">
+            <p><strong>Questions or need help?</strong></p>
+            <p>Email ambassadors@churchapps.org</p>
+            <p style="margin-top: 15px; font-size: 0.9em;">
+                Your next report is due: <strong>[Next Quarter Date]</strong>
+            </p>
+        </div>
+    </div>
+
+    <script>
+        // File upload interactivity
+        document.querySelector('.upload-area').addEventListener('click', function() {
+            this.querySelector('input[type="file"]').click();
+        });
+
+        document.querySelector('input[type="file"]').addEventListener('change', function(e) {
+            const fileCount = e.target.files.length;
+            if (fileCount > 0) {
+                const uploadArea = this.closest('.upload-area');
+                uploadArea.querySelector('p').innerHTML = `<strong>${fileCount} photo(s) selected</strong>`;
+            }
+        });
+
+        // Form submission
+        document.getElementById('quarterly-report').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for submitting your quarterly report! (In production, this would save to your database)');
+            // Add actual submission logic here
+        });
+
+        // Dynamic badge calculation (example)
+        function updateBadgeProgress() {
+            const churches = parseInt(document.querySelector('input[name="churches_count"]').value) || 0;
+            const meetings = parseInt(document.querySelector('input[name="meetings_count"]').value) || 0;
+
+            // Update badge displays based on progress
+            // This is simplified - actual implementation would be more sophisticated
+        }
+
+        document.querySelectorAll('.stat-box input').forEach(input => {
+            input.addEventListener('change', updateBadgeProgress);
+        });
+    </script>
+</body>
+</html>

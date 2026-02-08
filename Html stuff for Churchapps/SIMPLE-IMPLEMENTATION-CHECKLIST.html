@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ChurchApps Ambassador - Simple Implementation Checklist</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: #f5f5f5;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+            border-radius: 10px;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            margin: 0 0 10px 0;
+            font-size: 2.5em;
+        }
+
+        .section {
+            background: white;
+            padding: 30px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #667eea;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .checklist {
+            list-style: none;
+            padding: 0;
+        }
+
+        .checklist li {
+            padding: 15px;
+            margin: 10px 0;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 5px solid #e9ecef;
+            position: relative;
+            padding-left: 50px;
+        }
+
+        .checklist li:before {
+            content: "☐";
+            position: absolute;
+            left: 15px;
+            font-size: 1.8em;
+            color: #667eea;
+        }
+
+        .checklist li strong {
+            color: #667eea;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .priority-high {
+            border-left-color: #dc3545;
+        }
+
+        .priority-medium {
+            border-left-color: #ffc107;
+        }
+
+        .priority-low {
+            border-left-color: #28a745;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 0.75em;
+            font-weight: 600;
+            margin-left: 10px;
+        }
+
+        .badge-urgent {
+            background: #dc3545;
+            color: white;
+        }
+
+        .badge-soon {
+            background: #ffc107;
+            color: #333;
+        }
+
+        .badge-later {
+            background: #28a745;
+            color: white;
+        }
+
+        .files-needed {
+            background: #d1ecf1;
+            border-left: 4px solid #0c5460;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .alert {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .success {
+            background: #d4edda;
+            border-left: 4px solid #28a745;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .success h3 {
+            color: #155724;
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🚀 Simple Implementation</h1>
+        <p>Get your Ambassador Program running this week</p>
+    </div>
+
+    <div class="alert">
+        <strong>📌 Your Goal:</strong> Get Korea ambassador onboarded this week to test the system before opening to others.
+    </div>
+
+    <!-- PHASE 1: THIS WEEK -->
+    <div class="section">
+        <h2>Week 1: Core Setup (Do This Week)</h2>
+
+        <ul class="checklist">
+            <li class="priority-high">
+                <strong>1. Build Registration Form in B1 Admin <span class="badge badge-urgent">DO FIRST</span></strong>
+                Use the HTML from <code>SIMPLIFIED-registration-form-snippet.html</code><br>
+                Fields: Name, Email, Phone, Region, Country, Church, Role, Products Used, Faith Statement, Vision, No Charging Agreement
+            </li>
+
+            <li class="priority-high">
+                <strong>2. Set Up HubSpot Drip Campaign <span class="badge badge-urgent">DO FIRST</span></strong>
+                Follow <code>SIMPLIFIED-hubspot-drip-campaign.html</code><br>
+                6 emails over 30 days + quarterly report reminders
+            </li>
+
+            <li class="priority-high">
+                <strong>3. Create Korea Ambassador Email <span class="badge badge-urgent">DO FIRST</span></strong>
+                Set up Google Group: korea@churchapps.org<br>
+                Forward to his personal email + CC ambassadors-monitor@churchapps.org
+            </li>
+
+            <li class="priority-medium">
+                <strong>4. Print One-Sheet for Korea Ambassador <span class="badge badge-soon">THIS WEEK</span></strong>
+                Open <code>SIMPLIFIED-ambassador-one-sheet.html</code> and print to PDF<br>
+                Send as attachment in welcome email
+            </li>
+
+            <li class="priority-medium">
+                <strong>5. Fast-Track Korea Through Process <span class="badge badge-soon">THIS WEEK</span></strong>
+                Since he's already vetted, skip some steps:<br>
+                ✓ Skip formal application (you already have his info)<br>
+                ✓ Skip reference checks (already done)<br>
+                → Just need: Email setup + Welcome email + One-sheet
+            </li>
+        </ul>
+    </div>
+
+    <!-- PHASE 2: NEXT 2 WEEKS -->
+    <div class="section">
+        <h2>Weeks 2-3: World Map & Testing</h2>
+
+        <ul class="checklist">
+            <li class="priority-medium">
+                <strong>6. Add World Map to Website <span class="badge badge-soon">WEEK 2</span></strong>
+                Use <code>SIMPLIFIED-world-map-snippet.html</code><br>
+                Add Korea ambassador as first pin on the map<br>
+                Update his photo, bio, and stats
+            </li>
+
+            <li class="priority-low">
+                <strong>7. Create Private Facebook Group <span class="badge badge-later">WEEK 2-3</span></strong>
+                Name: "ChurchApps Ambassadors (Private)"<br>
+                Invite Korea ambassador<br>
+                Will add more ambassadors as they join
+            </li>
+
+            <li class="priority-low">
+                <strong>8. Monitor Korea's First 30 Days <span class="badge badge-later">ONGOING</span></strong>
+                Watch HubSpot emails - is he opening them?<br>
+                Did he host his first meeting?<br>
+                What questions does he have?<br>
+                Document all issues/improvements needed
+            </li>
+        </ul>
+    </div>
+
+    <!-- PHASE 3: SCALE -->
+    <div class="section">
+        <h2>Week 4+: Open to More Ambassadors</h2>
+
+        <ul class="checklist">
+            <li class="priority-low">
+                <strong>9. Fix Any Issues from Korea Test <span class="badge badge-later">WEEK 4</span></strong>
+                Update forms, emails, or process based on feedback<br>
+                Make it smoother for next batch
+            </li>
+
+            <li class="priority-low">
+                <strong>10. Open to Next 3-4 Candidates <span class="badge badge-later">WEEK 5</span></strong>
+                Spain guy and others who expressed interest<br>
+                Now use the full registration form<br>
+                Let HubSpot automation handle onboarding
+            </li>
+
+            <li class="priority-low">
+                <strong>11. Update World Map as They Join <span class="badge badge-later">ONGOING</span></strong>
+                Add each new ambassador to <code>SIMPLIFIED-world-map-snippet.html</code><br>
+                Get their photo, bio, and coordinates<br>
+                Update the map monthly
+            </li>
+        </ul>
+    </div>
+
+    <!-- FILES YOU NEED -->
+    <div class="section">
+        <h2>📁 Files You Need (Already Created)</h2>
+
+        <div class="files-needed">
+            <strong>✅ Use These Files:</strong>
+            <ul>
+                <li><code>SIMPLIFIED-registration-form-snippet.html</code> - Copy into B1 Admin</li>
+                <li><code>SIMPLIFIED-world-map-snippet.html</code> - Add to your website</li>
+                <li><code>SIMPLIFIED-ambassador-one-sheet.html</code> - Print to PDF for ambassadors</li>
+                <li><code>SIMPLIFIED-hubspot-drip-campaign.html</code> - Set up in HubSpot</li>
+            </ul>
+        </div>
+
+        <div class="alert">
+            <strong>📦 Ignore the Complex Files (Level 2):</strong>
+            <ul>
+                <li>MASTER_PLAN.html - Good ideas for later, but too complex for now</li>
+                <li>ambassador-agreement.html - Use simple terms in your welcome email instead</li>
+                <li>Reference check forms - Skip for now, you're vetting personally</li>
+                <li>Quarterly report form - Build in B1 when you need it (Q1 2026)</li>
+                <li>Resource hub - HubSpot emails replace this for now</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- KOREA SPECIFIC -->
+    <div class="section">
+        <h2>🇰🇷 Korea Ambassador - Fast Track (This Week)</h2>
+
+        <p><strong>Since he's already vetted, here's your simple process:</strong></p>
+
+        <ol style="line-height: 2;">
+            <li><strong>TODAY:</strong> Create korea@churchapps.org email (Google Group)</li>
+            <li><strong>TODAY:</strong> Print one-sheet PDF</li>
+            <li><strong>TOMORROW:</strong> Send him welcome email with:
+                <ul>
+                    <li>Welcome message</li>
+                    <li>His new email: korea@churchapps.org</li>
+                    <li>One-sheet PDF attached</li>
+                    <li>Link to world map showing his profile</li>
+                    <li>Facebook group invite</li>
+                </ul>
+            </li>
+            <li><strong>THIS WEEK:</strong> Add him to world map on your website</li>
+            <li><strong>ONGOING:</strong> HubSpot drip campaign emails him automatically</li>
+        </ol>
+
+        <div class="success">
+            <h3>✅ That's It!</h3>
+            <p>Korea ambassador is onboarded. Monitor his first month. Fix any issues. Then open to others!</p>
+        </div>
+    </div>
+
+    <!-- ANALYTICS IDEA -->
+    <div class="section">
+        <h2>💡 Analytics Idea (Level 2 - Future)</h2>
+
+        <p>You mentioned tracking users by country through your analytics. Great idea for later!</p>
+
+        <p><strong>Future Enhancement:</strong> Ambassador Dashboard</p>
+        <ul>
+            <li>Pull data from your analytics API</li>
+            <li>Show each ambassador how many users are in their country</li>
+            <li>Track growth month-over-month</li>
+            <li>Display on their personalized page</li>
+        </ul>
+
+        <p><strong>For now:</strong> Just manually track in a spreadsheet and share monthly with each ambassador via email.</p>
+    </div>
+
+    <!-- QUICK REFERENCE -->
+    <div class="section">
+        <h2>🎯 Quick Reference</h2>
+
+        <table style="width: 100%; border-collapse: collapse;">
+            <tr>
+                <th style="background: #667eea; color: white; padding: 12px; text-align: left;">What</th>
+                <th style="background: #667eea; color: white; padding: 12px; text-align: left;">Where</th>
+                <th style="background: #667eea; color: white; padding: 12px; text-align: left;">When</th>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ddd; padding: 10px;">Registration Form</td>
+                <td style="border: 1px solid #ddd; padding: 10px;">B1 Admin</td>
+                <td style="border: 1px solid #ddd; padding: 10px;">This week</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ddd; padding: 10px;">Email Campaign</td>
+                <td style="border: 1px solid #ddd; padding: 10px;">HubSpot</td>
+                <td style="border: 1px solid #ddd; padding: 10px;">This week</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ddd; padding: 10px;">World Map</td>
+                <td style="border: 1px solid #ddd; padding: 10px;">Your website</td>
+                <td style="border: 1px solid #ddd; padding: 10px;">Week 2</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ddd; padding: 10px;">One-Sheet PDF</td>
+                <td style="border: 1px solid #ddd; padding: 10px;">Email attachment</td>
+                <td style="border: 1px solid #ddd; padding: 10px;">This week</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ddd; padding: 10px;">Facebook Group</td>
+                <td style="border: 1px solid #ddd; padding: 10px;">Facebook</td>
+                <td style="border: 1px solid #ddd; padding: 10px;">Week 2-3</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="success" style="margin-top: 40px;">
+        <h3>🎉 You're Ready!</h3>
+        <p style="font-size: 1.1em;">This is way simpler than the full plan. Focus on these 4 files and you'll have Korea onboarded this week.</p>
+        <p style="margin-top: 15px;"><strong>Questions?</strong> Review the individual files for more details.</p>
+    </div>
+</body>
+</html>

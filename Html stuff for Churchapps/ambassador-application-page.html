@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Become a ChurchApps Ambassador</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .hero p {
+            font-size: 1.3em;
+            max-width: 700px;
+            margin: 0 auto 30px;
+            opacity: 0.95;
+        }
+
+        .hero-cta {
+            display: inline-block;
+            background: white;
+            color: #667eea;
+            padding: 15px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1em;
+            transition: transform 0.2s;
+        }
+
+        .hero-cta:hover {
+            transform: scale(1.05);
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Section Styling */
+        section {
+            padding: 80px 20px;
+        }
+
+        section h2 {
+            font-size: 2.5em;
+            margin-bottom: 40px;
+            text-align: center;
+            color: #667eea;
+        }
+
+        /* What is an Ambassador Section */
+        .what-is {
+            background: #f8f9fa;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            margin-top: 40px;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .card h3 {
+            color: #764ba2;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+
+        .card ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .card ul li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+
+        .card ul li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: bold;
+        }
+
+        .card.not-list ul li:before {
+            content: "✗";
+            color: #dc3545;
+        }
+
+        /* Requirements Section */
+        .requirements {
+            background: white;
+        }
+
+        .requirement-item {
+            background: #f8f9ff;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .requirement-item h4 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        /* Process Timeline */
+        .process {
+            background: #f8f9fa;
+        }
+
+        .timeline {
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .timeline:before {
+            content: '';
+            position: absolute;
+            left: 50px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #667eea;
+        }
+
+        .timeline-item {
+            position: relative;
+            padding-left: 100px;
+            padding-bottom: 40px;
+        }
+
+        .timeline-item .number {
+            position: absolute;
+            left: 30px;
+            top: 0;
+            width: 40px;
+            height: 40px;
+            background: #667eea;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .timeline-item h4 {
+            color: #764ba2;
+            margin-bottom: 10px;
+            font-size: 1.3em;
+        }
+
+        /* Benefits Section */
+        .benefits {
+            background: white;
+        }
+
+        .benefit-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .benefit-card {
+            text-align: center;
+            padding: 30px;
+            border: 2px solid #e9ecef;
+            border-radius: 10px;
+            transition: all 0.3s;
+        }
+
+        .benefit-card:hover {
+            border-color: #667eea;
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.2);
+        }
+
+        .benefit-card .icon {
+            font-size: 3em;
+            margin-bottom: 15px;
+        }
+
+        .benefit-card h4 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        /* Application Form Section */
+        .application-form {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .application-form h2 {
+            color: white;
+        }
+
+        .form-embed {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            max-width: 800px;
+            margin: 0 auto;
+            color: #333;
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #667eea;
+        }
+
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e9ecef;
+            border-radius: 5px;
+            font-size: 1em;
+            font-family: inherit;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .form-group textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+
+        .required {
+            color: #dc3545;
+        }
+
+        .submit-btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 15px 50px;
+            border-radius: 50px;
+            font-size: 1.1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .submit-btn:hover {
+            background: #764ba2;
+            transform: scale(1.05);
+        }
+
+        /* FAQ Section */
+        .faq {
+            background: #f8f9fa;
+        }
+
+        .faq-item {
+            background: white;
+            margin: 20px auto;
+            padding: 25px;
+            border-radius: 10px;
+            max-width: 800px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .faq-item h4 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+
+        /* Alert Box */
+        .alert {
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .alert-info {
+            background: #d1ecf1;
+            border-left: 4px solid #0c5460;
+            color: #0c5460;
+        }
+
+        .alert-warning {
+            background: #fff3cd;
+            border-left: 4px solid #856404;
+            color: #856404;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Become a ChurchApps Ambassador</h1>
+        <p>Join a global network of passionate church leaders helping local congregations adopt free, open-source tools that lower barriers and empower ministry.</p>
+        <a href="#apply" class="hero-cta">Apply Now</a>
+    </section>
+
+    <!-- What is an Ambassador -->
+    <section class="what-is">
+        <div class="container">
+            <h2>What is a ChurchApps Ambassador?</h2>
+            <p style="text-align: center; font-size: 1.2em; max-width: 800px; margin: 0 auto 40px;">
+                You are the organizer, not the hero. You are the connector, not the expert. You are the facilitator, not the boss.
+            </p>
+
+            <div class="grid-2">
+                <div class="card">
+                    <h3>An Ambassador IS:</h3>
+                    <ul>
+                        <li>A local community organizer for church tech volunteers</li>
+                        <li>A safe on-ramp for churches new to ChurchApps</li>
+                        <li>A peer supporter and learner</li>
+                        <li>A bridge between local needs and the core team</li>
+                        <li>A steward of a shared mission</li>
+                    </ul>
+                </div>
+
+                <div class="card not-list">
+                    <h3>An Ambassador is NOT:</h3>
+                    <ul>
+                        <li>A support ticket system</li>
+                        <li>Someone who sells services</li>
+                        <li>A replacement for the ChurchApps team</li>
+                        <li>Someone who forks or rebrands software</li>
+                        <li>Expected to know everything</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Requirements -->
+    <section class="requirements">
+        <div class="container">
+            <h2>Requirements</h2>
+
+            <div class="requirement-item">
+                <h4>1. Active Christian Faith</h4>
+                <p>You must be a follower of Jesus Christ and actively involved in Christian ministry or church leadership.</p>
+            </div>
+
+            <div class="requirement-item">
+                <h4>2. ChurchApps Experience</h4>
+                <p>You must be currently using at least one ChurchApps product (Lessons.church, Worship.tools, B1.church, FreeShow, etc.) in a ministry context. You'll need to provide photos as proof.</p>
+            </div>
+
+            <div class="requirement-item">
+                <h4>3. References</h4>
+                <p>Two references from church leaders or ministry colleagues who can vouch for your character and ministry involvement.</p>
+            </div>
+
+            <div class="requirement-item">
+                <h4>4. Commitment to Serve Freely</h4>
+                <p>This is a volunteer position. You agree to never charge churches for ChurchApps support or services. All help must be provided freely.</p>
+            </div>
+
+            <div class="requirement-item">
+                <h4>5. Quarterly Activity</h4>
+                <p>Host at least one user group activity per quarter (meeting, training, help session, etc.) and submit a simple quarterly report.</p>
+            </div>
+
+            <div class="alert alert-warning">
+                <strong>Important:</strong> We conduct reference checks and monitor ambassador communications to ensure integrity. Any attempt to charge for services will result in immediate removal from the program.
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Timeline -->
+    <section class="process">
+        <div class="container">
+            <h2>The Application Process</h2>
+            <p style="text-align: center; font-size: 1.1em; margin-bottom: 50px;">
+                From application to launch in approximately 2-3 weeks
+            </p>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="number">1</div>
+                    <h4>Submit Application</h4>
+                    <p>Fill out the application form below. We'll review within 3 business days and request photos of your church using ChurchApps.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="number">2</div>
+                    <h4>Reference Check</h4>
+                    <p>We'll contact your references to verify your ministry involvement and character.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="number">3</div>
+                    <h4>Video Interview</h4>
+                    <p>30-minute conversation with our team to discuss your vision and ensure we're a good fit.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="number">4</div>
+                    <h4>Sign Agreement</h4>
+                    <p>Review and sign the Ambassador Covenant outlining responsibilities and commitments.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="number">5</div>
+                    <h4>Onboarding</h4>
+                    <p>Get access to resources, join the private ambassador community, and receive your regional email address.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="number">6</div>
+                    <h4>Launch!</h4>
+                    <p>Start your first user group meeting and begin making an impact in your region.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits -->
+    <section class="benefits">
+        <div class="container">
+            <h2>What You'll Receive</h2>
+
+            <div class="benefit-grid">
+                <div class="benefit-card">
+                    <div class="icon">🌍</div>
+                    <h4>Regional Authority</h4>
+                    <p>Official ambassador@churchapps email for your region</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="icon">👥</div>
+                    <h4>Global Community</h4>
+                    <p>Join ambassadors worldwide in private Facebook group</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="icon">📚</div>
+                    <h4>Resources</h4>
+                    <p>Access to brand assets, guides, and training materials</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="icon">🏆</div>
+                    <h4>Recognition</h4>
+                    <p>Profile on our website with achievement badges</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="icon">🚀</div>
+                    <h4>Early Access</h4>
+                    <p>First to know about new features and updates</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="icon">💬</div>
+                    <h4>Direct Feedback</h4>
+                    <p>Your voice heard by the core development team</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Application Form -->
+    <section class="application-form" id="apply">
+        <div class="container">
+            <h2>Apply to Become an Ambassador</h2>
+
+            <div class="form-embed">
+                <!-- This form should be replaced with your ChurchApps form embed code -->
+                <!-- For now, this is a template showing the required fields -->
+
+                <form id="ambassador-application">
+                    <div class="alert alert-info">
+                        <strong>Note:</strong> All fields marked with <span class="required">*</span> are required. Please allow 30-45 minutes to complete this application thoughtfully.
+                    </div>
+
+                    <h3 style="color: #667eea; margin-bottom: 20px;">Personal Information</h3>
+
+                    <div class="form-group">
+                        <label>Full Name <span class="required">*</span></label>
+                        <input type="text" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Email Address <span class="required">*</span></label>
+                        <input type="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Phone Number <span class="required">*</span></label>
+                        <input type="tel" name="phone" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>City/Region You'll Serve <span class="required">*</span></label>
+                        <input type="text" name="region" placeholder="e.g., Seoul, South Korea" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Preferred Language(s) <span class="required">*</span></label>
+                        <input type="text" name="languages" placeholder="e.g., Korean, English" required>
+                    </div>
+
+                    <h3 style="color: #667eea; margin: 40px 0 20px;">Christian Faith & Ministry</h3>
+
+                    <div class="form-group">
+                        <label>Church/Organization Name <span class="required">*</span></label>
+                        <input type="text" name="church" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Your Role/Position <span class="required">*</span></label>
+                        <input type="text" name="role" placeholder="e.g., Pastor, Tech Volunteer, Ministry Leader" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Brief Statement of Christian Faith <span class="required">*</span></label>
+                        <textarea name="faith" placeholder="In 2-3 sentences, describe your relationship with Jesus Christ and involvement in Christian ministry." required></textarea>
+                    </div>
+
+                    <h3 style="color: #667eea; margin: 40px 0 20px;">ChurchApps Experience</h3>
+
+                    <div class="form-group">
+                        <label>Which ChurchApps products are you currently using? <span class="required">*</span></label>
+                        <textarea name="products" placeholder="List the products and how you're using them (e.g., 'Using FreeShow for worship presentations every Sunday, B1.church for member directory')" required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label>How long have you been using ChurchApps? <span class="required">*</span></label>
+                        <select name="duration" required>
+                            <option value="">Select...</option>
+                            <option value="0-3">0-3 months</option>
+                            <option value="3-6">3-6 months</option>
+                            <option value="6-12">6-12 months</option>
+                            <option value="1-2">1-2 years</option>
+                            <option value="2+">2+ years</option>
+                        </select>
+                    </div>
+
+                    <div class="alert alert-warning">
+                        <strong>Photo Proof Required:</strong> After submitting this form, you'll receive an email asking you to send photos of your church/ministry using ChurchApps products. This is required to verify your experience.
+                    </div>
+
+                    <h3 style="color: #667eea; margin: 40px 0 20px;">References</h3>
+
+                    <div class="form-group">
+                        <label>Reference 1 - Name <span class="required">*</span></label>
+                        <input type="text" name="ref1_name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Reference 1 - Email <span class="required">*</span></label>
+                        <input type="email" name="ref1_email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Reference 1 - Relationship <span class="required">*</span></label>
+                        <input type="text" name="ref1_relationship" placeholder="e.g., Senior Pastor at my church" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Reference 2 - Name <span class="required">*</span></label>
+                        <input type="text" name="ref2_name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Reference 2 - Email <span class="required">*</span></label>
+                        <input type="email" name="ref2_email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Reference 2 - Relationship <span class="required">*</span></label>
+                        <input type="text" name="ref2_relationship" placeholder="e.g., Ministry colleague" required>
+                    </div>
+
+                    <h3 style="color: #667eea; margin: 40px 0 20px;">Vision & Commitment</h3>
+
+                    <div class="form-group">
+                        <label>Why do you want to be a ChurchApps Ambassador? <span class="required">*</span></label>
+                        <textarea name="why" placeholder="Describe your motivation and vision for helping churches in your region" required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label>What specific activities do you plan to organize? <span class="required">*</span></label>
+                        <textarea name="activities" placeholder="e.g., Monthly training meetings, one-on-one church setup help, translation of documentation, seminars at Christian conferences" required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Do you have 3-5 churches or individuals already interested in a user group? <span class="required">*</span></label>
+                        <select name="ready" required>
+                            <option value="">Select...</option>
+                            <option value="yes">Yes, I have people ready</option>
+                            <option value="some">I have 1-2 interested</option>
+                            <option value="no">Not yet, but I know how to find them</option>
+                        </select>
+                    </div>
+
+                    <h3 style="color: #667eea; margin: 40px 0 20px;">Agreement</h3>
+
+                    <div class="form-group">
+                        <label style="display: flex; align-items: flex-start;">
+                            <input type="checkbox" name="no_charging" required style="width: auto; margin-right: 10px; margin-top: 5px;">
+                            <span>I understand and agree that this is a volunteer position and I will NEVER charge churches or individuals for ChurchApps support, training, or services. All help must be provided freely. <span class="required">*</span></span>
+                        </label>
+                    </div>
+
+                    <div class="form-group">
+                        <label style="display: flex; align-items: flex-start;">
+                            <input type="checkbox" name="monitoring" required style="width: auto; margin-right: 10px; margin-top: 5px;">
+                            <span>I understand that ChurchApps will monitor communications sent from my ambassador email address to ensure program integrity. <span class="required">*</span></span>
+                        </label>
+                    </div>
+
+                    <div class="form-group">
+                        <label style="display: flex; align-items: flex-start;">
+                            <input type="checkbox" name="quarterly" required style="width: auto; margin-right: 10px; margin-top: 5px;">
+                            <span>I commit to hosting at least one user group activity per quarter and submitting quarterly reports. <span class="required">*</span></span>
+                        </label>
+                    </div>
+
+                    <div style="text-align: center; margin-top: 40px;">
+                        <button type="submit" class="submit-btn">Submit Application</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+
+            <div class="faq-item">
+                <h4>Is this a paid position?</h4>
+                <p>No, this is a volunteer position. Ambassadors serve freely out of a desire to help churches in their region. You may never charge for ChurchApps-related services.</p>
+            </div>
+
+            <div class="faq-item">
+                <h4>How much time does it require?</h4>
+                <p>At minimum, one user group activity per quarter (3 months). Most ambassadors spend 2-5 hours per month on activities, depending on how active their group becomes.</p>
+            </div>
+
+            <div class="faq-item">
+                <h4>What if I'm not a technical expert?</h4>
+                <p>That's okay! You're an organizer, not expected to know everything. The ChurchApps community is there to help answer technical questions together.</p>
+            </div>
+
+            <div class="faq-item">
+                <h4>Can there be multiple ambassadors in one city?</h4>
+                <p>Generally, we approve one ambassador per 500,000 population to ensure each can build a vibrant community. In very large cities, we may approve additional ambassadors for different districts or language groups.</p>
+            </div>
+
+            <div class="faq-item">
+                <h4>What happens if I need to step down?</h4>
+                <p>Life happens. If you need to pause or step down, simply let us know. This is stewardship, not a lifetime appointment. We can help find another leader or let the group rest.</p>
+            </div>
+
+            <div class="faq-item">
+                <h4>Will I get a ChurchApps email address?</h4>
+                <p>Yes! Upon approval, you'll receive a regional email address (e.g., korea@churchapps.org, spain@churchapps.org) that forwards to your personal email. This gives you credibility when reaching out to churches.</p>
+            </div>
+
+            <div class="faq-item">
+                <h4>What support will I receive?</h4>
+                <p>You'll get access to a resource hub with guides, templates, and brand assets. You'll join a private Facebook group with other ambassadors worldwide. And you'll have quarterly check-ins with the ChurchApps team.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer style="background: #333; color: white; padding: 40px 20px; text-align: center;">
+        <p style="font-size: 1.1em; margin-bottom: 10px;"><strong>Questions?</strong></p>
+        <p>Email us at <a href="mailto:ambassadors@churchapps.org" style="color: #667eea;">ambassadors@churchapps.org</a></p>
+        <p style="margin-top: 30px; opacity: 0.7; font-size: 0.9em;">&copy; 2026 ChurchApps | Helping churches help each other through open-source tools</p>
+    </footer>
+</body>
+</html>

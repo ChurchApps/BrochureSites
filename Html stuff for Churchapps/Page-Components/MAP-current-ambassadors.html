@@ -1,0 +1,355 @@
+<!--
+    ============================================
+    CURRENT AMBASSADORS MAP SECTION
+    ============================================
+
+    Clean map section showing ambassadors worldwide.
+    Place this BELOW your registration form.
+
+    Brand color: #1a3a52 (Navy blue from logo)
+
+    Last updated: January 2026
+    ============================================
+-->
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+<style>
+.ambassadors-section {
+    background: #f9fafb;
+    padding: 80px 40px;
+    margin-top: 60px;
+}
+
+.ambassadors-container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.ambassadors-section .section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin: 0 0 12px 0;
+    letter-spacing: -0.02em;
+}
+
+.ambassadors-section .section-subtitle {
+    font-size: 1.25rem;
+    color: #6b7280;
+    margin: 0 0 48px 0;
+}
+
+.stats-bar {
+    display: flex;
+    gap: 48px;
+    margin-bottom: 48px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.stat-item {
+    text-align: left;
+}
+
+.stat-number {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1f2937;
+    line-height: 1;
+}
+
+.stat-label {
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin-top: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+}
+
+#ambassadors-map {
+    height: 500px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    overflow: hidden;
+}
+
+/* Custom map popup styling */
+.leaflet-popup-content-wrapper {
+    border-radius: 12px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.leaflet-popup-content {
+    margin: 0;
+    min-width: 280px;
+}
+
+.ambassador-popup {
+    padding: 0;
+}
+
+.popup-header {
+    background: #f9fafb;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.popup-header img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 12px;
+    border: 3px solid white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.popup-header h3 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin: 0 0 4px 0;
+}
+
+.popup-header .location {
+    font-size: 0.875rem;
+    color: #6b7280;
+}
+
+.popup-body {
+    padding: 20px;
+}
+
+.popup-body p {
+    font-size: 0.875rem;
+    line-height: 1.6;
+    color: #4b5563;
+    margin: 0 0 16px 0;
+}
+
+.popup-stats {
+    display: flex;
+    gap: 20px;
+    padding: 12px 0;
+    border-top: 1px solid #e5e7eb;
+    border-bottom: 1px solid #e5e7eb;
+    margin-bottom: 16px;
+}
+
+.popup-stat {
+    flex: 1;
+    text-align: center;
+}
+
+.popup-stat-number {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1f2937;
+    line-height: 1;
+}
+
+.popup-stat-label {
+    font-size: 0.75rem;
+    color: #6b7280;
+    margin-top: 4px;
+}
+
+.contact-link {
+    display: block;
+    text-align: center;
+    padding: 10px 16px;
+    background: #f9fafb;
+    color: #4dd4e8;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    transition: background 0.2s;
+}
+
+.contact-link:hover {
+    background: #f3f4f6;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    .ambassadors-section {
+        padding: 60px 24px;
+    }
+
+    .ambassadors-section .section-title {
+        font-size: 2rem;
+    }
+
+    .stats-bar {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    #ambassadors-map {
+        height: 400px;
+    }
+}
+</style>
+
+<div class="ambassadors-section">
+    <div class="ambassadors-container">
+        <h2 class="section-title">Our ambassadors worldwide</h2>
+        <p class="section-subtitle">Church leaders helping their communities adopt better technology</p>
+
+        <div class="stats-bar">
+            <div class="stat-item">
+                <div class="stat-number" id="total-ambassadors">1</div>
+                <div class="stat-label">Ambassadors</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" id="total-countries">1</div>
+                <div class="stat-label">Countries</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" id="total-churches">12</div>
+                <div class="stat-label">Churches Helped</div>
+            </div>
+        </div>
+
+        <div id="ambassadors-map"></div>
+    </div>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+// ===================================
+// AMBASSADOR DATA - UPDATE THIS ARRAY
+// ===================================
+const ambassadors = [
+    {
+        name: "Park Min-soo",
+        location: "Seoul, South Korea",
+        country: "South Korea",
+        email: "korea@churchapps.org",
+        bio: "Helping churches in Korea discover free ministry tools. Passionate about making church tech accessible to small congregations.",
+        photo: "https://content.churchapps.org/40/files/deletefake.png?dt=1768581843142",
+        churches: 12,
+        meetings: 8,
+        lat: 37.5665,
+        lng: 126.9780
+    }
+    // Add more ambassadors here as they join
+    // {
+    //     name: "Next Ambassador",
+    //     location: "City, Country",
+    //     country: "Country",
+    //     email: "region@churchapps.org",
+    //     bio: "Short bio...",
+    //     photo: "URL_TO_PHOTO.jpg",
+    //     churches: 0,
+    //     meetings: 0,
+    //     lat: 00.0000,
+    //     lng: 00.0000
+    // }
+];
+
+// Initialize map
+const map = L.map('ambassadors-map', {
+    center: [20, 0],
+    zoom: 2,
+    scrollWheelZoom: false
+});
+
+// Clean map tiles (light gray)
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    attribution: '© OpenStreetMap contributors',
+    maxZoom: 19
+}).addTo(map);
+
+// Custom marker icon - cyan blue dot matching ChurchApps brand
+const customIcon = L.divIcon({
+    className: 'custom-marker',
+    html: `<div style="
+        width: 20px;
+        height: 20px;
+        background: #4dd4e8;
+        border: 3px solid white;
+        border-radius: 50%;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    "></div>`,
+    iconSize: [20, 20],
+    iconAnchor: [10, 10]
+});
+
+// Calculate stats
+let totalChurches = 0;
+let countries = new Set();
+
+ambassadors.forEach(amb => {
+    totalChurches += amb.churches;
+    countries.add(amb.country);
+
+    // Create popup content
+    const popupContent = `
+        <div class="ambassador-popup">
+            <div class="popup-header">
+                <img src="${amb.photo}" alt="${amb.name}">
+                <h3>${amb.name}</h3>
+                <div class="location">${amb.location}</div>
+            </div>
+            <div class="popup-body">
+                <p>${amb.bio}</p>
+                <div class="popup-stats">
+                    <div class="popup-stat">
+                        <div class="popup-stat-number">${amb.churches}</div>
+                        <div class="popup-stat-label">Churches</div>
+                    </div>
+                    <div class="popup-stat">
+                        <div class="popup-stat-number">${amb.meetings}</div>
+                        <div class="popup-stat-label">Meetings</div>
+                    </div>
+                </div>
+                <a href="mailto:${amb.email}" class="contact-link">Contact ${amb.name.split(' ')[0]}</a>
+            </div>
+        </div>
+    `;
+
+    // Add marker
+    L.marker([amb.lat, amb.lng], { icon: customIcon })
+        .addTo(map)
+        .bindPopup(popupContent, {
+            maxWidth: 280,
+            className: 'ambassador-popup-container'
+        });
+});
+
+// Update stats
+document.getElementById('total-ambassadors').textContent = ambassadors.length;
+document.getElementById('total-countries').textContent = countries.size;
+document.getElementById('total-churches').textContent = totalChurches;
+</script>
+
+<!--
+    ============================================
+    READY TO USE!
+    ============================================
+
+    ✅ Korean ambassador photo is loaded
+    ✅ Brand colors match your logo
+    ✅ Map pins show navy blue
+    ✅ Click on Seoul pin to see his profile
+
+    TO ADD MORE AMBASSADORS LATER:
+    Copy the ambassador object starting at line 240 and update:
+    - name
+    - location
+    - country
+    - email
+    - bio
+    - photo URL (upload their headshot first)
+    - churches count
+    - meetings count
+    - lat/lng coordinates (get from https://www.latlong.net/)
+
+    ============================================
+-->

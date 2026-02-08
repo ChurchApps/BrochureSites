@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChurchApps Ambassador Reference Check</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+
+        .header {
+            background: #667eea;
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            opacity: 0.95;
+            font-size: 1.1em;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .info-box {
+            background: #f8f9ff;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 0 5px 5px 0;
+        }
+
+        .info-box h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        .form-group {
+            margin-bottom: 30px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: 600;
+            color: #667eea;
+            margin-bottom: 8px;
+            font-size: 1.05em;
+        }
+
+        .required {
+            color: #dc3545;
+        }
+
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e9ecef;
+            border-radius: 5px;
+            font-size: 1em;
+            font-family: inherit;
+            transition: border-color 0.3s;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .form-group textarea {
+            min-height: 100px;
+            resize: vertical;
+        }
+
+        .radio-group,
+        .checkbox-group {
+            margin: 15px 0;
+        }
+
+        .radio-option,
+        .checkbox-option {
+            margin: 12px 0;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .radio-option input,
+        .checkbox-option input {
+            width: auto;
+            margin-right: 10px;
+            margin-top: 4px;
+        }
+
+        .radio-option label,
+        .checkbox-option label {
+            font-weight: normal;
+            color: #333;
+            margin-bottom: 0;
+        }
+
+        .help-text {
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 5px;
+            font-style: italic;
+        }
+
+        .alert {
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+
+        .alert-warning {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            color: #856404;
+        }
+
+        .alert-info {
+            background: #d1ecf1;
+            border-left: 4px solid #0c5460;
+            color: #0c5460;
+        }
+
+        .submit-btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 15px 50px;
+            border-radius: 50px;
+            font-size: 1.1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: block;
+            margin: 40px auto 0;
+        }
+
+        .submit-btn:hover {
+            background: #764ba2;
+            transform: scale(1.05);
+        }
+
+        .section-header {
+            color: #667eea;
+            font-size: 1.3em;
+            margin: 40px 0 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e9ecef;
+        }
+
+        .rating-scale {
+            display: flex;
+            justify-content: space-between;
+            margin: 15px 0;
+        }
+
+        .rating-option {
+            flex: 1;
+            text-align: center;
+            padding: 15px 10px;
+            border: 2px solid #e9ecef;
+            margin: 0 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .rating-option:hover {
+            border-color: #667eea;
+            background: #f8f9ff;
+        }
+
+        .rating-option input {
+            display: none;
+        }
+
+        .rating-option.selected {
+            background: #667eea;
+            color: white;
+            border-color: #667eea;
+        }
+
+        .footer {
+            background: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            color: #666;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📝 Reference Check</h1>
+            <p>ChurchApps Ambassador Program</p>
+        </div>
+
+        <div class="content">
+            <div class="info-box">
+                <h3>Thank you for providing a reference!</h3>
+                <p><strong>Applicant:</strong> <span id="applicant-name">[Name will be populated]</span></p>
+                <p><strong>Region:</strong> <span id="applicant-region">[Region will be populated]</span></p>
+                <p style="margin-top: 10px;">Your honest feedback helps us ensure our ambassadors will serve churches well and represent ChurchApps with integrity.</p>
+            </div>
+
+            <div class="alert alert-info">
+                <strong>Confidential:</strong> Your responses will be kept confidential and used only to evaluate this application. This form takes approximately 5 minutes to complete.
+            </div>
+
+            <form id="reference-form">
+                <!-- Your Information -->
+                <h2 class="section-header">Your Information</h2>
+
+                <div class="form-group">
+                    <label>Your Full Name <span class="required">*</span></label>
+                    <input type="text" name="referee_name" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Your Email Address <span class="required">*</span></label>
+                    <input type="email" name="referee_email" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Your Role/Position <span class="required">*</span></label>
+                    <input type="text" name="referee_role" placeholder="e.g., Senior Pastor, Ministry Director, Church Elder" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Church/Organization Name <span class="required">*</span></label>
+                    <input type="text" name="referee_organization" required>
+                </div>
+
+                <!-- Relationship to Applicant -->
+                <h2 class="section-header">Relationship to Applicant</h2>
+
+                <div class="form-group">
+                    <label>How do you know the applicant? <span class="required">*</span></label>
+                    <select name="relationship" required>
+                        <option value="">Select...</option>
+                        <option value="pastor">I am their pastor/church leader</option>
+                        <option value="colleague">We serve together in ministry</option>
+                        <option value="leader">I supervise/lead them in ministry</option>
+                        <option value="peer">We are ministry peers/colleagues</option>
+                        <option value="friend">We are friends involved in ministry together</option>
+                        <option value="other">Other (please explain below)</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>How long have you known the applicant? <span class="required">*</span></label>
+                    <select name="duration" required>
+                        <option value="">Select...</option>
+                        <option value="0-6m">Less than 6 months</option>
+                        <option value="6m-1y">6 months to 1 year</option>
+                        <option value="1-3y">1-3 years</option>
+                        <option value="3-5y">3-5 years</option>
+                        <option value="5y+">More than 5 years</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Please briefly describe your relationship</label>
+                    <textarea name="relationship_description" placeholder="e.g., 'John has served as a tech volunteer at our church for 3 years. I work closely with him on our Sunday service production team.'"></textarea>
+                    <div class="help-text">Optional, but helpful context</div>
+                </div>
+
+                <!-- Christian Faith Verification -->
+                <h2 class="section-header">Christian Faith & Ministry</h2>
+
+                <div class="form-group">
+                    <label>Can you verify that the applicant is an active follower of Jesus Christ? <span class="required">*</span></label>
+                    <div class="radio-group">
+                        <div class="radio-option">
+                            <input type="radio" name="christian_faith" value="yes" id="faith-yes" required>
+                            <label for="faith-yes">Yes, I can verify they are an active Christian</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" name="christian_faith" value="unsure" id="faith-unsure">
+                            <label for="faith-unsure">I'm not certain</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" name="christian_faith" value="no" id="faith-no">
+                            <label for="faith-no">No</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Is the applicant actively involved in Christian ministry or church leadership? <span class="required">*</span></label>
+                    <div class="radio-group">
+                        <div class="radio-option">
+                            <input type="radio" name="ministry_active" value="very" id="ministry-very" required>
+                            <label for="ministry-very">Yes, very actively involved</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" name="ministry_active" value="somewhat" id="ministry-somewhat">
+                            <label for="ministry-somewhat">Somewhat involved</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" name="ministry_active" value="not" id="ministry-not">
+                            <label for="ministry-not">Not really involved</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" name="ministry_active" value="unsure" id="ministry-unsure">
+                            <label for="ministry-unsure">I'm not sure</label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Character & Trustworthiness -->
+                <h2 class="section-header">Character & Trustworthiness</h2>
+
+                <div class="form-group">
+                    <label>Would you trust this person to represent a Christian organization well? <span class="required">*</span></label>
+                    <div class="radio-group">
+                        <div class="radio-option">
+                            <input type="radio" name="trust_represent" value="absolutely" id="trust-absolutely" required>
+                            <label for="trust-absolutely">Absolutely, without reservation</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" name="trust_represent" value="yes" id="trust-yes">
+                            <label for="trust-yes">Yes, I believe so</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" name="trust_represent" value="unsure" id="trust-unsure">
+                            <label for="trust-unsure">I'm not certain</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" name="trust_represent" value="no" id="trust-no">
+                            <label for="trust-no">No, I have concerns</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>How would you rate their character and integrity? <span class="required">*</span></label>
+                    <div class="rating-scale">
+                        <label class="rating-option">
+                            <input type="radio" name="character_rating" value="5" required>
+                            <div>Excellent</div>
+                        </label>
+                        <label class="rating-option">
+                            <input type="radio" name="character_rating" value="4">
+                            <div>Good</div>
+                        </label>
+                        <label class="rating-option">
+                            <input type="radio" name="character_rating" value="3">
+                            <div>Average</div>
+                        </label>
+                        <label class="rating-option">
+                            <input type="radio" name="character_rating" value="2">
+                            <div>Below Average</div>
+                        </label>
+                        <label class="rating-option">
+                            <input type="radio" name="character_rating" value="1">
+                            <div>Concerns</div>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>How would you rate their ability to work well with others? <span class="required">*</span></label>
+                    <div class="rating-scale">
+                        <label class="rating-option">
+                            <input type="radio" name="teamwork_rating" value="5" required>
+                            <div>Excellent</div>
+                        </label>
+                        <label class="rating-option">
+                            <input type="radio" name="teamwork_rating" value="4">
+                            <div>Good</div>
+                        </label>
+                        <label class="rating-option">
+                            <input type="radio" name="teamwork_rating" value="3">
+                            <div>Average</div>
+                        </label>
+                        <label class="rating-option">
+                            <input type="radio" name="teamwork_rating" value="2">
+                            <div>Below Average</div>
+                        </label>
+                        <label class="rating-option">
+                            <input type="radio" name="teamwork_rating" value="1">
+                            <div>Concerns</div>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Suitability for Role -->
+                <h2 class="section-header">Suitability for Ambassador Role</h2>
+
+                <div class="alert alert-warning">
+                    <strong>Important Context:</strong> ChurchApps Ambassadors volunteer to help local churches adopt free software. They organize user groups, provide peer support, and must never charge for services. They're organizers and connectors, not technical experts.
+                </div>
+
+                <div class="form-group">
+                    <label>Do you recommend this person for the ChurchApps Ambassador position? <span class="required">*</span></label>
+                    <div class="radio-group">
+                        <div class="radio-option">
+                            <input type="radio" name="recommendation" value="highly" id="rec-highly" required>
+                            <label for="rec-highly">Yes, I highly recommend them</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" name="recommendation" value="yes" id="rec-yes">
+                            <label for="rec-yes">Yes, I recommend them</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" name="recommendation" value="qualified" id="rec-qualified">
+                            <label for="rec-qualified">Yes, with some qualifications (explain below)</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" name="recommendation" value="no" id="rec-no">
+                            <label for="rec-no">No, I do not recommend them</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>What strengths would they bring to this role?</label>
+                    <textarea name="strengths" placeholder="e.g., 'Great at connecting people, passionate about helping churches, patient teacher, strong organizational skills'"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>Are there any concerns or weaknesses we should be aware of?</label>
+                    <textarea name="concerns" placeholder="Be honest - this helps us set them up for success and know how to support them"></textarea>
+                    <div class="help-text">Your honest input helps us support them well</div>
+                </div>
+
+                <!-- Final Verification -->
+                <h2 class="section-header">Final Verification</h2>
+
+                <div class="form-group">
+                    <label>Is there anything else we should know about this applicant?</label>
+                    <textarea name="additional_info" placeholder="Any additional context, observations, or information that would be helpful"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label style="display: flex; align-items: flex-start;">
+                        <input type="checkbox" name="truthfulness" required style="width: auto; margin-right: 10px; margin-top: 5px;">
+                        <span>I certify that the information I have provided is truthful and accurate to the best of my knowledge. <span class="required">*</span></span>
+                    </label>
+                </div>
+
+                <div class="form-group">
+                    <label style="display: flex; align-items: flex-start;">
+                        <input type="checkbox" name="contact_permission" required style="width: auto; margin-right: 10px; margin-top: 5px;">
+                        <span>I give ChurchApps permission to contact me if they need clarification on any of my responses. <span class="required">*</span></span>
+                    </label>
+                </div>
+
+                <button type="submit" class="submit-btn">Submit Reference</button>
+            </form>
+        </div>
+
+        <div class="footer">
+            <p><strong>Thank you for taking the time to provide this reference!</strong></p>
+            <p>Your input is valuable in helping us build a network of trustworthy ambassadors worldwide.</p>
+            <p style="margin-top: 15px;">Questions? Contact ambassadors@churchapps.org</p>
+        </div>
+    </div>
+
+    <script>
+        // Add interactive styling to rating scales
+        document.querySelectorAll('.rating-option').forEach(option => {
+            option.addEventListener('click', function() {
+                const radioGroup = this.closest('.rating-scale');
+                radioGroup.querySelectorAll('.rating-option').forEach(opt => {
+                    opt.classList.remove('selected');
+                });
+                this.classList.add('selected');
+                this.querySelector('input').checked = true;
+            });
+        });
+
+        // Form submission handler (replace with actual submission logic)
+        document.getElementById('reference-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for submitting your reference! (In production, this would submit to your database)');
+            // Add actual form submission logic here
+        });
+    </script>
+</body>
+</html>
