@@ -15,9 +15,9 @@ export default function ComingSoonModal({ isOpen, onClose, platform }) {
   if (!isOpen) return null;
 
   return (
-    <div className="modal-overlay" onClick={onClose}>
+    <div className="modal-overlay" role="dialog" aria-modal="true" onClick={onClose}>
       <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-        <button className="modal-close" onClick={onClose}>×</button>
+        <button className="modal-close" aria-label="Close" onClick={onClose}>×</button>
         <div className="modal-icon">🚀</div>
         <h2 className="modal-title">Coming Soon!</h2>
         <p className="modal-text">

@@ -41,6 +41,8 @@ export default function Navigation() {
         <button
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           className="nav-mobile-btn"
+          aria-label="Toggle menu"
+          aria-expanded={mobileMenuOpen}
         >
           <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             {mobileMenuOpen ? (

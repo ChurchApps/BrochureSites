@@ -7,12 +7,12 @@ export default function Providers() {
     },
     {
       name: 'B1.Church',
-      logo: '/images/providers/b1church-dark-CKSj_doo.png',
+      logo: '/images/providers/b1church-dark.png',
       url: 'https://b1.church/',
     },
     {
       name: 'Lessons.church',
-      logo: '/images/providers/lessons church.png',
+      logo: '/images/providers/lessons-church.png',
       url: 'https://lessons.church/',
     },
     {

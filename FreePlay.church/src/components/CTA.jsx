@@ -5,8 +5,7 @@ export default function CTA() {
   const [modalOpen, setModalOpen] = useState(false);
   const [selectedPlatform, setSelectedPlatform] = useState('');
 
-  const handleBadgeClick = (e, platform) => {
-    e.preventDefault();
+  const openModal = (platform) => {
     setSelectedPlatform(platform);
     setModalOpen(true);
   };
@@ -26,18 +25,18 @@ export default function CTA() {
         </p>
 
         <div className="hero-badges">
-          <a href="#" onClick={(e) => handleBadgeClick(e, 'Apple TV')}>
+          <button className="badge-button" onClick={() => openModal('Apple TV')}>
             <img
               src="/images/badges/app-store-badge-apple.svg"
               alt="Download on Apple App Store"
             />
-          </a>
-          <a href="#" onClick={(e) => handleBadgeClick(e, 'Android TV')}>
+          </button>
+          <button className="badge-button" onClick={() => openModal('Android TV')}>
             <img
               src="/images/badges/app-store-badge-google.png"
               alt="Get it on Google Play"
             />
-          </a>
+          </button>
           <a href="https://www.amazon.com/dp/B0GMC4S3RS" target="_blank" rel="noopener noreferrer">
             <img
               src="/images/badges/app-store-badge-amazon.png"

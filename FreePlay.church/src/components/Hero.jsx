@@ -5,8 +5,7 @@ export default function Hero() {
   const [modalOpen, setModalOpen] = useState(false);
   const [selectedPlatform, setSelectedPlatform] = useState('');
 
-  const handlePlatformClick = (e, platform) => {
-    e.preventDefault();
+  const openModal = (platform) => {
     setSelectedPlatform(platform);
     setModalOpen(true);
   };
@@ -30,32 +29,32 @@ export default function Hero() {
 
         <p className="hero-platforms">
           Available on{' '}
-          <a href="#" onClick={(e) => handlePlatformClick(e, 'Apple TV')}>Apple TV</a>,{' '}
+          <button className="link-button" onClick={() => openModal('Apple TV')}>Apple TV</button>,{' '}
           <a href="https://www.amazon.com/dp/B0GMC4S3RS" target="_blank" rel="noopener noreferrer">Fire TV</a>, and{' '}
-          <a href="#" onClick={(e) => handlePlatformClick(e, 'Android TV')}>Android TV</a>
+          <button className="link-button" onClick={() => openModal('Android TV')}>Android TV</button>
         </p>
 
         <div className="hero-image-wrapper">
           <img
-            src="/images/TV Interface Hero Shot Apple TV.png"
+            src="/images/tv-interface-hero.png"
             alt="FreePlay interface on TV"
             className="hero-image"
           />
         </div>
 
         <div className="hero-badges">
-          <a href="#" onClick={(e) => handlePlatformClick(e, 'Apple TV')}>
+          <button className="badge-button" onClick={() => openModal('Apple TV')}>
             <img
               src="/images/badges/app-store-badge-apple.svg"
               alt="Download on Apple App Store"
             />
-          </a>
-          <a href="#" onClick={(e) => handlePlatformClick(e, 'Android TV')}>
+          </button>
+          <button className="badge-button" onClick={() => openModal('Android TV')}>
             <img
               src="/images/badges/app-store-badge-google.png"
               alt="Get it on Google Play"
             />
-          </a>
+          </button>
           <a href="https://www.amazon.com/dp/B0GMC4S3RS" target="_blank" rel="noopener noreferrer">
             <img
               src="/images/badges/app-store-badge-amazon.png"

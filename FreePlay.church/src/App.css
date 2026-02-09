@@ -171,7 +171,8 @@
   color: #d1d5db;
 }
 
-.hero-platforms a {
+.hero-platforms a,
+.hero-platforms .link-button {
   color: var(--pink-primary);
   font-weight: 600;
   text-decoration: none;
@@ -179,9 +180,20 @@
   border-bottom: 2px solid transparent;
 }
 
-.hero-platforms a:hover {
+.hero-platforms a:hover,
+.hero-platforms .link-button:hover {
   color: #ff1a9e;
   border-bottom-color: var(--pink-primary);
+}
+
+.link-button,
+.badge-button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  cursor: pointer;
 }
 
 .hero-image-wrapper {
@@ -247,12 +259,14 @@
   margin-bottom: 1rem;
 }
 
-.hero-badges a {
+.hero-badges a,
+.hero-badges .badge-button {
   transition: opacity 0.2s;
   display: inline-block;
 }
 
-.hero-badges a:hover {
+.hero-badges a:hover,
+.hero-badges .badge-button:hover {
   opacity: 0.8;
 }
 
@@ -274,11 +288,6 @@
   transform: translateX(-50%);
   z-index: 20;
   animation: bounce 1.5s infinite;
-}
-
-@keyframes bounce {
-  0%, 100% { transform: translateX(-50%) translateY(0); }
-  50% { transform: translateX(-50%) translateY(10px); }
 }
 
 .scroll-indicator svg {

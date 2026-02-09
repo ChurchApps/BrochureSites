@@ -11,7 +11,7 @@ import './App.css';
 
 function App() {
   return (
-    <div>
+    <main>
       <Navigation />
       <Hero />
       <HowItWorks />
@@ -21,7 +21,7 @@ function App() {
       <Providers />
       <CTA />
       <Footer />
-    </div>
+    </main>
   );
 }
 
