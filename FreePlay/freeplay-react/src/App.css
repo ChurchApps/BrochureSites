@@ -171,9 +171,17 @@
   color: #d1d5db;
 }
 
-.hero-platforms span {
+.hero-platforms a {
   color: var(--pink-primary);
   font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s;
+  border-bottom: 2px solid transparent;
+}
+
+.hero-platforms a:hover {
+  color: #ff1a9e;
+  border-bottom-color: var(--pink-primary);
 }
 
 .hero-image-wrapper {
@@ -521,10 +529,24 @@
   background: var(--pink-primary);
 }
 
+.comparison-image {
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.comparison-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .comparison-box h3 {
   font-size: 1.75rem;
   margin-bottom: 2rem;
-  margin-top: 0.5rem;
+  margin-top: 0;
   font-weight: 600;
 }
 

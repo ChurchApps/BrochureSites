@@ -10,6 +10,9 @@ export default function Comparison() {
         <div className="comparison-grid">
           <div className="comparison-box old">
             <div className="comparison-label">The Old Way 😫</div>
+            <div className="comparison-image">
+              <img src="/images/Before FreePlay Scenario.png" alt="Frustrated teacher managing cables and computer" />
+            </div>
             <h3>Complicated & Frustrating</h3>
             <ul className="comparison-list">
               <li>
@@ -33,6 +36,9 @@ export default function Comparison() {
 
           <div className="comparison-box new">
             <div className="comparison-label">With FreePlay 🎉</div>
+            <div className="comparison-image">
+              <img src="/images/After FreePlay Scenario.png" alt="Happy teacher using FreePlay with remote" />
+            </div>
             <h3>Simple & Powerful</h3>
             <ul className="comparison-list">
               <li>

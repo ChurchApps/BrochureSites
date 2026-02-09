@@ -1,4 +1,16 @@
+import { useState } from 'react';
+import ComingSoonModal from './ComingSoonModal';
+
 export default function Hero() {
+  const [modalOpen, setModalOpen] = useState(false);
+  const [selectedPlatform, setSelectedPlatform] = useState('');
+
+  const handlePlatformClick = (e, platform) => {
+    e.preventDefault();
+    setSelectedPlatform(platform);
+    setModalOpen(true);
+  };
+
   return (
     <section className="hero">
       <div className="hero-bg">
@@ -17,37 +29,28 @@ export default function Hero() {
         </p>
 
         <p className="hero-platforms">
-          Available on <span>Apple TV</span>,{' '}
-          <span>Fire TV</span>, and{' '}
-          <span>Android TV</span>
+          Available on{' '}
+          <a href="#" onClick={(e) => handlePlatformClick(e, 'Apple TV')}>Apple TV</a>,{' '}
+          <a href="https://www.amazon.com/dp/B0GMC4S3RS" target="_blank" rel="noopener noreferrer">Fire TV</a>, and{' '}
+          <a href="#" onClick={(e) => handlePlatformClick(e, 'Android TV')}>Android TV</a>
         </p>
 
         <div className="hero-image-wrapper">
           <img
-            src="/images/hero-classroom.png"
-            alt="Children in classroom"
+            src="/images/TV Interface Hero Shot Apple TV.png"
+            alt="FreePlay interface on TV"
             className="hero-image"
           />
-          <div className="hero-play-btn-wrapper">
-            <button className="hero-play-btn">
-              <svg
-                fill="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path d="M8 5v14l11-7z" />
-              </svg>
-            </button>
-          </div>
         </div>
 
         <div className="hero-badges">
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a href="#" onClick={(e) => handlePlatformClick(e, 'Apple TV')}>
             <img
               src="/images/badges/app-store-badge-apple.svg"
               alt="Download on Apple App Store"
             />
           </a>
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a href="#" onClick={(e) => handlePlatformClick(e, 'Android TV')}>
             <img
               src="/images/badges/app-store-badge-google.png"
               alt="Get it on Google Play"
@@ -65,6 +68,12 @@ export default function Hero() {
           *Not available on Roku
         </p>
       </div>
+
+      <ComingSoonModal
+        isOpen={modalOpen}
+        onClose={() => setModalOpen(false)}
+        platform={selectedPlatform}
+      />
     </section>
   );
 }

@@ -1,4 +1,16 @@
+import { useState } from 'react';
+import ComingSoonModal from './ComingSoonModal';
+
 export default function CTA() {
+  const [modalOpen, setModalOpen] = useState(false);
+  const [selectedPlatform, setSelectedPlatform] = useState('');
+
+  const handleBadgeClick = (e, platform) => {
+    e.preventDefault();
+    setSelectedPlatform(platform);
+    setModalOpen(true);
+  };
+
   return (
     <section id="download" className="cta">
       <div className="cta-glow">
@@ -14,13 +26,13 @@ export default function CTA() {
         </p>
 
         <div className="hero-badges">
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a href="#" onClick={(e) => handleBadgeClick(e, 'Apple TV')}>
             <img
               src="/images/badges/app-store-badge-apple.svg"
               alt="Download on Apple App Store"
             />
           </a>
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a href="#" onClick={(e) => handleBadgeClick(e, 'Android TV')}>
             <img
               src="/images/badges/app-store-badge-google.png"
               alt="Get it on Google Play"
@@ -38,6 +50,12 @@ export default function CTA() {
           *Not available on Roku
         </p>
       </div>
+
+      <ComingSoonModal
+        isOpen={modalOpen}
+        onClose={() => setModalOpen(false)}
+        platform={selectedPlatform}
+      />
     </section>
   );
 }

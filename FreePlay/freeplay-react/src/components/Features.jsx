@@ -4,19 +4,19 @@ export default function Features() {
       badge: '100% Free',
       title: 'No Cost, Ever',
       description: 'FreePlay is completely free for all churches. No subscriptions, no hidden fees, no limits. Made by the church, for the church.',
-      image: '/images/screenshots/screenshot-01.png',
+      image: '/images/Hero Image - Classroom Scene.png',
     },
     {
       badge: 'Offline Ready',
       title: 'Play Without Internet',
       description: 'Download lessons in advance and play them offline. Perfect for churches with limited or unreliable connectivity.',
-      image: '/images/screenshots/screenshot-02.png',
+      image: '/images/Teacher Using Remote - Close-up.png',
     },
     {
       badge: 'TV Optimized',
       title: 'Built for Big Screens',
       description: 'Built specifically for Apple TV, Android TV, and Amazon Fire Stick. Download directly on your TV or streaming device and control everything with just your TV remote. Not a phone app - this is made for the big screen.',
-      image: '/images/screenshots/screenshot-03.png',
+      image: '/images/Multi-Device Showcase.png',
     },
   ];
 
