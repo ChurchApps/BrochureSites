@@ -36,8 +36,8 @@ export default function Hero() {
 
         <div className="hero-image-wrapper">
           <img
-            src="/images/tv-interface-hero.png"
-            alt="FreePlay interface on TV"
+            src="/images/nanobananapro/heroimage-classroomscene.png"
+            alt="Teacher and kids in bright classroom watching Bible Project on FreePlay"
             className="hero-image"
           />
         </div>
