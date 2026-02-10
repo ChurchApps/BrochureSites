@@ -10,7 +10,7 @@ export default function Features() {
       badge: 'Offline Ready',
       title: 'Play Without Internet',
       description: 'Download lessons in advance and play them offline. Perfect for churches with limited or unreliable connectivity.',
-      image: '/images/teacher-using-remote.png',
+      image: '/images/real/play_without_internet.png',
     },
     {
       badge: 'TV Optimized',

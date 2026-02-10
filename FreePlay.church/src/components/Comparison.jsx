@@ -11,7 +11,7 @@ export default function Comparison() {
           <div className="comparison-box old">
             <div className="comparison-label">The Old Way 😫</div>
             <div className="comparison-image">
-              <img src="/images/before-freeplay-scenario.png" alt="Frustrated teacher managing cables and computer" />
+              <img src="/images/real/realbeforefreeplayscenario.png" alt="Frustrated teacher managing cables and computer" />
             </div>
             <h3>Complicated & Frustrating</h3>
             <ul className="comparison-list">
@@ -37,7 +37,7 @@ export default function Comparison() {
           <div className="comparison-box new">
             <div className="comparison-label">With FreePlay 🎉</div>
             <div className="comparison-image">
-              <img src="/images/after-freeplay-scenario.png" alt="Happy teacher using FreePlay with remote" />
+              <img src="/images/real/realafterfreeplayscenario.png" alt="Happy teacher using FreePlay with remote" />
             </div>
             <h3>Simple & Powerful</h3>
             <ul className="comparison-list">
