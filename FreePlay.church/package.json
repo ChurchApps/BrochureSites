@@ -7,7 +7,11 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy-prod": "npm run build",
+    "exec-deploy-prod": "aws s3 sync dist/ s3://freeplay-church-web",
+    "invalidate-prod": "aws cloudfront create-invalidation --distribution-id E1EEPU4J2PLX59 --paths \"/*\"",
+    "deploy-prod": "npm run predeploy-prod && npm run exec-deploy-prod && npm run invalidate-prod"
   },
   "dependencies": {
     "react": "^19.2.0",
