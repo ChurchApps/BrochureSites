@@ -1,5 +1,6 @@
 import { ApiHelper, CommonEnvironmentHelper } from "@churchapps/apphelper";
 import { Locale } from "@churchapps/apphelper";
+import i18n from "i18next";
 
 export class EnvironmentHelper {
   static Common = CommonEnvironmentHelper;
@@ -31,9 +32,24 @@ export class EnvironmentHelper {
 
   static initLocale = async () => {
     console.log("Initializing locale...");
-    // Initialize with English locale only
-    await Locale.init([`/apphelper/locales/{{lng}}.json`]);
+    await Locale.init([`/apphelper/locales/{{lng}}.json`, `/locales/{{lng}}.json`]);
 
+    // Pre-load Spanish if browser language is not Spanish
+    // (Locale.init already loads en + browser lang, so we need to ensure both en and es are available)
+    const browserLang = navigator.language?.split("-")[0] || "en";
+    const otherLang = browserLang === "es" ? "en" : "es";
+    if (otherLang !== "en") {
+      try {
+        const [apphelperData, brochureData] = await Promise.all([
+          fetch(`/apphelper/locales/${otherLang}.json`).then(r => r.json()).catch(() => ({})),
+          fetch(`/locales/${otherLang}.json`).then(r => r.json()).catch(() => ({})),
+        ]);
+        const merged = { ...apphelperData, ...brochureData };
+        i18n.addResourceBundle(otherLang, "translation", merged, true, true);
+      } catch (e) {
+        console.warn("Failed to pre-load translations:", e);
+      }
+    }
   };
 
 }

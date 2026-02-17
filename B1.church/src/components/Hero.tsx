@@ -1,10 +1,13 @@
+import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 import { Play, ArrowDown } from "lucide-react";
-import { Link } from "react-router-dom";
 import churchCommunity from "@/assets/church-community.jpg";
 import { trackChurchSignup, trackFeatureClick } from "@/utils/analytics";
+import LocaleLink from "@/components/LocaleLink";
 
 const Hero = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
       {/* Background Image with Overlay */}
@@ -23,33 +26,33 @@ const Hero = () => {
           {/* Badge */}
           <div className="inline-flex items-center space-x-2 gradient-glass px-6 py-3 rounded-full text-sm font-medium">
             <div className="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
-            <span className="text-foreground">100% Free • Ministry-Driven Platform</span>
+            <span className="text-foreground">{t("brochure.hero.badge")}</span>
           </div>
 
           {/* Main Headline */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold leading-tight">
-            <span className="block text-foreground">Church Community</span>
-            <span className="text-[hsl(var(--primary-vibrant))] block">Without Barriers</span>
+            <span className="block text-foreground">{t("brochure.hero.headlineTop")}</span>
+            <span className="text-[hsl(var(--primary-vibrant))] block">{t("brochure.hero.headlineBottom")}</span>
           </h1>
 
           {/* Subheadline */}
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Complete church management software with mobile app, website builder, digital giving, and community features. 100% free church platform designed by a ministry, for ministries.
+            {t("brochure.hero.subheadline")}
           </p>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-6 justify-center pt-8">
-            <Button 
-              variant="gradient" 
-              size="xl" 
-              className="group shadow-glow" 
+            <Button
+              variant="gradient"
+              size="xl"
+              className="group shadow-glow"
               asChild
               onClick={() => trackChurchSignup('hero_primary_cta')}
             >
-              <Link to="/login">
-                Get Started Free
+              <LocaleLink to="/login">
+                {t("brochure.hero.ctaPrimary")}
                 <Play className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
-              </Link>
+              </LocaleLink>
             </Button>
             <Button
               variant="outline"
@@ -60,7 +63,7 @@ const Hero = () => {
                 document.getElementById('features')?.scrollIntoView({ behavior: 'smooth' });
               }}
             >
-              See How It Works
+              {t("brochure.hero.ctaSecondary")}
               <Play className="w-6 h-6" />
             </Button>
           </div>
@@ -68,16 +71,16 @@ const Hero = () => {
           {/* Stats */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-8 pt-16 max-w-2xl mx-auto">
             <div className="gradient-glass rounded-2xl p-6 card-hover">
-              <div className="text-3xl font-bold text-primary">100%</div>
-              <div className="text-sm text-muted-foreground">Free Forever</div>
+              <div className="text-3xl font-bold text-primary">{t("brochure.hero.statFreeValue")}</div>
+              <div className="text-sm text-muted-foreground">{t("brochure.hero.statFreeLabel")}</div>
             </div>
             <div className="gradient-glass rounded-2xl p-6 card-hover">
-              <div className="text-3xl font-bold text-primary">Modern</div>
-              <div className="text-sm text-muted-foreground">Platform</div>
+              <div className="text-3xl font-bold text-primary">{t("brochure.hero.statModernValue")}</div>
+              <div className="text-sm text-muted-foreground">{t("brochure.hero.statModernLabel")}</div>
             </div>
             <div className="gradient-glass rounded-2xl p-6 card-hover">
-              <div className="text-3xl font-bold text-primary">Ministry</div>
-              <div className="text-sm text-muted-foreground">Not Profit</div>
+              <div className="text-3xl font-bold text-primary">{t("brochure.hero.statMinistryValue")}</div>
+              <div className="text-sm text-muted-foreground">{t("brochure.hero.statMinistryLabel")}</div>
             </div>
           </div>
         </div>

@@ -1,20 +1,26 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
-import { Link, useNavigate, useLocation } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import { trackChurchSignup } from "@/utils/analytics";
+import LocaleLink from "@/components/LocaleLink";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
+import { useLanguage } from "@/context/LanguageContext";
 
 const Header = () => {
+  const { t } = useTranslation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const navigate = useNavigate();
   const location = useLocation();
+  const { localePath } = useLanguage();
 
   const scrollToSection = (sectionId: string) => {
     setIsMenuOpen(false);
 
-    if (location.pathname !== "/") {
+    if (!/^\/(en|es)\/?$/.test(location.pathname)) {
       // Navigate to home page first, then scroll after a brief delay
-      navigate("/");
+      navigate(localePath("/"));
       setTimeout(() => {
         const element = document.getElementById(sectionId);
         if (element) {
@@ -51,37 +57,38 @@ const Header = () => {
               onClick={() => scrollToSection("features")}
               className="text-white hover:text-white/80 transition-colors"
             >
-              Features
+              {t("brochure.header.features")}
             </button>
-            <Link to="/church-management" className="text-white hover:text-white/80 transition-colors">
-              Church Management
-            </Link>
+            <LocaleLink to="/church-management" className="text-white hover:text-white/80 transition-colors">
+              {t("brochure.header.churchManagement")}
+            </LocaleLink>
             <button
               onClick={() => scrollToSection("about")}
               className="text-white hover:text-white/80 transition-colors"
             >
-              About
+              {t("brochure.header.about")}
             </button>
             <button
               onClick={() => scrollToSection("contact")}
               className="text-white hover:text-white/80 transition-colors"
             >
-              Contact
+              {t("brochure.header.contact")}
             </button>
+            <LanguageSwitcher />
           </nav>
 
           {/* Desktop CTA */}
           <div className="hidden md:flex items-center space-x-4">
             <Button variant="ghost" className="text-white hover:text-white hover:bg-white/10" asChild>
-              <Link to="/login">Sign In</Link>
+              <LocaleLink to="/login">{t("brochure.header.signIn")}</LocaleLink>
             </Button>
-            <Button 
-              className="bg-white text-blue-900 hover:bg-gray-50 shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105 font-semibold" 
-              size="lg" 
+            <Button
+              className="bg-white text-blue-900 hover:bg-gray-50 shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105 font-semibold"
+              size="lg"
               asChild
               onClick={() => trackChurchSignup('header_cta')}
             >
-              <Link to="/login">Get Started Free</Link>
+              <LocaleLink to="/login">{t("brochure.header.getStartedFree")}</LocaleLink>
             </Button>
           </div>
 
@@ -102,37 +109,38 @@ const Header = () => {
                 onClick={() => scrollToSection("features")}
                 className="text-white hover:text-white/80 transition-colors text-left"
               >
-                Features
+                {t("brochure.header.features")}
               </button>
-              <Link
+              <LocaleLink
                 to="/church-management"
                 onClick={() => setIsMenuOpen(false)}
                 className="text-white hover:text-white/80 transition-colors"
               >
-                Church Management
-              </Link>
+                {t("brochure.header.churchManagement")}
+              </LocaleLink>
               <button
                 onClick={() => scrollToSection("about")}
                 className="text-white hover:text-white/80 transition-colors text-left"
               >
-                About
+                {t("brochure.header.about")}
               </button>
               <button
                 onClick={() => scrollToSection("contact")}
                 className="text-white hover:text-white/80 transition-colors text-left"
               >
-                Contact
+                {t("brochure.header.contact")}
               </button>
+              <LanguageSwitcher />
               <div className="flex flex-col space-y-2 pt-4 border-t border-white/20">
                 <Button variant="ghost" className="justify-start text-white hover:text-white hover:bg-white/10" asChild>
-                  <Link to="/login">Sign In</Link>
+                  <LocaleLink to="/login">{t("brochure.header.signIn")}</LocaleLink>
                 </Button>
-                <Button 
-                  className="bg-white text-blue-900 hover:bg-gray-50 shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105 font-semibold" 
+                <Button
+                  className="bg-white text-blue-900 hover:bg-gray-50 shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105 font-semibold"
                   asChild
                   onClick={() => trackChurchSignup('mobile_header_cta')}
                 >
-                  <Link to="/login">Get Started Free</Link>
+                  <LocaleLink to="/login">{t("brochure.header.getStartedFree")}</LocaleLink>
                 </Button>
               </div>
             </nav>

@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 import {
   Play,
@@ -17,7 +18,7 @@ import {
   Database,
   BarChart3
 } from "lucide-react";
-import { Link } from "react-router-dom";
+import LocaleLink from "@/components/LocaleLink";
 import communityPhoto from "@/assets/community-photo.jpg";
 import givingPhoto from "@/assets/giving-photo.jpg";
 import checkinPhoto from "@/assets/checkin-photo.jpg";
@@ -26,50 +27,58 @@ import checkinImage from "@/assets/church-checkin-station-interface.png";
 import dashboardImage from "@/assets/church-management-dashboard-preview.jpg";
 
 const Features = () => {
+  const { t } = useTranslation();
+
+  // Helper to safely get arrays from i18n (returns [] if translations not yet loaded)
+  const tArray = <T,>(key: string): T[] => {
+    const result = t(key, { returnObjects: true });
+    return Array.isArray(result) ? result : [];
+  };
+
   const features = [
     {
       icon: Users,
-      title: "Church Community Connection",
-      description: "Build deeper relationships through groups, discussions, messaging, and events. Connect members beyond Sunday services with meaningful interactions.",
+      title: t("brochure.features.community.title"),
+      description: t("brochure.features.community.description"),
       image: communityPhoto,
       phoneImage: "/community-groups-phone.png",
       phoneAlt: "B1 Church Community Groups",
-      features: ["Small Groups", "Direct Messaging", "Discussion Forums", "Member Directory"],
+      features: tArray<string>("brochure.features.community.items"),
       reverse: false,
-      ctaText: "Join Community"
+      ctaText: t("brochure.features.community.cta")
     },
     {
       icon: Play,
-      title: "Digital Church Content Hub",
-      description: "Access sermons, classroom lessons, verse of the days and full bible translations. Keep your community engaged with fresh content throughout the week.",
-      image: heroImage, // Using hero image for digital content hub
+      title: t("brochure.features.content.title"),
+      description: t("brochure.features.content.description"),
+      image: heroImage,
       phoneImage: "/sermons-phone.png",
       phoneAlt: "B1 Church Sermons",
-      features: ["Sermon Library", "Bible Integration", "Verse of the Day", "Classroom Lessons"],
+      features: tArray<string>("brochure.features.content.items"),
       reverse: true,
-      ctaText: "Browse Content"
+      ctaText: t("brochure.features.content.cta")
     },
     {
       icon: CreditCard,
-      title: "Online Church Giving",
-      description: "Secure donations via credit/bank with recurring options and fund-specific giving. No fees from B1 - direct Stripe integration.",
+      title: t("brochure.features.giving.title"),
+      description: t("brochure.features.giving.description"),
       image: givingPhoto,
       phoneImage: "/giving-phone.png",
       phoneAlt: "B1 Church Digital Giving",
-      features: ["Secure Payments", "Recurring Donations", "Fund Management", "Giving History"],
+      features: tArray<string>("brochure.features.giving.items"),
       reverse: false,
-      ctaText: "Start Giving"
+      ctaText: t("brochure.features.giving.cta")
     },
     {
       icon: CheckCircle,
-      title: "Church Check-in Platform",
-      description: "Contactless service check-in with family management and automatic group assignment. Streamline attendance tracking.",
+      title: t("brochure.features.checkin.title"),
+      description: t("brochure.features.checkin.description"),
       image: checkinPhoto,
       phoneImage: "/checkin-phone.png",
       phoneAlt: "B1 Church Check-in Complete",
-      features: ["Contactless Check-in", "Family Management", "Auto Group Assignment", "Attendance Reports"],
+      features: tArray<string>("brochure.features.checkin.items"),
       reverse: true,
-      ctaText: "Try Check-in"
+      ctaText: t("brochure.features.checkin.cta")
     }
   ];
 
@@ -124,10 +133,10 @@ const Features = () => {
                   </div>
 
                   <Button variant="gradient" size="lg" className="group" asChild>
-                    <Link to="/login">
+                    <LocaleLink to="/login">
                       {feature.ctaText}
                       <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                    </Link>
+                    </LocaleLink>
                   </Button>
                 </div>
               </div>
@@ -150,7 +159,7 @@ const Features = () => {
                   {/* Floating Badge - Only on first phone */}
                   {index === 0 && (
                     <div className="absolute -top-4 -right-4 bg-accent text-accent-foreground px-4 py-2 rounded-full text-sm font-semibold shadow-lg">
-                      Mobile First
+                      {t("brochure.features.mobileFirst")}
                     </div>
                   )}
                 </div>
@@ -166,13 +175,11 @@ const Features = () => {
           {/* Header */}
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-              Complete{" "}
-              <span className="text-gradient">Church Management System</span>
+              {t("brochure.features.managementSystem.title")}{" "}
+              <span className="text-gradient">{t("brochure.features.managementSystem.titleHighlight")}</span>
             </h2>
             <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto">
-              Professional church database software with member management, attendance tracking,
-              giving administration, and ministry communication tools. Free church management system
-              designed specifically for growing congregations and multi-campus churches.
+              {t("brochure.features.managementSystem.description")}
             </p>
           </div>
 
@@ -182,64 +189,64 @@ const Features = () => {
               <div className="p-3 rounded-xl bg-primary/20 w-fit mb-4">
                 <Users className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-xl font-bold mb-2">People Management</h3>
-              <p className="text-muted-foreground">Complete member and guest records with advanced search and relationships tracking.</p>
+              <h3 className="text-xl font-bold mb-2">{t("brochure.features.grid.peopleManagement.title")}</h3>
+              <p className="text-muted-foreground">{t("brochure.features.grid.peopleManagement.description")}</p>
             </div>
 
             <div className="gradient-glass p-6 rounded-2xl border border-border/50 hover:border-primary/50 transition-all card-hover">
               <div className="p-3 rounded-xl bg-primary/20 w-fit mb-4">
                 <BarChart3 className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-xl font-bold mb-2">Attendance Analytics</h3>
-              <p className="text-muted-foreground">Track attendance trends with beautiful charts and comprehensive reporting.</p>
+              <h3 className="text-xl font-bold mb-2">{t("brochure.features.grid.attendanceAnalytics.title")}</h3>
+              <p className="text-muted-foreground">{t("brochure.features.grid.attendanceAnalytics.description")}</p>
             </div>
 
             <div className="gradient-glass p-6 rounded-2xl border border-border/50 hover:border-primary/50 transition-all card-hover">
               <div className="p-3 rounded-xl bg-primary/20 w-fit mb-4">
                 <UserCheck className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-xl font-bold mb-2">Groups & Ministries</h3>
-              <p className="text-muted-foreground">Organize unlimited groups, classes with member assignments and tracking.</p>
+              <h3 className="text-xl font-bold mb-2">{t("brochure.features.grid.groupsMinistries.title")}</h3>
+              <p className="text-muted-foreground">{t("brochure.features.grid.groupsMinistries.description")}</p>
             </div>
 
             <div className="gradient-glass p-6 rounded-2xl border border-border/50 hover:border-primary/50 transition-all card-hover">
               <div className="p-3 rounded-xl bg-primary/20 w-fit mb-4">
                 <DollarSign className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-xl font-bold mb-2">Giving Management</h3>
-              <p className="text-muted-foreground">Process donations with batch management, fund tracking, and tax statements.</p>
+              <h3 className="text-xl font-bold mb-2">{t("brochure.features.grid.givingManagement.title")}</h3>
+              <p className="text-muted-foreground">{t("brochure.features.grid.givingManagement.description")}</p>
             </div>
 
             <div className="gradient-glass p-6 rounded-2xl border border-border/50 hover:border-primary/50 transition-all card-hover">
               <div className="p-3 rounded-xl bg-primary/20 w-fit mb-4">
                 <Calendar className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-xl font-bold mb-2">Service Planning</h3>
-              <p className="text-muted-foreground">Schedule worship services, assign teams, and manage volunteer coordination.</p>
+              <h3 className="text-xl font-bold mb-2">{t("brochure.features.grid.servicePlanning.title")}</h3>
+              <p className="text-muted-foreground">{t("brochure.features.grid.servicePlanning.description")}</p>
             </div>
 
             <div className="gradient-glass p-6 rounded-2xl border border-border/50 hover:border-primary/50 transition-all card-hover">
               <div className="p-3 rounded-xl bg-primary/20 w-fit mb-4">
                 <FileText className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-xl font-bold mb-2">Song Library</h3>
-              <p className="text-muted-foreground">Organize songs with arrangements, keys, chord charts, and setlists.</p>
+              <h3 className="text-xl font-bold mb-2">{t("brochure.features.grid.songLibrary.title")}</h3>
+              <p className="text-muted-foreground">{t("brochure.features.grid.songLibrary.description")}</p>
             </div>
 
             <div className="gradient-glass p-6 rounded-2xl border border-border/50 hover:border-primary/50 transition-all card-hover">
               <div className="p-3 rounded-xl bg-primary/20 w-fit mb-4">
                 <MessageSquare className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-xl font-bold mb-2">Communications</h3>
-              <p className="text-muted-foreground">Send targeted emails and announcements with automated workflows.</p>
+              <h3 className="text-xl font-bold mb-2">{t("brochure.features.grid.communications.title")}</h3>
+              <p className="text-muted-foreground">{t("brochure.features.grid.communications.description")}</p>
             </div>
 
             <div className="gradient-glass p-6 rounded-2xl border border-border/50 hover:border-primary/50 transition-all card-hover">
               <div className="p-3 rounded-xl bg-primary/20 w-fit mb-4">
                 <Database className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-xl font-bold mb-2">Multi-Campus</h3>
-              <p className="text-muted-foreground">Manage multiple locations from one unified dashboard with campus-specific data.</p>
+              <h3 className="text-xl font-bold mb-2">{t("brochure.features.grid.multiCampus.title")}</h3>
+              <p className="text-muted-foreground">{t("brochure.features.grid.multiCampus.description")}</p>
             </div>
           </div>
 
@@ -253,8 +260,8 @@ const Features = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               <div className="absolute bottom-4 left-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <h4 className="text-sm font-semibold text-white mb-1">Groups & Ministries</h4>
-                <p className="text-xs text-white/80">Manage unlimited groups and classes</p>
+                <h4 className="text-sm font-semibold text-white mb-1">{t("brochure.features.showcase.groupsMinistries.title")}</h4>
+                <p className="text-xs text-white/80">{t("brochure.features.showcase.groupsMinistries.description")}</p>
               </div>
             </div>
 
@@ -266,8 +273,8 @@ const Features = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               <div className="absolute bottom-4 left-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <h4 className="text-sm font-semibold text-white mb-1">People Search</h4>
-                <p className="text-xs text-white/80">Advanced member database</p>
+                <h4 className="text-sm font-semibold text-white mb-1">{t("brochure.features.showcase.peopleSearch.title")}</h4>
+                <p className="text-xs text-white/80">{t("brochure.features.showcase.peopleSearch.description")}</p>
               </div>
             </div>
 
@@ -279,8 +286,8 @@ const Features = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               <div className="absolute bottom-4 left-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <h4 className="text-sm font-semibold text-white mb-1">Service Planning</h4>
-                <p className="text-xs text-white/80">Schedule teams and assignments</p>
+                <h4 className="text-sm font-semibold text-white mb-1">{t("brochure.features.showcase.servicePlanning.title")}</h4>
+                <p className="text-xs text-white/80">{t("brochure.features.showcase.servicePlanning.description")}</p>
               </div>
             </div>
 
@@ -292,8 +299,8 @@ const Features = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               <div className="absolute bottom-4 left-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <h4 className="text-sm font-semibold text-white mb-1">Song Library</h4>
-                <p className="text-xs text-white/80">Arrangements and chord charts</p>
+                <h4 className="text-sm font-semibold text-white mb-1">{t("brochure.features.showcase.songLibrary.title")}</h4>
+                <p className="text-xs text-white/80">{t("brochure.features.showcase.songLibrary.description")}</p>
               </div>
             </div>
           </div>
@@ -309,10 +316,10 @@ const Features = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-background/70 via-transparent to-transparent" />
               <div className="absolute bottom-8 left-8 right-8 text-center">
                 <h3 className="text-2xl md:text-3xl font-bold mb-2 text-white">
-                  Beautiful, Intuitive Dashboard
+                  {t("brochure.features.dashboard.title")}
                 </h3>
                 <p className="text-white/90 max-w-2xl mx-auto">
-                  Access all your church data with our clean, modern interface designed for efficiency and ease of use.
+                  {t("brochure.features.dashboard.description")}
                 </p>
               </div>
             </div>
@@ -325,8 +332,8 @@ const Features = () => {
                 <Shield className="h-5 w-5 text-primary" />
               </div>
               <div>
-                <h4 className="font-semibold mb-1">Security & Privacy</h4>
-                <p className="text-sm text-muted-foreground">Industry standard encryption and secure data storage</p>
+                <h4 className="font-semibold mb-1">{t("brochure.features.additional.security.title")}</h4>
+                <p className="text-sm text-muted-foreground">{t("brochure.features.additional.security.description")}</p>
               </div>
             </div>
 
@@ -335,8 +342,8 @@ const Features = () => {
                 <Smartphone className="h-5 w-5 text-primary" />
               </div>
               <div>
-                <h4 className="font-semibold mb-1">Mobile Accessibility</h4>
-                <p className="text-sm text-muted-foreground">Responsive design works perfectly on all devices</p>
+                <h4 className="font-semibold mb-1">{t("brochure.features.additional.mobile.title")}</h4>
+                <p className="text-sm text-muted-foreground">{t("brochure.features.additional.mobile.description")}</p>
               </div>
             </div>
 
@@ -345,8 +352,8 @@ const Features = () => {
                 <Mail className="h-5 w-5 text-primary" />
               </div>
               <div>
-                <h4 className="font-semibold mb-1">Automated Workflows</h4>
-                <p className="text-sm text-muted-foreground">Follow-up sequences and member care automation</p>
+                <h4 className="font-semibold mb-1">{t("brochure.features.additional.workflows.title")}</h4>
+                <p className="text-sm text-muted-foreground">{t("brochure.features.additional.workflows.description")}</p>
               </div>
             </div>
 
@@ -355,8 +362,8 @@ const Features = () => {
                 <Clock className="h-5 w-5 text-primary" />
               </div>
               <div>
-                <h4 className="font-semibold mb-1">Real-Time Reporting</h4>
-                <p className="text-sm text-muted-foreground">Generate instant reports and export data anytime</p>
+                <h4 className="font-semibold mb-1">{t("brochure.features.additional.reporting.title")}</h4>
+                <p className="text-sm text-muted-foreground">{t("brochure.features.additional.reporting.description")}</p>
               </div>
             </div>
 
@@ -365,8 +372,8 @@ const Features = () => {
                 <FileText className="h-5 w-5 text-primary" />
               </div>
               <div>
-                <h4 className="font-semibold mb-1">Custom Forms</h4>
-                <p className="text-sm text-muted-foreground">Build registration forms and surveys for any purpose</p>
+                <h4 className="font-semibold mb-1">{t("brochure.features.additional.forms.title")}</h4>
+                <p className="text-sm text-muted-foreground">{t("brochure.features.additional.forms.description")}</p>
               </div>
             </div>
 
@@ -375,8 +382,8 @@ const Features = () => {
                 <Users className="h-5 w-5 text-primary" />
               </div>
               <div>
-                <h4 className="font-semibold mb-1">Role-Based Access</h4>
-                <p className="text-sm text-muted-foreground">Secure permissions for staff and volunteers</p>
+                <h4 className="font-semibold mb-1">{t("brochure.features.additional.roles.title")}</h4>
+                <p className="text-sm text-muted-foreground">{t("brochure.features.additional.roles.description")}</p>
               </div>
             </div>
           </div>
@@ -397,15 +404,15 @@ const Features = () => {
         <div className="relative z-10 container mx-auto px-4 text-center">
           <div className="gradient-glass rounded-3xl p-8 md:p-12 lg:p-16 max-w-4xl mx-auto">
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6">
-              Ready to Build Stronger
-              <span className="text-gradient block">Church Community?</span>
+              {t("brochure.features.ctaSection.title")}
+              <span className="text-gradient block">{t("brochure.features.ctaSection.titleHighlight")}</span>
             </h2>
             <p className="text-lg sm:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Transform your church with our comprehensive free platform designed to deepen relationships and strengthen church communities through modern technology.
+              {t("brochure.features.ctaSection.description")}
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <Button variant="gradient" size="xl" className="shadow-glow" asChild>
-                <Link to="/login">Get Started Free</Link>
+                <LocaleLink to="/login">{t("brochure.features.ctaSection.cta")}</LocaleLink>
               </Button>
             </div>
           </div>

@@ -1,6 +1,8 @@
+import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { useNavigate, useLocation } from "react-router-dom";
+import { useLanguage } from "@/context/LanguageContext";
 import {
   Mail,
   Phone,
@@ -27,13 +29,15 @@ const AndroidIcon = ({ className }: { className?: string }) => (
 );
 
 const Footer = () => {
+  const { t } = useTranslation();
+  const { localePath } = useLanguage();
   const navigate = useNavigate();
   const location = useLocation();
 
   const scrollToSection = (sectionId: string) => {
-    if (location.pathname !== "/") {
+    if (!/^\/(en|es)\/?$/.test(location.pathname)) {
       // Navigate to home first, then scroll
-      navigate("/");
+      navigate(localePath("/"));
       setTimeout(() => {
         const element = document.getElementById(sectionId);
         if (element) {
@@ -64,7 +68,7 @@ const Footer = () => {
               />
             </div>
             <p className="text-gray-300 leading-relaxed">
-              The all-in-one church communication platform that brings worship, community, giving, and administration together.
+              {t("brochure.footer.companyDescription")}
             </p>
             <div className="flex space-x-4">
               <Button variant="ghost" size="icon" className="text-gray-400 hover:text-white" asChild>
@@ -92,22 +96,22 @@ const Footer = () => {
 
           {/* Product */}
           <div className="space-y-6">
-            <h3 className="text-lg font-semibold">Product</h3>
+            <h3 className="text-lg font-semibold">{t("brochure.footer.product")}</h3>
             <ul className="space-y-3">
-              <li><button onClick={() => scrollToSection("features")} className="text-gray-300 hover:text-white transition-colors text-left">Mobile Features</button></li>
-              <li><button onClick={() => scrollToSection("siteBuilder")} className="text-gray-300 hover:text-white transition-colors text-left">Website Builder</button></li>
-              <li><button onClick={() => navigate("/faq")} className="text-gray-300 hover:text-white transition-colors text-left">FAQ</button></li>
-              <li><a href="https://churchapps.org/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">About ChurchApps</a></li>
+              <li><button onClick={() => scrollToSection("features")} className="text-gray-300 hover:text-white transition-colors text-left">{t("brochure.footer.mobileFeatures")}</button></li>
+              <li><button onClick={() => scrollToSection("siteBuilder")} className="text-gray-300 hover:text-white transition-colors text-left">{t("brochure.footer.websiteBuilder")}</button></li>
+              <li><button onClick={() => navigate(localePath("/faq"))} className="text-gray-300 hover:text-white transition-colors text-left">{t("brochure.footer.faq")}</button></li>
+              <li><a href="https://churchapps.org/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">{t("brochure.footer.aboutChurchApps")}</a></li>
             </ul>
           </div>
 
           {/* Apps & Resources */}
           <div className="space-y-6">
-            <h3 className="text-lg font-semibold">Apps & Resources</h3>
+            <h3 className="text-lg font-semibold">{t("brochure.footer.appsAndResources")}</h3>
             <ul className="space-y-3">
-              <li><a href="https://play.google.com/store/apps/details?id=church.b1.mobile" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">Android App</a></li>
-              <li><a href="https://apps.apple.com/us/app/b1-church/id1610587256" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">iOS App</a></li>
-              <li><a href="https://support.churchapps.org/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">Help Center</a></li>
+              <li><a href="https://play.google.com/store/apps/details?id=church.b1.mobile" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">{t("brochure.footer.androidApp")}</a></li>
+              <li><a href="https://apps.apple.com/us/app/b1-church/id1610587256" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">{t("brochure.footer.iosApp")}</a></li>
+              <li><a href="https://support.churchapps.org/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">{t("brochure.footer.helpCenter")}</a></li>
               <li><a href="https://freeshow.app/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">FreeShow</a></li>
               <li><a href="https://lessons.church/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">Lessons.church</a></li>
             </ul>
@@ -115,7 +119,7 @@ const Footer = () => {
 
           {/* Contact */}
           <div className="space-y-6">
-            <h3 className="text-lg font-semibold">Contact</h3>
+            <h3 className="text-lg font-semibold">{t("brochure.footer.contact")}</h3>
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-gray-400" />
@@ -127,7 +131,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="w-5 h-5 text-gray-400" />
-                <span className="text-gray-300">Available Worldwide</span>
+                <span className="text-gray-300">{t("brochure.footer.availableWorldwide")}</span>
               </div>
             </div>
 
