@@ -1,0 +1,599 @@
+{
+  "brochure": {
+    "header": {
+      "features": "기능",
+      "churchManagement": "교회 관리",
+      "about": "소개",
+      "contact": "문의",
+      "signIn": "로그인",
+      "getStartedFree": "무료로 시작하기"
+    },
+    "hero": {
+      "badge": "100% 무료 • 사역 중심 플랫폼",
+      "headlineTop": "장벽 없는",
+      "headlineBottom": "교회 공동체",
+      "subheadline": "모바일 앱, 웹사이트 빌더, 디지털 헌금, 공동체 기능을 갖춘 완벽한 교회 관리 소프트웨어입니다. 사역자에 의해, 사역을 위해 설계된 100% 무료 교회 플랫폼입니다.",
+      "ctaPrimary": "무료로 시작하기",
+      "ctaSecondary": "작동 방식 보기",
+      "statFreeValue": "100%",
+      "statFreeLabel": "영원히 무료",
+      "statModernValue": "최신",
+      "statModernLabel": "플랫폼",
+      "statMinistryValue": "사역",
+      "statMinistryLabel": "영리 목적 아님"
+    },
+    "features": {
+      "community": {
+        "title": "교회 공동체 연결",
+        "description": "소그룹, 토론, 메시징, 행사를 통해 더 깊은 관계를 구축하십시오. 의미 있는 교류를 통해 주일 예배 이후에도 성도들을 연결하십시오.",
+        "items": ["소그룹", "다이렉트 메시지", "토론 포럼", "성도 명부"],
+        "cta": "공동체 참여하기"
+      },
+      "content": {
+        "title": "디지털 교회 콘텐츠 허브",
+        "description": "설교, 교실 수업, 오늘의 말씀, 성경 전문 번역에 접근하십시오. 한 주 내내 신선한 콘텐츠로 공동체의 참여를 유지하십시오.",
+        "items": ["설교 라이브러리", "성경 통합", "오늘의 말씀", "교실 수업"],
+        "cta": "콘텐츠 둘러보기"
+      },
+      "giving": {
+        "title": "온라인 교회 헌금",
+        "description": "정기 헌금 옵션과 기금별 헌금을 통한 안전한 신용카드/계좌이체 헌금입니다. B1 수수료 없음 - Stripe 직접 연동입니다.",
+        "items": ["안전한 결제", "정기 헌금", "기금 관리", "헌금 내역"],
+        "cta": "헌금 시작하기"
+      },
+      "checkin": {
+        "title": "교회 체크인 플랫폼",
+        "description": "가족 관리 및 자동 그룹 배정이 가능한 비접촉식 예배 체크인입니다. 출석 관리를 간소화하십시오.",
+        "items": ["비접촉식 체크인", "가족 관리", "자동 그룹 배정", "출석 보고서"],
+        "cta": "체크인 체험하기"
+      },
+      "mobileFirst": "모바일 우선",
+      "managementSystem": {
+        "title": "완벽한",
+        "titleHighlight": "교회 관리 시스템",
+        "description": "성도 관리, 출석 추적, 헌금 관리, 사역 커뮤니케이션 도구를 갖춘 전문적인 교회 데이터베이스 소프트웨어입니다. 성장하는 교회와 다중 캠퍼스 교회를 위해 특별히 설계된 무료 교회 관리 시스템입니다."
+      },
+      "grid": {
+        "peopleManagement": {
+          "title": "인원 관리",
+          "description": "고급 검색 및 관계 추적 기능을 갖춘 완전한 성도 및 방문자 기록입니다."
+        },
+        "attendanceAnalytics": {
+          "title": "출석 분석",
+          "description": "아름다운 차트와 종합 보고서로 출석 추세를 추적합니다."
+        },
+        "groupsMinistries": {
+          "title": "그룹 및 사역",
+          "description": "성도 배정 및 추적 기능을 갖춘 무제한 그룹과 반을 조직합니다."
+        },
+        "givingManagement": {
+          "title": "헌금 관리",
+          "description": "일괄 처리, 기금 추적, 세금 명세서를 통해 헌금을 처리합니다."
+        },
+        "servicePlanning": {
+          "title": "예배 계획",
+          "description": "예배를 편성하고, 팀을 배정하며, 봉사자 조율을 관리합니다."
+        },
+        "songLibrary": {
+          "title": "찬양 라이브러리",
+          "description": "편곡, 키, 코드 차트, 세트리스트로 찬양곡을 정리합니다."
+        },
+        "communications": {
+          "title": "커뮤니케이션",
+          "description": "자동화된 워크플로우로 대상별 이메일과 공지를 발송합니다."
+        },
+        "multiCampus": {
+          "title": "다중 캠퍼스",
+          "description": "캠퍼스별 데이터가 포함된 하나의 통합 대시보드에서 여러 지점을 관리합니다."
+        }
+      },
+      "showcase": {
+        "groupsMinistries": {
+          "title": "그룹 및 사역",
+          "description": "무제한 그룹과 반을 관리합니다"
+        },
+        "peopleSearch": {
+          "title": "인원 검색",
+          "description": "고급 성도 데이터베이스"
+        },
+        "servicePlanning": {
+          "title": "예배 계획",
+          "description": "팀 및 배정 일정 관리"
+        },
+        "songLibrary": {
+          "title": "찬양 라이브러리",
+          "description": "편곡 및 코드 차트"
+        }
+      },
+      "dashboard": {
+        "title": "아름답고 직관적인 대시보드",
+        "description": "효율성과 사용 편의성을 위해 설계된 깔끔하고 현대적인 인터페이스로 모든 교회 데이터에 접근하십시오."
+      },
+      "additional": {
+        "security": {
+          "title": "보안 및 개인정보 보호",
+          "description": "업계 표준 암호화 및 안전한 데이터 저장"
+        },
+        "mobile": {
+          "title": "모바일 접근성",
+          "description": "모든 기기에서 완벽하게 작동하는 반응형 디자인"
+        },
+        "workflows": {
+          "title": "자동화된 워크플로우",
+          "description": "후속 조치 및 성도 케어 자동화"
+        },
+        "reporting": {
+          "title": "실시간 보고",
+          "description": "즉시 보고서를 생성하고 언제든지 데이터를 내보낼 수 있습니다"
+        },
+        "forms": {
+          "title": "맞춤 양식",
+          "description": "어떤 목적으로든 등록 양식과 설문조사를 작성할 수 있습니다"
+        },
+        "roles": {
+          "title": "역할 기반 접근 제어",
+          "description": "직원과 봉사자를 위한 안전한 권한 관리"
+        }
+      },
+      "ctaSection": {
+        "title": "더 강한 교회 공동체를",
+        "titleHighlight": "만들 준비가 되셨습니까?",
+        "description": "현대 기술을 통해 관계를 깊게 하고 교회 공동체를 강화하도록 설계된 종합 무료 플랫폼으로 교회를 변화시키십시오.",
+        "cta": "무료로 시작하기"
+      }
+    },
+    "testimonials": {
+      "title": "모든 곳의 교회가",
+      "titleHighlight": "사랑합니다",
+      "subtitle": "완전 무료 플랫폼으로 사역을 변화시킨 성장하는 교회들과 함께하십시오. 목사님과 교회 관리자분들이 B1에 대해 하시는 말씀입니다.",
+      "stats": {
+        "churchesValue": "100+",
+        "churchesLabel": "교회가 신뢰합니다",
+        "freeValue": "무료",
+        "freeLabel": "영원히 무료",
+        "uptimeValue": "99.9%",
+        "uptimeLabel": "가동률 보장",
+        "supportValue": "24/7",
+        "supportLabel": "지원 가능"
+      },
+      "items": [
+        {
+          "content": "ChurchApps를 진심으로 추천합니다. 이것은 가장 참되고 훌륭한 의미의 사역입니다. ChurchApps는 교회의 지역사회에 대한 영적 영향력을 향상시키고 높이기 위한 기술 서비스를 제공합니다. 앞으로도 오랫동안 교회의 인프라를 도울 것입니다."
+        },
+        {
+          "content": "ChurchApps 덕분에 우리 교회가 지역사회에서 더 잘 알려지게 되었으며, 인지도, 헌금, 봉사자가 증가하여 도움이 필요한 가정들을 더 잘 섬길 수 있게 되었습니다."
+        },
+        {
+          "content": "ChurchApps는 단순한 소프트웨어 그 이상입니다. 사역의 미션, 비전, 일상 업무를 지원하는 실용적인 도구입니다. 이 도구를 배우고, 가르치고, 교회가 더 큰 명확성, 효율성, 목적의식을 가지고 운영될 수 있도록 돕는 모습을 지켜보는 기회에 감사드립니다."
+        },
+        {
+          "content": "헌금 페이지가 생기면서 우리 단체에 대한 헌금이 증가했습니다. 사람들은 코드를 스캔하여 헌금 페이지로 바로 이동하는 편리함을 높이 평가할 뿐만 아니라, 온라인 헌금을 쉽게 하고 싶은 분들을 위해 정기 헌금도 설정할 수 있습니다."
+        },
+        {
+          "content": "저는 출석 기록을 유지하는 것을 좋아하며, 매주 일요일 그 목적으로 B1 Admin을 사용합니다. 우리 교회의 인원 및 출석 기록을 유지하는 효과적인 방법으로 입증된 B1 Admin의 서비스에 정말 감사합니다."
+        }
+      ],
+      "ctaTitle": "교회 관리를 변화시킬 준비가 되셨습니까?",
+      "ctaDescription": "이미 B1을 사용하고 있는 성장하는 교회 커뮤니티에 참여하십시오 - 영원히 완전 무료입니다. 신용카드 불필요, 체험판 없음, 숨겨진 비용 없음.",
+      "ctaButton": "무료로 시작하기"
+    },
+    "websiteBuilder": {
+      "badge": "웹 포털 기능",
+      "title": "무료 교회 웹사이트 빌더",
+      "titleHighlight": "몇 달이 아닌 몇 분 만에",
+      "description": "무료 내장 웹사이트 빌더로 아름답고 전문적인 교회 웹사이트를 만드십시오. 코딩이 필요 없습니다 - 드래그, 드롭, 게시만 하면 됩니다.",
+      "dragDrop": {
+        "title": "드래그 앤 드롭 빌더",
+        "description": "미리 설계된 컴포넌트를 갖춘 직관적인 비주얼 에디터입니다. 기술 지식 없이도 멋진 페이지를 만들 수 있습니다."
+      },
+      "templates": {
+        "title": "교회 전용 템플릿",
+        "description": "교회를 위해 특별히 설계된 아름다운 템플릿입니다. 설교 페이지, 행사 캘린더, 사역 소개 페이지가 포함되어 있습니다."
+      },
+      "integration": {
+        "title": "앱 통합",
+        "description": "웹사이트와 모바일 앱을 원활하게 연결합니다. 행사, 설교, 공동체 소식이 자동으로 동기화됩니다."
+      },
+      "cta": "교회 웹사이트 만들기 시작",
+      "ctaSubtext": "모든 계정에 포함된 완전 무료 교회 웹사이트 빌더"
+    },
+    "perfectFor": {
+      "title": "모든 교회 공동체에",
+      "titleHighlight": "무료",
+      "subtitle": "모든 규모의 교회를 위한 완전 무료 플랫폼입니다. 사역 미션이기에 숨겨진 비용, 기능 제한, 예상치 못한 요금이 없습니다.",
+      "audiences": [
+        {
+          "title": "지역 교회",
+          "description": "디지털 환경을 현대화하려는 단일 지점 교회",
+          "stats": "모든 규모"
+        },
+        {
+          "title": "다중 지점 교회",
+          "description": "고유한 정체성을 유지하면서 통합 관리가 필요한 여러 지점의 교회",
+          "stats": "모든 지점"
+        },
+        {
+          "title": "교단 네트워크",
+          "description": "공유 자원으로 여러 교회를 섬기는 조직",
+          "stats": "모든 네트워크"
+        },
+        {
+          "title": "공동체 중심",
+          "description": "깊은 참여와 관계 구축을 우선시하는 교회",
+          "stats": "날마다 성장"
+        }
+      ],
+      "integrations": {
+        "adminIntegration": {
+          "title": "B1 Admin 통합",
+          "description": "완전한 워크플로우 자동화를 위해 B1 Admin 교회 관리 소프트웨어와 원활하게 통합됩니다."
+        },
+        "webPortal": {
+          "title": "웹 포털 포함",
+          "description": "강력한 모바일 앱 경험과 함께 웹사이트 빌더가 포함된 종합 웹 포털입니다."
+        },
+        "instantSetup": {
+          "title": "즉시 설정",
+          "description": "간소화된 온보딩 과정과 전담 지원팀으로 몇 분 만에 시작하십시오."
+        }
+      },
+      "about": {
+        "title": "무료 소프트웨어 소개",
+        "description": "우리는 완전 무료 교회 관리 소프트웨어를 제공하는 데 전념하는 501(c)(3) 비영리 사역 단체입니다. 우리의 미션은 교회가 소프트웨어 비용이 아닌 사역에 집중할 수 있도록 돕는 것입니다.",
+        "stats": {
+          "freeValue": "100%",
+          "freeLabel": "영원히 무료",
+          "setupValue": "$0",
+          "setupLabel": "설치 비용",
+          "churchesValue": "100+",
+          "churchesLabel": "섬기는 교회 수",
+          "openValue": "오픈",
+          "openLabel": "소스 코드"
+        },
+        "features": [
+          "신용카드 불필요",
+          "무제한 사용자 및 성도",
+          "모든 기능 포함",
+          "정기 업데이트 및 개선",
+          "24/7 커뮤니티 지원",
+          "모바일 및 웹 접근",
+          "데이터 이전 지원",
+          "오픈 소스 투명성"
+        ],
+        "learnMore": "사역과 미션에 대해 더 알아보기",
+        "aboutChurchApps": "ChurchApps 소개",
+        "viewOnGitHub": "GitHub에서 보기"
+      },
+      "cta": {
+        "title": "공동체를 강화할 준비가 되셨습니까?",
+        "description": "종합 사역 플랫폼이 더 깊은 관계와 더 강한 공동체를 구축하는 데 어떻게 도움이 되는지 알아보십시오.",
+        "button": "오늘 무료로 시작하기",
+        "tagline": "100% 무료 • 숨겨진 비용 없음 • 사역 중심 미션"
+      }
+    },
+    "footer": {
+      "companyDescription": "예배, 공동체, 헌금, 관리를 하나로 모으는 올인원 교회 커뮤니케이션 플랫폼입니다.",
+      "product": "제품",
+      "mobileFeatures": "모바일 기능",
+      "websiteBuilder": "웹사이트 빌더",
+      "faq": "자주 묻는 질문",
+      "aboutChurchApps": "ChurchApps 소개",
+      "appsAndResources": "앱 및 리소스",
+      "androidApp": "Android 앱",
+      "iosApp": "iOS 앱",
+      "helpCenter": "도움말 센터",
+      "contact": "문의",
+      "availableWorldwide": "전 세계 이용 가능"
+    },
+    "faq": {
+      "pageTitle": "자주 묻는",
+      "pageTitleHighlight": "질문",
+      "pageSubtitle": "100% 무료 교회 관리 플랫폼 B1.church에 대해 알아야 할 모든 것입니다.",
+      "documentTitle": "FAQ - B1.church | 무료 교회 관리 소프트웨어 질문",
+      "items": [
+        {
+          "question": "B1.church는 정말 100% 무료입니까?",
+          "answer": "네, B1.church는 숨겨진 비용, 프리미엄 등급, 헌금 수수료 없이 완전히 무료입니다. 우리는 예산에 관계없이 모든 교회가 현대 기술에 접근할 수 있어야 한다고 믿는 501(c)(3) 비영리 사역 단체입니다. 우리 플랫폼은 기부금과 Google Ad Grants로 운영됩니다."
+        },
+        {
+          "question": "B1.church에는 어떤 기능이 포함되어 있습니까?",
+          "answer": "B1.church에는 완전한 교회 관리 플랫폼이 포함되어 있습니다: iOS 및 Android 모바일 앱, 드래그 앤 드롭 웹사이트 빌더, 수수료 없는 온라인 헌금, 스마트 체크인 시스템, 성도 데이터베이스, 출석 추적, 그룹 관리, 예배 계획, 찬양 라이브러리, 설교 관리, 성경 통합 기능입니다."
+        },
+        {
+          "question": "B1.church는 Planning Center와 비교하면 어떻습니까?",
+          "answer": "B1.church는 100% 무료인 반면 Planning Center는 모듈별 과금 방식입니다(월 $0-299 이상). B1은 모바일 앱과 웹사이트 빌더를 무료로 포함하고 있지만, Planning Center는 Church Center에 추가 비용을 청구하며 웹사이트 빌더를 포함하지 않습니다. 둘 다 교회 관리 기능을 제공하지만, B1은 하나의 무료 패키지로 모든 것을 제공합니다."
+        },
+        {
+          "question": "B1.church는 Pushpay와 비교하면 어떻습니까?",
+          "answer": "B1.church는 완전히 무료인 반면 Pushpay는 월 $300-1000 이상의 비용이 듭니다. B1은 헌금에 수수료가 없지만 Pushpay는 헌금의 일정 비율을 수수료로 받습니다. B1은 오픈 소스이며 완전한 교회 관리 기능을 포함하는 반면, Pushpay는 독점 소프트웨어이며 주로 헌금에 초점을 맞추고 있습니다."
+        },
+        {
+          "question": "B1.church는 Tithe.ly와 비교하면 어떻습니까?",
+          "answer": "B1.church는 수수료 없이 완전히 무료입니다. Tithe.ly는 무료 등급을 제공하지만 프리미엄 기능에는 비용을 부과하며 각 헌금에서 일정 비율을 받습니다. B1은 완전한 교회 관리 소프트웨어를 포함하지만, Tithe.ly의 ChMS는 별도의 유료 제품입니다."
+        },
+        {
+          "question": "B1.church는 Breeze ChMS와 비교하면 어떻습니까?",
+          "answer": "B1.church는 무료인 반면 Breeze는 월 $72부터 시작합니다. B1은 완전한 모바일 앱과 웹사이트 빌더를 포함하지만, Breeze는 모바일 기능이 제한적이며 웹사이트 빌더가 없습니다. 둘 다 교회 관리 기능을 제공하지만, B1은 무료로 더 많은 기능을 제공합니다."
+        },
+        {
+          "question": "우리 교회에 맞춤형 모바일 앱을 받을 수 있습니까?",
+          "answer": "네, B1.church는 iOS 및 Android용 맞춤형 브랜드 모바일 앱을 제공합니다. 교회 브랜딩이 적용된 고유한 앱을 받아 성도들이 App Store와 Google Play에서 다운로드할 수 있습니다. 이 기능은 B1에 무료로 포함되어 있습니다."
+        },
+        {
+          "question": "B1.church는 온라인 헌금을 지원합니까?",
+          "answer": "네, B1.church는 신용카드 및 계좌이체를 지원하는 안전한 온라인 헌금 기능을 포함합니다. 정기 헌금을 설정하고, 여러 기금을 관리하며, 세금 명세서용 헌금 내역을 제공할 수 있습니다. B1 플랫폼 수수료 없이 Stripe 직접 연동을 사용합니다 - 교회가 Stripe와 직접 요금을 협의합니다(일반적으로 약 2.9% + 30¢)."
+        },
+        {
+          "question": "B1.church로 웹사이트를 만들 수 있습니까?",
+          "answer": "네, B1.church에는 모바일 반응형 템플릿이 포함된 드래그 앤 드롭 웹사이트 빌더가 포함되어 있습니다. 맞춤 도메인을 사용할 수 있으며, 웹사이트는 행사, 그룹, 헌금 등 모든 B1 기능과 통합됩니다."
+        },
+        {
+          "question": "B1.church에 어린이 사역용 체크인 기능이 있습니까?",
+          "answer": "네, B1.church에는 비접촉식 셀프서비스 키오스크, 가족 체크인, 자동 그룹 배정, 아동 인수용 보안 코드, 보고서가 포함된 출석 추적 기능을 갖춘 스마트 체크인 시스템이 포함되어 있습니다."
+        },
+        {
+          "question": "B1.church는 오픈 소스입니까?",
+          "answer": "네, B1.church는 완전한 오픈 소스입니다. github.com/ChurchApps에서 코드를 확인할 수 있습니다. 이는 원하시면 직접 호스팅하고, 개선에 기여하며, 데이터가 투명하게 처리되고 있음을 신뢰할 수 있다는 것을 의미합니다."
+        },
+        {
+          "question": "B1.church는 누가 만들었습니까?",
+          "answer": "B1.church는 501(c)(3) 비영리 단체인 Live Church Solutions(EIN 45-5349618)이 만들었습니다. 우리는 교회가 기술과 사역 자금 사이에서 선택할 필요가 없어야 한다고 믿는 개발자들의 사역 단체입니다."
+        },
+        {
+          "question": "Live Church Solutions는 다른 어떤 무료 제품을 제공합니까?",
+          "answer": "B1.church 외에도 FreeShow(freeshow.app의 무료 프레젠테이션 소프트웨어, ProPresenter의 대안)와 Lessons.church(모든 연령대를 위한 1,100개 이상의 수업이 포함된 무료 교회 커리큘럼)를 제공합니다. 우리의 모든 제품은 무료이며 오픈 소스입니다."
+        },
+        {
+          "question": "B1.church를 어떻게 시작합니까?",
+          "answer": "시작하기 쉽습니다: b1.church를 방문하여 '무료로 시작하기'를 클릭하고, 교회 계정을 만들고, 앱과 웹사이트를 맞춤 설정한 후, 성도들을 초대하십시오. 신용카드가 필요 없으며 체험 기간도 없습니다 - 영원히 무료입니다."
+        },
+        {
+          "question": "B1.church는 다중 캠퍼스를 지원합니까?",
+          "answer": "네, B1.church는 다중 캠퍼스 교회를 지원합니다. 하나의 통합 대시보드에서 캠퍼스별 데이터, 출석, 그룹을 관리하면서 단일 성도 데이터베이스를 유지할 수 있습니다."
+        }
+      ],
+      "stillHaveQuestions": "아직 질문이 있으십니까?",
+      "supportText": "저희 지원팀이 B1.church 시작을 도와드리겠습니다.",
+      "contactSupport": "지원팀에 문의하기",
+      "viewDocumentation": "문서 보기"
+    },
+    "compare": {
+      "notFound": {
+        "title": "비교를 찾을 수 없습니다",
+        "subtitle": "이용 가능한 비교를 확인하십시오:"
+      },
+      "b1vsPrefix": "B1 vs",
+      "noHiddenFees": "숨겨진 비용 없음, 영원히",
+      "plusTransactionFees": "거래 수수료 별도",
+      "featureColumn": "기능",
+      "ourTake": "우리의 평가",
+      "ctaTitle": "교회 비용을 절약할 준비가 되셨습니까?",
+      "ctaDescription": "B1.church로 전환하여 소프트웨어 예산을 사역에 투입하십시오.",
+      "ctaButton": "무료로 시작하기",
+      "otherComparisons": "다른 비교",
+      "competitors": {
+        "planning-center": {
+          "name": "Planning Center",
+          "tagline": "Planning Center의 무료 대안",
+          "description": "Planning Center는 모듈별 과금 방식의 인기 있는 교회 관리 플랫폼입니다. B1.church는 유사한 기능을 완전 무료로 제공합니다.",
+          "features": [
+            { "name": "성도 데이터베이스", "b1": true, "competitor": true },
+            { "name": "체크인 시스템", "b1": true, "competitor": "월 $99" },
+            { "name": "온라인 헌금", "b1": "B1 수수료 없음", "competitor": "플랫폼 + Stripe 수수료" },
+            { "name": "그룹 관리", "b1": true, "competitor": "월 $50" },
+            { "name": "예배 계획", "b1": true, "competitor": "월 $14-99" },
+            { "name": "모바일 앱", "b1": "무료 브랜드 앱", "competitor": "월 $0-199" },
+            { "name": "웹사이트 빌더", "b1": true, "competitor": false },
+            { "name": "설교 관리", "b1": true, "competitor": false },
+            { "name": "다중 캠퍼스", "b1": true, "competitor": "추가 비용" },
+            { "name": "오픈 소스", "b1": true, "competitor": false }
+          ],
+          "pricingB1": "100% 무료",
+          "pricingCompetitor": "모듈에 따라 월 $0 - $500 이상",
+          "verdict": "B1.church는 모듈별 과금의 복잡함 없이 Planning Center의 모든 핵심 기능을 제공합니다. 예산이 걱정이시라면 B1이 확실한 선택입니다."
+        },
+        "pushpay": {
+          "name": "Pushpay",
+          "tagline": "Pushpay의 무료 대안",
+          "description": "Pushpay는 모바일 헌금으로 유명하지만 상당한 월 비용과 거래 수수료가 있습니다. B1.church는 플랫폼 수수료 없이 헌금 기능을 제공합니다.",
+          "features": [
+            { "name": "온라인 헌금", "b1": "B1 수수료 없음", "competitor": "플랫폼 + Stripe 수수료" },
+            { "name": "정기 헌금", "b1": true, "competitor": true },
+            { "name": "모바일 앱", "b1": "무료 브랜드 앱", "competitor": "포함" },
+            { "name": "성도 데이터베이스", "b1": true, "competitor": "ChMS 추가 비용" },
+            { "name": "체크인 시스템", "b1": true, "competitor": "추가 비용" },
+            { "name": "웹사이트 빌더", "b1": true, "competitor": false },
+            { "name": "그룹 관리", "b1": true, "competitor": "추가 비용" },
+            { "name": "헌금 명세서", "b1": true, "competitor": true },
+            { "name": "기금 관리", "b1": true, "competitor": true },
+            { "name": "오픈 소스", "b1": true, "competitor": false }
+          ],
+          "pricingB1": "100% 무료",
+          "pricingCompetitor": "월 $300 - $1,000 이상",
+          "verdict": "Pushpay는 기능이 풍부하지만 비쌉니다. B1.church는 비용 없이 유사한 헌금 기능과 완전한 교회 관리 기능을 제공합니다. 절약한 비용을 사역에 투입할 수 있습니다."
+        },
+        "tithely": {
+          "name": "Tithe.ly",
+          "tagline": "Tithe.ly의 무료 대안",
+          "description": "Tithe.ly는 프리미엄 과금 방식의 교회 헌금 및 관리 도구를 제공합니다. B1.church는 거래 수수료 없이 모든 기능을 무료로 제공합니다.",
+          "features": [
+            { "name": "온라인 헌금", "b1": "B1 수수료 없음", "competitor": "플랫폼 + Stripe 수수료" },
+            { "name": "정기 헌금", "b1": true, "competitor": true },
+            { "name": "모바일 앱", "b1": "무료 브랜드 앱", "competitor": "월 $99" },
+            { "name": "성도 데이터베이스", "b1": true, "competitor": "월 $99" },
+            { "name": "체크인 시스템", "b1": true, "competitor": "월 $49" },
+            { "name": "웹사이트 빌더", "b1": true, "competitor": "월 $49" },
+            { "name": "그룹 관리", "b1": true, "competitor": "월 $99" },
+            { "name": "설교 관리", "b1": true, "competitor": "월 $49" },
+            { "name": "다중 캠퍼스", "b1": true, "competitor": "추가 비용" },
+            { "name": "오픈 소스", "b1": true, "competitor": false }
+          ],
+          "pricingB1": "100% 무료",
+          "pricingCompetitor": "무료 등급 + 기능별 월 $49-199",
+          "verdict": "Tithe.ly의 무료 등급은 제한적입니다. 전체 기능을 사용하려면 비용이 빠르게 증가합니다. B1.church는 처음부터 업그레이드 압박 없이 모든 기능을 포함합니다."
+        },
+        "breeze": {
+          "name": "Breeze ChMS",
+          "tagline": "Breeze ChMS의 무료 대안",
+          "description": "Breeze는 간단한 요금제의 교회 관리 시스템입니다. B1.church는 무료로 더 많은 기능을 제공합니다.",
+          "features": [
+            { "name": "성도 데이터베이스", "b1": true, "competitor": true },
+            { "name": "헌금 관리", "b1": "B1 수수료 없음", "competitor": "2.9% + 30¢" },
+            { "name": "체크인 시스템", "b1": true, "competitor": "기본" },
+            { "name": "모바일 앱", "b1": "무료 브랜드 앱", "competitor": "제한적" },
+            { "name": "웹사이트 빌더", "b1": true, "competitor": false },
+            { "name": "그룹 관리", "b1": true, "competitor": true },
+            { "name": "행사 관리", "b1": true, "competitor": true },
+            { "name": "봉사자 일정", "b1": true, "competitor": true },
+            { "name": "다중 캠퍼스", "b1": true, "competitor": false },
+            { "name": "오픈 소스", "b1": true, "competitor": false }
+          ],
+          "pricingB1": "100% 무료",
+          "pricingCompetitor": "월 $72 - $135",
+          "verdict": "Breeze는 간단하고 합리적이지만, B1.church는 예산에 더 친화적이면서(무료!) 웹사이트 빌더와 완전한 모바일 앱 등 더 많은 기능을 제공합니다."
+        }
+      }
+    },
+    "churchManagement": {
+      "hero": {
+        "title": "무료",
+        "titleHighlight": "교회 관리 소프트웨어",
+        "titleLine2": "완전한 사역 플랫폼",
+        "description": "출석 추적, 성도 데이터베이스, 헌금 관리, 커뮤니케이션 도구를 갖춘 전문적인 <strong>교회 관리 소프트웨어</strong>입니다. 501(c)(3) 비영리 사역 단체 Live Church Solutions가 제공하는 완전 <strong>무료 교회 소프트웨어</strong>입니다. 사역 소프트웨어 비용을 수천 달러 절약하고 있는 100개 이상의 교회에 참여하십시오.",
+        "ctaPrimary": "무료로 시작하기",
+        "ctaSecondary": "데모 체험하기",
+        "trustLine": "전 세계 성장하는 교회들이 신뢰합니다",
+        "trustFree": "영원히 완전 무료",
+        "trustNonProfit": "501(c)(3) 비영리 사역 단체",
+        "trustOpenSource": "오픈 소스"
+      },
+      "featuresHeader": {
+        "title": "완전한",
+        "titleHighlight": "교회 관리 시스템",
+        "titleSuffix": "기능",
+        "description": "성도 관리, 출석 추적, 헌금 관리, 사역 커뮤니케이션 도구를 갖춘 전문적인 교회 데이터베이스 소프트웨어입니다. 성장하는 교회와 다중 캠퍼스 교회를 위해 특별히 설계된 무료 교회 관리 시스템입니다."
+      },
+      "checkinStations": {
+        "title": "셀프서비스 체크인 스테이션",
+        "description": "봉사자들이 가족들과 소통할 수 있도록 하면서 아동 안전을 보장합니다. 셀프서비스 체크인 시스템은 어린이와 성인에 대한 매칭 코드를 생성하여 안전한 인수 절차를 만듭니다.",
+        "features": [
+          "전화번호로 검색하고 서비스를 자동으로 선택합니다",
+          "공유 프린터에 무선으로 라벨과 영수증을 인쇄합니다",
+          "$80 미만의 저렴한 Android 태블릿에서 실행됩니다",
+          "출석 추적 시스템과 자동으로 동기화됩니다"
+        ]
+      },
+      "mainFeatures": [
+        {
+          "title": "완전한 인원 관리",
+          "description": "연락처 정보, 관계, 생일, 기념일 추적 기능을 갖춘 상세한 성도 및 방문자 기록을 유지합니다. 고급 검색 및 필터링 기능을 제공합니다."
+        },
+        {
+          "title": "출석 분석",
+          "description": "아름다운 차트와 보고서로 모든 예배와 그룹의 출석 추세를 추적합니다. 시간에 따른 참여 패턴과 성장을 모니터링합니다."
+        },
+        {
+          "title": "그룹 및 사역 관리",
+          "description": "무제한 그룹, 반, 사역을 조직합니다. 성도 배정 관리, 참여 추적, 맞춤 그룹 카테고리를 만들 수 있습니다."
+        },
+        {
+          "title": "고급 헌금 관리",
+          "description": "일괄 처리, 기금 추적, 종합 재정 보고서로 헌금을 처리합니다. 세금 명세서를 생성하고 헌금 추세를 모니터링합니다."
+        },
+        {
+          "title": "예배 및 봉사 계획",
+          "description": "예배를 편성하고, 팀원을 배정하며, 봉사자 조율을 관리합니다. 필요한 직책을 추적하고 알림을 자동화합니다."
+        },
+        {
+          "title": "찬양 라이브러리 및 편곡",
+          "description": "다양한 편곡, 키, 코드 차트로 전체 찬양 라이브러리를 정리합니다. 외부 리소스에 연결하고 예배 세트리스트를 관리합니다."
+        },
+        {
+          "title": "커뮤니케이션 허브",
+          "description": "대상별 이메일과 공지를 발송합니다. 자동화된 워크플로우를 만들고 성도들의 연결을 유지합니다."
+        },
+        {
+          "title": "다중 캠퍼스 지원",
+          "description": "하나의 통합 대시보드에서 여러 지점을 관리합니다. 조직 전체 보고서를 유지하면서 캠퍼스별 데이터를 추적합니다."
+        }
+      ],
+      "testimonials": {
+        "title": "모든 곳의 교회가",
+        "titleHighlight": "사랑합니다",
+        "subtitle": "완전 무료 플랫폼으로 사역을 변화시킨 성장하는 교회들과 함께하십시오. 목사님과 교회 관리자분들의 이야기입니다.",
+        "items": [
+          {
+            "content": "우리는 매주 일요일 출석을 추적하고 주일학교 어린이를 포함한 모든 참석자의 기록을 유지하기 위해 이 플랫폼을 사용합니다. 예산이 제한된 선교사로서, 이 소프트웨어가 무료이면서도 효과적이라는 점에 감사합니다."
+          },
+          {
+            "content": "이것은 교회의 구원자입니다. 예산이 제한된 소규모 교회로서, 이 소프트웨어는 하나님이 보내주신 축복입니다. 사용하기 쉽고 설정하기 간편합니다. 헌금 보고서를 쉽게 작성할 수 있습니다. 데이터를 엑셀로 내보낼 수 있어 기록 분석이 매우 간단합니다. 사무 시간을 최소 25% 줄여주었습니다."
+          },
+          {
+            "content": "팬데믹 기간 동안 디지털 헌금으로 원활하게 전환하는 데 도움이 되었습니다. 지원팀이 훌륭했고 플랫폼이 매우 안정적입니다. 무료라서 소프트웨어 예산을 실제 사역에 투입할 수 있었습니다."
+          }
+        ]
+      },
+      "aboutSection": {
+        "title": "무료 교회 소프트웨어",
+        "titleHighlight": "소개",
+        "description": "2012년에 설립된 501(c)(3) 비영리 단체 <strong>Live Church Solutions</strong>가 기독교 교회와 사역 단체에 완전 무료로 제공하는 종합 <strong>교회 관리 소프트웨어</strong>입니다. 우리의 미션은 교회가 일반적인 교회 관리 시스템의 높은 비용 없이 전문적인 <strong>사역 소프트웨어</strong>를 도입할 수 있도록 돕는 것입니다."
+      },
+      "stats": [
+        {
+          "number": "$800M",
+          "label": "교회가 관리 소프트웨어에 매년 지출하는 금액",
+          "description": "이 돈이 더 나은 곳에 사용될 수 있다고 믿습니다"
+        },
+        {
+          "number": "100+",
+          "label": "이미 우리 플랫폼을 사용하는 교회",
+          "description": "만족하는 사용자들의 성장하는 커뮤니티"
+        },
+        {
+          "number": "2012",
+          "label": "Live Church Solutions 설립 연도",
+          "description": "10년 이상 교회의 기술 지원"
+        },
+        {
+          "number": "100%",
+          "label": "영원히 무료 보장",
+          "description": "숨겨진 비용 없음, 체험판 없음, 제한 없음"
+        }
+      ],
+      "mission": {
+        "title": "우리의 미션: 교회가 사역에 집중하도록 돕기",
+        "description": "매년 교회는 교회 관리 소프트웨어에 <strong>8억 달러</strong> 이상을 지출합니다. 그 돈이 더 나은 곳에 사용될 수 있다고 믿기에, 완전 무료 오픈 소스 교회 관리 솔루션인 이 플랫폼을 개발했습니다.",
+        "learnMore": "Live Church Solutions에 대해 더 알아보기",
+        "viewOnGitHub": "GitHub에서 보기"
+      },
+      "allFeatures": {
+        "title": "필요한 모든 것, 완전 무료",
+        "subtitle": "체험 기간 없음, 인원 제한 없음, 숨겨진 비용 없음",
+        "items": [
+          "상세 프로필이 포함된 완전한 성도 데이터베이스",
+          "셀프 체크인 앱이 포함된 출석 추적",
+          "그룹 및 소그룹 관리",
+          "상세 보고서가 포함된 헌금 관리",
+          "맞춤 양식 및 데이터 수집",
+          "이메일 커뮤니케이션 도구",
+          "행사 관리 및 일정",
+          "기존 시스템에서 데이터 이전",
+          "다중 지점 및 다중 캠퍼스 지원",
+          "역할 기반 접근 및 권한",
+          "GitHub 접근이 가능한 오픈 소스"
+        ]
+      },
+      "cta": {
+        "title": "교회 관리 소프트웨어 비용 지불을 멈출 준비가 되셨습니까?",
+        "description": "사역을 위해, 사역자에 의해 만들어진 완전 무료 오픈 소스 솔루션으로 전환한 전 세계 교회들과 함께하십시오.",
+        "primaryButton": "무료로 시작하기",
+        "secondaryButton": "데모 체험하기"
+      }
+    },
+    "notFound": {
+      "title": "404",
+      "message": "페이지를 찾을 수 없습니다",
+      "returnHome": "홈으로 돌아가기"
+    }
+  }
+}

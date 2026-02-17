@@ -1,0 +1,599 @@
+{
+  "brochure": {
+    "header": {
+      "features": "Funzionalit\u00e0",
+      "churchManagement": "Gestione della Chiesa",
+      "about": "Chi Siamo",
+      "contact": "Contatti",
+      "signIn": "Accedi",
+      "getStartedFree": "Inizia Gratis"
+    },
+    "hero": {
+      "badge": "100% Gratuito \u2022 Piattaforma Orientata al Ministero",
+      "headlineTop": "Comunit\u00e0 Ecclesiale",
+      "headlineBottom": "Senza Barriere",
+      "subheadline": "Software completo per la gestione della chiesa con app mobile, creazione siti web, offerte digitali e funzionalit\u00e0 comunitarie. Piattaforma ecclesiale 100% gratuita progettata da un ministero, per i ministeri.",
+      "ctaPrimary": "Inizia Gratis",
+      "ctaSecondary": "Scopri Come Funziona",
+      "statFreeValue": "100%",
+      "statFreeLabel": "Gratis per Sempre",
+      "statModernValue": "Moderna",
+      "statModernLabel": "Piattaforma",
+      "statMinistryValue": "Ministero",
+      "statMinistryLabel": "Non Profitto"
+    },
+    "features": {
+      "community": {
+        "title": "Connessione con la Comunit\u00e0 Ecclesiale",
+        "description": "Costruite relazioni pi\u00f9 profonde attraverso gruppi, discussioni, messaggi ed eventi. Connettete i membri oltre le funzioni domenicali con interazioni significative.",
+        "items": ["Piccoli Gruppi", "Messaggi Diretti", "Forum di Discussione", "Elenco Membri"],
+        "cta": "Unisciti alla Comunit\u00e0"
+      },
+      "content": {
+        "title": "Centro Contenuti Digitali della Chiesa",
+        "description": "Accedete a sermoni, lezioni per le classi, versetti del giorno e traduzioni complete della Bibbia. Mantenete la vostra comunit\u00e0 coinvolta con contenuti freschi durante tutta la settimana.",
+        "items": ["Archivio Sermoni", "Integrazione Biblica", "Versetto del Giorno", "Lezioni per le Classi"],
+        "cta": "Sfoglia i Contenuti"
+      },
+      "giving": {
+        "title": "Offerte Online della Chiesa",
+        "description": "Donazioni sicure tramite carta di credito/banca con opzioni ricorrenti e offerte per fondi specifici. Nessuna commissione da B1 - integrazione diretta con Stripe.",
+        "items": ["Pagamenti Sicuri", "Donazioni Ricorrenti", "Gestione Fondi", "Storico Offerte"],
+        "cta": "Inizia a Donare"
+      },
+      "checkin": {
+        "title": "Piattaforma Check-in della Chiesa",
+        "description": "Check-in contactless per le funzioni con gestione familiare e assegnazione automatica ai gruppi. Semplificate il monitoraggio delle presenze.",
+        "items": ["Check-in Contactless", "Gestione Familiare", "Assegnazione Automatica ai Gruppi", "Report Presenze"],
+        "cta": "Prova il Check-in"
+      },
+      "mobileFirst": "Mobile First",
+      "managementSystem": {
+        "title": "Sistema Completo di",
+        "titleHighlight": "Gestione della Chiesa",
+        "description": "Software professionale per il database ecclesiale con gestione dei membri, monitoraggio presenze, amministrazione delle offerte e strumenti di comunicazione per il ministero. Sistema gratuito di gestione della chiesa progettato specificamente per congregazioni in crescita e chiese multi-sede."
+      },
+      "grid": {
+        "peopleManagement": {
+          "title": "Gestione Persone",
+          "description": "Registri completi di membri e ospiti con ricerca avanzata e tracciamento delle relazioni."
+        },
+        "attendanceAnalytics": {
+          "title": "Analisi Presenze",
+          "description": "Monitorate le tendenze delle presenze con grafici eleganti e reportistica completa."
+        },
+        "groupsMinistries": {
+          "title": "Gruppi e Ministeri",
+          "description": "Organizzate gruppi e classi illimitati con assegnazioni dei membri e monitoraggio."
+        },
+        "givingManagement": {
+          "title": "Gestione Offerte",
+          "description": "Elaborate le donazioni con gestione batch, tracciamento fondi e dichiarazioni fiscali."
+        },
+        "servicePlanning": {
+          "title": "Pianificazione Funzioni",
+          "description": "Programmate le funzioni di culto, assegnate i team e gestite il coordinamento dei volontari."
+        },
+        "songLibrary": {
+          "title": "Archivio Canti",
+          "description": "Organizzate i canti con arrangiamenti, tonalit\u00e0, spartiti di accordi e scalette."
+        },
+        "communications": {
+          "title": "Comunicazioni",
+          "description": "Inviate email mirate e annunci con flussi di lavoro automatizzati."
+        },
+        "multiCampus": {
+          "title": "Multi-Sede",
+          "description": "Gestite pi\u00f9 sedi da un'unica dashboard unificata con dati specifici per sede."
+        }
+      },
+      "showcase": {
+        "groupsMinistries": {
+          "title": "Gruppi e Ministeri",
+          "description": "Gestite gruppi e classi illimitati"
+        },
+        "peopleSearch": {
+          "title": "Ricerca Persone",
+          "description": "Database avanzato dei membri"
+        },
+        "servicePlanning": {
+          "title": "Pianificazione Funzioni",
+          "description": "Programmate team e assegnazioni"
+        },
+        "songLibrary": {
+          "title": "Archivio Canti",
+          "description": "Arrangiamenti e spartiti di accordi"
+        }
+      },
+      "dashboard": {
+        "title": "Dashboard Elegante e Intuitiva",
+        "description": "Accedete a tutti i dati della vostra chiesa con la nostra interfaccia pulita e moderna, progettata per efficienza e facilit\u00e0 d'uso."
+      },
+      "additional": {
+        "security": {
+          "title": "Sicurezza e Privacy",
+          "description": "Crittografia standard del settore e archiviazione sicura dei dati"
+        },
+        "mobile": {
+          "title": "Accessibilit\u00e0 Mobile",
+          "description": "Design responsive che funziona perfettamente su tutti i dispositivi"
+        },
+        "workflows": {
+          "title": "Flussi di Lavoro Automatizzati",
+          "description": "Sequenze di follow-up e automazione della cura dei membri"
+        },
+        "reporting": {
+          "title": "Reportistica in Tempo Reale",
+          "description": "Generate report istantanei ed esportate i dati in qualsiasi momento"
+        },
+        "forms": {
+          "title": "Moduli Personalizzati",
+          "description": "Create moduli di registrazione e sondaggi per qualsiasi scopo"
+        },
+        "roles": {
+          "title": "Accesso Basato sui Ruoli",
+          "description": "Permessi sicuri per staff e volontari"
+        }
+      },
+      "ctaSection": {
+        "title": "Pronti a Costruire una",
+        "titleHighlight": "Comunit\u00e0 Ecclesiale Pi\u00f9 Forte?",
+        "description": "Trasformate la vostra chiesa con la nostra piattaforma gratuita completa, progettata per approfondire le relazioni e rafforzare le comunit\u00e0 ecclesiali attraverso la tecnologia moderna.",
+        "cta": "Inizia Gratis"
+      }
+    },
+    "testimonials": {
+      "title": "Amato dalle Chiese di",
+      "titleHighlight": "Tutto il Mondo",
+      "subtitle": "Unitevi alle chiese in crescita che hanno trasformato il loro ministero con la nostra piattaforma completamente gratuita. Ecco cosa dicono i pastori e gli amministratori ecclesiali di B1.",
+      "stats": {
+        "churchesValue": "100+",
+        "churchesLabel": "Chiese si Fidano di Noi",
+        "freeValue": "Gratis",
+        "freeLabel": "Per Sempre",
+        "uptimeValue": "99.9%",
+        "uptimeLabel": "Garanzia di Uptime",
+        "supportValue": "24/7",
+        "supportLabel": "Supporto Disponibile"
+      },
+      "items": [
+        {
+          "content": "Raccomando di cuore ChurchApps. \u00c8 un ministero nel senso pi\u00f9 vero e migliore della parola. ChurchApps fornisce servizi tecnici per migliorare e elevare l'impatto spirituale della chiesa nelle comunit\u00e0. Contribuir\u00e0 all'infrastruttura della Chiesa per gli anni a venire."
+        },
+        {
+          "content": "ChurchApps ci ha aiutato a diventare pi\u00f9 visibili nella nostra comunit\u00e0\u2014aumentando la consapevolezza, le donazioni e i volontari cos\u00ec da poter servire meglio le famiglie bisognose."
+        },
+        {
+          "content": "ChurchApps \u00e8 pi\u00f9 di un software\u2014\u00e8 uno strumento pratico che supporta la missione, la visione e il lavoro quotidiano del ministero. Sono grato per l'opportunit\u00e0 di impararlo, insegnarlo e vedere come consente alle chiese di operare con maggiore chiarezza, efficienza e scopo."
+        },
+        {
+          "content": "Avere la pagina delle donazioni ha aumentato le offerte alla nostra organizzazione. Le persone non solo apprezzano la facilit\u00e0 di scansionare un codice per accedere direttamente alla pagina delle donazioni, ma \u00e8 possibile anche impostare le offerte mensili per chi desidera che le donazioni online siano semplici."
+        },
+        {
+          "content": "Mi piace tenere i registri delle presenze, e usiamo B1 Admin ogni domenica per questo scopo. Apprezziamo molto il servizio di B1 Admin, che si \u00e8 dimostrato un modo efficace per la nostra chiesa di tenere i registri delle persone e delle presenze."
+        }
+      ],
+      "ctaTitle": "Pronti a Trasformare la Gestione della Vostra Chiesa?",
+      "ctaDescription": "Unitevi alla crescente comunit\u00e0 di chiese che gi\u00e0 usano B1 - completamente gratuito per sempre. Nessuna carta di credito richiesta, nessun periodo di prova, nessun costo nascosto.",
+      "ctaButton": "Inizia Gratis"
+    },
+    "websiteBuilder": {
+      "badge": "Funzionalit\u00e0 Portale Web",
+      "title": "Creatore di Siti Web per Chiese Gratuito",
+      "titleHighlight": "In Minuti, Non Mesi",
+      "description": "Create un sito web ecclesiale bello e professionale con il nostro creatore di siti web gratuito integrato. Nessuna programmazione richiesta - basta trascinare, rilasciare e pubblicare il vostro sito web ecclesiale.",
+      "dragDrop": {
+        "title": "Creatore Drag & Drop",
+        "description": "Editor visivo intuitivo con componenti pre-progettati. Create pagine straordinarie senza alcuna conoscenza tecnica."
+      },
+      "templates": {
+        "title": "Template Pensati per le Chiese",
+        "description": "Template eleganti progettati specificamente per le chiese. Includono pagine per i sermoni, calendari eventi e vetrine dei ministeri."
+      },
+      "integration": {
+        "title": "Integrazione con l'App",
+        "description": "Collegate senza problemi il vostro sito web con l'app mobile. Eventi, sermoni e aggiornamenti della comunit\u00e0 si sincronizzano automaticamente."
+      },
+      "cta": "Inizia a Creare il Vostro Sito Web Ecclesiale",
+      "ctaSubtext": "Creatore di siti web ecclesiale completamente gratuito incluso con ogni account"
+    },
+    "perfectFor": {
+      "title": "Gratuito per Ogni",
+      "titleHighlight": "Comunit\u00e0 Ecclesiale",
+      "subtitle": "Piattaforma completamente gratuita per chiese di ogni dimensione. La nostra missione ministeriale significa nessun costo nascosto, nessun limite sulle funzionalit\u00e0, nessuna sorpresa.",
+      "audiences": [
+        {
+          "title": "Chiese Locali",
+          "description": "Congregazioni a sede unica che desiderano modernizzare la propria presenza digitale",
+          "stats": "Qualsiasi Dimensione"
+        },
+        {
+          "title": "Congregazioni Multi-Sede",
+          "description": "Pi\u00f9 sedi che necessitano di gestione unificata con identit\u00e0 distinte",
+          "stats": "Tutte le Sedi"
+        },
+        {
+          "title": "Reti Denominazionali",
+          "description": "Organizzazioni che servono pi\u00f9 chiese con risorse condivise",
+          "stats": "Ogni Rete"
+        },
+        {
+          "title": "Orientate alla Comunit\u00e0",
+          "description": "Chiese che danno priorit\u00e0 al coinvolgimento profondo e alla costruzione di relazioni",
+          "stats": "In Crescita Ogni Giorno"
+        }
+      ],
+      "integrations": {
+        "adminIntegration": {
+          "title": "Integrazione B1 Admin",
+          "description": "Perfettamente integrato con il software di gestione ecclesiale B1 Admin per l'automazione completa del flusso di lavoro."
+        },
+        "webPortal": {
+          "title": "Portale Web Incluso",
+          "description": "Portale web completo con creatore di siti web insieme alla potente esperienza dell'app mobile."
+        },
+        "instantSetup": {
+          "title": "Configurazione Istantanea",
+          "description": "Iniziate in pochi minuti con il nostro processo di onboarding semplificato e il team di supporto dedicato."
+        }
+      },
+      "about": {
+        "title": "Informazioni sul Nostro Software Gratuito",
+        "description": "Siamo un'organizzazione non-profit 501(c)(3) dedicata a fornire software di gestione ecclesiale completamente gratuito. La nostra missione \u00e8 permettere alle chiese di concentrarsi sul ministero, non sui costi del software.",
+        "stats": {
+          "freeValue": "100%",
+          "freeLabel": "Gratis per Sempre",
+          "setupValue": "$0",
+          "setupLabel": "Costi di Configurazione",
+          "churchesValue": "100+",
+          "churchesLabel": "Chiese Servite",
+          "openValue": "Open",
+          "openLabel": "Source Code"
+        },
+        "features": [
+          "Nessuna carta di credito richiesta",
+          "Utenti e membri illimitati",
+          "Tutte le funzionalit\u00e0 incluse",
+          "Aggiornamenti e miglioramenti regolari",
+          "Supporto comunitario 24/7",
+          "Accesso mobile e web",
+          "Assistenza per l'importazione dati",
+          "Trasparenza open source"
+        ],
+        "learnMore": "Scoprite di pi\u00f9 sul nostro ministero e la nostra missione",
+        "aboutChurchApps": "Informazioni su ChurchApps",
+        "viewOnGitHub": "Visualizza su GitHub"
+      },
+      "cta": {
+        "title": "Pronti a Rafforzare la Vostra Comunit\u00e0?",
+        "description": "Scoprite come la nostra piattaforma ministeriale completa pu\u00f2 aiutarvi a costruire relazioni pi\u00f9 profonde e comunit\u00e0 pi\u00f9 forti.",
+        "button": "Inizia Gratis Oggi",
+        "tagline": "100% Gratuito \u2022 Nessun costo nascosto \u2022 Missione orientata al ministero"
+      }
+    },
+    "footer": {
+      "companyDescription": "La piattaforma di comunicazione ecclesiale tutto-in-uno che unisce culto, comunit\u00e0, offerte e amministrazione.",
+      "product": "Prodotto",
+      "mobileFeatures": "Funzionalit\u00e0 Mobile",
+      "websiteBuilder": "Creatore Siti Web",
+      "faq": "Domande Frequenti",
+      "aboutChurchApps": "Informazioni su ChurchApps",
+      "appsAndResources": "App e Risorse",
+      "androidApp": "App Android",
+      "iosApp": "App iOS",
+      "helpCenter": "Centro Assistenza",
+      "contact": "Contatti",
+      "availableWorldwide": "Disponibile in Tutto il Mondo"
+    },
+    "faq": {
+      "pageTitle": "Domande",
+      "pageTitleHighlight": "Frequenti",
+      "pageSubtitle": "Tutto ci\u00f2 che dovete sapere su B1.church, la piattaforma di gestione ecclesiale 100% gratuita.",
+      "documentTitle": "FAQ - B1.church | Domande sul Software Gratuito di Gestione della Chiesa",
+      "items": [
+        {
+          "question": "B1.church \u00e8 davvero gratuito al 100%?",
+          "answer": "S\u00ec, B1.church \u00e8 completamente gratuito senza costi nascosti, senza livelli premium e senza commissioni sulle donazioni. Siamo un ministero non-profit 501(c)(3) che crede che ogni chiesa meriti l'accesso alla tecnologia moderna indipendentemente dal budget. La nostra piattaforma \u00e8 finanziata da donazioni e Google Ad Grants."
+        },
+        {
+          "question": "Quali funzionalit\u00e0 include B1.church?",
+          "answer": "B1.church include una piattaforma completa di gestione ecclesiale: app mobile per iOS e Android, creatore di siti web drag-and-drop, offerte online senza commissioni, sistema di check-in intelligente, database dei membri, monitoraggio presenze, gestione gruppi, pianificazione delle funzioni, archivio canti, gestione sermoni e integrazione biblica."
+        },
+        {
+          "question": "Come si confronta B1.church con Planning Center?",
+          "answer": "B1.church \u00e8 gratuito al 100% mentre Planning Center addebita per modulo ($0-299+/mese). B1 include un'app mobile e un creatore di siti web senza costi, mentre Planning Center addebita extra per Church Center e non include un creatore di siti web. Entrambi offrono funzionalit\u00e0 di gestione ecclesiale, ma B1 fornisce tutto in un unico pacchetto gratuito."
+        },
+        {
+          "question": "Come si confronta B1.church con Pushpay?",
+          "answer": "B1.church \u00e8 completamente gratuito mentre Pushpay costa $300-1000+/mese. B1 non ha commissioni sulle offerte, mentre Pushpay trattiene una percentuale sulle donazioni. B1 \u00e8 open source e include la gestione completa della chiesa, mentre Pushpay \u00e8 proprietario e focalizzato principalmente sulle offerte."
+        },
+        {
+          "question": "Come si confronta B1.church con Tithe.ly?",
+          "answer": "B1.church \u00e8 interamente gratuito senza commissioni sulle transazioni. Tithe.ly offre un livello gratuito ma addebita per le funzionalit\u00e0 premium e trattiene una percentuale su ogni donazione. B1 include il software completo di gestione ecclesiale, mentre il ChMS di Tithe.ly \u00e8 un prodotto a pagamento separato."
+        },
+        {
+          "question": "Come si confronta B1.church con Breeze ChMS?",
+          "answer": "B1.church \u00e8 gratuito mentre Breeze parte da $72/mese. B1 include un'app mobile completa e un creatore di siti web, mentre Breeze ha funzionalit\u00e0 mobile limitate e nessun creatore di siti web. Entrambi offrono gestione ecclesiale, ma B1 fornisce pi\u00f9 funzionalit\u00e0 senza alcun costo."
+        },
+        {
+          "question": "Posso ottenere un'app mobile personalizzata per la mia chiesa?",
+          "answer": "S\u00ec, B1.church fornisce app mobile personalizzate con il vostro brand per iOS e Android. La vostra chiesa ottiene la propria app con il vostro marchio che i membri possono scaricare dall'App Store e da Google Play. Questo \u00e8 incluso gratuitamente con B1."
+        },
+        {
+          "question": "B1.church supporta le offerte online?",
+          "answer": "S\u00ec, B1.church include offerte online sicure con supporto per carte di credito e bonifici bancari. Potete impostare donazioni ricorrenti, gestire fondi multipli e fornire lo storico delle offerte per le dichiarazioni fiscali. Utilizziamo l'integrazione diretta con Stripe senza commissioni della piattaforma B1 - la vostra chiesa negozia le tariffe direttamente con Stripe (tipicamente circa 2.9% + 30\u00a2)."
+        },
+        {
+          "question": "Posso creare un sito web con B1.church?",
+          "answer": "S\u00ec, B1.church include un creatore di siti web drag-and-drop con template responsive per dispositivi mobili. Potete utilizzare un dominio personalizzato e il sito web si integra con tutte le funzionalit\u00e0 di B1 come eventi, gruppi e offerte."
+        },
+        {
+          "question": "B1.church ha il check-in per il ministero dei bambini?",
+          "answer": "S\u00ec, B1.church include un sistema di check-in intelligente con chioschi self-service contactless, check-in familiare, assegnazioni automatiche ai gruppi, codici di sicurezza per il ritiro dei bambini e monitoraggio delle presenze con report."
+        },
+        {
+          "question": "B1.church \u00e8 open source?",
+          "answer": "S\u00ec, B1.church \u00e8 completamente open source. Potete visualizzare il nostro codice su GitHub all'indirizzo github.com/ChurchApps. Questo significa che potete fare self-hosting se desiderate, contribuire con miglioramenti e avere fiducia che i vostri dati vengano gestiti in modo trasparente."
+        },
+        {
+          "question": "Chi sviluppa B1.church?",
+          "answer": "B1.church \u00e8 sviluppato da Live Church Solutions, un'organizzazione non-profit 501(c)(3) (EIN 45-5349618). Siamo un ministero di sviluppatori che crede che le chiese non debbano scegliere tra tecnologia e finanziamento del ministero."
+        },
+        {
+          "question": "Quali altri prodotti gratuiti offre Live Church Solutions?",
+          "answer": "Oltre a B1.church, offriamo FreeShow (software di presentazione gratuito su freeshow.app, un'alternativa a ProPresenter) e Lessons.church (curriculum ecclesiale gratuito con oltre 1.100 lezioni per tutte le et\u00e0). Tutti i nostri prodotti sono gratuiti e open source."
+        },
+        {
+          "question": "Come posso iniziare con B1.church?",
+          "answer": "Iniziare \u00e8 facile: visitate b1.church, cliccate su 'Inizia Gratis', create il vostro account ecclesiale, personalizzate la vostra app e il sito web e invitate la vostra congregazione. Non \u00e8 richiesta alcuna carta di credito e non c'\u00e8 nessun periodo di prova - \u00e8 gratuito per sempre."
+        },
+        {
+          "question": "B1.church supporta pi\u00f9 sedi?",
+          "answer": "S\u00ec, B1.church supporta le chiese multi-sede. Potete gestire pi\u00f9 sedi da un'unica dashboard unificata con dati, presenze e gruppi specifici per sede, mantenendo un unico database dei membri."
+        }
+      ],
+      "stillHaveQuestions": "Avete ancora domande?",
+      "supportText": "Il nostro team di supporto \u00e8 qui per aiutarvi a iniziare con B1.church.",
+      "contactSupport": "Contatta il Supporto",
+      "viewDocumentation": "Visualizza la Documentazione"
+    },
+    "compare": {
+      "notFound": {
+        "title": "Confronto Non Trovato",
+        "subtitle": "Consultate i nostri confronti disponibili:"
+      },
+      "b1vsPrefix": "B1 vs",
+      "noHiddenFees": "Nessun costo nascosto, per sempre",
+      "plusTransactionFees": "Pi\u00f9 commissioni sulle transazioni",
+      "featureColumn": "Funzionalit\u00e0",
+      "ourTake": "Il Nostro Parere",
+      "ctaTitle": "Pronti a far risparmiare la vostra chiesa?",
+      "ctaDescription": "Passate a B1.church e reindirizzate il vostro budget software al ministero.",
+      "ctaButton": "Inizia Gratis",
+      "otherComparisons": "Altri Confronti",
+      "competitors": {
+        "planning-center": {
+          "name": "Planning Center",
+          "tagline": "Alternativa gratuita a Planning Center",
+          "description": "Planning Center \u00e8 una popolare piattaforma di gestione ecclesiale con prezzi modulari. B1.church offre funzionalit\u00e0 simili in modo completamente gratuito.",
+          "features": [
+            { "name": "Database Membri", "b1": true, "competitor": true },
+            { "name": "Sistema Check-in", "b1": true, "competitor": "$99/mese" },
+            { "name": "Offerte Online", "b1": "Nessuna commissione B1", "competitor": "Commissioni piattaforma + Stripe" },
+            { "name": "Gestione Gruppi", "b1": true, "competitor": "$50/mese" },
+            { "name": "Pianificazione Funzioni", "b1": true, "competitor": "$14-99/mese" },
+            { "name": "App Mobile", "b1": "App brandizzata gratuita", "competitor": "$0-199/mese" },
+            { "name": "Creatore Siti Web", "b1": true, "competitor": false },
+            { "name": "Gestione Sermoni", "b1": true, "competitor": false },
+            { "name": "Multi-Sede", "b1": true, "competitor": "Costo extra" },
+            { "name": "Open Source", "b1": true, "competitor": false }
+          ],
+          "pricingB1": "100% Gratuito",
+          "pricingCompetitor": "$0 - $500+/mese a seconda dei moduli",
+          "verdict": "B1.church fornisce tutte le funzionalit\u00e0 principali di Planning Center senza la complessit\u00e0 dei prezzi modulari. Se il budget \u00e8 una preoccupazione, B1 \u00e8 la scelta chiara."
+        },
+        "pushpay": {
+          "name": "Pushpay",
+          "tagline": "Alternativa gratuita a Pushpay",
+          "description": "Pushpay \u00e8 noto per le offerte mobili ma comporta costi mensili significativi e commissioni sulle transazioni. B1.church offre le offerte con zero commissioni di piattaforma.",
+          "features": [
+            { "name": "Offerte Online", "b1": "Nessuna commissione B1", "competitor": "Commissioni piattaforma + Stripe" },
+            { "name": "Donazioni Ricorrenti", "b1": true, "competitor": true },
+            { "name": "App Mobile", "b1": "App brandizzata gratuita", "competitor": "Inclusa" },
+            { "name": "Database Membri", "b1": true, "competitor": "ChMS extra" },
+            { "name": "Sistema Check-in", "b1": true, "competitor": "Costo extra" },
+            { "name": "Creatore Siti Web", "b1": true, "competitor": false },
+            { "name": "Gestione Gruppi", "b1": true, "competitor": "Costo extra" },
+            { "name": "Dichiarazioni Offerte", "b1": true, "competitor": true },
+            { "name": "Gestione Fondi", "b1": true, "competitor": true },
+            { "name": "Open Source", "b1": true, "competitor": false }
+          ],
+          "pricingB1": "100% Gratuito",
+          "pricingCompetitor": "$300 - $1,000+/mese",
+          "verdict": "Pushpay \u00e8 ricco di funzionalit\u00e0 ma costoso. B1.church offre funzionalit\u00e0 di offerta comparabili pi\u00f9 la gestione completa della chiesa senza alcun costo. I risparmi possono essere reindirizzati al ministero."
+        },
+        "tithely": {
+          "name": "Tithe.ly",
+          "tagline": "Alternativa gratuita a Tithe.ly",
+          "description": "Tithe.ly offre strumenti per le offerte e la gestione ecclesiale con prezzi freemium. B1.church fornisce tutto gratuitamente senza commissioni sulle transazioni.",
+          "features": [
+            { "name": "Offerte Online", "b1": "Nessuna commissione B1", "competitor": "Commissioni piattaforma + Stripe" },
+            { "name": "Donazioni Ricorrenti", "b1": true, "competitor": true },
+            { "name": "App Mobile", "b1": "App brandizzata gratuita", "competitor": "$99/mese" },
+            { "name": "Database Membri", "b1": true, "competitor": "$99/mese" },
+            { "name": "Sistema Check-in", "b1": true, "competitor": "$49/mese" },
+            { "name": "Creatore Siti Web", "b1": true, "competitor": "$49/mese" },
+            { "name": "Gestione Gruppi", "b1": true, "competitor": "$99/mese" },
+            { "name": "Gestione Sermoni", "b1": true, "competitor": "$49/mese" },
+            { "name": "Multi-Sede", "b1": true, "competitor": "Costo extra" },
+            { "name": "Open Source", "b1": true, "competitor": false }
+          ],
+          "pricingB1": "100% Gratuito",
+          "pricingCompetitor": "Livello gratuito + $49-199/mese per le funzionalit\u00e0",
+          "verdict": "Il livello gratuito di Tithe.ly \u00e8 limitato. Per ottenere la piena funzionalit\u00e0, i costi aumentano rapidamente. B1.church include tutto fin dal primo giorno senza pressioni per l'upgrade."
+        },
+        "breeze": {
+          "name": "Breeze ChMS",
+          "tagline": "Alternativa gratuita a Breeze ChMS",
+          "description": "Breeze \u00e8 un sistema semplice di gestione ecclesiale con prezzi diretti. B1.church offre pi\u00f9 funzionalit\u00e0 senza alcun costo.",
+          "features": [
+            { "name": "Database Membri", "b1": true, "competitor": true },
+            { "name": "Gestione Offerte", "b1": "Nessuna commissione B1", "competitor": "2.9% + 30\u00a2" },
+            { "name": "Sistema Check-in", "b1": true, "competitor": "Base" },
+            { "name": "App Mobile", "b1": "App brandizzata gratuita", "competitor": "Limitata" },
+            { "name": "Creatore Siti Web", "b1": true, "competitor": false },
+            { "name": "Gestione Gruppi", "b1": true, "competitor": true },
+            { "name": "Gestione Eventi", "b1": true, "competitor": true },
+            { "name": "Programmazione Volontari", "b1": true, "competitor": true },
+            { "name": "Multi-Sede", "b1": true, "competitor": false },
+            { "name": "Open Source", "b1": true, "competitor": false }
+          ],
+          "pricingB1": "100% Gratuito",
+          "pricingCompetitor": "$72 - $135/mese",
+          "verdict": "Breeze \u00e8 semplice e conveniente, ma B1.church \u00e8 ancora pi\u00f9 leggero sul budget (gratuito!) offrendo al contempo pi\u00f9 funzionalit\u00e0 come il creatore di siti web e un'app mobile completa."
+        }
+      }
+    },
+    "churchManagement": {
+      "hero": {
+        "title": "Software Gratuito di",
+        "titleHighlight": "Gestione della Chiesa",
+        "titleLine2": "Piattaforma Ministeriale Completa",
+        "description": "<strong>Software professionale di gestione della chiesa</strong> con monitoraggio presenze, database dei membri, gestione offerte e strumenti di comunicazione. <strong>Software ecclesiale completamente gratuito</strong> fornito da Live Church Solutions, un ministero non-profit 501(c)(3). Unitevi alle oltre 100 chiese che risparmiano migliaia sui costi del software ministeriale.",
+        "ctaPrimary": "Inizia Gratis",
+        "ctaSecondary": "Prova la Demo",
+        "trustLine": "Scelto da Chiese in Crescita in Tutto il Mondo",
+        "trustFree": "Completamente Gratuito per Sempre",
+        "trustNonProfit": "Ministero Non-Profit 501(c)(3)",
+        "trustOpenSource": "Open Source"
+      },
+      "featuresHeader": {
+        "title": "Funzionalit\u00e0 Complete del",
+        "titleHighlight": "Sistema di Gestione della Chiesa",
+        "titleSuffix": "",
+        "description": "Software professionale per il database ecclesiale con gestione dei membri, monitoraggio presenze, amministrazione delle offerte e strumenti di comunicazione per il ministero. Sistema gratuito di gestione della chiesa progettato specificamente per congregazioni in crescita e chiese multi-sede."
+      },
+      "checkinStations": {
+        "title": "Stazioni di Check-in Self-Service",
+        "description": "Garantite la sicurezza dei bambini liberando i volontari per interagire con le famiglie. Il nostro sistema di check-in self-service genera codici corrispondenti per bambini e adulti, creando un processo di ritiro sicuro.",
+        "features": [
+          "Ricerca per numero di telefono e selezione automatica delle funzioni",
+          "Stampa etichette e ricevute in modalit\u00e0 wireless su stampanti condivise",
+          "Funziona su tablet Android economici sotto gli $80",
+          "Si sincronizza automaticamente con il sistema di monitoraggio presenze"
+        ]
+      },
+      "mainFeatures": [
+        {
+          "title": "Gestione Completa delle Persone",
+          "description": "Mantenete registri dettagliati di membri e ospiti con informazioni di contatto, relazioni, compleanni e anniversari. Funzionalit\u00e0 avanzate di ricerca e filtraggio."
+        },
+        {
+          "title": "Analisi delle Presenze",
+          "description": "Monitorate le tendenze delle presenze in tutte le funzioni e i gruppi con grafici eleganti e report. Seguite i modelli di coinvolgimento e la crescita nel tempo."
+        },
+        {
+          "title": "Gestione Gruppi e Ministeri",
+          "description": "Organizzate gruppi, classi e ministeri illimitati. Gestite le assegnazioni dei membri, monitorate la partecipazione e create categorie personalizzate per i gruppi."
+        },
+        {
+          "title": "Gestione Avanzata delle Offerte",
+          "description": "Elaborate le donazioni con gestione batch, tracciamento fondi e reportistica finanziaria completa. Generate dichiarazioni fiscali e monitorate le tendenze delle offerte."
+        },
+        {
+          "title": "Pianificazione del Culto e delle Funzioni",
+          "description": "Programmate le funzioni di culto, assegnate i membri del team e gestite il coordinamento dei volontari. Tracciate le posizioni necessarie e automatizzate le notifiche."
+        },
+        {
+          "title": "Archivio Canti e Arrangiamenti",
+          "description": "Organizzate il vostro archivio completo di canti con arrangiamenti multipli, tonalit\u00e0 e spartiti di accordi. Collegate risorse esterne e gestite le scalette del culto."
+        },
+        {
+          "title": "Centro Comunicazioni",
+          "description": "Inviate email mirate e annunci. Create flussi di lavoro automatizzati e mantenete la vostra congregazione connessa."
+        },
+        {
+          "title": "Supporto Multi-Sede",
+          "description": "Gestite pi\u00f9 sedi da un'unica dashboard unificata. Tracciate i dati specifici per sede mantenendo la reportistica a livello di organizzazione."
+        }
+      ],
+      "testimonials": {
+        "title": "Amato dalle Chiese di",
+        "titleHighlight": "Tutto il Mondo",
+        "subtitle": "Unitevi alle chiese in crescita che hanno trasformato il loro ministero con la nostra piattaforma completamente gratuita. Ecco cosa dicono i pastori e gli amministratori ecclesiali.",
+        "items": [
+          {
+            "content": "Utilizziamo questa piattaforma ogni domenica per monitorare le presenze e tenere i registri di tutti i partecipanti, inclusi i bambini della scuola domenicale. Come missionari con un budget limitato, apprezziamo che questo software sia gratuito ed efficace."
+          },
+          {
+            "content": "Questo \u00e8 un salvavita per la chiesa. Come piccola chiesa con un budget limitato, questo software \u00e8 un DONO DI DIO e una benedizione. \u00c8 facile da usare e da configurare. I report sulle donazioni sono facili da compilare. Il fatto che posso esportare i dati in Excel rende l'analisi dei registri molto semplice. Ha ridotto almeno il 25% del mio tempo in ufficio."
+          },
+          {
+            "content": "Questo ci ha aiutato a passare alle offerte digitali senza problemi durante la pandemia. Il team di supporto \u00e8 stato fantastico e la piattaforma \u00e8 incredibilmente affidabile. Essere gratuito ci ha permesso di reindirizzare il nostro budget software al ministero effettivo."
+          }
+        ]
+      },
+      "aboutSection": {
+        "title": "Informazioni sul Nostro",
+        "titleHighlight": "Software Ecclesiale Gratuito",
+        "description": "<strong>Software completo di gestione della chiesa</strong> fornito completamente gratuito alle chiese e ai ministeri cristiani da <strong>Live Church Solutions</strong>, un'organizzazione non-profit 501(c)(3) fondata nel 2012. La nostra missione \u00e8 aiutare le chiese a implementare <strong>software ministeriale</strong> professionale senza i tipici alti costi dei sistemi di amministrazione ecclesiale."
+      },
+      "stats": [
+        {
+          "number": "$800M",
+          "label": "Le chiese spendono annualmente in software gestionale",
+          "description": "Crediamo che questo denaro possa essere utilizzato meglio"
+        },
+        {
+          "number": "100+",
+          "label": "Chiese gi\u00e0 utilizzano la nostra piattaforma",
+          "description": "Una comunit\u00e0 in crescita di utenti soddisfatti"
+        },
+        {
+          "number": "2012",
+          "label": "Anno di fondazione di Live Church Solutions",
+          "description": "Oltre un decennio di aiuto alle chiese con la tecnologia"
+        },
+        {
+          "number": "100%",
+          "label": "Garanzia gratis per sempre",
+          "description": "Nessun costo nascosto, nessun periodo di prova, nessun limite"
+        }
+      ],
+      "mission": {
+        "title": "La Nostra Missione: Aiutare le Chiese a Concentrarsi sul Ministero",
+        "description": "Ogni anno la Chiesa spende oltre <strong>$800 milioni</strong> in software di gestione ecclesiale. Crediamo che quel denaro possa essere utilizzato meglio, ed \u00e8 per questo che abbiamo sviluppato questa piattaforma: una soluzione di gestione ecclesiale completamente gratuita e open source.",
+        "learnMore": "Scoprite di Pi\u00f9 su Live Church Solutions",
+        "viewOnGitHub": "Visualizza su GitHub"
+      },
+      "allFeatures": {
+        "title": "Tutto Ci\u00f2 di Cui Avete Bisogno, Completamente Gratuito",
+        "subtitle": "Nessun periodo di prova, nessun limite di membri, nessun costo nascosto",
+        "items": [
+          "Database completo dei membri con profili dettagliati",
+          "Monitoraggio presenze con app di check-in self-service",
+          "Gestione gruppi e piccoli gruppi",
+          "Gestione offerte con reportistica dettagliata",
+          "Moduli personalizzati e raccolta dati",
+          "Strumenti di comunicazione email",
+          "Gestione eventi e programmazione",
+          "Importazione dati da sistemi esistenti",
+          "Supporto multi-sede e multi-campus",
+          "Accesso e permessi basati sui ruoli",
+          "Open source con accesso GitHub"
+        ]
+      },
+      "cta": {
+        "title": "Pronti a Smettere di Pagare per il Software di Gestione Ecclesiale?",
+        "description": "Unitevi alle chiese di tutto il mondo che sono passate a una soluzione completamente gratuita e open source, creata da un ministero, per i ministeri.",
+        "primaryButton": "Inizia Gratis",
+        "secondaryButton": "Prova la Demo"
+      }
+    },
+    "notFound": {
+      "title": "404",
+      "message": "Ops! Pagina non trovata",
+      "returnHome": "Torna alla Home"
+    }
+  }
+}

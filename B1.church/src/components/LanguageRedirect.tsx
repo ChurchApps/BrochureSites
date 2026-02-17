@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
-
-const SUPPORTED_LANGS = ["en", "es"];
+import { SUPPORTED_LANGS } from "@/constants/languages";
 
 const LanguageRedirect = () => {
   const navigate = useNavigate();

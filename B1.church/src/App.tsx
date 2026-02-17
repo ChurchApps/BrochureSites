@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -29,9 +30,6 @@ const theme = createTheme({
   },
 });
 
-// Initialize environment and API configuration
-EnvironmentHelper.init().catch(console.error);
-
 const queryClient = new QueryClient();
 
 const LanguageLayout = () => (
@@ -48,34 +46,44 @@ const LanguageLayout = () => (
   </LanguageProvider>
 );
 
-const App = () => (
-  <QueryClientProvider client={queryClient}>
-    <CookiesProvider>
-      <ThemeProvider theme={theme}>
-        <CssBaseline />
-        <UserProvider>
-          <TooltipProvider>
-            <Toaster />
-            <Sonner />
-            <BrowserRouter>
-              <Routes>
-                {/* Root redirects to detected language */}
-                <Route path="/" element={<LanguageRedirect />} />
-                {/* Legacy routes redirect to language-prefixed versions */}
-                <Route path="/login" element={<LanguageRedirect />} />
-                <Route path="/church-management" element={<LanguageRedirect />} />
-                <Route path="/faq" element={<LanguageRedirect />} />
-                <Route path="/compare" element={<LanguageRedirect />} />
-                <Route path="/compare/:competitor" element={<LanguageRedirect />} />
-                {/* Language-prefixed routes */}
-                <Route path="/:lang/*" element={<LanguageLayout />} />
-              </Routes>
-            </BrowserRouter>
-          </TooltipProvider>
-        </UserProvider>
-      </ThemeProvider>
-    </CookiesProvider>
-  </QueryClientProvider>
-);
+const App = () => {
+  const [ready, setReady] = useState(false);
+
+  useEffect(() => {
+    EnvironmentHelper.init().then(() => setReady(true)).catch(console.error);
+  }, []);
+
+  if (!ready) return null;
+
+  return (
+    <QueryClientProvider client={queryClient}>
+      <CookiesProvider>
+        <ThemeProvider theme={theme}>
+          <CssBaseline />
+          <UserProvider>
+            <TooltipProvider>
+              <Toaster />
+              <Sonner />
+              <BrowserRouter>
+                <Routes>
+                  {/* Root redirects to detected language */}
+                  <Route path="/" element={<LanguageRedirect />} />
+                  {/* Legacy routes redirect to language-prefixed versions */}
+                  <Route path="/login" element={<LanguageRedirect />} />
+                  <Route path="/church-management" element={<LanguageRedirect />} />
+                  <Route path="/faq" element={<LanguageRedirect />} />
+                  <Route path="/compare" element={<LanguageRedirect />} />
+                  <Route path="/compare/:competitor" element={<LanguageRedirect />} />
+                  {/* Language-prefixed routes */}
+                  <Route path="/:lang/*" element={<LanguageLayout />} />
+                </Routes>
+              </BrowserRouter>
+            </TooltipProvider>
+          </UserProvider>
+        </ThemeProvider>
+      </CookiesProvider>
+    </QueryClientProvider>
+  );
+};
 
 export default App;

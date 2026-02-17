@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { useNavigate, useLocation } from "react-router-dom";
 import { useLanguage } from "@/context/LanguageContext";
+import { LANG_HOME_REGEX } from "@/constants/languages";
 import {
   Mail,
   Phone,
@@ -35,7 +36,7 @@ const Footer = () => {
   const location = useLocation();
 
   const scrollToSection = (sectionId: string) => {
-    if (!/^\/(en|es)\/?$/.test(location.pathname)) {
+    if (!LANG_HOME_REGEX.test(location.pathname)) {
       // Navigate to home first, then scroll
       navigate(localePath("/"));
       setTimeout(() => {

@@ -1,0 +1,599 @@
+{
+  "brochure": {
+    "header": {
+      "features": "Funksjoner",
+      "churchManagement": "Menighetsadministrasjon",
+      "about": "Om oss",
+      "contact": "Kontakt",
+      "signIn": "Logg inn",
+      "getStartedFree": "Kom i gang gratis"
+    },
+    "hero": {
+      "badge": "100 % gratis • Drevet av tjeneste",
+      "headlineTop": "Menighetsfellesskap",
+      "headlineBottom": "Uten barrierer",
+      "subheadline": "Komplett programvare for menighetsadministrasjon med mobilapp, nettstedsbygger, digital givertjeneste og fellesskapsfunksjoner. 100 % gratis menighetesplattform utviklet av en tjeneste, for tjenester.",
+      "ctaPrimary": "Kom i gang gratis",
+      "ctaSecondary": "Se hvordan det fungerer",
+      "statFreeValue": "100 %",
+      "statFreeLabel": "Gratis for alltid",
+      "statModernValue": "Moderne",
+      "statModernLabel": "Plattform",
+      "statMinistryValue": "Tjeneste",
+      "statMinistryLabel": "Ikke profitt"
+    },
+    "features": {
+      "community": {
+        "title": "Menighetsfellesskap",
+        "description": "Bygg dypere relasjoner gjennom grupper, diskusjoner, meldinger og arrangementer. Knytt medlemmer sammen utover søndagsgudstjenesten med meningsfulle interaksjoner.",
+        "items": ["Smågrupper", "Direktemeldinger", "Diskusjonsforum", "Medlemskatalog"],
+        "cta": "Bli med i fellesskapet"
+      },
+      "content": {
+        "title": "Digitalt innholdssenter for menigheten",
+        "description": "Få tilgang til prekener, undervisningsmateriell, dagens bibelvers og komplette bibeloversettelser. Hold fellesskapet engasjert med nytt innhold gjennom hele uken.",
+        "items": ["Prekenbibliotek", "Bibelintegrasjon", "Dagens bibelvers", "Undervisningsmateriell"],
+        "cta": "Utforsk innhold"
+      },
+      "giving": {
+        "title": "Digitale gaver til menigheten",
+        "description": "Sikre donasjoner via kredittkort/bankkonto med faste gaveordninger og fondsrettet giving. Ingen avgifter fra B1 – direkte Stripe-integrasjon.",
+        "items": ["Sikre betalinger", "Faste gaver", "Fondsforvaltning", "Gavehistorikk"],
+        "cta": "Begynn å gi"
+      },
+      "checkin": {
+        "title": "Innsjekking for menigheten",
+        "description": "Kontaktløs innsjekking til gudstjenester med familieadministrasjon og automatisk gruppetildeling. Effektivisér registrering av oppmøte.",
+        "items": ["Kontaktløs innsjekking", "Familieadministrasjon", "Automatisk gruppetildeling", "Oppmøterapporter"],
+        "cta": "Prøv innsjekking"
+      },
+      "mobileFirst": "Mobil først",
+      "managementSystem": {
+        "title": "Komplett",
+        "titleHighlight": "Menighetsadministrasjonssystem",
+        "description": "Profesjonell menighetsdatabaseprogramvare med medlemsadministrasjon, oppmøtesporing, givertjeneste og kommunikasjonsverktøy for tjenesten. Gratis menighetsadministrasjonssystem spesielt utviklet for voksende menigheter og menigheter med flere lokasjoner."
+      },
+      "grid": {
+        "peopleManagement": {
+          "title": "Personadministrasjon",
+          "description": "Komplette medlems- og gjesteregister med avansert søk og relasjonssporing."
+        },
+        "attendanceAnalytics": {
+          "title": "Oppmøteanalyse",
+          "description": "Spor oppmøtetrender med flotte diagrammer og omfattende rapportering."
+        },
+        "groupsMinistries": {
+          "title": "Grupper og tjenester",
+          "description": "Organisér ubegrensede grupper og klasser med medlemstildeling og sporing."
+        },
+        "givingManagement": {
+          "title": "Gaveadministrasjon",
+          "description": "Behandle donasjoner med batchbehandling, fondssporing og skatteoppgaver."
+        },
+        "servicePlanning": {
+          "title": "Gudstjenesteplanlegging",
+          "description": "Planlegg gudstjenester, tildel team og koordinér frivillige."
+        },
+        "songLibrary": {
+          "title": "Sangbibliotek",
+          "description": "Organisér sanger med arrangementer, tonearter, akkordskjemaer og settlister."
+        },
+        "communications": {
+          "title": "Kommunikasjon",
+          "description": "Send målrettede e-poster og kunngjøringer med automatiserte arbeidsflyter."
+        },
+        "multiCampus": {
+          "title": "Flere lokasjoner",
+          "description": "Administrér flere lokasjoner fra ett samlet dashbord med lokasjonsspesifikke data."
+        }
+      },
+      "showcase": {
+        "groupsMinistries": {
+          "title": "Grupper og tjenester",
+          "description": "Administrér ubegrensede grupper og klasser"
+        },
+        "peopleSearch": {
+          "title": "Personsøk",
+          "description": "Avansert medlemsdatabase"
+        },
+        "servicePlanning": {
+          "title": "Gudstjenesteplanlegging",
+          "description": "Planlegg team og oppgaver"
+        },
+        "songLibrary": {
+          "title": "Sangbibliotek",
+          "description": "Arrangementer og akkordskjemaer"
+        }
+      },
+      "dashboard": {
+        "title": "Vakkert, intuitivt dashbord",
+        "description": "Få tilgang til alle menighetens data med vårt rene, moderne grensesnitt utviklet for effektivitet og brukervennlighet."
+      },
+      "additional": {
+        "security": {
+          "title": "Sikkerhet og personvern",
+          "description": "Bransjestandard kryptering og sikker datalagring"
+        },
+        "mobile": {
+          "title": "Mobiltilgjengelighet",
+          "description": "Responsivt design som fungerer perfekt på alle enheter"
+        },
+        "workflows": {
+          "title": "Automatiserte arbeidsflyter",
+          "description": "Oppfølgingssekvenser og automatisering av medlemsomsorg"
+        },
+        "reporting": {
+          "title": "Sanntidsrapportering",
+          "description": "Generer umiddelbare rapporter og eksportér data når som helst"
+        },
+        "forms": {
+          "title": "Egendefinerte skjemaer",
+          "description": "Bygg registreringsskjemaer og spørreundersøkelser for ethvert formål"
+        },
+        "roles": {
+          "title": "Rollebasert tilgang",
+          "description": "Sikre tillatelser for ansatte og frivillige"
+        }
+      },
+      "ctaSection": {
+        "title": "Klar til å bygge et sterkere",
+        "titleHighlight": "menighetsfellesskap?",
+        "description": "Forvandl menigheten din med vår omfattende gratisplattform utviklet for å styrke relasjoner og bygge sterkere menighetsfellesskap gjennom moderne teknologi.",
+        "cta": "Kom i gang gratis"
+      }
+    },
+    "testimonials": {
+      "title": "Elsket av menigheter",
+      "titleHighlight": "over hele verden",
+      "subtitle": "Bli med blant voksende menigheter som har forvandlet sin tjeneste med vår helt gratis plattform. Her er hva pastorer og menighetsadministratorer sier om B1.",
+      "stats": {
+        "churchesValue": "100+",
+        "churchesLabel": "Menigheter stoler på oss",
+        "freeValue": "Gratis",
+        "freeLabel": "For alltid",
+        "uptimeValue": "99.9 %",
+        "uptimeLabel": "Oppetidsgaranti",
+        "supportValue": "24/7",
+        "supportLabel": "Støtte tilgjengelig"
+      },
+      "items": [
+        {
+          "content": "Jeg anbefaler ChurchApps på det varmeste. Det er en tjeneste i ordets sanneste og beste forstand. ChurchApps tilbyr tekniske tjenester for å forbedre og løfte menighetens åndelige innvirkning i lokalsamfunnet. De vil hjelpe kirkens infrastruktur i mange år fremover."
+        },
+        {
+          "content": "ChurchApps hjalp oss med å bli mer synlige i lokalsamfunnet – det økte bevisstheten, donasjonene og antall frivillige slik at vi bedre kan tjene familier i nød."
+        },
+        {
+          "content": "ChurchApps er mer enn programvare – det er et praktisk verktøy som støtter tjenestens misjon, visjon og daglige arbeid. Jeg er takknemlig for muligheten til å lære det, undervise det og se hvordan det gir menigheter kraft til å operere med større klarhet, effektivitet og formål."
+        },
+        {
+          "content": "Donasjonssiden har økt givingen til vår organisasjon. Folk setter pris på hvor enkelt det er å skanne en kode som tar dem direkte til donasjonssiden, og faste gaver kan settes opp for dem som ønsker enkel nettbasert giving."
+        },
+        {
+          "content": "Jeg liker å holde oppmøteregistre, og vi bruker B1 Admin hver søndag til dette formålet. Vi setter virkelig pris på tjenesten til B1 Admin, som har vist seg å være en effektiv måte for menigheten vår å føre register over personer og oppmøte."
+        }
+      ],
+      "ctaTitle": "Klar til å forvandl menighetsadministrasjonen din?",
+      "ctaDescription": "Bli med i det voksende fellesskapet av menigheter som allerede bruker B1 – helt gratis for alltid. Ingen kredittkort nødvendig, ingen prøveperioder, ingen skjulte avgifter.",
+      "ctaButton": "Kom i gang gratis"
+    },
+    "websiteBuilder": {
+      "badge": "Webportal-funksjon",
+      "title": "Gratis nettstedsbygger for menigheter",
+      "titleHighlight": "På minutter, ikke måneder",
+      "description": "Lag et vakkert, profesjonelt menighetsnettsted med vår gratis innebygde nettstedsbygger. Ingen koding nødvendig – bare dra, slipp og publisér.",
+      "dragDrop": {
+        "title": "Dra og slipp-bygger",
+        "description": "Intuitiv visuell redigering med forhåndsdesignede komponenter. Lag flotte sider uten noen teknisk kunnskap."
+      },
+      "templates": {
+        "title": "Maler for menigheter",
+        "description": "Vakre maler utviklet spesielt for menigheter. Inkluderer prekensider, arrangementskalendere og tjenestepresentasjoner."
+      },
+      "integration": {
+        "title": "App-integrasjon",
+        "description": "Koble nettstedet sømløst sammen med mobilappen. Arrangementer, prekener og fellesskapsoppdateringer synkroniseres automatisk."
+      },
+      "cta": "Begynn å bygge ditt menighetsnettsted",
+      "ctaSubtext": "Komplett gratis nettstedsbygger for menigheter inkludert i hver konto"
+    },
+    "perfectFor": {
+      "title": "Gratis for ethvert",
+      "titleHighlight": "menighetsfellesskap",
+      "subtitle": "Helt gratis plattform for menigheter i alle størrelser. Vårt tjenesteoppdrag betyr ingen skjulte kostnader, ingen funksjonsbegrensninger, ingen overraskelser.",
+      "audiences": [
+        {
+          "title": "Lokale menigheter",
+          "description": "Menigheter med én lokasjon som ønsker å modernisere sin digitale tilstedeværelse",
+          "stats": "Alle størrelser"
+        },
+        {
+          "title": "Menigheter med flere lokasjoner",
+          "description": "Flere lokasjoner som trenger samlet administrasjon med egne identiteter",
+          "stats": "Alle lokasjoner"
+        },
+        {
+          "title": "Kirkesamfunnsnettverk",
+          "description": "Organisasjoner som betjener flere menigheter med felles ressurser",
+          "stats": "Alle nettverk"
+        },
+        {
+          "title": "Fellesskapsfokusert",
+          "description": "Menigheter som prioriterer dypt engasjement og relasjonsbygging",
+          "stats": "Vokser daglig"
+        }
+      ],
+      "integrations": {
+        "adminIntegration": {
+          "title": "B1 Admin-integrasjon",
+          "description": "Sømløst integrert med B1 Admin menighetsadministrasjonsprogramvare for komplett arbeidsflytautomatisering."
+        },
+        "webPortal": {
+          "title": "Webportal inkludert",
+          "description": "Omfattende webportal med nettstedsbygger i tillegg til den kraftige mobilappopplevelsen."
+        },
+        "instantSetup": {
+          "title": "Umiddelbar oppsett",
+          "description": "Kom i gang på få minutter med vår strømlinjeformede introduksjonsprosess og dedikert støtteteam."
+        }
+      },
+      "about": {
+        "title": "Om vår gratis programvare",
+        "description": "Vi er en 501(c)(3) ideell organisasjon dedikert til å tilby helt gratis menighetsadministrasjonsprogramvare. Vårt oppdrag er å gi menigheter muligheten til å fokusere på tjeneste, ikke programvarekostnader.",
+        "stats": {
+          "freeValue": "100 %",
+          "freeLabel": "Gratis for alltid",
+          "setupValue": "$0",
+          "setupLabel": "Oppsettkostnader",
+          "churchesValue": "100+",
+          "churchesLabel": "Menigheter betjent",
+          "openValue": "Åpen",
+          "openLabel": "Kildekode"
+        },
+        "features": [
+          "Ingen kredittkort nødvendig",
+          "Ubegrenset antall brukere og medlemmer",
+          "Alle funksjoner inkludert",
+          "Regelmessige oppdateringer og forbedringer",
+          "24/7 fellesskapsstøtte",
+          "Mobil- og nettilgang",
+          "Hjelp med dataimport",
+          "Åpen kildekode for transparens"
+        ],
+        "learnMore": "Lær mer om vår tjeneste og vårt oppdrag",
+        "aboutChurchApps": "Om ChurchApps",
+        "viewOnGitHub": "Se på GitHub"
+      },
+      "cta": {
+        "title": "Klar til å styrke fellesskapet ditt?",
+        "description": "Oppdag hvordan vår omfattende tjenesteplattform kan hjelpe deg å bygge dypere relasjoner og sterkere fellesskap.",
+        "button": "Start gratis i dag",
+        "tagline": "100 % gratis • Ingen skjulte kostnader • Drevet av tjeneste"
+      }
+    },
+    "footer": {
+      "companyDescription": "Den alt-i-ett kommunikasjonsplattformen for menigheter som samler gudstjeneste, fellesskap, givertjeneste og administrasjon.",
+      "product": "Produkt",
+      "mobileFeatures": "Mobilfunksjoner",
+      "websiteBuilder": "Nettstedsbygger",
+      "faq": "Vanlige spørsmål",
+      "aboutChurchApps": "Om ChurchApps",
+      "appsAndResources": "Apper og ressurser",
+      "androidApp": "Android-app",
+      "iosApp": "iOS-app",
+      "helpCenter": "Hjelpesenter",
+      "contact": "Kontakt",
+      "availableWorldwide": "Tilgjengelig over hele verden"
+    },
+    "faq": {
+      "pageTitle": "Vanlige",
+      "pageTitleHighlight": "spørsmål",
+      "pageSubtitle": "Alt du trenger å vite om B1.church, den 100 % gratis plattformen for menighetsadministrasjon.",
+      "documentTitle": "Vanlige spørsmål – B1.church | Gratis programvare for menighetsadministrasjon",
+      "items": [
+        {
+          "question": "Er B1.church virkelig 100 % gratis?",
+          "answer": "Ja, B1.church er helt gratis uten skjulte avgifter, premium-nivåer eller transaksjonsavgifter på donasjoner. Vi er en 501(c)(3) ideell organisasjon som mener at alle menigheter fortjener tilgang til moderne teknologi uavhengig av budsjett. Plattformen vår finansieres av donasjoner og Google Ad Grants."
+        },
+        {
+          "question": "Hvilke funksjoner inkluderer B1.church?",
+          "answer": "B1.church inkluderer en komplett plattform for menighetsadministrasjon: mobilapper for iOS og Android, dra og slipp-nettstedsbygger, nettbasert givertjeneste uten transaksjonsavgifter, smart innsjekkingssystem, medlemsdatabase, oppmøtesporing, gruppeadministrasjon, gudstjenesteplanlegging, sangbibliotek, prekenforvaltning og bibelintegrasjon."
+        },
+        {
+          "question": "Hvordan er B1.church sammenlignet med Planning Center?",
+          "answer": "B1.church er 100 % gratis mens Planning Center tar betalt per modul ($0–299+/måned). B1 inkluderer mobilapp og nettstedsbygger uten kostnad, mens Planning Center tar ekstra for Church Center og inkluderer ikke nettstedsbygger. Begge tilbyr menighetsadministrasjon, men B1 gir alt i én gratis pakke."
+        },
+        {
+          "question": "Hvordan er B1.church sammenlignet med Pushpay?",
+          "answer": "B1.church er helt gratis mens Pushpay koster $300–1000+/måned. B1 har ingen transaksjonsavgifter på gaver, mens Pushpay tar en prosentandel av donasjonene. B1 er åpen kildekode og inkluderer full menighetsadministrasjon, mens Pushpay er proprietært og hovedsakelig fokusert på givertjeneste."
+        },
+        {
+          "question": "Hvordan er B1.church sammenlignet med Tithe.ly?",
+          "answer": "B1.church er helt gratis uten transaksjonsavgifter. Tithe.ly tilbyr et gratis nivå, men tar betalt for premium-funksjoner og en prosentandel av hver donasjon. B1 inkluderer full menighetsadministrasjonsprogramvare, mens Tithe.lys ChMS er et separat betalt produkt."
+        },
+        {
+          "question": "Hvordan er B1.church sammenlignet med Breeze ChMS?",
+          "answer": "B1.church er gratis mens Breeze starter på $72/måned. B1 inkluderer en komplett mobilapp og nettstedsbygger, mens Breeze har begrensede mobilfunksjoner og ingen nettstedsbygger. Begge tilbyr menighetsadministrasjon, men B1 gir flere funksjoner uten kostnad."
+        },
+        {
+          "question": "Kan jeg få en egen merkevareapp for menigheten min?",
+          "answer": "Ja, B1.church tilbyr egne merkevareapper for iOS og Android. Menigheten din får sin egen app med deres merkevare som medlemmer kan laste ned fra App Store og Google Play. Dette er inkludert gratis med B1."
+        },
+        {
+          "question": "Støtter B1.church nettbasert givertjeneste?",
+          "answer": "Ja, B1.church inkluderer sikker nettbasert givertjeneste med støtte for kredittkort og bankoverføring. Du kan sette opp faste gaver, administrere flere fond og gi gavehistorikk for skatteoppgaver. Vi bruker direkte Stripe-integrasjon uten B1-plattformavgifter – menigheten din forhandler priser direkte med Stripe (typisk rundt 2,9 % + 30¢)."
+        },
+        {
+          "question": "Kan jeg bygge et nettsted med B1.church?",
+          "answer": "Ja, B1.church inkluderer en dra og slipp-nettstedsbygger med mobilresponsive maler. Du kan bruke et eget domene, og nettstedet integreres med alle B1-funksjonene dine som arrangementer, grupper og givertjeneste."
+        },
+        {
+          "question": "Har B1.church innsjekking for barnetjenesten?",
+          "answer": "Ja, B1.church inkluderer et smart innsjekkingssystem med kontaktløse selvbetjeningskiosker, familieinnsjekking, automatisk gruppetildeling, sikkerhetskoder for henting av barn og oppmøtesporing med rapporter."
+        },
+        {
+          "question": "Er B1.church åpen kildekode?",
+          "answer": "Ja, B1.church er fullstendig åpen kildekode. Du kan se koden vår på GitHub på github.com/ChurchApps. Det betyr at du kan drifte den selv om du ønsker, bidra med forbedringer og stole på at dataene dine håndteres transparent."
+        },
+        {
+          "question": "Hvem bygger B1.church?",
+          "answer": "B1.church er bygget av Live Church Solutions, en 501(c)(3) ideell organisasjon (EIN 45-5349618). Vi er en tjeneste av utviklere som mener at menigheter ikke skal måtte velge mellom teknologi og midler til tjeneste."
+        },
+        {
+          "question": "Hvilke andre gratisprodukter tilbyr Live Church Solutions?",
+          "answer": "I tillegg til B1.church tilbyr vi FreeShow (gratis presentasjonsprogramvare på freeshow.app, et alternativ til ProPresenter) og Lessons.church (gratis menighetslæreplan med over 1100 leksjoner for alle aldre). Alle våre produkter er gratis og åpen kildekode."
+        },
+        {
+          "question": "Hvordan kommer jeg i gang med B1.church?",
+          "answer": "Det er enkelt å komme i gang: besøk b1.church, klikk «Kom i gang gratis», opprett menighetskontoen din, tilpass appen og nettstedet, og invitér menigheten. Det kreves ingen kredittkort og ingen prøveperiode – det er gratis for alltid."
+        },
+        {
+          "question": "Støtter B1.church flere lokasjoner?",
+          "answer": "Ja, B1.church støtter menigheter med flere lokasjoner. Du kan administrere flere lokasjoner fra ett samlet dashbord med lokasjonsspesifikke data, oppmøte og grupper samtidig som du opprettholder én felles medlemsdatabase."
+        }
+      ],
+      "stillHaveQuestions": "Har du fortsatt spørsmål?",
+      "supportText": "Vårt støtteteam er her for å hjelpe deg med å komme i gang med B1.church.",
+      "contactSupport": "Kontakt støtte",
+      "viewDocumentation": "Se dokumentasjon"
+    },
+    "compare": {
+      "notFound": {
+        "title": "Sammenligning ikke funnet",
+        "subtitle": "Sjekk ut våre tilgjengelige sammenligninger:"
+      },
+      "b1vsPrefix": "B1 vs",
+      "noHiddenFees": "Ingen skjulte avgifter, for alltid",
+      "plusTransactionFees": "Pluss transaksjonsavgifter",
+      "featureColumn": "Funksjon",
+      "ourTake": "Vår vurdering",
+      "ctaTitle": "Klar til å spare penger for menigheten din?",
+      "ctaDescription": "Bytt til B1.church og omdiriger programvarebudsjettet til tjeneste.",
+      "ctaButton": "Kom i gang gratis",
+      "otherComparisons": "Andre sammenligninger",
+      "competitors": {
+        "planning-center": {
+          "name": "Planning Center",
+          "tagline": "Gratis alternativ til Planning Center",
+          "description": "Planning Center er en populær plattform for menighetsadministrasjon med modulbasert prising. B1.church tilbyr tilsvarende funksjoner helt gratis.",
+          "features": [
+            { "name": "Medlemsdatabase", "b1": true, "competitor": true },
+            { "name": "Innsjekkingssystem", "b1": true, "competitor": "$99/mnd" },
+            { "name": "Nettbasert givertjeneste", "b1": "Ingen B1-avgifter", "competitor": "Plattform + Stripe-avgifter" },
+            { "name": "Gruppeadministrasjon", "b1": true, "competitor": "$50/mnd" },
+            { "name": "Gudstjenesteplanlegging", "b1": true, "competitor": "$14–99/mnd" },
+            { "name": "Mobilapp", "b1": "Gratis merkevareapp", "competitor": "$0–199/mnd" },
+            { "name": "Nettstedsbygger", "b1": true, "competitor": false },
+            { "name": "Prekenforvaltning", "b1": true, "competitor": false },
+            { "name": "Flere lokasjoner", "b1": true, "competitor": "Ekstra kostnad" },
+            { "name": "Åpen kildekode", "b1": true, "competitor": false }
+          ],
+          "pricingB1": "100 % gratis",
+          "pricingCompetitor": "$0–$500+/måned avhengig av moduler",
+          "verdict": "B1.church gir alle kjernefunksjonene til Planning Center uten den modulbaserte priskompleksiteten. Hvis budsjett er en bekymring, er B1 det åpenbare valget."
+        },
+        "pushpay": {
+          "name": "Pushpay",
+          "tagline": "Gratis alternativ til Pushpay",
+          "description": "Pushpay er kjent for mobil givertjeneste, men kommer med betydelige månedlige kostnader og transaksjonsavgifter. B1.church tilbyr givertjeneste uten plattformavgifter.",
+          "features": [
+            { "name": "Nettbasert givertjeneste", "b1": "Ingen B1-avgifter", "competitor": "Plattform + Stripe-avgifter" },
+            { "name": "Faste gaver", "b1": true, "competitor": true },
+            { "name": "Mobilapp", "b1": "Gratis merkevareapp", "competitor": "Inkludert" },
+            { "name": "Medlemsdatabase", "b1": true, "competitor": "ChMS ekstra" },
+            { "name": "Innsjekkingssystem", "b1": true, "competitor": "Ekstra kostnad" },
+            { "name": "Nettstedsbygger", "b1": true, "competitor": false },
+            { "name": "Gruppeadministrasjon", "b1": true, "competitor": "Ekstra kostnad" },
+            { "name": "Gaveoversikt", "b1": true, "competitor": true },
+            { "name": "Fondsforvaltning", "b1": true, "competitor": true },
+            { "name": "Åpen kildekode", "b1": true, "competitor": false }
+          ],
+          "pricingB1": "100 % gratis",
+          "pricingCompetitor": "$300–$1 000+/måned",
+          "verdict": "Pushpay er funksjonsrikt, men dyrt. B1.church tilbyr sammenlignbare giverfunksjoner pluss full menighetsadministrasjon uten kostnad. Besparelsene kan omdirigeres til tjeneste."
+        },
+        "tithely": {
+          "name": "Tithe.ly",
+          "tagline": "Gratis alternativ til Tithe.ly",
+          "description": "Tithe.ly tilbyr givertjeneste og administrasjonsverktøy for menigheter med freemium-prising. B1.church gir alt gratis uten transaksjonsavgifter.",
+          "features": [
+            { "name": "Nettbasert givertjeneste", "b1": "Ingen B1-avgifter", "competitor": "Plattform + Stripe-avgifter" },
+            { "name": "Faste gaver", "b1": true, "competitor": true },
+            { "name": "Mobilapp", "b1": "Gratis merkevareapp", "competitor": "$99/mnd" },
+            { "name": "Medlemsdatabase", "b1": true, "competitor": "$99/mnd" },
+            { "name": "Innsjekkingssystem", "b1": true, "competitor": "$49/mnd" },
+            { "name": "Nettstedsbygger", "b1": true, "competitor": "$49/mnd" },
+            { "name": "Gruppeadministrasjon", "b1": true, "competitor": "$99/mnd" },
+            { "name": "Prekenforvaltning", "b1": true, "competitor": "$49/mnd" },
+            { "name": "Flere lokasjoner", "b1": true, "competitor": "Ekstra kostnad" },
+            { "name": "Åpen kildekode", "b1": true, "competitor": false }
+          ],
+          "pricingB1": "100 % gratis",
+          "pricingCompetitor": "Gratis nivå + $49–199/mnd for funksjoner",
+          "verdict": "Tithe.lys gratis nivå er begrenset. For full funksjonalitet øker kostnadene raskt. B1.church inkluderer alt fra dag én uten oppgraderingspress."
+        },
+        "breeze": {
+          "name": "Breeze ChMS",
+          "tagline": "Gratis alternativ til Breeze ChMS",
+          "description": "Breeze er et enkelt menighetsadministrasjonssystem med grei prising. B1.church tilbyr flere funksjoner uten kostnad.",
+          "features": [
+            { "name": "Medlemsdatabase", "b1": true, "competitor": true },
+            { "name": "Gaveadministrasjon", "b1": "Ingen B1-avgifter", "competitor": "2,9 % + 30¢" },
+            { "name": "Innsjekkingssystem", "b1": true, "competitor": "Grunnleggende" },
+            { "name": "Mobilapp", "b1": "Gratis merkevareapp", "competitor": "Begrenset" },
+            { "name": "Nettstedsbygger", "b1": true, "competitor": false },
+            { "name": "Gruppeadministrasjon", "b1": true, "competitor": true },
+            { "name": "Arrangementsadministrasjon", "b1": true, "competitor": true },
+            { "name": "Frivilligplanlegging", "b1": true, "competitor": true },
+            { "name": "Flere lokasjoner", "b1": true, "competitor": false },
+            { "name": "Åpen kildekode", "b1": true, "competitor": false }
+          ],
+          "pricingB1": "100 % gratis",
+          "pricingCompetitor": "$72–$135/måned",
+          "verdict": "Breeze er enkelt og rimelig, men B1.church er enklere på budsjettet (gratis!) og tilbyr flere funksjoner som nettstedsbygger og komplett mobilapp."
+        }
+      }
+    },
+    "churchManagement": {
+      "hero": {
+        "title": "Gratis",
+        "titleHighlight": "programvare for menighetsadministrasjon",
+        "titleLine2": "Komplett tjenesteplattform",
+        "description": "Profesjonell <strong>programvare for menighetsadministrasjon</strong> med oppmøtesporing, medlemsdatabase, gaveadministrasjon og kommunikasjonsverktøy. Helt <strong>gratis menighetsprogramvare</strong> levert av Live Church Solutions, en 501(c)(3) ideell organisasjon. Bli med over 100 menigheter som sparer tusenvis på programvarekostnader for tjenesten.",
+        "ctaPrimary": "Kom i gang gratis",
+        "ctaSecondary": "Prøv demo",
+        "trustLine": "Brukt av voksende menigheter over hele verden",
+        "trustFree": "Helt gratis for alltid",
+        "trustNonProfit": "501(c)(3) ideell organisasjon",
+        "trustOpenSource": "Åpen kildekode"
+      },
+      "featuresHeader": {
+        "title": "Komplett",
+        "titleHighlight": "menighetsadministrasjonssystem",
+        "titleSuffix": "Funksjoner",
+        "description": "Profesjonell menighetsdatabaseprogramvare med medlemsadministrasjon, oppmøtesporing, gaveadministrasjon og kommunikasjonsverktøy for tjenesten. Gratis menighetsadministrasjonssystem spesielt utviklet for voksende menigheter og menigheter med flere lokasjoner."
+      },
+      "checkinStations": {
+        "title": "Selvbetjente innsjekkingsstasjoner",
+        "description": "Sørg for barnesikkerhet samtidig som frivillige frigjøres til å engasjere seg med familier. Vårt selvbetjente innsjekkingssystem genererer matchende koder for barn og voksne, noe som skaper en sikker henteprosess.",
+        "features": [
+          "Søk med telefonnummer og velg gudstjenester automatisk",
+          "Skriver ut etiketter og kvitteringer trådløst til delte skrivere",
+          "Kjører på rimelige Android-nettbrett under $80",
+          "Synkroniseres automatisk med oppmøtesporingssystemet"
+        ]
+      },
+      "mainFeatures": [
+        {
+          "title": "Komplett personadministrasjon",
+          "description": "Vedlikehold detaljerte medlems- og gjesteregistre med kontaktinformasjon, relasjoner, fødselsdager og jubileumssporing. Avanserte søke- og filtreringsfunksjoner."
+        },
+        {
+          "title": "Oppmøteanalyse",
+          "description": "Spor oppmøtetrender på tvers av alle gudstjenester og grupper med flotte diagrammer og rapporter. Overvåk engasjementsmønstre og vekst over tid."
+        },
+        {
+          "title": "Gruppe- og tjenesteadministrasjon",
+          "description": "Organisér ubegrensede grupper, klasser og tjenester. Administrér medlemstildelinger, spor deltakelse og opprett egendefinerte gruppekategorier."
+        },
+        {
+          "title": "Avansert gaveadministrasjon",
+          "description": "Behandle donasjoner med batchbehandling, fondssporing og omfattende finansiell rapportering. Generer skatteoppgaver og overvåk gavetrender."
+        },
+        {
+          "title": "Gudstjeneste- og tjenesteplanlegging",
+          "description": "Planlegg gudstjenester, tildel teammedlemmer og koordinér frivillige. Spor nødvendige posisjoner og automatisér varsler."
+        },
+        {
+          "title": "Sangbibliotek og arrangementer",
+          "description": "Organisér hele sangbiblioteket med flere arrangementer, tonearter og akkordskjemaer. Koble til eksterne ressurser og administrér settlister for gudstjenester."
+        },
+        {
+          "title": "Kommunikasjonssenter",
+          "description": "Send målrettede e-poster og kunngjøringer. Opprett automatiserte arbeidsflyter og hold menigheten tilkoblet."
+        },
+        {
+          "title": "Støtte for flere lokasjoner",
+          "description": "Administrér flere lokasjoner fra ett samlet dashbord. Spor lokasjonsspesifikke data mens du opprettholder rapportering på organisasjonsnivå."
+        }
+      ],
+      "testimonials": {
+        "title": "Elsket av menigheter",
+        "titleHighlight": "over hele verden",
+        "subtitle": "Bli med blant voksende menigheter som har forvandlet sin tjeneste med vår helt gratis plattform. Her er hva pastorer og menighetsadministratorer sier.",
+        "items": [
+          {
+            "content": "Vi bruker denne plattformen hver søndag for å spore oppmøte og holde registre over alle som deltar, inkludert barna i søndagsskolen. Som misjonærer med begrenset budsjett setter vi pris på at denne programvaren er gratis og effektiv."
+          },
+          {
+            "content": "Dette er en livredder for menigheten. Som en liten menighet med begrenset budsjett er denne programvaren en gave fra Gud og en velsignelse. Den er brukervennlig og enkel å sette opp. Donasjonsrapporter er enkle å lage. At jeg kan eksportere data til Excel gjør analyse av registre veldig enkelt. Det har spart meg minst 25 % av kontortiden."
+          },
+          {
+            "content": "Dette hjalp oss med å gå sømløst over til digital givertjeneste under pandemien. Støtteteamet var fantastisk og plattformen er utrolig pålitelig. At den er gratis gjorde at vi kunne omdirigere programvarebudsjettet til faktisk tjeneste."
+          }
+        ]
+      },
+      "aboutSection": {
+        "title": "Om vår",
+        "titleHighlight": "gratis menighetsprogramvare",
+        "description": "Omfattende <strong>programvare for menighetsadministrasjon</strong> levert helt gratis til kristne menigheter og tjenester av <strong>Live Church Solutions</strong>, en 501(c)(3) ideell organisasjon grunnlagt i 2012. Vårt oppdrag er å hjelpe menigheter med å implementere profesjonell <strong>tjenesteprogramvare</strong> uten de typiske høye kostnadene ved menighetsadministrasjonssystemer."
+      },
+      "stats": [
+        {
+          "number": "$800M",
+          "label": "Menigheter bruker årlig på administrasjonsprogramvare",
+          "description": "Vi mener disse pengene kan brukes bedre"
+        },
+        {
+          "number": "100+",
+          "label": "Menigheter bruker allerede vår plattform",
+          "description": "Et voksende fellesskap av fornøyde brukere"
+        },
+        {
+          "number": "2012",
+          "label": "Året Live Church Solutions ble grunnlagt",
+          "description": "Over ti år med teknologistøtte for menigheter"
+        },
+        {
+          "number": "100 %",
+          "label": "Gratis for alltid-garanti",
+          "description": "Ingen skjulte avgifter, ingen prøveperioder, ingen begrensninger"
+        }
+      ],
+      "mission": {
+        "title": "Vårt oppdrag: Hjelpe menigheter å fokusere på tjeneste",
+        "description": "Hvert år bruker kirken over <strong>800 millioner dollar</strong> på programvare for menighetsadministrasjon. Vi mener at pengene kan brukes bedre, og det er derfor vi utviklet denne plattformen – en helt gratis løsning for menighetsadministrasjon med åpen kildekode.",
+        "learnMore": "Lær mer om Live Church Solutions",
+        "viewOnGitHub": "Se på GitHub"
+      },
+      "allFeatures": {
+        "title": "Alt du trenger, helt gratis",
+        "subtitle": "Ingen prøveperioder, ingen medlemsbegrensninger, ingen skjulte avgifter",
+        "items": [
+          "Komplett medlemsdatabase med detaljerte profiler",
+          "Oppmøtesporing med selvbetjent innsjekkingsapp",
+          "Grupper og smågrupper-administrasjon",
+          "Gaveadministrasjon med detaljert rapportering",
+          "Egendefinerte skjemaer og datainnsamling",
+          "E-postkommunikasjonsverktøy",
+          "Arrangementsadministrasjon og planlegging",
+          "Dataimport fra eksisterende systemer",
+          "Støtte for flere lokasjoner og campuser",
+          "Rollebasert tilgang og tillatelser",
+          "Åpen kildekode med GitHub-tilgang"
+        ]
+      },
+      "cta": {
+        "title": "Klar til å slutte å betale for menighetsadministrasjonsprogramvare?",
+        "description": "Bli med menigheter over hele verden som har byttet til en helt gratis løsning med åpen kildekode, bygget av en tjeneste, for tjenester.",
+        "primaryButton": "Kom i gang gratis",
+        "secondaryButton": "Prøv demo"
+      }
+    },
+    "notFound": {
+      "title": "404",
+      "message": "Beklager! Siden ble ikke funnet",
+      "returnHome": "Tilbake til forsiden"
+    }
+  }
+}

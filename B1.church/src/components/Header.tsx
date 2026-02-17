@@ -7,6 +7,7 @@ import { trackChurchSignup } from "@/utils/analytics";
 import LocaleLink from "@/components/LocaleLink";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import { useLanguage } from "@/context/LanguageContext";
+import { LANG_HOME_REGEX } from "@/constants/languages";
 
 const Header = () => {
   const { t } = useTranslation();
@@ -18,7 +19,7 @@ const Header = () => {
   const scrollToSection = (sectionId: string) => {
     setIsMenuOpen(false);
 
-    if (!/^\/(en|es)\/?$/.test(location.pathname)) {
+    if (!LANG_HOME_REGEX.test(location.pathname)) {
       // Navigate to home page first, then scroll after a brief delay
       navigate(localePath("/"));
       setTimeout(() => {

@@ -5,113 +5,1513 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
-    <loc>https://b1.church/en/</loc>
+    <loc>https://b1.church/de/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/" />
     <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/en/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/" />
     <lastmod>2026-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://b1.church/es/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/" />
     <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/" />
     <lastmod>2026-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://b1.church/en/church-management</loc>
+    <loc>https://b1.church/fr/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/hi/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/it/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/ko/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/no/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/pt/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/ru/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/tl/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/zh/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/de/church-management</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/church-management" />
     <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/church-management" />
     <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/church-management" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/church-management" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/church-management" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/church-management" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/church-management" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/church-management" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/church-management" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/church-management" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/church-management" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/church-management" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/en/church-management</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/church-management" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/church-management" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/church-management" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/church-management" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/church-management" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/church-management" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/church-management" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/church-management" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/church-management" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/church-management" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/church-management" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/church-management" />
     <lastmod>2026-02-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://b1.church/es/church-management</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/church-management" />
     <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/church-management" />
     <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/church-management" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/church-management" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/church-management" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/church-management" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/church-management" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/church-management" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/church-management" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/church-management" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/church-management" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/church-management" />
     <lastmod>2026-02-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://b1.church/en/faq</loc>
+    <loc>https://b1.church/fr/church-management</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/church-management" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/church-management" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/church-management" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/church-management" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/church-management" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/church-management" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/church-management" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/church-management" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/church-management" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/church-management" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/church-management" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/church-management" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/hi/church-management</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/church-management" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/church-management" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/church-management" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/church-management" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/church-management" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/church-management" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/church-management" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/church-management" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/church-management" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/church-management" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/church-management" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/church-management" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/it/church-management</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/church-management" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/church-management" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/church-management" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/church-management" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/church-management" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/church-management" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/church-management" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/church-management" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/church-management" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/church-management" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/church-management" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/church-management" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/ko/church-management</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/church-management" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/church-management" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/church-management" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/church-management" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/church-management" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/church-management" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/church-management" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/church-management" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/church-management" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/church-management" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/church-management" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/church-management" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/no/church-management</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/church-management" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/church-management" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/church-management" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/church-management" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/church-management" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/church-management" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/church-management" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/church-management" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/church-management" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/church-management" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/church-management" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/church-management" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/pt/church-management</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/church-management" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/church-management" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/church-management" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/church-management" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/church-management" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/church-management" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/church-management" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/church-management" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/church-management" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/church-management" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/church-management" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/church-management" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/ru/church-management</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/church-management" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/church-management" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/church-management" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/church-management" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/church-management" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/church-management" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/church-management" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/church-management" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/church-management" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/church-management" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/church-management" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/church-management" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/tl/church-management</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/church-management" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/church-management" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/church-management" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/church-management" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/church-management" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/church-management" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/church-management" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/church-management" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/church-management" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/church-management" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/church-management" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/church-management" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/zh/church-management</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/church-management" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/church-management" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/church-management" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/church-management" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/church-management" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/church-management" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/church-management" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/church-management" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/church-management" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/church-management" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/church-management" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/church-management" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/de/faq</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/faq" />
     <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/faq" />
     <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/faq" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/faq" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/faq" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/faq" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/faq" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/faq" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/faq" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/faq" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/faq" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/faq" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/en/faq</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/faq" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/faq" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/faq" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/faq" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/faq" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/faq" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/faq" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/faq" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/faq" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/faq" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/faq" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/faq" />
     <lastmod>2026-02-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://b1.church/es/faq</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/faq" />
     <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/faq" />
     <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/faq" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/faq" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/faq" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/faq" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/faq" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/faq" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/faq" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/faq" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/faq" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/faq" />
     <lastmod>2026-02-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://b1.church/en/compare/planning-center</loc>
+    <loc>https://b1.church/fr/faq</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/faq" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/faq" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/faq" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/faq" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/faq" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/faq" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/faq" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/faq" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/faq" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/faq" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/faq" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/faq" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/hi/faq</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/faq" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/faq" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/faq" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/faq" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/faq" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/faq" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/faq" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/faq" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/faq" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/faq" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/faq" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/faq" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/it/faq</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/faq" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/faq" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/faq" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/faq" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/faq" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/faq" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/faq" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/faq" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/faq" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/faq" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/faq" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/faq" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/ko/faq</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/faq" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/faq" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/faq" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/faq" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/faq" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/faq" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/faq" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/faq" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/faq" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/faq" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/faq" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/faq" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/no/faq</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/faq" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/faq" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/faq" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/faq" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/faq" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/faq" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/faq" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/faq" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/faq" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/faq" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/faq" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/faq" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/pt/faq</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/faq" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/faq" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/faq" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/faq" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/faq" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/faq" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/faq" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/faq" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/faq" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/faq" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/faq" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/faq" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/ru/faq</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/faq" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/faq" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/faq" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/faq" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/faq" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/faq" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/faq" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/faq" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/faq" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/faq" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/faq" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/faq" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/tl/faq</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/faq" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/faq" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/faq" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/faq" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/faq" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/faq" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/faq" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/faq" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/faq" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/faq" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/faq" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/faq" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/zh/faq</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/faq" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/faq" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/faq" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/faq" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/faq" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/faq" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/faq" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/faq" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/faq" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/faq" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/faq" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/faq" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/de/compare/planning-center</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/planning-center" />
     <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/planning-center" />
     <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/planning-center" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/en/compare/planning-center</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/planning-center" />
     <lastmod>2026-02-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://b1.church/es/compare/planning-center</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/planning-center" />
     <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/planning-center" />
     <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/planning-center" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/fr/compare/planning-center</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/planning-center" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/hi/compare/planning-center</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/planning-center" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/it/compare/planning-center</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/planning-center" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/ko/compare/planning-center</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/planning-center" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/no/compare/planning-center</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/planning-center" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/pt/compare/planning-center</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/planning-center" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/ru/compare/planning-center</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/planning-center" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/tl/compare/planning-center</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/planning-center" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/zh/compare/planning-center</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/planning-center" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/planning-center" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/de/compare/pushpay</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/pushpay" />
     <lastmod>2026-02-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://b1.church/en/compare/pushpay</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/pushpay" />
     <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/pushpay" />
     <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/pushpay" />
     <lastmod>2026-02-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://b1.church/es/compare/pushpay</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/pushpay" />
     <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/pushpay" />
     <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/pushpay" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/fr/compare/pushpay</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/pushpay" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/hi/compare/pushpay</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/pushpay" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/it/compare/pushpay</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/pushpay" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/ko/compare/pushpay</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/pushpay" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/no/compare/pushpay</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/pushpay" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/pt/compare/pushpay</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/pushpay" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/ru/compare/pushpay</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/pushpay" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/tl/compare/pushpay</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/pushpay" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/zh/compare/pushpay</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/pushpay" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/pushpay" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/de/compare/tithely</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/tithely" />
     <lastmod>2026-02-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://b1.church/en/compare/tithely</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/tithely" />
     <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/tithely" />
     <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/tithely" />
     <lastmod>2026-02-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://b1.church/es/compare/tithely</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/tithely" />
     <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/tithely" />
     <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/tithely" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/fr/compare/tithely</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/tithely" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/hi/compare/tithely</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/tithely" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/it/compare/tithely</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/tithely" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/ko/compare/tithely</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/tithely" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/no/compare/tithely</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/tithely" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/pt/compare/tithely</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/tithely" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/ru/compare/tithely</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/tithely" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/tl/compare/tithely</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/tithely" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/zh/compare/tithely</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/tithely" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/tithely" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/de/compare/breeze</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/breeze" />
     <lastmod>2026-02-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://b1.church/en/compare/breeze</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/breeze" />
     <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/breeze" />
     <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/breeze" />
     <lastmod>2026-02-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://b1.church/es/compare/breeze</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/breeze" />
     <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/breeze" />
     <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/breeze" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/fr/compare/breeze</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/breeze" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/hi/compare/breeze</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/breeze" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/it/compare/breeze</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/breeze" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/ko/compare/breeze</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/breeze" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/no/compare/breeze</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/breeze" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/pt/compare/breeze</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/breeze" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/ru/compare/breeze</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/breeze" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/tl/compare/breeze</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/breeze" />
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://b1.church/zh/compare/breeze</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://b1.church/de/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://b1.church/en/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://b1.church/es/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://b1.church/fr/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://b1.church/hi/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://b1.church/it/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://b1.church/ko/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://b1.church/no/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://b1.church/pt/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://b1.church/ru/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="tl" href="https://b1.church/tl/compare/breeze" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/compare/breeze" />
     <lastmod>2026-02-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
