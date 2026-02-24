@@ -31,13 +31,13 @@ export default function CTA() {
               alt="Download on Apple App Store"
             />
           </button>
-          <button className="badge-button" onClick={() => openModal('Android TV')}>
+          <a href="https://play.google.com/store/apps/details?id=church.freeplay" target="_blank" rel="noopener noreferrer">
             <img
               src="/images/badges/app-store-badge-google.png"
               alt="Get it on Google Play"
             />
-          </button>
-          <a href="https://www.amazon.com/dp/B0GMC4S3RS" target="_blank" rel="noopener noreferrer">
+          </a>
+          <a href="https://www.amazon.com/Live-Church-Solutions-FreePLay/dp/B0GMC4S3RS/" target="_blank" rel="noopener noreferrer">
             <img
               src="/images/badges/app-store-badge-amazon.png"
               alt="Available on Amazon"

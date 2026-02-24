@@ -24,7 +24,7 @@ export default function ComingSoonModal({ isOpen, onClose, platform }) {
           FreePlay is coming to <span className="modal-highlight">{platform}</span> very soon!
         </p>
         <p className="modal-subtext">
-          Currently only available on <span className="modal-highlight">Amazon Fire TV</span>. Check back later!
+          Currently available on <span className="modal-highlight">Amazon Fire TV</span> and <span className="modal-highlight">Android TV</span>. Check back later!
         </p>
         <button className="modal-button" onClick={onClose}>
           Got it!
