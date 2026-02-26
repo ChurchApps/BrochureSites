@@ -607,15 +607,22 @@
   background: #000000;
 }
 
-.providers-grid {
-  max-width: 1400px;
+.providers-carousel {
+  max-width: 1200px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 3rem;
+  overflow: hidden;
+  mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+}
+
+.providers-track {
+  display: flex;
+  gap: 2rem;
+  will-change: transform;
 }
 
 .provider-card {
+  flex: 0 0 calc(25% - 1.5rem);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -623,14 +630,13 @@
   background: rgba(255, 255, 255, 0.05);
   border-radius: 0.75rem;
   backdrop-filter: blur(10px);
-  transition: all 0.3s;
+  transition: background 0.3s, box-shadow 0.3s;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
   text-decoration: none;
   cursor: pointer;
 }
 
 .provider-card:hover {
-  transform: translateY(-5px) scale(1.05);
   background: rgba(255, 255, 255, 0.1);
   box-shadow: 0 10px 40px rgba(236, 0, 140, 0.2);
 }
@@ -794,9 +800,8 @@
     grid-template-columns: 1fr;
   }
 
-  .providers-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
+  .provider-card {
+    flex: 0 0 calc(33.333% - 1.33rem);
   }
 
   .comparison-grid {
@@ -908,8 +913,8 @@
     font-size: 1rem;
   }
 
-  .providers-grid {
-    grid-template-columns: 1fr;
+  .provider-card {
+    flex: 0 0 calc(50% - 1rem);
   }
 
   .step-title {
