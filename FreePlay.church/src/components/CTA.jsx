@@ -1,9 +1,11 @@
 import { useState } from 'react';
 import ComingSoonModal from './ComingSoonModal';
+import HubSpotModal from './HubSpotModal';
 
 export default function CTA() {
   const [modalOpen, setModalOpen] = useState(false);
   const [selectedPlatform, setSelectedPlatform] = useState('');
+  const [emailModalOpen, setEmailModalOpen] = useState(false);
 
   const openModal = (platform) => {
     setSelectedPlatform(platform);
@@ -45,10 +47,19 @@ export default function CTA() {
           </a>
         </div>
 
+        <button className="email-capture-btn" onClick={() => setEmailModalOpen(true)}>
+          ✉️ Email Me the Download Links
+        </button>
+
         <p className="hero-disclaimer">
           *Not available on Roku
         </p>
       </div>
+
+      <HubSpotModal
+        isOpen={emailModalOpen}
+        onClose={() => setEmailModalOpen(false)}
+      />
 
       <ComingSoonModal
         isOpen={modalOpen}

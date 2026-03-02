@@ -1,9 +1,11 @@
 import { useState } from 'react';
 import ComingSoonModal from './ComingSoonModal';
+import HubSpotModal from './HubSpotModal';
 
 export default function Hero() {
   const [modalOpen, setModalOpen] = useState(false);
   const [selectedPlatform, setSelectedPlatform] = useState('');
+  const [learnModalOpen, setLearnModalOpen] = useState(false);
 
   const openModal = (platform) => {
     setSelectedPlatform(platform);
@@ -42,6 +44,10 @@ export default function Hero() {
           />
         </div>
 
+        <button className="learn-more-btn" onClick={() => setLearnModalOpen(true)}>
+          Learn How Your Church Can Use FreePlay →
+        </button>
+
         <div className="hero-badges">
           <button className="badge-button" onClick={() => openModal('Apple TV')}>
             <img
@@ -72,6 +78,13 @@ export default function Hero() {
         isOpen={modalOpen}
         onClose={() => setModalOpen(false)}
         platform={selectedPlatform}
+      />
+
+      <HubSpotModal
+        isOpen={learnModalOpen}
+        onClose={() => setLearnModalOpen(false)}
+        title="How Your Church Can Use FreePlay"
+        description="Get a quick overview sent to your inbox — no strings attached."
       />
     </section>
   );
