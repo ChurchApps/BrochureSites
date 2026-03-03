@@ -11,10 +11,10 @@ const Login: React.FC = () => {
 
   const handleRedirect = (
     url: string,
-    user?: UserInterface,
-    person?: PersonInterface,
+    _user?: UserInterface,
+    _person?: PersonInterface,
     userChurch?: LoginUserChurchInterface,
-    userChurches?: LoginUserChurchInterface[]
+    _userChurches?: LoginUserChurchInterface[]
   ) => {
     // If user is logged in and has churches
     if (userChurch?.church?.subDomain && userChurch?.jwt) {
@@ -25,7 +25,7 @@ const Login: React.FC = () => {
       if (hasViewPeoplePermission) window.location.href = `https://admin.b1.church/login?jwt=${userChurch.jwt}&returnUrl=/`;
       else window.location.href = `https://${userChurch.church.subDomain}.b1.church/login?jwt=${userChurch.jwt}&returnUrl=/my`;
     } else if (url) window.location.href = url;
-    
+
   };
 
   return (

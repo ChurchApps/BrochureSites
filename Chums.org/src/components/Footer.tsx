@@ -1,53 +1,61 @@
-import { Heart, Mail, Phone, MapPin } from "lucide-react";
+import { Heart, Mail, Phone } from "lucide-react";
 const footerLinks = {
-  Platform: [{
-    name: "Features",
-    href: "#features"
-  }, {
-    name: "Demo",
-    href: "https://chumsdemo.churchapps.org/login"
-  }, {
-    name: "Check-in Stations",
-    href: "#checkin"
-  }, {
-    name: "GitHub",
-    href: "https://github.com/ChurchApps/ChumsApp"
-  }],
-  Resources: [{
-    name: "Help Center",
-    href: "https://support.churchapps.org/"
-  },
-  {
-    name: "Data Import",
-    href: "https://transfer.chums.org/"
-  },
-  {
-    name: "Support",
-    href: "#support"
-  }],
-  Ministry: [{
-    name: "About Live Church Solutions",
-    href: "https://churchapps.org/"
-  }, {
-    name: "Our Mission",
-    href: "https://churchapps.org/#about"
-  }, {
-    name: "Partner with Us",
-    href: "https://churchapps.org/partner"
-  }, {
-    name: "Donate",
-    href: "https://churchapps.org/partner"
-  }],
-  Legal: [{
-    name: "Privacy Policy",
-    href: "https://churchapps.org/privacy"
-  }, {
-    name: "Terms of Service",
-    href: "https://churchapps.org/privacy"
-  }, {
-    name: "Open Source License",
-    href: "https://github.com/ChurchApps/ChumsApp/blob/main/LICENSE"
-  }]
+  Platform: [
+    {
+      name: "Features",
+      href: "#features"
+    }, {
+      name: "Demo",
+      href: "https://chumsdemo.churchapps.org/login"
+    }, {
+      name: "Check-in Stations",
+      href: "#checkin"
+    }, {
+      name: "GitHub",
+      href: "https://github.com/ChurchApps/ChumsApp"
+    }
+  ],
+  Resources: [
+    {
+      name: "Help Center",
+      href: "https://support.churchapps.org/"
+    },
+    {
+      name: "Data Import",
+      href: "https://transfer.chums.org/"
+    },
+    {
+      name: "Support",
+      href: "#support"
+    }
+  ],
+  Ministry: [
+    {
+      name: "About Live Church Solutions",
+      href: "https://churchapps.org/"
+    }, {
+      name: "Our Mission",
+      href: "https://churchapps.org/#about"
+    }, {
+      name: "Partner with Us",
+      href: "https://churchapps.org/partner"
+    }, {
+      name: "Donate",
+      href: "https://churchapps.org/partner"
+    }
+  ],
+  Legal: [
+    {
+      name: "Privacy Policy",
+      href: "https://churchapps.org/privacy"
+    }, {
+      name: "Terms of Service",
+      href: "https://churchapps.org/privacy"
+    }, {
+      name: "Open Source License",
+      href: "https://github.com/ChurchApps/ChumsApp/blob/main/LICENSE"
+    }
+  ]
 };
 export const Footer = () => {
   return <footer className="bg-gradient-to-br from-muted/50 via-background to-muted/30 border-t border-border/50">

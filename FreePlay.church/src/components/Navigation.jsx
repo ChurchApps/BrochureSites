@@ -12,10 +12,7 @@ export default function Navigation() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const navLinks = [
-    { href: '#how-it-works', label: 'How It Works' },
-    { href: '#providers', label: 'Providers' },
-  ];
+  const navLinks = [{ href: '#how-it-works', label: 'How It Works' }, { href: '#providers', label: 'Providers' }];
 
   return (
     <nav className={`nav ${scrolled ? 'nav-scrolled' : ''}`}>

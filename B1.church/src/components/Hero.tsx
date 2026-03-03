@@ -13,9 +13,7 @@ const Hero = () => {
       {/* Background Image with Overlay */}
       <div
         className="absolute inset-0 parallax image-overlay"
-        style={{
-          backgroundImage: `url(${churchCommunity})`,
-        }}
+        style={{ backgroundImage: `url(${churchCommunity})` }}
         role="img"
         aria-label="Church community gathering showing people connecting and fellowship"
       />
@@ -47,7 +45,7 @@ const Hero = () => {
               size="xl"
               className="group shadow-glow"
               asChild
-              onClick={() => trackChurchSignup('hero_primary_cta')}
+              onClick={() => trackChurchSignup("hero_primary_cta")}
             >
               <LocaleLink to="/login">
                 {t("brochure.hero.ctaPrimary")}
@@ -59,8 +57,8 @@ const Hero = () => {
               size="xl"
               className="gradient-glass border-primary/30 hover:border-primary text-foreground"
               onClick={() => {
-                trackFeatureClick('see_how_it_works');
-                document.getElementById('features')?.scrollIntoView({ behavior: 'smooth' });
+                trackFeatureClick("see_how_it_works");
+                document.getElementById("features")?.scrollIntoView({ behavior: "smooth" });
               }}
             >
               {t("brochure.hero.ctaSecondary")}

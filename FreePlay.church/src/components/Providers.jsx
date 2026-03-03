@@ -2,36 +2,12 @@ import { useEffect, useRef, useState } from 'react';
 
 export default function Providers() {
   const providers = [
-    {
-      name: 'SignPresenter',
-      logo: '/images/providers/signpresenter.png',
-      url: 'https://www.signpresenter.com/churches',
-    },
-    {
-      name: 'B1.Church',
-      logo: '/images/providers/b1church-dark.png',
-      url: 'https://b1.church/',
-    },
-    {
-      name: 'Lessons.church',
-      logo: '/images/providers/lessons-church.png',
-      url: 'https://lessons.church/',
-    },
-    {
-      name: 'The Bible Project',
-      logo: '/images/providers/bibleproject.png',
-      url: 'https://bibleproject.com/',
-    },
-    {
-      name: 'Jesus Film',
-      logo: '/images/providers/jesus-film.webp',
-      url: 'https://www.jesusfilm.org/',
-    },
-    {
-      name: 'Dropbox',
-      logo: '/images/providers/dropbox.png',
-      url: 'https://dropbox.com/',
-    },
+    { name: 'SignPresenter', logo: '/images/providers/signpresenter.png', url: 'https://www.signpresenter.com/churches' },
+    { name: 'B1.Church', logo: '/images/providers/b1church-dark.png', url: 'https://b1.church/' },
+    { name: 'Lessons.church', logo: '/images/providers/lessons-church.png', url: 'https://lessons.church/' },
+    { name: 'The Bible Project', logo: '/images/providers/bibleproject.png', url: 'https://bibleproject.com/' },
+    { name: 'Jesus Film', logo: '/images/providers/jesus-film.webp', url: 'https://www.jesusfilm.org/' },
+    { name: 'Dropbox', logo: '/images/providers/dropbox.png', url: 'https://dropbox.com/' },
   ];
 
   const trackRef = useRef(null);

@@ -20,7 +20,7 @@ const PerfectFor = () => {
   const { t } = useTranslation();
 
   // Helper to safely get arrays from i18n (returns [] if translations not yet loaded)
-  const tArray = <T,>(key: string): T[] => {
+  const tArray = <T, >(key: string): T[] => {
     const result = t(key, { returnObjects: true });
     return Array.isArray(result) ? result : [];
   };
@@ -34,9 +34,7 @@ const PerfectFor = () => {
       {/* Background Image */}
       <div
         className="absolute inset-0 parallax image-overlay"
-        style={{
-          backgroundImage: `url(${campusWide})`,
-        }}
+        style={{ backgroundImage: `url(${campusWide})` }}
       />
 
       {/* Content */}

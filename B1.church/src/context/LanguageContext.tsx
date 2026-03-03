@@ -12,7 +12,7 @@ interface LanguageContextType {
 const LanguageContext = createContext<LanguageContextType>({
   lang: "en",
   setLang: () => {},
-  localePath: (path) => path,
+  localePath: (path) => path
 });
 
 export const useLanguage = () => useContext(LanguageContext);
@@ -21,7 +21,7 @@ const loadLanguage = async (lang: string) => {
   try {
     const [apphelperData, brochureData] = await Promise.all([
       fetch(`/apphelper/locales/${lang}.json`).then(r => r.json()).catch(() => ({})),
-      fetch(`/locales/${lang}.json`).then(r => r.json()).catch(() => ({})),
+      fetch(`/locales/${lang}.json`).then(r => r.json()).catch(() => ({}))
     ]);
     const merged = { ...apphelperData, ...brochureData };
     i18n.addResourceBundle(lang, "translation", merged, true, true);
@@ -35,10 +35,7 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   const navigate = useNavigate();
   const location = useLocation();
 
-  if (paramLang && !SUPPORTED_LANGS.includes(paramLang)) {
-    return <Navigate to={`/en${location.pathname.replace(/^\/[^/]+/, "")}${location.search}`} replace />;
-  }
-
+  const isUnsupported = paramLang && !SUPPORTED_LANGS.includes(paramLang);
   const lang = paramLang && SUPPORTED_LANGS.includes(paramLang) ? paramLang : "en";
 
   useEffect(() => {
@@ -66,6 +63,10 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   const localePath = (path: string) => {
     return `/${lang}${path.startsWith("/") ? path : "/" + path}`;
   };
+
+  if (isUnsupported) {
+    return <Navigate to={`/en${location.pathname.replace(/^\/[^/]+/, "")}${location.search}`} replace />;
+  }
 
   return (
     <LanguageContext.Provider value={{ lang, setLang, localePath }}>

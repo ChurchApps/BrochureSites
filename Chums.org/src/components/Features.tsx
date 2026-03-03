@@ -14,49 +14,48 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import checkinImage from "@/assets/church-checkin-station-interface.png";
-import dashboardImage from "@/assets/church-management-dashboard-preview.jpg";
 
-const mainFeatures = [
+const _mainFeatures = [
   {
     icon: Users,
     title: "Complete People Management",
-    description: "Maintain detailed member and guest records with contact information, relationships, birthdays, and anniversary tracking. Advanced search and filtering capabilities.",
+    description: "Maintain detailed member and guest records with contact information, relationships, birthdays, and anniversary tracking. Advanced search and filtering capabilities."
   },
   {
     icon: BarChart3,
     title: "Attendance Analytics",
-    description: "Track attendance trends across all services and groups with beautiful charts and reports. Monitor engagement patterns and growth over time.",
+    description: "Track attendance trends across all services and groups with beautiful charts and reports. Monitor engagement patterns and growth over time."
   },
   {
     icon: UserCheck,
     title: "Groups & Ministry Management",
-    description: "Organize unlimited groups, classes, and ministries. Manage member assignments, track participation, and create custom group categories.",
+    description: "Organize unlimited groups, classes, and ministries. Manage member assignments, track participation, and create custom group categories."
   },
   {
     icon: DollarSign,
     title: "Advanced Giving Management",
-    description: "Process donations with batch management, fund tracking, and comprehensive financial reporting. Generate tax statements and monitor giving trends.",
+    description: "Process donations with batch management, fund tracking, and comprehensive financial reporting. Generate tax statements and monitor giving trends."
   },
   {
     icon: Calendar,
     title: "Worship & Service Planning",
-    description: "Schedule worship services, assign team members, and manage volunteer coordination. Track positions needed and automate notifications.",
+    description: "Schedule worship services, assign team members, and manage volunteer coordination. Track positions needed and automate notifications."
   },
   {
     icon: FileText,
     title: "Song Library & Arrangements",
-    description: "Organize your complete song library with multiple arrangements, keys, and chord charts. Link to external resources and manage worship setlists.",
+    description: "Organize your complete song library with multiple arrangements, keys, and chord charts. Link to external resources and manage worship setlists."
   },
   {
     icon: MessageSquare,
     title: "Communication Hub",
-    description: "Send targeted emails and announcements. Create automated workflows and keep your congregation connected.",
+    description: "Send targeted emails and announcements. Create automated workflows and keep your congregation connected."
   },
   {
     icon: Database,
     title: "Multi-Campus Support",
-    description: "Manage multiple locations from one unified dashboard. Track campus-specific data while maintaining organization-wide reporting.",
-  },
+    description: "Manage multiple locations from one unified dashboard. Track campus-specific data while maintaining organization-wide reporting."
+  }
 ];
 
 const additionalFeatures = [
@@ -65,7 +64,7 @@ const additionalFeatures = [
   { icon: Mail, title: "Automated Workflows", description: "Follow-up sequences and member care automation" },
   { icon: Clock, title: "Real-Time Reporting", description: "Generate instant reports and export data anytime" },
   { icon: FileText, title: "Custom Forms", description: "Build registration forms and surveys for any purpose" },
-  { icon: Users, title: "Role-Based Access", description: "Secure permissions for staff and volunteers" },
+  { icon: Users, title: "Role-Based Access", description: "Secure permissions for staff and volunteers" }
 ];
 
 export const Features = () => {
@@ -320,7 +319,7 @@ export const Features = () => {
 
         {/* Additional Features */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-          {additionalFeatures.map((feature, index) => (
+          {additionalFeatures.map((feature, _index) => (
             <div
               key={feature.title}
               className="flex items-start space-x-4 p-4 rounded-xl border border-border/30 hover:border-primary/50 transition-colors"

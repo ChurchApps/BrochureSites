@@ -1,4 +1,6 @@
-export const SUPPORTED_LANGS = ["de", "en", "es", "fr", "hi", "it", "ko", "no", "pt", "ru", "tl", "zh"];
+export const SUPPORTED_LANGS = [
+  "de", "en", "es", "fr", "hi", "it", "ko", "no", "pt", "ru", "tl", "zh"
+];
 
 export const LANGUAGE_NAMES: Record<string, string> = {
   de: "Deutsch",
@@ -12,7 +14,7 @@ export const LANGUAGE_NAMES: Record<string, string> = {
   pt: "Português",
   ru: "Русский",
   tl: "Tagalog",
-  zh: "中文",
+  zh: "中文"
 };
 
 /** Matches any supported language code at start of a path, e.g. /en/faq */

@@ -4,8 +4,8 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { ThemeProvider, createTheme } from '@mui/material/styles';
-import CssBaseline from '@mui/material/CssBaseline';
+import { ThemeProvider, createTheme } from "@mui/material/styles";
+import CssBaseline from "@mui/material/CssBaseline";
 import Index from "./pages/Index";
 import Login from "./pages/Login";
 import ChurchManagement from "./pages/ChurchManagement";
@@ -21,13 +21,9 @@ import LanguageRedirect from "./components/LanguageRedirect";
 // Create a Material-UI theme for the login page
 const theme = createTheme({
   palette: {
-    primary: {
-      main: '#1976d2',
-    },
-    background: {
-      default: '#f5f5f5',
-    },
-  },
+    primary: { main: "#1976d2" },
+    background: { default: "#f5f5f5" }
+  }
 });
 
 const queryClient = new QueryClient();

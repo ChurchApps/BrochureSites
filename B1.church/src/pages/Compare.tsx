@@ -41,9 +41,9 @@ const Compare = () => {
         features: entry.features,
         pricing: {
           b1: entry.pricingB1,
-          competitor: entry.pricingCompetitor,
+          competitor: entry.pricingCompetitor
         },
-        verdict: entry.verdict,
+        verdict: entry.verdict
       };
       return acc;
     },
@@ -80,17 +80,17 @@ const Compare = () => {
         }
       };
 
-      const existingSchema = document.getElementById('compare-schema');
+      const existingSchema = document.getElementById("compare-schema");
       if (existingSchema) existingSchema.remove();
 
-      const script = document.createElement('script');
-      script.id = 'compare-schema';
-      script.type = 'application/ld+json';
+      const script = document.createElement("script");
+      script.id = "compare-schema";
+      script.type = "application/ld+json";
       script.text = JSON.stringify(schema);
       document.head.appendChild(script);
 
       return () => {
-        const el = document.getElementById('compare-schema');
+        const el = document.getElementById("compare-schema");
         if (el) el.remove();
       };
     }

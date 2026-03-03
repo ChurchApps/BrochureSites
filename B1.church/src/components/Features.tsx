@@ -23,14 +23,12 @@ import communityPhoto from "@/assets/community-photo.jpg";
 import givingPhoto from "@/assets/giving-photo.jpg";
 import checkinPhoto from "@/assets/checkin-photo.jpg";
 import heroImage from "@/assets/hero-image.jpg";
-import checkinImage from "@/assets/church-checkin-station-interface.png";
-import dashboardImage from "@/assets/church-management-dashboard-preview.jpg";
 
 const Features = () => {
   const { t } = useTranslation();
 
   // Helper to safely get arrays from i18n (returns [] if translations not yet loaded)
-  const tArray = <T,>(key: string): T[] => {
+  const tArray = <T, >(key: string): T[] => {
     const result = t(key, { returnObjects: true });
     return Array.isArray(result) ? result : [];
   };
@@ -92,9 +90,7 @@ const Features = () => {
             feature.image && (
               <div
                 className="absolute inset-0 parallax image-overlay"
-                style={{
-                  backgroundImage: `url(${feature.image})`,
-                }}
+                style={{ backgroundImage: `url(${feature.image})` }}
                 role="img"
                 aria-label={`Background image for ${feature.title} feature`}
               />
@@ -106,9 +102,9 @@ const Features = () => {
 
           {/* Content */}
           <div className="relative z-10 container mx-auto px-4">
-            <div className={`grid lg:grid-cols-2 gap-16 items-center ${feature.reverse ? 'lg:grid-cols-2' : ''}`}>
+            <div className={`grid lg:grid-cols-2 gap-16 items-center ${feature.reverse ? "lg:grid-cols-2" : ""}`}>
               {/* Text Content */}
-              <div className={`space-y-8 ${feature.reverse ? 'lg:order-2' : ''}`}>
+              <div className={`space-y-8 ${feature.reverse ? "lg:order-2" : ""}`}>
                 <div className="gradient-glass rounded-3xl p-8 md:p-12">
                   <div className="flex items-start sm:items-center space-x-4 mb-6">
                     <div className="w-12 h-12 sm:w-16 sm:h-16 bg-primary rounded-2xl flex items-center justify-center shadow-glow flex-shrink-0">
@@ -142,7 +138,7 @@ const Features = () => {
               </div>
 
               {/* Mobile App Screenshots */}
-              <div className={`${feature.reverse ? 'lg:order-1' : ''}`}>
+              <div className={`${feature.reverse ? "lg:order-1" : ""}`}>
                 <div className="relative max-w-sm mx-auto">
                   {/* Phone Frame with App Screenshot */}
                   <div className="bg-gray-900 rounded-[3rem] p-2 shadow-2xl card-hover">
@@ -394,9 +390,7 @@ const Features = () => {
       <div className="relative min-h-screen flex items-center">
         <div
           className="absolute inset-0 parallax image-overlay"
-          style={{
-            backgroundImage: `url(${givingPhoto})`,
-          }}
+          style={{ backgroundImage: `url(${givingPhoto})` }}
           role="img"
           aria-label="Church giving and stewardship background"
         />

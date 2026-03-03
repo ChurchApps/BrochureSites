@@ -31,40 +31,42 @@ const ChurchManagement = () => {
 
   const rawMainFeatures = t("brochure.churchManagement.mainFeatures", { returnObjects: true });
   const mainFeaturesTranslated = Array.isArray(rawMainFeatures) ? rawMainFeatures as { title: string; description: string }[] : [];
-  const mainFeaturesIcons = [Users, BarChart3, UserCheck, DollarSign, Calendar, FileText, MessageSquare, Database];
+  const mainFeaturesIcons = [
+    Users, BarChart3, UserCheck, DollarSign, Calendar, FileText, MessageSquare, Database
+  ];
   const mainFeatures = mainFeaturesIcons.map((icon, i) => ({ icon, ...(mainFeaturesTranslated[i] || { title: "", description: "" }) }));
 
   const additionalFeaturesData = [
     {
       icon: Shield,
       title: t("brochure.features.additional.security.title"),
-      description: t("brochure.features.additional.security.description"),
+      description: t("brochure.features.additional.security.description")
     },
     {
       icon: Smartphone,
       title: t("brochure.features.additional.mobile.title"),
-      description: t("brochure.features.additional.mobile.description"),
+      description: t("brochure.features.additional.mobile.description")
     },
     {
       icon: Mail,
       title: t("brochure.features.additional.workflows.title"),
-      description: t("brochure.features.additional.workflows.description"),
+      description: t("brochure.features.additional.workflows.description")
     },
     {
       icon: Clock,
       title: t("brochure.features.additional.reporting.title"),
-      description: t("brochure.features.additional.reporting.description"),
+      description: t("brochure.features.additional.reporting.description")
     },
     {
       icon: FileText,
       title: t("brochure.features.additional.forms.title"),
-      description: t("brochure.features.additional.forms.description"),
+      description: t("brochure.features.additional.forms.description")
     },
     {
       icon: Users,
       title: t("brochure.features.additional.roles.title"),
-      description: t("brochure.features.additional.roles.description"),
-    },
+      description: t("brochure.features.additional.roles.description")
+    }
   ];
 
   const rawAllFeatures = t("brochure.churchManagement.allFeatures.items", { returnObjects: true });
@@ -81,20 +83,20 @@ const ChurchManagement = () => {
       name: "Pastor Daniel Webster",
       church: "Believers Bible Assembly",
       location: "Kumasi, Ghana",
-      content: testimonialsItems[0]?.content ?? "",
+      content: testimonialsItems[0]?.content ?? ""
     },
     {
       name: "Theresa Fraser",
       church: "Mission of Hope Worship Center",
       location: "Orlando, FL",
-      content: testimonialsItems[1]?.content ?? "",
+      content: testimonialsItems[1]?.content ?? ""
     },
     {
       name: "Maria Rodriguez",
       church: "St. Mark's Episcopal",
       location: "Phoenix, AZ",
-      content: testimonialsItems[2]?.content ?? "",
-    },
+      content: testimonialsItems[2]?.content ?? ""
+    }
   ];
 
   const rawCheckinFeatures = t("brochure.churchManagement.checkinStations.features", { returnObjects: true });

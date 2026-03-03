@@ -19,7 +19,7 @@ export default function HubSpotModal({ isOpen, onClose, title = 'Get the Downloa
           css: '',
           cssRequired: '',
           inlineMessage: '<p style="color:white;text-align:center;font-size:1.1rem;">Thanks! Check your inbox for the download link.</p>',
-          onFormReady: function($form) {
+          onFormReady: function() {
             const iframe = document.querySelector('#hs-email-form-container iframe');
             if (iframe) {
               const style = iframe.contentDocument.createElement('style');

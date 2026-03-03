@@ -87,7 +87,7 @@ const Header = () => {
               className="bg-white text-blue-900 hover:bg-gray-50 shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105 font-semibold"
               size="lg"
               asChild
-              onClick={() => trackChurchSignup('header_cta')}
+              onClick={() => trackChurchSignup("header_cta")}
             >
               <LocaleLink to="/login">{t("brochure.header.getStartedFree")}</LocaleLink>
             </Button>
@@ -139,7 +139,7 @@ const Header = () => {
                 <Button
                   className="bg-white text-blue-900 hover:bg-gray-50 shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105 font-semibold"
                   asChild
-                  onClick={() => trackChurchSignup('mobile_header_cta')}
+                  onClick={() => trackChurchSignup("mobile_header_cta")}
                 >
                   <LocaleLink to="/login">{t("brochure.header.getStartedFree")}</LocaleLink>
                 </Button>

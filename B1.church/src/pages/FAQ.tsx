@@ -6,7 +6,7 @@ import {
   Accordion,
   AccordionContent,
   AccordionItem,
-  AccordionTrigger,
+  AccordionTrigger
 } from "@/components/ui/accordion";
 
 const FAQ = () => {
@@ -33,17 +33,17 @@ const FAQ = () => {
     document.title = t("brochure.faq.documentTitle");
 
     // Add FAQ schema to head
-    const existingSchema = document.getElementById('faq-schema');
+    const existingSchema = document.getElementById("faq-schema");
     if (!existingSchema) {
-      const script = document.createElement('script');
-      script.id = 'faq-schema';
-      script.type = 'application/ld+json';
+      const script = document.createElement("script");
+      script.id = "faq-schema";
+      script.type = "application/ld+json";
       script.text = JSON.stringify(faqSchema);
       document.head.appendChild(script);
     }
 
     return () => {
-      const schema = document.getElementById('faq-schema');
+      const schema = document.getElementById("faq-schema");
       if (schema) schema.remove();
     };
   }, []);

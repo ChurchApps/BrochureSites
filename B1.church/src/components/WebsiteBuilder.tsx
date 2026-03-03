@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Monitor, Palette, Globe, Zap } from "lucide-react";
 import LocaleLink from "@/components/LocaleLink";
-import communityPhoto from "@/assets/community-photo.jpg";
 import { trackWebsiteBuilderClick } from "@/utils/analytics";
 import { useTranslation } from "react-i18next";
 

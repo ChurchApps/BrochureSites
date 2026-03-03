@@ -10,7 +10,7 @@ export class EnvironmentHelper {
     this.hasInit = true;
 
     // Ensure process.env exists for browser compatibility
-    if (typeof window !== 'undefined' && !window.process) {
+    if (typeof window !== "undefined" && !window.process) {
       (window as any).process = { env: {} };
     }
 
