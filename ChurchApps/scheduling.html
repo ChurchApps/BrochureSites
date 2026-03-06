@@ -1,0 +1,365 @@
+<!-- Scheduling / Onboarding Call Page -->
+<section style="
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(135deg, #2D3E50 0%, #1976d2 100%);
+  overflow: hidden;
+  padding: 100px 40px 80px;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+">
+
+  <!-- Background Image -->
+  <div style="
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-image: url('https://content.churchapps.org/40/files/homepage_hero.png?dt=1770682012475');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.18;
+  "></div>
+
+  <!-- Dark Overlay -->
+  <div style="
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: linear-gradient(135deg, rgba(45,62,80,0.85) 0%, rgba(25,118,210,0.75) 100%);
+  "></div>
+
+  <!-- Dot Pattern -->
+  <div style="
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    opacity: 0.05;
+    background-image: radial-gradient(circle, rgba(255,255,255,0.3) 1px, transparent 1px);
+    background-size: 30px 30px;
+  "></div>
+
+  <!-- Content Container -->
+  <div style="
+    position: relative;
+    max-width: 1300px;
+    margin: 0 auto;
+    z-index: 2;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+  ">
+
+    <!-- ── LEFT: Copy ── -->
+    <div>
+
+      <!-- Badge -->
+      <div style="
+        display: inline-block;
+        background: rgba(255,255,255,0.15);
+        border: 2px solid rgba(255,255,255,0.3);
+        border-radius: 50px;
+        padding: 10px 24px;
+        margin-bottom: 32px;
+        backdrop-filter: blur(10px);
+      ">
+        <span style="color:#fff; font-size:15px; font-weight:600; letter-spacing:0.5px;">
+          &#128197; Free Onboarding &bull; No Tech Experience Needed
+        </span>
+      </div>
+
+      <!-- Heading -->
+      <h1 style="
+        font-size: clamp(36px, 4vw, 60px);
+        font-weight: 800;
+        color: #fff;
+        line-height: 1.2;
+        margin: 0 0 24px 0;
+        letter-spacing: -0.02em;
+        text-shadow: 0 4px 20px rgba(0,0,0,0.3);
+        animation: fadeInUp 1s ease-out;
+      ">
+        Get Your Church Set Up<br/>
+        <span style="
+          background: linear-gradient(135deg, #FFD700 0%, #FF6B35 50%, #FFA726 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          display: inline-block;
+          animation: shimmer 3s ease-in-out infinite;
+        ">Free,</span>
+        <span style="
+          background: linear-gradient(135deg, #42A5F5 0%, #00BCD4 50%, #4DD0E1 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          display: inline-block;
+          animation: shimmer 3s ease-in-out infinite;
+          animation-delay: 1.5s;
+        ">Fast &amp; Simple</span>
+      </h1>
+
+      <!-- Sub -->
+      <p style="
+        font-size: clamp(17px, 2vw, 21px);
+        color: rgba(255,255,255,0.92);
+        line-height: 1.65;
+        margin: 0 0 28px 0;
+        max-width: 520px;
+      ">
+        Pick a time and a ChurchApps team member will meet you live on <strong style="color:#fff;">Google Meet</strong> — just like Zoom — to walk your church through everything at no cost.
+      </p>
+
+      <!-- Google Meet pill -->
+      <div style="
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        background: rgba(255,255,255,0.11);
+        border: 1px solid rgba(255,255,255,0.22);
+        border-radius: 12px;
+        padding: 11px 18px;
+        margin-bottom: 36px;
+        backdrop-filter: blur(8px);
+      ">
+        <svg width="20" height="20" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M43.611 20.083H42V20H24v8h11.303c-1.649 4.657-6.08 8-11.303 8c-6.627 0-12-5.373-12-12s5.373-12 12-12c3.059 0 5.842 1.154 7.961 3.039l5.657-5.657C34.046 6.053 29.268 4 24 4C12.955 4 4 12.955 4 24s8.955 20 20 20s20-8.955 20-20c0-1.341-.138-2.65-.389-3.917z" fill="#FFC107"/>
+          <path d="M6.306 14.691l6.571 4.819C14.655 15.108 18.961 12 24 12c3.059 0 5.842 1.154 7.961 3.039l5.657-5.657C34.046 6.053 29.268 4 24 4C16.318 4 9.656 8.337 6.306 14.691z" fill="#FF3D00"/>
+          <path d="M24 44c5.166 0 9.86-1.977 13.409-5.192l-6.19-5.238A11.91 11.91 0 0 1 24 36c-5.202 0-9.619-3.317-11.283-7.946l-6.522 5.025C9.505 39.556 16.227 44 24 44z" fill="#4CAF50"/>
+          <path d="M43.611 20.083H42V20H24v8h11.303a12.04 12.04 0 0 1-4.087 5.571l.003-.002l6.19 5.238C36.971 39.205 44 34 44 24c0-1.341-.138-2.65-.389-3.917z" fill="#1976D2"/>
+        </svg>
+        <span style="color:rgba(255,255,255,0.88); font-size:14px;">
+          Calls happen over <strong>Google Meet</strong> — click a link, no download needed
+        </span>
+      </div>
+
+      <!-- Steps -->
+      <div style="display:flex; flex-direction:column; gap:18px; margin-bottom:40px;">
+
+        <div style="display:flex; align-items:flex-start; gap:14px;">
+          <div style="
+            width:34px; height:34px; flex-shrink:0;
+            border-radius:50%;
+            background: linear-gradient(135deg, #1976d2, #00BCD4);
+            color:#fff; font-size:14px; font-weight:800;
+            display:flex; align-items:center; justify-content:center;
+            margin-top:2px;
+          ">1</div>
+          <div>
+            <strong style="display:block; font-size:15px; font-weight:700; color:#fff; margin-bottom:2px;">Pick a Time</strong>
+            <span style="font-size:13px; color:rgba(255,255,255,0.68);">Click "Schedule Your Free Call" and choose any open slot.</span>
+          </div>
+        </div>
+
+        <div style="display:flex; align-items:flex-start; gap:14px;">
+          <div style="
+            width:34px; height:34px; flex-shrink:0;
+            border-radius:50%;
+            background: linear-gradient(135deg, #1976d2, #00BCD4);
+            color:#fff; font-size:14px; font-weight:800;
+            display:flex; align-items:center; justify-content:center;
+            margin-top:2px;
+          ">2</div>
+          <div>
+            <strong style="display:block; font-size:15px; font-weight:700; color:#fff; margin-bottom:2px;">Join on Google Meet</strong>
+            <span style="font-size:13px; color:rgba(255,255,255,0.68);">A ChurchApps team member meets you live — like Zoom, right in your browser.</span>
+          </div>
+        </div>
+
+        <div style="display:flex; align-items:flex-start; gap:14px;">
+          <div style="
+            width:34px; height:34px; flex-shrink:0;
+            border-radius:50%;
+            background: linear-gradient(135deg, #1976d2, #00BCD4);
+            color:#fff; font-size:14px; font-weight:800;
+            display:flex; align-items:center; justify-content:center;
+            margin-top:2px;
+          ">3</div>
+          <div>
+            <strong style="display:block; font-size:15px; font-weight:700; color:#fff; margin-bottom:2px;">Go Live Same Day</strong>
+            <span style="font-size:13px; color:rgba(255,255,255,0.68);">Your church is fully set up and ready before the call ends.</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Stats chips -->
+      <div style="display:flex; gap:12px; flex-wrap:wrap;">
+        <div style="
+          background:rgba(255,255,255,0.12);
+          border:1px solid rgba(255,255,255,0.2);
+          border-radius:10px;
+          padding:12px 18px;
+          text-align:center;
+          backdrop-filter:blur(10px);
+        ">
+          <div style="font-size:22px; font-weight:800; color:#fff; line-height:1; margin-bottom:3px;">30 min</div>
+          <div style="font-size:11px; color:rgba(255,255,255,0.72); font-weight:500;">Call Length</div>
+        </div>
+        <div style="
+          background:rgba(255,255,255,0.12);
+          border:1px solid rgba(255,255,255,0.2);
+          border-radius:10px;
+          padding:12px 18px;
+          text-align:center;
+          backdrop-filter:blur(10px);
+        ">
+          <div style="font-size:22px; font-weight:800; color:#fff; line-height:1; margin-bottom:3px;">100%</div>
+          <div style="font-size:11px; color:rgba(255,255,255,0.72); font-weight:500;">Free Forever</div>
+        </div>
+        <div style="
+          background:rgba(255,255,255,0.12);
+          border:1px solid rgba(255,255,255,0.2);
+          border-radius:10px;
+          padding:12px 18px;
+          text-align:center;
+          backdrop-filter:blur(10px);
+        ">
+          <div style="font-size:22px; font-weight:800; color:#fff; line-height:1; margin-bottom:3px;">1,000+</div>
+          <div style="font-size:11px; color:rgba(255,255,255,0.72); font-weight:500;">Churches Served</div>
+        </div>
+      </div>
+
+    </div><!-- /left -->
+
+    <!-- ── RIGHT: Booking Card ── -->
+    <div>
+      <div style="
+        background: rgba(255,255,255,0.97);
+        border-radius: 28px;
+        overflow: hidden;
+        box-shadow: 0 32px 80px rgba(0,0,0,0.30), 0 4px 20px rgba(0,0,0,0.12);
+        border: 1px solid rgba(255,255,255,0.4);
+      ">
+
+        <!-- Card body -->
+        <div style="padding: 36px 32px 32px;">
+
+          <!-- Host row -->
+          <div style="
+            display:flex; align-items:center; gap:16px;
+            margin-bottom:24px; padding-bottom:24px;
+            border-bottom: 1px solid #EEF2F7;
+          ">
+            <img src="https://content.churchapps.org/40/files/Churchapps%20Cross%20only.png?dt=1772487711683"
+                 alt="ChurchApps"
+                 style="width:52px; height:52px; border-radius:50%; flex-shrink:0; object-fit:contain; background:#EEF2F7; padding:6px;" />
+            <div>
+              <div style="font-size:17px; font-weight:700; color:#2D3E50; margin-bottom:3px;">ChurchApps Onboarding Team</div>
+              <div style="font-size:13px; color:#5A6C7D;">Free 30-minute setup &bull; No obligation</div>
+            </div>
+          </div>
+
+          <!-- Details -->
+          <div style="display:flex; flex-direction:column; gap:16px; margin-bottom:24px;">
+
+            <div style="display:flex; align-items:center; gap:12px;">
+              <div style="
+                width:38px; height:38px; flex-shrink:0; border-radius:10px;
+                background:#F0F6FF; display:flex; align-items:center; justify-content:center; font-size:17px;
+              ">&#9200;</div>
+              <div>
+                <strong style="display:block; font-size:14px; font-weight:700; color:#2D3E50;">30 Minutes</strong>
+                <span style="font-size:13px; color:#5A6C7D;">We cover everything in one focused session</span>
+              </div>
+            </div>
+
+            <div style="display:flex; align-items:center; gap:12px;">
+              <div style="
+                width:38px; height:38px; flex-shrink:0; border-radius:10px;
+                background:#F0F6FF; display:flex; align-items:center; justify-content:center; font-size:17px;
+              ">&#127758;</div>
+              <div>
+                <strong style="display:block; font-size:14px; font-weight:700; color:#2D3E50;">Your Local Timezone</strong>
+                <span style="font-size:13px; color:#5A6C7D;">Times automatically adjust to where you are</span>
+              </div>
+            </div>
+
+            <div style="display:flex; align-items:center; gap:12px;">
+              <div style="
+                width:38px; height:38px; flex-shrink:0; border-radius:10px;
+                background:#F0F6FF; display:flex; align-items:center; justify-content:center; font-size:17px;
+              ">&#127381;</div>
+              <div>
+                <strong style="display:block; font-size:14px; font-weight:700; color:#2D3E50;">100% Free</strong>
+                <span style="font-size:13px; color:#5A6C7D;">No credit card, no commitment, free forever</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Google Meet badge -->
+          <div style="
+            display:flex; align-items:center; gap:12px;
+            background:#F8FFFE; border:1px solid #D1F5EE;
+            border-radius:12px; padding:12px 16px; margin-bottom:28px;
+          ">
+            <svg width="26" height="26" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;">
+              <path d="M43.611 20.083H42V20H24v8h11.303c-1.649 4.657-6.08 8-11.303 8c-6.627 0-12-5.373-12-12s5.373-12 12-12c3.059 0 5.842 1.154 7.961 3.039l5.657-5.657C34.046 6.053 29.268 4 24 4C12.955 4 4 12.955 4 24s8.955 20 20 20s20-8.955 20-20c0-1.341-.138-2.65-.389-3.917z" fill="#FFC107"/>
+              <path d="M6.306 14.691l6.571 4.819C14.655 15.108 18.961 12 24 12c3.059 0 5.842 1.154 7.961 3.039l5.657-5.657C34.046 6.053 29.268 4 24 4C16.318 4 9.656 8.337 6.306 14.691z" fill="#FF3D00"/>
+              <path d="M24 44c5.166 0 9.86-1.977 13.409-5.192l-6.19-5.238A11.91 11.91 0 0 1 24 36c-5.202 0-9.619-3.317-11.283-7.946l-6.522 5.025C9.505 39.556 16.227 44 24 44z" fill="#4CAF50"/>
+              <path d="M43.611 20.083H42V20H24v8h11.303a12.04 12.04 0 0 1-4.087 5.571l.003-.002l6.19 5.238C36.971 39.205 44 34 44 24c0-1.341-.138-2.65-.389-3.917z" fill="#1976D2"/>
+            </svg>
+            <span style="font-size:13px; color:#2D3E50; line-height:1.45;">
+              This call takes place on <strong>Google Meet</strong> — no app needed, works right in your browser
+            </span>
+          </div>
+
+          <!-- CTA Button -->
+          <a href="https://calendar.app.google/9hTJaiPqsPhxiLcE7"
+             target="_blank" rel="noopener"
+             style="
+               display:flex; align-items:center; justify-content:center; gap:10px;
+               width:100%;
+               background: linear-gradient(135deg, #FF6B35 0%, #FF8C42 100%);
+               color:#fff;
+               font-size:18px; font-weight:700;
+               padding:18px 28px;
+               border-radius:14px;
+               text-decoration:none;
+               box-shadow: 0 6px 24px rgba(255,107,53,0.38);
+               transition: all 0.25s ease;
+               letter-spacing:-0.01em;
+             "
+             onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 12px 36px rgba(255,107,53,0.48)';"
+             onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 6px 24px rgba(255,107,53,0.38)';">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="3" y="4" width="18" height="18" rx="2" stroke="white" stroke-width="2"/>
+              <path d="M16 2V6M8 2V6M3 10H21" stroke="white" stroke-width="2" stroke-linecap="round"/>
+              <circle cx="8" cy="15" r="1.5" fill="white"/>
+              <circle cx="12" cy="15" r="1.5" fill="white"/>
+              <circle cx="16" cy="15" r="1.5" fill="white"/>
+            </svg>
+            Schedule Your Free Call
+          </a>
+
+          <p style="text-align:center; margin-top:12px; font-size:12px; color:#8FA3B8;">
+            Opens Google Calendar &bull; All times in your local timezone
+          </p>
+
+        </div><!-- /card body -->
+      </div><!-- /booking card -->
+
+      <p style="text-align:center; margin-top:14px; color:rgba(255,255,255,0.5); font-size:13px;">
+        Slots fill up fast &mdash; grab yours today
+      </p>
+    </div><!-- /right -->
+
+  </div><!-- /grid -->
+</section>
+
+<style>
+  @keyframes fadeInUp {
+    0% { opacity: 0; transform: translateY(30px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes shimmer {
+    0%, 100% { filter: brightness(1) saturate(1); transform: scale(1); }
+    50% { filter: brightness(1.2) saturate(1.3); transform: scale(1.02); }
+  }
+
+  @media (max-width: 900px) {
+    .sched-grid { grid-template-columns: 1fr !important; }
+  }
+</style>

@@ -1,0 +1,502 @@
+<!-- Prayer Popup -->
+<style>
+  #prayer-popup-overlay {
+    display: none; position: fixed; inset: 0;
+    background: rgba(0,0,0,0.65); z-index: 9999;
+    justify-content: center; align-items: center;
+  }
+  #prayer-popup-overlay.active { display: flex; }
+  #prayer-popup {
+    background: #fff; border-radius: 16px;
+    padding: 48px 40px 40px; max-width: 480px; width: 92%;
+    position: relative; box-shadow: 0 24px 80px rgba(0,0,0,0.3); text-align: center;
+  }
+  #prayer-popup h2 { margin: 12px 0 10px; font-size: 1.75rem; color: #2D3E50; font-weight: 800; }
+  #prayer-popup > p { margin: 0 0 28px; color: #5A6C7D; font-size: 1rem; line-height: 1.6; }
+  #prayer-popup-close {
+    position: absolute; top: 14px; right: 18px;
+    font-size: 1.5rem; cursor: pointer; color: #bbb;
+    background: none; border: none; line-height: 1; padding: 4px;
+  }
+  #prayer-popup-close:hover { color: #444; }
+</style>
+
+<div id="prayer-popup-overlay">
+  <div id="prayer-popup">
+    <button id="prayer-popup-close" onclick="closePrayerPopup()">&times;</button>
+    <div style="font-size: 44px; line-height: 1; margin-bottom: 4px;">🙏</div>
+    <h2>Commit to Pray</h2>
+    <p>Join others who are praying for ChurchApps and the thousands of churches we serve around the world.</p>
+    <div id="hs-prayer-form"></div>
+    <a href="https://churchapps.org/pray" target="_blank" style="
+      display: block;
+      margin-top: 16px;
+      font-size: 14px;
+      color: #5A6C7D;
+      text-decoration: none;
+    " onmouseover="this.style.color='#10B981';" onmouseout="this.style.color='#5A6C7D';">
+      Not ready yet? Browse the prayer needs first →
+    </a>
+  </div>
+</div>
+
+<script>
+  function openPrayerPopup() {
+    document.getElementById('prayer-popup-overlay').classList.add('active');
+    document.body.style.overflow = 'hidden';
+    if (!document.getElementById('hs-prayer-form').hasChildNodes()) {
+      var s = document.createElement('script');
+      s.src = 'https://js.hsforms.net/forms/embed/v2.js';
+      s.onload = function() {
+        hbspt.forms.create({ region:"na1", portalId:"20077299", formId:"92187153-aac6-4643-bfec-1e802a512002", target:"#hs-prayer-form" });
+      };
+      document.head.appendChild(s);
+    }
+  }
+  function closePrayerPopup() {
+    document.getElementById('prayer-popup-overlay').classList.remove('active');
+    document.body.style.overflow = '';
+  }
+  document.getElementById('prayer-popup-overlay').addEventListener('click', function(e) {
+    if (e.target === this) closePrayerPopup();
+  });
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') closePrayerPopup();
+  });
+</script>
+
+<!-- Impact Section - Three Ways to Partner -->
+<section style="
+  padding: 100px 60px;
+  background: #FFFFFF;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+">
+  <div style="max-width: 1400px; margin: 0 auto;">
+
+    <!-- Section Header -->
+    <div style="text-align: center; margin-bottom: 80px;">
+      <h2 style="
+        font-size: clamp(38px, 5vw, 56px);
+        font-weight: 800;
+        color: #2D3E50;
+        line-height: 1.2;
+        margin: 0 0 24px 0;
+        letter-spacing: -0.01em;
+      ">
+        Your Impact <span style="color: #FF6B35;">Multiplied</span>
+      </h2>
+      <p style="
+        font-size: 21px;
+        color: #5A6C7D;
+        line-height: 1.7;
+        margin: 0 auto;
+        max-width: 750px;
+      ">
+        Every partnership—financial, technical, or prayerful—empowers thousands of churches to focus on what matters most: making disciples.
+      </p>
+    </div>
+
+    <!-- Three Impact Cards -->
+    <div style="
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 40px;
+      align-items: stretch;
+    ">
+
+      <!-- Give Card -->
+      <div style="
+        background: linear-gradient(135deg, #FFFFFF 0%, #FFF5F0 100%);
+        border-radius: 24px;
+        padding: 50px 40px;
+        border: 2px solid #FFE5D9;
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+      " onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 20px 60px rgba(255, 107, 53, 0.2)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+
+        <!-- Icon -->
+        <div style="
+          width: 70px;
+          height: 70px;
+          background: linear-gradient(135deg, #FF6B35 0%, #FFA726 100%);
+          border-radius: 20px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 24px;
+          box-shadow: 0 10px 30px rgba(255, 107, 53, 0.3);
+        ">
+          <svg width="36" height="36" viewBox="0 0 24 24" fill="none">
+            <path d="M20.84 4.61C20.3945 4.0615 19.8497 3.60812 19.2365 3.27546C18.6232 2.94281 17.9528 2.73754 17.2632 2.67068C16.5736 2.60382 15.8781 2.67672 15.2153 2.88516C14.5525 3.0936 13.9352 3.43341 13.4 3.88L12 5.28L10.6 3.88C9.69551 2.97551 8.47148 2.46858 7.19693 2.46858C5.92239 2.46858 4.69836 2.97551 3.79387 3.88C2.88938 4.78449 2.38245 6.00852 2.38245 7.28306C2.38245 8.55761 2.88938 9.78164 3.79387 10.6861L5.19387 12.0861L12 18.8922L18.8061 12.0861L20.2061 10.6861C20.6507 10.1509 20.9905 9.53361 21.199 8.87081C21.4074 8.20802 21.4803 7.51254 21.4134 6.82294C21.3466 6.13334 21.1413 5.46294 20.8086 4.8497C20.476 4.23646 20.0226 3.69165 19.4741 3.24613L20.84 4.61Z" fill="white"/>
+          </svg>
+        </div>
+
+        <h3 style="
+          font-size: 28px;
+          font-weight: 800;
+          color: #2D3E50;
+          margin: 0 0 16px 0;
+        ">Give Financially</h3>
+
+        <p style="
+          font-size: 17px;
+          color: #5A6C7D;
+          line-height: 1.7;
+          margin: 0 0 24px 0;
+        ">
+          Your donation keeps ministry tools free for churches with tight budgets. Every dollar goes directly to development and hosting costs.
+        </p>
+
+        <!-- Impact Stat -->
+        <div style="
+          background: rgba(255, 107, 53, 0.1);
+          border-radius: 12px;
+          padding: 16px 20px;
+          margin-bottom: 24px;
+        ">
+          <div style="
+            font-size: 32px;
+            font-weight: 900;
+            color: #FF6B35;
+            line-height: 1;
+            margin-bottom: 6px;
+          ">$150/mo</div>
+          <div style="
+            font-size: 14px;
+            color: #2D3E50;
+            font-weight: 600;
+          ">supports 100+ churches</div>
+        </div>
+
+        <a href="#give" style="
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          gap: 8px;
+          background: #FF6B35;
+          color: #FFFFFF;
+          font-size: 16px;
+          font-weight: 600;
+          padding: 14px 28px;
+          border-radius: 50px;
+          text-decoration: none;
+          transition: all 0.3s ease;
+          box-shadow: 0 4px 15px rgba(255, 107, 53, 0.25);
+        " onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 20px rgba(255, 107, 53, 0.35)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(255, 107, 53, 0.25)';">
+          <span>Start Giving</span>
+          <svg width="14" height="14" viewBox="0 0 20 20" fill="none">
+            <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+
+      <!-- Code Card -->
+      <div style="
+        background: linear-gradient(135deg, #FFFFFF 0%, #F0F9FF 100%);
+        border-radius: 24px;
+        padding: 50px 40px;
+        border: 2px solid #DBEAFE;
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+      " onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 20px 60px rgba(25, 118, 210, 0.2)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+
+        <!-- Icon -->
+        <div style="
+          width: 70px;
+          height: 70px;
+          background: linear-gradient(135deg, #1976d2 0%, #42A5F5 100%);
+          border-radius: 20px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 24px;
+          box-shadow: 0 10px 30px rgba(25, 118, 210, 0.3);
+        ">
+          <svg width="36" height="36" viewBox="0 0 24 24" fill="none">
+            <path d="M8 3L4 7L8 11" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M16 21L20 17L16 13" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M14 4L10 20" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+
+        <h3 style="
+          font-size: 28px;
+          font-weight: 800;
+          color: #2D3E50;
+          margin: 0 0 16px 0;
+        ">Code With Us</h3>
+
+        <p style="
+          font-size: 17px;
+          color: #5A6C7D;
+          line-height: 1.7;
+          margin: 0 0 24px 0;
+        ">
+          Join our volunteer developers building free apps. Whether you code MERN stack, React Native, or HTML/CSS—we need your skills.
+        </p>
+
+        <!-- Impact Stat -->
+        <div style="
+          background: rgba(25, 118, 210, 0.1);
+          border-radius: 12px;
+          padding: 16px 20px;
+          margin-bottom: 24px;
+        ">
+          <div style="
+            font-size: 32px;
+            font-weight: 900;
+            color: #1976d2;
+            line-height: 1;
+            margin-bottom: 6px;
+          ">5-10 hrs/mo</div>
+          <div style="
+            font-size: 14px;
+            color: #2D3E50;
+            font-weight: 600;
+          ">makes real impact on churches</div>
+        </div>
+
+        <a href="https://churchapps.org/dev" target="_blank" style="
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          gap: 8px;
+          background: #1976d2;
+          color: #FFFFFF;
+          font-size: 16px;
+          font-weight: 600;
+          padding: 14px 28px;
+          border-radius: 50px;
+          text-decoration: none;
+          transition: all 0.3s ease;
+          box-shadow: 0 4px 15px rgba(25, 118, 210, 0.25);
+        " onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 20px rgba(25, 118, 210, 0.35)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(25, 118, 210, 0.25)';">
+          <span>See Needs</span>
+          <svg width="14" height="14" viewBox="0 0 20 20" fill="none">
+            <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+
+      <!-- Pray Card -->
+      <div style="
+        background: linear-gradient(135deg, #FFFFFF 0%, #F0FDF4 100%);
+        border-radius: 24px;
+        padding: 50px 40px;
+        border: 2px solid #D1FAE5;
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+      " onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 20px 60px rgba(16, 185, 129, 0.2)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+
+        <!-- Icon -->
+        <div style="
+          width: 70px;
+          height: 70px;
+          background: linear-gradient(135deg, #10B981 0%, #34D399 100%);
+          border-radius: 20px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 24px;
+          box-shadow: 0 10px 30px rgba(16, 185, 129, 0.3);
+        ">
+          <span style="font-size: 32px;">🙏</span>
+        </div>
+
+        <h3 style="
+          font-size: 28px;
+          font-weight: 800;
+          color: #2D3E50;
+          margin: 0 0 16px 0;
+        ">Pray With Us</h3>
+
+        <p style="
+          font-size: 17px;
+          color: #5A6C7D;
+          line-height: 1.7;
+          margin: 0 0 24px 0;
+          flex: 1;
+        ">
+          We seek God's guidance in everything we do. Commit to praying for the churches we serve and the people we're reaching worldwide.
+        </p>
+
+        <!-- Impact Stat -->
+        <div style="
+          background: rgba(16, 185, 129, 0.1);
+          border-radius: 12px;
+          padding: 16px 20px;
+          margin-bottom: 0;
+        ">
+          <div style="
+            font-size: 32px;
+            font-weight: 900;
+            color: #10B981;
+            line-height: 1;
+            margin-bottom: 6px;
+          ">14,000+</div>
+          <div style="
+            font-size: 14px;
+            color: #2D3E50;
+            font-weight: 600;
+          ">churches need your prayers</div>
+        </div>
+
+        <div style="margin-top: auto; padding-top: 16px;">
+          <button onclick="openPrayerPopup()" style="
+            display: block;
+            width: 100%;
+            font-family: inherit;
+            font-size: 16px;
+            font-weight: 600;
+            color: #FFFFFF;
+            background: #10B981;
+            padding: 14px 28px;
+            border-radius: 50px;
+            border: none;
+            cursor: pointer;
+            text-align: center;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(16, 185, 129, 0.25);
+          " onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 20px rgba(16, 185, 129, 0.35)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(16, 185, 129, 0.25)';">
+            Commit to Pray
+          </button>
+          <a href="https://churchapps.org/pray" style="
+            display: block;
+            margin-top: 10px;
+            font-size: 14px;
+            color: #10B981;
+            text-decoration: none;
+            font-weight: 600;
+            text-align: center;
+            opacity: 0.8;
+            transition: opacity 0.2s;
+          " onmouseover="this.style.opacity='1';" onmouseout="this.style.opacity='0.8';">
+            Browse Prayer Needs →
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Ambassador Callout Banner -->
+    <div style="
+      margin-top: 50px;
+      background: linear-gradient(135deg, #F8FAFC 0%, #EFF6FF 100%);
+      border: 2px solid #DBEAFE;
+      border-radius: 16px;
+      padding: 32px 40px;
+      text-align: center;
+    ">
+      <div style="
+        font-size: 28px;
+        margin-bottom: 12px;
+      ">🌍</div>
+
+      <h3 style="
+        font-size: 22px;
+        font-weight: 800;
+        color: #2D3E50;
+        margin: 0 0 10px 0;
+      ">Need Local Support?</h3>
+
+      <p style="
+        font-size: 16px;
+        color: #5A6C7D;
+        line-height: 1.6;
+        margin: 0 0 24px 0;
+        max-width: 650px;
+        margin-left: auto;
+        margin-right: auto;
+      ">
+        Connect with a ChurchApps Ambassador in your region. Our global network of church leaders helps communities adopt free ministry tools.
+      </p>
+
+      <a href="https://churchapps.org/ambassadors" target="_blank" style="
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: #1976d2;
+        color: #FFFFFF;
+        font-size: 15px;
+        font-weight: 600;
+        padding: 12px 28px;
+        border-radius: 50px;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 15px rgba(25, 118, 210, 0.25);
+      " onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 20px rgba(25, 118, 210, 0.35)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(25, 118, 210, 0.25)';">
+        <span>Find an Ambassador</span>
+        <svg width="14" height="14" viewBox="0 0 20 20" fill="none">
+          <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<style>
+  /* Mobile Responsive for Impact Section */
+  @media (max-width: 968px) {
+    section {
+      padding: 80px 40px !important;
+    }
+
+    section h2 {
+      font-size: clamp(32px, 6vw, 42px) !important;
+    }
+
+    section > div > div:last-child {
+      grid-template-columns: 1fr !important;
+      gap: 30px !important;
+    }
+
+    section > div > div:last-child > div {
+      padding: 40px 32px !important;
+    }
+  }
+
+  @media (max-width: 768px) {
+    section {
+      padding: 80px 24px !important;
+    }
+
+    section h2 {
+      font-size: clamp(28px, 7vw, 38px) !important;
+      margin-bottom: 20px !important;
+    }
+
+    section > div > div:first-child {
+      margin-bottom: 60px !important;
+    }
+
+    section > div > div:last-child > div h3 {
+      font-size: 24px !important;
+    }
+
+    section > div > div:last-child > div p {
+      font-size: 16px !important;
+    }
+  }
+
+  @media (max-width: 480px) {
+    section {
+      padding: 60px 16px !important;
+    }
+
+    section > div > div:last-child > div {
+      padding: 36px 24px !important;
+    }
+  }
+</style>
