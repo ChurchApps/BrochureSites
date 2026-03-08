@@ -1,16 +1,8 @@
 import { useState } from 'react';
-import ComingSoonModal from './ComingSoonModal';
 import HubSpotModal from './HubSpotModal';
 
 export default function CTA() {
-  const [modalOpen, setModalOpen] = useState(false);
-  const [selectedPlatform, setSelectedPlatform] = useState('');
   const [emailModalOpen, setEmailModalOpen] = useState(false);
-
-  const openModal = (platform) => {
-    setSelectedPlatform(platform);
-    setModalOpen(true);
-  };
 
   return (
     <section id="download" className="cta">
@@ -27,12 +19,12 @@ export default function CTA() {
         </p>
 
         <div className="hero-badges">
-          <button className="badge-button" onClick={() => openModal('Apple TV')}>
+          <a href="https://apps.apple.com/us/app/freeplay-church/id6758970546" target="_blank" rel="noopener noreferrer">
             <img
               src="/images/badges/app-store-badge-apple.svg"
               alt="Download on Apple App Store"
             />
-          </button>
+          </a>
           <a href="https://play.google.com/store/apps/details?id=church.freeplay" target="_blank" rel="noopener noreferrer">
             <img
               src="/images/badges/app-store-badge-google.png"
@@ -61,11 +53,6 @@ export default function CTA() {
         onClose={() => setEmailModalOpen(false)}
       />
 
-      <ComingSoonModal
-        isOpen={modalOpen}
-        onClose={() => setModalOpen(false)}
-        platform={selectedPlatform}
-      />
     </section>
   );
 }

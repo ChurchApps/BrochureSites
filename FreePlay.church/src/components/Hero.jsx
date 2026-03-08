@@ -1,16 +1,8 @@
 import { useState } from 'react';
-import ComingSoonModal from './ComingSoonModal';
 import HubSpotModal from './HubSpotModal';
 
 export default function Hero() {
-  const [modalOpen, setModalOpen] = useState(false);
-  const [selectedPlatform, setSelectedPlatform] = useState('');
   const [learnModalOpen, setLearnModalOpen] = useState(false);
-
-  const openModal = (platform) => {
-    setSelectedPlatform(platform);
-    setModalOpen(true);
-  };
 
   return (
     <section className="hero">
@@ -31,7 +23,7 @@ export default function Hero() {
 
         <p className="hero-platforms">
           Available on{' '}
-          <button className="link-button" onClick={() => openModal('Apple TV')}>Apple TV</button>,{' '}
+          <a href="https://apps.apple.com/us/app/freeplay-church/id6758970546" target="_blank" rel="noopener noreferrer">Apple TV</a>,{' '}
           <a href="https://www.amazon.com/Live-Church-Solutions-FreePLay/dp/B0GMC4S3RS/" target="_blank" rel="noopener noreferrer">Fire TV</a>, and{' '}
           <a href="https://play.google.com/store/apps/details?id=church.freeplay" target="_blank" rel="noopener noreferrer">Android TV</a>
         </p>
@@ -49,12 +41,12 @@ export default function Hero() {
         </button>
 
         <div className="hero-badges">
-          <button className="badge-button" onClick={() => openModal('Apple TV')}>
+          <a href="https://apps.apple.com/us/app/freeplay-church/id6758970546" target="_blank" rel="noopener noreferrer">
             <img
               src="/images/badges/app-store-badge-apple.svg"
               alt="Download on Apple App Store"
             />
-          </button>
+          </a>
           <a href="https://play.google.com/store/apps/details?id=church.freeplay" target="_blank" rel="noopener noreferrer">
             <img
               src="/images/badges/app-store-badge-google.png"
@@ -73,12 +65,6 @@ export default function Hero() {
           *Not available on Roku
         </p>
       </div>
-
-      <ComingSoonModal
-        isOpen={modalOpen}
-        onClose={() => setModalOpen(false)}
-        platform={selectedPlatform}
-      />
 
       <HubSpotModal
         isOpen={learnModalOpen}
