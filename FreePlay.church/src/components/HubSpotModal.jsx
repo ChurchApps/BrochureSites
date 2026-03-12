@@ -8,6 +8,23 @@ export default function HubSpotModal({ isOpen, onClose, title = 'Get the Downloa
 
     document.body.style.overflow = 'hidden';
 
+    // Listen for HubSpot form submissions and fire Google Ads conversion
+    const handleFormSubmission = (event) => {
+      if (event.data.type === 'hsFormCallback' && event.data.eventName === 'onFormSubmitted') {
+        // Fire Google Ads conversion
+        if (window.gtag) {
+          window.gtag('event', 'conversion', {
+            'send_to': 'AW-3663262160/7530754023',
+            'value': 25.0,
+            'currency': 'USD'
+          });
+          console.log('✅ FreePlay signup conversion tracked!');
+        }
+      }
+    };
+
+    window.addEventListener('message', handleFormSubmission);
+
     const createForm = () => {
       if (window.hbspt && formContainerRef.current) {
         formContainerRef.current.innerHTML = '';
@@ -72,6 +89,7 @@ export default function HubSpotModal({ isOpen, onClose, title = 'Get the Downloa
 
     return () => {
       document.body.style.overflow = 'unset';
+      window.removeEventListener('message', handleFormSubmission);
     };
   }, [isOpen]);
 
