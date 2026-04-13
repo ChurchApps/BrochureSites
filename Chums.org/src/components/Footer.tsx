@@ -50,7 +50,7 @@ const footerLinks = {
       href: "https://churchapps.org/privacy"
     }, {
       name: "Terms of Service",
-      href: "https://churchapps.org/privacy"
+      href: "https://churchapps.org/terms"
     }, {
       name: "Open Source License",
       href: "https://github.com/ChurchApps/ChumsApp/blob/main/LICENSE"
