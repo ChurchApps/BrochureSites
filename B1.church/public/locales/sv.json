@@ -1,0 +1,599 @@
+{
+  "brochure": {
+    "header": {
+      "features": "Funktioner",
+      "churchManagement": "Församlingsadministration",
+      "about": "Om oss",
+      "contact": "Kontakt",
+      "signIn": "Logga in",
+      "getStartedFree": "Kom igång gratis"
+    },
+    "hero": {
+      "badge": "100% Gratis \u2022 Tjänstedriven plattform",
+      "headlineTop": "Församlingsgemenskap",
+      "headlineBottom": "Utan hinder",
+      "subheadline": "Komplett programvara för församlingsadministration med mobilapp, webbplatsbyggare, digitalt givande och gemenskapsfunktioner. En 100% gratis församlingsplattform skapad av en tjänst, för tjänster.",
+      "ctaPrimary": "Kom igång gratis",
+      "ctaSecondary": "Se hur det fungerar",
+      "statFreeValue": "100%",
+      "statFreeLabel": "Gratis för alltid",
+      "statModernValue": "Modern",
+      "statModernLabel": "Plattform",
+      "statMinistryValue": "Tjänst",
+      "statMinistryLabel": "Inte vinst"
+    },
+    "features": {
+      "community": {
+        "title": "Koppling till församlingsgemenskap",
+        "description": "Bygg djupare relationer genom grupper, diskussioner, meddelanden och evenemang. Koppla samman medlemmar utöver söndagsgudstjänsterna med meningsfulla interaktioner.",
+        "items": ["Smågrupper", "Direktmeddelanden", "Diskussionsforum", "Medlemsregister"],
+        "cta": "Gå med i gemenskapen"
+      },
+      "content": {
+        "title": "Digitalt innehållsnav för församlingen",
+        "description": "Ta del av predikningar, klassrumslektioner, dagens bibelord och fullständiga bibelöversättningar. Håll din gemenskap engagerad med färskt innehåll hela veckan.",
+        "items": ["Predikobibliotek", "Bibelintegration", "Dagens bibelord", "Klassrumslektioner"],
+        "cta": "Bläddra i innehåll"
+      },
+      "giving": {
+        "title": "Onlinegivande till församlingen",
+        "description": "Säkra donationer via kort/bank med återkommande alternativ och fondspecifikt givande. Inga avgifter från B1 - direkt Stripe-integration.",
+        "items": ["Säkra betalningar", "Återkommande donationer", "Fondhantering", "Givandehistorik"],
+        "cta": "Börja ge"
+      },
+      "checkin": {
+        "title": "Plattform för incheckning till församlingen",
+        "description": "Kontaktlös incheckning till gudstjänster med familjehantering och automatisk grupptilldelning. Effektivisera närvarohantering.",
+        "items": ["Kontaktlös incheckning", "Familjehantering", "Automatisk grupptilldelning", "Närvarorapporter"],
+        "cta": "Prova incheckning"
+      },
+      "mobileFirst": "Mobile First",
+      "managementSystem": {
+        "title": "Komplett",
+        "titleHighlight": "System för församlingsadministration",
+        "description": "Professionell programvara för församlingsdatabas med medlemshantering, närvarohantering, givandeadministration och kommunikationsverktyg för tjänster. Gratis församlingsadministrationssystem särskilt utformat för växande församlingar och flercampusförsamlingar."
+      },
+      "grid": {
+        "peopleManagement": {
+          "title": "Personhantering",
+          "description": "Fullständiga medlems- och gästregister med avancerad sökning och relationsspårning."
+        },
+        "attendanceAnalytics": {
+          "title": "Närvaroanalys",
+          "description": "Följ närvarotrender med snygga diagram och omfattande rapportering."
+        },
+        "groupsMinistries": {
+          "title": "Grupper och tjänster",
+          "description": "Organisera obegränsat med grupper och klasser med medlemstilldelning och uppföljning."
+        },
+        "givingManagement": {
+          "title": "Givandehantering",
+          "description": "Hantera donationer med batchhantering, fondspårning och skatteutlåtanden."
+        },
+        "servicePlanning": {
+          "title": "Gudstjänstplanering",
+          "description": "Schemalägg gudstjänster, tilldela team och hantera volontärsamordning."
+        },
+        "songLibrary": {
+          "title": "Sångbibliotek",
+          "description": "Organisera sånger med arrangemang, tonarter, ackordscheman och låtlistor."
+        },
+        "communications": {
+          "title": "Kommunikation",
+          "description": "Skicka riktade e-postmeddelanden och tillkännagivanden med automatiserade arbetsflöden."
+        },
+        "multiCampus": {
+          "title": "Flera campus",
+          "description": "Hantera flera platser från en enhetlig instrumentpanel med campusspecifik data."
+        }
+      },
+      "showcase": {
+        "groupsMinistries": {
+          "title": "Grupper och tjänster",
+          "description": "Hantera obegränsat med grupper och klasser"
+        },
+        "peopleSearch": {
+          "title": "Personsökning",
+          "description": "Avancerad medlemsdatabas"
+        },
+        "servicePlanning": {
+          "title": "Gudstjänstplanering",
+          "description": "Schemalägg team och tilldelningar"
+        },
+        "songLibrary": {
+          "title": "Sångbibliotek",
+          "description": "Arrangemang och ackordscheman"
+        }
+      },
+      "dashboard": {
+        "title": "Snygg och intuitiv instrumentpanel",
+        "description": "Få tillgång till all församlingsdata med vårt rena, moderna gränssnitt utformat för effektivitet och användarvänlighet."
+      },
+      "additional": {
+        "security": {
+          "title": "Säkerhet och integritet",
+          "description": "Industristandardiserad kryptering och säker datalagring"
+        },
+        "mobile": {
+          "title": "Mobil tillgänglighet",
+          "description": "Responsiv design fungerar perfekt på alla enheter"
+        },
+        "workflows": {
+          "title": "Automatiserade arbetsflöden",
+          "description": "Uppföljningssekvenser och automatisering av medlemsomsorg"
+        },
+        "reporting": {
+          "title": "Rapportering i realtid",
+          "description": "Generera omedelbara rapporter och exportera data när som helst"
+        },
+        "forms": {
+          "title": "Anpassade formulär",
+          "description": "Bygg anmälningsformulär och enkäter för alla ändamål"
+        },
+        "roles": {
+          "title": "Rollbaserad åtkomst",
+          "description": "Säkra behörigheter för personal och volontärer"
+        }
+      },
+      "ctaSection": {
+        "title": "Redo att bygga en starkare",
+        "titleHighlight": "församlingsgemenskap?",
+        "description": "Förvandla din församling med vår omfattande gratisplattform utformad för att fördjupa relationer och stärka församlingsgemenskaper genom modern teknik.",
+        "cta": "Kom igång gratis"
+      }
+    },
+    "testimonials": {
+      "title": "Älskad av församlingar",
+      "titleHighlight": "överallt",
+      "subtitle": "Anslut dig till växande församlingar som har förvandlat sin tjänst med vår helt gratis plattform. Här är vad pastorer och församlingsadministratörer säger om B1.",
+      "stats": {
+        "churchesValue": "100+",
+        "churchesLabel": "Församlingar litar på oss",
+        "freeValue": "Gratis",
+        "freeLabel": "För alltid",
+        "uptimeValue": "99.9%",
+        "uptimeLabel": "Drifttidsgaranti",
+        "supportValue": "24/7",
+        "supportLabel": "Support tillgänglig"
+      },
+      "items": [
+        {
+          "content": "Jag rekommenderar varmt ChurchApps. Det är en tjänst i ordets sannaste och bästa bemärkelse. ChurchApps tillhandahåller tekniska tjänster för att förstärka och höja kyrkans andliga inverkan i deras samhällen. De kommer att hjälpa kyrkans infrastruktur under många år framöver."
+        },
+        {
+          "content": "ChurchApps hjälpte oss att bli mer synliga i vårt samhälle\u2014vilket ökade medvetenheten, donationerna och volontärerna så att vi bättre kan tjäna familjer i nöd."
+        },
+        {
+          "content": "ChurchApps är mer än programvara\u2014det är ett praktiskt verktyg som stöder uppdraget, visionen och det dagliga tjänstearbetet. Jag är tacksam för möjligheten att lära mig det, lära ut det och bevittna hur det gör att församlingar kan verka med större klarhet, effektivitet och ändamål."
+        },
+        {
+          "content": "Att ha donationssidan har ökat givandet till vår organisation. Inte bara uppskattar människor lättheten att skanna en kod som tar dem direkt till donationssidan, utan månatligt givande kan också ställas in för dem som vill att onlinegivande ska vara enkelt."
+        },
+        {
+          "content": "Jag gillar att föra närvaroregister, och vi använder B1 Admin varje söndag för det ändamålet. Vi uppskattar verkligen B1 Admin, som har visat sig vara ett effektivt sätt för vår församling att föra register över människor och närvaro."
+        }
+      ],
+      "ctaTitle": "Redo att förvandla din församlingsadministration?",
+      "ctaDescription": "Anslut dig till den växande gemenskapen av församlingar som redan använder B1 - helt gratis för alltid. Inget kreditkort krävs, inga provperioder, inga dolda avgifter.",
+      "ctaButton": "Kom igång gratis"
+    },
+    "websiteBuilder": {
+      "badge": "Webbportalfunktion",
+      "title": "Gratis webbplatsbyggare för församlingar",
+      "titleHighlight": "På minuter, inte månader",
+      "description": "Skapa en vacker, professionell församlingswebbplats med vår inbyggda gratis webbplatsbyggare. Ingen kodning krävs - bara dra, släpp och publicera din församlingswebbplats.",
+      "dragDrop": {
+        "title": "Dra-och-släpp-byggare",
+        "description": "Intuitiv visuell redigerare med färdigdesignade komponenter. Skapa fantastiska sidor utan tekniska kunskaper."
+      },
+      "templates": {
+        "title": "Församlingsfokuserade mallar",
+        "description": "Vackra mallar särskilt utformade för församlingar. Inkluderar predikosidor, evenemangskalendrar och tjänstepresentationer."
+      },
+      "integration": {
+        "title": "App-integration",
+        "description": "Koppla sömlöst din webbplats med mobilappen. Evenemang, predikningar och gemenskapsuppdateringar synkroniseras automatiskt."
+      },
+      "cta": "Börja bygga din församlingswebbplats",
+      "ctaSubtext": "Komplett gratis webbplatsbyggare för församlingar ingår i varje konto"
+    },
+    "perfectFor": {
+      "title": "Gratis för varje",
+      "titleHighlight": "församlingsgemenskap",
+      "subtitle": "Helt gratis plattform för alla församlingsstorlekar. Vårt tjänsteuppdrag innebär inga dolda kostnader, inga funktionsbegränsningar, inga överraskningar.",
+      "audiences": [
+        {
+          "title": "Lokala församlingar",
+          "description": "Församlingar på en plats som vill modernisera sin digitala närvaro",
+          "stats": "Alla storlekar"
+        },
+        {
+          "title": "Församlingar med flera platser",
+          "description": "Flera platser som behöver enhetlig hantering med unika identiteter",
+          "stats": "Alla platser"
+        },
+        {
+          "title": "Samfundsnätverk",
+          "description": "Organisationer som betjänar flera församlingar med delade resurser",
+          "stats": "Varje nätverk"
+        },
+        {
+          "title": "Gemenskapsfokuserad",
+          "description": "Församlingar som prioriterar djupt engagemang och relationsbyggande",
+          "stats": "Växer dagligen"
+        }
+      ],
+      "integrations": {
+        "adminIntegration": {
+          "title": "B1 Admin-integration",
+          "description": "Sömlöst integrerad med B1 Admin församlingsadministrationsprogramvara för fullständig arbetsflödesautomatisering."
+        },
+        "webPortal": {
+          "title": "Webbportal ingår",
+          "description": "Omfattande webbportal med webbplatsbyggare tillsammans med den kraftfulla mobilappsupplevelsen."
+        },
+        "instantSetup": {
+          "title": "Omedelbar installation",
+          "description": "Kom igång på minuter med vår strömlinjeformade introduktionsprocess och dedikerade supportteam."
+        }
+      },
+      "about": {
+        "title": "Om vår gratis programvara",
+        "description": "Vi är en 501(c)(3) ideell tjänst som är dedikerad till att tillhandahålla helt gratis programvara för församlingsadministration. Vårt uppdrag är att göra det möjligt för församlingar att fokusera på tjänsten, inte programvarukostnader.",
+        "stats": {
+          "freeValue": "100%",
+          "freeLabel": "Gratis för alltid",
+          "setupValue": "$0",
+          "setupLabel": "Installationskostnader",
+          "churchesValue": "100+",
+          "churchesLabel": "Betjänade församlingar",
+          "openValue": "Öppen",
+          "openLabel": "Källkod"
+        },
+        "features": [
+          "Inget kreditkort krävs",
+          "Obegränsat antal användare och medlemmar",
+          "Alla funktioner ingår",
+          "Regelbundna uppdateringar och förbättringar",
+          "24/7 community-support",
+          "Mobil- och webbåtkomst",
+          "Hjälp med dataimport",
+          "Öppen källkod-transparens"
+        ],
+        "learnMore": "Läs mer om vår tjänst och vårt uppdrag",
+        "aboutChurchApps": "Om ChurchApps",
+        "viewOnGitHub": "Visa på GitHub"
+      },
+      "cta": {
+        "title": "Redo att stärka din gemenskap?",
+        "description": "Upptäck hur vår omfattande tjänsteplattform kan hjälpa dig att bygga djupare relationer och starkare gemenskaper.",
+        "button": "Börja gratis idag",
+        "tagline": "100% Gratis \u2022 Inga dolda kostnader \u2022 Tjänstedrivet uppdrag"
+      }
+    },
+    "footer": {
+      "companyDescription": "Den kompletta kommunikationsplattformen för församlingar som förenar tillbedjan, gemenskap, givande och administration.",
+      "product": "Produkt",
+      "mobileFeatures": "Mobilfunktioner",
+      "websiteBuilder": "Webbplatsbyggare",
+      "faq": "Vanliga frågor",
+      "aboutChurchApps": "Om ChurchApps",
+      "appsAndResources": "Appar och resurser",
+      "androidApp": "Android-app",
+      "iosApp": "iOS-app",
+      "helpCenter": "Hjälpcenter",
+      "contact": "Kontakt",
+      "availableWorldwide": "Tillgänglig över hela världen"
+    },
+    "faq": {
+      "pageTitle": "Vanliga",
+      "pageTitleHighlight": "frågor",
+      "pageSubtitle": "Allt du behöver veta om B1.church, den 100% gratis församlingsadministrationsplattformen.",
+      "documentTitle": "FAQ - B1.church | Frågor om gratis programvara för församlingsadministration",
+      "items": [
+        {
+          "question": "Är B1.church verkligen 100% gratis?",
+          "answer": "Ja, B1.church är helt gratis utan dolda avgifter, inga premiumnivåer och inga transaktionsavgifter på donationer. Vi är en 501(c)(3) ideell tjänst som tror att varje församling förtjänar tillgång till modern teknik oavsett budget. Vår plattform finansieras av donationer och Google Ad Grants."
+        },
+        {
+          "question": "Vilka funktioner inkluderar B1.church?",
+          "answer": "B1.church inkluderar en komplett församlingsadministrationsplattform: mobilappar för iOS och Android, en dra-och-släpp-webbplatsbyggare, onlinegivande utan transaktionsavgifter, smart incheckningssystem, medlemsdatabas, närvarohantering, gruppshantering, gudstjänstplanering, sångbibliotek, predikohantering och bibelintegration."
+        },
+        {
+          "question": "Hur jämför sig B1.church med Planning Center?",
+          "answer": "B1.church är 100% gratis medan Planning Center tar betalt per modul ($0-299+/månad). B1 inkluderar en mobilapp och webbplatsbyggare utan kostnad, medan Planning Center tar extra för Church Center och inte inkluderar en webbplatsbyggare. Båda erbjuder funktioner för församlingsadministration, men B1 tillhandahåller allt i ett gratis paket."
+        },
+        {
+          "question": "Hur jämför sig B1.church med Pushpay?",
+          "answer": "B1.church är helt gratis medan Pushpay kostar $300-1000+/månad. B1 har inga transaktionsavgifter på givande, medan Pushpay tar en procentandel av donationerna. B1 är öppen källkod och inkluderar full församlingsadministration, medan Pushpay är proprietär och främst fokuserad på givande."
+        },
+        {
+          "question": "Hur jämför sig B1.church med Tithe.ly?",
+          "answer": "B1.church är helt gratis utan transaktionsavgifter. Tithe.ly erbjuder en gratisnivå men tar betalt för premiumfunktioner och tar en procentandel av varje donation. B1 inkluderar fullständig programvara för församlingsadministration, medan Tithe.lys ChMS är en separat betald produkt."
+        },
+        {
+          "question": "Hur jämför sig B1.church med Breeze ChMS?",
+          "answer": "B1.church är gratis medan Breeze börjar på $72/månad. B1 inkluderar en fullständig mobilapp och webbplatsbyggare, medan Breeze har begränsade mobilfunktioner och ingen webbplatsbyggare. Båda erbjuder församlingsadministration, men B1 tillhandahåller fler funktioner utan kostnad."
+        },
+        {
+          "question": "Kan jag få en anpassad mobilapp för min församling?",
+          "answer": "Ja, B1.church tillhandahåller anpassade varumärkesmobilappar för iOS och Android. Din församling får sin egen app med din varumärkesprofil som medlemmar kan ladda ner från App Store och Google Play. Detta ingår gratis med B1."
+        },
+        {
+          "question": "Stöder B1.church onlinegivande?",
+          "answer": "Ja, B1.church inkluderar säkert onlinegivande med stöd för kreditkort och banköverföring. Du kan ställa in återkommande donationer, hantera flera fonder och tillhandahålla givandehistorik för skatteutlåtanden. Vi använder direkt Stripe-integration utan några B1-plattformsavgifter - din församling förhandlar priser direkt med Stripe (vanligtvis runt 2.9% + 30\u00a2)."
+        },
+        {
+          "question": "Kan jag bygga en webbplats med B1.church?",
+          "answer": "Ja, B1.church inkluderar en dra-och-släpp-webbplatsbyggare med mobilanpassade mallar. Du kan använda en anpassad domän, och webbplatsen integreras med alla dina B1-funktioner som evenemang, grupper och givande."
+        },
+        {
+          "question": "Har B1.church incheckning för barntjänsten?",
+          "answer": "Ja, B1.church inkluderar ett smart incheckningssystem med kontaktlösa självbetjäningskiosker, familjeincheckning, automatiska grupptilldelningar, säkerhetskoder för barnupphämtning och närvarohantering med rapporter."
+        },
+        {
+          "question": "Är B1.church öppen källkod?",
+          "answer": "Ja, B1.church är helt öppen källkod. Du kan visa vår kod på GitHub på github.com/ChurchApps. Detta innebär att du kan självvärda om så önskas, bidra med förbättringar och lita på att din data hanteras transparent."
+        },
+        {
+          "question": "Vem bygger B1.church?",
+          "answer": "B1.church är byggd av Live Church Solutions, en 501(c)(3) ideell organisation (EIN 45-5349618). Vi är en tjänst av utvecklare som tror att församlingar inte ska behöva välja mellan teknik och tjänstefinansiering."
+        },
+        {
+          "question": "Vilka andra gratisprodukter erbjuder Live Church Solutions?",
+          "answer": "Utöver B1.church erbjuder vi FreeShow (gratis presentationsprogramvara på freeshow.app, ett alternativ till ProPresenter) och Lessons.church (gratis församlingsläroplan med över 1 100 lektioner för alla åldrar). Alla våra produkter är gratis och öppen källkod."
+        },
+        {
+          "question": "Hur kommer jag igång med B1.church?",
+          "answer": "Det är enkelt att komma igång: besök b1.church, klicka på 'Kom igång gratis', skapa ditt församlingskonto, anpassa din app och webbplats och bjud in din församling. Inget kreditkort krävs och ingen provperiod - det är gratis för alltid."
+        },
+        {
+          "question": "Stöder B1.church flera campus?",
+          "answer": "Ja, B1.church stöder flercampusförsamlingar. Du kan hantera flera platser från en enhetlig instrumentpanel med campusspecifik data, närvaro och grupper samtidigt som du upprätthåller en enda medlemsdatabas."
+        }
+      ],
+      "stillHaveQuestions": "Har du fortfarande frågor?",
+      "supportText": "Vårt supportteam är här för att hjälpa dig komma igång med B1.church.",
+      "contactSupport": "Kontakta support",
+      "viewDocumentation": "Visa dokumentation"
+    },
+    "compare": {
+      "notFound": {
+        "title": "Jämförelse hittades inte",
+        "subtitle": "Kolla in våra tillgängliga jämförelser:"
+      },
+      "b1vsPrefix": "B1 jämfört med",
+      "noHiddenFees": "Inga dolda avgifter, någonsin",
+      "plusTransactionFees": "Plus transaktionsavgifter",
+      "featureColumn": "Funktion",
+      "ourTake": "Vår åsikt",
+      "ctaTitle": "Redo att spara pengar åt din församling?",
+      "ctaDescription": "Byt till B1.church och omfördela din programvarubudget till tjänsten.",
+      "ctaButton": "Kom igång gratis",
+      "otherComparisons": "Andra jämförelser",
+      "competitors": {
+        "planning-center": {
+          "name": "Planning Center",
+          "tagline": "Gratis alternativ till Planning Center",
+          "description": "Planning Center är en populär plattform för församlingsadministration med modulär prissättning. B1.church erbjuder liknande funktioner helt gratis.",
+          "features": [
+            { "name": "Medlemsdatabas", "b1": true, "competitor": true },
+            { "name": "Incheckningssystem", "b1": true, "competitor": "$99/mo" },
+            { "name": "Onlinegivande", "b1": "Inga B1-avgifter", "competitor": "Plattforms- + Stripe-avgifter" },
+            { "name": "Gruppshantering", "b1": true, "competitor": "$50/mo" },
+            { "name": "Gudstjänstplanering", "b1": true, "competitor": "$14-99/mo" },
+            { "name": "Mobilapp", "b1": "Gratis varumärkesapp", "competitor": "$0-199/mo" },
+            { "name": "Webbplatsbyggare", "b1": true, "competitor": false },
+            { "name": "Predikohantering", "b1": true, "competitor": false },
+            { "name": "Flera campus", "b1": true, "competitor": "Extra kostnad" },
+            { "name": "Öppen källkod", "b1": true, "competitor": false }
+          ],
+          "pricingB1": "100% Gratis",
+          "pricingCompetitor": "$0 - $500+/månad beroende på moduler",
+          "verdict": "B1.church tillhandahåller alla kärnfunktioner i Planning Center utan komplexiteten i modulär prissättning. Om budget är ett bekymmer är B1 det klara valet."
+        },
+        "pushpay": {
+          "name": "Pushpay",
+          "tagline": "Gratis alternativ till Pushpay",
+          "description": "Pushpay är känt för mobilt givande men kommer med betydande månatliga kostnader och transaktionsavgifter. B1.church erbjuder givande med noll plattformsavgifter.",
+          "features": [
+            { "name": "Onlinegivande", "b1": "Inga B1-avgifter", "competitor": "Plattforms- + Stripe-avgifter" },
+            { "name": "Återkommande donationer", "b1": true, "competitor": true },
+            { "name": "Mobilapp", "b1": "Gratis varumärkesapp", "competitor": "Ingår" },
+            { "name": "Medlemsdatabas", "b1": true, "competitor": "ChMS extra" },
+            { "name": "Incheckningssystem", "b1": true, "competitor": "Extra kostnad" },
+            { "name": "Webbplatsbyggare", "b1": true, "competitor": false },
+            { "name": "Gruppshantering", "b1": true, "competitor": "Extra kostnad" },
+            { "name": "Givandeutlåtanden", "b1": true, "competitor": true },
+            { "name": "Fondhantering", "b1": true, "competitor": true },
+            { "name": "Öppen källkod", "b1": true, "competitor": false }
+          ],
+          "pricingB1": "100% Gratis",
+          "pricingCompetitor": "$300 - $1,000+/månad",
+          "verdict": "Pushpay är funktionsrik men dyr. B1.church erbjuder jämförbara givandefunktioner plus full församlingsadministration utan kostnad. Besparingarna kan omfördelas till tjänsten."
+        },
+        "tithely": {
+          "name": "Tithe.ly",
+          "tagline": "Gratis alternativ till Tithe.ly",
+          "description": "Tithe.ly erbjuder verktyg för församlingsgivande och hantering med freemium-prissättning. B1.church tillhandahåller allt gratis utan transaktionsavgifter.",
+          "features": [
+            { "name": "Onlinegivande", "b1": "Inga B1-avgifter", "competitor": "Plattforms- + Stripe-avgifter" },
+            { "name": "Återkommande donationer", "b1": true, "competitor": true },
+            { "name": "Mobilapp", "b1": "Gratis varumärkesapp", "competitor": "$99/mo" },
+            { "name": "Medlemsdatabas", "b1": true, "competitor": "$99/mo" },
+            { "name": "Incheckningssystem", "b1": true, "competitor": "$49/mo" },
+            { "name": "Webbplatsbyggare", "b1": true, "competitor": "$49/mo" },
+            { "name": "Gruppshantering", "b1": true, "competitor": "$99/mo" },
+            { "name": "Predikohantering", "b1": true, "competitor": "$49/mo" },
+            { "name": "Flera campus", "b1": true, "competitor": "Extra kostnad" },
+            { "name": "Öppen källkod", "b1": true, "competitor": false }
+          ],
+          "pricingB1": "100% Gratis",
+          "pricingCompetitor": "Gratisnivå + $49-199/mo för funktioner",
+          "verdict": "Tithe.lys gratisnivå är begränsad. För att få full funktionalitet stiger kostnaderna snabbt. B1.church inkluderar allt från dag ett utan uppgraderingstryck."
+        },
+        "breeze": {
+          "name": "Breeze ChMS",
+          "tagline": "Gratis alternativ till Breeze ChMS",
+          "description": "Breeze är ett enkelt församlingsadministrationssystem med enkel prissättning. B1.church erbjuder fler funktioner utan kostnad.",
+          "features": [
+            { "name": "Medlemsdatabas", "b1": true, "competitor": true },
+            { "name": "Givandehantering", "b1": "Inga B1-avgifter", "competitor": "2.9% + 30\u00a2" },
+            { "name": "Incheckningssystem", "b1": true, "competitor": "Grundläggande" },
+            { "name": "Mobilapp", "b1": "Gratis varumärkesapp", "competitor": "Begränsad" },
+            { "name": "Webbplatsbyggare", "b1": true, "competitor": false },
+            { "name": "Gruppshantering", "b1": true, "competitor": true },
+            { "name": "Evenemangshantering", "b1": true, "competitor": true },
+            { "name": "Volontärschemaläggning", "b1": true, "competitor": true },
+            { "name": "Flera campus", "b1": true, "competitor": false },
+            { "name": "Öppen källkod", "b1": true, "competitor": false }
+          ],
+          "pricingB1": "100% Gratis",
+          "pricingCompetitor": "$72 - $135/månad",
+          "verdict": "Breeze är enkel och prisvärd, men B1.church är enklare för budgeten (gratis!) samtidigt som den erbjuder fler funktioner som en webbplatsbyggare och fullständig mobilapp."
+        }
+      }
+    },
+    "churchManagement": {
+      "hero": {
+        "title": "Gratis",
+        "titleHighlight": "Programvara för församlingsadministration",
+        "titleLine2": "Komplett tjänsteplattform",
+        "description": "Professionell <strong>programvara för församlingsadministration</strong> med närvarohantering, medlemsdatabas, givandehantering och kommunikationsverktyg. Helt <strong>gratis församlingsprogramvara</strong> som tillhandahålls av Live Church Solutions, en 501(c)(3) ideell tjänst. Anslut dig till 100+ församlingar som sparar tusentals på tjänsteprogramvarukostnader.",
+        "ctaPrimary": "Kom igång gratis",
+        "ctaSecondary": "Prova demo",
+        "trustLine": "Anlitad av växande församlingar över hela världen",
+        "trustFree": "Helt gratis för alltid",
+        "trustNonProfit": "501(c)(3) ideell tjänst",
+        "trustOpenSource": "Öppen källkod"
+      },
+      "featuresHeader": {
+        "title": "Komplett",
+        "titleHighlight": "System för församlingsadministration",
+        "titleSuffix": "Funktioner",
+        "description": "Professionell programvara för församlingsdatabas med medlemshantering, närvarohantering, givandeadministration och kommunikationsverktyg för tjänster. Gratis församlingsadministrationssystem särskilt utformat för växande församlingar och flercampusförsamlingar."
+      },
+      "checkinStations": {
+        "title": "Självbetjäningsstationer för incheckning",
+        "description": "Säkerställ barnsäkerhet samtidigt som volontärer frigörs för att engagera sig med familjer. Vårt självbetjäningsincheckningssystem genererar matchande koder för barn och vuxna, vilket skapar en säker upphämtningsprocess.",
+        "features": [
+          "Sök via telefonnummer och välj tjänster automatiskt",
+          "Skriver ut etiketter och kvitton trådlöst till delade skrivare",
+          "Körs på prisvärda Android-surfplattor under $80",
+          "Synkroniseras automatiskt med närvarohanteringssystemet"
+        ]
+      },
+      "mainFeatures": [
+        {
+          "title": "Komplett personhantering",
+          "description": "Upprätthåll detaljerade medlems- och gästregister med kontaktuppgifter, relationer, födelsedagar och årsdagar. Avancerade sök- och filtreringsmöjligheter."
+        },
+        {
+          "title": "Närvaroanalys",
+          "description": "Följ närvarotrender över alla gudstjänster och grupper med snygga diagram och rapporter. Övervaka engagemangsmönster och tillväxt över tid."
+        },
+        {
+          "title": "Grupp- och tjänstehantering",
+          "description": "Organisera obegränsat med grupper, klasser och tjänster. Hantera medlemstilldelningar, följ deltagande och skapa anpassade gruppkategorier."
+        },
+        {
+          "title": "Avancerad givandehantering",
+          "description": "Hantera donationer med batchhantering, fondspårning och omfattande finansiell rapportering. Generera skatteutlåtanden och övervaka givandetrender."
+        },
+        {
+          "title": "Tillbedjans- och gudstjänstplanering",
+          "description": "Schemalägg gudstjänster, tilldela teammedlemmar och hantera volontärsamordning. Följ positioner som behövs och automatisera meddelanden."
+        },
+        {
+          "title": "Sångbibliotek och arrangemang",
+          "description": "Organisera ditt kompletta sångbibliotek med flera arrangemang, tonarter och ackordscheman. Länka till externa resurser och hantera tillbedjans-låtlistor."
+        },
+        {
+          "title": "Kommunikationsnav",
+          "description": "Skicka riktade e-postmeddelanden och tillkännagivanden. Skapa automatiserade arbetsflöden och håll din församling ansluten."
+        },
+        {
+          "title": "Stöd för flera campus",
+          "description": "Hantera flera platser från en enhetlig instrumentpanel. Följ campusspecifik data samtidigt som du upprätthåller organisationsövergripande rapportering."
+        }
+      ],
+      "testimonials": {
+        "title": "Älskad av församlingar",
+        "titleHighlight": "överallt",
+        "subtitle": "Anslut dig till växande församlingar som har förvandlat sin tjänst med vår helt gratis plattform. Här är vad pastorer och församlingsadministratörer har att säga.",
+        "items": [
+          {
+            "content": "Vi använder denna plattform varje söndag för att spåra närvaro och föra register över alla som deltar, inklusive våra söndagsskolebarn. Som missionärer med en begränsad budget uppskattar vi att denna programvara är gratis och effektiv."
+          },
+          {
+            "content": "Detta är en räddning för församlingen. Som en liten församling med begränsad budget är denna programvara GUDASÄND och en välsignelse. Den är användarvänlig och lätt att installera. Donationsrapporter är lätta att skapa. Att jag kan exportera data till Excel gör analys av register mycket enkel. Det har minskat minst 25% av min kontorstid."
+          },
+          {
+            "content": "Detta hjälpte oss att övergå sömlöst till digitalt givande under pandemin. Supportteamet var fantastiskt och plattformen är otroligt pålitlig. Att det är gratis gjorde att vi kunde omfördela vår programvarubudget till faktisk tjänst."
+          }
+        ]
+      },
+      "aboutSection": {
+        "title": "Om vår",
+        "titleHighlight": "gratis församlingsprogramvara",
+        "description": "Omfattande <strong>programvara för församlingsadministration</strong> tillhandahålls helt gratis till kristna församlingar och tjänster av <strong>Live Church Solutions</strong>, en 501(c)(3) ideell organisation grundad 2012. Vårt uppdrag är att hjälpa församlingar att implementera professionell <strong>tjänsteprogramvara</strong> utan de typiska höga kostnaderna för kyrkoadministrationssystem."
+      },
+      "stats": [
+        {
+          "number": "$800M",
+          "label": "Det spenderar församlingar årligen på administrationsprogramvara",
+          "description": "Vi tror att dessa pengar kan användas bättre"
+        },
+        {
+          "number": "100+",
+          "label": "Församlingar använder redan vår plattform",
+          "description": "Växande gemenskap av nöjda användare"
+        },
+        {
+          "number": "2012",
+          "label": "År Live Church Solutions grundades",
+          "description": "Över ett decennium av att hjälpa församlingar med teknik"
+        },
+        {
+          "number": "100%",
+          "label": "Garanti för gratis för alltid",
+          "description": "Inga dolda avgifter, inga provperioder, inga begränsningar"
+        }
+      ],
+      "mission": {
+        "title": "Vårt uppdrag: Hjälpa församlingar att fokusera på tjänsten",
+        "description": "Varje år spenderar kyrkan över <strong>$800 miljoner</strong> på programvara för församlingsadministration. Vi tror att dessa pengar kan användas bättre, vilket är anledningen till att vi utvecklade denna plattform; en helt gratis, öppen källkod-lösning för församlingsadministration.",
+        "learnMore": "Läs mer om Live Church Solutions",
+        "viewOnGitHub": "Visa på GitHub"
+      },
+      "allFeatures": {
+        "title": "Allt du behöver, helt gratis",
+        "subtitle": "Inga provperioder, inga medlemsbegränsningar, inga dolda avgifter",
+        "items": [
+          "Komplett medlemsdatabas med detaljerade profiler",
+          "Närvarohantering med självincheckningsapp",
+          "Grupp- och smågrupphantering",
+          "Givandehantering med detaljerad rapportering",
+          "Anpassade formulär och datainsamling",
+          "E-postkommunikationsverktyg",
+          "Evenemangshantering och schemaläggning",
+          "Dataimport från befintliga system",
+          "Stöd för flera platser och flera campus",
+          "Rollbaserad åtkomst och behörigheter",
+          "Öppen källkod med GitHub-åtkomst"
+        ]
+      },
+      "cta": {
+        "title": "Redo att sluta betala för programvara för församlingsadministration?",
+        "description": "Anslut dig till församlingar över hela världen som har bytt till en helt gratis, öppen källkod-lösning byggd av en tjänst, för tjänster.",
+        "primaryButton": "Kom igång gratis",
+        "secondaryButton": "Prova demo"
+      }
+    },
+    "notFound": {
+      "title": "404",
+      "message": "Hoppsan! Sidan hittades inte",
+      "returnHome": "Återgå till startsidan"
+    }
+  }
+}

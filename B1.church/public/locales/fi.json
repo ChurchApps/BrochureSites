@@ -1,0 +1,599 @@
+{
+  "brochure": {
+    "header": {
+      "features": "Ominaisuudet",
+      "churchManagement": "Seurakuntahallinta",
+      "about": "Tietoa meistä",
+      "contact": "Yhteystiedot",
+      "signIn": "Kirjaudu sisään",
+      "getStartedFree": "Aloita ilmaiseksi"
+    },
+    "hero": {
+      "badge": "100 % ilmainen \u2022 Palvelutyöhön pohjautuva alusta",
+      "headlineTop": "Seurakuntayhteisö",
+      "headlineBottom": "Ilman esteitä",
+      "subheadline": "Kattava seurakunnan hallintaohjelmisto, jossa on mobiilisovellus, verkkosivujen rakennustyökalu, digitaalinen lahjoittaminen ja yhteisöominaisuudet. 100 % ilmainen seurakunta-alusta, jonka on suunnitellut palvelutyö palvelutyötä varten.",
+      "ctaPrimary": "Aloita ilmaiseksi",
+      "ctaSecondary": "Katso miten se toimii",
+      "statFreeValue": "100%",
+      "statFreeLabel": "Ilmainen ikuisesti",
+      "statModernValue": "Moderni",
+      "statModernLabel": "Alusta",
+      "statMinistryValue": "Palvelutyö",
+      "statMinistryLabel": "Ei voittoa tavoitteleva"
+    },
+    "features": {
+      "community": {
+        "title": "Seurakuntayhteisön yhteys",
+        "description": "Rakenna syvempiä ihmissuhteita ryhmien, keskustelujen, viestien ja tapahtumien kautta. Pidä jäsenet yhteydessä myös sunnuntain jumalanpalvelusten ulkopuolella merkityksellisten kohtaamisten avulla.",
+        "items": ["Pienryhmät", "Suorat viestit", "Keskustelufoorumit", "Jäsenluettelo"],
+        "cta": "Liity yhteisöön"
+      },
+      "content": {
+        "title": "Digitaalinen seurakuntasisältöjen keskus",
+        "description": "Saat käyttöösi saarnat, opetustunnit, päivän raamatunkohdat ja täydelliset raamatunkäännökset. Pidä yhteisösi mukana viikon jokaisena päivänä tuoreen sisällön avulla.",
+        "items": ["Saarnakirjasto", "Raamatun integraatio", "Päivän raamatunkohta", "Opetustunnit"],
+        "cta": "Selaa sisältöä"
+      },
+      "giving": {
+        "title": "Verkkolahjoittaminen seurakunnalle",
+        "description": "Turvalliset lahjoitukset luottokortilla tai tilisiirrolla, toistuvat lahjoitusmahdollisuudet ja rahastokohtainen lahjoittaminen. Ei B1:n palvelumaksuja – suora Stripe-integraatio.",
+        "items": ["Turvalliset maksut", "Toistuvat lahjoitukset", "Rahastojen hallinta", "Lahjoitushistoria"],
+        "cta": "Aloita lahjoittaminen"
+      },
+      "checkin": {
+        "title": "Seurakunnan sisäänkirjautumisalusta",
+        "description": "Kontaktivapaa sisäänkirjautuminen jumalanpalveluksiin, perhehallinta ja automaattinen ryhmäjaottelu. Sujuvoita osallistumisen seurantaa.",
+        "items": ["Kontaktivapaa sisäänkirjautuminen", "Perhehallinta", "Automaattinen ryhmäjaottelu", "Osallistumisraportit"],
+        "cta": "Kokeile sisäänkirjautumista"
+      },
+      "mobileFirst": "Mobiili edellä",
+      "managementSystem": {
+        "title": "Kattava",
+        "titleHighlight": "Seurakunnan hallintajärjestelmä",
+        "description": "Ammattimainen seurakunnan tietokantaohjelmisto, jossa on jäsenhallinta, osallistumisen seuranta, lahjoitushallinto ja palvelutyön viestintätyökalut. Ilmainen seurakunnan hallintajärjestelmä, joka on suunniteltu erityisesti kasvaville seurakunnille ja monikampusseurakunnille."
+      },
+      "grid": {
+        "peopleManagement": {
+          "title": "Ihmisten hallinta",
+          "description": "Kattavat jäsen- ja vieraskortit, joissa on edistynyt haku ja ihmissuhteiden seuranta."
+        },
+        "attendanceAnalytics": {
+          "title": "Osallistumisanalytiikka",
+          "description": "Seuraa osallistumistrendejä kauniiden kaavioiden ja kattavan raportoinnin avulla."
+        },
+        "groupsMinistries": {
+          "title": "Ryhmät ja palvelutyöt",
+          "description": "Järjestä rajattomasti ryhmiä ja luokkia jäsenjaoilla ja seurannalla."
+        },
+        "givingManagement": {
+          "title": "Lahjoitusten hallinta",
+          "description": "Käsittele lahjoituksia eräajojen, rahastoseurannan ja verotodistusten avulla."
+        },
+        "servicePlanning": {
+          "title": "Jumalanpalvelussuunnittelu",
+          "description": "Aikatauluta jumalanpalvelukset, määritä tiimit ja hallitse vapaaehtoisten koordinointia."
+        },
+        "songLibrary": {
+          "title": "Laulukirjasto",
+          "description": "Järjestä lauluja sovitusten, sävellajien, sointukaavioiden ja lauluohjelmien avulla."
+        },
+        "communications": {
+          "title": "Viestintä",
+          "description": "Lähetä kohdennettuja sähköposteja ja ilmoituksia automaattisten työnkulkujen kanssa."
+        },
+        "multiCampus": {
+          "title": "Monikampus",
+          "description": "Hallitse useita toimipisteitä yhdestä yhtenäisestä hallintapaneelista kampuskohtaisilla tiedoilla."
+        }
+      },
+      "showcase": {
+        "groupsMinistries": {
+          "title": "Ryhmät ja palvelutyöt",
+          "description": "Hallitse rajattomasti ryhmiä ja luokkia"
+        },
+        "peopleSearch": {
+          "title": "Ihmisten haku",
+          "description": "Edistynyt jäsentietokanta"
+        },
+        "servicePlanning": {
+          "title": "Jumalanpalvelussuunnittelu",
+          "description": "Aikatauluta tiimit ja tehtävät"
+        },
+        "songLibrary": {
+          "title": "Laulukirjasto",
+          "description": "Sovitukset ja sointukaaviot"
+        }
+      },
+      "dashboard": {
+        "title": "Kaunis ja intuitiivinen hallintapaneeli",
+        "description": "Pääset käsiksi kaikkiin seurakuntasi tietoihin selkeän, modernin ja tehokkaaksi suunnitellun käyttöliittymän kautta."
+      },
+      "additional": {
+        "security": {
+          "title": "Tietoturva ja yksityisyys",
+          "description": "Alan standardien mukainen salaus ja turvallinen tietojen tallennus"
+        },
+        "mobile": {
+          "title": "Mobiilisaavutettavuus",
+          "description": "Responsiivinen suunnittelu toimii täydellisesti kaikilla laitteilla"
+        },
+        "workflows": {
+          "title": "Automatisoidut työnkulut",
+          "description": "Seurantasarjat ja jäsenhuollon automaatio"
+        },
+        "reporting": {
+          "title": "Reaaliaikainen raportointi",
+          "description": "Luo raportteja ja vie tietoja milloin tahansa"
+        },
+        "forms": {
+          "title": "Mukautetut lomakkeet",
+          "description": "Rakenna ilmoittautumislomakkeita ja kyselyitä mihin tahansa tarkoitukseen"
+        },
+        "roles": {
+          "title": "Roolipohjainen käyttöoikeus",
+          "description": "Turvalliset oikeudet työntekijöille ja vapaaehtoisille"
+        }
+      },
+      "ctaSection": {
+        "title": "Valmis rakentamaan vahvempaa",
+        "titleHighlight": "seurakuntayhteisöä?",
+        "description": "Muuta seurakuntaasi kattavan ilmaisen alustamme avulla, joka on suunniteltu syventämään ihmissuhteita ja vahvistamaan seurakuntayhteisöjä modernin teknologian kautta.",
+        "cta": "Aloita ilmaiseksi"
+      }
+    },
+    "testimonials": {
+      "title": "Seurakuntien rakastama",
+      "titleHighlight": "kaikkialla",
+      "subtitle": "Liity kasvaviin seurakuntiin, jotka ovat mullistaneet palvelutyönsä täysin ilmaisella alustallamme. Tässä on, mitä pastorit ja seurakunnan hallinnoijat sanovat B1:stä.",
+      "stats": {
+        "churchesValue": "100+",
+        "churchesLabel": "Seurakuntaa luottaa meihin",
+        "freeValue": "Ilmainen",
+        "freeLabel": "Nyt ja aina",
+        "uptimeValue": "99.9%",
+        "uptimeLabel": "Käytettävyystakuu",
+        "supportValue": "24/7",
+        "supportLabel": "Tuki saatavilla"
+      },
+      "items": [
+        {
+          "content": "Suosittelen lämpimästi ChurchAppsia. Se on palvelutyötä sanan aidoimmassa ja parhaassa merkityksessä. ChurchApps tarjoaa teknisiä palveluita, jotka vahvistavat ja nostavat esiin seurakunnan hengellistä vaikutusta yhteisöissään. He auttavat seurakunnan infrastruktuuria vuosiksi eteenpäin."
+        },
+        {
+          "content": "ChurchApps auttoi meitä tulemaan näkyvämmiksi yhteisössämme\u2014lisäten tietoisuutta, lahjoituksia ja vapaaehtoisia, jotta voimme palvella paremmin apua tarvitsevia perheitä."
+        },
+        {
+          "content": "ChurchApps on enemmän kuin ohjelmisto\u2014se on käytännöllinen työkalu, joka tukee palvelutyön missiota, visiota ja päivittäistä toimintaa. Olen kiitollinen mahdollisuudesta oppia sitä, opettaa sitä ja nähdä, kuinka se auttaa seurakuntia toimimaan selkeämmin, tehokkaammin ja tarkoituksellisemmin."
+        },
+        {
+          "content": "Lahjoitussivu on lisännyt lahjoituksia organisaatiollemme. Ihmiset arvostavat koodin skannaamisen helppoutta, joka vie heidät suoraan lahjoitussivulle, ja kuukausittaisen lahjoittamisen voi asettaa niille, jotka haluavat verkkolahjoittamisen olevan helppoa."
+        },
+        {
+          "content": "Pidän mielelläni kirjaa osallistumisista, ja käytämme B1 Admin -ohjelmaa joka sunnuntai tähän tarkoitukseen. Arvostamme todella B1 Adminin palvelua, joka on osoittautunut tehokkaaksi tavaksi seurakuntamme pitää kirjaa ihmisistä ja osallistumisista."
+        }
+      ],
+      "ctaTitle": "Valmis muuttamaan seurakuntasi hallinnan?",
+      "ctaDescription": "Liity kasvavaan seurakuntayhteisöön, joka jo käyttää B1:tä – täysin ilmaiseksi ikuisesti. Ei luottokorttia, ei kokeilujaksoa, ei piilokuluja.",
+      "ctaButton": "Aloita ilmaiseksi"
+    },
+    "websiteBuilder": {
+      "badge": "Web-portaalin ominaisuus",
+      "title": "Ilmainen seurakunnan verkkosivujen rakennustyökalu",
+      "titleHighlight": "Minuuteissa, ei kuukausissa",
+      "description": "Luo kaunis ja ammattimainen seurakunnan verkkosivusto ilmaisella sisäänrakennetulla sivustotyökalullamme. Ei koodausta\u2014vain vedä, pudota ja julkaise seurakuntasi verkkosivusto.",
+      "dragDrop": {
+        "title": "Vedä ja pudota -rakennin",
+        "description": "Intuitiivinen visuaalinen editori valmiiksi suunniteltuine komponentteineen. Luo vaikuttavia sivuja ilman teknistä osaamista."
+      },
+      "templates": {
+        "title": "Seurakuntiin räätälöidyt mallit",
+        "description": "Kauniita malleja, jotka on suunniteltu erityisesti seurakunnille. Sisältävät saarnasivut, tapahtumakalenterit ja palvelutyöesittelyt."
+      },
+      "integration": {
+        "title": "Sovellusintegraatio",
+        "description": "Yhdistä verkkosivustosi saumattomasti mobiilisovellukseen. Tapahtumat, saarnat ja yhteisön päivitykset synkronoituvat automaattisesti."
+      },
+      "cta": "Aloita seurakuntasi verkkosivuston rakentaminen",
+      "ctaSubtext": "Täysin ilmainen seurakunnan verkkosivujen rakennustyökalu sisältyy jokaiseen tiliin"
+    },
+    "perfectFor": {
+      "title": "Ilmainen jokaiselle",
+      "titleHighlight": "seurakuntayhteisölle",
+      "subtitle": "Täysin ilmainen alusta kaiken kokoisille seurakunnille. Palvelutyön missiomme tarkoittaa, ettei piilokuluja, ominaisuusrajoituksia tai yllätyksiä ole.",
+      "audiences": [
+        {
+          "title": "Paikallisseurakunnat",
+          "description": "Yhden toimipisteen seurakunnat, jotka haluavat modernisoida digitaalisen läsnäolonsa",
+          "stats": "Kaikki koot"
+        },
+        {
+          "title": "Monikampusseurakunnat",
+          "description": "Useat toimipisteet, jotka tarvitsevat yhtenäistä hallintaa omilla identiteeteillään",
+          "stats": "Kaikki toimipisteet"
+        },
+        {
+          "title": "Kirkkokuntaverkostot",
+          "description": "Organisaatiot, jotka palvelevat useita seurakuntia jaettujen resurssien kautta",
+          "stats": "Jokainen verkosto"
+        },
+        {
+          "title": "Yhteisöllisyyteen keskittyvät",
+          "description": "Seurakunnat, jotka priorisoivat syvällistä sitoutumista ja ihmissuhteiden rakentamista",
+          "stats": "Kasvaa päivittäin"
+        }
+      ],
+      "integrations": {
+        "adminIntegration": {
+          "title": "B1 Admin -integraatio",
+          "description": "Saumattomasti integroitu B1 Admin -seurakunnanhallintaohjelmiston kanssa täydellistä työnkulun automaatiota varten."
+        },
+        "webPortal": {
+          "title": "Web-portaali mukana",
+          "description": "Kattava web-portaali verkkosivujen rakennustyökalulla tehokkaan mobiilisovelluskokemuksen rinnalla."
+        },
+        "instantSetup": {
+          "title": "Välitön käyttöönotto",
+          "description": "Aloita minuuteissa sujuvoitetun perehdytysprosessimme ja omistautuneen tukitiimimme avulla."
+        }
+      },
+      "about": {
+        "title": "Tietoa ilmaisesta ohjelmistostamme",
+        "description": "Olemme 501(c)(3)-rekisteröity voittoa tavoittelematon palvelutyö, joka on omistautunut tarjoamaan täysin ilmaisen seurakunnan hallintaohjelmiston. Missiomme on vapauttaa seurakunnat keskittymään palvelutyöhön, ei ohjelmistokuluihin.",
+        "stats": {
+          "freeValue": "100%",
+          "freeLabel": "Ilmainen ikuisesti",
+          "setupValue": "$0",
+          "setupLabel": "Käyttöönottokulut",
+          "churchesValue": "100+",
+          "churchesLabel": "Palveltua seurakuntaa",
+          "openValue": "Avoin",
+          "openLabel": "Lähdekoodi"
+        },
+        "features": [
+          "Ei luottokorttia vaadita",
+          "Rajaton määrä käyttäjiä ja jäseniä",
+          "Kaikki ominaisuudet mukana",
+          "Säännölliset päivitykset ja parannukset",
+          "Yhteisötuki 24/7",
+          "Mobiili- ja verkkokäyttö",
+          "Apu tietojen tuonnissa",
+          "Avoimen lähdekoodin läpinäkyvyys"
+        ],
+        "learnMore": "Lue lisää palvelutyöstämme ja missiostamme",
+        "aboutChurchApps": "Tietoa ChurchAppsista",
+        "viewOnGitHub": "Katso GitHubissa"
+      },
+      "cta": {
+        "title": "Valmis vahvistamaan yhteisöäsi?",
+        "description": "Tutustu, kuinka kattava palvelutyön alustamme voi auttaa sinua rakentamaan syvempiä ihmissuhteita ja vahvempia yhteisöjä.",
+        "button": "Aloita ilmaiseksi tänään",
+        "tagline": "100 % ilmainen \u2022 Ei piilokuluja \u2022 Palvelutyöhön pohjautuva missio"
+      }
+    },
+    "footer": {
+      "companyDescription": "Kaikki-yhdessä-seurakuntaviestintäalusta, joka tuo yhteen jumalanpalveluksen, yhteisön, lahjoittamisen ja hallinnon.",
+      "product": "Tuote",
+      "mobileFeatures": "Mobiiliominaisuudet",
+      "websiteBuilder": "Verkkosivujen rakennustyökalu",
+      "faq": "UKK",
+      "aboutChurchApps": "Tietoa ChurchAppsista",
+      "appsAndResources": "Sovellukset ja resurssit",
+      "androidApp": "Android-sovellus",
+      "iosApp": "iOS-sovellus",
+      "helpCenter": "Ohjekeskus",
+      "contact": "Yhteystiedot",
+      "availableWorldwide": "Saatavilla maailmanlaajuisesti"
+    },
+    "faq": {
+      "pageTitle": "Usein kysytyt",
+      "pageTitleHighlight": "kysymykset",
+      "pageSubtitle": "Kaikki, mitä sinun tarvitsee tietää B1.churchista, 100 % ilmaisesta seurakunnan hallinta-alustasta.",
+      "documentTitle": "UKK - B1.church | Ilmaisen seurakunnan hallintaohjelmiston kysymyksiä",
+      "items": [
+        {
+          "question": "Onko B1.church todella 100 % ilmainen?",
+          "answer": "Kyllä, B1.church on täysin ilmainen ilman piilokuluja, premium-tasoja tai lahjoitusten käsittelymaksuja. Olemme 501(c)(3)-rekisteröity voittoa tavoittelematon palvelutyö, joka uskoo, että jokainen seurakunta ansaitsee pääsyn moderniin teknologiaan budjetista riippumatta. Alustamme rahoitetaan lahjoituksilla ja Google Ad Grants -avustuksilla."
+        },
+        {
+          "question": "Mitä ominaisuuksia B1.church sisältää?",
+          "answer": "B1.church sisältää kattavan seurakunnan hallinta-alustan: mobiilisovellukset iOS:lle ja Androidille, vedä ja pudota -verkkosivujen rakennustyökalun, verkkolahjoittamisen ilman maksuja, älykkään sisäänkirjautumisjärjestelmän, jäsentietokannan, osallistumisen seurannan, ryhmien hallinnan, jumalanpalvelussuunnittelun, laulukirjaston, saarnahallinnan ja Raamatun integraation."
+        },
+        {
+          "question": "Miten B1.church vertautuu Planning Centeriin?",
+          "answer": "B1.church on 100 % ilmainen, kun taas Planning Center veloittaa moduulikohtaisesti ($0–299+/kk). B1 sisältää mobiilisovelluksen ja verkkosivujen rakennustyökalun ilmaiseksi, kun taas Planning Center veloittaa lisää Church Centeristä eikä sisällä verkkosivutyökalua. Molemmat tarjoavat seurakunnanhallinnan ominaisuuksia, mutta B1 tarjoaa kaiken yhdessä ilmaisessa paketissa."
+        },
+        {
+          "question": "Miten B1.church vertautuu Pushpayhin?",
+          "answer": "B1.church on täysin ilmainen, kun taas Pushpay maksaa $300-1000+/kk. B1:llä ei ole lahjoitusten käsittelymaksuja, kun taas Pushpay ottaa prosenttiosuuden lahjoituksista. B1 on avointa lähdekoodia ja sisältää kattavan seurakunnanhallinnan, kun taas Pushpay on suljettu ja keskittyy pääasiassa lahjoittamiseen."
+        },
+        {
+          "question": "Miten B1.church vertautuu Tithe.lyhin?",
+          "answer": "B1.church on täysin ilmainen ilman käsittelymaksuja. Tithe.ly tarjoaa ilmaisen tason mutta veloittaa premium-ominaisuuksista ja ottaa prosenttiosuuden jokaisesta lahjoituksesta. B1 sisältää kattavan seurakunnan hallintaohjelmiston, kun taas Tithe.lyn ChMS on erillinen maksullinen tuote."
+        },
+        {
+          "question": "Miten B1.church vertautuu Breeze ChMS:ään?",
+          "answer": "B1.church on ilmainen, kun taas Breezen hinnat alkavat $72/kk. B1 sisältää kattavan mobiilisovelluksen ja verkkosivujen rakennustyökalun, kun taas Breezellä on rajalliset mobiiliominaisuudet eikä verkkosivujen rakennustyökalua. Molemmat tarjoavat seurakunnanhallintaa, mutta B1 tarjoaa enemmän ominaisuuksia ilmaiseksi."
+        },
+        {
+          "question": "Voinko saada mukautetun mobiilisovelluksen seurakunnalleni?",
+          "answer": "Kyllä, B1.church tarjoaa mukautetusti brändätyt mobiilisovellukset iOS:lle ja Androidille. Seurakuntasi saa oman sovelluksensa omalla brändäyksellä, jonka jäsenet voivat ladata App Storesta ja Google Playsta. Tämä sisältyy B1:een ilmaiseksi."
+        },
+        {
+          "question": "Tukeeko B1.church verkkolahjoittamista?",
+          "answer": "Kyllä, B1.church sisältää turvallisen verkkolahjoittamisen luottokortilla ja tilisiirrolla. Voit asettaa toistuvia lahjoituksia, hallita useita rahastoja ja tarjota lahjoitushistorian verotodistuksia varten. Käytämme suoraa Stripe-integraatiota ilman B1-alustan maksuja\u2014seurakuntasi neuvottelee hinnat suoraan Stripen kanssa (tyypillisesti noin 2.9% + 30\u00a2)."
+        },
+        {
+          "question": "Voinko rakentaa verkkosivuston B1.churchilla?",
+          "answer": "Kyllä, B1.church sisältää vedä ja pudota -verkkosivujen rakennustyökalun mobiilireagoivilla malleilla. Voit käyttää omaa verkkotunnusta, ja verkkosivusto integroituu kaikkiin B1-ominaisuuksiisi, kuten tapahtumiin, ryhmiin ja lahjoittamiseen."
+        },
+        {
+          "question": "Onko B1.churchilla sisäänkirjautuminen lastentyötä varten?",
+          "answer": "Kyllä, B1.church sisältää älykkään sisäänkirjautumisjärjestelmän kontaktivapailla itsepalvelupäätteillä, perhesisäänkirjautumisella, automaattisella ryhmäjaolla, turvakoodeilla lasten noutoa varten sekä osallistumisen seurannalla ja raporteilla."
+        },
+        {
+          "question": "Onko B1.church avointa lähdekoodia?",
+          "answer": "Kyllä, B1.church on täysin avointa lähdekoodia. Voit tarkastella koodiamme GitHubissa osoitteessa github.com/ChurchApps. Tämä tarkoittaa, että voit halutessasi isännöidä sen itse, osallistua kehitykseen ja luottaa siihen, että tietojasi käsitellään läpinäkyvästi."
+        },
+        {
+          "question": "Kuka rakentaa B1.churchin?",
+          "answer": "B1.churchin on rakentanut Live Church Solutions, 501(c)(3)-rekisteröity voittoa tavoittelematon organisaatio (EIN 45-5349618). Olemme kehittäjien palvelutyö, joka uskoo, ettei seurakuntien tulisi joutua valitsemaan teknologian ja palvelutyön rahoituksen välillä."
+        },
+        {
+          "question": "Mitä muita ilmaisia tuotteita Live Church Solutions tarjoaa?",
+          "answer": "B1.churchin lisäksi tarjoamme FreeShow'n (ilmaisen esitysohjelmiston osoitteessa freeshow.app, vaihtoehto ProPresenterille) ja Lessons.churchin (ilmaisen seurakunnan opetussuunnitelman, jossa on yli 1 100 oppituntia kaikenikäisille). Kaikki tuotteemme ovat ilmaisia ja avointa lähdekoodia."
+        },
+        {
+          "question": "Kuinka aloitan B1.churchin käytön?",
+          "answer": "Aloittaminen on helppoa: käy osoitteessa b1.church, napsauta 'Aloita ilmaiseksi', luo seurakuntasi tili, mukauta sovelluksesi ja verkkosivustosi sekä kutsu seurakuntasi. Luottokorttia ei tarvita eikä kokeilujaksoa ole\u2014se on ilmainen ikuisesti."
+        },
+        {
+          "question": "Tukeeko B1.church useita kampuksia?",
+          "answer": "Kyllä, B1.church tukee monikampusseurakuntia. Voit hallita useita toimipisteitä yhdestä yhtenäisestä hallintapaneelista kampuskohtaisilla tiedoilla, osallistumisella ja ryhmillä säilyttäen yhden yhtenäisen jäsentietokannan."
+        }
+      ],
+      "stillHaveQuestions": "Vieläkö kysymyksiä?",
+      "supportText": "Tukitiimimme auttaa sinua aloittamaan B1.churchin käytön.",
+      "contactSupport": "Ota yhteyttä tukeen",
+      "viewDocumentation": "Katso dokumentaatio"
+    },
+    "compare": {
+      "notFound": {
+        "title": "Vertailua ei löytynyt",
+        "subtitle": "Tutustu saatavilla oleviin vertailuihin:"
+      },
+      "b1vsPrefix": "B1 vs",
+      "noHiddenFees": "Ei piilokuluja, koskaan",
+      "plusTransactionFees": "Lisäksi käsittelymaksut",
+      "featureColumn": "Ominaisuus",
+      "ourTake": "Näkemyksemme",
+      "ctaTitle": "Valmis säästämään seurakuntasi rahoja?",
+      "ctaDescription": "Vaihda B1.churchiin ja ohjaa ohjelmistobudjettisi palvelutyöhön.",
+      "ctaButton": "Aloita ilmaiseksi",
+      "otherComparisons": "Muut vertailut",
+      "competitors": {
+        "planning-center": {
+          "name": "Planning Center",
+          "tagline": "Ilmainen vaihtoehto Planning Centerille",
+          "description": "Planning Center on suosittu seurakunnan hallinta-alusta moduulikohtaisella hinnoittelulla. B1.church tarjoaa samanlaiset ominaisuudet täysin ilmaiseksi.",
+          "features": [
+            { "name": "Jäsentietokanta", "b1": true, "competitor": true },
+            { "name": "Sisäänkirjautumisjärjestelmä", "b1": true, "competitor": "$99/mo" },
+            { "name": "Verkkolahjoittaminen", "b1": "Ei B1-maksuja", "competitor": "Platform + Stripe fees" },
+            { "name": "Ryhmien hallinta", "b1": true, "competitor": "$50/mo" },
+            { "name": "Jumalanpalvelussuunnittelu", "b1": true, "competitor": "$14-99/mo" },
+            { "name": "Mobiilisovellus", "b1": "Ilmainen brändätty sovellus", "competitor": "$0-199/mo" },
+            { "name": "Verkkosivujen rakennustyökalu", "b1": true, "competitor": false },
+            { "name": "Saarnahallinta", "b1": true, "competitor": false },
+            { "name": "Monikampus", "b1": true, "competitor": "Lisämaksu" },
+            { "name": "Avoin lähdekoodi", "b1": true, "competitor": false }
+          ],
+          "pricingB1": "100 % ilmainen",
+          "pricingCompetitor": "$0 - $500+/kk moduuleista riippuen",
+          "verdict": "B1.church tarjoaa kaikki Planning Centerin ydinominaisuudet ilman moduulihinnoittelun monimutkaisuutta. Jos budjetti on huolena, B1 on selkeä valinta."
+        },
+        "pushpay": {
+          "name": "Pushpay",
+          "tagline": "Ilmainen vaihtoehto Pushpaylle",
+          "description": "Pushpay tunnetaan mobiililahjoittamisesta, mutta siihen liittyy merkittäviä kuukausikustannuksia ja käsittelymaksuja. B1.church tarjoaa lahjoittamisen ilman alustamaksuja.",
+          "features": [
+            { "name": "Verkkolahjoittaminen", "b1": "Ei B1-maksuja", "competitor": "Platform + Stripe fees" },
+            { "name": "Toistuvat lahjoitukset", "b1": true, "competitor": true },
+            { "name": "Mobiilisovellus", "b1": "Ilmainen brändätty sovellus", "competitor": "Sisältyy" },
+            { "name": "Jäsentietokanta", "b1": true, "competitor": "ChMS lisämaksu" },
+            { "name": "Sisäänkirjautumisjärjestelmä", "b1": true, "competitor": "Lisämaksu" },
+            { "name": "Verkkosivujen rakennustyökalu", "b1": true, "competitor": false },
+            { "name": "Ryhmien hallinta", "b1": true, "competitor": "Lisämaksu" },
+            { "name": "Lahjoitusilmoitukset", "b1": true, "competitor": true },
+            { "name": "Rahastojen hallinta", "b1": true, "competitor": true },
+            { "name": "Avoin lähdekoodi", "b1": true, "competitor": false }
+          ],
+          "pricingB1": "100 % ilmainen",
+          "pricingCompetitor": "$300 - $1,000+/kk",
+          "verdict": "Pushpay on ominaisuuksiltaan rikas mutta kallis. B1.church tarjoaa vastaavat lahjoitusominaisuudet sekä kattavan seurakunnanhallinnan ilmaiseksi. Säästöt voi ohjata palvelutyöhön."
+        },
+        "tithely": {
+          "name": "Tithe.ly",
+          "tagline": "Ilmainen vaihtoehto Tithe.lylle",
+          "description": "Tithe.ly tarjoaa seurakunnan lahjoitus- ja hallintatyökaluja freemium-hinnoittelulla. B1.church tarjoaa kaiken ilmaiseksi ilman käsittelymaksuja.",
+          "features": [
+            { "name": "Verkkolahjoittaminen", "b1": "Ei B1-maksuja", "competitor": "Platform + Stripe fees" },
+            { "name": "Toistuvat lahjoitukset", "b1": true, "competitor": true },
+            { "name": "Mobiilisovellus", "b1": "Ilmainen brändätty sovellus", "competitor": "$99/mo" },
+            { "name": "Jäsentietokanta", "b1": true, "competitor": "$99/mo" },
+            { "name": "Sisäänkirjautumisjärjestelmä", "b1": true, "competitor": "$49/mo" },
+            { "name": "Verkkosivujen rakennustyökalu", "b1": true, "competitor": "$49/mo" },
+            { "name": "Ryhmien hallinta", "b1": true, "competitor": "$99/mo" },
+            { "name": "Saarnahallinta", "b1": true, "competitor": "$49/mo" },
+            { "name": "Monikampus", "b1": true, "competitor": "Lisämaksu" },
+            { "name": "Avoin lähdekoodi", "b1": true, "competitor": false }
+          ],
+          "pricingB1": "100 % ilmainen",
+          "pricingCompetitor": "Ilmainen taso + $49-199/kk ominaisuuksista",
+          "verdict": "Tithe.lyn ilmainen taso on rajallinen. Täyden toiminnallisuuden saaminen kasvattaa kustannuksia nopeasti. B1.church sisältää kaiken ensimmäisestä päivästä alkaen ilman päivityspainetta."
+        },
+        "breeze": {
+          "name": "Breeze ChMS",
+          "tagline": "Ilmainen vaihtoehto Breeze ChMS:lle",
+          "description": "Breeze on yksinkertainen seurakunnan hallintajärjestelmä selkeällä hinnoittelulla. B1.church tarjoaa enemmän ominaisuuksia ilmaiseksi.",
+          "features": [
+            { "name": "Jäsentietokanta", "b1": true, "competitor": true },
+            { "name": "Lahjoitusten hallinta", "b1": "Ei B1-maksuja", "competitor": "2.9% + 30\u00a2" },
+            { "name": "Sisäänkirjautumisjärjestelmä", "b1": true, "competitor": "Perustaso" },
+            { "name": "Mobiilisovellus", "b1": "Ilmainen brändätty sovellus", "competitor": "Rajallinen" },
+            { "name": "Verkkosivujen rakennustyökalu", "b1": true, "competitor": false },
+            { "name": "Ryhmien hallinta", "b1": true, "competitor": true },
+            { "name": "Tapahtumien hallinta", "b1": true, "competitor": true },
+            { "name": "Vapaaehtoisten aikataulutus", "b1": true, "competitor": true },
+            { "name": "Monikampus", "b1": true, "competitor": false },
+            { "name": "Avoin lähdekoodi", "b1": true, "competitor": false }
+          ],
+          "pricingB1": "100 % ilmainen",
+          "pricingCompetitor": "$72 - $135/kk",
+          "verdict": "Breeze on yksinkertainen ja edullinen, mutta B1.church on yksinkertaisempi budjetille (ilmainen!) ja tarjoaa enemmän ominaisuuksia, kuten verkkosivujen rakennustyökalun ja kattavan mobiilisovelluksen."
+        }
+      }
+    },
+    "churchManagement": {
+      "hero": {
+        "title": "Ilmainen",
+        "titleHighlight": "seurakunnan hallintaohjelmisto",
+        "titleLine2": "Kattava palvelutyön alusta",
+        "description": "Ammattimainen <strong>seurakunnan hallintaohjelmisto</strong> osallistumisen seurannalla, jäsentietokannalla, lahjoitusten hallinnalla ja viestintätyökaluilla. Täysin <strong>ilmainen seurakuntaohjelmisto</strong>, jonka tarjoaa Live Church Solutions, 501(c)(3)-rekisteröity voittoa tavoittelematon palvelutyö. Liity yli 100 seurakuntaan, jotka säästävät tuhansia palvelutyön ohjelmistokuluissa.",
+        "ctaPrimary": "Aloita ilmaiseksi",
+        "ctaSecondary": "Kokeile demoa",
+        "trustLine": "Kasvavien seurakuntien luottama kaikkialla maailmassa",
+        "trustFree": "Täysin ilmainen ikuisesti",
+        "trustNonProfit": "501(c)(3)-voittoa tavoittelematon palvelutyö",
+        "trustOpenSource": "Avoin lähdekoodi"
+      },
+      "featuresHeader": {
+        "title": "Kattava",
+        "titleHighlight": "Seurakunnan hallintajärjestelmä",
+        "titleSuffix": "ominaisuudet",
+        "description": "Ammattimainen seurakunnan tietokantaohjelmisto, jossa on jäsenhallinta, osallistumisen seuranta, lahjoitushallinto ja palvelutyön viestintätyökalut. Ilmainen seurakunnan hallintajärjestelmä, joka on suunniteltu erityisesti kasvaville seurakunnille ja monikampusseurakunnille."
+      },
+      "checkinStations": {
+        "title": "Itsepalvelu-sisäänkirjautumispisteet",
+        "description": "Varmista lasten turvallisuus ja vapauta vapaaehtoiset kohtaamaan perheitä. Itsepalvelu-sisäänkirjautumisjärjestelmämme luo toisiaan vastaavat koodit lapsille ja aikuisille, mikä luo turvallisen noutoprosessin.",
+        "features": [
+          "Hae puhelinnumerolla ja valitse jumalanpalvelukset automaattisesti",
+          "Tulostaa tarrat ja kuitit langattomasti jaettuihin tulostimiin",
+          "Toimii edullisilla Android-tableteilla alle $80",
+          "Synkronoituu automaattisesti osallistumisen seurantajärjestelmän kanssa"
+        ]
+      },
+      "mainFeatures": [
+        {
+          "title": "Kattava ihmisten hallinta",
+          "description": "Ylläpidä yksityiskohtaisia jäsen- ja vieraskortteja yhteystietoineen, ihmissuhteineen, syntymäpäivineen ja vuosipäivien seurannoineen. Edistyneet haku- ja suodatusominaisuudet."
+        },
+        {
+          "title": "Osallistumisanalytiikka",
+          "description": "Seuraa osallistumistrendejä kaikissa jumalanpalveluksissa ja ryhmissä kauniiden kaavioiden ja raporttien avulla. Tarkkaile sitoutumismalleja ja kasvua ajan mittaan."
+        },
+        {
+          "title": "Ryhmien ja palvelutyön hallinta",
+          "description": "Järjestä rajattomasti ryhmiä, luokkia ja palvelutöitä. Hallitse jäsenjaotteluja, seuraa osallistumista ja luo mukautettuja ryhmäkategorioita."
+        },
+        {
+          "title": "Edistynyt lahjoitusten hallinta",
+          "description": "Käsittele lahjoituksia eräajoilla, rahastoseurannalla ja kattavalla taloudellisella raportoinnilla. Luo verotodistuksia ja seuraa lahjoitustrendejä."
+        },
+        {
+          "title": "Jumalanpalveluksen ja palveluksen suunnittelu",
+          "description": "Aikatauluta jumalanpalvelukset, määritä tiimin jäsenet ja hallitse vapaaehtoisten koordinointia. Seuraa tarvittavia paikkoja ja automatisoi ilmoitukset."
+        },
+        {
+          "title": "Laulukirjasto ja sovitukset",
+          "description": "Järjestä kattava laulukirjastosi useilla sovituksilla, sävellajeilla ja sointukaavioilla. Linkitä ulkoisiin resursseihin ja hallitse jumalanpalveluksen lauluohjelmia."
+        },
+        {
+          "title": "Viestintäkeskus",
+          "description": "Lähetä kohdennettuja sähköposteja ja ilmoituksia. Luo automatisoituja työnkulkuja ja pidä seurakuntasi yhteydessä."
+        },
+        {
+          "title": "Monikampustuki",
+          "description": "Hallitse useita toimipisteitä yhdestä yhtenäisestä hallintapaneelista. Seuraa kampuskohtaisia tietoja säilyttäen samalla organisaationlaajuisen raportoinnin."
+        }
+      ],
+      "testimonials": {
+        "title": "Seurakuntien rakastama",
+        "titleHighlight": "kaikkialla",
+        "subtitle": "Liity kasvaviin seurakuntiin, jotka ovat mullistaneet palvelutyönsä täysin ilmaisella alustallamme. Tässä on, mitä pastorit ja seurakunnan hallinnoijat sanovat.",
+        "items": [
+          {
+            "content": "Käytämme tätä alustaa joka sunnuntai osallistumisen seurantaan ja kirjanpitoon kaikista osallistujista, mukaan lukien sunnuntaikoulun lapsista. Rajallisella budjetilla toimivina lähetystyöntekijöinä arvostamme sitä, että tämä ohjelmisto on ilmainen ja tehokas."
+          },
+          {
+            "content": "Tämä on seurakunnan pelastaja. Pienenä, rajallisella budjetilla toimivana seurakuntana tämä ohjelmisto on JUMALAN LAHJA ja siunaus. Se on käyttäjäystävällinen ja helppo ottaa käyttöön. Lahjoitusraportit on helppo laatia. Se, että voin viedä tietoja Exceliin, tekee kirjanpidon analysoinnista hyvin yksinkertaista. Se on vähentänyt toimistotyötäni ainakin 25 %."
+          },
+          {
+            "content": "Tämä auttoi meitä siirtymään digitaaliseen lahjoittamiseen saumattomasti pandemian aikana. Tukitiimi oli loistava ja alusta on uskomattoman luotettava. Ilmaiseksi saaminen mahdollisti ohjelmistobudjettimme ohjaamisen varsinaiseen palvelutyöhön."
+          }
+        ]
+      },
+      "aboutSection": {
+        "title": "Tietoa",
+        "titleHighlight": "ilmaisesta seurakuntaohjelmistostamme",
+        "description": "Kattava <strong>seurakunnan hallintaohjelmisto</strong>, jonka <strong>Live Church Solutions</strong>, vuonna 2012 perustettu 501(c)(3)-voittoa tavoittelematon organisaatio, tarjoaa täysin ilmaiseksi kristillisille seurakunnille ja palvelutöille. Missiomme on auttaa seurakuntia käyttöönottamaan ammattimainen <strong>palvelutyön ohjelmisto</strong> ilman seurakuntahallintojärjestelmien tyypillisiä korkeita kustannuksia."
+      },
+      "stats": [
+        {
+          "number": "$800M",
+          "label": "Seurakunnat käyttävät vuosittain hallintaohjelmistoihin",
+          "description": "Uskomme, että nämä rahat voidaan käyttää paremmin"
+        },
+        {
+          "number": "100+",
+          "label": "Seurakuntaa käyttää jo alustaamme",
+          "description": "Kasvava tyytyväisten käyttäjien yhteisö"
+        },
+        {
+          "number": "2012",
+          "label": "Vuosi, jolloin Live Church Solutions perustettiin",
+          "description": "Yli vuosikymmen seurakuntien teknologia-apua"
+        },
+        {
+          "number": "100%",
+          "label": "Ilmainen ikuisesti -takuu",
+          "description": "Ei piilokuluja, kokeilujaksoja eikä rajoituksia"
+        }
+      ],
+      "mission": {
+        "title": "Missiomme: Auttaa seurakuntia keskittymään palvelutyöhön",
+        "description": "Joka vuosi kirkko käyttää yli <strong>800 miljoonaa dollaria</strong> seurakunnan hallintaohjelmistoihin. Uskomme, että nämä rahat voidaan käyttää paremmin, ja siksi kehitimme tämän alustan; täysin ilmaisen, avoimen lähdekoodin seurakunnan hallintaratkaisun.",
+        "learnMore": "Lue lisää Live Church Solutionsista",
+        "viewOnGitHub": "Katso GitHubissa"
+      },
+      "allFeatures": {
+        "title": "Kaikki mitä tarvitset, täysin ilmaiseksi",
+        "subtitle": "Ei kokeilujaksoja, ei jäsenrajoituksia, ei piilokuluja",
+        "items": [
+          "Kattava jäsentietokanta yksityiskohtaisilla profiileilla",
+          "Osallistumisen seuranta itse-sisäänkirjautumissovelluksella",
+          "Ryhmien ja pienryhmien hallinta",
+          "Lahjoitusten hallinta yksityiskohtaisella raportoinnilla",
+          "Mukautetut lomakkeet ja tiedonkeruu",
+          "Sähköpostiviestintätyökalut",
+          "Tapahtumien hallinta ja aikataulutus",
+          "Tietojen tuonti olemassa olevista järjestelmistä",
+          "Monitoimipiste- ja monikampustuki",
+          "Roolipohjainen käyttöoikeus ja luvat",
+          "Avoin lähdekoodi GitHub-pääsyllä"
+        ]
+      },
+      "cta": {
+        "title": "Valmis lopettamaan seurakunnan hallintaohjelmistosta maksamisen?",
+        "description": "Liity maailmanlaajuisiin seurakuntiin, jotka ovat vaihtaneet täysin ilmaiseen, avoimen lähdekoodin ratkaisuun, jonka on rakentanut palvelutyö palvelutöitä varten.",
+        "primaryButton": "Aloita ilmaiseksi",
+        "secondaryButton": "Kokeile demoa"
+      }
+    },
+    "notFound": {
+      "title": "404",
+      "message": "Hups! Sivua ei löytynyt",
+      "returnHome": "Palaa etusivulle"
+    }
+  }
+}

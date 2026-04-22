@@ -1,0 +1,599 @@
+{
+  "brochure": {
+    "header": {
+      "features": "Fitur",
+      "churchManagement": "Manajemen Gereja",
+      "about": "Tentang",
+      "contact": "Kontak",
+      "signIn": "Masuk",
+      "getStartedFree": "Mulai Gratis"
+    },
+    "hero": {
+      "badge": "100% Gratis \u2022 Platform yang Digerakkan oleh Pelayanan",
+      "headlineTop": "Komunitas Gereja",
+      "headlineBottom": "Tanpa Hambatan",
+      "subheadline": "Perangkat lunak manajemen gereja lengkap dengan aplikasi mobile, pembuat situs web, pemberian digital, dan fitur komunitas. Platform gereja 100% gratis yang dirancang oleh pelayanan, untuk pelayanan.",
+      "ctaPrimary": "Mulai Gratis",
+      "ctaSecondary": "Lihat Cara Kerjanya",
+      "statFreeValue": "100%",
+      "statFreeLabel": "Gratis Selamanya",
+      "statModernValue": "Modern",
+      "statModernLabel": "Platform",
+      "statMinistryValue": "Pelayanan",
+      "statMinistryLabel": "Bukan Laba"
+    },
+    "features": {
+      "community": {
+        "title": "Koneksi Komunitas Gereja",
+        "description": "Bangun hubungan yang lebih dalam melalui kelompok, diskusi, pesan, dan acara. Hubungkan jemaat melampaui ibadah Minggu dengan interaksi yang bermakna.",
+        "items": ["Kelompok Kecil", "Pesan Langsung", "Forum Diskusi", "Direktori Anggota"],
+        "cta": "Bergabung dengan Komunitas"
+      },
+      "content": {
+        "title": "Pusat Konten Digital Gereja",
+        "description": "Akses khotbah, pelajaran kelas, ayat harian, dan terjemahan Alkitab lengkap. Jaga komunitas Anda tetap terlibat dengan konten segar sepanjang minggu.",
+        "items": ["Perpustakaan Khotbah", "Integrasi Alkitab", "Ayat Harian", "Pelajaran Kelas"],
+        "cta": "Jelajahi Konten"
+      },
+      "giving": {
+        "title": "Pemberian Gereja Online",
+        "description": "Donasi aman melalui kartu kredit/bank dengan opsi berulang dan pemberian per dana tertentu. Tanpa biaya dari B1 - integrasi langsung dengan Stripe.",
+        "items": ["Pembayaran Aman", "Donasi Berulang", "Manajemen Dana", "Riwayat Pemberian"],
+        "cta": "Mulai Memberi"
+      },
+      "checkin": {
+        "title": "Platform Check-in Gereja",
+        "description": "Check-in ibadah tanpa sentuh dengan manajemen keluarga dan penugasan kelompok otomatis. Sederhanakan pelacakan kehadiran.",
+        "items": ["Check-in Tanpa Sentuh", "Manajemen Keluarga", "Penugasan Kelompok Otomatis", "Laporan Kehadiran"],
+        "cta": "Coba Check-in"
+      },
+      "mobileFirst": "Mengutamakan Mobile",
+      "managementSystem": {
+        "title": "Lengkap",
+        "titleHighlight": "Sistem Manajemen Gereja",
+        "description": "Perangkat lunak basis data gereja profesional dengan manajemen anggota, pelacakan kehadiran, administrasi pemberian, dan alat komunikasi pelayanan. Sistem manajemen gereja gratis yang dirancang khusus untuk jemaat yang sedang bertumbuh dan gereja multi-kampus."
+      },
+      "grid": {
+        "peopleManagement": {
+          "title": "Manajemen Orang",
+          "description": "Catatan lengkap anggota dan tamu dengan pencarian lanjutan dan pelacakan hubungan."
+        },
+        "attendanceAnalytics": {
+          "title": "Analitik Kehadiran",
+          "description": "Lacak tren kehadiran dengan grafik yang indah dan pelaporan yang komprehensif."
+        },
+        "groupsMinistries": {
+          "title": "Kelompok & Pelayanan",
+          "description": "Atur kelompok dan kelas tanpa batas dengan penugasan dan pelacakan anggota."
+        },
+        "givingManagement": {
+          "title": "Manajemen Pemberian",
+          "description": "Proses donasi dengan manajemen batch, pelacakan dana, dan laporan pajak."
+        },
+        "servicePlanning": {
+          "title": "Perencanaan Ibadah",
+          "description": "Jadwalkan ibadah, tugaskan tim, dan kelola koordinasi relawan."
+        },
+        "songLibrary": {
+          "title": "Perpustakaan Lagu",
+          "description": "Atur lagu dengan aransemen, kunci, chord, dan daftar lagu."
+        },
+        "communications": {
+          "title": "Komunikasi",
+          "description": "Kirim email dan pengumuman tertarget dengan alur kerja otomatis."
+        },
+        "multiCampus": {
+          "title": "Multi-Kampus",
+          "description": "Kelola beberapa lokasi dari satu dasbor terpadu dengan data khusus kampus."
+        }
+      },
+      "showcase": {
+        "groupsMinistries": {
+          "title": "Kelompok & Pelayanan",
+          "description": "Kelola kelompok dan kelas tanpa batas"
+        },
+        "peopleSearch": {
+          "title": "Pencarian Orang",
+          "description": "Basis data anggota lanjutan"
+        },
+        "servicePlanning": {
+          "title": "Perencanaan Ibadah",
+          "description": "Jadwalkan tim dan penugasan"
+        },
+        "songLibrary": {
+          "title": "Perpustakaan Lagu",
+          "description": "Aransemen dan chord"
+        }
+      },
+      "dashboard": {
+        "title": "Dasbor yang Indah dan Intuitif",
+        "description": "Akses semua data gereja Anda dengan antarmuka kami yang bersih dan modern, dirancang untuk efisiensi dan kemudahan penggunaan."
+      },
+      "additional": {
+        "security": {
+          "title": "Keamanan & Privasi",
+          "description": "Enkripsi standar industri dan penyimpanan data yang aman"
+        },
+        "mobile": {
+          "title": "Aksesibilitas Mobile",
+          "description": "Desain responsif bekerja sempurna di semua perangkat"
+        },
+        "workflows": {
+          "title": "Alur Kerja Otomatis",
+          "description": "Urutan tindak lanjut dan otomatisasi perawatan anggota"
+        },
+        "reporting": {
+          "title": "Pelaporan Real-Time",
+          "description": "Hasilkan laporan instan dan ekspor data kapan saja"
+        },
+        "forms": {
+          "title": "Formulir Kustom",
+          "description": "Buat formulir pendaftaran dan survei untuk berbagai tujuan"
+        },
+        "roles": {
+          "title": "Akses Berbasis Peran",
+          "description": "Izin yang aman untuk staf dan relawan"
+        }
+      },
+      "ctaSection": {
+        "title": "Siap Membangun yang Lebih Kuat",
+        "titleHighlight": "Komunitas Gereja?",
+        "description": "Transformasi gereja Anda dengan platform gratis komprehensif kami yang dirancang untuk memperdalam hubungan dan memperkuat komunitas gereja melalui teknologi modern.",
+        "cta": "Mulai Gratis"
+      }
+    },
+    "testimonials": {
+      "title": "Dicintai oleh Gereja",
+      "titleHighlight": "di Mana-mana",
+      "subtitle": "Bergabunglah dengan gereja-gereja yang sedang bertumbuh yang telah mengubah pelayanan mereka dengan platform kami yang sepenuhnya gratis. Inilah yang dikatakan para pendeta dan administrator gereja tentang B1.",
+      "stats": {
+        "churchesValue": "100+",
+        "churchesLabel": "Gereja Mempercayai Kami",
+        "freeValue": "Gratis",
+        "freeLabel": "Selamanya & Seterusnya",
+        "uptimeValue": "99.9%",
+        "uptimeLabel": "Jaminan Uptime",
+        "supportValue": "24/7",
+        "supportLabel": "Dukungan Tersedia"
+      },
+      "items": [
+        {
+          "content": "Saya sangat merekomendasikan ChurchApps. Ini adalah pelayanan dalam arti yang sesungguhnya dan terbaik. ChurchApps menyediakan layanan teknis untuk meningkatkan dan mengangkat dampak spiritual gereja di komunitas mereka. Mereka akan membantu infrastruktur Gereja untuk tahun-tahun mendatang."
+        },
+        {
+          "content": "ChurchApps membantu kami menjadi lebih terlihat di komunitas kami\u2014meningkatkan kesadaran, donasi, dan relawan sehingga kami dapat lebih baik melayani keluarga yang membutuhkan."
+        },
+        {
+          "content": "ChurchApps lebih dari sekadar perangkat lunak\u2014ini adalah alat praktis yang mendukung misi, visi, dan pekerjaan pelayanan sehari-hari. Saya bersyukur atas kesempatan untuk mempelajarinya, mengajarkannya, dan menyaksikan bagaimana perangkat ini memberdayakan gereja untuk beroperasi dengan kejelasan, efisiensi, dan tujuan yang lebih besar."
+        },
+        {
+          "content": "Memiliki halaman donasi telah meningkatkan pemberian kepada organisasi kami. Orang-orang tidak hanya menghargai kemudahan memindai kode untuk dibawa langsung ke halaman donasi, tetapi pemberian bulanan juga dapat diatur bagi mereka yang ingin pemberian online menjadi mudah."
+        },
+        {
+          "content": "Saya senang menyimpan catatan kehadiran, dan kami menggunakan B1 Admin setiap hari Minggu untuk tujuan itu. Kami sangat menghargai layanan B1 Admin, yang telah terbukti menjadi cara yang efektif bagi gereja kami untuk menyimpan catatan orang dan kehadiran."
+        }
+      ],
+      "ctaTitle": "Siap Mengubah Manajemen Gereja Anda?",
+      "ctaDescription": "Bergabunglah dengan komunitas gereja yang sedang bertumbuh yang sudah menggunakan B1 - sepenuhnya gratis selamanya. Tidak perlu kartu kredit, tidak ada masa uji coba, tidak ada biaya tersembunyi.",
+      "ctaButton": "Mulai Gratis"
+    },
+    "websiteBuilder": {
+      "badge": "Fitur Portal Web",
+      "title": "Pembuat Situs Web Gereja Gratis",
+      "titleHighlight": "Dalam Hitungan Menit, Bukan Bulan",
+      "description": "Buat situs web gereja yang indah dan profesional dengan pembuat situs web bawaan kami yang gratis. Tidak perlu coding - cukup seret, letakkan, dan publikasikan situs web gereja Anda.",
+      "dragDrop": {
+        "title": "Pembuat Seret & Letakkan",
+        "description": "Editor visual yang intuitif dengan komponen yang sudah dirancang. Buat halaman yang menakjubkan tanpa pengetahuan teknis apapun."
+      },
+      "templates": {
+        "title": "Template Khusus Gereja",
+        "description": "Template yang indah dirancang khusus untuk gereja. Termasuk halaman khotbah, kalender acara, dan etalase pelayanan."
+      },
+      "integration": {
+        "title": "Integrasi Aplikasi",
+        "description": "Hubungkan situs web Anda dengan aplikasi mobile secara mulus. Acara, khotbah, dan pembaruan komunitas tersinkronisasi secara otomatis."
+      },
+      "cta": "Mulai Membangun Situs Web Gereja Anda",
+      "ctaSubtext": "Pembuat situs web gereja gratis lengkap termasuk di setiap akun"
+    },
+    "perfectFor": {
+      "title": "Gratis Untuk Setiap",
+      "titleHighlight": "Komunitas Gereja",
+      "subtitle": "Platform yang sepenuhnya gratis untuk semua ukuran gereja. Misi pelayanan kami berarti tidak ada biaya tersembunyi, tidak ada batas fitur, tidak ada kejutan.",
+      "audiences": [
+        {
+          "title": "Gereja Lokal",
+          "description": "Jemaat lokasi tunggal yang ingin memodernisasi kehadiran digital mereka",
+          "stats": "Berapapun Ukurannya"
+        },
+        {
+          "title": "Jemaat Multi-Lokasi",
+          "description": "Beberapa lokasi yang membutuhkan manajemen terpadu dengan identitas unik",
+          "stats": "Semua Lokasi"
+        },
+        {
+          "title": "Jaringan Denominasi",
+          "description": "Organisasi yang melayani banyak gereja dengan sumber daya bersama",
+          "stats": "Setiap Jaringan"
+        },
+        {
+          "title": "Berfokus pada Komunitas",
+          "description": "Gereja yang mengutamakan keterlibatan mendalam dan pembangunan hubungan",
+          "stats": "Bertumbuh Setiap Hari"
+        }
+      ],
+      "integrations": {
+        "adminIntegration": {
+          "title": "Integrasi B1 Admin",
+          "description": "Terintegrasi secara mulus dengan perangkat lunak manajemen gereja B1 Admin untuk otomatisasi alur kerja yang lengkap."
+        },
+        "webPortal": {
+          "title": "Portal Web Termasuk",
+          "description": "Portal web yang komprehensif dengan pembuat situs web di samping pengalaman aplikasi mobile yang kuat."
+        },
+        "instantSetup": {
+          "title": "Pengaturan Instan",
+          "description": "Mulai dalam hitungan menit dengan proses onboarding kami yang efisien dan tim dukungan khusus."
+        }
+      },
+      "about": {
+        "title": "Tentang Perangkat Lunak Gratis Kami",
+        "description": "Kami adalah pelayanan nirlaba 501(c)(3) yang berdedikasi untuk menyediakan perangkat lunak manajemen gereja yang sepenuhnya gratis. Misi kami adalah memberdayakan gereja untuk berfokus pada pelayanan, bukan biaya perangkat lunak.",
+        "stats": {
+          "freeValue": "100%",
+          "freeLabel": "Gratis Selamanya",
+          "setupValue": "$0",
+          "setupLabel": "Biaya Pengaturan",
+          "churchesValue": "100+",
+          "churchesLabel": "Gereja Terlayani",
+          "openValue": "Terbuka",
+          "openLabel": "Kode Sumber"
+        },
+        "features": [
+          "Tidak perlu kartu kredit",
+          "Pengguna & anggota tanpa batas",
+          "Semua fitur termasuk",
+          "Pembaruan & peningkatan berkala",
+          "Dukungan komunitas 24/7",
+          "Akses mobile & web",
+          "Bantuan impor data",
+          "Transparansi open source"
+        ],
+        "learnMore": "Pelajari lebih lanjut tentang pelayanan dan misi kami",
+        "aboutChurchApps": "Tentang ChurchApps",
+        "viewOnGitHub": "Lihat di GitHub"
+      },
+      "cta": {
+        "title": "Siap Memperkuat Komunitas Anda?",
+        "description": "Temukan bagaimana platform pelayanan komprehensif kami dapat membantu Anda membangun hubungan yang lebih dalam dan komunitas yang lebih kuat.",
+        "button": "Mulai Gratis Hari Ini",
+        "tagline": "100% Gratis \u2022 Tanpa biaya tersembunyi \u2022 Misi yang digerakkan oleh pelayanan"
+      }
+    },
+    "footer": {
+      "companyDescription": "Platform komunikasi gereja serba ada yang menyatukan ibadah, komunitas, pemberian, dan administrasi.",
+      "product": "Produk",
+      "mobileFeatures": "Fitur Mobile",
+      "websiteBuilder": "Pembuat Situs Web",
+      "faq": "FAQ",
+      "aboutChurchApps": "Tentang ChurchApps",
+      "appsAndResources": "Aplikasi & Sumber Daya",
+      "androidApp": "Aplikasi Android",
+      "iosApp": "Aplikasi iOS",
+      "helpCenter": "Pusat Bantuan",
+      "contact": "Kontak",
+      "availableWorldwide": "Tersedia di Seluruh Dunia"
+    },
+    "faq": {
+      "pageTitle": "Pertanyaan yang Sering",
+      "pageTitleHighlight": "Diajukan",
+      "pageSubtitle": "Semua yang perlu Anda ketahui tentang B1.church, platform manajemen gereja yang 100% gratis.",
+      "documentTitle": "FAQ - B1.church | Pertanyaan Perangkat Lunak Manajemen Gereja Gratis",
+      "items": [
+        {
+          "question": "Apakah B1.church benar-benar 100% gratis?",
+          "answer": "Ya, B1.church sepenuhnya gratis tanpa biaya tersembunyi, tanpa tingkat premium, dan tanpa biaya transaksi pada donasi. Kami adalah pelayanan nirlaba 501(c)(3) yang percaya bahwa setiap gereja berhak mengakses teknologi modern tanpa memandang anggaran. Platform kami didanai oleh donasi dan Google Ad Grants."
+        },
+        {
+          "question": "Fitur apa saja yang termasuk dalam B1.church?",
+          "answer": "B1.church mencakup platform manajemen gereja yang lengkap: aplikasi mobile untuk iOS dan Android, pembuat situs web seret-dan-letakkan, pemberian online tanpa biaya transaksi, sistem check-in pintar, basis data anggota, pelacakan kehadiran, manajemen kelompok, perencanaan ibadah, perpustakaan lagu, manajemen khotbah, dan integrasi Alkitab."
+        },
+        {
+          "question": "Bagaimana B1.church dibandingkan dengan Planning Center?",
+          "answer": "B1.church 100% gratis sementara Planning Center mengenakan biaya per modul ($0-299+/bulan). B1 menyertakan aplikasi mobile dan pembuat situs web tanpa biaya, sementara Planning Center mengenakan biaya tambahan untuk Church Center dan tidak menyertakan pembuat situs web. Keduanya menawarkan fitur manajemen gereja, tetapi B1 menyediakan semuanya dalam satu paket gratis."
+        },
+        {
+          "question": "Bagaimana B1.church dibandingkan dengan Pushpay?",
+          "answer": "B1.church sepenuhnya gratis sementara Pushpay berbiaya $300-1000+/bulan. B1 tidak memiliki biaya transaksi pada pemberian, sementara Pushpay mengambil persentase dari donasi. B1 adalah open source dan mencakup manajemen gereja penuh, sementara Pushpay bersifat proprietary dan berfokus terutama pada pemberian."
+        },
+        {
+          "question": "Bagaimana B1.church dibandingkan dengan Tithe.ly?",
+          "answer": "B1.church sepenuhnya gratis tanpa biaya transaksi. Tithe.ly menawarkan tingkat gratis tetapi mengenakan biaya untuk fitur premium dan mengambil persentase dari setiap donasi. B1 menyertakan perangkat lunak manajemen gereja penuh, sementara ChMS Tithe.ly adalah produk berbayar terpisah."
+        },
+        {
+          "question": "Bagaimana B1.church dibandingkan dengan Breeze ChMS?",
+          "answer": "B1.church gratis sementara Breeze dimulai dari $72/bulan. B1 menyertakan aplikasi mobile penuh dan pembuat situs web, sementara Breeze memiliki fitur mobile yang terbatas dan tidak ada pembuat situs web. Keduanya menawarkan manajemen gereja, tetapi B1 menyediakan lebih banyak fitur tanpa biaya."
+        },
+        {
+          "question": "Bisakah saya mendapatkan aplikasi mobile kustom untuk gereja saya?",
+          "answer": "Ya, B1.church menyediakan aplikasi mobile dengan merek kustom untuk iOS dan Android. Gereja Anda mendapatkan aplikasinya sendiri dengan merek Anda yang dapat diunduh anggota dari App Store dan Google Play. Ini termasuk gratis dengan B1."
+        },
+        {
+          "question": "Apakah B1.church mendukung pemberian online?",
+          "answer": "Ya, B1.church menyertakan pemberian online yang aman dengan dukungan kartu kredit dan transfer bank. Anda dapat mengatur donasi berulang, mengelola beberapa dana, dan menyediakan riwayat pemberian untuk laporan pajak. Kami menggunakan integrasi langsung dengan Stripe tanpa biaya platform B1 - gereja Anda menegosiasikan tarif langsung dengan Stripe (biasanya sekitar 2.9% + 30\u00a2)."
+        },
+        {
+          "question": "Bisakah saya membangun situs web dengan B1.church?",
+          "answer": "Ya, B1.church menyertakan pembuat situs web seret-dan-letakkan dengan template yang responsif pada mobile. Anda dapat menggunakan domain kustom, dan situs web terintegrasi dengan semua fitur B1 Anda seperti acara, kelompok, dan pemberian."
+        },
+        {
+          "question": "Apakah B1.church memiliki check-in untuk pelayanan anak?",
+          "answer": "Ya, B1.church menyertakan sistem check-in pintar dengan kios swalayan tanpa sentuh, check-in keluarga, penugasan kelompok otomatis, kode keamanan untuk penjemputan anak, dan pelacakan kehadiran dengan laporan."
+        },
+        {
+          "question": "Apakah B1.church open source?",
+          "answer": "Ya, B1.church sepenuhnya open source. Anda dapat melihat kode kami di GitHub di github.com/ChurchApps. Ini berarti Anda dapat self-host jika diinginkan, berkontribusi untuk peningkatan, dan percaya bahwa data Anda ditangani secara transparan."
+        },
+        {
+          "question": "Siapa yang membangun B1.church?",
+          "answer": "B1.church dibangun oleh Live Church Solutions, organisasi nirlaba 501(c)(3) (EIN 45-5349618). Kami adalah pelayanan yang terdiri dari para pengembang yang percaya bahwa gereja tidak seharusnya harus memilih antara teknologi dan pendanaan pelayanan."
+        },
+        {
+          "question": "Produk gratis apa lagi yang ditawarkan Live Church Solutions?",
+          "answer": "Selain B1.church, kami menawarkan FreeShow (perangkat lunak presentasi gratis di freeshow.app, alternatif untuk ProPresenter) dan Lessons.church (kurikulum gereja gratis dengan lebih dari 1.100 pelajaran untuk segala usia). Semua produk kami gratis dan open source."
+        },
+        {
+          "question": "Bagaimana cara memulai dengan B1.church?",
+          "answer": "Memulai sangat mudah: kunjungi b1.church, klik 'Mulai Gratis', buat akun gereja Anda, sesuaikan aplikasi dan situs web Anda, dan undang jemaat Anda. Tidak perlu kartu kredit dan tidak ada masa uji coba - gratis selamanya."
+        },
+        {
+          "question": "Apakah B1.church mendukung banyak kampus?",
+          "answer": "Ya, B1.church mendukung gereja multi-kampus. Anda dapat mengelola beberapa lokasi dari satu dasbor terpadu dengan data, kehadiran, dan kelompok khusus kampus sambil mempertahankan satu basis data anggota."
+        }
+      ],
+      "stillHaveQuestions": "Masih memiliki pertanyaan?",
+      "supportText": "Tim dukungan kami siap membantu Anda memulai dengan B1.church.",
+      "contactSupport": "Hubungi Dukungan",
+      "viewDocumentation": "Lihat Dokumentasi"
+    },
+    "compare": {
+      "notFound": {
+        "title": "Perbandingan Tidak Ditemukan",
+        "subtitle": "Lihat perbandingan kami yang tersedia:"
+      },
+      "b1vsPrefix": "B1 vs",
+      "noHiddenFees": "Tidak ada biaya tersembunyi, selamanya",
+      "plusTransactionFees": "Plus biaya transaksi",
+      "featureColumn": "Fitur",
+      "ourTake": "Pandangan Kami",
+      "ctaTitle": "Siap menghemat uang gereja Anda?",
+      "ctaDescription": "Beralihlah ke B1.church dan alihkan anggaran perangkat lunak Anda ke pelayanan.",
+      "ctaButton": "Mulai Gratis",
+      "otherComparisons": "Perbandingan Lain",
+      "competitors": {
+        "planning-center": {
+          "name": "Planning Center",
+          "tagline": "Alternatif gratis untuk Planning Center",
+          "description": "Planning Center adalah platform manajemen gereja populer dengan harga modular. B1.church menawarkan fitur serupa sepenuhnya gratis.",
+          "features": [
+            { "name": "Basis Data Anggota", "b1": true, "competitor": true },
+            { "name": "Sistem Check-in", "b1": true, "competitor": "$99/mo" },
+            { "name": "Pemberian Online", "b1": "Tanpa biaya B1", "competitor": "Biaya Platform + Stripe" },
+            { "name": "Manajemen Kelompok", "b1": true, "competitor": "$50/mo" },
+            { "name": "Perencanaan Ibadah", "b1": true, "competitor": "$14-99/mo" },
+            { "name": "Aplikasi Mobile", "b1": "Aplikasi bermerek gratis", "competitor": "$0-199/mo" },
+            { "name": "Pembuat Situs Web", "b1": true, "competitor": false },
+            { "name": "Manajemen Khotbah", "b1": true, "competitor": false },
+            { "name": "Multi-Kampus", "b1": true, "competitor": "Biaya tambahan" },
+            { "name": "Open Source", "b1": true, "competitor": false }
+          ],
+          "pricingB1": "100% Gratis",
+          "pricingCompetitor": "$0 - $500+/bulan tergantung modul",
+          "verdict": "B1.church menyediakan semua fitur inti Planning Center tanpa kerumitan harga modular. Jika anggaran menjadi perhatian, B1 adalah pilihan yang jelas."
+        },
+        "pushpay": {
+          "name": "Pushpay",
+          "tagline": "Alternatif gratis untuk Pushpay",
+          "description": "Pushpay dikenal untuk pemberian mobile tetapi hadir dengan biaya bulanan dan biaya transaksi yang signifikan. B1.church menawarkan pemberian dengan biaya platform nol.",
+          "features": [
+            { "name": "Pemberian Online", "b1": "Tanpa biaya B1", "competitor": "Biaya Platform + Stripe" },
+            { "name": "Donasi Berulang", "b1": true, "competitor": true },
+            { "name": "Aplikasi Mobile", "b1": "Aplikasi bermerek gratis", "competitor": "Termasuk" },
+            { "name": "Basis Data Anggota", "b1": true, "competitor": "ChMS tambahan" },
+            { "name": "Sistem Check-in", "b1": true, "competitor": "Biaya tambahan" },
+            { "name": "Pembuat Situs Web", "b1": true, "competitor": false },
+            { "name": "Manajemen Kelompok", "b1": true, "competitor": "Biaya tambahan" },
+            { "name": "Laporan Pemberian", "b1": true, "competitor": true },
+            { "name": "Manajemen Dana", "b1": true, "competitor": true },
+            { "name": "Open Source", "b1": true, "competitor": false }
+          ],
+          "pricingB1": "100% Gratis",
+          "pricingCompetitor": "$300 - $1,000+/bulan",
+          "verdict": "Pushpay kaya fitur tetapi mahal. B1.church menawarkan fitur pemberian yang sebanding plus manajemen gereja penuh tanpa biaya. Penghematan dapat dialihkan ke pelayanan."
+        },
+        "tithely": {
+          "name": "Tithe.ly",
+          "tagline": "Alternatif gratis untuk Tithe.ly",
+          "description": "Tithe.ly menawarkan alat pemberian dan manajemen gereja dengan harga freemium. B1.church menyediakan semuanya gratis tanpa biaya transaksi.",
+          "features": [
+            { "name": "Pemberian Online", "b1": "Tanpa biaya B1", "competitor": "Biaya Platform + Stripe" },
+            { "name": "Donasi Berulang", "b1": true, "competitor": true },
+            { "name": "Aplikasi Mobile", "b1": "Aplikasi bermerek gratis", "competitor": "$99/mo" },
+            { "name": "Basis Data Anggota", "b1": true, "competitor": "$99/mo" },
+            { "name": "Sistem Check-in", "b1": true, "competitor": "$49/mo" },
+            { "name": "Pembuat Situs Web", "b1": true, "competitor": "$49/mo" },
+            { "name": "Manajemen Kelompok", "b1": true, "competitor": "$99/mo" },
+            { "name": "Manajemen Khotbah", "b1": true, "competitor": "$49/mo" },
+            { "name": "Multi-Kampus", "b1": true, "competitor": "Biaya tambahan" },
+            { "name": "Open Source", "b1": true, "competitor": false }
+          ],
+          "pricingB1": "100% Gratis",
+          "pricingCompetitor": "Tingkat gratis + $49-199/bulan untuk fitur",
+          "verdict": "Tingkat gratis Tithe.ly terbatas. Untuk mendapatkan fungsionalitas penuh, biaya meningkat dengan cepat. B1.church menyertakan semuanya sejak hari pertama tanpa tekanan upgrade."
+        },
+        "breeze": {
+          "name": "Breeze ChMS",
+          "tagline": "Alternatif gratis untuk Breeze ChMS",
+          "description": "Breeze adalah sistem manajemen gereja sederhana dengan harga yang langsung. B1.church menawarkan lebih banyak fitur tanpa biaya.",
+          "features": [
+            { "name": "Basis Data Anggota", "b1": true, "competitor": true },
+            { "name": "Manajemen Pemberian", "b1": "Tanpa biaya B1", "competitor": "2.9% + 30\u00a2" },
+            { "name": "Sistem Check-in", "b1": true, "competitor": "Dasar" },
+            { "name": "Aplikasi Mobile", "b1": "Aplikasi bermerek gratis", "competitor": "Terbatas" },
+            { "name": "Pembuat Situs Web", "b1": true, "competitor": false },
+            { "name": "Manajemen Kelompok", "b1": true, "competitor": true },
+            { "name": "Manajemen Acara", "b1": true, "competitor": true },
+            { "name": "Penjadwalan Relawan", "b1": true, "competitor": true },
+            { "name": "Multi-Kampus", "b1": true, "competitor": false },
+            { "name": "Open Source", "b1": true, "competitor": false }
+          ],
+          "pricingB1": "100% Gratis",
+          "pricingCompetitor": "$72 - $135/bulan",
+          "verdict": "Breeze sederhana dan terjangkau, tetapi B1.church lebih sederhana untuk anggaran (gratis!) sambil menawarkan lebih banyak fitur seperti pembuat situs web dan aplikasi mobile penuh."
+        }
+      }
+    },
+    "churchManagement": {
+      "hero": {
+        "title": "Gratis",
+        "titleHighlight": "Perangkat Lunak Manajemen Gereja",
+        "titleLine2": "Platform Pelayanan Lengkap",
+        "description": "<strong>Perangkat lunak manajemen gereja</strong> profesional dengan pelacakan kehadiran, basis data anggota, manajemen pemberian, dan alat komunikasi. <strong>Perangkat lunak gereja gratis</strong> sepenuhnya yang disediakan oleh Live Church Solutions, pelayanan nirlaba 501(c)(3). Bergabunglah dengan 100+ gereja yang menghemat ribuan dolar dari biaya perangkat lunak pelayanan.",
+        "ctaPrimary": "Mulai Gratis",
+        "ctaSecondary": "Coba Demo",
+        "trustLine": "Dipercaya oleh Gereja yang Sedang Bertumbuh di Seluruh Dunia",
+        "trustFree": "Sepenuhnya Gratis Selamanya",
+        "trustNonProfit": "Pelayanan Nirlaba 501(c)(3)",
+        "trustOpenSource": "Open Source"
+      },
+      "featuresHeader": {
+        "title": "Lengkap",
+        "titleHighlight": "Sistem Manajemen Gereja",
+        "titleSuffix": "Fitur",
+        "description": "Perangkat lunak basis data gereja profesional dengan manajemen anggota, pelacakan kehadiran, administrasi pemberian, dan alat komunikasi pelayanan. Sistem manajemen gereja gratis yang dirancang khusus untuk jemaat yang sedang bertumbuh dan gereja multi-kampus."
+      },
+      "checkinStations": {
+        "title": "Stasiun Check-in Swalayan",
+        "description": "Pastikan keamanan anak sambil membebaskan relawan untuk berinteraksi dengan keluarga. Sistem check-in swalayan kami menghasilkan kode yang cocok untuk anak-anak dan orang dewasa, menciptakan proses penjemputan yang aman.",
+        "features": [
+          "Cari berdasarkan nomor telepon dan pilih ibadah secara otomatis",
+          "Mencetak label dan tanda terima secara nirkabel ke printer bersama",
+          "Berjalan di tablet Android terjangkau di bawah $80",
+          "Tersinkronisasi otomatis dengan sistem pelacakan kehadiran"
+        ]
+      },
+      "mainFeatures": [
+        {
+          "title": "Manajemen Orang Lengkap",
+          "description": "Pertahankan catatan anggota dan tamu yang rinci dengan informasi kontak, hubungan, ulang tahun, dan pelacakan hari jadi. Kemampuan pencarian dan penyaringan lanjutan."
+        },
+        {
+          "title": "Analitik Kehadiran",
+          "description": "Lacak tren kehadiran di semua ibadah dan kelompok dengan grafik dan laporan yang indah. Pantau pola keterlibatan dan pertumbuhan dari waktu ke waktu."
+        },
+        {
+          "title": "Manajemen Kelompok & Pelayanan",
+          "description": "Atur kelompok, kelas, dan pelayanan tanpa batas. Kelola penugasan anggota, lacak partisipasi, dan buat kategori kelompok kustom."
+        },
+        {
+          "title": "Manajemen Pemberian Lanjutan",
+          "description": "Proses donasi dengan manajemen batch, pelacakan dana, dan pelaporan keuangan yang komprehensif. Hasilkan laporan pajak dan pantau tren pemberian."
+        },
+        {
+          "title": "Perencanaan Ibadah & Pelayanan",
+          "description": "Jadwalkan ibadah, tugaskan anggota tim, dan kelola koordinasi relawan. Lacak posisi yang dibutuhkan dan otomatisasi notifikasi."
+        },
+        {
+          "title": "Perpustakaan Lagu & Aransemen",
+          "description": "Atur perpustakaan lagu lengkap Anda dengan beberapa aransemen, kunci, dan chord. Tautkan ke sumber daya eksternal dan kelola daftar lagu ibadah."
+        },
+        {
+          "title": "Pusat Komunikasi",
+          "description": "Kirim email dan pengumuman yang tertarget. Buat alur kerja otomatis dan jaga jemaat Anda tetap terhubung."
+        },
+        {
+          "title": "Dukungan Multi-Kampus",
+          "description": "Kelola beberapa lokasi dari satu dasbor terpadu. Lacak data khusus kampus sambil mempertahankan pelaporan seluruh organisasi."
+        }
+      ],
+      "testimonials": {
+        "title": "Dicintai oleh Gereja",
+        "titleHighlight": "di Mana-mana",
+        "subtitle": "Bergabunglah dengan gereja-gereja yang sedang bertumbuh yang telah mengubah pelayanan mereka dengan platform kami yang sepenuhnya gratis. Inilah yang dikatakan para pendeta dan administrator gereja.",
+        "items": [
+          {
+            "content": "Kami menggunakan platform ini setiap hari Minggu untuk melacak kehadiran dan menyimpan catatan semua yang hadir, termasuk anak-anak Sekolah Minggu kami. Sebagai misionaris dengan anggaran terbatas, kami menghargai bahwa perangkat lunak ini gratis dan efektif."
+          },
+          {
+            "content": "Ini adalah penyelamat gereja. Sebagai Gereja kecil dengan anggaran terbatas, perangkat lunak ini adalah ANUGERAH TUHAN dan berkat. Ini ramah pengguna dan mudah diatur. Laporan donasi mudah dibuat. Fakta bahwa saya dapat mengekspor data ke excel membuat analisis catatan menjadi sangat sederhana. Ini telah memangkas setidaknya 25% dari waktu kantor saya."
+          },
+          {
+            "content": "Ini membantu kami bertransisi ke pemberian digital dengan mulus selama pandemi. Tim dukungannya luar biasa dan platformnya sangat dapat diandalkan. Karena gratis, kami dapat mengalihkan anggaran perangkat lunak kami ke pelayanan yang sebenarnya."
+          }
+        ]
+      },
+      "aboutSection": {
+        "title": "Tentang Kami",
+        "titleHighlight": "Perangkat Lunak Gereja Gratis",
+        "description": "<strong>Perangkat lunak manajemen gereja</strong> yang komprehensif disediakan sepenuhnya gratis untuk gereja Kristen dan pelayanan oleh <strong>Live Church Solutions</strong>, organisasi nirlaba 501(c)(3) yang didirikan pada tahun 2012. Misi kami adalah membantu gereja mengimplementasikan <strong>perangkat lunak pelayanan</strong> profesional tanpa biaya tinggi yang biasanya dari sistem administrasi gereja."
+      },
+      "stats": [
+        {
+          "number": "$800M",
+          "label": "Gereja menghabiskan setiap tahun untuk perangkat lunak manajemen",
+          "description": "Kami percaya uang ini dapat digunakan dengan lebih baik"
+        },
+        {
+          "number": "100+",
+          "label": "Gereja sudah menggunakan platform kami",
+          "description": "Komunitas pengguna yang puas dan terus bertumbuh"
+        },
+        {
+          "number": "2012",
+          "label": "Tahun Live Church Solutions didirikan",
+          "description": "Lebih dari satu dekade membantu gereja dengan teknologi"
+        },
+        {
+          "number": "100%",
+          "label": "Jaminan gratis selamanya",
+          "description": "Tidak ada biaya tersembunyi, tidak ada uji coba, tidak ada batas"
+        }
+      ],
+      "mission": {
+        "title": "Misi Kami: Membantu Gereja Berfokus pada Pelayanan",
+        "description": "Setiap tahun Gereja menghabiskan lebih dari <strong>$800 juta</strong> untuk perangkat lunak manajemen gereja. Kami percaya uang itu dapat digunakan dengan lebih baik, itulah sebabnya kami mengembangkan platform ini; solusi manajemen gereja open-source yang sepenuhnya gratis.",
+        "learnMore": "Pelajari Lebih Lanjut Tentang Live Church Solutions",
+        "viewOnGitHub": "Lihat di GitHub"
+      },
+      "allFeatures": {
+        "title": "Semua yang Anda Butuhkan, Sepenuhnya Gratis",
+        "subtitle": "Tidak ada masa uji coba, tidak ada batas anggota, tidak ada biaya tersembunyi",
+        "items": [
+          "Basis data anggota lengkap dengan profil terperinci",
+          "Pelacakan kehadiran dengan aplikasi check-in mandiri",
+          "Manajemen kelompok dan kelompok kecil",
+          "Manajemen pemberian dengan pelaporan terperinci",
+          "Formulir kustom dan pengumpulan data",
+          "Alat komunikasi email",
+          "Manajemen dan penjadwalan acara",
+          "Impor data dari sistem yang sudah ada",
+          "Dukungan multi-situs dan multi-kampus",
+          "Akses dan izin berbasis peran",
+          "Open source dengan akses GitHub"
+        ]
+      },
+      "cta": {
+        "title": "Siap Berhenti Membayar untuk Perangkat Lunak Manajemen Gereja?",
+        "description": "Bergabunglah dengan gereja-gereja di seluruh dunia yang telah beralih ke solusi open-source yang sepenuhnya gratis yang dibangun oleh pelayanan, untuk pelayanan.",
+        "primaryButton": "Mulai Gratis",
+        "secondaryButton": "Coba Demo"
+      }
+    },
+    "notFound": {
+      "title": "404",
+      "message": "Oops! Halaman tidak ditemukan",
+      "returnHome": "Kembali ke Beranda"
+    }
+  }
+}

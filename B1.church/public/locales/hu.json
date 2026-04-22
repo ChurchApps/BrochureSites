@@ -1,0 +1,599 @@
+{
+  "brochure": {
+    "header": {
+      "features": "Funkciók",
+      "churchManagement": "Gyülekezetkezelés",
+      "about": "Rólunk",
+      "contact": "Kapcsolat",
+      "signIn": "Bejelentkezés",
+      "getStartedFree": "Kezdje el ingyen"
+    },
+    "hero": {
+      "badge": "100% Ingyenes \u2022 Szolgálatközpontú platform",
+      "headlineTop": "Gyülekezeti közösség",
+      "headlineBottom": "Korlátok nélkül",
+      "subheadline": "Teljes körű gyülekezetkezelő szoftver mobilalkalmazással, weboldal-szerkesztővel, digitális adományozással és közösségi funkciókkal. 100%-ban ingyenes gyülekezeti platform, amelyet egy szolgálat tervezett szolgálatok számára.",
+      "ctaPrimary": "Kezdje el ingyen",
+      "ctaSecondary": "Nézze meg, hogyan működik",
+      "statFreeValue": "100%",
+      "statFreeLabel": "Örökre ingyenes",
+      "statModernValue": "Modern",
+      "statModernLabel": "Platform",
+      "statMinistryValue": "Szolgálat",
+      "statMinistryLabel": "Nem profitorientált"
+    },
+    "features": {
+      "community": {
+        "title": "Gyülekezeti közösségi kapcsolat",
+        "description": "Építsen mélyebb kapcsolatokat csoportok, beszélgetések, üzenetküldés és események révén. Tartsa a tagokat kapcsolatban a vasárnapi istentiszteleteken túl is értékes interakciókkal.",
+        "items": ["Kiscsoportok", "Közvetlen üzenetküldés", "Beszélgető fórumok", "Taglista"],
+        "cta": "Csatlakozzon a közösséghez"
+      },
+      "content": {
+        "title": "Digitális gyülekezeti tartalomközpont",
+        "description": "Férjen hozzá prédikációkhoz, tantermi leckékhez, napi igékhez és teljes bibliafordításokhoz. Tartsa a közösségét lekötve friss tartalommal a hét minden napján.",
+        "items": ["Prédikációs könyvtár", "Biblia-integráció", "A nap igéje", "Tantermi leckék"],
+        "cta": "Tartalom böngészése"
+      },
+      "giving": {
+        "title": "Online gyülekezeti adományozás",
+        "description": "Biztonságos adományozás bankkártyával vagy banki átutalással, ismétlődő lehetőségekkel és célzott alapokba történő adakozással. Nincsenek B1 díjak - közvetlen Stripe integráció.",
+        "items": ["Biztonságos fizetés", "Ismétlődő adományok", "Alapkezelés", "Adományozási előzmények"],
+        "cta": "Adományozás megkezdése"
+      },
+      "checkin": {
+        "title": "Gyülekezeti bejelentkezési platform",
+        "description": "Érintésmentes bejelentkezés az istentiszteletekre családkezeléssel és automatikus csoportbeosztással. Egyszerűsítse a jelenlét nyilvántartását.",
+        "items": ["Érintésmentes bejelentkezés", "Családkezelés", "Automatikus csoportbeosztás", "Jelenléti jelentések"],
+        "cta": "Próbálja ki a bejelentkezést"
+      },
+      "mobileFirst": "Mobil-elsőbbségű",
+      "managementSystem": {
+        "title": "Teljes körű",
+        "titleHighlight": "Gyülekezetkezelő rendszer",
+        "description": "Professzionális gyülekezeti adatbázis-szoftver tagkezeléssel, jelenlét-követéssel, adománykezeléssel és szolgálati kommunikációs eszközökkel. Ingyenes gyülekezetkezelő rendszer, amelyet kifejezetten növekvő gyülekezetek és többtelephelyes gyülekezetek számára terveztünk."
+      },
+      "grid": {
+        "peopleManagement": {
+          "title": "Személykezelés",
+          "description": "Teljes tag- és vendégnyilvántartás fejlett kereséssel és kapcsolatkövetéssel."
+        },
+        "attendanceAnalytics": {
+          "title": "Jelenléti elemzések",
+          "description": "Kövesse nyomon a jelenléti trendeket gyönyörű grafikonokkal és átfogó jelentésekkel."
+        },
+        "groupsMinistries": {
+          "title": "Csoportok és szolgálatok",
+          "description": "Szervezzen korlátlan számú csoportot, osztályt tagbeosztásokkal és nyomon követéssel."
+        },
+        "givingManagement": {
+          "title": "Adománykezelés",
+          "description": "Dolgozzon fel adományokat köteges kezeléssel, alapkövetéssel és adóigazolásokkal."
+        },
+        "servicePlanning": {
+          "title": "Istentisztelet-tervezés",
+          "description": "Ütemezze az istentiszteleteket, rendeljen hozzá csapatokat és kezelje az önkéntes koordinációt."
+        },
+        "songLibrary": {
+          "title": "Énektár",
+          "description": "Szervezze az énekeket feldolgozásokkal, hangnemekkel, akkordtáblákkal és előadási listákkal."
+        },
+        "communications": {
+          "title": "Kommunikáció",
+          "description": "Küldjön célzott e-maileket és közleményeket automatizált munkafolyamatokkal."
+        },
+        "multiCampus": {
+          "title": "Többtelephely",
+          "description": "Kezeljen több helyszínt egyetlen egységes irányítópultról, telephely-specifikus adatokkal."
+        }
+      },
+      "showcase": {
+        "groupsMinistries": {
+          "title": "Csoportok és szolgálatok",
+          "description": "Korlátlan csoportok és osztályok kezelése"
+        },
+        "peopleSearch": {
+          "title": "Személykeresés",
+          "description": "Fejlett tagsági adatbázis"
+        },
+        "servicePlanning": {
+          "title": "Istentisztelet-tervezés",
+          "description": "Csapatok és beosztások ütemezése"
+        },
+        "songLibrary": {
+          "title": "Énektár",
+          "description": "Feldolgozások és akkordtáblák"
+        }
+      },
+      "dashboard": {
+        "title": "Gyönyörű, intuitív irányítópult",
+        "description": "Férjen hozzá minden gyülekezeti adatához tiszta, modern felületünkön keresztül, amelyet a hatékonyság és a könnyű használat érdekében terveztünk."
+      },
+      "additional": {
+        "security": {
+          "title": "Biztonság és adatvédelem",
+          "description": "Iparági szabvány szerinti titkosítás és biztonságos adattárolás"
+        },
+        "mobile": {
+          "title": "Mobil elérhetőség",
+          "description": "A reszponzív dizájn tökéletesen működik minden eszközön"
+        },
+        "workflows": {
+          "title": "Automatizált munkafolyamatok",
+          "description": "Nyomonkövetési sorozatok és tagondozási automatizálás"
+        },
+        "reporting": {
+          "title": "Valós idejű jelentések",
+          "description": "Azonnali jelentések készítése és adatok exportálása bármikor"
+        },
+        "forms": {
+          "title": "Egyéni űrlapok",
+          "description": "Hozzon létre regisztrációs űrlapokat és felméréseket bármilyen célra"
+        },
+        "roles": {
+          "title": "Szerepkör-alapú hozzáférés",
+          "description": "Biztonságos jogosultságok a munkatársak és önkéntesek számára"
+        }
+      },
+      "ctaSection": {
+        "title": "Készen áll, hogy erősebb",
+        "titleHighlight": "gyülekezeti közösséget építsen?",
+        "description": "Alakítsa át gyülekezetét átfogó ingyenes platformunkkal, amelyet a kapcsolatok elmélyítésére és a gyülekezeti közösségek megerősítésére terveztek a modern technológia segítségével.",
+        "cta": "Kezdje el ingyen"
+      }
+    },
+    "testimonials": {
+      "title": "Gyülekezetek szerte",
+      "titleHighlight": "mindenütt szeretik",
+      "subtitle": "Csatlakozzon azokhoz a növekvő gyülekezetekhez, amelyek teljesen ingyenes platformunkkal átalakították szolgálatukat. Íme, mit mondanak a lelkészek és gyülekezeti vezetők a B1-ről.",
+      "stats": {
+        "churchesValue": "100+",
+        "churchesLabel": "Gyülekezet bízik bennünk",
+        "freeValue": "Ingyenes",
+        "freeLabel": "Örökre és mindig",
+        "uptimeValue": "99.9%",
+        "uptimeLabel": "Rendelkezésre állási garancia",
+        "supportValue": "24/7",
+        "supportLabel": "Elérhető támogatás"
+      },
+      "items": [
+        {
+          "content": "Szívből ajánlom a ChurchApps-t. Ez a szó legigazibb és legjobb értelmében vett szolgálat. A ChurchApps technikai szolgáltatásokat nyújt, hogy fokozza és felemelje a gyülekezet lelki hatását a közösségeiben. Éveken keresztül segíteni fogják az Egyház infrastruktúráját."
+        },
+        {
+          "content": "A ChurchApps segített abban, hogy láthatóbbá váljunk a közösségünkben - növelte a tudatosságot, az adományokat és az önkénteseket, hogy jobban szolgálhassuk a rászoruló családokat."
+        },
+        {
+          "content": "A ChurchApps több mint szoftver - egy gyakorlati eszköz, amely támogatja a szolgálat küldetését, jövőképét és mindennapi munkáját. Hálás vagyok a lehetőségért, hogy megtanulhatom, taníthatom, és tanúja lehetek annak, hogyan teszi képessé a gyülekezeteket arra, hogy nagyobb tisztánlátással, hatékonysággal és céltudatossággal működjenek."
+        },
+        {
+          "content": "Az adományozási oldal birtoklása növelte a szervezetünknek szánt adományokat. Az emberek nemcsak azt értékelik, hogy milyen könnyen beolvashatnak egy kódot, amely közvetlenül az adományozási oldalra viszi őket, de havi adományozás is beállítható azoknak, akik szeretnék, hogy az online adományozás egyszerű legyen."
+        },
+        {
+          "content": "Szeretek jelenléti nyilvántartást vezetni, és minden vasárnap ezért használjuk a B1 Admin-t. Nagyra értékeljük a B1 Admin szolgáltatását, amely hatékony módnak bizonyult gyülekezetünk számára, hogy nyilvántartást vezessen az emberekről és a jelenlétről."
+        }
+      ],
+      "ctaTitle": "Készen áll gyülekezetkezelésének átalakítására?",
+      "ctaDescription": "Csatlakozzon a B1-et már használó gyülekezetek növekvő közösségéhez - teljesen ingyen, örökre. Nincs szükség bankkártyára, próbaverzióra, rejtett díjakra.",
+      "ctaButton": "Kezdje el ingyen"
+    },
+    "websiteBuilder": {
+      "badge": "Webportál funkció",
+      "title": "Ingyenes gyülekezeti weboldal-szerkesztő",
+      "titleHighlight": "Percek, nem hónapok alatt",
+      "description": "Hozzon létre egy gyönyörű, professzionális gyülekezeti weboldalt ingyenes beépített weboldal-szerkesztőnkkel. Nincs szükség programozási tudásra - csak húzza, ejtse és tegye közzé gyülekezeti weboldalát.",
+      "dragDrop": {
+        "title": "Fogd és vidd szerkesztő",
+        "description": "Intuitív vizuális szerkesztő előre megtervezett komponensekkel. Lenyűgöző oldalakat hozhat létre technikai tudás nélkül."
+      },
+      "templates": {
+        "title": "Gyülekezetközpontú sablonok",
+        "description": "Kifejezetten gyülekezetek számára tervezett gyönyörű sablonok. Prédikációs oldalakat, eseménynaptárakat és szolgálatbemutatókat tartalmaznak."
+      },
+      "integration": {
+        "title": "Alkalmazásintegráció",
+        "description": "Kapcsolja össze zökkenőmentesen weboldalát a mobilalkalmazással. Az események, prédikációk és közösségi frissítések automatikusan szinkronizálódnak."
+      },
+      "cta": "Kezdje el gyülekezeti weboldalának építését",
+      "ctaSubtext": "Teljes ingyenes gyülekezeti weboldal-szerkesztő minden fiókhoz jár"
+    },
+    "perfectFor": {
+      "title": "Ingyenes minden",
+      "titleHighlight": "gyülekezeti közösségnek",
+      "subtitle": "Teljesen ingyenes platform minden méretű gyülekezet számára. Szolgálati küldetésünk azt jelenti, hogy nincsenek rejtett költségek, funkciókorlátok, meglepetések.",
+      "audiences": [
+        {
+          "title": "Helyi gyülekezetek",
+          "description": "Egyetlen telephellyel rendelkező gyülekezetek, akik modernizálni szeretnék digitális jelenlétüket",
+          "stats": "Bármilyen méret"
+        },
+        {
+          "title": "Több telephelyes gyülekezetek",
+          "description": "Több helyszín, amely egységes kezelést igényel egyedi identitással",
+          "stats": "Minden helyszín"
+        },
+        {
+          "title": "Felekezeti hálózatok",
+          "description": "Szervezetek, amelyek több gyülekezetet szolgálnak közös erőforrásokkal",
+          "stats": "Minden hálózat"
+        },
+        {
+          "title": "Közösségközpontú",
+          "description": "Gyülekezetek, amelyek a mély elköteleződést és a kapcsolatépítést helyezik előtérbe",
+          "stats": "Naponta növekszik"
+        }
+      ],
+      "integrations": {
+        "adminIntegration": {
+          "title": "B1 Admin integráció",
+          "description": "Zökkenőmentesen integrálva a B1 Admin gyülekezetkezelő szoftverrel a teljes munkafolyamat-automatizálás érdekében."
+        },
+        "webPortal": {
+          "title": "Webportál is benne foglaltatik",
+          "description": "Átfogó webportál weboldal-szerkesztővel a nagy teljesítményű mobilalkalmazás élménye mellett."
+        },
+        "instantSetup": {
+          "title": "Azonnali beállítás",
+          "description": "Kezdje el perceken belül egyszerűsített bevezetési folyamatunkkal és dedikált támogatási csapatunkkal."
+        }
+      },
+      "about": {
+        "title": "Ingyenes szoftverünkről",
+        "description": "Mi egy 501(c)(3) non-profit szolgálat vagyunk, amely teljesen ingyenes gyülekezetkezelő szoftver biztosítására szakosodott. Küldetésünk, hogy lehetővé tegyük a gyülekezetek számára, hogy a szolgálatra összpontosítsanak, ne a szoftverköltségekre.",
+        "stats": {
+          "freeValue": "100%",
+          "freeLabel": "Örökre ingyenes",
+          "setupValue": "$0",
+          "setupLabel": "Beállítási költség",
+          "churchesValue": "100+",
+          "churchesLabel": "Kiszolgált gyülekezet",
+          "openValue": "Nyílt",
+          "openLabel": "Forráskód"
+        },
+        "features": [
+          "Nem szükséges bankkártya",
+          "Korlátlan felhasználó és tag",
+          "Minden funkció benne foglaltatik",
+          "Rendszeres frissítések és fejlesztések",
+          "24/7 közösségi támogatás",
+          "Mobil és webes hozzáférés",
+          "Adatimportálási segítség",
+          "Nyílt forráskódú átláthatóság"
+        ],
+        "learnMore": "Tudjon meg többet szolgálatunkról és küldetésünkről",
+        "aboutChurchApps": "A ChurchApps-ról",
+        "viewOnGitHub": "Megtekintés a GitHub-on"
+      },
+      "cta": {
+        "title": "Készen áll közössége megerősítésére?",
+        "description": "Fedezze fel, hogyan segíthet átfogó szolgálati platformunk mélyebb kapcsolatok és erősebb közösségek építésében.",
+        "button": "Kezdje el ma ingyen",
+        "tagline": "100% Ingyenes \u2022 Nincsenek rejtett költségek \u2022 Szolgálatvezérelt küldetés"
+      }
+    },
+    "footer": {
+      "companyDescription": "Az all-in-one gyülekezeti kommunikációs platform, amely egyesíti az istentiszteletet, a közösséget, az adományozást és az adminisztrációt.",
+      "product": "Termék",
+      "mobileFeatures": "Mobil funkciók",
+      "websiteBuilder": "Weboldal-szerkesztő",
+      "faq": "GYIK",
+      "aboutChurchApps": "A ChurchApps-ról",
+      "appsAndResources": "Alkalmazások és erőforrások",
+      "androidApp": "Android alkalmazás",
+      "iosApp": "iOS alkalmazás",
+      "helpCenter": "Súgóközpont",
+      "contact": "Kapcsolat",
+      "availableWorldwide": "Világszerte elérhető"
+    },
+    "faq": {
+      "pageTitle": "Gyakran Ismételt",
+      "pageTitleHighlight": "Kérdések",
+      "pageSubtitle": "Minden, amit tudnia kell a B1.church-ről, a 100%-ban ingyenes gyülekezetkezelő platformról.",
+      "documentTitle": "GYIK - B1.church | Ingyenes gyülekezetkezelő szoftverrel kapcsolatos kérdések",
+      "items": [
+        {
+          "question": "Valóban 100%-ban ingyenes a B1.church?",
+          "answer": "Igen, a B1.church teljesen ingyenes, nincsenek rejtett díjak, prémium szintek és tranzakciós díjak az adományoknál. Mi egy 501(c)(3) non-profit szolgálat vagyunk, amely úgy véli, hogy minden gyülekezet megérdemli a modern technológiához való hozzáférést, költségvetéstől függetlenül. Platformunkat adományok és a Google Ad Grants finanszírozza."
+        },
+        {
+          "question": "Milyen funkciókat tartalmaz a B1.church?",
+          "answer": "A B1.church egy teljes gyülekezetkezelő platformot tartalmaz: mobilalkalmazások iOS és Android rendszerre, fogd és vidd weboldal-szerkesztő, online adományozás tranzakciós díjak nélkül, intelligens bejelentkezési rendszer, tagsági adatbázis, jelenlét-követés, csoportkezelés, istentisztelet-tervezés, énektár, prédikációkezelés és Biblia-integráció."
+        },
+        {
+          "question": "Hogyan hasonlítható össze a B1.church a Planning Center-rel?",
+          "answer": "A B1.church 100%-ban ingyenes, míg a Planning Center modulonként fizet ($0-299+/hó). A B1 ingyenesen tartalmaz mobilalkalmazást és weboldal-szerkesztőt, míg a Planning Center extra díjat számít fel a Church Center-ért, és nem tartalmaz weboldal-szerkesztőt. Mindkettő kínál gyülekezetkezelési funkciókat, de a B1 mindent egy ingyenes csomagban biztosít."
+        },
+        {
+          "question": "Hogyan hasonlítható össze a B1.church a Pushpay-jel?",
+          "answer": "A B1.church teljesen ingyenes, míg a Pushpay havi $300-1000+ dollárba kerül. A B1 nem számít fel tranzakciós díjat az adományozásnál, míg a Pushpay az adományok bizonyos százalékát levonja. A B1 nyílt forráskódú és teljes gyülekezetkezelést tartalmaz, míg a Pushpay zárt forráskódú és elsősorban az adományozásra fókuszál."
+        },
+        {
+          "question": "Hogyan hasonlítható össze a B1.church a Tithe.ly-val?",
+          "answer": "A B1.church teljesen ingyenes, tranzakciós díjak nélkül. A Tithe.ly ingyenes szintet kínál, de prémium funkciókért díjat számít fel, és minden adomány bizonyos százalékát levonja. A B1 teljes gyülekezetkezelő szoftvert tartalmaz, míg a Tithe.ly ChMS rendszere külön fizetős termék."
+        },
+        {
+          "question": "Hogyan hasonlítható össze a B1.church a Breeze ChMS-sel?",
+          "answer": "A B1.church ingyenes, míg a Breeze $72/hó díjtól indul. A B1 teljes mobilalkalmazást és weboldal-szerkesztőt tartalmaz, míg a Breeze korlátozott mobil funkciókkal rendelkezik és nincs weboldal-szerkesztője. Mindkettő kínál gyülekezetkezelést, de a B1 több funkciót biztosít díjmentesen."
+        },
+        {
+          "question": "Kaphatok egyedi mobilalkalmazást a gyülekezetemnek?",
+          "answer": "Igen, a B1.church egyedi márkázott mobilalkalmazásokat biztosít iOS és Android rendszerre. A gyülekezete saját márkázott alkalmazást kap, amelyet a tagok letölthetnek az App Store-ból és a Google Play-ről. Ez ingyenesen része a B1-nek."
+        },
+        {
+          "question": "Támogatja a B1.church az online adományozást?",
+          "answer": "Igen, a B1.church biztonságos online adományozást kínál bankkártyás és banki átutalásos támogatással. Beállíthat ismétlődő adományokat, kezelhet több alapot és adományozási előzményeket biztosíthat adóbevallásokhoz. Közvetlen Stripe integrációt használunk, B1 platformdíjak nélkül - gyülekezete közvetlenül a Stripe-pal tárgyalja meg a díjakat (általában körülbelül 2.9% + 30\u00a2)."
+        },
+        {
+          "question": "Készíthetek weboldalt a B1.church-csel?",
+          "answer": "Igen, a B1.church fogd és vidd weboldal-szerkesztőt tartalmaz mobilra optimalizált sablonokkal. Használhat egyedi domainnevet, és a weboldal integrálódik az összes B1 funkcióval, mint például események, csoportok és adományozás."
+        },
+        {
+          "question": "Van bejelentkezés a B1.church-ben a gyermekszolgálathoz?",
+          "answer": "Igen, a B1.church tartalmaz egy intelligens bejelentkezési rendszert érintésmentes önkiszolgáló kioszkokkal, családi bejelentkezéssel, automatikus csoportbeosztásokkal, gyermek elhozásához szükséges biztonsági kódokkal, valamint jelenlét-követéssel és jelentésekkel."
+        },
+        {
+          "question": "Nyílt forráskódú a B1.church?",
+          "answer": "Igen, a B1.church teljesen nyílt forráskódú. Kódunkat a GitHub-on tekintheti meg a github.com/ChurchApps címen. Ez azt jelenti, hogy igény esetén saját maga is üzemeltetheti, hozzájárulhat fejlesztésekkel, és biztos lehet abban, hogy adatait átláthatóan kezeljük."
+        },
+        {
+          "question": "Ki építi a B1.church-öt?",
+          "answer": "A B1.church-öt a Live Church Solutions építi, egy 501(c)(3) non-profit szervezet (EIN 45-5349618). Mi fejlesztők szolgálata vagyunk, akik úgy vélik, hogy a gyülekezeteknek nem kellene választaniuk a technológia és a szolgálat finanszírozása között."
+        },
+        {
+          "question": "Milyen más ingyenes termékeket kínál a Live Church Solutions?",
+          "answer": "A B1.church mellett kínáljuk a FreeShow-t (ingyenes prezentációs szoftver a freeshow.app oldalon, a ProPresenter alternatívája) és a Lessons.church-öt (ingyenes gyülekezeti tananyag több mint 1 100 leckével minden korosztály számára). Minden termékünk ingyenes és nyílt forráskódú."
+        },
+        {
+          "question": "Hogyan kezdhetem el a B1.church-öt?",
+          "answer": "Az indulás egyszerű: látogasson el a b1.church oldalra, kattintson a 'Kezdje el ingyen' gombra, hozza létre gyülekezeti fiókját, szabja testre alkalmazását és weboldalát, és hívja meg gyülekezetét. Nem szükséges bankkártya, és nincs próbaidőszak - örökre ingyenes."
+        },
+        {
+          "question": "Támogatja a B1.church a több telephelyet?",
+          "answer": "Igen, a B1.church támogatja a több telephelyes gyülekezeteket. Több helyszínt kezelhet egyetlen egységes irányítópultról, telephely-specifikus adatokkal, jelenléttel és csoportokkal, miközben egyetlen tagsági adatbázist tart fenn."
+        }
+      ],
+      "stillHaveQuestions": "Még mindig vannak kérdései?",
+      "supportText": "Támogatási csapatunk itt van, hogy segítsen Önnek a B1.church elindításában.",
+      "contactSupport": "Kapcsolatfelvétel a támogatással",
+      "viewDocumentation": "Dokumentáció megtekintése"
+    },
+    "compare": {
+      "notFound": {
+        "title": "Összehasonlítás nem található",
+        "subtitle": "Nézze meg elérhető összehasonlításainkat:"
+      },
+      "b1vsPrefix": "B1 vs",
+      "noHiddenFees": "Nincsenek rejtett díjak, soha",
+      "plusTransactionFees": "Plusz tranzakciós díjak",
+      "featureColumn": "Funkció",
+      "ourTake": "Véleményünk",
+      "ctaTitle": "Készen áll megspórolni gyülekezetének pénzét?",
+      "ctaDescription": "Váltson a B1.church-re, és fordítsa szoftveres költségvetését a szolgálatra.",
+      "ctaButton": "Kezdje el ingyen",
+      "otherComparisons": "Egyéb összehasonlítások",
+      "competitors": {
+        "planning-center": {
+          "name": "Planning Center",
+          "tagline": "Ingyenes alternatíva a Planning Center-hez",
+          "description": "A Planning Center egy népszerű gyülekezetkezelő platform moduláris árazással. A B1.church hasonló funkciókat kínál teljesen ingyen.",
+          "features": [
+            { "name": "Tagsági adatbázis", "b1": true, "competitor": true },
+            { "name": "Bejelentkezési rendszer", "b1": true, "competitor": "$99/mo" },
+            { "name": "Online adományozás", "b1": "Nincs B1 díj", "competitor": "Platform + Stripe díjak" },
+            { "name": "Csoportkezelés", "b1": true, "competitor": "$50/mo" },
+            { "name": "Istentisztelet-tervezés", "b1": true, "competitor": "$14-99/mo" },
+            { "name": "Mobilalkalmazás", "b1": "Ingyenes márkázott alkalmazás", "competitor": "$0-199/mo" },
+            { "name": "Weboldal-szerkesztő", "b1": true, "competitor": false },
+            { "name": "Prédikációkezelés", "b1": true, "competitor": false },
+            { "name": "Többtelephely", "b1": true, "competitor": "Extra költség" },
+            { "name": "Nyílt forráskód", "b1": true, "competitor": false }
+          ],
+          "pricingB1": "100% Ingyenes",
+          "pricingCompetitor": "$0 - $500+/month depending on modules",
+          "verdict": "A B1.church minden alapvető funkciót biztosít, amit a Planning Center, a moduláris árazás bonyolultsága nélkül. Ha a költségvetés aggodalomra ad okot, a B1 az egyértelmű választás."
+        },
+        "pushpay": {
+          "name": "Pushpay",
+          "tagline": "Ingyenes alternatíva a Pushpay-hez",
+          "description": "A Pushpay a mobil adományozásról ismert, de jelentős havi költségekkel és tranzakciós díjakkal jár. A B1.church adományozást kínál nulla platformdíjjal.",
+          "features": [
+            { "name": "Online adományozás", "b1": "Nincs B1 díj", "competitor": "Platform + Stripe díjak" },
+            { "name": "Ismétlődő adományok", "b1": true, "competitor": true },
+            { "name": "Mobilalkalmazás", "b1": "Ingyenes márkázott alkalmazás", "competitor": "Benne foglaltatik" },
+            { "name": "Tagsági adatbázis", "b1": true, "competitor": "ChMS extra" },
+            { "name": "Bejelentkezési rendszer", "b1": true, "competitor": "Extra költség" },
+            { "name": "Weboldal-szerkesztő", "b1": true, "competitor": false },
+            { "name": "Csoportkezelés", "b1": true, "competitor": "Extra költség" },
+            { "name": "Adományozási nyilatkozatok", "b1": true, "competitor": true },
+            { "name": "Alapkezelés", "b1": true, "competitor": true },
+            { "name": "Nyílt forráskód", "b1": true, "competitor": false }
+          ],
+          "pricingB1": "100% Ingyenes",
+          "pricingCompetitor": "$300 - $1,000+/month",
+          "verdict": "A Pushpay funkciógazdag, de drága. A B1.church összehasonlítható adományozási funkciókat kínál, valamint teljes gyülekezetkezelést díjmentesen. A megtakarítások átirányíthatók a szolgálatra."
+        },
+        "tithely": {
+          "name": "Tithe.ly",
+          "tagline": "Ingyenes alternatíva a Tithe.ly-hez",
+          "description": "A Tithe.ly gyülekezeti adományozási és kezelési eszközöket kínál freemium árazással. A B1.church mindent ingyen biztosít, tranzakciós díjak nélkül.",
+          "features": [
+            { "name": "Online adományozás", "b1": "Nincs B1 díj", "competitor": "Platform + Stripe díjak" },
+            { "name": "Ismétlődő adományok", "b1": true, "competitor": true },
+            { "name": "Mobilalkalmazás", "b1": "Ingyenes márkázott alkalmazás", "competitor": "$99/mo" },
+            { "name": "Tagsági adatbázis", "b1": true, "competitor": "$99/mo" },
+            { "name": "Bejelentkezési rendszer", "b1": true, "competitor": "$49/mo" },
+            { "name": "Weboldal-szerkesztő", "b1": true, "competitor": "$49/mo" },
+            { "name": "Csoportkezelés", "b1": true, "competitor": "$99/mo" },
+            { "name": "Prédikációkezelés", "b1": true, "competitor": "$49/mo" },
+            { "name": "Többtelephely", "b1": true, "competitor": "Extra költség" },
+            { "name": "Nyílt forráskód", "b1": true, "competitor": false }
+          ],
+          "pricingB1": "100% Ingyenes",
+          "pricingCompetitor": "Free tier + $49-199/mo for features",
+          "verdict": "A Tithe.ly ingyenes szintje korlátozott. A teljes funkcionalitás eléréséhez a költségek gyorsan összeadódnak. A B1.church az első naptól mindent tartalmaz, felminősítési nyomás nélkül."
+        },
+        "breeze": {
+          "name": "Breeze ChMS",
+          "tagline": "Ingyenes alternatíva a Breeze ChMS-hez",
+          "description": "A Breeze egy egyszerű gyülekezetkezelő rendszer egyértelmű árazással. A B1.church több funkciót kínál díjmentesen.",
+          "features": [
+            { "name": "Tagsági adatbázis", "b1": true, "competitor": true },
+            { "name": "Adománykezelés", "b1": "Nincs B1 díj", "competitor": "2.9% + 30\u00a2" },
+            { "name": "Bejelentkezési rendszer", "b1": true, "competitor": "Alapszintű" },
+            { "name": "Mobilalkalmazás", "b1": "Ingyenes márkázott alkalmazás", "competitor": "Korlátozott" },
+            { "name": "Weboldal-szerkesztő", "b1": true, "competitor": false },
+            { "name": "Csoportkezelés", "b1": true, "competitor": true },
+            { "name": "Eseménykezelés", "b1": true, "competitor": true },
+            { "name": "Önkéntes-ütemezés", "b1": true, "competitor": true },
+            { "name": "Többtelephely", "b1": true, "competitor": false },
+            { "name": "Nyílt forráskód", "b1": true, "competitor": false }
+          ],
+          "pricingB1": "100% Ingyenes",
+          "pricingCompetitor": "$72 - $135/month",
+          "verdict": "A Breeze egyszerű és megfizethető, de a B1.church egyszerűbb a költségvetés számára (ingyen!), miközben több funkciót kínál, például weboldal-szerkesztőt és teljes mobilalkalmazást."
+        }
+      }
+    },
+    "churchManagement": {
+      "hero": {
+        "title": "Ingyenes",
+        "titleHighlight": "Gyülekezetkezelő szoftver",
+        "titleLine2": "Teljes szolgálati platform",
+        "description": "Professzionális <strong>gyülekezetkezelő szoftver</strong> jelenlét-követéssel, tagsági adatbázissal, adománykezeléssel és kommunikációs eszközökkel. Teljesen <strong>ingyenes gyülekezeti szoftver</strong>, amelyet a Live Church Solutions, egy 501(c)(3) non-profit szolgálat biztosít. Csatlakozzon több mint 100 gyülekezethez, akik ezreket takarítanak meg a szolgálati szoftverköltségeken.",
+        "ctaPrimary": "Kezdje el ingyen",
+        "ctaSecondary": "Próbálja ki a demót",
+        "trustLine": "Növekvő gyülekezetek megbízható eszköze világszerte",
+        "trustFree": "Teljesen ingyenes örökre",
+        "trustNonProfit": "501(c)(3) non-profit szolgálat",
+        "trustOpenSource": "Nyílt forráskódú"
+      },
+      "featuresHeader": {
+        "title": "Teljes körű",
+        "titleHighlight": "Gyülekezetkezelő rendszer",
+        "titleSuffix": "funkciói",
+        "description": "Professzionális gyülekezeti adatbázis-szoftver tagkezeléssel, jelenlét-követéssel, adománykezeléssel és szolgálati kommunikációs eszközökkel. Ingyenes gyülekezetkezelő rendszer, amelyet kifejezetten növekvő gyülekezetek és többtelephelyes gyülekezetek számára terveztünk."
+      },
+      "checkinStations": {
+        "title": "Önkiszolgáló bejelentkezési állomások",
+        "description": "Biztosítsa a gyermekek biztonságát, miközben felszabadítja az önkénteseket, hogy a családokkal foglalkozhassanak. Önkiszolgáló bejelentkezési rendszerünk egyező kódokat generál a gyermekek és a felnőttek számára, biztonságos elhozási folyamatot teremtve.",
+        "features": [
+          "Keresés telefonszám alapján és istentiszteletek automatikus kiválasztása",
+          "Címkék és nyugták vezeték nélküli nyomtatása megosztott nyomtatókra",
+          "Megfizethető, $80 alatti Android táblagépeken fut",
+          "Automatikusan szinkronizálódik a jelenlét-követési rendszerrel"
+        ]
+      },
+      "mainFeatures": [
+        {
+          "title": "Teljes személykezelés",
+          "description": "Tartson fenn részletes tag- és vendégnyilvántartásokat kapcsolati adatokkal, kapcsolatokkal, születésnapokkal és évforduló-követéssel. Fejlett keresési és szűrési lehetőségek."
+        },
+        {
+          "title": "Jelenléti elemzések",
+          "description": "Kövesse nyomon a jelenléti trendeket minden istentiszteleten és csoportban gyönyörű grafikonokkal és jelentésekkel. Figyelje az elköteleződési mintákat és a növekedést az idő múlásával."
+        },
+        {
+          "title": "Csoport- és szolgálatkezelés",
+          "description": "Szervezzen korlátlan számú csoportot, osztályt és szolgálatot. Kezelje a tagbeosztásokat, kövesse a részvételt és hozzon létre egyéni csoportkategóriákat."
+        },
+        {
+          "title": "Fejlett adománykezelés",
+          "description": "Dolgozzon fel adományokat köteges kezeléssel, alapkövetéssel és átfogó pénzügyi jelentésekkel. Készítsen adóbevallásokat és figyelje az adományozási trendeket."
+        },
+        {
+          "title": "Istentisztelet- és szolgálattervezés",
+          "description": "Ütemezze az istentiszteleteket, rendeljen hozzá csapattagokat és kezelje az önkéntes koordinációt. Kövesse a szükséges pozíciókat és automatizálja az értesítéseket."
+        },
+        {
+          "title": "Énektár és feldolgozások",
+          "description": "Szervezze teljes énektárát több feldolgozással, hangnemekkel és akkordtáblákkal. Kapcsolódjon külső forrásokhoz és kezelje az istentiszteleti előadási listákat."
+        },
+        {
+          "title": "Kommunikációs központ",
+          "description": "Küldjön célzott e-maileket és közleményeket. Hozzon létre automatizált munkafolyamatokat és tartsa összekapcsolva a gyülekezetét."
+        },
+        {
+          "title": "Többtelephely-támogatás",
+          "description": "Kezeljen több helyszínt egyetlen egységes irányítópultról. Kövesse a telephely-specifikus adatokat, miközben fenntartja a szervezet egészére kiterjedő jelentést."
+        }
+      ],
+      "testimonials": {
+        "title": "Gyülekezetek szerte",
+        "titleHighlight": "mindenütt szeretik",
+        "subtitle": "Csatlakozzon azokhoz a növekvő gyülekezetekhez, amelyek teljesen ingyenes platformunkkal átalakították szolgálatukat. Íme, mit mondanak a lelkészek és gyülekezeti vezetők.",
+        "items": [
+          {
+            "content": "Ezt a platformot minden vasárnap használjuk a jelenlét követésére és a vasárnapi iskolás gyermekeinket is beleértve minden résztvevő nyilvántartására. Korlátozott költségvetésű misszionáriusokként értékeljük, hogy ez a szoftver ingyenes és hatékony."
+          },
+          {
+            "content": "Ez egy gyülekezetmentő. Egy korlátozott költségvetésű kis gyülekezetként ez a szoftver ISTEN AJÁNDÉKA és áldás. Felhasználóbarát és könnyen beállítható. Az adományozási jelentések könnyen elkészíthetők. Az a tény, hogy exportálhatom az adatokat Excelbe, nagyon egyszerűvé teszi a nyilvántartások elemzését. Legalább 25%-kal csökkentette az irodai munkaidőmet."
+          },
+          {
+            "content": "Ez segített nekünk zökkenőmentesen áttérni a digitális adományozásra a járvány idején. A támogatási csapat fantasztikus volt, és a platform hihetetlenül megbízható. Az, hogy ingyenes, lehetővé tette számunkra, hogy szoftveres költségvetésünket a tényleges szolgálatra fordítsuk."
+          }
+        ]
+      },
+      "aboutSection": {
+        "title": "Ingyenes",
+        "titleHighlight": "gyülekezeti szoftverünkről",
+        "description": "Átfogó <strong>gyülekezetkezelő szoftver</strong>, amelyet teljesen ingyenesen biztosít keresztény gyülekezetek és szolgálatok számára a <strong>Live Church Solutions</strong>, egy 2012-ben alapított 501(c)(3) non-profit szervezet. Küldetésünk, hogy segítsünk a gyülekezeteknek professzionális <strong>szolgálati szoftvert</strong> bevezetni a gyülekezeti adminisztrációs rendszerek tipikus magas költségei nélkül."
+      },
+      "stats": [
+        {
+          "number": "$800M",
+          "label": "Amit a gyülekezetek évente költenek kezelőszoftverre",
+          "description": "Úgy véljük, ezt a pénzt jobban lehet hasznosítani"
+        },
+        {
+          "number": "100+",
+          "label": "Platformunkat már használó gyülekezet",
+          "description": "Elégedett felhasználók növekvő közössége"
+        },
+        {
+          "number": "2012",
+          "label": "A Live Church Solutions alapításának éve",
+          "description": "Több mint egy évtizede segítjük a gyülekezeteket technológiával"
+        },
+        {
+          "number": "100%",
+          "label": "Örökre ingyenes garancia",
+          "description": "Nincsenek rejtett díjak, próbaidőszakok, korlátok"
+        }
+      ],
+      "mission": {
+        "title": "Küldetésünk: Segíteni a gyülekezeteknek a szolgálatra összpontosítani",
+        "description": "Az Egyház évente több mint <strong>800 millió dollárt</strong> költ gyülekezetkezelő szoftverre. Úgy véljük, hogy ezt a pénzt jobban lehet hasznosítani, ezért fejlesztettük ki ezt a platformot; egy teljesen ingyenes, nyílt forráskódú gyülekezetkezelő megoldást.",
+        "learnMore": "Tudjon meg többet a Live Church Solutions-ról",
+        "viewOnGitHub": "Megtekintés a GitHub-on"
+      },
+      "allFeatures": {
+        "title": "Minden, amire szüksége van, teljesen ingyen",
+        "subtitle": "Nincs próbaidőszak, tagsági korlát, rejtett díjak",
+        "items": [
+          "Teljes tagsági adatbázis részletes profilokkal",
+          "Jelenlét-követés önkiszolgáló bejelentkezési alkalmazással",
+          "Csoportok és kiscsoportok kezelése",
+          "Adománykezelés részletes jelentésekkel",
+          "Egyéni űrlapok és adatgyűjtés",
+          "E-mailes kommunikációs eszközök",
+          "Eseménykezelés és ütemezés",
+          "Adatimport meglévő rendszerekből",
+          "Több telephelyes támogatás",
+          "Szerepkör-alapú hozzáférés és jogosultságok",
+          "Nyílt forráskód GitHub hozzáféréssel"
+        ]
+      },
+      "cta": {
+        "title": "Készen áll leállni a gyülekezetkezelő szoftverért való fizetéssel?",
+        "description": "Csatlakozzon a világ gyülekezeteihez, amelyek áttértek egy teljesen ingyenes, nyílt forráskódú megoldásra, amelyet egy szolgálat épített szolgálatok számára.",
+        "primaryButton": "Kezdje el ingyen",
+        "secondaryButton": "Próbálja ki a demót"
+      }
+    },
+    "notFound": {
+      "title": "404",
+      "message": "Hoppá! Az oldal nem található",
+      "returnHome": "Vissza a főoldalra"
+    }
+  }
+}

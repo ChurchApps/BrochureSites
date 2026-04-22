@@ -1,0 +1,599 @@
+{
+  "brochure": {
+    "header": {
+      "features": "Funkcijos",
+      "churchManagement": "Bažnyčios valdymas",
+      "about": "Apie mus",
+      "contact": "Kontaktai",
+      "signIn": "Prisijungti",
+      "getStartedFree": "Pradėti nemokamai"
+    },
+    "hero": {
+      "badge": "100% nemokama \u2022 Tarnystei skirta platforma",
+      "headlineTop": "Bažnyčios bendruomenė",
+      "headlineBottom": "Be kliūčių",
+      "subheadline": "Visapusiška bažnyčios valdymo programinė įranga su mobiliąja programėle, svetainės kūrėju, skaitmenine auka ir bendruomenės funkcijomis. 100% nemokama bažnyčios platforma, sukurta tarnystės, tarnystėms.",
+      "ctaPrimary": "Pradėti nemokamai",
+      "ctaSecondary": "Sužinokite, kaip tai veikia",
+      "statFreeValue": "100%",
+      "statFreeLabel": "Amžinai nemokama",
+      "statModernValue": "Modernus",
+      "statModernLabel": "Platforma",
+      "statMinistryValue": "Tarnystė",
+      "statMinistryLabel": "Ne pelno siekianti"
+    },
+    "features": {
+      "community": {
+        "title": "Bažnyčios bendruomenės ryšys",
+        "description": "Kurkite gilesnius santykius per grupes, diskusijas, žinutes ir renginius. Sujunkite narius už sekmadienio pamaldų ribų prasmingomis sąveikomis.",
+        "items": ["Mažosios grupės", "Tiesioginės žinutės", "Diskusijų forumai", "Narių katalogas"],
+        "cta": "Prisijungti prie bendruomenės"
+      },
+      "content": {
+        "title": "Skaitmeninis bažnyčios turinio centras",
+        "description": "Pasiekite pamokslus, užsiėmimų pamokas, dienos eilutes ir pilnus Biblijos vertimus. Išlaikykite savo bendruomenę įsitraukusią su šviežiu turiniu visą savaitę.",
+        "items": ["Pamokslų biblioteka", "Biblijos integracija", "Dienos eilutė", "Užsiėmimų pamokos"],
+        "cta": "Naršyti turinį"
+      },
+      "giving": {
+        "title": "Internetinė auka bažnyčiai",
+        "description": "Saugios aukos kredito kortele ar per banką su pasikartojančiomis ir konkretiems fondams skirtomis parinktimis. Jokio B1 mokesčio – tiesioginė Stripe integracija.",
+        "items": ["Saugūs mokėjimai", "Pasikartojančios aukos", "Fondų valdymas", "Aukų istorija"],
+        "cta": "Pradėti aukoti"
+      },
+      "checkin": {
+        "title": "Bažnyčios registracijos platforma",
+        "description": "Bekontaktė registracija į pamaldas su šeimos valdymu ir automatiniu priskyrimu į grupes. Supaprastinkite lankomumo stebėjimą.",
+        "items": ["Bekontaktė registracija", "Šeimos valdymas", "Automatinis priskyrimas į grupes", "Lankomumo ataskaitos"],
+        "cta": "Išbandyti registraciją"
+      },
+      "mobileFirst": "Pirmiausia – mobilusis",
+      "managementSystem": {
+        "title": "Visapusiška",
+        "titleHighlight": "bažnyčios valdymo sistema",
+        "description": "Profesionali bažnyčios duomenų bazės programinė įranga su narių valdymu, lankomumo stebėjimu, aukų administravimu ir tarnystės komunikacijos įrankiais. Nemokama bažnyčios valdymo sistema, specialiai sukurta augančioms bendruomenėms ir kelių bažnyčių tinklams."
+      },
+      "grid": {
+        "peopleManagement": {
+          "title": "Žmonių valdymas",
+          "description": "Išsami narių ir svečių duomenų bazė su pažangia paieška ir santykių stebėjimu."
+        },
+        "attendanceAnalytics": {
+          "title": "Lankomumo analitika",
+          "description": "Stebėkite lankomumo tendencijas su gražiomis diagramomis ir išsamiomis ataskaitomis."
+        },
+        "groupsMinistries": {
+          "title": "Grupės ir tarnystės",
+          "description": "Organizuokite neribotą skaičių grupių, užsiėmimų su narių priskyrimu ir stebėjimu."
+        },
+        "givingManagement": {
+          "title": "Aukų valdymas",
+          "description": "Apdorokite aukas su partijų valdymu, fondų stebėjimu ir mokesčių pažymomis."
+        },
+        "servicePlanning": {
+          "title": "Pamaldų planavimas",
+          "description": "Planuokite pamaldas, priskirkite komandas ir koordinuokite savanorius."
+        },
+        "songLibrary": {
+          "title": "Giesmių biblioteka",
+          "description": "Organizuokite giesmes su aranžuotėmis, tonacijomis, akordų lapais ir programomis."
+        },
+        "communications": {
+          "title": "Komunikacija",
+          "description": "Siųskite tikslinius laiškus ir pranešimus su automatizuotais procesais."
+        },
+        "multiCampus": {
+          "title": "Kelios bažnyčios",
+          "description": "Valdykite kelias vietas iš vienos vieningos valdymo sistemos su konkrečiai vietai skirtais duomenimis."
+        }
+      },
+      "showcase": {
+        "groupsMinistries": {
+          "title": "Grupės ir tarnystės",
+          "description": "Valdykite neribotą skaičių grupių ir užsiėmimų"
+        },
+        "peopleSearch": {
+          "title": "Žmonių paieška",
+          "description": "Išplėstinė narių duomenų bazė"
+        },
+        "servicePlanning": {
+          "title": "Pamaldų planavimas",
+          "description": "Planuokite komandas ir užduotis"
+        },
+        "songLibrary": {
+          "title": "Giesmių biblioteka",
+          "description": "Aranžuotės ir akordų lapai"
+        }
+      },
+      "dashboard": {
+        "title": "Graži, intuityvi valdymo sistema",
+        "description": "Pasiekite visus savo bažnyčios duomenis per mūsų švarią, modernią sąsają, sukurtą efektyvumui ir patogiam naudojimui."
+      },
+      "additional": {
+        "security": {
+          "title": "Saugumas ir privatumas",
+          "description": "Pramonės standarto šifravimas ir saugus duomenų saugojimas"
+        },
+        "mobile": {
+          "title": "Prieinamumas iš mobiliųjų įrenginių",
+          "description": "Prisitaikantis dizainas puikiai veikia visuose įrenginiuose"
+        },
+        "workflows": {
+          "title": "Automatizuoti procesai",
+          "description": "Tolesnių veiksmų sekos ir narių priežiūros automatizavimas"
+        },
+        "reporting": {
+          "title": "Ataskaitos realiu laiku",
+          "description": "Kurkite momentines ataskaitas ir eksportuokite duomenis bet kada"
+        },
+        "forms": {
+          "title": "Pritaikomos formos",
+          "description": "Kurkite registracijos formas ir apklausas bet kokiam tikslui"
+        },
+        "roles": {
+          "title": "Prieiga pagal vaidmenis",
+          "description": "Saugūs leidimai darbuotojams ir savanoriams"
+        }
+      },
+      "ctaSection": {
+        "title": "Pasiruošę kurti stipresnę",
+        "titleHighlight": "bažnyčios bendruomenę?",
+        "description": "Transformuokite savo bažnyčią su mūsų visapusiška nemokama platforma, skirta gilinti santykius ir stiprinti bažnyčios bendruomenes per modernias technologijas.",
+        "cta": "Pradėti nemokamai"
+      }
+    },
+    "testimonials": {
+      "title": "Mylima bažnyčių",
+      "titleHighlight": "visame pasaulyje",
+      "subtitle": "Prisijunkite prie augančių bažnyčių, kurios transformavo savo tarnystę su mūsų visiškai nemokama platforma. Štai ką apie B1 sako ganytojai ir bažnyčių administratoriai.",
+      "stats": {
+        "churchesValue": "100+",
+        "churchesLabel": "Bažnyčios mumis pasitiki",
+        "freeValue": "Nemokama",
+        "freeLabel": "Amžinai ir visada",
+        "uptimeValue": "99.9%",
+        "uptimeLabel": "Veikimo laiko garantija",
+        "supportValue": "24/7",
+        "supportLabel": "Pagalba prieinama"
+      },
+      "items": [
+        {
+          "content": "Nuoširdžiai rekomenduoju ChurchApps. Tai tarnystė tikriausia ir geriausia šio žodžio prasme. ChurchApps teikia techninius sprendimus, kurie sustiprina ir iškelia bažnyčios dvasinę įtaką jų bendruomenėse. Jie padės Bažnyčios infrastruktūrai dar daugelį metų."
+        },
+        {
+          "content": "ChurchApps padėjo mums tapti labiau matomiems savo bendruomenėje – didinant žinomumą, aukas ir savanorių skaičių, kad galėtume geriau tarnauti šeimoms, kurioms reikia pagalbos."
+        },
+        {
+          "content": "ChurchApps yra daugiau nei programinė įranga – tai praktinis įrankis, palaikantis tarnystės misiją, viziją ir kasdienį darbą. Esu dėkingas už galimybę to mokytis, mokyti kitus ir matyti, kaip tai įgalina bažnyčias veikti aiškiau, efektyviau ir tikslingiau."
+        },
+        {
+          "content": "Aukų puslapis padidino mūsų organizacijai skiriamas aukas. Žmonės ne tik vertina, kaip paprasta nuskaityti kodą ir iškart patekti į aukų puslapį, bet ir gali lengvai nusistatyti mėnesinę auką tie, kurie nori patogiai aukoti internetu."
+        },
+        {
+          "content": "Man patinka fiksuoti lankomumą, todėl kiekvieną sekmadienį naudojame B1 Admin tam tikslui. Labai vertiname B1 Admin paslaugą, kuri pasirodė esanti veiksmingas būdas mūsų bažnyčiai fiksuoti žmones ir lankomumą."
+        }
+      ],
+      "ctaTitle": "Pasiruošę transformuoti savo bažnyčios valdymą?",
+      "ctaDescription": "Prisijunkite prie augančios bažnyčių bendruomenės, jau naudojančios B1 – visiškai nemokamai ir amžinai. Kredito kortelės nereikia, jokių bandomųjų laikotarpių, jokių paslėptų mokesčių.",
+      "ctaButton": "Pradėti nemokamai"
+    },
+    "websiteBuilder": {
+      "badge": "Žiniatinklio portalo funkcija",
+      "title": "Nemokamas bažnyčios svetainės kūrėjas",
+      "titleHighlight": "per minutes, ne mėnesius",
+      "description": "Sukurkite gražią, profesionalią bažnyčios svetainę su mūsų nemokamu, integruotu svetainės kūrėju. Jokių programavimo žinių – tiesiog tempkite, numeskite ir publikuokite savo bažnyčios svetainę.",
+      "dragDrop": {
+        "title": "„Tempk ir numesk“ kūrėjas",
+        "description": "Intuityvus vizualus redaktorius su iš anksto paruoštais komponentais. Kurkite įspūdingus puslapius be jokių techninių žinių."
+      },
+      "templates": {
+        "title": "Bažnyčioms pritaikyti šablonai",
+        "description": "Gražūs šablonai, specialiai sukurti bažnyčioms. Apima pamokslų puslapius, renginių kalendorius ir tarnysčių pristatymus."
+      },
+      "integration": {
+        "title": "Programėlės integracija",
+        "description": "Sklandžiai sujunkite savo svetainę su mobiliąja programėle. Renginiai, pamokslai ir bendruomenės naujienos sinchronizuojami automatiškai."
+      },
+      "cta": "Pradėkite kurti savo bažnyčios svetainę",
+      "ctaSubtext": "Pilnas nemokamas bažnyčios svetainės kūrėjas įtrauktas su kiekviena paskyra"
+    },
+    "perfectFor": {
+      "title": "Nemokama kiekvienai",
+      "titleHighlight": "bažnyčios bendruomenei",
+      "subtitle": "Visiškai nemokama platforma visų dydžių bažnyčioms. Mūsų tarnystės misija reiškia jokių paslėptų kainų, jokių funkcijų apribojimų, jokių siurprizų.",
+      "audiences": [
+        {
+          "title": "Vietinės bažnyčios",
+          "description": "Vienos vietos bendruomenės, norinčios modernizuoti savo skaitmeninę veiklą",
+          "stats": "Bet kokio dydžio"
+        },
+        {
+          "title": "Kelių vietų bendruomenės",
+          "description": "Kelios vietos, kurioms reikia vieningo valdymo su unikaliomis tapatybėmis",
+          "stats": "Visos vietos"
+        },
+        {
+          "title": "Konfesijų tinklai",
+          "description": "Organizacijos, aptarnaujančios kelias bažnyčias su bendrais ištekliais",
+          "stats": "Kiekvienas tinklas"
+        },
+        {
+          "title": "Orientuotos į bendruomenę",
+          "description": "Bažnyčios, teikiančios pirmenybę giliam įsitraukimui ir santykių kūrimui",
+          "stats": "Auganti kasdien"
+        }
+      ],
+      "integrations": {
+        "adminIntegration": {
+          "title": "B1 Admin integracija",
+          "description": "Sklandžiai integruota su B1 Admin bažnyčios valdymo programine įranga, užtikrinanti visišką darbo procesų automatizavimą."
+        },
+        "webPortal": {
+          "title": "Įtrauktas žiniatinklio portalas",
+          "description": "Visapusiškas žiniatinklio portalas su svetainės kūrėju kartu su galinga mobilios programėlės patirtimi."
+        },
+        "instantSetup": {
+          "title": "Momentinis nustatymas",
+          "description": "Pradėkite per kelias minutes su mūsų supaprastintu įvedimo procesu ir atsidavusia pagalbos komanda."
+        }
+      },
+      "about": {
+        "title": "Apie mūsų nemokamą programinę įrangą",
+        "description": "Esame 501(c)(3) ne pelno siekianti tarnystė, pasišventusi teikti visiškai nemokamą bažnyčios valdymo programinę įrangą. Mūsų misija – įgalinti bažnyčias sutelkti dėmesį į tarnystę, o ne į programinės įrangos išlaidas.",
+        "stats": {
+          "freeValue": "100%",
+          "freeLabel": "Amžinai nemokama",
+          "setupValue": "$0",
+          "setupLabel": "Nustatymo išlaidos",
+          "churchesValue": "100+",
+          "churchesLabel": "Aptarnaujamų bažnyčių",
+          "openValue": "Atviras",
+          "openLabel": "Pirminis kodas"
+        },
+        "features": [
+          "Kredito kortelės nereikia",
+          "Neriboti naudotojai ir nariai",
+          "Įtrauktos visos funkcijos",
+          "Reguliarūs atnaujinimai ir patobulinimai",
+          "24/7 bendruomenės palaikymas",
+          "Prieiga iš mobiliojo ir žiniatinklio",
+          "Pagalba importuojant duomenis",
+          "Atvirojo kodo skaidrumas"
+        ],
+        "learnMore": "Sužinokite daugiau apie mūsų tarnystę ir misiją",
+        "aboutChurchApps": "Apie ChurchApps",
+        "viewOnGitHub": "Peržiūrėti GitHub"
+      },
+      "cta": {
+        "title": "Pasiruošę sustiprinti savo bendruomenę?",
+        "description": "Atraskite, kaip mūsų visapusiška tarnystės platforma gali padėti jums kurti gilesnius santykius ir stipresnes bendruomenes.",
+        "button": "Pradėti nemokamai šiandien",
+        "tagline": "100% nemokama \u2022 Jokių paslėptų kainų \u2022 Tarnystės vedama misija"
+      }
+    },
+    "footer": {
+      "companyDescription": "Vientisa bažnyčios komunikacijos platforma, apjungianti garbinimą, bendruomenę, aukas ir administravimą.",
+      "product": "Produktas",
+      "mobileFeatures": "Mobiliosios funkcijos",
+      "websiteBuilder": "Svetainės kūrėjas",
+      "faq": "DUK",
+      "aboutChurchApps": "Apie ChurchApps",
+      "appsAndResources": "Programėlės ir ištekliai",
+      "androidApp": "Android programėlė",
+      "iosApp": "iOS programėlė",
+      "helpCenter": "Pagalbos centras",
+      "contact": "Kontaktai",
+      "availableWorldwide": "Prieinama visame pasaulyje"
+    },
+    "faq": {
+      "pageTitle": "Dažnai užduodami",
+      "pageTitleHighlight": "klausimai",
+      "pageSubtitle": "Viskas, ką reikia žinoti apie B1.church – 100% nemokamą bažnyčios valdymo platformą.",
+      "documentTitle": "DUK - B1.church | Nemokamos bažnyčios valdymo programinės įrangos klausimai",
+      "items": [
+        {
+          "question": "Ar B1.church tikrai 100% nemokama?",
+          "answer": "Taip, B1.church yra visiškai nemokama, be paslėptų mokesčių, be aukštesnių lygių ir be jokių transakcijos mokesčių už aukas. Esame 501(c)(3) ne pelno siekianti tarnystė, tikinti, kad kiekviena bažnyčia nusipelno prieigos prie modernių technologijų, nepaisant biudžeto. Mūsų platforma finansuojama iš aukų ir Google Ad Grants."
+        },
+        {
+          "question": "Kokias funkcijas apima B1.church?",
+          "answer": "B1.church apima visapusišką bažnyčios valdymo platformą: mobiliąsias programėles iOS ir Android, „tempk ir numesk“ svetainės kūrėją, internetinę auką be transakcijos mokesčių, išmaniąją registracijos sistemą, narių duomenų bazę, lankomumo stebėjimą, grupių valdymą, pamaldų planavimą, giesmių biblioteką, pamokslų valdymą ir Biblijos integraciją."
+        },
+        {
+          "question": "Kaip B1.church lyginama su Planning Center?",
+          "answer": "B1.church yra 100% nemokama, o Planning Center taiko mokesčius už kiekvieną modulį ($0-299+/mėn.). B1 apima mobilią programėlę ir svetainės kūrėją nemokamai, o Planning Center taiko papildomus mokesčius už Church Center ir neapima svetainės kūrėjo. Abi platformos siūlo bažnyčios valdymo funkcijas, bet B1 suteikia viską viename nemokamame pakete."
+        },
+        {
+          "question": "Kaip B1.church lyginama su Pushpay?",
+          "answer": "B1.church yra visiškai nemokama, o Pushpay kainuoja $300-1000+/mėn. B1 netaiko jokių transakcijos mokesčių aukoms, o Pushpay ima procentą nuo aukų. B1 yra atvirojo kodo ir apima pilną bažnyčios valdymą, o Pushpay yra uždaro kodo ir daugiausia orientuota į aukas."
+        },
+        {
+          "question": "Kaip B1.church lyginama su Tithe.ly?",
+          "answer": "B1.church yra visiškai nemokama, be transakcijos mokesčių. Tithe.ly siūlo nemokamą lygį, bet ima mokestį už premium funkcijas ir procentą nuo kiekvienos aukos. B1 apima pilną bažnyčios valdymo programinę įrangą, o Tithe.ly ChMS yra atskiras mokamas produktas."
+        },
+        {
+          "question": "Kaip B1.church lyginama su Breeze ChMS?",
+          "answer": "B1.church yra nemokama, o Breeze prasideda nuo $72/mėn. B1 apima pilną mobiliąją programėlę ir svetainės kūrėją, o Breeze turi ribotas mobiliąsias funkcijas ir neturi svetainės kūrėjo. Abi siūlo bažnyčios valdymą, bet B1 suteikia daugiau funkcijų nemokamai."
+        },
+        {
+          "question": "Ar galiu gauti pritaikytą mobiliąją programėlę savo bažnyčiai?",
+          "answer": "Taip, B1.church teikia pritaikytas, savo prekės ženklu pažymėtas mobiliąsias programėles iOS ir Android. Jūsų bažnyčia gauna savo programėlę su jūsų prekės ženklu, kurią nariai gali atsisiųsti iš App Store ir Google Play. Tai įtraukta nemokamai su B1."
+        },
+        {
+          "question": "Ar B1.church palaiko internetinę auką?",
+          "answer": "Taip, B1.church apima saugią internetinę auką su kredito kortelės ir banko pervedimo palaikymu. Galite nustatyti pasikartojančias aukas, valdyti kelis fondus ir pateikti aukų istoriją mokesčių pažymoms. Naudojame tiesioginę Stripe integraciją be B1 platformos mokesčių – jūsų bažnyčia derasi dėl tarifų tiesiogiai su Stripe (paprastai apie 2.9% + 30\u00a2)."
+        },
+        {
+          "question": "Ar galiu sukurti svetainę su B1.church?",
+          "answer": "Taip, B1.church apima „tempk ir numesk“ svetainės kūrėją su mobiliesiems įrenginiams prisitaikančiais šablonais. Galite naudoti pritaikytą domeną, o svetainė integruojasi su visomis jūsų B1 funkcijomis, tokiomis kaip renginiai, grupės ir aukos."
+        },
+        {
+          "question": "Ar B1.church turi registraciją vaikų tarnystei?",
+          "answer": "Taip, B1.church apima išmaniąją registracijos sistemą su bekontakčiais savitarnos terminalais, šeimos registracija, automatiniu priskyrimu į grupes, saugos kodais vaikų atsiėmimui ir lankomumo stebėjimu su ataskaitomis."
+        },
+        {
+          "question": "Ar B1.church yra atvirojo kodo?",
+          "answer": "Taip, B1.church yra visiškai atvirojo kodo. Mūsų kodą galite peržiūrėti GitHub adresu github.com/ChurchApps. Tai reiškia, kad pageidaujant galite talpinti patys, prisidėti prie patobulinimų ir pasitikėti, kad jūsų duomenys tvarkomi skaidriai."
+        },
+        {
+          "question": "Kas kuria B1.church?",
+          "answer": "B1.church kuria Live Church Solutions, 501(c)(3) ne pelno siekianti organizacija (EIN 45-5349618). Esame kūrėjų tarnystė, tikinti, kad bažnyčioms neturėtų tekti rinktis tarp technologijų ir tarnystės finansavimo."
+        },
+        {
+          "question": "Kokius kitus nemokamus produktus siūlo Live Church Solutions?",
+          "answer": "Be B1.church, siūlome FreeShow (nemokama pristatymų programinė įranga freeshow.app, ProPresenter alternatyva) ir Lessons.church (nemokama bažnyčios mokymo programa su daugiau nei 1 100 pamokų visiems amžiaus tarpsniams). Visi mūsų produktai yra nemokami ir atvirojo kodo."
+        },
+        {
+          "question": "Kaip pradėti naudotis B1.church?",
+          "answer": "Pradėti lengva: apsilankykite b1.church, spustelėkite „Pradėti nemokamai“, sukurkite bažnyčios paskyrą, pritaikykite programėlę ir svetainę bei pakvieskite savo bendruomenę. Kredito kortelės nereikia ir nėra bandomojo laikotarpio – tai nemokama amžinai."
+        },
+        {
+          "question": "Ar B1.church palaiko kelias vietas?",
+          "answer": "Taip, B1.church palaiko kelių vietų bažnyčias. Galite valdyti kelias vietas iš vienos vieningos valdymo sistemos su konkrečiai vietai skirtais duomenimis, lankomumu ir grupėmis, išlaikydami vieną narių duomenų bazę."
+        }
+      ],
+      "stillHaveQuestions": "Vis dar turite klausimų?",
+      "supportText": "Mūsų pagalbos komanda pasiruošusi padėti jums pradėti naudotis B1.church.",
+      "contactSupport": "Susisiekti su pagalba",
+      "viewDocumentation": "Peržiūrėti dokumentaciją"
+    },
+    "compare": {
+      "notFound": {
+        "title": "Palyginimas nerastas",
+        "subtitle": "Peržiūrėkite mūsų prieinamus palyginimus:"
+      },
+      "b1vsPrefix": "B1 prieš",
+      "noHiddenFees": "Jokių paslėptų mokesčių, amžinai",
+      "plusTransactionFees": "Plius transakcijos mokesčiai",
+      "featureColumn": "Funkcija",
+      "ourTake": "Mūsų nuomonė",
+      "ctaTitle": "Pasiruošę sutaupyti savo bažnyčios pinigų?",
+      "ctaDescription": "Pereikite prie B1.church ir nukreipkite savo programinės įrangos biudžetą tarnystei.",
+      "ctaButton": "Pradėti nemokamai",
+      "otherComparisons": "Kiti palyginimai",
+      "competitors": {
+        "planning-center": {
+          "name": "Planning Center",
+          "tagline": "Nemokama Planning Center alternatyva",
+          "description": "Planning Center yra populiari bažnyčios valdymo platforma su modulinėmis kainomis. B1.church siūlo panašias funkcijas visiškai nemokamai.",
+          "features": [
+            { "name": "Narių duomenų bazė", "b1": true, "competitor": true },
+            { "name": "Registracijos sistema", "b1": true, "competitor": "$99/mo" },
+            { "name": "Internetinė auka", "b1": "Jokių B1 mokesčių", "competitor": "Platformos + Stripe mokesčiai" },
+            { "name": "Grupių valdymas", "b1": true, "competitor": "$50/mo" },
+            { "name": "Pamaldų planavimas", "b1": true, "competitor": "$14-99/mo" },
+            { "name": "Mobilioji programėlė", "b1": "Nemokama programėlė su jūsų prekės ženklu", "competitor": "$0-199/mo" },
+            { "name": "Svetainės kūrėjas", "b1": true, "competitor": false },
+            { "name": "Pamokslų valdymas", "b1": true, "competitor": false },
+            { "name": "Kelios bažnyčios", "b1": true, "competitor": "Papildomai" },
+            { "name": "Atvirasis kodas", "b1": true, "competitor": false }
+          ],
+          "pricingB1": "100% nemokama",
+          "pricingCompetitor": "$0 - $500+/month depending on modules",
+          "verdict": "B1.church suteikia visas pagrindines Planning Center funkcijas be modulinio kainodaros sudėtingumo. Jei biudžetas yra rūpestis, B1 yra aiškus pasirinkimas."
+        },
+        "pushpay": {
+          "name": "Pushpay",
+          "tagline": "Nemokama Pushpay alternatyva",
+          "description": "Pushpay žinoma dėl mobiliųjų aukų, bet turi reikšmingų mėnesinių išlaidų ir transakcijos mokesčių. B1.church siūlo aukas be jokių platformos mokesčių.",
+          "features": [
+            { "name": "Internetinė auka", "b1": "Jokių B1 mokesčių", "competitor": "Platformos + Stripe mokesčiai" },
+            { "name": "Pasikartojančios aukos", "b1": true, "competitor": true },
+            { "name": "Mobilioji programėlė", "b1": "Nemokama programėlė su jūsų prekės ženklu", "competitor": "Įtraukta" },
+            { "name": "Narių duomenų bazė", "b1": true, "competitor": "ChMS papildomai" },
+            { "name": "Registracijos sistema", "b1": true, "competitor": "Papildomai" },
+            { "name": "Svetainės kūrėjas", "b1": true, "competitor": false },
+            { "name": "Grupių valdymas", "b1": true, "competitor": "Papildomai" },
+            { "name": "Aukų pažymos", "b1": true, "competitor": true },
+            { "name": "Fondų valdymas", "b1": true, "competitor": true },
+            { "name": "Atvirasis kodas", "b1": true, "competitor": false }
+          ],
+          "pricingB1": "100% nemokama",
+          "pricingCompetitor": "$300 - $1,000+/month",
+          "verdict": "Pushpay turi daug funkcijų, tačiau yra brangi. B1.church siūlo panašias aukos funkcijas plius pilną bažnyčios valdymą nemokamai. Sutaupytus pinigus galima nukreipti tarnystei."
+        },
+        "tithely": {
+          "name": "Tithe.ly",
+          "tagline": "Nemokama Tithe.ly alternatyva",
+          "description": "Tithe.ly siūlo bažnyčios aukų ir valdymo įrankius su freemium kainodara. B1.church suteikia viską nemokamai, be transakcijos mokesčių.",
+          "features": [
+            { "name": "Internetinė auka", "b1": "Jokių B1 mokesčių", "competitor": "Platformos + Stripe mokesčiai" },
+            { "name": "Pasikartojančios aukos", "b1": true, "competitor": true },
+            { "name": "Mobilioji programėlė", "b1": "Nemokama programėlė su jūsų prekės ženklu", "competitor": "$99/mo" },
+            { "name": "Narių duomenų bazė", "b1": true, "competitor": "$99/mo" },
+            { "name": "Registracijos sistema", "b1": true, "competitor": "$49/mo" },
+            { "name": "Svetainės kūrėjas", "b1": true, "competitor": "$49/mo" },
+            { "name": "Grupių valdymas", "b1": true, "competitor": "$99/mo" },
+            { "name": "Pamokslų valdymas", "b1": true, "competitor": "$49/mo" },
+            { "name": "Kelios bažnyčios", "b1": true, "competitor": "Papildomai" },
+            { "name": "Atvirasis kodas", "b1": true, "competitor": false }
+          ],
+          "pricingB1": "100% nemokama",
+          "pricingCompetitor": "Free tier + $49-199/mo for features",
+          "verdict": "Tithe.ly nemokamas lygis yra ribotas. Norint gauti visą funkcionalumą, išlaidos greitai kaupiasi. B1.church apima viską nuo pirmos dienos be jokio spaudimo atnaujinti."
+        },
+        "breeze": {
+          "name": "Breeze ChMS",
+          "tagline": "Nemokama Breeze ChMS alternatyva",
+          "description": "Breeze yra paprasta bažnyčios valdymo sistema su aiškia kainodara. B1.church siūlo daugiau funkcijų nemokamai.",
+          "features": [
+            { "name": "Narių duomenų bazė", "b1": true, "competitor": true },
+            { "name": "Aukų valdymas", "b1": "Jokių B1 mokesčių", "competitor": "2.9% + 30\u00a2" },
+            { "name": "Registracijos sistema", "b1": true, "competitor": "Pagrindinė" },
+            { "name": "Mobilioji programėlė", "b1": "Nemokama programėlė su jūsų prekės ženklu", "competitor": "Ribota" },
+            { "name": "Svetainės kūrėjas", "b1": true, "competitor": false },
+            { "name": "Grupių valdymas", "b1": true, "competitor": true },
+            { "name": "Renginių valdymas", "b1": true, "competitor": true },
+            { "name": "Savanorių planavimas", "b1": true, "competitor": true },
+            { "name": "Kelios bažnyčios", "b1": true, "competitor": false },
+            { "name": "Atvirasis kodas", "b1": true, "competitor": false }
+          ],
+          "pricingB1": "100% nemokama",
+          "pricingCompetitor": "$72 - $135/month",
+          "verdict": "Breeze yra paprasta ir prieinama, tačiau B1.church yra paprastesnė biudžetui (nemokama!) ir tuo pat metu siūlo daugiau funkcijų, tokių kaip svetainės kūrėjas ir pilna mobilioji programėlė."
+        }
+      }
+    },
+    "churchManagement": {
+      "hero": {
+        "title": "Nemokama",
+        "titleHighlight": "bažnyčios valdymo programinė įranga",
+        "titleLine2": "Pilna tarnystės platforma",
+        "description": "Profesionali <strong>bažnyčios valdymo programinė įranga</strong> su lankomumo stebėjimu, narių duomenų baze, aukų valdymu ir komunikacijos įrankiais. Visiškai <strong>nemokama bažnyčios programinė įranga</strong>, teikiama Live Church Solutions, 501(c)(3) ne pelno siekiančios tarnystės. Prisijunkite prie 100+ bažnyčių, taupančių tūkstančius tarnystės programinės įrangos išlaidų.",
+        "ctaPrimary": "Pradėti nemokamai",
+        "ctaSecondary": "Išbandyti demonstraciją",
+        "trustLine": "Pasitikėjo augančios bažnyčios visame pasaulyje",
+        "trustFree": "Visiškai nemokama amžinai",
+        "trustNonProfit": "501(c)(3) ne pelno siekianti tarnystė",
+        "trustOpenSource": "Atvirasis kodas"
+      },
+      "featuresHeader": {
+        "title": "Visapusiška",
+        "titleHighlight": "bažnyčios valdymo sistemos",
+        "titleSuffix": "funkcijos",
+        "description": "Profesionali bažnyčios duomenų bazės programinė įranga su narių valdymu, lankomumo stebėjimu, aukų administravimu ir tarnystės komunikacijos įrankiais. Nemokama bažnyčios valdymo sistema, specialiai sukurta augančioms bendruomenėms ir kelių bažnyčių tinklams."
+      },
+      "checkinStations": {
+        "title": "Savitarnos registracijos terminalai",
+        "description": "Užtikrinkite vaikų saugumą, išlaisvindami savanorius bendrauti su šeimomis. Mūsų savitarnos registracijos sistema sugeneruoja sutampančius kodus vaikams ir suaugusiesiems, sukurdama saugų atsiėmimo procesą.",
+        "features": [
+          "Ieškokite pagal telefono numerį ir pasirinkite pamaldas automatiškai",
+          "Belaidžiu būdu spausdina etiketes ir kvitus į bendrus spausdintuvus",
+          "Veikia ant prieinamų Android planšetinių kompiuterių iki $80",
+          "Automatiškai sinchronizuojasi su lankomumo stebėjimo sistema"
+        ]
+      },
+      "mainFeatures": [
+        {
+          "title": "Išsamus žmonių valdymas",
+          "description": "Saugokite detalius narių ir svečių duomenis su kontaktine informacija, santykiais, gimtadieniais ir sukakčių stebėjimu. Pažangios paieškos ir filtravimo galimybės."
+        },
+        {
+          "title": "Lankomumo analitika",
+          "description": "Stebėkite lankomumo tendencijas visose pamaldose ir grupėse su gražiomis diagramomis ir ataskaitomis. Stebėkite įsitraukimo modelius ir augimą laikui bėgant."
+        },
+        {
+          "title": "Grupių ir tarnysčių valdymas",
+          "description": "Organizuokite neribotą skaičių grupių, užsiėmimų ir tarnysčių. Valdykite narių priskyrimus, stebėkite dalyvavimą ir kurkite pritaikytas grupių kategorijas."
+        },
+        {
+          "title": "Pažangus aukų valdymas",
+          "description": "Apdorokite aukas su partijų valdymu, fondų stebėjimu ir išsamia finansine atskaitomybe. Sugeneruokite mokesčių pažymas ir stebėkite aukų tendencijas."
+        },
+        {
+          "title": "Garbinimo ir pamaldų planavimas",
+          "description": "Planuokite pamaldas, priskirkite komandos narius ir koordinuokite savanorius. Stebėkite reikalingas pareigybes ir automatizuokite pranešimus."
+        },
+        {
+          "title": "Giesmių biblioteka ir aranžuotės",
+          "description": "Organizuokite savo pilną giesmių biblioteką su keliomis aranžuotėmis, tonacijomis ir akordų lapais. Pridėkite nuorodas į išorinius išteklius ir valdykite garbinimo programas."
+        },
+        {
+          "title": "Komunikacijos centras",
+          "description": "Siųskite tikslinius laiškus ir pranešimus. Kurkite automatizuotus procesus ir palaikykite savo bendruomenę sujungtą."
+        },
+        {
+          "title": "Kelių bažnyčių palaikymas",
+          "description": "Valdykite kelias vietas iš vienos vieningos valdymo sistemos. Stebėkite konkrečiai vietai skirtus duomenis, išlaikydami visos organizacijos ataskaitas."
+        }
+      ],
+      "testimonials": {
+        "title": "Mylima bažnyčių",
+        "titleHighlight": "visame pasaulyje",
+        "subtitle": "Prisijunkite prie augančių bažnyčių, kurios transformavo savo tarnystę su mūsų visiškai nemokama platforma. Štai ką sako ganytojai ir bažnyčių administratoriai.",
+        "items": [
+          {
+            "content": "Šią platformą naudojame kiekvieną sekmadienį, kad stebėtume lankomumą ir fiksuotume kiekvieną apsilankiusį, įskaitant mūsų sekmadieninės mokyklos vaikus. Kaip misionieriai su ribotu biudžetu, vertiname, kad ši programinė įranga yra nemokama ir veiksminga."
+          },
+          {
+            "content": "Tai bažnyčios gelbėtojas. Kaip maža bažnyčia su ribotu biudžetu, ši programinė įranga yra DIEVO DOVANA ir palaima. Ji patogi naudoti ir lengvai nustatoma. Aukų ataskaitas lengva sudaryti. Tai, kad galiu eksportuoti duomenis į Excel, daro įrašų analizę labai paprastą. Tai sumažino mano biuro laiką bent 25%."
+          },
+          {
+            "content": "Tai padėjo mums sklandžiai pereiti prie skaitmeninės aukos pandemijos metu. Pagalbos komanda buvo fantastiška, o platforma yra neįtikėtinai patikima. Buvimas nemokama leido mums nukreipti programinės įrangos biudžetą į tikrą tarnystę."
+          }
+        ]
+      },
+      "aboutSection": {
+        "title": "Apie mūsų",
+        "titleHighlight": "nemokamą bažnyčios programinę įrangą",
+        "description": "Visapusiška <strong>bažnyčios valdymo programinė įranga</strong>, visiškai nemokamai teikiama krikščionių bažnyčioms ir tarnystėms per <strong>Live Church Solutions</strong>, 501(c)(3) ne pelno siekiančią organizaciją, įkurtą 2012 m. Mūsų misija – padėti bažnyčioms įdiegti profesionalią <strong>tarnystės programinę įrangą</strong> be įprastai didelių bažnyčios administravimo sistemų išlaidų."
+      },
+      "stats": [
+        {
+          "number": "$800M",
+          "label": "Bažnyčios kasmet išleidžia valdymo programinei įrangai",
+          "description": "Tikime, kad šiuos pinigus galima panaudoti geriau"
+        },
+        {
+          "number": "100+",
+          "label": "Bažnyčios jau naudoja mūsų platformą",
+          "description": "Auganti patenkintų naudotojų bendruomenė"
+        },
+        {
+          "number": "2012",
+          "label": "Metai, kai įkurta Live Church Solutions",
+          "description": "Daugiau nei dešimtmetį padedame bažnyčioms su technologijomis"
+        },
+        {
+          "number": "100%",
+          "label": "Amžinai nemokama garantija",
+          "description": "Jokių paslėptų mokesčių, jokių bandomųjų laikotarpių, jokių apribojimų"
+        }
+      ],
+      "mission": {
+        "title": "Mūsų misija: padėti bažnyčioms sutelkti dėmesį į tarnystę",
+        "description": "Kasmet Bažnyčia išleidžia virš <strong>$800 milijonų</strong> bažnyčios valdymo programinei įrangai. Tikime, kad šiuos pinigus galima panaudoti geriau, todėl ir sukūrėme šią platformą – visiškai nemokamą, atvirojo kodo bažnyčios valdymo sprendimą.",
+        "learnMore": "Sužinokite daugiau apie Live Church Solutions",
+        "viewOnGitHub": "Peržiūrėti GitHub"
+      },
+      "allFeatures": {
+        "title": "Viskas, ko reikia, visiškai nemokamai",
+        "subtitle": "Jokių bandomųjų laikotarpių, jokių narių apribojimų, jokių paslėptų mokesčių",
+        "items": [
+          "Išsami narių duomenų bazė su detaliais profiliais",
+          "Lankomumo stebėjimas su savitarnos registracijos programėle",
+          "Grupių ir mažųjų grupių valdymas",
+          "Aukų valdymas su išsamia atskaitomybe",
+          "Pritaikytos formos ir duomenų rinkimas",
+          "El. pašto komunikacijos įrankiai",
+          "Renginių valdymas ir planavimas",
+          "Duomenų importas iš esamų sistemų",
+          "Kelių vietų ir kelių bažnyčių palaikymas",
+          "Prieiga ir leidimai pagal vaidmenis",
+          "Atvirasis kodas su prieiga prie GitHub"
+        ]
+      },
+      "cta": {
+        "title": "Pasiruošę nustoti mokėti už bažnyčios valdymo programinę įrangą?",
+        "description": "Prisijunkite prie bažnyčių visame pasaulyje, kurios pasirinko visiškai nemokamą, atvirojo kodo sprendimą, sukurtą tarnystės, tarnystėms.",
+        "primaryButton": "Pradėti nemokamai",
+        "secondaryButton": "Išbandyti demonstraciją"
+      }
+    },
+    "notFound": {
+      "title": "404",
+      "message": "Ups! Puslapis nerastas",
+      "returnHome": "Grįžti į pradžią"
+    }
+  }
+}

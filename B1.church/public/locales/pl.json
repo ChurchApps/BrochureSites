@@ -1,0 +1,599 @@
+{
+  "brochure": {
+    "header": {
+      "features": "Funkcje",
+      "churchManagement": "Zarządzanie kościołem",
+      "about": "O nas",
+      "contact": "Kontakt",
+      "signIn": "Zaloguj się",
+      "getStartedFree": "Zacznij za darmo"
+    },
+    "hero": {
+      "badge": "100% Darmowe \u2022 Platforma napędzana służbą",
+      "headlineTop": "Wspólnota kościelna",
+      "headlineBottom": "Bez barier",
+      "subheadline": "Kompletne oprogramowanie do zarządzania kościołem z aplikacją mobilną, kreatorem stron, cyfrowymi datkami i funkcjami wspólnotowymi. W 100% darmowa platforma kościelna stworzona przez służbę, dla służb.",
+      "ctaPrimary": "Zacznij za darmo",
+      "ctaSecondary": "Zobacz, jak to działa",
+      "statFreeValue": "100%",
+      "statFreeLabel": "Zawsze za darmo",
+      "statModernValue": "Nowoczesna",
+      "statModernLabel": "Platforma",
+      "statMinistryValue": "Służba",
+      "statMinistryLabel": "Nie biznes"
+    },
+    "features": {
+      "community": {
+        "title": "Łączenie wspólnoty kościelnej",
+        "description": "Buduj głębsze relacje poprzez grupy, dyskusje, wiadomości i wydarzenia. Łącz członków poza niedzielnymi nabożeństwami poprzez znaczące interakcje.",
+        "items": ["Małe grupy", "Wiadomości bezpośrednie", "Fora dyskusyjne", "Katalog członków"],
+        "cta": "Dołącz do wspólnoty"
+      },
+      "content": {
+        "title": "Cyfrowe centrum treści kościelnych",
+        "description": "Korzystaj z kazań, lekcji klasowych, wersetów dnia i pełnych tłumaczeń Biblii. Utrzymuj zaangażowanie swojej wspólnoty dzięki nowym treściom przez cały tydzień.",
+        "items": ["Biblioteka kazań", "Integracja z Biblią", "Werset dnia", "Lekcje klasowe"],
+        "cta": "Przeglądaj treści"
+      },
+      "giving": {
+        "title": "Datki online dla kościoła",
+        "description": "Bezpieczne darowizny kartą kredytową lub przelewem z opcją cyklicznych wpłat i datków na konkretne fundusze. Bez opłat ze strony B1 - bezpośrednia integracja ze Stripe.",
+        "items": ["Bezpieczne płatności", "Darowizny cykliczne", "Zarządzanie funduszami", "Historia datków"],
+        "cta": "Zacznij wspierać"
+      },
+      "checkin": {
+        "title": "Platforma rejestracji w kościele",
+        "description": "Bezdotykowa rejestracja na nabożeństwie z zarządzaniem rodzinami i automatycznym przypisywaniem do grup. Usprawnij śledzenie obecności.",
+        "items": ["Bezdotykowa rejestracja", "Zarządzanie rodzinami", "Automatyczne przypisywanie do grup", "Raporty obecności"],
+        "cta": "Wypróbuj rejestrację"
+      },
+      "mobileFirst": "Mobile pierwsze",
+      "managementSystem": {
+        "title": "Kompletny",
+        "titleHighlight": "System zarządzania kościołem",
+        "description": "Profesjonalne oprogramowanie bazodanowe dla kościoła z zarządzaniem członkami, śledzeniem obecności, administracją datkami i narzędziami do komunikacji w służbie. Darmowy system zarządzania kościołem zaprojektowany specjalnie dla rozwijających się zborów i kościołów wielokampusowych."
+      },
+      "grid": {
+        "peopleManagement": {
+          "title": "Zarządzanie ludźmi",
+          "description": "Kompletne rekordy członków i gości z zaawansowanym wyszukiwaniem i śledzeniem relacji."
+        },
+        "attendanceAnalytics": {
+          "title": "Analityka obecności",
+          "description": "Śledź trendy obecności dzięki pięknym wykresom i kompleksowym raportom."
+        },
+        "groupsMinistries": {
+          "title": "Grupy i służby",
+          "description": "Organizuj nieograniczoną liczbę grup i zajęć z przypisaniem członków i śledzeniem."
+        },
+        "givingManagement": {
+          "title": "Zarządzanie datkami",
+          "description": "Przetwarzaj darowizny z zarządzaniem partiami, śledzeniem funduszy i zestawieniami podatkowymi."
+        },
+        "servicePlanning": {
+          "title": "Planowanie nabożeństw",
+          "description": "Planuj nabożeństwa uwielbieniowe, przypisuj zespoły i zarządzaj koordynacją wolontariuszy."
+        },
+        "songLibrary": {
+          "title": "Biblioteka pieśni",
+          "description": "Organizuj pieśni z aranżacjami, tonacjami, akordami i listami utworów."
+        },
+        "communications": {
+          "title": "Komunikacja",
+          "description": "Wysyłaj ukierunkowane e-maile i ogłoszenia ze zautomatyzowanymi procesami."
+        },
+        "multiCampus": {
+          "title": "Wielokampusowość",
+          "description": "Zarządzaj wieloma lokalizacjami z jednego zunifikowanego panelu z danymi specyficznymi dla każdego kampusu."
+        }
+      },
+      "showcase": {
+        "groupsMinistries": {
+          "title": "Grupy i służby",
+          "description": "Zarządzaj nieograniczoną liczbą grup i zajęć"
+        },
+        "peopleSearch": {
+          "title": "Wyszukiwanie osób",
+          "description": "Zaawansowana baza danych członków"
+        },
+        "servicePlanning": {
+          "title": "Planowanie nabożeństw",
+          "description": "Planowanie zespołów i przydziałów"
+        },
+        "songLibrary": {
+          "title": "Biblioteka pieśni",
+          "description": "Aranżacje i akordy"
+        }
+      },
+      "dashboard": {
+        "title": "Piękny, intuicyjny panel",
+        "description": "Uzyskaj dostęp do wszystkich danych kościoła dzięki naszemu przejrzystemu, nowoczesnemu interfejsowi zaprojektowanemu z myślą o wydajności i łatwości obsługi."
+      },
+      "additional": {
+        "security": {
+          "title": "Bezpieczeństwo i prywatność",
+          "description": "Szyfrowanie zgodne ze standardami branżowymi i bezpieczne przechowywanie danych"
+        },
+        "mobile": {
+          "title": "Dostępność mobilna",
+          "description": "Responsywny design działa bezbłędnie na wszystkich urządzeniach"
+        },
+        "workflows": {
+          "title": "Zautomatyzowane procesy",
+          "description": "Sekwencje follow-up i automatyzacja opieki nad członkami"
+        },
+        "reporting": {
+          "title": "Raporty w czasie rzeczywistym",
+          "description": "Generuj natychmiastowe raporty i eksportuj dane o każdej porze"
+        },
+        "forms": {
+          "title": "Formularze niestandardowe",
+          "description": "Twórz formularze rejestracyjne i ankiety do dowolnego celu"
+        },
+        "roles": {
+          "title": "Dostęp oparty na rolach",
+          "description": "Bezpieczne uprawnienia dla pracowników i wolontariuszy"
+        }
+      },
+      "ctaSection": {
+        "title": "Gotowy, by zbudować silniejszą",
+        "titleHighlight": "wspólnotę kościelną?",
+        "description": "Przekształć swój kościół dzięki naszej kompleksowej darmowej platformie zaprojektowanej do pogłębiania relacji i wzmacniania wspólnot kościelnych poprzez nowoczesną technologię.",
+        "cta": "Zacznij za darmo"
+      }
+    },
+    "testimonials": {
+      "title": "Kochany przez kościoły",
+      "titleHighlight": "na całym świecie",
+      "subtitle": "Dołącz do rozwijających się kościołów, które przekształciły swoją służbę dzięki naszej całkowicie darmowej platformie. Oto, co pastorzy i administratorzy kościelni mówią o B1.",
+      "stats": {
+        "churchesValue": "100+",
+        "churchesLabel": "Kościołów nam ufa",
+        "freeValue": "Za darmo",
+        "freeLabel": "Na zawsze i zawsze",
+        "uptimeValue": "99.9%",
+        "uptimeLabel": "Gwarancja dostępności",
+        "supportValue": "24/7",
+        "supportLabel": "Wsparcie dostępne"
+      },
+      "items": [
+        {
+          "content": "Z całego serca polecam ChurchApps. To służba w najprawdziwszym i najlepszym tego słowa znaczeniu. ChurchApps świadczy usługi techniczne, które wzmacniają i podnoszą duchowy wpływ kościoła na lokalne społeczności. Pomogą w budowaniu infrastruktury Kościoła na wiele lat."
+        },
+        {
+          "content": "ChurchApps pomogło nam stać się bardziej widocznymi w naszej społeczności\u2014zwiększając świadomość, darowizny i liczbę wolontariuszy, dzięki czemu możemy lepiej służyć potrzebującym rodzinom."
+        },
+        {
+          "content": "ChurchApps to coś więcej niż oprogramowanie\u2014to praktyczne narzędzie wspierające misję, wizję i codzienną pracę służby. Jestem wdzięczna za możliwość nauki, nauczania i obserwowania, jak umożliwia kościołom działanie z większą jasnością, wydajnością i celem."
+        },
+        {
+          "content": "Strona darowizn zwiększyła wpłaty na naszą organizację. Ludzie nie tylko doceniają łatwość zeskanowania kodu, który przenosi ich bezpośrednio do strony darowizn, ale także możliwość ustawienia miesięcznych wpłat dla tych, którzy chcą wygodnie wspierać online."
+        },
+        {
+          "content": "Lubię prowadzić ewidencję obecności i używamy B1 Admin w każdą niedzielę do tego celu. Naprawdę doceniamy usługę B1 Admin, która okazała się skutecznym sposobem dla naszego kościoła na prowadzenie ewidencji osób i obecności."
+        }
+      ],
+      "ctaTitle": "Gotowy, by przekształcić zarządzanie swoim kościołem?",
+      "ctaDescription": "Dołącz do rosnącej społeczności kościołów już korzystających z B1 - całkowicie za darmo, na zawsze. Bez karty kredytowej, bez okresów próbnych, bez ukrytych opłat.",
+      "ctaButton": "Zacznij za darmo"
+    },
+    "websiteBuilder": {
+      "badge": "Funkcja portalu webowego",
+      "title": "Darmowy kreator stron kościelnych",
+      "titleHighlight": "W minuty, nie miesiące",
+      "description": "Stwórz piękną, profesjonalną stronę kościelną z naszym darmowym wbudowanym kreatorem. Bez kodowania - po prostu przeciągnij, upuść i opublikuj stronę swojego kościoła.",
+      "dragDrop": {
+        "title": "Kreator przeciągnij i upuść",
+        "description": "Intuicyjny wizualny edytor z gotowymi komponentami. Twórz zachwycające strony bez żadnej wiedzy technicznej."
+      },
+      "templates": {
+        "title": "Szablony dla kościołów",
+        "description": "Piękne szablony zaprojektowane specjalnie dla kościołów. Zawierają strony kazań, kalendarze wydarzeń i prezentacje służb."
+      },
+      "integration": {
+        "title": "Integracja z aplikacją",
+        "description": "Płynnie połącz swoją stronę z aplikacją mobilną. Wydarzenia, kazania i aktualizacje wspólnoty synchronizują się automatycznie."
+      },
+      "cta": "Zacznij budować stronę swojego kościoła",
+      "ctaSubtext": "Kompletny darmowy kreator stron kościelnych dołączony do każdego konta"
+    },
+    "perfectFor": {
+      "title": "Za darmo dla każdej",
+      "titleHighlight": "wspólnoty kościelnej",
+      "subtitle": "W pełni darmowa platforma dla kościołów każdej wielkości. Nasza misja służby oznacza brak ukrytych kosztów, brak limitów funkcji, brak niespodzianek.",
+      "audiences": [
+        {
+          "title": "Lokalne kościoły",
+          "description": "Zbory jednoodziałowe pragnące zmodernizować swoją obecność cyfrową",
+          "stats": "Dowolny rozmiar"
+        },
+        {
+          "title": "Zbory wielokampusowe",
+          "description": "Wiele lokalizacji wymagających zunifikowanego zarządzania z zachowaniem unikalnej tożsamości",
+          "stats": "Wszystkie lokalizacje"
+        },
+        {
+          "title": "Sieci wyznaniowe",
+          "description": "Organizacje obsługujące wiele kościołów ze wspólnymi zasobami",
+          "stats": "Każda sieć"
+        },
+        {
+          "title": "Skupione na wspólnocie",
+          "description": "Kościoły traktujące priorytetowo głębokie zaangażowanie i budowanie relacji",
+          "stats": "Codziennie rośnie"
+        }
+      ],
+      "integrations": {
+        "adminIntegration": {
+          "title": "Integracja z B1 Admin",
+          "description": "Płynnie zintegrowany z oprogramowaniem do zarządzania kościołem B1 Admin dla pełnej automatyzacji procesów."
+        },
+        "webPortal": {
+          "title": "Portal webowy w zestawie",
+          "description": "Kompleksowy portal webowy z kreatorem stron obok potężnej aplikacji mobilnej."
+        },
+        "instantSetup": {
+          "title": "Natychmiastowa konfiguracja",
+          "description": "Zacznij w kilka minut dzięki naszemu uproszczonemu procesowi wdrożenia i dedykowanemu zespołowi wsparcia."
+        }
+      },
+      "about": {
+        "title": "O naszym darmowym oprogramowaniu",
+        "description": "Jesteśmy organizacją non-profit 501(c)(3) poświęconą dostarczaniu całkowicie darmowego oprogramowania do zarządzania kościołem. Naszą misją jest umożliwienie kościołom skupienia się na służbie, a nie na kosztach oprogramowania.",
+        "stats": {
+          "freeValue": "100%",
+          "freeLabel": "Zawsze za darmo",
+          "setupValue": "$0",
+          "setupLabel": "Koszty konfiguracji",
+          "churchesValue": "100+",
+          "churchesLabel": "Obsłużonych kościołów",
+          "openValue": "Otwarty",
+          "openLabel": "Kod źródłowy"
+        },
+        "features": [
+          "Bez karty kredytowej",
+          "Nieograniczona liczba użytkowników i członków",
+          "Wszystkie funkcje w zestawie",
+          "Regularne aktualizacje i ulepszenia",
+          "Wsparcie społeczności 24/7",
+          "Dostęp mobilny i webowy",
+          "Pomoc w imporcie danych",
+          "Przejrzystość otwartego kodu"
+        ],
+        "learnMore": "Dowiedz się więcej o naszej służbie i misji",
+        "aboutChurchApps": "O ChurchApps",
+        "viewOnGitHub": "Zobacz na GitHub"
+      },
+      "cta": {
+        "title": "Gotowy, by wzmocnić swoją wspólnotę?",
+        "description": "Odkryj, jak nasza kompleksowa platforma służby może pomóc Ci budować głębsze relacje i silniejsze wspólnoty.",
+        "button": "Zacznij za darmo już dziś",
+        "tagline": "100% Darmowe \u2022 Bez ukrytych kosztów \u2022 Misja napędzana służbą"
+      }
+    },
+    "footer": {
+      "companyDescription": "Kompleksowa platforma komunikacji kościelnej, która łączy uwielbienie, wspólnotę, datki i administrację.",
+      "product": "Produkt",
+      "mobileFeatures": "Funkcje mobilne",
+      "websiteBuilder": "Kreator stron",
+      "faq": "FAQ",
+      "aboutChurchApps": "O ChurchApps",
+      "appsAndResources": "Aplikacje i zasoby",
+      "androidApp": "Aplikacja Android",
+      "iosApp": "Aplikacja iOS",
+      "helpCenter": "Centrum pomocy",
+      "contact": "Kontakt",
+      "availableWorldwide": "Dostępne na całym świecie"
+    },
+    "faq": {
+      "pageTitle": "Często zadawane",
+      "pageTitleHighlight": "pytania",
+      "pageSubtitle": "Wszystko, co musisz wiedzieć o B1.church, platformie zarządzania kościołem w 100% za darmo.",
+      "documentTitle": "FAQ - B1.church | Pytania o darmowe oprogramowanie do zarządzania kościołem",
+      "items": [
+        {
+          "question": "Czy B1.church jest naprawdę w 100% darmowe?",
+          "answer": "Tak, B1.church jest całkowicie darmowe, bez ukrytych opłat, bez poziomów premium i bez prowizji od darowizn. Jesteśmy służbą non-profit 501(c)(3), która wierzy, że każdy kościół zasługuje na dostęp do nowoczesnej technologii niezależnie od budżetu. Nasza platforma jest finansowana z darowizn i Google Ad Grants."
+        },
+        {
+          "question": "Jakie funkcje zawiera B1.church?",
+          "answer": "B1.church obejmuje kompletną platformę zarządzania kościołem: aplikacje mobilne na iOS i Android, kreator stron typu przeciągnij i upuść, datki online bez prowizji, inteligentny system rejestracji, bazę członków, śledzenie obecności, zarządzanie grupami, planowanie nabożeństw, bibliotekę pieśni, zarządzanie kazaniami i integrację z Biblią."
+        },
+        {
+          "question": "Jak B1.church wypada w porównaniu z Planning Center?",
+          "answer": "B1.church jest w 100% darmowe, podczas gdy Planning Center pobiera opłaty za moduł ($0-299+/miesiąc). B1 zawiera aplikację mobilną i kreator stron bez dodatkowych kosztów, podczas gdy Planning Center pobiera dodatkowe opłaty za Church Center i nie zawiera kreatora stron. Oba oferują funkcje zarządzania kościołem, ale B1 oferuje wszystko w jednym darmowym pakiecie."
+        },
+        {
+          "question": "Jak B1.church wypada w porównaniu z Pushpay?",
+          "answer": "B1.church jest całkowicie darmowe, podczas gdy Pushpay kosztuje $300-1000+/miesiąc. B1 nie pobiera prowizji od darowizn, podczas gdy Pushpay pobiera procent od darowizn. B1 ma otwarty kod źródłowy i zawiera pełne zarządzanie kościołem, natomiast Pushpay jest zamknięte i skupia się głównie na datkach."
+        },
+        {
+          "question": "Jak B1.church wypada w porównaniu z Tithe.ly?",
+          "answer": "B1.church jest całkowicie darmowe, bez prowizji od transakcji. Tithe.ly oferuje poziom darmowy, ale pobiera opłaty za funkcje premium i procent od każdej darowizny. B1 zawiera pełne oprogramowanie do zarządzania kościołem, podczas gdy ChMS Tithe.ly jest oddzielnym płatnym produktem."
+        },
+        {
+          "question": "Jak B1.church wypada w porównaniu z Breeze ChMS?",
+          "answer": "B1.church jest darmowe, podczas gdy Breeze zaczyna się od $72/miesiąc. B1 zawiera pełną aplikację mobilną i kreator stron, podczas gdy Breeze ma ograniczone funkcje mobilne i brak kreatora stron. Oba oferują zarządzanie kościołem, ale B1 zapewnia więcej funkcji bez kosztów."
+        },
+        {
+          "question": "Czy mogę otrzymać niestandardową aplikację mobilną dla mojego kościoła?",
+          "answer": "Tak, B1.church udostępnia niestandardowo brandowane aplikacje mobilne na iOS i Android. Twój kościół otrzymuje własną aplikację z Twoim brandingiem, którą członkowie mogą pobrać z App Store i Google Play. Jest to zawarte w B1 bezpłatnie."
+        },
+        {
+          "question": "Czy B1.church obsługuje datki online?",
+          "answer": "Tak, B1.church zawiera bezpieczne datki online z obsługą kart kredytowych i przelewów bankowych. Możesz skonfigurować darowizny cykliczne, zarządzać wieloma funduszami i udostępniać historię darowizn do zestawień podatkowych. Korzystamy z bezpośredniej integracji ze Stripe bez opłat platformy B1 - Twój kościół negocjuje stawki bezpośrednio ze Stripe (zazwyczaj około 2.9% + 30\u00a2)."
+        },
+        {
+          "question": "Czy mogę zbudować stronę internetową z B1.church?",
+          "answer": "Tak, B1.church zawiera kreator stron typu przeciągnij i upuść z szablonami responsywnymi na urządzeniach mobilnych. Możesz użyć niestandardowej domeny, a strona integruje się ze wszystkimi funkcjami B1, takimi jak wydarzenia, grupy i datki."
+        },
+        {
+          "question": "Czy B1.church ma rejestrację dla służby dziecięcej?",
+          "answer": "Tak, B1.church zawiera inteligentny system rejestracji z bezdotykowymi kioskami samoobsługowymi, rejestracją rodzinną, automatycznym przypisywaniem do grup, kodami bezpieczeństwa do odbioru dzieci oraz śledzeniem obecności z raportami."
+        },
+        {
+          "question": "Czy B1.church jest otwarty kod źródłowy?",
+          "answer": "Tak, B1.church ma w pełni otwarty kod źródłowy. Możesz zobaczyć nasz kod na GitHub pod adresem github.com/ChurchApps. Oznacza to, że możesz hostować samodzielnie, jeśli chcesz, wnosić ulepszenia i mieć pewność, że Twoje dane są obsługiwane w sposób przejrzysty."
+        },
+        {
+          "question": "Kto tworzy B1.church?",
+          "answer": "B1.church jest tworzone przez Live Church Solutions, organizację non-profit 501(c)(3) (EIN 45-5349618). Jesteśmy służbą deweloperów, którzy wierzą, że kościoły nie powinny musieć wybierać między technologią a finansowaniem służby."
+        },
+        {
+          "question": "Jakie inne darmowe produkty oferuje Live Church Solutions?",
+          "answer": "Oprócz B1.church oferujemy FreeShow (darmowe oprogramowanie do prezentacji na freeshow.app, alternatywa dla ProPresenter) oraz Lessons.church (darmowe programy kościelne z ponad 1100 lekcjami dla wszystkich grup wiekowych). Wszystkie nasze produkty są darmowe i mają otwarty kod źródłowy."
+        },
+        {
+          "question": "Jak zacząć korzystać z B1.church?",
+          "answer": "Rozpoczęcie jest łatwe: odwiedź b1.church, kliknij \"Zacznij za darmo\", stwórz konto kościoła, dostosuj aplikację i stronę oraz zaproś swój zbór. Bez karty kredytowej i bez okresu próbnego - jest za darmo na zawsze."
+        },
+        {
+          "question": "Czy B1.church obsługuje wiele kampusów?",
+          "answer": "Tak, B1.church obsługuje kościoły wielokampusowe. Możesz zarządzać wieloma lokalizacjami z jednego zunifikowanego panelu z danymi, obecnością i grupami specyficznymi dla kampusu, zachowując jedną bazę członków."
+        }
+      ],
+      "stillHaveQuestions": "Masz jeszcze pytania?",
+      "supportText": "Nasz zespół wsparcia jest tu, aby pomóc Ci zacząć z B1.church.",
+      "contactSupport": "Skontaktuj się ze wsparciem",
+      "viewDocumentation": "Zobacz dokumentację"
+    },
+    "compare": {
+      "notFound": {
+        "title": "Nie znaleziono porównania",
+        "subtitle": "Sprawdź nasze dostępne porównania:"
+      },
+      "b1vsPrefix": "B1 vs",
+      "noHiddenFees": "Bez ukrytych opłat, na zawsze",
+      "plusTransactionFees": "Plus prowizje transakcyjne",
+      "featureColumn": "Funkcja",
+      "ourTake": "Nasza opinia",
+      "ctaTitle": "Gotowy, by zaoszczędzić pieniądze swojego kościoła?",
+      "ctaDescription": "Przejdź na B1.church i przekieruj budżet na oprogramowanie na służbę.",
+      "ctaButton": "Zacznij za darmo",
+      "otherComparisons": "Inne porównania",
+      "competitors": {
+        "planning-center": {
+          "name": "Planning Center",
+          "tagline": "Darmowa alternatywa dla Planning Center",
+          "description": "Planning Center to popularna platforma zarządzania kościołem z modułowym cennikiem. B1.church oferuje podobne funkcje całkowicie za darmo.",
+          "features": [
+            { "name": "Baza członków", "b1": true, "competitor": true },
+            { "name": "System rejestracji", "b1": true, "competitor": "$99/mo" },
+            { "name": "Datki online", "b1": "Bez opłat B1", "competitor": "Opłaty platformy + Stripe" },
+            { "name": "Zarządzanie grupami", "b1": true, "competitor": "$50/mo" },
+            { "name": "Planowanie nabożeństw", "b1": true, "competitor": "$14-99/mo" },
+            { "name": "Aplikacja mobilna", "b1": "Darmowa brandowana aplikacja", "competitor": "$0-199/mo" },
+            { "name": "Kreator stron", "b1": true, "competitor": false },
+            { "name": "Zarządzanie kazaniami", "b1": true, "competitor": false },
+            { "name": "Wielokampusowość", "b1": true, "competitor": "Dodatkowy koszt" },
+            { "name": "Otwarty kod źródłowy", "b1": true, "competitor": false }
+          ],
+          "pricingB1": "100% Darmowe",
+          "pricingCompetitor": "$0 - $500+/miesiąc w zależności od modułów",
+          "verdict": "B1.church oferuje wszystkie kluczowe funkcje Planning Center bez skomplikowanego modułowego cennika. Jeśli budżet ma znaczenie, B1 to oczywisty wybór."
+        },
+        "pushpay": {
+          "name": "Pushpay",
+          "tagline": "Darmowa alternatywa dla Pushpay",
+          "description": "Pushpay jest znane z mobilnych datków, ale wiąże się ze znacznymi kosztami miesięcznymi i prowizjami od transakcji. B1.church oferuje datki bez opłat platformy.",
+          "features": [
+            { "name": "Datki online", "b1": "Bez opłat B1", "competitor": "Opłaty platformy + Stripe" },
+            { "name": "Darowizny cykliczne", "b1": true, "competitor": true },
+            { "name": "Aplikacja mobilna", "b1": "Darmowa brandowana aplikacja", "competitor": "W zestawie" },
+            { "name": "Baza członków", "b1": true, "competitor": "ChMS dodatkowo" },
+            { "name": "System rejestracji", "b1": true, "competitor": "Dodatkowy koszt" },
+            { "name": "Kreator stron", "b1": true, "competitor": false },
+            { "name": "Zarządzanie grupami", "b1": true, "competitor": "Dodatkowy koszt" },
+            { "name": "Zestawienia darowizn", "b1": true, "competitor": true },
+            { "name": "Zarządzanie funduszami", "b1": true, "competitor": true },
+            { "name": "Otwarty kod źródłowy", "b1": true, "competitor": false }
+          ],
+          "pricingB1": "100% Darmowe",
+          "pricingCompetitor": "$300 - $1,000+/miesiąc",
+          "verdict": "Pushpay jest bogate w funkcje, ale drogie. B1.church oferuje porównywalne funkcje darowizn plus pełne zarządzanie kościołem bez kosztów. Oszczędności można przekierować na służbę."
+        },
+        "tithely": {
+          "name": "Tithe.ly",
+          "tagline": "Darmowa alternatywa dla Tithe.ly",
+          "description": "Tithe.ly oferuje narzędzia do datków i zarządzania kościołem w modelu freemium. B1.church udostępnia wszystko bezpłatnie, bez prowizji od transakcji.",
+          "features": [
+            { "name": "Datki online", "b1": "Bez opłat B1", "competitor": "Opłaty platformy + Stripe" },
+            { "name": "Darowizny cykliczne", "b1": true, "competitor": true },
+            { "name": "Aplikacja mobilna", "b1": "Darmowa brandowana aplikacja", "competitor": "$99/mo" },
+            { "name": "Baza członków", "b1": true, "competitor": "$99/mo" },
+            { "name": "System rejestracji", "b1": true, "competitor": "$49/mo" },
+            { "name": "Kreator stron", "b1": true, "competitor": "$49/mo" },
+            { "name": "Zarządzanie grupami", "b1": true, "competitor": "$99/mo" },
+            { "name": "Zarządzanie kazaniami", "b1": true, "competitor": "$49/mo" },
+            { "name": "Wielokampusowość", "b1": true, "competitor": "Dodatkowy koszt" },
+            { "name": "Otwarty kod źródłowy", "b1": true, "competitor": false }
+          ],
+          "pricingB1": "100% Darmowe",
+          "pricingCompetitor": "Poziom darmowy + $49-199/mo za funkcje",
+          "verdict": "Darmowy poziom Tithe.ly jest ograniczony. Aby uzyskać pełną funkcjonalność, koszty szybko się kumulują. B1.church zawiera wszystko od pierwszego dnia bez presji na upgrade."
+        },
+        "breeze": {
+          "name": "Breeze ChMS",
+          "tagline": "Darmowa alternatywa dla Breeze ChMS",
+          "description": "Breeze to prosty system zarządzania kościołem z przejrzystym cennikiem. B1.church oferuje więcej funkcji bez kosztów.",
+          "features": [
+            { "name": "Baza członków", "b1": true, "competitor": true },
+            { "name": "Zarządzanie datkami", "b1": "Bez opłat B1", "competitor": "2.9% + 30\u00a2" },
+            { "name": "System rejestracji", "b1": true, "competitor": "Podstawowy" },
+            { "name": "Aplikacja mobilna", "b1": "Darmowa brandowana aplikacja", "competitor": "Ograniczona" },
+            { "name": "Kreator stron", "b1": true, "competitor": false },
+            { "name": "Zarządzanie grupami", "b1": true, "competitor": true },
+            { "name": "Zarządzanie wydarzeniami", "b1": true, "competitor": true },
+            { "name": "Planowanie wolontariuszy", "b1": true, "competitor": true },
+            { "name": "Wielokampusowość", "b1": true, "competitor": false },
+            { "name": "Otwarty kod źródłowy", "b1": true, "competitor": false }
+          ],
+          "pricingB1": "100% Darmowe",
+          "pricingCompetitor": "$72 - $135/miesiąc",
+          "verdict": "Breeze jest proste i niedrogie, ale B1.church jest prostsze dla budżetu (darmowe!), oferując więcej funkcji, takich jak kreator stron i pełna aplikacja mobilna."
+        }
+      }
+    },
+    "churchManagement": {
+      "hero": {
+        "title": "Darmowe",
+        "titleHighlight": "Oprogramowanie do zarządzania kościołem",
+        "titleLine2": "Kompletna platforma służby",
+        "description": "Profesjonalne <strong>oprogramowanie do zarządzania kościołem</strong> ze śledzeniem obecności, bazą członków, zarządzaniem datkami i narzędziami komunikacji. Całkowicie <strong>darmowe oprogramowanie kościelne</strong> dostarczane przez Live Church Solutions, służbę non-profit 501(c)(3). Dołącz do 100+ kościołów oszczędzających tysiące na kosztach oprogramowania do służby.",
+        "ctaPrimary": "Zacznij za darmo",
+        "ctaSecondary": "Wypróbuj demo",
+        "trustLine": "Zaufany przez rozwijające się kościoły na całym świecie",
+        "trustFree": "Całkowicie darmowe na zawsze",
+        "trustNonProfit": "Służba non-profit 501(c)(3)",
+        "trustOpenSource": "Otwarty kod źródłowy"
+      },
+      "featuresHeader": {
+        "title": "Kompletny",
+        "titleHighlight": "System zarządzania kościołem",
+        "titleSuffix": "Funkcje",
+        "description": "Profesjonalne oprogramowanie bazodanowe kościoła z zarządzaniem członkami, śledzeniem obecności, administracją datkami i narzędziami komunikacji w służbie. Darmowy system zarządzania kościołem zaprojektowany specjalnie dla rozwijających się zborów i kościołów wielokampusowych."
+      },
+      "checkinStations": {
+        "title": "Stacje samoobsługowej rejestracji",
+        "description": "Zapewnij bezpieczeństwo dzieci, jednocześnie uwalniając wolontariuszy do angażowania się z rodzinami. Nasz samoobsługowy system rejestracji generuje pasujące kody dla dzieci i dorosłych, tworząc bezpieczny proces odbioru.",
+        "features": [
+          "Wyszukiwanie po numerze telefonu i automatyczny wybór nabożeństw",
+          "Bezprzewodowe drukowanie etykiet i paragonów na współdzielonych drukarkach",
+          "Działa na przystępnych tabletach z Androidem poniżej $80",
+          "Automatycznie synchronizuje się z systemem śledzenia obecności"
+        ]
+      },
+      "mainFeatures": [
+        {
+          "title": "Kompletne zarządzanie osobami",
+          "description": "Prowadź szczegółowe rekordy członków i gości z danymi kontaktowymi, relacjami, urodzinami i śledzeniem rocznic. Zaawansowane możliwości wyszukiwania i filtrowania."
+        },
+        {
+          "title": "Analityka obecności",
+          "description": "Śledź trendy obecności we wszystkich nabożeństwach i grupach dzięki pięknym wykresom i raportom. Monitoruj wzorce zaangażowania i wzrost w czasie."
+        },
+        {
+          "title": "Zarządzanie grupami i służbami",
+          "description": "Organizuj nieograniczoną liczbę grup, zajęć i służb. Zarządzaj przydziałami członków, śledź uczestnictwo i twórz własne kategorie grup."
+        },
+        {
+          "title": "Zaawansowane zarządzanie datkami",
+          "description": "Przetwarzaj darowizny z zarządzaniem partiami, śledzeniem funduszy i kompleksowymi raportami finansowymi. Generuj zestawienia podatkowe i monitoruj trendy datków."
+        },
+        {
+          "title": "Planowanie uwielbienia i nabożeństw",
+          "description": "Planuj nabożeństwa uwielbieniowe, przypisuj członków zespołu i zarządzaj koordynacją wolontariuszy. Śledź potrzebne stanowiska i automatyzuj powiadomienia."
+        },
+        {
+          "title": "Biblioteka pieśni i aranżacji",
+          "description": "Organizuj pełną bibliotekę pieśni z wieloma aranżacjami, tonacjami i akordami. Linkuj do zewnętrznych zasobów i zarządzaj listami utworów uwielbienia."
+        },
+        {
+          "title": "Centrum komunikacji",
+          "description": "Wysyłaj ukierunkowane e-maile i ogłoszenia. Twórz zautomatyzowane procesy i utrzymuj połączenie swojego zboru."
+        },
+        {
+          "title": "Obsługa wielu kampusów",
+          "description": "Zarządzaj wieloma lokalizacjami z jednego zunifikowanego panelu. Śledź dane specyficzne dla kampusu, jednocześnie utrzymując raportowanie na poziomie całej organizacji."
+        }
+      ],
+      "testimonials": {
+        "title": "Kochany przez kościoły",
+        "titleHighlight": "na całym świecie",
+        "subtitle": "Dołącz do rozwijających się kościołów, które przekształciły swoją służbę dzięki naszej całkowicie darmowej platformie. Oto, co pastorzy i administratorzy kościelni mają do powiedzenia.",
+        "items": [
+          {
+            "content": "Używamy tej platformy w każdą niedzielę, aby śledzić obecność i prowadzić ewidencję wszystkich uczestników, w tym dzieci ze szkółki niedzielnej. Jako misjonarze z ograniczonym budżetem doceniamy, że to oprogramowanie jest darmowe i skuteczne."
+          },
+          {
+            "content": "To wybawienie dla kościoła. Jako mały kościół z ograniczonym budżetem, to oprogramowanie jest ZESŁANE PRZEZ BOGA i błogosławieństwem. Jest przyjazne dla użytkownika i łatwe w konfiguracji. Raporty darowizn łatwo się sporządza. Fakt, że mogę eksportować dane do Excela, sprawia, że analiza rekordów jest bardzo prosta. Skróciło to mój czas biurowy o co najmniej 25%."
+          },
+          {
+            "content": "To pomogło nam płynnie przejść na cyfrowe datki podczas pandemii. Zespół wsparcia był fantastyczny, a platforma jest niezwykle niezawodna. Bycie darmowym pozwoliło nam przekierować nasz budżet na oprogramowanie na rzeczywistą służbę."
+          }
+        ]
+      },
+      "aboutSection": {
+        "title": "O naszym",
+        "titleHighlight": "Darmowym oprogramowaniu kościelnym",
+        "description": "Kompleksowe <strong>oprogramowanie do zarządzania kościołem</strong> dostarczane całkowicie bezpłatnie chrześcijańskim kościołom i służbom przez <strong>Live Church Solutions</strong>, organizację non-profit 501(c)(3) założoną w 2012. Naszą misją jest pomaganie kościołom we wdrażaniu profesjonalnego <strong>oprogramowania do służby</strong> bez typowych wysokich kosztów systemów administracyjnych kościoła."
+      },
+      "stats": [
+        {
+          "number": "$800M",
+          "label": "Kościoły wydają rocznie na oprogramowanie do zarządzania",
+          "description": "Wierzymy, że te pieniądze można wykorzystać lepiej"
+        },
+        {
+          "number": "100+",
+          "label": "Kościołów już korzystających z naszej platformy",
+          "description": "Rosnąca społeczność zadowolonych użytkowników"
+        },
+        {
+          "number": "2012",
+          "label": "Rok założenia Live Church Solutions",
+          "description": "Ponad dekada pomocy kościołom w technologii"
+        },
+        {
+          "number": "100%",
+          "label": "Gwarancja darmowego na zawsze",
+          "description": "Bez ukrytych opłat, bez okresów próbnych, bez limitów"
+        }
+      ],
+      "mission": {
+        "title": "Nasza misja: pomaganie kościołom w skupieniu się na służbie",
+        "description": "Każdego roku Kościół wydaje ponad <strong>800 milionów dolarów</strong> na oprogramowanie do zarządzania. Wierzymy, że te pieniądze można wykorzystać lepiej, dlatego stworzyliśmy tę platformę; całkowicie darmowe rozwiązanie do zarządzania kościołem z otwartym kodem źródłowym.",
+        "learnMore": "Dowiedz się więcej o Live Church Solutions",
+        "viewOnGitHub": "Zobacz na GitHub"
+      },
+      "allFeatures": {
+        "title": "Wszystko, czego potrzebujesz, całkowicie za darmo",
+        "subtitle": "Bez okresów próbnych, bez limitów członków, bez ukrytych opłat",
+        "items": [
+          "Kompletna baza członków ze szczegółowymi profilami",
+          "Śledzenie obecności z aplikacją do samodzielnej rejestracji",
+          "Zarządzanie grupami i małymi grupami",
+          "Zarządzanie datkami ze szczegółowymi raportami",
+          "Niestandardowe formularze i zbieranie danych",
+          "Narzędzia komunikacji e-mailowej",
+          "Zarządzanie wydarzeniami i planowanie",
+          "Import danych z istniejących systemów",
+          "Obsługa wielu lokalizacji i kampusów",
+          "Dostęp oparty na rolach i uprawnieniach",
+          "Otwarty kod źródłowy z dostępem do GitHub"
+        ]
+      },
+      "cta": {
+        "title": "Gotowy, by przestać płacić za oprogramowanie do zarządzania kościołem?",
+        "description": "Dołącz do kościołów na całym świecie, które przeszły na całkowicie darmowe rozwiązanie z otwartym kodem źródłowym, zbudowane przez służbę, dla służb.",
+        "primaryButton": "Zacznij za darmo",
+        "secondaryButton": "Wypróbuj demo"
+      }
+    },
+    "notFound": {
+      "title": "404",
+      "message": "Ups! Nie znaleziono strony",
+      "returnHome": "Wróć do strony głównej"
+    }
+  }
+}
