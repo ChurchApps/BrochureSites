@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { LoginPage } from "@churchapps/apphelper-login";
+import { LoginPage } from "@churchapps/apphelper/login";
 import UserContext from "@/context/UserContext";
 import type { UserInterface, PersonInterface, LoginUserChurchInterface } from "@churchapps/helpers";
 
