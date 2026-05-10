@@ -132,8 +132,8 @@ const Footer = () => {
             © {new Date().getFullYear()} Live Church Solutions. A 501(c)(3) non-profit ministry (EIN: 45-5349618).
           </p>
           <div className="flex items-center gap-6">
-            <LocaleLink to="/privacy" className="text-gray-400 hover:text-white transition-colors text-sm">Privacy Policy</LocaleLink>
-            <LocaleLink to="/terms" className="text-gray-400 hover:text-white transition-colors text-sm">Terms of Service</LocaleLink>
+            <a href="https://churchapps.org/privacy" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors text-sm">Privacy Policy</a>
+            <a href="https://churchapps.org/terms" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors text-sm">Terms of Service</a>
             <LocaleLink to="/about" className="text-gray-400 hover:text-white transition-colors text-sm">About</LocaleLink>
           </div>
         </div>

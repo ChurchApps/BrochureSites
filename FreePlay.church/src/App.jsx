@@ -8,8 +8,6 @@ import Features from './components/Features';
 import Providers from './components/Providers';
 import CTA from './components/CTA';
 import Footer from './components/Footer';
-import PrivacyPolicy from './pages/PrivacyPolicy';
-import TermsOfService from './pages/TermsOfService';
 import About from './pages/About';
 import './App.css';
 
@@ -34,8 +32,6 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/privacy" element={<PrivacyPolicy />} />
-        <Route path="/terms" element={<TermsOfService />} />
         <Route path="/about" element={<About />} />
       </Routes>
     </BrowserRouter>

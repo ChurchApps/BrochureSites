@@ -13,8 +13,8 @@ export default function Footer() {
 
         <div className="footer-links">
           <Link to="/about">About</Link>
-          <Link to="/privacy">Privacy Policy</Link>
-          <Link to="/terms">Terms of Service</Link>
+          <a href="https://churchapps.org/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+          <a href="https://churchapps.org/terms" target="_blank" rel="noopener noreferrer">Terms of Service</a>
           <a href="https://support.churchapps.org/" target="_blank" rel="noopener noreferrer">Support</a>
         </div>
 
