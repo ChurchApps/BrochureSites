@@ -744,6 +744,128 @@
   font-size: 0.875rem;
 }
 
+.footer-links {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.footer-links a {
+  color: #9ca3af;
+  text-decoration: none;
+  font-size: 0.875rem;
+  transition: color 0.2s;
+}
+
+.footer-links a:hover {
+  color: var(--pink-primary);
+}
+
+/* Legal Pages */
+.legal-page {
+  padding: 8rem 2rem 4rem;
+  min-height: 100vh;
+  background: #000000;
+}
+
+.legal-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.legal-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+.legal-updated {
+  color: #9ca3af;
+  margin-bottom: 3rem;
+  font-size: 0.875rem;
+}
+
+.legal-section {
+  margin-bottom: 2.5rem;
+}
+
+.legal-section h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #374151;
+}
+
+.legal-section h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #d1d5db;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.legal-section p {
+  color: #d1d5db;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.legal-section ul {
+  color: #d1d5db;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.legal-section li {
+  margin-bottom: 0.5rem;
+  line-height: 1.7;
+}
+
+.legal-section a {
+  color: var(--pink-primary);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.legal-section a:hover {
+  color: #ff1a9e;
+}
+
+.legal-back {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #374151;
+}
+
+.legal-back-link {
+  display: inline-flex;
+  align-items: center;
+  color: var(--pink-primary);
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.legal-back-link:hover {
+  color: #ff1a9e;
+  transform: translateX(-4px);
+}
+
+@media (max-width: 768px) {
+  .legal-title {
+    font-size: 2rem;
+  }
+
+  .legal-page {
+    padding: 6rem 1rem 3rem;
+  }
+}
+
 /* Responsive Design */
 @media (max-width: 1024px) {
   .hero-title {

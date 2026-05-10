@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { useNavigate, useLocation } from "react-router-dom";
 import { useLanguage } from "@/context/LanguageContext";
 import { LANG_HOME_REGEX } from "@/constants/languages";
+import LocaleLink from "@/components/LocaleLink";
 import {
   Mail,
   Phone,
@@ -120,6 +121,20 @@ const Footer = () => {
               </div>
             </div>
 
+          </div>
+        </div>
+      </div>
+
+      {/* Bottom Bar */}
+      <div className="container mx-auto px-4 pb-8">
+        <div className="border-t border-gray-700/50 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+          <p className="text-gray-500 text-sm">
+            © {new Date().getFullYear()} Live Church Solutions. A 501(c)(3) non-profit ministry (EIN: 45-5349618).
+          </p>
+          <div className="flex items-center gap-6">
+            <LocaleLink to="/privacy" className="text-gray-400 hover:text-white transition-colors text-sm">Privacy Policy</LocaleLink>
+            <LocaleLink to="/terms" className="text-gray-400 hover:text-white transition-colors text-sm">Terms of Service</LocaleLink>
+            <LocaleLink to="/about" className="text-gray-400 hover:text-white transition-colors text-sm">About</LocaleLink>
           </div>
         </div>
       </div>

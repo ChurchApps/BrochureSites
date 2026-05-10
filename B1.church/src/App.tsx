@@ -11,6 +11,9 @@ import Login from "./pages/Login";
 import ChurchManagement from "./pages/ChurchManagement";
 import FAQ from "./pages/FAQ";
 import Compare from "./pages/Compare";
+import Privacy from "./pages/Privacy";
+import Terms from "./pages/Terms";
+import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 import { UserProvider } from "./context/UserContext";
 import { LanguageProvider } from "./context/LanguageContext";
@@ -37,6 +40,9 @@ const LanguageLayout = () => (
       <Route path="/faq" element={<FAQ />} />
       <Route path="/compare" element={<Compare />} />
       <Route path="/compare/:competitor" element={<Compare />} />
+      <Route path="/privacy" element={<Privacy />} />
+      <Route path="/terms" element={<Terms />} />
+      <Route path="/about" element={<About />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   </LanguageProvider>
@@ -70,6 +76,9 @@ const App = () => {
                   <Route path="/faq" element={<LanguageRedirect />} />
                   <Route path="/compare" element={<LanguageRedirect />} />
                   <Route path="/compare/:competitor" element={<LanguageRedirect />} />
+                  <Route path="/privacy" element={<LanguageRedirect />} />
+                  <Route path="/terms" element={<LanguageRedirect />} />
+                  <Route path="/about" element={<LanguageRedirect />} />
                   {/* Language-prefixed routes */}
                   <Route path="/:lang/*" element={<LanguageLayout />} />
                 </Routes>
