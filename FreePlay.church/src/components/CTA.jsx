@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import HubSpotModal from './HubSpotModal';
+import MauticModal from './MauticModal';
 
 export default function CTA() {
   const [emailModalOpen, setEmailModalOpen] = useState(false);
@@ -48,7 +48,7 @@ export default function CTA() {
         </p>
       </div>
 
-      <HubSpotModal
+      <MauticModal
         isOpen={emailModalOpen}
         onClose={() => setEmailModalOpen(false)}
       />

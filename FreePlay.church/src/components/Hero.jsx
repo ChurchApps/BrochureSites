@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import HubSpotModal from './HubSpotModal';
+import MauticModal from './MauticModal';
 
 export default function Hero() {
   const [learnModalOpen, setLearnModalOpen] = useState(false);
@@ -66,7 +66,7 @@ export default function Hero() {
         </p>
       </div>
 
-      <HubSpotModal
+      <MauticModal
         isOpen={learnModalOpen}
         onClose={() => setLearnModalOpen(false)}
         title="How Your Church Can Use FreePlay"
