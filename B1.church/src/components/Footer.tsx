@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button";
 import { useNavigate, useLocation } from "react-router-dom";
 import { useLanguage } from "@/context/LanguageContext";
 import { LANG_HOME_REGEX } from "@/constants/languages";
-import LocaleLink from "@/components/LocaleLink";
 import {
   Mail,
   Phone,
@@ -134,7 +133,7 @@ const Footer = () => {
           <div className="flex items-center gap-6">
             <a href="https://churchapps.org/privacy" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors text-sm">Privacy Policy</a>
             <a href="https://churchapps.org/terms" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors text-sm">Terms of Service</a>
-            <LocaleLink to="/about" className="text-gray-400 hover:text-white transition-colors text-sm">About</LocaleLink>
+            <a href="https://churchapps.org/about" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors text-sm">About</a>
           </div>
         </div>
       </div>

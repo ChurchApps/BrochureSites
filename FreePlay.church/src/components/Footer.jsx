@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom';
-
 export default function Footer() {
   return (
     <footer className="footer">
@@ -12,7 +10,7 @@ export default function Footer() {
         </div>
 
         <div className="footer-links">
-          <Link to="/about">About</Link>
+          <a href="https://churchapps.org/about" target="_blank" rel="noopener noreferrer">About</a>
           <a href="https://churchapps.org/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
           <a href="https://churchapps.org/terms" target="_blank" rel="noopener noreferrer">Terms of Service</a>
           <a href="https://support.churchapps.org/" target="_blank" rel="noopener noreferrer">Support</a>
