@@ -3,15 +3,17 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "packageManager": "yarn@4.15.0",
   "scripts": {
+    "preinstall": "node -e \"if(!(process.env.npm_config_user_agent||'').startsWith('yarn')){console.error('\\n[FreePlay.church] This project uses Yarn (Berry). Run \\'yarn install\\' instead of npm/pnpm.\\n');process.exit(1)}\"",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint --fix src/",
     "preview": "vite preview",
-    "predeploy-prod": "npm run build",
+    "predeploy-prod": "yarn build",
     "exec-deploy-prod": "aws s3 sync dist/ s3://freeplay-church-web",
     "invalidate-prod": "aws cloudfront create-invalidation --distribution-id E1EEPU4J2PLX59 --paths \"/*\"",
-    "deploy-prod": "npm run predeploy-prod && npm run exec-deploy-prod && npm run invalidate-prod"
+    "deploy-prod": "yarn predeploy-prod && yarn exec-deploy-prod && yarn invalidate-prod"
   },
   "dependencies": {
     "react": "^19.2.0",
@@ -35,5 +37,10 @@
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.18",
     "vite": "^7.2.4"
+  },
+  "dependenciesMeta": {
+    "esbuild": {
+      "built": true
+    }
   }
 }
