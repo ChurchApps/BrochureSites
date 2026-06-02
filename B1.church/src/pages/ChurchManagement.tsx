@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Seo from "@/components/Seo";
 import { Button } from "@/components/ui/button";
 import {
   ArrowRight,
@@ -104,6 +105,11 @@ const ChurchManagement = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <Seo
+        path="/church-management"
+        title="Free Church Management Software - Complete Ministry Platform | B1.church"
+        description="Professional church management software with member management, check-in, online giving, scheduling, and communication tools — 100% free for churches of all sizes."
+      />
       <Header />
 
       <main>

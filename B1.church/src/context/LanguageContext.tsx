@@ -61,7 +61,13 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   };
 
   const localePath = (path: string) => {
-    return `/${lang}${path.startsWith("/") ? path : "/" + path}`;
+    // Always emit a trailing slash so links resolve to the prerendered
+    // directory-index file (e.g. /en/faq/ -> dist/en/faq/index.html) on
+    // static hosting without a CloudFront rewrite. React Router matches
+    // trailing-slash URLs to the same routes.
+    const rel = path.startsWith("/") ? path : "/" + path;
+    const full = `/${lang}${rel}`;
+    return full.endsWith("/") ? full : `${full}/`;
   };
 
   if (isUnsupported) {

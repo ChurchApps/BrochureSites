@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Seo from "@/components/Seo";
 import {
   Accordion,
   AccordionContent,
@@ -50,6 +51,11 @@ const FAQ = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <Seo
+        path="/faq"
+        title={t("brochure.faq.documentTitle")}
+        description={t("brochure.faq.pageSubtitle")}
+      />
       <Header />
 
       <main className="container mx-auto px-4 py-24">

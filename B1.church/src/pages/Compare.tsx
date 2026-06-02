@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Check, X, ArrowRight } from "lucide-react";
 import LocaleLink from "@/components/LocaleLink";
+import Seo from "@/components/Seo";
 
 interface ComparisonData {
   competitor: string;
@@ -99,6 +100,11 @@ const Compare = () => {
   if (!data) {
     return (
       <div className="min-h-screen bg-background">
+        <Seo
+          path="/compare"
+          title="Compare B1.church to Church Software | Free Alternatives"
+          description={t("brochure.compare.ctaDescription")}
+        />
         <Header />
         <main className="container mx-auto px-4 py-24 text-center">
           <h1 className="text-4xl font-bold mb-4">{t("brochure.compare.notFound.title")}</h1>
@@ -134,6 +140,11 @@ const Compare = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <Seo
+        path={`/compare/${competitor}`}
+        title={`B1.church vs ${data.competitor} - Free Church Software Comparison`}
+        description={data.description}
+      />
       <Header />
 
       <main className="container mx-auto px-4 py-24">
