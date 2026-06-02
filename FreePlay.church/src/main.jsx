@@ -1,9 +1,11 @@
 import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+import { ViteReactSSG } from 'vite-react-ssg/single-page'
 import './index.css'
 import App from './App.jsx'
 
-createRoot(document.getElementById('root')).render(
+// ViteReactSSG renders the app to static HTML at build time and hydrates it in
+// the browser, so crawlers receive fully-populated markup instead of an empty root.
+export const createRoot = ViteReactSSG(
   <StrictMode>
     <App />
   </StrictMode>,
