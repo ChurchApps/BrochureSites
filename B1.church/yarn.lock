@@ -134,11 +134,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@churchapps/apphelper@npm:^0.8.0":
-  version: 0.8.0
-  resolution: "@churchapps/apphelper@npm:0.8.0"
+"@churchapps/apphelper@npm:^0.9.0":
+  version: 0.9.0
+  resolution: "@churchapps/apphelper@npm:0.9.0"
   dependencies:
-    "@churchapps/helpers": "npm:1.5.0"
     "@emotion/cache": "npm:^11.14.0"
     "@emotion/react": "npm:^11.14.0"
     "@emotion/styled": "npm:^11.14.1"
@@ -184,6 +183,7 @@ __metadata:
     rrule: "npm:^2.8.1"
     slug: "npm:^11.0.0"
   peerDependencies:
+    "@churchapps/helpers": ^1.5.5
     "@stripe/react-stripe-js": ^3.10.0
     "@stripe/stripe-js": ^7.9.0
     react: ^18.0.0 || ^19.0.0
@@ -197,13 +197,13 @@ __metadata:
       optional: true
     react-google-recaptcha:
       optional: true
-  checksum: 10c0/27e9300824dd694c9ab0577c9ab733dfa234e819c62f4108b653255e57a0a1f3ecfe88bd6e470c8780b32e28b28d1658265c4393bd8e4f10ed91febfa8d87f55
+  checksum: 10c0/67d872d25edcd6f76213bc7282c4379a97885783bd323da7958530748203c3fd999a66dc7520cc85bde7f59d1e6897a55c51893e8294771d21da639106f9d5a5
   languageName: node
   linkType: hard
 
-"@churchapps/helpers@npm:1.5.0":
-  version: 1.5.0
-  resolution: "@churchapps/helpers@npm:1.5.0"
+"@churchapps/helpers@npm:^1.6.1":
+  version: 1.6.1
+  resolution: "@churchapps/helpers@npm:1.6.1"
   dependencies:
     dayjs: "npm:^1.11.20"
   peerDependencies:
@@ -211,7 +211,7 @@ __metadata:
   peerDependenciesMeta:
     rrule:
       optional: true
-  checksum: 10c0/4d6975dbe7c2bd4bdc244c61f11be1322051ef2d5ffb9e84870c473e0448561b8d786c927ce6946ac3c527ac482c2c2b32e62cad7ed7890e816d6a01b23ac8c0
+  checksum: 10c0/b2a90eacd94ee369947c477f79f8d38bfc4ff4c8fd82ad7a0e2fbddcb36e5e4f3722e47069bfd7a61be0cd31358cdb594fdaca8e3af260560f108c5cbae02184
   languageName: node
   linkType: hard
 
@@ -3941,7 +3941,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dayjs@npm:^1.11.20, dayjs@npm:^1.11.7":
+"dayjs@npm:^1.11.20":
+  version: 1.11.21
+  resolution: "dayjs@npm:1.11.21"
+  checksum: 10c0/bd97dfdc4bfea3c66268635690313828b386faa040fbc1f829ff42a2bd748b72c9d9b3c8f9616ce9e61fcb78923f1461a462c969c54b1084458ae1b715898fb0
+  languageName: node
+  linkType: hard
+
+"dayjs@npm:^1.11.7":
   version: 1.11.20
   resolution: "dayjs@npm:1.11.20"
   checksum: 10c0/8af525e2aa100c8db9923d706c42b2b2d30579faf89456619413a5c10916efc92c2b166e193c27c02eb3174b30aa440ee1e7b72b0a2876b3da651d204db848a0
@@ -6870,7 +6877,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "vite_react_shadcn_ts@workspace:."
   dependencies:
-    "@churchapps/apphelper": "npm:^0.8.0"
+    "@churchapps/apphelper": "npm:^0.9.0"
+    "@churchapps/helpers": "npm:^1.6.1"
     "@emotion/react": "npm:^11.14.0"
     "@emotion/styled": "npm:^11.14.1"
     "@eslint/js": "npm:^9.9.0"
