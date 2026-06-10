@@ -17,7 +17,7 @@ if (!i18n.isInitialized) {
     resources: { en: { translation: { ...enApphelper, ...enBrochure } } },
     interpolation: { escapeValue: false },
     react: { useSuspense: false },
-    initImmediate: false,
+    initImmediate: false
   });
 }
 

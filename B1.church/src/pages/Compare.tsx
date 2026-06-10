@@ -130,11 +130,11 @@ const Compare = () => {
 
   const renderFeatureValue = (value: boolean | string) => {
     if (value === true) {
-      return <Check className="w-6 h-6 text-green-400 mx-auto" />;
+      return <Check className="w-6 h-6 text-accent mx-auto" />;
     } else if (value === false) {
-      return <X className="w-6 h-6 text-red-400 mx-auto" />;
+      return <X className="w-6 h-6 text-destructive mx-auto" />;
     } else {
-      return <span className="text-sm text-white/90">{value}</span>;
+      return <span className="text-sm text-foreground/80">{value}</span>;
     }
   };
 
@@ -151,7 +151,7 @@ const Compare = () => {
         <div className="max-w-5xl mx-auto">
           {/* Header */}
           <div className="text-center mb-16">
-            <div className="inline-flex items-center space-x-2 bg-green-500/10 text-green-400 px-4 py-2 rounded-full text-sm font-medium mb-6">
+            <div className="inline-flex items-center space-x-2 bg-accent/10 text-accent px-4 py-2 rounded-full text-sm font-medium mb-6">
               <Check className="w-4 h-4" />
               <span>{data.tagline}</span>
             </div>
@@ -165,14 +165,14 @@ const Compare = () => {
 
           {/* Pricing Comparison */}
           <div className="grid md:grid-cols-2 gap-6 mb-16">
-            <div className="gradient-glass rounded-2xl p-8 border-2 border-primary">
+            <div className="card-elevated rounded-2xl p-8 border-2 border-primary">
               <div className="text-center">
                 <h3 className="text-2xl font-bold mb-2">B1.church</h3>
                 <div className="text-4xl font-bold text-primary mb-2">{data.pricing.b1}</div>
                 <p className="text-foreground/70">{t("brochure.compare.noHiddenFees")}</p>
               </div>
             </div>
-            <div className="gradient-glass rounded-2xl p-8 border border-border/50">
+            <div className="card-elevated rounded-2xl p-8">
               <div className="text-center">
                 <h3 className="text-2xl font-bold mb-2">{data.competitor}</h3>
                 <div className="text-2xl font-bold text-foreground/60 mb-2">{data.pricing.competitor}</div>
@@ -182,20 +182,20 @@ const Compare = () => {
           </div>
 
           {/* Feature Comparison Table */}
-          <div className="gradient-glass rounded-2xl overflow-hidden mb-16">
+          <div className="card-elevated rounded-2xl overflow-hidden mb-16">
             <div className="overflow-x-auto">
               <table className="w-full">
                 <thead>
-                  <tr className="border-b border-white/20 bg-white/5">
-                    <th className="text-left p-4 font-semibold text-white">{t("brochure.compare.featureColumn")}</th>
+                  <tr className="border-b border-border bg-muted/60">
+                    <th className="text-left p-4 font-semibold text-foreground">{t("brochure.compare.featureColumn")}</th>
                     <th className="text-center p-4 font-semibold text-primary">B1.church</th>
-                    <th className="text-center p-4 font-semibold text-white">{data.competitor}</th>
+                    <th className="text-center p-4 font-semibold text-foreground">{data.competitor}</th>
                   </tr>
                 </thead>
                 <tbody>
                   {data.features.map((feature, index) => (
-                    <tr key={index} className="border-b border-white/10 last:border-0">
-                      <td className="p-4 font-medium text-white">{feature.name}</td>
+                    <tr key={index} className="border-b border-border last:border-0">
+                      <td className="p-4 font-medium text-foreground">{feature.name}</td>
                       <td className="p-4 text-center">{renderFeatureValue(feature.b1)}</td>
                       <td className="p-4 text-center">{renderFeatureValue(feature.competitor)}</td>
                     </tr>
@@ -206,7 +206,7 @@ const Compare = () => {
           </div>
 
           {/* Verdict */}
-          <div className="gradient-glass rounded-2xl p-8 mb-16 border border-primary/30">
+          <div className="card-elevated rounded-2xl p-8 mb-16 border-primary/30">
             <h2 className="text-2xl font-bold mb-4">{t("brochure.compare.ourTake")}</h2>
             <p className="text-lg text-foreground/80 leading-relaxed">
               {data.verdict}
@@ -219,7 +219,7 @@ const Compare = () => {
             <p className="text-foreground/70 mb-8">
               {t("brochure.compare.ctaDescription")}
             </p>
-            <Button variant="gradient" size="xl" className="shadow-glow" asChild>
+            <Button size="xl" asChild>
               <LocaleLink to="/login">
                 {t("brochure.compare.ctaButton")}
                 <ArrowRight className="w-5 h-5 ml-2" />

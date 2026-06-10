@@ -74,7 +74,7 @@ const FAQ = () => {
               <AccordionItem
                 key={index}
                 value={`item-${index}`}
-                className="gradient-glass rounded-xl px-6 border border-border/50"
+                className="card-elevated rounded-xl px-6"
               >
                 <AccordionTrigger className="text-left text-lg font-semibold py-6 hover:no-underline">
                   {item.question}
@@ -86,7 +86,7 @@ const FAQ = () => {
             ))}
           </Accordion>
 
-          <div className="mt-16 text-center gradient-glass rounded-3xl p-8 md:p-12">
+          <div className="mt-16 text-center card-elevated rounded-3xl p-8 md:p-12">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
               {t("brochure.faq.stillHaveQuestions")}
             </h2>

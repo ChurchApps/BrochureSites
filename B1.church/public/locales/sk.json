@@ -8,138 +8,220 @@
       "signIn": "Prihlásiť sa",
       "getStartedFree": "Začnite zadarmo"
     },
-    "hero": {
-      "badge": "100% zadarmo \u2022 Platforma zameraná na službu",
-      "headlineTop": "Cirkevná komunita",
-      "headlineBottom": "Bez bariér",
-      "subheadline": "Kompletný softvér na správu cirkvi s mobilnou aplikáciou, tvorcom webu, digitálnym darovaním a komunitnými funkciami. 100% bezplatná cirkevná platforma navrhnutá službou pre služby.",
-      "ctaPrimary": "Začnite zadarmo",
-      "ctaSecondary": "Pozrite si, ako to funguje",
-      "statFreeValue": "100%",
-      "statFreeLabel": "Navždy zadarmo",
-      "statModernValue": "Moderná",
-      "statModernLabel": "Platforma",
-      "statMinistryValue": "Služba",
-      "statMinistryLabel": "Nie zisk"
-    },
-    "features": {
-      "community": {
-        "title": "Prepojenie cirkevnej komunity",
-        "description": "Budujte hlbšie vzťahy prostredníctvom skupín, diskusií, správ a udalostí. Prepojte členov aj mimo nedeľných bohoslužieb zmysluplnými interakciami.",
-        "items": ["Malé skupiny", "Priame správy", "Diskusné fóra", "Adresár členov"],
-        "cta": "Pripojte sa ku komunite"
+    "home": {
+      "hero": {
+        "eyebrow": "Bezplatný cirkevný softvér s otvoreným kódom",
+        "headline": "Všetko, čo vaša cirkev potrebuje, aby mohla",
+        "headlineAccent": "spájať, dávať a rásť.",
+        "subheadline": "Aplikácia pre členov, tvorba webu, online darcovstvo, detský check-in a kompletná správa cirkvi — jedna bezplatná platforma od neziskovej služby, aby váš rozpočet zostal v službe.",
+        "ctaPrimary": "Začnite zadarmo",
+        "ctaSecondary": "Pozrite si to v akcii",
+        "trust": [
+          "Zadarmo navždy — žiadne balíky, žiadne skúšobné verzie",
+          "Žiadne dodatočné transakčné poplatky",
+          "Open source na GitHub",
+          "Nezisková služba 501(c)(3) od roku 2012"
+        ]
       },
-      "content": {
-        "title": "Digitálne cirkevné obsahové centrum",
-        "description": "Prístup ku kázňam, lekciám do učební, veršom dňa a kompletným prekladom Biblie. Udržte svoju komunitu zapojenú čerstvým obsahom počas celého týždňa.",
-        "items": ["Knižnica kázní", "Integrácia Biblie", "Verš dňa", "Lekcie do učební"],
-        "cta": "Prehliadať obsah"
+      "connect": {
+        "eyebrow": "Mobilná aplikácia B1",
+        "title": "Vaši ľudia v spojení",
+        "titleAccent": "po celý týždeň.",
+        "lead": "Dajte svojej cirkvi jedno miesto, kam patriť aj medzi nedeľami. Aplikácia B1 prináša adresár členov, skupiny, správy a kázne do každého telefónu vo vašom zbore.",
+        "items": [
+          "Skupinový chat a diskusie",
+          "Adresár členov a správy",
+          "Kázne a živé vysielanie",
+          "Push notifikácie",
+          "Biblia a verš dňa",
+          "Plánovanie dobrovoľníkov"
+        ],
+        "pwaTitle": "Členovia si ju nainštalujú za pár sekúnd",
+        "pwaNote": "Aplikácia B1 sa inštaluje priamo z webu vašej cirkvi a je vždy aktuálna — každý člen automaticky dostane najnovšiu verziu."
       },
       "giving": {
-        "title": "Online cirkevné darovanie",
-        "description": "Bezpečné dary kreditnou kartou alebo z účtu s opakujúcimi sa možnosťami a darovaním podľa fondov. Žiadne poplatky od B1 – priama integrácia so Stripe.",
-        "items": ["Bezpečné platby", "Opakované dary", "Správa fondov", "História darov"],
-        "cta": "Začať darovať"
+        "eyebrow": "Online darcovstvo",
+        "title": "Nech je štedrosť",
+        "titleAccent": "úplne jednoduchá.",
+        "lead": "Členovia darujú kartou alebo z bankového účtu na pár ťuknutí — jednorazovo aj pravidelne. Váš tím má každý fond, dávku aj koncoročné potvrdenie o daroch na jednom mieste.",
+        "items": [
+          "Jednorazové aj pravidelné dary",
+          "Viacero fondov a účelov",
+          "Automatické koncoročné potvrdenia o daroch",
+          "Evidencia dávok pre hotovosť a šeky"
+        ],
+        "feeNote": "B1 nepridáva k darom žiadne poplatky. Platíte len štandardné sadzby za spracovanie platieb cez Stripe alebo PayPal — nám nejde nič."
+      },
+      "people": {
+        "eyebrow": "B1Admin · Správa cirkvi",
+        "title": "Naozaj spoznajte",
+        "titleAccent": "svojich ľudí.",
+        "lead": "B1Admin je domovská základňa vášho tímu: kompletná databáza členov s prehľadmi účasti, inteligentnými následnými krokmi a AI vyhľadávaním, ktoré odpovedá na otázky položené bežnou rečou.",
+        "items": [
+          "Kompletné profily členov a domácností",
+          "Sledovanie účasti a trendov",
+          "Automatizované následné procesy",
+          "Vyhľadávanie ľudí s pomocou AI"
+        ],
+        "link": "Preskúmať správu cirkvi"
       },
       "checkin": {
-        "title": "Platforma cirkevného prihlasovania",
-        "description": "Bezkontaktné prihlasovanie na bohoslužby so správou rodín a automatickým priraďovaním do skupín. Zjednodušte sledovanie dochádzky.",
-        "items": ["Bezkontaktné prihlasovanie", "Správa rodín", "Automatické priradenie do skupín", "Reporty dochádzky"],
-        "cta": "Vyskúšať prihlasovanie"
-      },
-      "mobileFirst": "Najprv mobil",
-      "managementSystem": {
-        "title": "Kompletný",
-        "titleHighlight": "Systém správy cirkvi",
-        "description": "Profesionálny softvér na databázu cirkvi so správou členov, sledovaním dochádzky, administráciou darov a nástrojmi na komunikáciu v službe. Bezplatný systém správy cirkvi navrhnutý špeciálne pre rastúce zbory a cirkvi s viacerými lokalitami."
-      },
-      "grid": {
-        "peopleManagement": {
-          "title": "Správa ľudí",
-          "description": "Kompletné záznamy o členoch a hosťoch s pokročilým vyhľadávaním a sledovaním vzťahov."
-        },
-        "attendanceAnalytics": {
-          "title": "Analytika dochádzky",
-          "description": "Sledujte trendy dochádzky s krásnymi grafmi a komplexným reportovaním."
-        },
-        "groupsMinistries": {
-          "title": "Skupiny a služby",
-          "description": "Organizujte neobmedzený počet skupín a tried s priradením a sledovaním členov."
-        },
-        "givingManagement": {
-          "title": "Správa darov",
-          "description": "Spracujte dary s dávkovou správou, sledovaním fondov a daňovými potvrdeniami."
-        },
-        "servicePlanning": {
-          "title": "Plánovanie bohoslužieb",
-          "description": "Plánujte bohoslužby, priraďujte tímy a spravujte koordináciu dobrovoľníkov."
-        },
-        "songLibrary": {
-          "title": "Knižnica piesní",
-          "description": "Organizujte piesne s aranžmánmi, tóninami, akordovými tabuľkami a zoznamami."
-        },
-        "communications": {
-          "title": "Komunikácia",
-          "description": "Posielajte cielené e-maily a oznámenia s automatizovanými pracovnými postupmi."
-        },
-        "multiCampus": {
-          "title": "Viac lokalít",
-          "description": "Spravujte viacero lokalít z jedného zjednoteného panelu s dátami špecifickými pre každú lokalitu."
+        "eyebrow": "B1Checkin",
+        "title": "Vítajte rodiny",
+        "titleAccent": "s istotou.",
+        "lead": "Samoobslužný check-in, ktorý tlačí menovky a párové kódy na vyzdvihnutie detí — bezpečnosť detí v základe, dobrovoľníci majú voľné ruky a účasť sa zaznamenáva automaticky.",
+        "items": [
+          "Vyhľadanie podľa telefónneho čísla za pár sekúnd",
+          "Párové bezpečnostné kódy na vyzdvihnutie",
+          "Bezdrôtová tlač štítkov",
+          "Registrácia hostí cez QR kód"
+        ],
+        "receipt": {
+          "title": "Koľko to stojí",
+          "tablet": "Tablet s Androidom",
+          "printer": "Tlačiareň štítkov",
+          "total": "Hardvér, jednorazovo",
+          "software": "Softvér, navždy"
         }
       },
-      "showcase": {
-        "groupsMinistries": {
-          "title": "Skupiny a služby",
-          "description": "Spravujte neobmedzený počet skupín a tried"
+      "ecosystem": {
+        "eyebrow": "Ako to do seba zapadá",
+        "title": "Jedna platforma.",
+        "titleAccent": "Jedna databáza.",
+        "lead": "Aktualizujte rodinu raz a zmena sa prejaví všade — na webe, v aplikácii, pri check-ine aj v darcovstve. Žiadna synchronizácia, žiadne exporty, žiadne platby za jednotlivé moduly.",
+        "hubTitle": "Jedna zdieľaná databáza",
+        "hubSubtitle": "ľudia · skupiny · dary · účasť",
+        "nodes": {
+          "admin": {
+            "name": "B1Admin",
+            "desc": "Prehľadový panel pre tím: ľudia, dary, plány a reporty."
+          },
+          "web": {
+            "name": "Web cirkvi",
+            "desc": "Váš verejný web, kázne, kalendár a stránky pre darcovstvo."
+          },
+          "mobile": {
+            "name": "Mobilná aplikácia",
+            "desc": "Aplikácia pre členov: skupiny, správy a darcovstvo."
+          },
+          "checkin": {
+            "name": "B1Checkin",
+            "desc": "Kioskový check-in s menovkami a bezpečnostnými kódmi."
+          }
         },
-        "peopleSearch": {
-          "title": "Vyhľadávanie ľudí",
-          "description": "Pokročilá databáza členov"
-        },
-        "servicePlanning": {
-          "title": "Plánovanie bohoslužieb",
-          "description": "Plánujte tímy a úlohy"
-        },
-        "songLibrary": {
-          "title": "Knižnica piesní",
-          "description": "Aranžmány a akordové tabuľky"
-        }
-      },
-      "dashboard": {
-        "title": "Krásny, intuitívny dashboard",
-        "description": "Pristupujte ku všetkým dátam svojej cirkvi pomocou nášho čistého, moderného rozhrania navrhnutého pre efektivitu a jednoduché používanie."
-      },
-      "additional": {
-        "security": {
-          "title": "Bezpečnosť a súkromie",
-          "description": "Štandardné priemyselné šifrovanie a bezpečné ukladanie dát"
-        },
-        "mobile": {
-          "title": "Mobilná dostupnosť",
-          "description": "Responzívny dizajn funguje perfektne na všetkých zariadeniach"
-        },
-        "workflows": {
-          "title": "Automatizované pracovné postupy",
-          "description": "Sekvencie nadväzujúcich krokov a automatizácia starostlivosti o členov"
-        },
-        "reporting": {
-          "title": "Reporting v reálnom čase",
-          "description": "Generujte okamžité reporty a exportujte dáta kedykoľvek"
-        },
-        "forms": {
-          "title": "Vlastné formuláre",
-          "description": "Vytvárajte registračné formuláre a prieskumy na akýkoľvek účel"
-        },
-        "roles": {
-          "title": "Prístup podľa rolí",
-          "description": "Bezpečné oprávnenia pre personál a dobrovoľníkov"
-        }
-      },
-      "ctaSection": {
-        "title": "Pripravení budovať silnejšiu",
-        "titleHighlight": "cirkevnú komunitu?",
-        "description": "Transformujte svoju cirkev pomocou našej komplexnej bezplatnej platformy navrhnutej na prehlbovanie vzťahov a posilňovanie cirkevných komunít cez modernú technológiu.",
+        "integrationsLabel": "Dobre si rozumie s nástrojmi, ktoré už používate",
         "cta": "Začnite zadarmo"
+      },
+      "capabilities": {
+        "eyebrow": "A omnoho viac",
+        "title": "Zvyšok zoznamu úloh? Vybavené.",
+        "lead": "Plánovanie bohoslužieb, dobrovoľníci, formuláre, automatizácie — každodenná práca pri vedení cirkvi, všetko v cene.",
+        "cells": {
+          "servicePlanning": {
+            "title": "Plánovanie bohoslužieb",
+            "desc": "Plánujte bohoslužby, prideľujte tímy dobrovoľníkov a všetkých automaticky informujte."
+          },
+          "groups": {
+            "title": "Skupiny a služby",
+            "desc": "Neobmedzený počet skupín s vedúcimi, kalendármi a účasťou."
+          },
+          "songs": {
+            "title": "Knižnica piesní",
+            "desc": "Aranžmány, tóniny a odkazy pre váš chváliaci tím."
+          },
+          "forms": {
+            "title": "Formuláre a registrácie",
+            "desc": "Vlastné formuláre na podujatia, prihlášky a prieskumy."
+          },
+          "automations": {
+            "title": "Procesy a automatizácie",
+            "desc": "Následná starostlivosť o návštevníkov a opakované úlohy, ktoré bežia samy."
+          },
+          "multiCampus": {
+            "title": "Viac kampusov",
+            "desc": "Každé miesto v jednom paneli s reportmi na úrovni kampusu."
+          },
+          "roles": {
+            "title": "Roly a oprávnenia",
+            "desc": "Dajte zamestnancom a dobrovoľníkom presne taký prístup, aký potrebujú."
+          },
+          "reports": {
+            "title": "Reporty a exporty",
+            "desc": "Trendy účasti, prehľady darov a exporty na jedno kliknutie."
+          }
+        },
+        "openSource": {
+          "title": "Open source, žiadne uzamknutie u dodávateľa",
+          "desc": "Celé B1 je open source. Preskúmajte kód, prispejte alebo si ho prevádzkujte sami — vaše dáta sú vždy vaše.",
+          "linkLabel": "Pozrite si kód na GitHub"
+        }
+      },
+      "mission": {
+        "eyebrow": "Prečo je to zadarmo?",
+        "title": "Vytvorené službou, nie predajcom.",
+        "lead": "B1 vytvára Live Church Solutions, nezisková organizácia 501(c)(3) založená v roku 2012. Cirkvi míňajú na softvér stovky miliónov ročne — my by sme radšej videli, ako tieto peniaze idú do služby.",
+        "stats": {
+          "free": "Zadarmo navždy",
+          "fees": "Dodatočné poplatky",
+          "founded": "Slúžime cirkvám od roku",
+          "languages": "Podporovaných jazykov"
+        },
+        "audiences": [
+          {
+            "title": "Novozaložené zbory",
+            "description": "Začnite s profesionálnymi nástrojmi od prvého dňa — bez rozpočtu na softvér."
+          },
+          {
+            "title": "Malé a stredné cirkvi",
+            "description": "Všetko zvládnu aj dobrovoľníci a netreba nič udržiavať."
+          },
+          {
+            "title": "Cirkvi s viacerými kampusmi",
+            "description": "Jednotné dáta o ľuďoch a reporty naprieč všetkými kampusmi."
+          },
+          {
+            "title": "Globálne služby",
+            "description": "K dispozícii v 29 jazykoch a financované tak, aby zostalo zadarmo kdekoľvek na svete."
+          }
+        ],
+        "sister": "Tvoríme aj FreeShow, bezplatný prezentačný softvér, a Lessons.church, bezplatné materiály s viac ako 1,100 lekciami — zadarmo a open source, ako všetko, čo robíme.",
+        "aboutChurchApps": "O ChurchApps"
+      },
+      "finalCta": {
+        "title": "Buďte jedna cirkev.",
+        "titleAccent": "Všetko na jednom mieste.",
+        "description": "Nastavte svoju cirkev za pár minút — aplikácia, web, darcovstvo aj check-in už na vás čakajú.",
+        "ctaPrimary": "Začnite zadarmo",
+        "ctaSecondary": "Prečítať časté otázky",
+        "reassurance": "Nepotrebujete platobnú kartu — nie je čo účtovať. Zadarmo navždy, od služby, ktorá chce, aby to tak aj zostalo."
+      }
+    },
+    "fragments": {
+      "checkinToast": {
+        "title": "Rodina Johnsonovcov sa odbavila",
+        "detail": "Predškolská trieda A · 9:02"
+      },
+      "givingStat": {
+        "label": "Dary tento mesiac"
+      },
+      "aiSearch": {
+        "query": "rodiny, ktoré sa pridali za posledných 90 dní"
+      },
+      "workflow": {
+        "title": "Následná starostlivosť o nových návštevníkov",
+        "badge": "Automatizované",
+        "step1": "Odoslať uvítací e-mail",
+        "step2": "Prideliť pastorovi"
+      },
+      "nameTag": {
+        "hello": "Ahoj",
+        "myNameIs": "volám sa",
+        "pickup": "Vyzdvihnutie rodičom"
+      },
+      "pushNotification": {
+        "app": "Grace Church",
+        "message": "Rozpis dobrovoľníkov na nedeľu je zverejnený",
+        "time": "teraz"
       }
     },
     "testimonials": {
@@ -148,13 +230,13 @@
       "subtitle": "Pridajte sa k rastúcim cirkvám, ktoré premenili svoju službu s našou úplne bezplatnou platformou. Tu je, čo pastori a administrátori cirkví hovoria o B1.",
       "stats": {
         "churchesValue": "100+",
-        "churchesLabel": "Cirkví nám dôveruje",
+        "churchesLabel": "Cirkví po celom svete",
         "freeValue": "Zadarmo",
-        "freeLabel": "Navždy a stále",
-        "uptimeValue": "99.9%",
-        "uptimeLabel": "Garancia dostupnosti",
-        "supportValue": "24/7",
-        "supportLabel": "Dostupná podpora"
+        "freeLabel": "Navždy a naveky",
+        "openValue": "Otvorený",
+        "openLabel": "Zdrojový kód",
+        "languagesValue": "29",
+        "languagesLabel": "Podporovaných jazykov"
       },
       "items": [
         {
@@ -175,10 +257,11 @@
       ],
       "ctaTitle": "Pripravení premeniť správu svojej cirkvi?",
       "ctaDescription": "Pridajte sa k rastúcej komunite cirkví, ktoré už používajú B1 – úplne zadarmo navždy. Nie je potrebná kreditná karta, žiadne skúšobné verzie, žiadne skryté poplatky.",
-      "ctaButton": "Začnite zadarmo"
+      "ctaButton": "Začnite zadarmo",
+      "compareLink": "Pozrite si, ako B1 obstojí v porovnaní s Planning Center, Pushpay a ďalšími"
     },
     "websiteBuilder": {
-      "badge": "Funkcia webového portálu",
+      "badge": "Web vašej cirkvi",
       "title": "Bezplatný tvorca cirkevného webu",
       "titleHighlight": "Za minúty, nie mesiace",
       "description": "Vytvorte si krásny, profesionálny cirkevný web s naším bezplatným vstavaným tvorcom webov. Nie je potrebné programovanie – stačí ťahať, pustiť a publikovať svoj cirkevný web.",
@@ -197,90 +280,15 @@
       "cta": "Začnite budovať svoj cirkevný web",
       "ctaSubtext": "Kompletný bezplatný tvorca cirkevného webu je súčasťou každého účtu"
     },
-    "perfectFor": {
-      "title": "Zadarmo pre každú",
-      "titleHighlight": "cirkevnú komunitu",
-      "subtitle": "Úplne bezplatná platforma pre cirkvi všetkých veľkostí. Naše poslanie služby znamená žiadne skryté náklady, žiadne obmedzenia funkcií, žiadne prekvapenia.",
-      "audiences": [
-        {
-          "title": "Miestne cirkvi",
-          "description": "Zbory na jednom mieste, ktoré chcú modernizovať svoju digitálnu prítomnosť",
-          "stats": "Akákoľvek veľkosť"
-        },
-        {
-          "title": "Zbory s viacerými lokalitami",
-          "description": "Viaceré lokality potrebujúce zjednotenú správu s jedinečnými identitami",
-          "stats": "Všetky lokality"
-        },
-        {
-          "title": "Denominačné siete",
-          "description": "Organizácie slúžiace viacerým cirkvám so zdieľanými zdrojmi",
-          "stats": "Každá sieť"
-        },
-        {
-          "title": "Zamerané na komunitu",
-          "description": "Cirkvi, ktoré uprednostňujú hlboké zapojenie a budovanie vzťahov",
-          "stats": "Denne rastú"
-        }
-      ],
-      "integrations": {
-        "adminIntegration": {
-          "title": "Integrácia s B1 Admin",
-          "description": "Bezproblémovo integrovaná so softvérom na správu cirkvi B1 Admin pre kompletnú automatizáciu pracovných postupov."
-        },
-        "webPortal": {
-          "title": "Súčasťou je webový portál",
-          "description": "Komplexný webový portál s tvorcom webov popri výkonnej mobilnej aplikácii."
-        },
-        "instantSetup": {
-          "title": "Okamžité nastavenie",
-          "description": "Začnite za pár minút s naším zjednodušeným procesom onboardingu a špecializovaným tímom podpory."
-        }
-      },
-      "about": {
-        "title": "O našom bezplatnom softvéri",
-        "description": "Sme nezisková služba 501(c)(3), ktorá sa venuje poskytovaniu úplne bezplatného softvéru na správu cirkvi. Naším poslaním je umožniť cirkvám sústrediť sa na službu, nie na náklady na softvér.",
-        "stats": {
-          "freeValue": "100%",
-          "freeLabel": "Navždy zadarmo",
-          "setupValue": "$0",
-          "setupLabel": "Náklady na nastavenie",
-          "churchesValue": "100+",
-          "churchesLabel": "Obslúžených cirkví",
-          "openValue": "Otvorený",
-          "openLabel": "Zdrojový kód"
-        },
-        "features": [
-          "Nie je potrebná kreditná karta",
-          "Neobmedzený počet používateľov a členov",
-          "Všetky funkcie v cene",
-          "Pravidelné aktualizácie a vylepšenia",
-          "24/7 komunitná podpora",
-          "Mobilný a webový prístup",
-          "Pomoc pri importe dát",
-          "Transparentnosť otvoreného zdrojového kódu"
-        ],
-        "learnMore": "Zistite viac o našej službe a poslaní",
-        "aboutChurchApps": "O ChurchApps",
-        "viewOnGitHub": "Zobraziť na GitHub"
-      },
-      "cta": {
-        "title": "Pripravení posilniť svoju komunitu?",
-        "description": "Objavte, ako vám naša komplexná platforma pre službu môže pomôcť budovať hlbšie vzťahy a silnejšie komunity.",
-        "button": "Začnite zadarmo ešte dnes",
-        "tagline": "100% zadarmo \u2022 Žiadne skryté náklady \u2022 Poslanie zamerané na službu"
-      }
-    },
     "footer": {
-      "companyDescription": "Univerzálna cirkevná komunikačná platforma, ktorá spája uctievanie, komunitu, darovanie a administráciu.",
+      "companyDescription": "Bezplatná open source platforma, ktorá spája aplikáciu, web, darcovstvo a správu vašej cirkvi na jednom mieste.",
       "product": "Produkt",
       "mobileFeatures": "Mobilné funkcie",
       "websiteBuilder": "Tvorca webu",
       "faq": "Časté otázky",
       "aboutChurchApps": "O ChurchApps",
       "appsAndResources": "Aplikácie a zdroje",
-      "androidApp": "Aplikácia pre Android",
-      "iosApp": "Aplikácia pre iOS",
+      "installApp": "Nainštalovať mobilnú aplikáciu",
       "helpCenter": "Centrum pomoci",
       "contact": "Kontakt",
       "availableWorldwide": "Dostupné celosvetovo"
@@ -296,8 +304,8 @@
           "answer": "Áno, B1.church je úplne zadarmo bez skrytých poplatkov, bez prémiových úrovní a bez transakčných poplatkov za dary. Sme nezisková služba 501(c)(3), ktorá verí, že každá cirkev si zaslúži prístup k modernej technológii bez ohľadu na rozpočet. Naša platforma je financovaná z darov a grantov Google Ad Grants."
         },
         {
-          "question": "Aké funkcie B1.church zahŕňa?",
-          "answer": "B1.church zahŕňa kompletnú platformu na správu cirkvi: mobilné aplikácie pre iOS a Android, tvorcu webov typu drag-and-drop, online darovanie bez transakčných poplatkov, inteligentný systém prihlasovania, databázu členov, sledovanie dochádzky, správu skupín, plánovanie bohoslužieb, knižnicu piesní, správu kázní a integráciu Biblie."
+          "question": "Aké funkcie B1.church obsahuje?",
+          "answer": "B1.church obsahuje kompletnú platformu na správu cirkvi: mobilnú aplikáciu pre členov inštalovateľnú priamo z vášho webu, tvorbu webu štýlom potiahni a pusti, online darcovstvo bez dodatočných poplatkov platformy, systém detského check-inu s bezpečnostnými kódmi, databázu členov, sledovanie účasti, správu skupín, plánovanie bohoslužieb, knižnicu piesní, správu kázní a integráciu Biblie."
         },
         {
           "question": "Ako sa B1.church porovnáva s Planning Center?",
@@ -316,12 +324,12 @@
           "answer": "B1.church je zadarmo, zatiaľ čo Breeze začína na $72/mesiac. B1 obsahuje plnohodnotnú mobilnú aplikáciu a tvorcu webov, kým Breeze má obmedzené mobilné funkcie a žiadneho tvorcu webov. Obaja ponúkajú správu cirkvi, ale B1 poskytuje viac funkcií bez poplatkov."
         },
         {
-          "question": "Môžem získať vlastnú mobilnú aplikáciu pre svoju cirkev?",
-          "answer": "Áno, B1.church poskytuje mobilné aplikácie s vlastnou značkou pre iOS a Android. Vaša cirkev získa vlastnú aplikáciu s vaším brandingom, ktorú si členovia môžu stiahnuť z App Store a Google Play. Toto je v B1 zadarmo."
+          "question": "Získa moja cirkev mobilnú aplikáciu?",
+          "answer": "Áno. B1 dáva vašej cirkvi vlastnú značkovú mobilnú aplikáciu v podobe inštalovateľnej webovej aplikácie (PWA). Členovia otvoria web vašej cirkvi, ťuknú na „Pridať na plochu“ a získajú celoobrazovkovú aplikáciu s názvom a logom vašej cirkvi. Aktualizácie sa ku všetkým dostanú okamžite."
         },
         {
           "question": "Podporuje B1.church online darovanie?",
-          "answer": "Áno, B1.church zahŕňa bezpečné online darovanie s podporou kreditných kariet a bankových prevodov. Môžete nastaviť opakujúce sa dary, spravovať viaceré fondy a poskytovať históriu darov pre daňové potvrdenia. Používame priamu integráciu so Stripe bez poplatkov platformy B1 – vaša cirkev si dohodne sadzby priamo so Stripe (zvyčajne okolo 2.9% + 30\u00a2)."
+          "answer": "Áno, B1.church zahŕňa bezpečné online darovanie s podporou kreditných kariet a bankových prevodov. Môžete nastaviť opakujúce sa dary, spravovať viaceré fondy a poskytovať históriu darov pre daňové potvrdenia. Používame priamu integráciu so Stripe bez poplatkov platformy B1 – vaša cirkev si dohodne sadzby priamo so Stripe (zvyčajne okolo 2.9% + 30¢)."
         },
         {
           "question": "Môžem si s B1.church postaviť web?",
@@ -377,16 +385,56 @@
           "tagline": "Bezplatná alternatíva k Planning Center",
           "description": "Planning Center je populárna platforma na správu cirkvi s modulovým cenníkom. B1.church ponúka podobné funkcie úplne zadarmo.",
           "features": [
-            { "name": "Databáza členov", "b1": true, "competitor": true },
-            { "name": "Systém prihlasovania", "b1": true, "competitor": "$99/mo" },
-            { "name": "Online darovanie", "b1": "Žiadne poplatky B1", "competitor": "Poplatky platformy + Stripe" },
-            { "name": "Správa skupín", "b1": true, "competitor": "$50/mo" },
-            { "name": "Plánovanie bohoslužieb", "b1": true, "competitor": "$14-99/mo" },
-            { "name": "Mobilná aplikácia", "b1": "Bezplatná aplikácia s brandingom", "competitor": "$0-199/mo" },
-            { "name": "Tvorca webu", "b1": true, "competitor": false },
-            { "name": "Správa kázní", "b1": true, "competitor": false },
-            { "name": "Viac lokalít", "b1": true, "competitor": "Za príplatok" },
-            { "name": "Open Source", "b1": true, "competitor": false }
+            {
+              "name": "Databáza členov",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Systém prihlasovania",
+              "b1": true,
+              "competitor": "$99/mo"
+            },
+            {
+              "name": "Online darovanie",
+              "b1": "Žiadne poplatky B1",
+              "competitor": "Poplatky platformy + Stripe"
+            },
+            {
+              "name": "Správa skupín",
+              "b1": true,
+              "competitor": "$50/mo"
+            },
+            {
+              "name": "Plánovanie bohoslužieb",
+              "b1": true,
+              "competitor": "$14-99/mo"
+            },
+            {
+              "name": "Mobilná aplikácia",
+              "b1": "Bezplatná aplikácia s brandingom",
+              "competitor": "$0-199/mo"
+            },
+            {
+              "name": "Tvorca webu",
+              "b1": true,
+              "competitor": false
+            },
+            {
+              "name": "Správa kázní",
+              "b1": true,
+              "competitor": false
+            },
+            {
+              "name": "Viac lokalít",
+              "b1": true,
+              "competitor": "Za príplatok"
+            },
+            {
+              "name": "Open Source",
+              "b1": true,
+              "competitor": false
+            }
           ],
           "pricingB1": "100% zadarmo",
           "pricingCompetitor": "$0 - $500+/mesiac v závislosti od modulov",
@@ -397,16 +445,56 @@
           "tagline": "Bezplatná alternatíva k Pushpay",
           "description": "Pushpay je známy pre mobilné darovanie, ale prináša významné mesačné náklady a transakčné poplatky. B1.church ponúka darovanie s nulovými poplatkami platformy.",
           "features": [
-            { "name": "Online darovanie", "b1": "Žiadne poplatky B1", "competitor": "Poplatky platformy + Stripe" },
-            { "name": "Opakujúce sa dary", "b1": true, "competitor": true },
-            { "name": "Mobilná aplikácia", "b1": "Bezplatná aplikácia s brandingom", "competitor": "V cene" },
-            { "name": "Databáza členov", "b1": true, "competitor": "ChMS extra" },
-            { "name": "Systém prihlasovania", "b1": true, "competitor": "Za príplatok" },
-            { "name": "Tvorca webu", "b1": true, "competitor": false },
-            { "name": "Správa skupín", "b1": true, "competitor": "Za príplatok" },
-            { "name": "Potvrdenia o daroch", "b1": true, "competitor": true },
-            { "name": "Správa fondov", "b1": true, "competitor": true },
-            { "name": "Open Source", "b1": true, "competitor": false }
+            {
+              "name": "Online darovanie",
+              "b1": "Žiadne poplatky B1",
+              "competitor": "Poplatky platformy + Stripe"
+            },
+            {
+              "name": "Opakujúce sa dary",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Mobilná aplikácia",
+              "b1": "Bezplatná aplikácia s brandingom",
+              "competitor": "V cene"
+            },
+            {
+              "name": "Databáza členov",
+              "b1": true,
+              "competitor": "ChMS extra"
+            },
+            {
+              "name": "Systém prihlasovania",
+              "b1": true,
+              "competitor": "Za príplatok"
+            },
+            {
+              "name": "Tvorca webu",
+              "b1": true,
+              "competitor": false
+            },
+            {
+              "name": "Správa skupín",
+              "b1": true,
+              "competitor": "Za príplatok"
+            },
+            {
+              "name": "Potvrdenia o daroch",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Správa fondov",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Open Source",
+              "b1": true,
+              "competitor": false
+            }
           ],
           "pricingB1": "100% zadarmo",
           "pricingCompetitor": "$300 - $1,000+/mesiac",
@@ -417,16 +505,56 @@
           "tagline": "Bezplatná alternatíva k Tithe.ly",
           "description": "Tithe.ly ponúka nástroje cirkevného darovania a správy s freemium cenníkom. B1.church poskytuje všetko zadarmo bez transakčných poplatkov.",
           "features": [
-            { "name": "Online darovanie", "b1": "Žiadne poplatky B1", "competitor": "Poplatky platformy + Stripe" },
-            { "name": "Opakujúce sa dary", "b1": true, "competitor": true },
-            { "name": "Mobilná aplikácia", "b1": "Bezplatná aplikácia s brandingom", "competitor": "$99/mo" },
-            { "name": "Databáza členov", "b1": true, "competitor": "$99/mo" },
-            { "name": "Systém prihlasovania", "b1": true, "competitor": "$49/mo" },
-            { "name": "Tvorca webu", "b1": true, "competitor": "$49/mo" },
-            { "name": "Správa skupín", "b1": true, "competitor": "$99/mo" },
-            { "name": "Správa kázní", "b1": true, "competitor": "$49/mo" },
-            { "name": "Viac lokalít", "b1": true, "competitor": "Za príplatok" },
-            { "name": "Open Source", "b1": true, "competitor": false }
+            {
+              "name": "Online darovanie",
+              "b1": "Žiadne poplatky B1",
+              "competitor": "Poplatky platformy + Stripe"
+            },
+            {
+              "name": "Opakujúce sa dary",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Mobilná aplikácia",
+              "b1": "Bezplatná aplikácia s brandingom",
+              "competitor": "$99/mo"
+            },
+            {
+              "name": "Databáza členov",
+              "b1": true,
+              "competitor": "$99/mo"
+            },
+            {
+              "name": "Systém prihlasovania",
+              "b1": true,
+              "competitor": "$49/mo"
+            },
+            {
+              "name": "Tvorca webu",
+              "b1": true,
+              "competitor": "$49/mo"
+            },
+            {
+              "name": "Správa skupín",
+              "b1": true,
+              "competitor": "$99/mo"
+            },
+            {
+              "name": "Správa kázní",
+              "b1": true,
+              "competitor": "$49/mo"
+            },
+            {
+              "name": "Viac lokalít",
+              "b1": true,
+              "competitor": "Za príplatok"
+            },
+            {
+              "name": "Open Source",
+              "b1": true,
+              "competitor": false
+            }
           ],
           "pricingB1": "100% zadarmo",
           "pricingCompetitor": "Bezplatná úroveň + $49-199/mo za funkcie",
@@ -437,16 +565,56 @@
           "tagline": "Bezplatná alternatíva k Breeze ChMS",
           "description": "Breeze je jednoduchý systém správy cirkvi s priamočiarym cenníkom. B1.church ponúka viac funkcií bez poplatkov.",
           "features": [
-            { "name": "Databáza členov", "b1": true, "competitor": true },
-            { "name": "Správa darov", "b1": "Žiadne poplatky B1", "competitor": "2.9% + 30\u00a2" },
-            { "name": "Systém prihlasovania", "b1": true, "competitor": "Základný" },
-            { "name": "Mobilná aplikácia", "b1": "Bezplatná aplikácia s brandingom", "competitor": "Obmedzená" },
-            { "name": "Tvorca webu", "b1": true, "competitor": false },
-            { "name": "Správa skupín", "b1": true, "competitor": true },
-            { "name": "Správa udalostí", "b1": true, "competitor": true },
-            { "name": "Plánovanie dobrovoľníkov", "b1": true, "competitor": true },
-            { "name": "Viac lokalít", "b1": true, "competitor": false },
-            { "name": "Open Source", "b1": true, "competitor": false }
+            {
+              "name": "Databáza členov",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Správa darov",
+              "b1": "Žiadne poplatky B1",
+              "competitor": "2.9% + 30¢"
+            },
+            {
+              "name": "Systém prihlasovania",
+              "b1": true,
+              "competitor": "Základný"
+            },
+            {
+              "name": "Mobilná aplikácia",
+              "b1": "Bezplatná aplikácia s brandingom",
+              "competitor": "Obmedzená"
+            },
+            {
+              "name": "Tvorca webu",
+              "b1": true,
+              "competitor": false
+            },
+            {
+              "name": "Správa skupín",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Správa udalostí",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Plánovanie dobrovoľníkov",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Viac lokalít",
+              "b1": true,
+              "competitor": false
+            },
+            {
+              "name": "Open Source",
+              "b1": true,
+              "competitor": false
+            }
           ],
           "pricingB1": "100% zadarmo",
           "pricingCompetitor": "$72 - $135/mesiac",
@@ -479,7 +647,7 @@
         "features": [
           "Vyhľadávanie podľa telefónneho čísla a automatický výber bohoslužieb",
           "Bezdrôtové tlačenie štítkov a potvrdení na zdieľané tlačiarne",
-          "Beží na cenovo dostupných Android tabletoch pod $80",
+          "Beží na cenovo dostupných tabletoch s Androidom (približne $150)",
           "Automatická synchronizácia so systémom sledovania dochádzky"
         ]
       },
@@ -588,6 +756,54 @@
         "description": "Pridajte sa k cirkvám po celom svete, ktoré prešli na úplne bezplatné, open-source riešenie vytvorené službou pre služby.",
         "primaryButton": "Začnite zadarmo",
         "secondaryButton": "Vyskúšať demo"
+      },
+      "showcase": {
+        "groupsMinistries": {
+          "title": "Skupiny a služby",
+          "description": "Spravujte neobmedzený počet skupín a tried"
+        },
+        "peopleSearch": {
+          "title": "Vyhľadávanie ľudí",
+          "description": "Pokročilá databáza členov"
+        },
+        "servicePlanning": {
+          "title": "Plánovanie bohoslužieb",
+          "description": "Plánujte tímy a úlohy"
+        },
+        "songLibrary": {
+          "title": "Knižnica piesní",
+          "description": "Aranžmány a akordové tabuľky"
+        }
+      },
+      "dashboard": {
+        "title": "Krásny, intuitívny dashboard",
+        "description": "Pristupujte ku všetkým dátam svojej cirkvi pomocou nášho čistého, moderného rozhrania navrhnutého pre efektivitu a jednoduché používanie."
+      },
+      "additional": {
+        "security": {
+          "title": "Bezpečnosť a súkromie",
+          "description": "Štandardné priemyselné šifrovanie a bezpečné ukladanie dát"
+        },
+        "mobile": {
+          "title": "Mobilná dostupnosť",
+          "description": "Responzívny dizajn funguje perfektne na všetkých zariadeniach"
+        },
+        "workflows": {
+          "title": "Automatizované pracovné postupy",
+          "description": "Sekvencie nadväzujúcich krokov a automatizácia starostlivosti o členov"
+        },
+        "reporting": {
+          "title": "Reporting v reálnom čase",
+          "description": "Generujte okamžité reporty a exportujte dáta kedykoľvek"
+        },
+        "forms": {
+          "title": "Vlastné formuláre",
+          "description": "Vytvárajte registračné formuláre a prieskumy na akýkoľvek účel"
+        },
+        "roles": {
+          "title": "Prístup podľa rolí",
+          "description": "Bezpečné oprávnenia pre personál a dobrovoľníkov"
+        }
       }
     },
     "notFound": {

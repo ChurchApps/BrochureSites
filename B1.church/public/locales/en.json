@@ -8,138 +8,220 @@
       "signIn": "Sign In",
       "getStartedFree": "Get Started Free"
     },
-    "hero": {
-      "badge": "100% Free \u2022 Ministry-Driven Platform",
-      "headlineTop": "Church Community",
-      "headlineBottom": "Without Barriers",
-      "subheadline": "Complete church management software with mobile app, website builder, digital giving, and community features. 100% free church platform designed by a ministry, for ministries.",
-      "ctaPrimary": "Get Started Free",
-      "ctaSecondary": "See How It Works",
-      "statFreeValue": "100%",
-      "statFreeLabel": "Free Forever",
-      "statModernValue": "Modern",
-      "statModernLabel": "Platform",
-      "statMinistryValue": "Ministry",
-      "statMinistryLabel": "Not Profit"
-    },
-    "features": {
-      "community": {
-        "title": "Church Community Connection",
-        "description": "Build deeper relationships through groups, discussions, messaging, and events. Connect members beyond Sunday services with meaningful interactions.",
-        "items": ["Small Groups", "Direct Messaging", "Discussion Forums", "Member Directory"],
-        "cta": "Join Community"
+    "home": {
+      "hero": {
+        "eyebrow": "Free, open-source church software",
+        "headline": "Everything your church needs to",
+        "headlineAccent": "connect, give, and grow.",
+        "subheadline": "A member app, website builder, online giving, child check-in, and full church management — one free platform from a nonprofit ministry, so your budget stays in ministry.",
+        "ctaPrimary": "Get Started Free",
+        "ctaSecondary": "See It in Action",
+        "trust": [
+          "Free forever — no tiers, no trials",
+          "No added transaction fees",
+          "Open source on GitHub",
+          "501(c)(3) ministry since 2012"
+        ]
       },
-      "content": {
-        "title": "Digital Church Content Hub",
-        "description": "Access sermons, classroom lessons, verse of the days and full bible translations. Keep your community engaged with fresh content throughout the week.",
-        "items": ["Sermon Library", "Bible Integration", "Verse of the Day", "Classroom Lessons"],
-        "cta": "Browse Content"
+      "connect": {
+        "eyebrow": "The B1 Mobile App",
+        "title": "Your people, connected",
+        "titleAccent": "all week long.",
+        "lead": "Give your church one place to belong between Sundays. The B1 app brings your member directory, groups, messages, and sermons to every phone in your congregation.",
+        "items": [
+          "Group chat & discussions",
+          "Member directory & messaging",
+          "Sermons & live streaming",
+          "Push notifications",
+          "Bible & verse of the day",
+          "Volunteer scheduling"
+        ],
+        "pwaTitle": "Members install it in seconds",
+        "pwaNote": "The B1 app installs straight from your church's website and is always up to date — every member gets the latest version automatically."
       },
       "giving": {
-        "title": "Online Church Giving",
-        "description": "Secure donations via credit/bank with recurring options and fund-specific giving. No fees from B1 - direct Stripe integration.",
-        "items": ["Secure Payments", "Recurring Donations", "Fund Management", "Giving History"],
-        "cta": "Start Giving"
+        "eyebrow": "Online Giving",
+        "title": "Make generosity",
+        "titleAccent": "effortless.",
+        "lead": "Members give by card or bank account in a few taps — one time or recurring. Your team tracks every fund, batch, and year-end statement in the same place.",
+        "items": [
+          "One-time & recurring gifts",
+          "Multiple funds & designations",
+          "Automatic year-end statements",
+          "Batch tracking for cash & checks"
+        ],
+        "feeNote": "B1 adds zero fees on donations. You pay only standard Stripe or PayPal processing rates — nothing goes to us."
+      },
+      "people": {
+        "eyebrow": "B1Admin · Church Management",
+        "title": "Actually know",
+        "titleAccent": "your people.",
+        "lead": "B1Admin is your team's home base: a full member database with attendance insights, smart follow-ups, and an AI search that answers questions in plain English.",
+        "items": [
+          "Complete member & household profiles",
+          "Attendance tracking & trends",
+          "Automated follow-up workflows",
+          "AI-powered people search"
+        ],
+        "link": "Explore church management"
       },
       "checkin": {
-        "title": "Church Check-in Platform",
-        "description": "Contactless service check-in with family management and automatic group assignment. Streamline attendance tracking.",
-        "items": ["Contactless Check-in", "Family Management", "Auto Group Assignment", "Attendance Reports"],
-        "cta": "Try Check-in"
-      },
-      "mobileFirst": "Mobile First",
-      "managementSystem": {
-        "title": "Complete",
-        "titleHighlight": "Church Management System",
-        "description": "Professional church database software with member management, attendance tracking, giving administration, and ministry communication tools. Free church management system designed specifically for growing congregations and multi-campus churches."
-      },
-      "grid": {
-        "peopleManagement": {
-          "title": "People Management",
-          "description": "Complete member and guest records with advanced search and relationships tracking."
-        },
-        "attendanceAnalytics": {
-          "title": "Attendance Analytics",
-          "description": "Track attendance trends with beautiful charts and comprehensive reporting."
-        },
-        "groupsMinistries": {
-          "title": "Groups & Ministries",
-          "description": "Organize unlimited groups, classes with member assignments and tracking."
-        },
-        "givingManagement": {
-          "title": "Giving Management",
-          "description": "Process donations with batch management, fund tracking, and tax statements."
-        },
-        "servicePlanning": {
-          "title": "Service Planning",
-          "description": "Schedule worship services, assign teams, and manage volunteer coordination."
-        },
-        "songLibrary": {
-          "title": "Song Library",
-          "description": "Organize songs with arrangements, keys, chord charts, and setlists."
-        },
-        "communications": {
-          "title": "Communications",
-          "description": "Send targeted emails and announcements with automated workflows."
-        },
-        "multiCampus": {
-          "title": "Multi-Campus",
-          "description": "Manage multiple locations from one unified dashboard with campus-specific data."
+        "eyebrow": "B1Checkin",
+        "title": "Welcome families",
+        "titleAccent": "with confidence.",
+        "lead": "Self-service check-in that prints name tags and matching parent pickup codes — child safety built in, volunteers freed up, attendance recorded automatically.",
+        "items": [
+          "Phone number lookup in seconds",
+          "Matching security codes for pickup",
+          "Wireless label printing",
+          "Guest registration by QR code"
+        ],
+        "receipt": {
+          "title": "What it costs",
+          "tablet": "Android tablet",
+          "printer": "Label printer",
+          "total": "Hardware, once",
+          "software": "Software, forever"
         }
       },
-      "showcase": {
-        "groupsMinistries": {
-          "title": "Groups & Ministries",
-          "description": "Manage unlimited groups and classes"
+      "ecosystem": {
+        "eyebrow": "How it fits together",
+        "title": "One platform.",
+        "titleAccent": "One database.",
+        "lead": "Update a family once and it's right everywhere — the website, the app, check-in, and giving. No syncing, no exports, no per-module pricing.",
+        "hubTitle": "One shared database",
+        "hubSubtitle": "people · groups · giving · attendance",
+        "nodes": {
+          "admin": {
+            "name": "B1Admin",
+            "desc": "The staff dashboard for people, giving, plans, and reports."
+          },
+          "web": {
+            "name": "Church Website",
+            "desc": "Your public site, sermons, calendar, and giving pages."
+          },
+          "mobile": {
+            "name": "Mobile App",
+            "desc": "The member app for groups, messages, and giving."
+          },
+          "checkin": {
+            "name": "B1Checkin",
+            "desc": "Kiosk check-in with name tags and security codes."
+          }
         },
-        "peopleSearch": {
-          "title": "People Search",
-          "description": "Advanced member database"
-        },
-        "servicePlanning": {
-          "title": "Service Planning",
-          "description": "Schedule teams and assignments"
-        },
-        "songLibrary": {
-          "title": "Song Library",
-          "description": "Arrangements and chord charts"
-        }
-      },
-      "dashboard": {
-        "title": "Beautiful, Intuitive Dashboard",
-        "description": "Access all your church data with our clean, modern interface designed for efficiency and ease of use."
-      },
-      "additional": {
-        "security": {
-          "title": "Security & Privacy",
-          "description": "Industry standard encryption and secure data storage"
-        },
-        "mobile": {
-          "title": "Mobile Accessibility",
-          "description": "Responsive design works perfectly on all devices"
-        },
-        "workflows": {
-          "title": "Automated Workflows",
-          "description": "Follow-up sequences and member care automation"
-        },
-        "reporting": {
-          "title": "Real-Time Reporting",
-          "description": "Generate instant reports and export data anytime"
-        },
-        "forms": {
-          "title": "Custom Forms",
-          "description": "Build registration forms and surveys for any purpose"
-        },
-        "roles": {
-          "title": "Role-Based Access",
-          "description": "Secure permissions for staff and volunteers"
-        }
-      },
-      "ctaSection": {
-        "title": "Ready to Build Stronger",
-        "titleHighlight": "Church Community?",
-        "description": "Transform your church with our comprehensive free platform designed to deepen relationships and strengthen church communities through modern technology.",
+        "integrationsLabel": "Plays well with the tools you already use",
         "cta": "Get Started Free"
+      },
+      "capabilities": {
+        "eyebrow": "And much more",
+        "title": "The rest of the to-do list, handled.",
+        "lead": "Worship planning, volunteers, forms, automations — the everyday work of running a church, all included.",
+        "cells": {
+          "servicePlanning": {
+            "title": "Service planning",
+            "desc": "Plan services, assign volunteer teams, and notify everyone automatically."
+          },
+          "groups": {
+            "title": "Groups & ministries",
+            "desc": "Unlimited groups with leaders, calendars, and attendance."
+          },
+          "songs": {
+            "title": "Song library",
+            "desc": "Arrangements, keys, and links for your worship team."
+          },
+          "forms": {
+            "title": "Forms & registrations",
+            "desc": "Custom forms for events, sign-ups, and surveys."
+          },
+          "automations": {
+            "title": "Workflows & automations",
+            "desc": "Visitor follow-up and recurring tasks that run themselves."
+          },
+          "multiCampus": {
+            "title": "Multi-campus",
+            "desc": "Every location in one dashboard with campus-level reporting."
+          },
+          "roles": {
+            "title": "Roles & permissions",
+            "desc": "Give staff and volunteers exactly the access they need."
+          },
+          "reports": {
+            "title": "Reports & exports",
+            "desc": "Attendance trends, giving summaries, and one-click exports."
+          }
+        },
+        "openSource": {
+          "title": "Open source, no lock-in",
+          "desc": "All of B1 is open source. Inspect the code, contribute, or self-host — your data is always yours.",
+          "linkLabel": "See the code on GitHub"
+        }
+      },
+      "mission": {
+        "eyebrow": "Why is it free?",
+        "title": "Built by a ministry, not a vendor.",
+        "lead": "B1 is built by Live Church Solutions, a 501(c)(3) nonprofit founded in 2012. Churches spend hundreds of millions a year on software — we'd rather see that money go to ministry.",
+        "stats": {
+          "free": "Free forever",
+          "fees": "Added fees",
+          "founded": "Serving churches since",
+          "languages": "Languages supported"
+        },
+        "audiences": [
+          {
+            "title": "Church plants",
+            "description": "Launch with professional tools from day one — without a software budget."
+          },
+          {
+            "title": "Small & mid-size churches",
+            "description": "Everything volunteers can actually run, with nothing to maintain."
+          },
+          {
+            "title": "Multi-site churches",
+            "description": "Unified people data and reporting across every campus."
+          },
+          {
+            "title": "Global ministries",
+            "description": "Available in 29 languages and funded so it stays free anywhere."
+          }
+        ],
+        "sister": "We also build FreeShow, free presentation software, and Lessons.church, free curriculum with 1,100+ lessons — free and open source, like everything we make.",
+        "aboutChurchApps": "About ChurchApps"
+      },
+      "finalCta": {
+        "title": "Be one church.",
+        "titleAccent": "All in one place.",
+        "description": "Set up your church in minutes — your app, website, giving, and check-in are waiting.",
+        "ctaPrimary": "Get Started Free",
+        "ctaSecondary": "Read the FAQ",
+        "reassurance": "No credit card required — there's nothing to charge. Free forever, from a ministry that wants you to keep it that way."
+      }
+    },
+    "fragments": {
+      "checkinToast": {
+        "title": "The Johnson family checked in",
+        "detail": "Preschool A · 9:02 AM"
+      },
+      "givingStat": {
+        "label": "Giving this month"
+      },
+      "aiSearch": {
+        "query": "families who joined in the last 90 days"
+      },
+      "workflow": {
+        "title": "New visitor follow-up",
+        "badge": "Automated",
+        "step1": "Send welcome email",
+        "step2": "Assign to a pastor"
+      },
+      "nameTag": {
+        "hello": "Hello",
+        "myNameIs": "my name is",
+        "pickup": "Parent pickup"
+      },
+      "pushNotification": {
+        "app": "Grace Church",
+        "message": "Volunteer schedule posted for Sunday",
+        "time": "now"
       }
     },
     "testimonials": {
@@ -148,23 +230,23 @@
       "subtitle": "Join growing churches that have transformed their ministry with our completely free platform. Here's what pastors and church administrators have to say about B1.",
       "stats": {
         "churchesValue": "100+",
-        "churchesLabel": "Churches Trust Us",
+        "churchesLabel": "Churches worldwide",
         "freeValue": "Free",
-        "freeLabel": "Forever & Always",
-        "uptimeValue": "99.9%",
-        "uptimeLabel": "Uptime Guarantee",
-        "supportValue": "24/7",
-        "supportLabel": "Support Available"
+        "freeLabel": "Forever & always",
+        "openValue": "Open",
+        "openLabel": "Source code",
+        "languagesValue": "29",
+        "languagesLabel": "Languages supported"
       },
       "items": [
         {
           "content": "I heartily recommend ChurchApps. It is a ministry in the truest and best sense of the word. ChurchApps provides technical services to enhance and elevate the church's spiritual impact in their communities. They will help the infrastructure of the Church for years to come."
         },
         {
-          "content": "ChurchApps helped us become more visible in our community\u2014boosting awareness, donations, and volunteers so we can better serve families in need."
+          "content": "ChurchApps helped us become more visible in our community—boosting awareness, donations, and volunteers so we can better serve families in need."
         },
         {
-          "content": "ChurchApps is more than software\u2014it's a practical tool that supports the mission, vision, and daily work of ministry. I am grateful for the opportunity to learn it, teach it, and witness how it empowers churches to operate with greater clarity, efficiency, and purpose."
+          "content": "ChurchApps is more than software—it's a practical tool that supports the mission, vision, and daily work of ministry. I am grateful for the opportunity to learn it, teach it, and witness how it empowers churches to operate with greater clarity, efficiency, and purpose."
         },
         {
           "content": "Having the donation page has increased giving to our organization. Not only do people appreciate the ease of scanning a code to take them directly to the donation page, monthly giving can be set up for those who want online giving to be easy."
@@ -175,10 +257,11 @@
       ],
       "ctaTitle": "Ready to Transform Your Church Management?",
       "ctaDescription": "Join the growing community of churches already using B1 - completely free forever. No credit card required, no trials, no hidden fees.",
-      "ctaButton": "Get Started for Free"
+      "ctaButton": "Get Started for Free",
+      "compareLink": "See how B1 compares to Planning Center, Pushpay & more"
     },
     "websiteBuilder": {
-      "badge": "Web Portal Feature",
+      "badge": "Your Church Website",
       "title": "Free Church Website Builder",
       "titleHighlight": "In Minutes, Not Months",
       "description": "Create a beautiful, professional church website with our free built-in website builder. No coding required - just drag, drop, and publish your church website.",
@@ -197,90 +280,15 @@
       "cta": "Start Building Your Church Website",
       "ctaSubtext": "Complete free church website builder included with every account"
     },
-    "perfectFor": {
-      "title": "Free For Every",
-      "titleHighlight": "Church Community",
-      "subtitle": "Completely free platform for all church sizes. Our ministry mission means no hidden costs, no feature limits, no surprises.",
-      "audiences": [
-        {
-          "title": "Local Churches",
-          "description": "Single-site congregations wanting to modernize their digital presence",
-          "stats": "Any Size"
-        },
-        {
-          "title": "Multi-Site Congregations",
-          "description": "Multiple locations needing unified management with unique identities",
-          "stats": "All Locations"
-        },
-        {
-          "title": "Denominational Networks",
-          "description": "Organizations serving multiple churches with shared resources",
-          "stats": "Every Network"
-        },
-        {
-          "title": "Community-Focused",
-          "description": "Churches prioritizing deep engagement and relationship building",
-          "stats": "Growing Daily"
-        }
-      ],
-      "integrations": {
-        "adminIntegration": {
-          "title": "B1 Admin Integration",
-          "description": "Seamlessly integrated with B1 Admin church management software for complete workflow automation."
-        },
-        "webPortal": {
-          "title": "Web Portal Included",
-          "description": "Comprehensive web portal with website builder alongside the powerful mobile app experience."
-        },
-        "instantSetup": {
-          "title": "Instant Setup",
-          "description": "Get started in minutes with our streamlined onboarding process and dedicated support team."
-        }
-      },
-      "about": {
-        "title": "About Our Free Software",
-        "description": "We're a 501(c)(3) non-profit ministry dedicated to providing completely free church management software. Our mission is to empower churches to focus on ministry, not software costs.",
-        "stats": {
-          "freeValue": "100%",
-          "freeLabel": "Free Forever",
-          "setupValue": "$0",
-          "setupLabel": "Setup Costs",
-          "churchesValue": "100+",
-          "churchesLabel": "Churches Served",
-          "openValue": "Open",
-          "openLabel": "Source Code"
-        },
-        "features": [
-          "No credit card required",
-          "Unlimited users & members",
-          "All features included",
-          "Regular updates & improvements",
-          "24/7 community support",
-          "Mobile & web access",
-          "Data import assistance",
-          "Open source transparency"
-        ],
-        "learnMore": "Learn more about our ministry and mission",
-        "aboutChurchApps": "About ChurchApps",
-        "viewOnGitHub": "View on GitHub"
-      },
-      "cta": {
-        "title": "Ready to Strengthen Your Community?",
-        "description": "Discover how our comprehensive ministry platform can help you build deeper relationships and stronger communities.",
-        "button": "Start Free Today",
-        "tagline": "100% Free \u2022 No hidden costs \u2022 Ministry-driven mission"
-      }
-    },
     "footer": {
-      "companyDescription": "The all-in-one church communication platform that brings worship, community, giving, and administration together.",
+      "companyDescription": "The free, open-source platform that brings your church's app, website, giving, and administration together.",
       "product": "Product",
       "mobileFeatures": "Mobile Features",
       "websiteBuilder": "Website Builder",
       "faq": "FAQ",
       "aboutChurchApps": "About ChurchApps",
       "appsAndResources": "Apps & Resources",
-      "androidApp": "Android App",
-      "iosApp": "iOS App",
+      "installApp": "Install the Mobile App",
       "helpCenter": "Help Center",
       "contact": "Contact",
       "availableWorldwide": "Available Worldwide"
@@ -297,7 +305,7 @@
         },
         {
           "question": "What features does B1.church include?",
-          "answer": "B1.church includes a complete church management platform: mobile apps for iOS and Android, a drag-and-drop website builder, online giving with no transaction fees, smart check-in system, member database, attendance tracking, groups management, service planning, song library, sermon management, and Bible integration."
+          "answer": "B1.church includes a complete church management platform: a member mobile app installed straight from your website, a drag-and-drop website builder, online giving with no added platform fees, a children's check-in system with security codes, member database, attendance tracking, groups management, service planning, song library, sermon management, and Bible integration."
         },
         {
           "question": "How does B1.church compare to Planning Center?",
@@ -316,12 +324,12 @@
           "answer": "B1.church is free while Breeze starts at $72/month. B1 includes a full mobile app and website builder, while Breeze has limited mobile features and no website builder. Both offer church management, but B1 provides more features at no cost."
         },
         {
-          "question": "Can I get a custom mobile app for my church?",
-          "answer": "Yes, B1.church provides custom-branded mobile apps for iOS and Android. Your church gets its own app with your branding that members can download from the App Store and Google Play. This is included free with B1."
+          "question": "Does my church get a mobile app?",
+          "answer": "Yes. B1 gives your church a branded mobile app experience as an installable web app (PWA). Members open your church's site, tap 'Add to Home Screen', and get a full-screen app with your church's name and logo. Updates reach everyone instantly."
         },
         {
           "question": "Does B1.church support online giving?",
-          "answer": "Yes, B1.church includes secure online giving with credit card and bank transfer support. You can set up recurring donations, manage multiple funds, and provide giving history for tax statements. We use direct Stripe integration with no B1 platform fees - your church negotiates rates directly with Stripe (typically around 2.9% + 30\u00a2)."
+          "answer": "Yes, B1.church includes secure online giving with credit card and bank transfer support. You can set up recurring donations, manage multiple funds, and provide giving history for tax statements. We use direct Stripe integration with no B1 platform fees - your church negotiates rates directly with Stripe (typically around 2.9% + 30¢)."
         },
         {
           "question": "Can I build a website with B1.church?",
@@ -377,16 +385,56 @@
           "tagline": "Free alternative to Planning Center",
           "description": "Planning Center is a popular church management platform with modular pricing. B1.church offers similar features completely free.",
           "features": [
-            { "name": "Member Database", "b1": true, "competitor": true },
-            { "name": "Check-in System", "b1": true, "competitor": "$99/mo" },
-            { "name": "Online Giving", "b1": "No B1 fees", "competitor": "Platform + Stripe fees" },
-            { "name": "Groups Management", "b1": true, "competitor": "$50/mo" },
-            { "name": "Service Planning", "b1": true, "competitor": "$14-99/mo" },
-            { "name": "Mobile App", "b1": "Free branded app", "competitor": "$0-199/mo" },
-            { "name": "Website Builder", "b1": true, "competitor": false },
-            { "name": "Sermon Management", "b1": true, "competitor": false },
-            { "name": "Multi-Campus", "b1": true, "competitor": "Extra cost" },
-            { "name": "Open Source", "b1": true, "competitor": false }
+            {
+              "name": "Member Database",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Check-in System",
+              "b1": true,
+              "competitor": "$99/mo"
+            },
+            {
+              "name": "Online Giving",
+              "b1": "No B1 fees",
+              "competitor": "Platform + Stripe fees"
+            },
+            {
+              "name": "Groups Management",
+              "b1": true,
+              "competitor": "$50/mo"
+            },
+            {
+              "name": "Service Planning",
+              "b1": true,
+              "competitor": "$14-99/mo"
+            },
+            {
+              "name": "Mobile App",
+              "b1": "Free branded app",
+              "competitor": "$0-199/mo"
+            },
+            {
+              "name": "Website Builder",
+              "b1": true,
+              "competitor": false
+            },
+            {
+              "name": "Sermon Management",
+              "b1": true,
+              "competitor": false
+            },
+            {
+              "name": "Multi-Campus",
+              "b1": true,
+              "competitor": "Extra cost"
+            },
+            {
+              "name": "Open Source",
+              "b1": true,
+              "competitor": false
+            }
           ],
           "pricingB1": "100% Free",
           "pricingCompetitor": "$0 - $500+/month depending on modules",
@@ -397,16 +445,56 @@
           "tagline": "Free alternative to Pushpay",
           "description": "Pushpay is known for mobile giving but comes with significant monthly costs and transaction fees. B1.church offers giving with zero platform fees.",
           "features": [
-            { "name": "Online Giving", "b1": "No B1 fees", "competitor": "Platform + Stripe fees" },
-            { "name": "Recurring Donations", "b1": true, "competitor": true },
-            { "name": "Mobile App", "b1": "Free branded app", "competitor": "Included" },
-            { "name": "Member Database", "b1": true, "competitor": "ChMS extra" },
-            { "name": "Check-in System", "b1": true, "competitor": "Extra cost" },
-            { "name": "Website Builder", "b1": true, "competitor": false },
-            { "name": "Groups Management", "b1": true, "competitor": "Extra cost" },
-            { "name": "Giving Statements", "b1": true, "competitor": true },
-            { "name": "Fund Management", "b1": true, "competitor": true },
-            { "name": "Open Source", "b1": true, "competitor": false }
+            {
+              "name": "Online Giving",
+              "b1": "No B1 fees",
+              "competitor": "Platform + Stripe fees"
+            },
+            {
+              "name": "Recurring Donations",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Mobile App",
+              "b1": "Free branded app",
+              "competitor": "Included"
+            },
+            {
+              "name": "Member Database",
+              "b1": true,
+              "competitor": "ChMS extra"
+            },
+            {
+              "name": "Check-in System",
+              "b1": true,
+              "competitor": "Extra cost"
+            },
+            {
+              "name": "Website Builder",
+              "b1": true,
+              "competitor": false
+            },
+            {
+              "name": "Groups Management",
+              "b1": true,
+              "competitor": "Extra cost"
+            },
+            {
+              "name": "Giving Statements",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Fund Management",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Open Source",
+              "b1": true,
+              "competitor": false
+            }
           ],
           "pricingB1": "100% Free",
           "pricingCompetitor": "$300 - $1,000+/month",
@@ -417,16 +505,56 @@
           "tagline": "Free alternative to Tithe.ly",
           "description": "Tithe.ly offers church giving and management tools with freemium pricing. B1.church provides everything free without transaction fees.",
           "features": [
-            { "name": "Online Giving", "b1": "No B1 fees", "competitor": "Platform + Stripe fees" },
-            { "name": "Recurring Donations", "b1": true, "competitor": true },
-            { "name": "Mobile App", "b1": "Free branded app", "competitor": "$99/mo" },
-            { "name": "Member Database", "b1": true, "competitor": "$99/mo" },
-            { "name": "Check-in System", "b1": true, "competitor": "$49/mo" },
-            { "name": "Website Builder", "b1": true, "competitor": "$49/mo" },
-            { "name": "Groups Management", "b1": true, "competitor": "$99/mo" },
-            { "name": "Sermon Management", "b1": true, "competitor": "$49/mo" },
-            { "name": "Multi-Campus", "b1": true, "competitor": "Extra cost" },
-            { "name": "Open Source", "b1": true, "competitor": false }
+            {
+              "name": "Online Giving",
+              "b1": "No B1 fees",
+              "competitor": "Platform + Stripe fees"
+            },
+            {
+              "name": "Recurring Donations",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Mobile App",
+              "b1": "Free branded app",
+              "competitor": "$99/mo"
+            },
+            {
+              "name": "Member Database",
+              "b1": true,
+              "competitor": "$99/mo"
+            },
+            {
+              "name": "Check-in System",
+              "b1": true,
+              "competitor": "$49/mo"
+            },
+            {
+              "name": "Website Builder",
+              "b1": true,
+              "competitor": "$49/mo"
+            },
+            {
+              "name": "Groups Management",
+              "b1": true,
+              "competitor": "$99/mo"
+            },
+            {
+              "name": "Sermon Management",
+              "b1": true,
+              "competitor": "$49/mo"
+            },
+            {
+              "name": "Multi-Campus",
+              "b1": true,
+              "competitor": "Extra cost"
+            },
+            {
+              "name": "Open Source",
+              "b1": true,
+              "competitor": false
+            }
           ],
           "pricingB1": "100% Free",
           "pricingCompetitor": "Free tier + $49-199/mo for features",
@@ -437,16 +565,56 @@
           "tagline": "Free alternative to Breeze ChMS",
           "description": "Breeze is a simple church management system with straightforward pricing. B1.church offers more features at no cost.",
           "features": [
-            { "name": "Member Database", "b1": true, "competitor": true },
-            { "name": "Giving Management", "b1": "No B1 fees", "competitor": "2.9% + 30\u00a2" },
-            { "name": "Check-in System", "b1": true, "competitor": "Basic" },
-            { "name": "Mobile App", "b1": "Free branded app", "competitor": "Limited" },
-            { "name": "Website Builder", "b1": true, "competitor": false },
-            { "name": "Groups Management", "b1": true, "competitor": true },
-            { "name": "Event Management", "b1": true, "competitor": true },
-            { "name": "Volunteer Scheduling", "b1": true, "competitor": true },
-            { "name": "Multi-Campus", "b1": true, "competitor": false },
-            { "name": "Open Source", "b1": true, "competitor": false }
+            {
+              "name": "Member Database",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Giving Management",
+              "b1": "No B1 fees",
+              "competitor": "2.9% + 30¢"
+            },
+            {
+              "name": "Check-in System",
+              "b1": true,
+              "competitor": "Basic"
+            },
+            {
+              "name": "Mobile App",
+              "b1": "Free branded app",
+              "competitor": "Limited"
+            },
+            {
+              "name": "Website Builder",
+              "b1": true,
+              "competitor": false
+            },
+            {
+              "name": "Groups Management",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Event Management",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Volunteer Scheduling",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Multi-Campus",
+              "b1": true,
+              "competitor": false
+            },
+            {
+              "name": "Open Source",
+              "b1": true,
+              "competitor": false
+            }
           ],
           "pricingB1": "100% Free",
           "pricingCompetitor": "$72 - $135/month",
@@ -479,7 +647,7 @@
         "features": [
           "Search by phone number and select services automatically",
           "Prints labels and receipts wirelessly to shared printers",
-          "Runs on affordable Android tablets under $80",
+          "Runs on affordable Android tablets (around $150)",
           "Automatically syncs with attendance tracking system"
         ]
       },
@@ -588,6 +756,54 @@
         "description": "Join churches worldwide that have made the switch to a completely free, open-source solution built by a ministry, for ministries.",
         "primaryButton": "Get Started for Free",
         "secondaryButton": "Try Demo"
+      },
+      "showcase": {
+        "groupsMinistries": {
+          "title": "Groups & Ministries",
+          "description": "Manage unlimited groups and classes"
+        },
+        "peopleSearch": {
+          "title": "People Search",
+          "description": "Advanced member database"
+        },
+        "servicePlanning": {
+          "title": "Service Planning",
+          "description": "Schedule teams and assignments"
+        },
+        "songLibrary": {
+          "title": "Song Library",
+          "description": "Arrangements and chord charts"
+        }
+      },
+      "dashboard": {
+        "title": "Beautiful, Intuitive Dashboard",
+        "description": "Access all your church data with our clean, modern interface designed for efficiency and ease of use."
+      },
+      "additional": {
+        "security": {
+          "title": "Security & Privacy",
+          "description": "Industry standard encryption and secure data storage"
+        },
+        "mobile": {
+          "title": "Mobile Accessibility",
+          "description": "Responsive design works perfectly on all devices"
+        },
+        "workflows": {
+          "title": "Automated Workflows",
+          "description": "Follow-up sequences and member care automation"
+        },
+        "reporting": {
+          "title": "Real-Time Reporting",
+          "description": "Generate instant reports and export data anytime"
+        },
+        "forms": {
+          "title": "Custom Forms",
+          "description": "Build registration forms and surveys for any purpose"
+        },
+        "roles": {
+          "title": "Role-Based Access",
+          "description": "Secure permissions for staff and volunteers"
+        }
       }
     },
     "notFound": {

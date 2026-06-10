@@ -1,121 +1,73 @@
+import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
-import { Monitor, Palette, Globe, Zap } from "lucide-react";
+import { Monitor, Palette, Globe, Zap, ArrowRight } from "lucide-react";
 import LocaleLink from "@/components/LocaleLink";
 import { trackWebsiteBuilderClick } from "@/utils/analytics";
-import { useTranslation } from "react-i18next";
+import Reveal from "@/components/Reveal";
+import SectionHeading from "@/components/SectionHeading";
+import BrowserFrame from "@/components/frames/BrowserFrame";
 
 const WebsiteBuilder = () => {
   const { t } = useTranslation();
 
+  const features = [
+    { icon: Palette, title: t("brochure.websiteBuilder.dragDrop.title"), description: t("brochure.websiteBuilder.dragDrop.description") },
+    { icon: Globe, title: t("brochure.websiteBuilder.templates.title"), description: t("brochure.websiteBuilder.templates.description") },
+    { icon: Zap, title: t("brochure.websiteBuilder.integration.title"), description: t("brochure.websiteBuilder.integration.description") }
+  ];
+
   return (
-    <section id="siteBuilder" className="relative min-h-screen flex items-center justify-center py-24">
-      {/* Pattern Background */}
-      <div className="absolute inset-0 pattern-background" />
-
-      {/* Content */}
-      <div className="relative z-10 container mx-auto px-4">
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center space-x-2 gradient-glass px-6 py-3 rounded-full text-sm font-medium mb-8">
-            <Monitor className="w-4 h-4 text-primary" />
-            <span className="text-foreground">{t("brochure.websiteBuilder.badge")}</span>
-          </div>
-
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-            <span className="text-foreground">{t("brochure.websiteBuilder.title")}</span>
-            <span className="text-gradient block">{t("brochure.websiteBuilder.titleHighlight")}</span>
-          </h2>
-
-          <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed">
-            {t("brochure.websiteBuilder.description")}
-          </p>
-        </div>
-
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          {/* Features Grid */}
-          <div className="space-y-8">
-            <div className="gradient-glass rounded-2xl p-8 card-hover">
-              <div className="flex items-start space-x-4">
-                <div className="gradient-glass rounded-xl p-3">
-                  <Palette className="w-6 h-6 text-primary" />
-                </div>
-                <div>
-                  <h3 className="text-xl font-semibold mb-2 text-foreground">{t("brochure.websiteBuilder.dragDrop.title")}</h3>
-                  <p className="text-muted-foreground">
-                    {t("brochure.websiteBuilder.dragDrop.description")}
-                  </p>
-                </div>
-              </div>
+    <section id="siteBuilder" className="overflow-hidden bg-background py-24 lg:py-32">
+      <div className="container mx-auto px-4">
+        <div className="grid items-center gap-16 lg:grid-cols-2">
+          <Reveal>
+            <div className="eyebrow mb-4 flex items-center gap-2">
+              <Monitor className="h-4 w-4" />
+              {t("brochure.websiteBuilder.badge")}
             </div>
-
-            <div className="gradient-glass rounded-2xl p-8 card-hover">
-              <div className="flex items-start space-x-4">
-                <div className="gradient-glass rounded-xl p-3">
-                  <Globe className="w-6 h-6 text-primary" />
+            <SectionHeading
+              align="left"
+              title={
+                <>
+                  {t("brochure.websiteBuilder.title")}{" "}
+                  <span className="text-primary">{t("brochure.websiteBuilder.titleHighlight")}</span>
+                </>
+              }
+              lead={t("brochure.websiteBuilder.description")}
+            />
+            <div className="mt-8 space-y-5">
+              {features.map((feature, i) => (
+                <div key={i} className="flex items-start gap-4">
+                  <div className="rounded-xl bg-primary/10 p-2.5">
+                    <feature.icon className="h-5 w-5 text-primary" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-foreground">{feature.title}</h3>
+                    <p className="text-sm text-muted-foreground">{feature.description}</p>
+                  </div>
                 </div>
-                <div>
-                  <h3 className="text-xl font-semibold mb-2 text-foreground">{t("brochure.websiteBuilder.templates.title")}</h3>
-                  <p className="text-muted-foreground">
-                    {t("brochure.websiteBuilder.templates.description")}
-                  </p>
-                </div>
-              </div>
+              ))}
             </div>
-
-            <div className="gradient-glass rounded-2xl p-8 card-hover">
-              <div className="flex items-start space-x-4">
-                <div className="gradient-glass rounded-xl p-3">
-                  <Zap className="w-6 h-6 text-primary" />
-                </div>
-                <div>
-                  <h3 className="text-xl font-semibold mb-2 text-foreground">{t("brochure.websiteBuilder.integration.title")}</h3>
-                  <p className="text-muted-foreground">
-                    {t("brochure.websiteBuilder.integration.description")}
-                  </p>
-                </div>
-              </div>
+            <div className="mt-10">
+              <Button size="xl" className="group" asChild onClick={() => trackWebsiteBuilderClick()}>
+                <LocaleLink to="/login">
+                  {t("brochure.websiteBuilder.cta")}
+                  <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
+                </LocaleLink>
+              </Button>
+              <p className="mt-4 text-sm text-muted-foreground">{t("brochure.websiteBuilder.ctaSubtext")}</p>
             </div>
-          </div>
+          </Reveal>
 
-          {/* Website Builder Screenshot */}
           <div className="relative">
-            <div className="gradient-glass rounded-3xl p-4">
-              <div className="bg-card rounded-2xl overflow-hidden shadow-soft">
-                <img
-                  src="/website-builder-interface.png"
-                  alt="B1 Church Website Builder Interface - Free Church Website Builder"
-                  className="w-full h-auto rounded-xl"
-                  loading="lazy"
-                />
-              </div>
-            </div>
-
-            {/* Floating Elements */}
-            <div className="absolute -top-4 -right-4 gradient-glass rounded-2xl p-4 animate-pulse">
-              <Monitor className="w-8 h-8 text-primary" />
-            </div>
-            <div className="absolute -bottom-4 -left-4 gradient-glass rounded-2xl p-4 animate-pulse delay-300">
-              <Globe className="w-8 h-8 text-primary" />
-            </div>
+            <div className="absolute -inset-y-6 -left-4 -right-6 rotate-2 rounded-3xl bg-gradient-to-br from-primary/10 via-sky-100 to-indigo-100" />
+            <BrowserFrame
+              src="/website-builder-interface.webp"
+              alt="B1 church website builder editing a church home page"
+              url="yourchurch.b1.church"
+              className="relative rotate-1"
+            />
           </div>
-        </div>
-
-        {/* CTA */}
-        <div className="text-center mt-16">
-          <Button
-            variant="gradient"
-            size="xl"
-            className="shadow-glow"
-            asChild
-            onClick={() => trackWebsiteBuilderClick()}
-          >
-            <LocaleLink to="/login">
-              {t("brochure.websiteBuilder.cta")}
-              <Monitor className="w-6 h-6" />
-            </LocaleLink>
-          </Button>
-          <p className="text-sm text-muted-foreground mt-4">
-            {t("brochure.websiteBuilder.ctaSubtext")}
-          </p>
         </div>
       </div>
     </section>
