@@ -53,6 +53,10 @@ export default {
           muted: "hsl(var(--ink-muted))"
         },
         "surface-tint": "hsl(var(--surface-tint))",
+        "surface-warm": "hsl(var(--surface-warm))",
+        sun: "hsl(var(--sun))",
+        coral: "hsl(var(--coral))",
+        lilac: "hsl(var(--lilac))",
         popover: {
           DEFAULT: "hsl(var(--popover))",
           foreground: "hsl(var(--popover-foreground))"
@@ -79,7 +83,8 @@ export default {
       },
       backgroundImage: {
         "gradient-primary": "var(--gradient-primary)",
-        "gradient-accent": "var(--gradient-accent)"
+        "gradient-accent": "var(--gradient-accent)",
+        "gradient-sunrise": "var(--gradient-sunrise)"
       },
       boxShadow: {
         "primary": "var(--shadow-primary)",

@@ -45,7 +45,7 @@ const ConnectSection = () => {
           </Reveal>
 
           <div className="relative mx-auto flex max-w-md justify-center gap-6 pb-10">
-            <div className="absolute inset-x-0 inset-y-6 rotate-2 rounded-3xl bg-gradient-to-br from-primary/10 via-sky-100 to-indigo-100" />
+            <div className="absolute inset-x-0 inset-y-6 rotate-2 rounded-3xl bg-gradient-to-br from-violet-100 via-sky-100 to-primary/10" />
             <PhoneFrame
               src="/community-groups-phone.webp"
               alt="B1 mobile app groups screen"

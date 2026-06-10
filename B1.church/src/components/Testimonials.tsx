@@ -129,7 +129,7 @@ export const Testimonials = () => {
                   <div className="card-elevated group flex h-full flex-col rounded-2xl p-6 transition-all duration-300 hover:-translate-y-1">
                     {/* Quote Icon */}
                     <div className="flex items-center justify-between mb-4">
-                      <Quote className="h-8 w-8 text-primary/40" />
+                      <Quote className="h-8 w-8 text-sun/50" />
                       <div className="flex items-center space-x-1">
                         {Array.from({ length: testimonial.rating }).map((_, i) => (
                           <Star key={i} className="h-4 w-4 fill-yellow-400 text-yellow-400" />

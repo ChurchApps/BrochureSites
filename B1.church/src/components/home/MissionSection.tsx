@@ -7,6 +7,7 @@ import SectionHeading from "@/components/SectionHeading";
 import CountUp from "@/components/CountUp";
 
 const audienceIcons = [Church, Users, Network, Globe2];
+const audienceTones = ["bg-primary/10 text-primary", "bg-coral/10 text-coral", "bg-lilac/10 text-lilac", "bg-accent/10 text-accent"];
 
 const MissionSection = () => {
   const { t } = useTranslation();
@@ -14,11 +15,11 @@ const MissionSection = () => {
   const audiences = tArray<{ title: string; description: string }>("brochure.home.mission.audiences");
 
   return (
-    <section id="about" className="bg-background py-24 lg:py-32">
+    <section id="about" className="bg-surface-warm py-24 lg:py-32">
       <div className="container mx-auto px-4">
         <Reveal>
-          <div className="mx-auto mb-6 w-fit rounded-2xl bg-primary/10 p-3">
-            <Heart className="h-7 w-7 text-primary" />
+          <div className="mx-auto mb-6 w-fit rounded-2xl bg-coral/10 p-3">
+            <Heart className="h-7 w-7 text-coral" />
           </div>
           <SectionHeading
             eyebrow={t("brochure.home.mission.eyebrow")}
@@ -28,22 +29,22 @@ const MissionSection = () => {
         </Reveal>
 
         <div className="mx-auto mt-14 grid max-w-4xl grid-cols-2 gap-5 md:grid-cols-4">
-          <div className="rounded-2xl border border-border p-6 text-center">
-            <div className="text-4xl font-extrabold tabular-nums tracking-tight text-foreground md:text-5xl">
+          <div className="card-elevated rounded-2xl p-6 text-center">
+            <div className="text-4xl font-extrabold tabular-nums tracking-tight text-primary md:text-5xl">
               <CountUp value={100} suffix="%" />
             </div>
             <div className="mt-1 text-sm text-muted-foreground">{t("brochure.home.mission.stats.free")}</div>
           </div>
-          <div className="rounded-2xl border border-border p-6 text-center">
-            <div className="text-4xl font-extrabold tabular-nums tracking-tight text-foreground md:text-5xl">$0</div>
+          <div className="card-elevated rounded-2xl p-6 text-center">
+            <div className="text-4xl font-extrabold tabular-nums tracking-tight text-accent md:text-5xl">$0</div>
             <div className="mt-1 text-sm text-muted-foreground">{t("brochure.home.mission.stats.fees")}</div>
           </div>
-          <div className="rounded-2xl border border-border p-6 text-center">
-            <div className="text-4xl font-extrabold tabular-nums tracking-tight text-foreground md:text-5xl">2012</div>
+          <div className="card-elevated rounded-2xl p-6 text-center">
+            <div className="text-4xl font-extrabold tabular-nums tracking-tight text-sun md:text-5xl">2012</div>
             <div className="mt-1 text-sm text-muted-foreground">{t("brochure.home.mission.stats.founded")}</div>
           </div>
-          <div className="rounded-2xl border border-border p-6 text-center">
-            <div className="text-4xl font-extrabold tabular-nums tracking-tight text-foreground md:text-5xl">
+          <div className="card-elevated rounded-2xl p-6 text-center">
+            <div className="text-4xl font-extrabold tabular-nums tracking-tight text-lilac md:text-5xl">
               <CountUp value={29} />
             </div>
             <div className="mt-1 text-sm text-muted-foreground">{t("brochure.home.mission.stats.languages")}</div>
@@ -55,8 +56,8 @@ const MissionSection = () => {
             const IconComponent = audienceIcons[index];
             return (
               <div key={index} className="card-elevated card-hover rounded-2xl p-6 text-center">
-                <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10">
-                  <IconComponent className="h-6 w-6 text-primary" />
+                <div className={`mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-xl ${audienceTones[index % audienceTones.length]}`}>
+                  <IconComponent className="h-6 w-6" />
                 </div>
                 <h3 className="mb-1 font-semibold text-foreground">{audience.title}</h3>
                 <p className="text-sm text-muted-foreground">{audience.description}</p>

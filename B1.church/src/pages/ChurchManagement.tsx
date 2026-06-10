@@ -29,6 +29,8 @@ import TabletFrame from "@/components/frames/TabletFrame";
 import BrowserFrame from "@/components/frames/BrowserFrame";
 import NameTagBadge from "@/components/fragments/NameTagBadge";
 
+const featureTones = ["bg-primary/10 text-primary", "bg-coral/10 text-coral", "bg-lilac/10 text-lilac", "bg-accent/10 text-accent"];
+
 const ChurchManagement = () => {
   const { t } = useTranslation();
 
@@ -225,7 +227,7 @@ const ChurchManagement = () => {
                   </div>
                 </div>
                 <div className="relative mx-auto w-full max-w-xs pb-8">
-                  <div className="absolute -inset-x-6 inset-y-6 -rotate-2 rounded-3xl bg-gradient-to-br from-primary/10 via-sky-100 to-indigo-100" />
+                  <div className="absolute -inset-x-6 inset-y-6 -rotate-2 rounded-3xl bg-gradient-to-br from-amber-100 via-rose-100 to-sky-100" />
                   <TabletFrame
                     src="/images/checkin/family.webp"
                     alt="Self-serve church check-in station showing household member selection"
@@ -240,8 +242,8 @@ const ChurchManagement = () => {
             <div className="mb-20 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
               {mainFeatures.map((feature, index) => (
                 <div key={index} className="card-elevated card-hover rounded-2xl p-6">
-                  <div className="mb-4 w-fit rounded-xl bg-primary/10 p-3">
-                    <feature.icon className="h-6 w-6 text-primary" />
+                  <div className={`mb-4 w-fit rounded-xl p-3 ${featureTones[index % featureTones.length]}`}>
+                    <feature.icon className="h-6 w-6" />
                   </div>
                   <h3 className="mb-2 text-xl font-bold text-foreground">{feature.title}</h3>
                   <p className="text-muted-foreground">{feature.description}</p>
@@ -392,7 +394,7 @@ const ChurchManagement = () => {
 
             {/* Mission Statement */}
             <div className="card-elevated mb-16 rounded-3xl p-8 text-center md:p-12">
-              <Heart className="mx-auto mb-6 h-16 w-16 text-primary" />
+              <Heart className="mx-auto mb-6 h-16 w-16 text-coral" />
               <h3 className="mb-6 text-2xl font-bold text-foreground md:text-3xl">
                 {t("brochure.churchManagement.mission.title")}
               </h3>

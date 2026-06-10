@@ -27,7 +27,7 @@ const Hero = () => {
             <div className="eyebrow mb-5">{t("brochure.home.hero.eyebrow")}</div>
             <h1 className="text-4xl font-extrabold leading-[1.06] tracking-[-0.03em] text-foreground sm:text-5xl xl:text-6xl">
               {t("brochure.home.hero.headline")}{" "}
-              <span className="text-gradient">{t("brochure.home.hero.headlineAccent")}</span>
+              <span className="text-gradient-sunrise">{t("brochure.home.hero.headlineAccent")}</span>
             </h1>
             <p className="mt-6 text-lg leading-relaxed text-muted-foreground md:text-xl">
               {t("brochure.home.hero.subheadline")}
@@ -55,7 +55,7 @@ const Hero = () => {
 
           {/* Product collage */}
           <div className="relative hidden pb-14 pr-6 lg:block">
-            <div className="absolute -inset-y-6 -left-6 -right-2 -rotate-2 rounded-3xl bg-gradient-to-br from-primary/10 via-sky-100 to-indigo-100" />
+            <div className="absolute -inset-y-6 -left-6 -right-2 -rotate-2 rounded-3xl bg-gradient-to-br from-primary/10 via-sky-100 to-amber-100" />
             <BrowserFrame
               src="/people-search-database.webp"
               alt="B1Admin people search dashboard"
@@ -76,7 +76,7 @@ const Hero = () => {
 
         {/* Compact collage for small screens */}
         <div className="relative mt-14 lg:hidden">
-          <div className="absolute -inset-3 -rotate-1 rounded-3xl bg-gradient-to-br from-primary/10 via-sky-100 to-indigo-100" />
+          <div className="absolute -inset-3 -rotate-1 rounded-3xl bg-gradient-to-br from-primary/10 via-sky-100 to-amber-100" />
           <BrowserFrame src="/people-search-database.webp" alt="B1Admin people search dashboard" className="relative" />
           <CheckinToast className="absolute -bottom-6 left-1/2 w-max max-w-[90%] -translate-x-1/2 animate-float" />
         </div>

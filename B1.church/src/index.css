@@ -8,7 +8,9 @@
 All colors MUST be HSL.
 
 "Light Table" direction: paper-white canvas with ink-navy punctuation bands.
-The product UI (light/blue) is the photography; screenshots must blend in. */
+The product UI (light/blue) is the photography; screenshots must blend in.
+Warmth layer ("stained glass"): sun/coral/lilac accents and sunrise blooms keep
+the page from reading single-hue corporate blue — color stands in for photos. */
 
 @layer base {
   :root {
@@ -52,9 +54,16 @@ The product UI (light/blue) is the photography; screenshots must blend in. */
     --ink-foreground: 210 40% 98%;
     --ink-muted: 215 25% 72%;
     --surface-tint: 214 60% 97.5%;
+    --surface-warm: 33 75% 96.5%;
+
+    /* Warm accents: amber sun, coral, lilac — the "stained glass" family */
+    --sun: 35 92% 52%;
+    --coral: 11 80% 60%;
+    --lilac: 258 65% 60%;
 
     --gradient-primary: linear-gradient(120deg, hsl(215 85% 48%), hsl(207 95% 55%));
     --gradient-accent: linear-gradient(135deg, hsl(215 85% 48%), hsl(145 65% 38%));
+    --gradient-sunrise: linear-gradient(120deg, hsl(35 92% 52%), hsl(11 80% 60%));
 
     --shadow-primary: 0 10px 30px -10px hsl(215 85% 48% / 0.35);
     --shadow-soft: 0 1px 2px hsl(222 47% 11% / 0.05), 0 12px 32px -12px hsl(222 47% 11% / 0.12);
@@ -95,25 +104,40 @@ The product UI (light/blue) is the photography; screenshots must blend in. */
     background: var(--gradient-accent);
   }
 
-  /* Hero canvas: white with soft radial blue blooms */
+  /* Hero canvas: white with blue blooms and a sunrise rising behind the product */
   .bg-mesh-hero {
     background:
       radial-gradient(at 15% 0%, hsl(214 95% 92%) 0%, transparent 50%),
       radial-gradient(at 85% 12%, hsl(199 90% 92%) 0%, transparent 45%),
+      radial-gradient(at 88% 90%, hsl(28 100% 92%) 0%, transparent 50%),
+      radial-gradient(at 5% 100%, hsl(345 85% 95%) 0%, transparent 40%),
       radial-gradient(at 50% 110%, hsl(226 90% 95%) 0%, transparent 55%),
       hsl(0 0% 100%);
   }
 
-  /* Ink band: navy with aurora glows */
+  /* Ink band: navy at dusk — blue aurora with coral and lilac edges */
   .bg-ink-aurora {
     background:
       radial-gradient(at 70% -10%, hsl(215 85% 48% / 0.35) 0%, transparent 55%),
       radial-gradient(at 15% 110%, hsl(207 95% 55% / 0.22) 0%, transparent 50%),
+      radial-gradient(at 98% 95%, hsl(11 80% 60% / 0.17) 0%, transparent 42%),
+      radial-gradient(at 0% 0%, hsl(258 65% 60% / 0.14) 0%, transparent 38%),
       hsl(var(--ink));
   }
 
   .bg-surface-tint {
     background-color: hsl(var(--surface-tint));
+  }
+
+  .bg-surface-warm {
+    background-color: hsl(var(--surface-warm));
+  }
+
+  /* Stained-glass seam: thin multi-hue band marking section transitions */
+  .stained-strip {
+    background: linear-gradient(100deg,
+      hsl(215 85% 48%), hsl(199 89% 52%), hsl(168 65% 45%),
+      hsl(145 65% 42%), hsl(35 92% 52%), hsl(11 80% 60%), hsl(258 65% 60%));
   }
 
   .bg-dots {
@@ -149,6 +173,13 @@ The product UI (light/blue) is the photography; screenshots must blend in. */
 
   .text-gradient {
     background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .text-gradient-sunrise {
+    background: var(--gradient-sunrise);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;

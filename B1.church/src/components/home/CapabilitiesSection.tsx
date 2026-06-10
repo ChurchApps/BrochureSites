@@ -7,12 +7,13 @@ interface SmallCellProps {
   icon: typeof Music;
   title: string;
   desc: string;
+  tone?: string;
 }
 
-const SmallCell = ({ icon: Icon, title, desc }: SmallCellProps) => (
+const SmallCell = ({ icon: Icon, title, desc, tone = "bg-primary/10 text-primary" }: SmallCellProps) => (
   <div className="card-elevated card-hover rounded-2xl p-6">
-    <div className="mb-4 w-fit rounded-xl bg-primary/10 p-2.5">
-      <Icon className="h-5 w-5 text-primary" />
+    <div className={`mb-4 w-fit rounded-xl p-2.5 ${tone}`}>
+      <Icon className="h-5 w-5" />
     </div>
     <h3 className="mb-1 font-bold text-foreground">{title}</h3>
     <p className="text-sm text-muted-foreground">{desc}</p>
@@ -62,16 +63,16 @@ const CapabilitiesSection = () => {
             alt="B1Admin worship schedule with team assignments"
             {...cell("servicePlanning")}
           />
-          <SmallCell icon={Music} {...cell("songs")} />
-          <SmallCell icon={FileText} {...cell("forms")} />
+          <SmallCell icon={Music} tone="bg-coral/10 text-coral" {...cell("songs")} />
+          <SmallCell icon={FileText} tone="bg-lilac/10 text-lilac" {...cell("forms")} />
           <ImageCell
             src="/groups-ministry-management-bento.webp"
             alt="B1Admin group management page"
             {...cell("groups")}
           />
-          <SmallCell icon={Zap} {...cell("automations")} />
+          <SmallCell icon={Zap} tone="bg-sun/10 text-sun" {...cell("automations")} />
           <SmallCell icon={Building2} {...cell("multiCampus")} />
-          <SmallCell icon={ShieldCheck} {...cell("roles")} />
+          <SmallCell icon={ShieldCheck} tone="bg-accent/10 text-accent" {...cell("roles")} />
           <a
             href="https://github.com/ChurchApps"
             target="_blank"

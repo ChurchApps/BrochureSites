@@ -12,11 +12,11 @@ const CheckinSection = () => {
   const items = tArray<string>("brochure.home.checkin.items");
 
   return (
-    <section className="overflow-hidden bg-surface-tint py-24 lg:py-32">
+    <section className="overflow-hidden bg-surface-warm py-24 lg:py-32">
       <div className="container mx-auto px-4">
         <div className="grid items-center gap-16 lg:grid-cols-2">
           <div className="relative order-2 mx-auto w-full max-w-sm pb-10 lg:order-1">
-            <div className="absolute -inset-x-8 inset-y-8 -rotate-2 rounded-3xl bg-gradient-to-br from-primary/10 via-sky-100 to-indigo-100" />
+            <div className="absolute -inset-x-8 inset-y-8 -rotate-2 rounded-3xl bg-gradient-to-br from-amber-100 via-rose-100 to-sky-100" />
             <TabletFrame
               src="/images/checkin/family.webp"
               alt="B1Checkin kiosk household check-in screen"

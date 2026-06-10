@@ -16,7 +16,7 @@ const GivingStat = ({ className = "" }: { className?: string }) => {
         </div>
         <div className="flex h-9 items-end gap-1">
           {bars.map((h, i) => (
-            <span key={i} className="w-1.5 rounded-sm bg-primary/70" style={{ height: `${h}%` }} />
+            <span key={i} className="w-1.5 rounded-sm bg-accent/70" style={{ height: `${h}%` }} />
           ))}
         </div>
       </div>

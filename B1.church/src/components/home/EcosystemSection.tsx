@@ -15,13 +15,14 @@ interface NodeProps {
   icon: ComponentType<{ className?: string }>;
   name: string;
   desc: string;
+  iconClass?: string;
   className?: string;
 }
 
-const Node = ({ icon: Icon, name, desc, className = "" }: NodeProps) => (
+const Node = ({ icon: Icon, name, desc, iconClass = "text-primary-light", className = "" }: NodeProps) => (
   <div className={`w-56 rounded-xl border border-white/10 bg-white/5 px-5 py-4 backdrop-blur ${className}`}>
     <div className="flex items-center gap-2.5">
-      <Icon className="h-5 w-5 shrink-0 text-primary-light" />
+      <Icon className={`h-5 w-5 shrink-0 ${iconClass}`} />
       <span className="font-semibold text-ink-foreground">{name}</span>
     </div>
     <p className="mt-1 text-xs leading-snug text-ink-muted">{desc}</p>
@@ -40,14 +41,15 @@ const EcosystemSection = () => {
   const { t } = useTranslation();
 
   const nodes = [
-    { icon: LayoutDashboard, name: t("brochure.home.ecosystem.nodes.admin.name"), desc: t("brochure.home.ecosystem.nodes.admin.desc") },
-    { icon: Globe, name: t("brochure.home.ecosystem.nodes.web.name"), desc: t("brochure.home.ecosystem.nodes.web.desc") },
-    { icon: Smartphone, name: t("brochure.home.ecosystem.nodes.mobile.name"), desc: t("brochure.home.ecosystem.nodes.mobile.desc") },
-    { icon: Tablet, name: t("brochure.home.ecosystem.nodes.checkin.name"), desc: t("brochure.home.ecosystem.nodes.checkin.desc") }
+    { icon: LayoutDashboard, name: t("brochure.home.ecosystem.nodes.admin.name"), desc: t("brochure.home.ecosystem.nodes.admin.desc"), iconClass: "text-primary-light" },
+    { icon: Globe, name: t("brochure.home.ecosystem.nodes.web.name"), desc: t("brochure.home.ecosystem.nodes.web.desc"), iconClass: "text-violet-400" },
+    { icon: Smartphone, name: t("brochure.home.ecosystem.nodes.mobile.name"), desc: t("brochure.home.ecosystem.nodes.mobile.desc"), iconClass: "text-emerald-400" },
+    { icon: Tablet, name: t("brochure.home.ecosystem.nodes.checkin.name"), desc: t("brochure.home.ecosystem.nodes.checkin.desc"), iconClass: "text-amber-400" }
   ];
 
   return (
     <section className="relative overflow-hidden bg-ink-aurora py-24 lg:py-32">
+      <div className="stained-strip absolute inset-x-0 top-0 h-[3px] opacity-80" aria-hidden="true" />
       <div className="absolute inset-0 bg-dots-dark" aria-hidden="true" />
       <div className="container relative z-10 mx-auto px-4">
         <Reveal>

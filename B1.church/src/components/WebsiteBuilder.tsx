@@ -11,9 +11,9 @@ const WebsiteBuilder = () => {
   const { t } = useTranslation();
 
   const features = [
-    { icon: Palette, title: t("brochure.websiteBuilder.dragDrop.title"), description: t("brochure.websiteBuilder.dragDrop.description") },
-    { icon: Globe, title: t("brochure.websiteBuilder.templates.title"), description: t("brochure.websiteBuilder.templates.description") },
-    { icon: Zap, title: t("brochure.websiteBuilder.integration.title"), description: t("brochure.websiteBuilder.integration.description") }
+    { icon: Palette, tone: "bg-coral/10 text-coral", title: t("brochure.websiteBuilder.dragDrop.title"), description: t("brochure.websiteBuilder.dragDrop.description") },
+    { icon: Globe, tone: "bg-primary/10 text-primary", title: t("brochure.websiteBuilder.templates.title"), description: t("brochure.websiteBuilder.templates.description") },
+    { icon: Zap, tone: "bg-sun/10 text-sun", title: t("brochure.websiteBuilder.integration.title"), description: t("brochure.websiteBuilder.integration.description") }
   ];
 
   return (
@@ -38,8 +38,8 @@ const WebsiteBuilder = () => {
             <div className="mt-8 space-y-5">
               {features.map((feature, i) => (
                 <div key={i} className="flex items-start gap-4">
-                  <div className="rounded-xl bg-primary/10 p-2.5">
-                    <feature.icon className="h-5 w-5 text-primary" />
+                  <div className={`rounded-xl p-2.5 ${feature.tone}`}>
+                    <feature.icon className="h-5 w-5" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-foreground">{feature.title}</h3>
@@ -60,7 +60,7 @@ const WebsiteBuilder = () => {
           </Reveal>
 
           <div className="relative">
-            <div className="absolute -inset-y-6 -left-4 -right-6 rotate-2 rounded-3xl bg-gradient-to-br from-primary/10 via-sky-100 to-indigo-100" />
+            <div className="absolute -inset-y-6 -left-4 -right-6 rotate-2 rounded-3xl bg-gradient-to-br from-indigo-100 via-violet-100 to-rose-100" />
             <BrowserFrame
               src="/website-builder-interface.webp"
               alt="B1 church website builder editing a church home page"

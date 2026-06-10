@@ -4,11 +4,11 @@ const NameTagBadge = ({ className = "" }: { className?: string }) => {
   const { t } = useTranslation();
   return (
     <div className={`card-elevated w-44 overflow-hidden rounded-xl ${className}`}>
-      <div className="bg-primary px-3 py-1.5 text-center">
-        <div className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-primary-foreground">
+      <div className="bg-gradient-sunrise px-3 py-1.5 text-center">
+        <div className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-white">
           {t("brochure.fragments.nameTag.hello")}
         </div>
-        <div className="text-[9px] text-primary-foreground/80">{t("brochure.fragments.nameTag.myNameIs")}</div>
+        <div className="text-[9px] text-white/85">{t("brochure.fragments.nameTag.myNameIs")}</div>
       </div>
       <div className="px-3 py-3 text-center">
         <div className="text-2xl font-extrabold text-foreground">Emma</div>

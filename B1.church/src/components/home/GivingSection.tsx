@@ -18,7 +18,7 @@ const GivingSection = () => {
       <div className="container relative z-10 mx-auto px-4">
         <div className="grid items-center gap-16 lg:grid-cols-2">
           <div className="relative order-2 pb-12 lg:order-1">
-            <div className="absolute -inset-y-4 -left-4 -right-2 -rotate-2 rounded-3xl bg-gradient-to-br from-primary/10 via-sky-100 to-indigo-100" />
+            <div className="absolute -inset-y-4 -left-4 -right-2 -rotate-2 rounded-3xl bg-gradient-to-br from-emerald-100 via-sky-100 to-primary/10" />
             <BrowserFrame
               src="/giving-management-dashboard.webp"
               alt="B1Admin donation summary dashboard"

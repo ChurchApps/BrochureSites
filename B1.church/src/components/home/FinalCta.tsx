@@ -10,12 +10,13 @@ const FinalCta = () => {
 
   return (
     <section className="relative overflow-hidden bg-ink-aurora py-28 lg:py-36">
+      <div className="stained-strip absolute inset-x-0 top-0 h-[3px] opacity-80" aria-hidden="true" />
       <div className="absolute inset-0 bg-dots-dark" aria-hidden="true" />
       <div className="container relative z-10 mx-auto px-4 text-center">
         <Reveal>
           <h2 className="mx-auto max-w-3xl text-4xl font-extrabold leading-[1.08] tracking-[-0.03em] text-ink-foreground sm:text-5xl lg:text-6xl">
             {t("brochure.home.finalCta.title")}{" "}
-            <span className="text-primary-light">{t("brochure.home.finalCta.titleAccent")}</span>
+            <span className="bg-gradient-to-r from-amber-300 to-rose-400 bg-clip-text text-transparent">{t("brochure.home.finalCta.titleAccent")}</span>
           </h2>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-ink-muted md:text-xl">
             {t("brochure.home.finalCta.description")}
