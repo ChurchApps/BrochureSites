@@ -1,7 +1,33 @@
 export const SUPPORTED_LANGS = [
-  "ar", "cs", "da", "de", "en", "es", "fi", "fr", "hi", "hu",
-  "id", "it", "ja", "ko", "lt", "nl", "no", "pl", "pt", "ru",
-  "sk", "sl", "sr", "sv", "tl", "tr", "uk", "vi", "zh"
+  "ar",
+  "cs",
+  "da",
+  "de",
+  "en",
+  "es",
+  "fi",
+  "fr",
+  "hi",
+  "hu",
+  "id",
+  "it",
+  "ja",
+  "ko",
+  "lt",
+  "nl",
+  "no",
+  "pl",
+  "pt",
+  "ru",
+  "sk",
+  "sl",
+  "sr",
+  "sv",
+  "tl",
+  "tr",
+  "uk",
+  "vi",
+  "zh"
 ];
 
 export const LANGUAGE_NAMES: Record<string, string> = {

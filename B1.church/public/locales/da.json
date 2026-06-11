@@ -2,144 +2,270 @@
   "brochure": {
     "header": {
       "features": "Funktioner",
+      "pricing": "Priser",
       "churchManagement": "Kirkeadministration",
       "about": "Om os",
       "contact": "Kontakt",
+      "demo": "Live demo",
       "signIn": "Log ind",
       "getStartedFree": "Kom gratis i gang"
     },
-    "hero": {
-      "badge": "100% gratis \u2022 Menighedsdrevet platform",
-      "headlineTop": "Kirkefællesskab",
-      "headlineBottom": "Uden barrierer",
-      "subheadline": "Komplet kirkeadministrationssoftware med mobilapp, hjemmesidebygger, digitale gaver og fællesskabsfunktioner. 100% gratis kirkeplatform designet af en menighed, til menigheder.",
-      "ctaPrimary": "Kom gratis i gang",
-      "ctaSecondary": "Se hvordan det virker",
-      "statFreeValue": "100%",
-      "statFreeLabel": "Gratis for altid",
-      "statModernValue": "Moderne",
-      "statModernLabel": "Platform",
-      "statMinistryValue": "Menighed",
-      "statMinistryLabel": "Ikke profit"
-    },
-    "features": {
-      "community": {
-        "title": "Kirkefællesskabsforbindelse",
-        "description": "Opbyg dybere relationer gennem grupper, diskussioner, beskeder og begivenheder. Forbind medlemmer ud over søndagsgudstjenester med meningsfuld interaktion.",
-        "items": ["Smågrupper", "Direkte beskeder", "Diskussionsfora", "Medlemsoversigt"],
-        "cta": "Deltag i fællesskabet"
+    "home": {
+      "hero": {
+        "eyebrow": "Gratis open source-software til kirker",
+        "headline": "Alt, hvad din kirke har brug for til at",
+        "headlineAccent": "forbinde, give og vokse.",
+        "subheadline": "En medlemsapp, hjemmesidebygger, onlinegaver, børne-check-in og komplet kirkeadministration — én gratis platform fra en nonprofit-tjeneste, så budgettet bliver i kirkens arbejde.",
+        "ctaPrimary": "Kom gratis i gang",
+        "ctaSecondary": "Se det i aktion",
+        "trust": [
+          "Gratis for altid — ingen abonnementer, ingen prøveperioder",
+          "Ingen ekstra transaktionsgebyrer",
+          "Open source på GitHub",
+          "501(c)(3)-tjeneste siden 2012"
+        ]
       },
-      "content": {
-        "title": "Digitalt kirkeindholdscenter",
-        "description": "Få adgang til prædikener, undervisningslektioner, dagens vers og komplette bibeloversættelser. Hold dit fællesskab engageret med friskt indhold hele ugen.",
-        "items": ["Prædikenbibliotek", "Bibelintegration", "Dagens vers", "Undervisningslektioner"],
-        "cta": "Gennemse indhold"
+      "products": {
+        "eyebrow": "Én platform",
+        "title": "Alle tjenestegrene, endelig på samme side.",
+        "lead": "Seks værktøjer, der fungerer som ét — fordi de er ét. Én platform med én database, hvor intet sælges separat.",
+        "linkLabel": "Udforsk",
+        "items": {
+          "app": {
+            "name": "Medlemsapp",
+            "desc": "Grupper, beskeder, prædikener og gaver i hvert medlems lomme."
+          },
+          "giving": {
+            "name": "Gaver",
+            "desc": "Online og tilbagevendende gaver med fonde, bundter og årsopgørelser."
+          },
+          "people": {
+            "name": "Personer",
+            "desc": "En komplet medlemsdatabase med fremmøde, arbejdsgange og AI-søgning."
+          },
+          "checkin": {
+            "name": "Check-in",
+            "desc": "Hurtigt og sikkert check-in af børn med navneskilte og afhentningskontrol."
+          },
+          "web": {
+            "name": "Hjemmesider",
+            "desc": "En træk-og-slip hjemmesidebygger lavet til kirker."
+          },
+          "plans": {
+            "name": "Gudstjenesteplanlægning",
+            "desc": "Gudstjenesteplaner, sangbiblioteker og frivilligplanlægning."
+          }
+        }
+      },
+      "connect": {
+        "eyebrow": "B1-mobilappen",
+        "title": "Dine mennesker, forbundet —",
+        "titleAccent": "hele ugen.",
+        "lead": "Giv din kirke ét sted at høre til mellem søndagene. B1-appen bringer medlemsoversigt, grupper, beskeder og prædikener ud på alle telefoner i menigheden.",
+        "items": [
+          "Gruppechat & samtaler",
+          "Medlemsoversigt & beskeder",
+          "Prædikener & livestreaming",
+          "Push-notifikationer",
+          "Bibel & dagens vers",
+          "Planlægning af frivillige"
+        ],
+        "pwaTitle": "Medlemmer installerer den på få sekunder",
+        "pwaNote": "B1-appen installeres direkte fra kirkens hjemmeside og er altid opdateret — hvert medlem får automatisk den nyeste version."
       },
       "giving": {
-        "title": "Online kirkelige gaver",
-        "description": "Sikre donationer via kredit-/bankkort med mulighed for tilbagevendende betalinger og fondsspecifikke gaver. Ingen gebyrer fra B1 - direkte Stripe-integration.",
-        "items": ["Sikre betalinger", "Tilbagevendende donationer", "Fondsstyring", "Gavehistorik"],
-        "cta": "Start med at give"
+        "eyebrow": "Onlinegaver",
+        "title": "Gør gavmildhed",
+        "titleAccent": "ubesværet.",
+        "lead": "Medlemmer giver med kort eller bankkonto på få tryk — som engangsbeløb eller fast. Jeres team følger hver fond, hver optælling og hver årsopgørelse samme sted.",
+        "items": [
+          "Engangsgaver & faste gaver",
+          "Flere fonde & formål",
+          "Automatiske årsopgørelser",
+          "Optælling af kontanter & checks"
+        ],
+        "feeNote": "B1 lægger nul gebyrer på gaver. I betaler kun standardgebyrerne til Stripe eller PayPal — intet går til os."
+      },
+      "people": {
+        "eyebrow": "B1Admin · Kirkeadministration",
+        "title": "Kend din menighed —",
+        "titleAccent": "for alvor.",
+        "lead": "B1Admin er teamets samlingspunkt: en komplet medlemsdatabase med indsigt i fremmøde, smarte opfølgninger og en AI-søgning, der besvarer spørgsmål i almindeligt sprog.",
+        "items": [
+          "Komplette profiler for medlemmer & husstande",
+          "Registrering af fremmøde & tendenser",
+          "Automatiserede opfølgningsforløb",
+          "AI-drevet personsøgning"
+        ],
+        "link": "Udforsk kirkeadministration"
       },
       "checkin": {
-        "title": "Kirkelig check-in-platform",
-        "description": "Kontaktløs check-in til gudstjenester med familieadministration og automatisk gruppetildeling. Effektiviser registrering af fremmøde.",
-        "items": ["Kontaktløs check-in", "Familieadministration", "Automatisk gruppetildeling", "Fremmøderapporter"],
-        "cta": "Prøv check-in"
-      },
-      "mobileFirst": "Mobile first",
-      "managementSystem": {
-        "title": "Komplet",
-        "titleHighlight": "Kirkeadministrationssystem",
-        "description": "Professionel kirkedatabase-software med medlemsadministration, sporing af fremmøde, gaveadministration og kommunikationsværktøjer til menigheden. Gratis kirkeadministrationssystem designet specifikt til voksende menigheder og flerkampuskirker."
-      },
-      "grid": {
-        "peopleManagement": {
-          "title": "Personadministration",
-          "description": "Komplette medlems- og gæsteregistreringer med avanceret søgning og relationssporing."
-        },
-        "attendanceAnalytics": {
-          "title": "Fremmødeanalyse",
-          "description": "Spor fremmødetendenser med flotte grafer og omfattende rapportering."
-        },
-        "groupsMinistries": {
-          "title": "Grupper og tjenester",
-          "description": "Organiser ubegrænset antal grupper og klasser med medlemstildelinger og sporing."
-        },
-        "givingManagement": {
-          "title": "Gaveadministration",
-          "description": "Behandl donationer med batchadministration, fondssporing og skatteopgørelser."
-        },
-        "servicePlanning": {
-          "title": "Gudstjenesteplanlægning",
-          "description": "Planlæg gudstjenester, tildel teams og administrer koordinering af frivillige."
-        },
-        "songLibrary": {
-          "title": "Sangbibliotek",
-          "description": "Organiser sange med arrangementer, tonearter, akkordskemaer og setlister."
-        },
-        "communications": {
-          "title": "Kommunikation",
-          "description": "Send målrettede e-mails og meddelelser med automatiserede arbejdsgange."
-        },
-        "multiCampus": {
-          "title": "Flerkampus",
-          "description": "Administrer flere lokationer fra ét samlet dashboard med kampusspecifikke data."
+        "eyebrow": "B1Checkin",
+        "title": "Byd familier velkommen",
+        "titleAccent": "med ro i maven.",
+        "lead": "Selvbetjent check-in, der printer navneskilte og matchende afhentningskoder til forældrene — børnesikkerhed indbygget, frivillige frigjort og fremmøde registreret automatisk.",
+        "items": [
+          "Opslag på telefonnummer på få sekunder",
+          "Matchende sikkerhedskoder til afhentning",
+          "Trådløs print af labels",
+          "Gæsteregistrering med QR-kode"
+        ],
+        "receipt": {
+          "title": "Hvad det koster",
+          "tablet": "Android-tablet",
+          "printer": "Labelprinter",
+          "total": "Hardware, én gang",
+          "software": "Software, for altid"
         }
       },
-      "showcase": {
-        "groupsMinistries": {
-          "title": "Grupper og tjenester",
-          "description": "Administrer ubegrænset antal grupper og klasser"
+      "ecosystem": {
+        "eyebrow": "Sådan hænger det sammen",
+        "title": "Én platform.",
+        "titleAccent": "Én database.",
+        "lead": "Opdater en familie én gang, og det passer alle steder — på hjemmesiden, i appen, ved check-in og i givertjenesten. Ingen synkronisering, ingen eksport, ingen pris pr. modul.",
+        "hubTitle": "Én fælles database",
+        "hubSubtitle": "personer · grupper · gaver · fremmøde",
+        "nodes": {
+          "admin": {
+            "name": "B1Admin",
+            "desc": "Personalets dashboard til personer, gaver, planer og rapporter."
+          },
+          "web": {
+            "name": "Kirkens hjemmeside",
+            "desc": "Jeres offentlige side med prædikener, kalender og gavesider."
+          },
+          "mobile": {
+            "name": "Mobilapp",
+            "desc": "Medlemsappen til grupper, beskeder og gaver."
+          },
+          "checkin": {
+            "name": "B1Checkin",
+            "desc": "Kiosk-check-in med navneskilte og sikkerhedskoder."
+          }
         },
-        "peopleSearch": {
-          "title": "Personsøgning",
-          "description": "Avanceret medlemsdatabase"
-        },
-        "servicePlanning": {
-          "title": "Gudstjenesteplanlægning",
-          "description": "Planlæg teams og opgaver"
-        },
-        "songLibrary": {
-          "title": "Sangbibliotek",
-          "description": "Arrangementer og akkordskemaer"
-        }
-      },
-      "dashboard": {
-        "title": "Smukt, intuitivt dashboard",
-        "description": "Få adgang til alle dine kirkedata med vores rene, moderne grænseflade designet til effektivitet og brugervenlighed."
-      },
-      "additional": {
-        "security": {
-          "title": "Sikkerhed og privatliv",
-          "description": "Branchestandard-kryptering og sikker datalagring"
-        },
-        "mobile": {
-          "title": "Mobiltilgængelighed",
-          "description": "Responsivt design fungerer perfekt på alle enheder"
-        },
-        "workflows": {
-          "title": "Automatiserede arbejdsgange",
-          "description": "Opfølgningssekvenser og automatisering af medlemspleje"
-        },
-        "reporting": {
-          "title": "Realtidsrapportering",
-          "description": "Generer øjeblikkelige rapporter og eksporter data når som helst"
-        },
-        "forms": {
-          "title": "Tilpassede formularer",
-          "description": "Byg tilmeldingsformularer og spørgeundersøgelser til ethvert formål"
-        },
-        "roles": {
-          "title": "Rollebaseret adgang",
-          "description": "Sikre tilladelser til medarbejdere og frivillige"
-        }
-      },
-      "ctaSection": {
-        "title": "Klar til at opbygge et stærkere",
-        "titleHighlight": "Kirkefællesskab?",
-        "description": "Transformér din kirke med vores omfattende gratis platform designet til at uddybe relationer og styrke kirkefællesskaber gennem moderne teknologi.",
+        "integrationsLabel": "Spiller godt sammen med de værktøjer, I allerede bruger",
         "cta": "Kom gratis i gang"
+      },
+      "capabilities": {
+        "eyebrow": "Og meget mere",
+        "title": "Resten af to-do-listen? Klaret.",
+        "lead": "Gudstjenesteplanlægning, frivillige, formularer, automatiseringer — hverdagens arbejde i en kirke, alt sammen inkluderet.",
+        "cells": {
+          "servicePlanning": {
+            "title": "Gudstjenesteplanlægning",
+            "desc": "Planlæg gudstjenester, sæt frivillige hold og giv alle besked automatisk."
+          },
+          "groups": {
+            "title": "Grupper & tjenester",
+            "desc": "Ubegrænsede grupper med ledere, kalendere og fremmøde."
+          },
+          "songs": {
+            "title": "Sangbibliotek",
+            "desc": "Arrangementer, tonearter og links til lovsangsteamet."
+          },
+          "forms": {
+            "title": "Formularer & tilmeldinger",
+            "desc": "Tilpassede formularer til arrangementer, tilmeldinger og undersøgelser."
+          },
+          "automations": {
+            "title": "Forløb & automatiseringer",
+            "desc": "Opfølgning på besøgende og faste opgaver, der kører af sig selv."
+          },
+          "multiCampus": {
+            "title": "Flere lokationer",
+            "desc": "Alle lokationer i ét dashboard med rapporter pr. lokation."
+          },
+          "roles": {
+            "title": "Roller & rettigheder",
+            "desc": "Giv ansatte og frivillige præcis den adgang, de har brug for."
+          },
+          "reports": {
+            "title": "Rapporter & eksport",
+            "desc": "Fremmødetendenser, gaveoversigter og eksport med ét klik."
+          }
+        },
+        "openSource": {
+          "title": "Open source uden binding",
+          "desc": "Hele B1 er open source. Gennemse koden, bidrag eller host selv — jeres data er altid jeres.",
+          "linkLabel": "Se koden på GitHub"
+        }
+      },
+      "pricing": {
+        "eyebrow": "Priser",
+        "title": "Her er hele pristabellen.",
+        "lead": "Ingen niveauer, ingen pris pr. medlem, ingen overraskende stigning ved 200 personer. Alt på denne side er inkluderet for enhver kirke, uanset størrelse.",
+        "per": "pr. måned — for alt, for altid",
+        "note": "Kortbehandling for onlinegaver håndteres af betalingsudbyderen til deres standardtakster. Vi lægger intet oveni.",
+        "cta": "Kom gratis i gang"
+      },
+      "mission": {
+        "eyebrow": "Hvorfor er det gratis?",
+        "statement1": "Ikke til salg.",
+        "statement2": "Ikke for profit.",
+        "title": "Bygget af en tjeneste, ikke en leverandør.",
+        "lead": "B1 er bygget af Live Church Solutions, en 501(c)(3)-nonprofit grundlagt i 2012. Kirker bruger hvert år hundredvis af millioner på software — vi vil hellere se de penge gå til kirkens arbejde.",
+        "stats": {
+          "free": "Gratis for altid",
+          "fees": "Ekstra gebyrer",
+          "founded": "Har tjent kirker siden",
+          "languages": "Understøttede sprog"
+        },
+        "audiences": [
+          {
+            "title": "Kirkeplantninger",
+            "description": "Start med professionelle værktøjer fra dag ét — uden softwarebudget."
+          },
+          {
+            "title": "Små & mellemstore kirker",
+            "description": "Alt det, frivillige faktisk kan drive — uden noget at vedligeholde."
+          },
+          {
+            "title": "Kirker med flere lokationer",
+            "description": "Samlede persondata og rapporter på tværs af alle lokationer."
+          },
+          {
+            "title": "Globale tjenester",
+            "description": "Tilgængelig på 29 sprog og finansieret, så det forbliver gratis overalt."
+          }
+        ],
+        "sister": "Vi bygger også FreeShow, gratis præsentationssoftware, og Lessons.church, gratis undervisningsmateriale med over 1.100 lektioner — gratis og open source, ligesom alt andet, vi laver.",
+        "aboutChurchApps": "Om ChurchApps"
+      },
+      "finalCta": {
+        "title": "Vær én kirke.",
+        "titleAccent": "Alt ét sted.",
+        "description": "Sæt din kirke op på få minutter — jeres app, hjemmeside, givertjeneste og check-in venter.",
+        "ctaPrimary": "Kom gratis i gang",
+        "ctaSecondary": "Læs FAQ'en",
+        "reassurance": "Intet kreditkort påkrævet — der er intet at trække. Gratis for altid, fra en tjeneste, der gerne vil holde det sådan."
+      }
+    },
+    "fragments": {
+      "checkinToast": {
+        "title": "Familien Johnson er tjekket ind",
+        "detail": "Børnehave A · kl. 9:02"
+      },
+      "givingStat": {
+        "label": "Gaver denne måned"
+      },
+      "aiSearch": {
+        "query": "familier, der er kommet til inden for de seneste 90 dage"
+      },
+      "workflow": {
+        "title": "Opfølgning på nye besøgende",
+        "badge": "Automatiseret",
+        "step1": "Send velkomstmail",
+        "step2": "Tildel til en præst"
+      },
+      "nameTag": {
+        "hello": "Hej",
+        "myNameIs": "mit navn er",
+        "pickup": "Forældreafhentning"
+      },
+      "pushNotification": {
+        "app": "Grace Church",
+        "message": "Vagtplanen for frivillige til søndag er klar",
+        "time": "nu"
       }
     },
     "testimonials": {
@@ -148,23 +274,23 @@
       "subtitle": "Slut dig til voksende kirker, der har transformeret deres tjeneste med vores fuldstændig gratis platform. Her er, hvad præster og kirkeadministratorer siger om B1.",
       "stats": {
         "churchesValue": "100+",
-        "churchesLabel": "Kirker stoler på os",
+        "churchesLabel": "Kirker verden over",
         "freeValue": "Gratis",
-        "freeLabel": "For altid og altid",
-        "uptimeValue": "99.9%",
-        "uptimeLabel": "Oppetidsgaranti",
-        "supportValue": "24/7",
-        "supportLabel": "Support tilgængelig"
+        "freeLabel": "For evigt & altid",
+        "openValue": "Åben",
+        "openLabel": "Kildekode",
+        "languagesValue": "29",
+        "languagesLabel": "Understøttede sprog"
       },
       "items": [
         {
           "content": "Jeg anbefaler ChurchApps af hele mit hjerte. Det er en tjeneste i ordets sandeste og bedste betydning. ChurchApps leverer tekniske tjenester, der forstærker og løfter kirkens åndelige indflydelse i deres lokalsamfund. De vil hjælpe Kirkens infrastruktur i mange år fremover."
         },
         {
-          "content": "ChurchApps hjalp os med at blive mere synlige i vores lokalsamfund\u2014øgede kendskab, donationer og frivillige, så vi bedre kan tjene familier i nød."
+          "content": "ChurchApps hjalp os med at blive mere synlige i vores lokalsamfund—øgede kendskab, donationer og frivillige, så vi bedre kan tjene familier i nød."
         },
         {
-          "content": "ChurchApps er mere end software\u2014det er et praktisk værktøj, der understøtter missionen, visionen og det daglige arbejde i tjenesten. Jeg er taknemmelig for muligheden for at lære det, undervise i det og være vidne til, hvordan det giver kirker mulighed for at fungere med større klarhed, effektivitet og formål."
+          "content": "ChurchApps er mere end software—det er et praktisk værktøj, der understøtter missionen, visionen og det daglige arbejde i tjenesten. Jeg er taknemmelig for muligheden for at lære det, undervise i det og være vidne til, hvordan det giver kirker mulighed for at fungere med større klarhed, effektivitet og formål."
         },
         {
           "content": "Donationssiden har øget gaverne til vores organisation. Folk sætter ikke kun pris på, hvor let det er at scanne en kode, der fører dem direkte til donationssiden, men månedlige gaver kan også opsættes for dem, der ønsker, at online-gaver skal være enkle."
@@ -175,10 +301,11 @@
       ],
       "ctaTitle": "Klar til at transformere din kirkeadministration?",
       "ctaDescription": "Slut dig til det voksende fællesskab af kirker, der allerede bruger B1 - fuldstændig gratis for altid. Intet kreditkort påkrævet, ingen prøveperioder, ingen skjulte gebyrer.",
-      "ctaButton": "Kom gratis i gang"
+      "ctaButton": "Kom gratis i gang",
+      "compareLink": "Se, hvordan B1 klarer sig i forhold til Planning Center, Pushpay m.fl."
     },
     "websiteBuilder": {
-      "badge": "Webportalfunktion",
+      "badge": "Din kirkes hjemmeside",
       "title": "Gratis kirkehjemmesidebygger",
       "titleHighlight": "På minutter, ikke måneder",
       "description": "Opret en smuk, professionel kirkehjemmeside med vores gratis indbyggede hjemmesidebygger. Ingen kodning påkrævet - bare træk, slip og publicer din kirkehjemmeside.",
@@ -197,90 +324,15 @@
       "cta": "Start med at bygge din kirkehjemmeside",
       "ctaSubtext": "Komplet gratis kirkehjemmesidebygger inkluderet med enhver konto"
     },
-    "perfectFor": {
-      "title": "Gratis til enhver",
-      "titleHighlight": "Kirkefællesskab",
-      "subtitle": "Fuldstændig gratis platform til alle kirkestørrelser. Vores menighedsmission betyder ingen skjulte omkostninger, ingen funktionsbegrænsninger, ingen overraskelser.",
-      "audiences": [
-        {
-          "title": "Lokale kirker",
-          "description": "Menigheder med ét sted, der ønsker at modernisere deres digitale tilstedeværelse",
-          "stats": "Enhver størrelse"
-        },
-        {
-          "title": "Flerstedsmenigheder",
-          "description": "Flere lokationer, der har brug for samlet administration med unikke identiteter",
-          "stats": "Alle lokationer"
-        },
-        {
-          "title": "Trossamfundsnetværk",
-          "description": "Organisationer, der betjener flere kirker med fælles ressourcer",
-          "stats": "Ethvert netværk"
-        },
-        {
-          "title": "Fællesskabsfokuseret",
-          "description": "Kirker, der prioriterer dyb involvering og opbygning af relationer",
-          "stats": "Voksende dagligt"
-        }
-      ],
-      "integrations": {
-        "adminIntegration": {
-          "title": "B1 Admin-integration",
-          "description": "Problemfrit integreret med B1 Admin kirkeadministrationssoftware for komplet arbejdsgangsautomatisering."
-        },
-        "webPortal": {
-          "title": "Webportal inkluderet",
-          "description": "Omfattende webportal med hjemmesidebygger sammen med den kraftfulde mobilapp-oplevelse."
-        },
-        "instantSetup": {
-          "title": "Øjeblikkelig opsætning",
-          "description": "Kom i gang på få minutter med vores strømlinede onboarding-proces og dedikerede supportteam."
-        }
-      },
-      "about": {
-        "title": "Om vores gratis software",
-        "description": "Vi er en 501(c)(3) nonprofit-menighed dedikeret til at levere fuldstændig gratis kirkeadministrationssoftware. Vores mission er at gøre kirker i stand til at fokusere på tjenesten, ikke på softwareomkostninger.",
-        "stats": {
-          "freeValue": "100%",
-          "freeLabel": "Gratis for altid",
-          "setupValue": "$0",
-          "setupLabel": "Opsætningsomkostninger",
-          "churchesValue": "100+",
-          "churchesLabel": "Kirker betjent",
-          "openValue": "Åben",
-          "openLabel": "Kildekode"
-        },
-        "features": [
-          "Intet kreditkort påkrævet",
-          "Ubegrænset antal brugere og medlemmer",
-          "Alle funktioner inkluderet",
-          "Regelmæssige opdateringer og forbedringer",
-          "24/7 fællesskabssupport",
-          "Mobil- og webadgang",
-          "Hjælp til dataimport",
-          "Åben kildekode-transparens"
-        ],
-        "learnMore": "Lær mere om vores menighed og mission",
-        "aboutChurchApps": "Om ChurchApps",
-        "viewOnGitHub": "Se på GitHub"
-      },
-      "cta": {
-        "title": "Klar til at styrke dit fællesskab?",
-        "description": "Opdag, hvordan vores omfattende menighedsplatform kan hjælpe dig med at opbygge dybere relationer og stærkere fællesskaber.",
-        "button": "Start gratis i dag",
-        "tagline": "100% gratis \u2022 Ingen skjulte omkostninger \u2022 Menighedsdrevet mission"
-      }
-    },
     "footer": {
-      "companyDescription": "Den altomfattende kirkekommunikationsplatform, der samler tilbedelse, fællesskab, gaver og administration.",
+      "companyDescription": "Den gratis open source-platform, der samler kirkens app, hjemmeside, givertjeneste og administration.",
       "product": "Produkt",
       "mobileFeatures": "Mobile funktioner",
       "websiteBuilder": "Hjemmesidebygger",
       "faq": "Ofte stillede spørgsmål",
       "aboutChurchApps": "Om ChurchApps",
       "appsAndResources": "Apps og ressourcer",
-      "androidApp": "Android-app",
-      "iosApp": "iOS-app",
+      "installApp": "Installer mobilappen",
       "helpCenter": "Hjælpecenter",
       "contact": "Kontakt",
       "availableWorldwide": "Tilgængelig på verdensplan"
@@ -297,7 +349,7 @@
         },
         {
           "question": "Hvilke funktioner indeholder B1.church?",
-          "answer": "B1.church inkluderer en komplet kirkeadministrationsplatform: mobilapps til iOS og Android, en træk-og-slip hjemmesidebygger, online-gaver uden transaktionsgebyrer, smart check-in-system, medlemsdatabase, sporing af fremmøde, gruppeadministration, gudstjenesteplanlægning, sangbibliotek, prædikenadministration og bibelintegration."
+          "answer": "B1.church indeholder en komplet platform til kirkeadministration: en medlemsapp, der installeres direkte fra jeres hjemmeside, en træk-og-slip-hjemmesidebygger, onlinegaver uden ekstra platformgebyrer, et børne-check-in-system med sikkerhedskoder, medlemsdatabase, fremmøderegistrering, gruppestyring, gudstjenesteplanlægning, sangbibliotek, prædikenarkiv og bibelintegration."
         },
         {
           "question": "Hvordan sammenlignes B1.church med Planning Center?",
@@ -316,12 +368,12 @@
           "answer": "B1.church er gratis, mens Breeze starter ved $72/md. B1 inkluderer en fuld mobilapp og hjemmesidebygger, mens Breeze har begrænsede mobilfunktioner og ingen hjemmesidebygger. Begge tilbyder kirkeadministration, men B1 leverer flere funktioner uden omkostninger."
         },
         {
-          "question": "Kan jeg få en tilpasset mobilapp til min kirke?",
-          "answer": "Ja, B1.church leverer mobilapps med tilpasset branding til iOS og Android. Din kirke får sin egen app med din branding, som medlemmer kan downloade fra App Store og Google Play. Dette er inkluderet gratis med B1."
+          "question": "Får min kirke en mobilapp?",
+          "answer": "Ja. B1 giver din kirke en app-oplevelse i jeres eget navn som installerbar webapp (PWA). Medlemmer åbner kirkens hjemmeside, trykker på 'Føj til hjemmeskærm' og får en fuldskærmsapp med kirkens navn og logo. Opdateringer når alle med det samme."
         },
         {
           "question": "Understøtter B1.church online-gaver?",
-          "answer": "Ja, B1.church inkluderer sikre online-gaver med understøttelse af kreditkort og bankoverførsler. Du kan oprette tilbagevendende donationer, administrere flere fonde og levere gavehistorik til skatteopgørelser. Vi bruger direkte Stripe-integration uden B1-platformgebyrer - din kirke forhandler satser direkte med Stripe (typisk omkring 2,9% + 30\u00a2)."
+          "answer": "Ja, B1.church inkluderer sikre online-gaver med understøttelse af kreditkort og bankoverførsler. Du kan oprette tilbagevendende donationer, administrere flere fonde og levere gavehistorik til skatteopgørelser. Vi bruger direkte Stripe-integration uden B1-platformgebyrer - din kirke forhandler satser direkte med Stripe (typisk omkring 2,9% + 30¢)."
         },
         {
           "question": "Kan jeg bygge en hjemmeside med B1.church?",
@@ -377,16 +429,56 @@
           "tagline": "Gratis alternativ til Planning Center",
           "description": "Planning Center er en populær kirkeadministrationsplatform med modulær prissætning. B1.church tilbyder lignende funktioner fuldstændig gratis.",
           "features": [
-            { "name": "Medlemsdatabase", "b1": true, "competitor": true },
-            { "name": "Check-in-system", "b1": true, "competitor": "$99/mo" },
-            { "name": "Online-gaver", "b1": "Ingen B1-gebyrer", "competitor": "Platforms- + Stripe-gebyrer" },
-            { "name": "Gruppeadministration", "b1": true, "competitor": "$50/mo" },
-            { "name": "Gudstjenesteplanlægning", "b1": true, "competitor": "$14-99/mo" },
-            { "name": "Mobilapp", "b1": "Gratis brandet app", "competitor": "$0-199/mo" },
-            { "name": "Hjemmesidebygger", "b1": true, "competitor": false },
-            { "name": "Prædikenadministration", "b1": true, "competitor": false },
-            { "name": "Flerkampus", "b1": true, "competitor": "Ekstra omkostning" },
-            { "name": "Åben kildekode", "b1": true, "competitor": false }
+            {
+              "name": "Medlemsdatabase",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Check-in-system",
+              "b1": true,
+              "competitor": "$99/mo"
+            },
+            {
+              "name": "Online-gaver",
+              "b1": "Ingen B1-gebyrer",
+              "competitor": "Platforms- + Stripe-gebyrer"
+            },
+            {
+              "name": "Gruppeadministration",
+              "b1": true,
+              "competitor": "$50/mo"
+            },
+            {
+              "name": "Gudstjenesteplanlægning",
+              "b1": true,
+              "competitor": "$14-99/mo"
+            },
+            {
+              "name": "Mobilapp",
+              "b1": "Gratis brandet app",
+              "competitor": "$0-199/mo"
+            },
+            {
+              "name": "Hjemmesidebygger",
+              "b1": true,
+              "competitor": false
+            },
+            {
+              "name": "Prædikenadministration",
+              "b1": true,
+              "competitor": false
+            },
+            {
+              "name": "Flerkampus",
+              "b1": true,
+              "competitor": "Ekstra omkostning"
+            },
+            {
+              "name": "Åben kildekode",
+              "b1": true,
+              "competitor": false
+            }
           ],
           "pricingB1": "100% gratis",
           "pricingCompetitor": "$0 - $500+/måned afhængigt af moduler",
@@ -397,16 +489,56 @@
           "tagline": "Gratis alternativ til Pushpay",
           "description": "Pushpay er kendt for mobile gaver, men kommer med betydelige månedlige omkostninger og transaktionsgebyrer. B1.church tilbyder gaver uden platformgebyrer.",
           "features": [
-            { "name": "Online-gaver", "b1": "Ingen B1-gebyrer", "competitor": "Platforms- + Stripe-gebyrer" },
-            { "name": "Tilbagevendende donationer", "b1": true, "competitor": true },
-            { "name": "Mobilapp", "b1": "Gratis brandet app", "competitor": "Inkluderet" },
-            { "name": "Medlemsdatabase", "b1": true, "competitor": "ChMS ekstra" },
-            { "name": "Check-in-system", "b1": true, "competitor": "Ekstra omkostning" },
-            { "name": "Hjemmesidebygger", "b1": true, "competitor": false },
-            { "name": "Gruppeadministration", "b1": true, "competitor": "Ekstra omkostning" },
-            { "name": "Gaveopgørelser", "b1": true, "competitor": true },
-            { "name": "Fondsstyring", "b1": true, "competitor": true },
-            { "name": "Åben kildekode", "b1": true, "competitor": false }
+            {
+              "name": "Online-gaver",
+              "b1": "Ingen B1-gebyrer",
+              "competitor": "Platforms- + Stripe-gebyrer"
+            },
+            {
+              "name": "Tilbagevendende donationer",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Mobilapp",
+              "b1": "Gratis brandet app",
+              "competitor": "Inkluderet"
+            },
+            {
+              "name": "Medlemsdatabase",
+              "b1": true,
+              "competitor": "ChMS ekstra"
+            },
+            {
+              "name": "Check-in-system",
+              "b1": true,
+              "competitor": "Ekstra omkostning"
+            },
+            {
+              "name": "Hjemmesidebygger",
+              "b1": true,
+              "competitor": false
+            },
+            {
+              "name": "Gruppeadministration",
+              "b1": true,
+              "competitor": "Ekstra omkostning"
+            },
+            {
+              "name": "Gaveopgørelser",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Fondsstyring",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Åben kildekode",
+              "b1": true,
+              "competitor": false
+            }
           ],
           "pricingB1": "100% gratis",
           "pricingCompetitor": "$300 - $1,000+/måned",
@@ -417,16 +549,56 @@
           "tagline": "Gratis alternativ til Tithe.ly",
           "description": "Tithe.ly tilbyder værktøjer til kirkelige gaver og administration med freemium-prissætning. B1.church leverer alt gratis uden transaktionsgebyrer.",
           "features": [
-            { "name": "Online-gaver", "b1": "Ingen B1-gebyrer", "competitor": "Platforms- + Stripe-gebyrer" },
-            { "name": "Tilbagevendende donationer", "b1": true, "competitor": true },
-            { "name": "Mobilapp", "b1": "Gratis brandet app", "competitor": "$99/mo" },
-            { "name": "Medlemsdatabase", "b1": true, "competitor": "$99/mo" },
-            { "name": "Check-in-system", "b1": true, "competitor": "$49/mo" },
-            { "name": "Hjemmesidebygger", "b1": true, "competitor": "$49/mo" },
-            { "name": "Gruppeadministration", "b1": true, "competitor": "$99/mo" },
-            { "name": "Prædikenadministration", "b1": true, "competitor": "$49/mo" },
-            { "name": "Flerkampus", "b1": true, "competitor": "Ekstra omkostning" },
-            { "name": "Åben kildekode", "b1": true, "competitor": false }
+            {
+              "name": "Online-gaver",
+              "b1": "Ingen B1-gebyrer",
+              "competitor": "Platforms- + Stripe-gebyrer"
+            },
+            {
+              "name": "Tilbagevendende donationer",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Mobilapp",
+              "b1": "Gratis brandet app",
+              "competitor": "$99/mo"
+            },
+            {
+              "name": "Medlemsdatabase",
+              "b1": true,
+              "competitor": "$99/mo"
+            },
+            {
+              "name": "Check-in-system",
+              "b1": true,
+              "competitor": "$49/mo"
+            },
+            {
+              "name": "Hjemmesidebygger",
+              "b1": true,
+              "competitor": "$49/mo"
+            },
+            {
+              "name": "Gruppeadministration",
+              "b1": true,
+              "competitor": "$99/mo"
+            },
+            {
+              "name": "Prædikenadministration",
+              "b1": true,
+              "competitor": "$49/mo"
+            },
+            {
+              "name": "Flerkampus",
+              "b1": true,
+              "competitor": "Ekstra omkostning"
+            },
+            {
+              "name": "Åben kildekode",
+              "b1": true,
+              "competitor": false
+            }
           ],
           "pricingB1": "100% gratis",
           "pricingCompetitor": "Gratis niveau + $49-199/mo for funktioner",
@@ -437,16 +609,56 @@
           "tagline": "Gratis alternativ til Breeze ChMS",
           "description": "Breeze er et enkelt kirkeadministrationssystem med ligetil prissætning. B1.church tilbyder flere funktioner uden omkostninger.",
           "features": [
-            { "name": "Medlemsdatabase", "b1": true, "competitor": true },
-            { "name": "Gaveadministration", "b1": "Ingen B1-gebyrer", "competitor": "2.9% + 30\u00a2" },
-            { "name": "Check-in-system", "b1": true, "competitor": "Basis" },
-            { "name": "Mobilapp", "b1": "Gratis brandet app", "competitor": "Begrænset" },
-            { "name": "Hjemmesidebygger", "b1": true, "competitor": false },
-            { "name": "Gruppeadministration", "b1": true, "competitor": true },
-            { "name": "Begivenhedsadministration", "b1": true, "competitor": true },
-            { "name": "Frivilligplanlægning", "b1": true, "competitor": true },
-            { "name": "Flerkampus", "b1": true, "competitor": false },
-            { "name": "Åben kildekode", "b1": true, "competitor": false }
+            {
+              "name": "Medlemsdatabase",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Gaveadministration",
+              "b1": "Ingen B1-gebyrer",
+              "competitor": "2.9% + 30¢"
+            },
+            {
+              "name": "Check-in-system",
+              "b1": true,
+              "competitor": "Basis"
+            },
+            {
+              "name": "Mobilapp",
+              "b1": "Gratis brandet app",
+              "competitor": "Begrænset"
+            },
+            {
+              "name": "Hjemmesidebygger",
+              "b1": true,
+              "competitor": false
+            },
+            {
+              "name": "Gruppeadministration",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Begivenhedsadministration",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Frivilligplanlægning",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Flerkampus",
+              "b1": true,
+              "competitor": false
+            },
+            {
+              "name": "Åben kildekode",
+              "b1": true,
+              "competitor": false
+            }
           ],
           "pricingB1": "100% gratis",
           "pricingCompetitor": "$72 - $135/måned",
@@ -479,7 +691,7 @@
         "features": [
           "Søg på telefonnummer og vælg gudstjenester automatisk",
           "Udskriver etiketter og kvitteringer trådløst til delte printere",
-          "Kører på prisvenlige Android-tablets under $80",
+          "Kører på billige Android-tablets (omkring $150)",
           "Synkroniserer automatisk med system til registrering af fremmøde"
         ]
       },
@@ -588,6 +800,54 @@
         "description": "Slut dig til kirker verden over, der har skiftet til en fuldstændig gratis, åben kildekode-løsning bygget af en menighed, til menigheder.",
         "primaryButton": "Kom gratis i gang",
         "secondaryButton": "Prøv demo"
+      },
+      "showcase": {
+        "groupsMinistries": {
+          "title": "Grupper og tjenester",
+          "description": "Administrer ubegrænset antal grupper og klasser"
+        },
+        "peopleSearch": {
+          "title": "Personsøgning",
+          "description": "Avanceret medlemsdatabase"
+        },
+        "servicePlanning": {
+          "title": "Gudstjenesteplanlægning",
+          "description": "Planlæg teams og opgaver"
+        },
+        "songLibrary": {
+          "title": "Sangbibliotek",
+          "description": "Arrangementer og akkordskemaer"
+        }
+      },
+      "dashboard": {
+        "title": "Smukt, intuitivt dashboard",
+        "description": "Få adgang til alle dine kirkedata med vores rene, moderne grænseflade designet til effektivitet og brugervenlighed."
+      },
+      "additional": {
+        "security": {
+          "title": "Sikkerhed og privatliv",
+          "description": "Branchestandard-kryptering og sikker datalagring"
+        },
+        "mobile": {
+          "title": "Mobiltilgængelighed",
+          "description": "Responsivt design fungerer perfekt på alle enheder"
+        },
+        "workflows": {
+          "title": "Automatiserede arbejdsgange",
+          "description": "Opfølgningssekvenser og automatisering af medlemspleje"
+        },
+        "reporting": {
+          "title": "Realtidsrapportering",
+          "description": "Generer øjeblikkelige rapporter og eksporter data når som helst"
+        },
+        "forms": {
+          "title": "Tilpassede formularer",
+          "description": "Byg tilmeldingsformularer og spørgeundersøgelser til ethvert formål"
+        },
+        "roles": {
+          "title": "Rollebaseret adgang",
+          "description": "Sikre tilladelser til medarbejdere og frivillige"
+        }
       }
     },
     "notFound": {

@@ -2,144 +2,270 @@
   "brochure": {
     "header": {
       "features": "Funktionen",
+      "pricing": "Preise",
       "churchManagement": "Gemeindeverwaltung",
       "about": "Über uns",
       "contact": "Kontakt",
+      "demo": "Live-Demo",
       "signIn": "Anmelden",
       "getStartedFree": "Kostenlos starten"
     },
-    "hero": {
-      "badge": "100% kostenlos \u2022 Von einer Gemeinde entwickelt",
-      "headlineTop": "Kirchengemeinde",
-      "headlineBottom": "Ohne Grenzen",
-      "subheadline": "Umfassende Gemeindeverwaltungssoftware mit mobiler App, Website-Baukasten, digitalem Spenden und Community-Funktionen. 100% kostenlose Plattform – von einer Gemeinde für Gemeinden entwickelt.",
-      "ctaPrimary": "Kostenlos starten",
-      "ctaSecondary": "So funktioniert es",
-      "statFreeValue": "100%",
-      "statFreeLabel": "Für immer kostenlos",
-      "statModernValue": "Moderne",
-      "statModernLabel": "Plattform",
-      "statMinistryValue": "Gemeinde",
-      "statMinistryLabel": "Nicht Profit"
-    },
-    "features": {
-      "community": {
-        "title": "Verbindung in der Kirchengemeinde",
-        "description": "Stärken Sie Beziehungen durch Gruppen, Diskussionen, Nachrichten und Veranstaltungen. Verbinden Sie Ihre Mitglieder über den Sonntagsgottesdienst hinaus durch bedeutungsvolle Interaktionen.",
-        "items": ["Kleingruppen", "Direktnachrichten", "Diskussionsforen", "Mitgliederverzeichnis"],
-        "cta": "Zur Gemeinschaft"
+    "home": {
+      "hero": {
+        "eyebrow": "Kostenlose Open-Source-Software für Gemeinden",
+        "headline": "Alles, was Ihre Gemeinde braucht, um",
+        "headlineAccent": "sich zu verbinden, zu geben und zu wachsen.",
+        "subheadline": "Eine Mitglieder-App, Website-Baukasten, Online-Spenden, Kinder-Check-in und komplette Gemeindeverwaltung — eine kostenlose Plattform von einem gemeinnützigen Werk, damit Ihr Budget in der Gemeindearbeit bleibt.",
+        "ctaPrimary": "Kostenlos starten",
+        "ctaSecondary": "In Aktion erleben",
+        "trust": [
+          "Für immer kostenlos — keine Tarife, keine Testphasen",
+          "Keine zusätzlichen Transaktionsgebühren",
+          "Open Source auf GitHub",
+          "501(c)(3)-Werk seit 2012"
+        ]
       },
-      "content": {
-        "title": "Digitales Inhaltsportal für Gemeinden",
-        "description": "Greifen Sie auf Predigten, Unterrichtsmaterialien, den Vers des Tages und vollständige Bibelübersetzungen zu. Halten Sie Ihre Gemeinde die ganze Woche über mit aktuellen Inhalten engagiert.",
-        "items": ["Predigtbibliothek", "Bibelintegration", "Vers des Tages", "Unterrichtsmaterialien"],
-        "cta": "Inhalte entdecken"
+      "products": {
+        "eyebrow": "Eine Plattform",
+        "title": "Alle Dienste endlich auf einer Linie.",
+        "lead": "Sechs Werkzeuge, die wie eines funktionieren — weil sie eines sind. Eine Plattform mit einer Datenbank, nichts wird separat verkauft.",
+        "linkLabel": "Entdecken",
+        "items": {
+          "app": {
+            "name": "Mitglieder-App",
+            "desc": "Gruppen, Nachrichten, Predigten und Spenden in der Tasche jedes Mitglieds."
+          },
+          "giving": {
+            "name": "Spenden",
+            "desc": "Online- und wiederkehrende Spenden mit Fonds, Stapeln und Jahresbescheinigungen."
+          },
+          "people": {
+            "name": "Personen",
+            "desc": "Eine vollständige Mitgliederdatenbank mit Anwesenheit, Workflows und KI-Suche."
+          },
+          "checkin": {
+            "name": "Check-in",
+            "desc": "Schneller, sicherer Kinder-Check-in mit Namensschildern und Abhol-Abgleich."
+          },
+          "web": {
+            "name": "Webseiten",
+            "desc": "Ein Drag-and-Drop-Website-Baukasten für Gemeinde-Websites."
+          },
+          "plans": {
+            "name": "Gottesdienstplanung",
+            "desc": "Ablaufpläne, Liedbibliotheken und Einsatzplanung für Mitarbeiter."
+          }
+        }
+      },
+      "connect": {
+        "eyebrow": "Die B1 Mobile App",
+        "title": "Ihre Menschen, verbunden —",
+        "titleAccent": "die ganze Woche lang.",
+        "lead": "Geben Sie Ihrer Gemeinde einen Ort der Zugehörigkeit, auch zwischen den Sonntagen. Die B1-App bringt Mitgliederverzeichnis, Gruppen, Nachrichten und Predigten auf jedes Smartphone Ihrer Gemeinde.",
+        "items": [
+          "Gruppenchat & Diskussionen",
+          "Mitgliederverzeichnis & Nachrichten",
+          "Predigten & Livestreams",
+          "Push-Benachrichtigungen",
+          "Bibel & Tagesvers",
+          "Mitarbeiterplanung"
+        ],
+        "pwaTitle": "Mitglieder installieren sie in Sekunden",
+        "pwaNote": "Die B1-App wird direkt über die Website Ihrer Gemeinde installiert und ist immer aktuell — jedes Mitglied erhält automatisch die neueste Version."
       },
       "giving": {
-        "title": "Online-Spenden für Gemeinden",
-        "description": "Sichere Spenden per Kreditkarte/Banküberweisung mit Dauerauftrag und zweckgebundenen Spenden. Keine Gebühren von B1 – direkte Stripe-Integration.",
-        "items": ["Sichere Zahlungen", "Wiederkehrende Spenden", "Fondsverwaltung", "Spendenhistorie"],
-        "cta": "Jetzt spenden"
+        "eyebrow": "Online-Spenden",
+        "title": "Großzügigkeit,",
+        "titleAccent": "mühelos gemacht.",
+        "lead": "Mitglieder spenden mit wenigen Klicks per Karte oder Bankkonto — einmalig oder regelmäßig. Ihr Team behält jeden Fonds, jede Sammlung und jede Jahresbescheinigung am selben Ort im Blick.",
+        "items": [
+          "Einmalige & regelmäßige Spenden",
+          "Mehrere Fonds & Zweckbindungen",
+          "Automatische Jahresbescheinigungen",
+          "Sammelerfassung für Bargeld & Schecks"
+        ],
+        "feeNote": "B1 erhebt null Gebühren auf Spenden. Sie zahlen nur die üblichen Verarbeitungsgebühren von Stripe oder PayPal — an uns geht nichts."
+      },
+      "people": {
+        "eyebrow": "B1Admin · Gemeindeverwaltung",
+        "title": "Kennen Sie Ihre Menschen",
+        "titleAccent": "wirklich.",
+        "lead": "B1Admin ist die Zentrale für Ihr Team: eine vollständige Mitgliederdatenbank mit Anwesenheitsanalysen, intelligenten Follow-ups und einer KI-Suche, die Fragen in ganz normaler Sprache beantwortet.",
+        "items": [
+          "Vollständige Mitglieder- & Haushaltsprofile",
+          "Anwesenheitserfassung & Trends",
+          "Automatisierte Follow-up-Workflows",
+          "KI-gestützte Personensuche"
+        ],
+        "link": "Gemeindeverwaltung entdecken"
       },
       "checkin": {
-        "title": "Check-in-Plattform für Gemeinden",
-        "description": "Kontaktloses Check-in mit Familienverwaltung und automatischer Gruppenzuordnung. Vereinfachen Sie die Anwesenheitserfassung.",
-        "items": ["Kontaktloses Check-in", "Familienverwaltung", "Automatische Gruppenzuordnung", "Anwesenheitsberichte"],
-        "cta": "Check-in testen"
-      },
-      "mobileFirst": "Mobile First",
-      "managementSystem": {
-        "title": "Komplettes",
-        "titleHighlight": "Gemeindeverwaltungssystem",
-        "description": "Professionelle Gemeindedatenbank mit Mitgliederverwaltung, Anwesenheitserfassung, Spendenverwaltung und Kommunikationswerkzeugen für den Gemeindedienst. Kostenloses Gemeindeverwaltungssystem, speziell für wachsende Gemeinden und Gemeinden mit mehreren Standorten entwickelt."
-      },
-      "grid": {
-        "peopleManagement": {
-          "title": "Personenverwaltung",
-          "description": "Vollständige Mitglieder- und Gästedaten mit erweiterter Suche und Beziehungsverfolgung."
-        },
-        "attendanceAnalytics": {
-          "title": "Anwesenheitsanalyse",
-          "description": "Verfolgen Sie Anwesenheitstrends mit übersichtlichen Diagrammen und umfassenden Berichten."
-        },
-        "groupsMinistries": {
-          "title": "Gruppen & Dienste",
-          "description": "Organisieren Sie unbegrenzt Gruppen und Kurse mit Mitgliederzuordnung und Nachverfolgung."
-        },
-        "givingManagement": {
-          "title": "Spendenverwaltung",
-          "description": "Verarbeiten Sie Spenden mit Batch-Verwaltung, Fondsverfolgung und Spendenbescheinigungen."
-        },
-        "servicePlanning": {
-          "title": "Gottesdienstplanung",
-          "description": "Planen Sie Gottesdienste, weisen Sie Teams zu und koordinieren Sie Ehrenamtliche."
-        },
-        "songLibrary": {
-          "title": "Liederbibliothek",
-          "description": "Verwalten Sie Lieder mit Arrangements, Tonarten, Akkordtabellen und Setlists."
-        },
-        "communications": {
-          "title": "Kommunikation",
-          "description": "Versenden Sie gezielte E-Mails und Ankündigungen mit automatisierten Abläufen."
-        },
-        "multiCampus": {
-          "title": "Mehrere Standorte",
-          "description": "Verwalten Sie mehrere Standorte über ein zentrales Dashboard mit standortspezifischen Daten."
+        "eyebrow": "B1Checkin",
+        "title": "Familien willkommen heißen —",
+        "titleAccent": "mit Sicherheit.",
+        "lead": "Selbstbedienungs-Check-in, der Namensschilder und passende Abholcodes für Eltern druckt — Kindersicherheit inklusive, Mitarbeiter entlastet, Anwesenheit automatisch erfasst.",
+        "items": [
+          "Telefonnummern-Suche in Sekunden",
+          "Passende Sicherheitscodes für die Abholung",
+          "Kabelloser Etikettendruck",
+          "Gästeregistrierung per QR-Code"
+        ],
+        "receipt": {
+          "title": "Was es kostet",
+          "tablet": "Android-Tablet",
+          "printer": "Etikettendrucker",
+          "total": "Hardware, einmalig",
+          "software": "Software, für immer"
         }
       },
-      "showcase": {
-        "groupsMinistries": {
-          "title": "Gruppen & Dienste",
-          "description": "Unbegrenzt Gruppen und Kurse verwalten"
+      "ecosystem": {
+        "eyebrow": "Wie alles zusammenpasst",
+        "title": "Eine Plattform.",
+        "titleAccent": "Eine Datenbank.",
+        "lead": "Aktualisieren Sie eine Familie einmal, und es stimmt überall — auf der Website, in der App, beim Check-in und beim Spenden. Kein Synchronisieren, keine Exporte, keine Preise pro Modul.",
+        "hubTitle": "Eine gemeinsame Datenbank",
+        "hubSubtitle": "Personen · Gruppen · Spenden · Anwesenheit",
+        "nodes": {
+          "admin": {
+            "name": "B1Admin",
+            "desc": "Das Dashboard für Ihr Team — Personen, Spenden, Pläne und Berichte."
+          },
+          "web": {
+            "name": "Gemeinde-Website",
+            "desc": "Ihre öffentliche Website mit Predigten, Kalender und Spendenseiten."
+          },
+          "mobile": {
+            "name": "Mobile App",
+            "desc": "Die Mitglieder-App für Gruppen, Nachrichten und Spenden."
+          },
+          "checkin": {
+            "name": "B1Checkin",
+            "desc": "Kiosk-Check-in mit Namensschildern und Sicherheitscodes."
+          }
         },
-        "peopleSearch": {
-          "title": "Personensuche",
-          "description": "Erweiterte Mitgliederdatenbank"
-        },
-        "servicePlanning": {
-          "title": "Gottesdienstplanung",
-          "description": "Teams und Zuweisungen planen"
-        },
-        "songLibrary": {
-          "title": "Liederbibliothek",
-          "description": "Arrangements und Akkordtabellen"
-        }
-      },
-      "dashboard": {
-        "title": "Übersichtliches, intuitives Dashboard",
-        "description": "Greifen Sie auf alle Ihre Gemeindedaten über unsere moderne, benutzerfreundliche Oberfläche zu – entwickelt für Effizienz und einfache Bedienung."
-      },
-      "additional": {
-        "security": {
-          "title": "Sicherheit & Datenschutz",
-          "description": "Branchenübliche Verschlüsselung und sichere Datenspeicherung"
-        },
-        "mobile": {
-          "title": "Mobile Zugänglichkeit",
-          "description": "Responsives Design funktioniert perfekt auf allen Geräten"
-        },
-        "workflows": {
-          "title": "Automatisierte Abläufe",
-          "description": "Nachverfolgungssequenzen und automatisierte Mitgliederbetreuung"
-        },
-        "reporting": {
-          "title": "Echtzeit-Berichte",
-          "description": "Erstellen Sie sofort Berichte und exportieren Sie Daten jederzeit"
-        },
-        "forms": {
-          "title": "Individuelle Formulare",
-          "description": "Erstellen Sie Anmeldeformulare und Umfragen für jeden Zweck"
-        },
-        "roles": {
-          "title": "Rollenbasierter Zugriff",
-          "description": "Sichere Berechtigungen für Mitarbeitende und Ehrenamtliche"
-        }
-      },
-      "ctaSection": {
-        "title": "Bereit, eine stärkere",
-        "titleHighlight": "Kirchengemeinde aufzubauen?",
-        "description": "Transformieren Sie Ihre Gemeinde mit unserer umfassenden kostenlosen Plattform, die darauf ausgelegt ist, Beziehungen zu vertiefen und Kirchengemeinden durch moderne Technologie zu stärken.",
+        "integrationsLabel": "Funktioniert mit den Tools, die Sie bereits nutzen",
         "cta": "Kostenlos starten"
+      },
+      "capabilities": {
+        "eyebrow": "Und vieles mehr",
+        "title": "Der Rest der To-do-Liste? Erledigt.",
+        "lead": "Gottesdienstplanung, Mitarbeiter, Formulare, Automatisierungen — die tägliche Arbeit einer Gemeinde, alles inklusive.",
+        "cells": {
+          "servicePlanning": {
+            "title": "Gottesdienstplanung",
+            "desc": "Planen Sie Gottesdienste, teilen Sie Teams ein und benachrichtigen Sie alle automatisch."
+          },
+          "groups": {
+            "title": "Gruppen & Dienste",
+            "desc": "Unbegrenzte Gruppen mit Leitern, Kalendern und Anwesenheit."
+          },
+          "songs": {
+            "title": "Liedbibliothek",
+            "desc": "Arrangements, Tonarten und Links für Ihr Lobpreisteam."
+          },
+          "forms": {
+            "title": "Formulare & Anmeldungen",
+            "desc": "Individuelle Formulare für Veranstaltungen, Anmeldungen und Umfragen."
+          },
+          "automations": {
+            "title": "Workflows & Automatisierungen",
+            "desc": "Besucher-Nachverfolgung und wiederkehrende Aufgaben, die von selbst laufen."
+          },
+          "multiCampus": {
+            "title": "Mehrere Standorte",
+            "desc": "Alle Standorte in einem Dashboard mit Berichten pro Standort."
+          },
+          "roles": {
+            "title": "Rollen & Berechtigungen",
+            "desc": "Geben Sie Mitarbeitern und Ehrenamtlichen genau den Zugriff, den sie brauchen."
+          },
+          "reports": {
+            "title": "Berichte & Exporte",
+            "desc": "Anwesenheitstrends, Spendenübersichten und Exporte mit einem Klick."
+          }
+        },
+        "openSource": {
+          "title": "Open Source, kein Lock-in",
+          "desc": "B1 ist vollständig Open Source. Prüfen Sie den Code, wirken Sie mit oder hosten Sie selbst — Ihre Daten gehören immer Ihnen.",
+          "linkLabel": "Code auf GitHub ansehen"
+        }
+      },
+      "pricing": {
+        "eyebrow": "Preise",
+        "title": "Hier ist die komplette Preistabelle.",
+        "lead": "Keine Tarifstufen, keine Preise pro Mitglied, kein Preissprung bei 200 Personen. Alles auf dieser Seite ist für jede Gemeinde jeder Größe enthalten.",
+        "per": "pro Monat — für alles, für immer",
+        "note": "Die Kartenabwicklung für Online-Spenden übernimmt der Zahlungsdienstleister zu seinen üblichen Gebühren. Wir schlagen nichts auf.",
+        "cta": "Kostenlos starten"
+      },
+      "mission": {
+        "eyebrow": "Warum ist es kostenlos?",
+        "statement1": "Nicht zu verkaufen.",
+        "statement2": "Nicht auf Gewinn aus.",
+        "title": "Entwickelt von einem Werk, nicht von einem Anbieter.",
+        "lead": "B1 wird von Live Church Solutions entwickelt, einer 2012 gegründeten gemeinnützigen 501(c)(3)-Organisation. Gemeinden geben jedes Jahr Hunderte Millionen für Software aus — wir möchten, dass dieses Geld in den Dienst fließt.",
+        "stats": {
+          "free": "Für immer kostenlos",
+          "fees": "Zusätzliche Gebühren",
+          "founded": "Im Dienst für Gemeinden seit",
+          "languages": "Unterstützte Sprachen"
+        },
+        "audiences": [
+          {
+            "title": "Gemeindegründungen",
+            "description": "Starten Sie vom ersten Tag an mit professionellen Werkzeugen — ganz ohne Software-Budget."
+          },
+          {
+            "title": "Kleine & mittlere Gemeinden",
+            "description": "Alles, was Ehrenamtliche wirklich bedienen können — ohne Wartungsaufwand."
+          },
+          {
+            "title": "Gemeinden mit mehreren Standorten",
+            "description": "Einheitliche Personendaten und Berichte über alle Standorte hinweg."
+          },
+          {
+            "title": "Weltweite Missionswerke",
+            "description": "Verfügbar in 29 Sprachen und so finanziert, dass es überall kostenlos bleibt."
+          }
+        ],
+        "sister": "Wir entwickeln außerdem FreeShow, eine kostenlose Präsentationssoftware, und Lessons.church, kostenloses Unterrichtsmaterial mit über 1.100 Lektionen — kostenlos und Open Source, wie alles, was wir machen.",
+        "aboutChurchApps": "Über ChurchApps"
+      },
+      "finalCta": {
+        "title": "Eine Gemeinde sein.",
+        "titleAccent": "Alles an einem Ort.",
+        "description": "Richten Sie Ihre Gemeinde in wenigen Minuten ein — App, Website, Spenden und Check-in warten schon.",
+        "ctaPrimary": "Kostenlos starten",
+        "ctaSecondary": "FAQ lesen",
+        "reassurance": "Keine Kreditkarte nötig — es gibt nichts abzubuchen. Für immer kostenlos, von einem Werk, das möchte, dass es so bleibt."
+      }
+    },
+    "fragments": {
+      "checkinToast": {
+        "title": "Familie Johnson hat eingecheckt",
+        "detail": "Vorschule A · 9:02 Uhr"
+      },
+      "givingStat": {
+        "label": "Spenden in diesem Monat"
+      },
+      "aiSearch": {
+        "query": "Familien, die in den letzten 90 Tagen dazugekommen sind"
+      },
+      "workflow": {
+        "title": "Follow-up für neue Besucher",
+        "badge": "Automatisiert",
+        "step1": "Willkommens-E-Mail senden",
+        "step2": "Einem Pastor zuweisen"
+      },
+      "nameTag": {
+        "hello": "Hallo",
+        "myNameIs": "mein Name ist",
+        "pickup": "Abholung durch Eltern"
+      },
+      "pushNotification": {
+        "app": "Grace Church",
+        "message": "Mitarbeiterplan für Sonntag veröffentlicht",
+        "time": "jetzt"
       }
     },
     "testimonials": {
@@ -148,13 +274,13 @@
       "subtitle": "Schließen Sie sich wachsenden Gemeinden an, die ihren Dienst mit unserer komplett kostenlosen Plattform transformiert haben. Hier erfahren Sie, was Pastoren und Gemeindeverwalter über B1 sagen.",
       "stats": {
         "churchesValue": "100+",
-        "churchesLabel": "Gemeinden vertrauen uns",
+        "churchesLabel": "Gemeinden weltweit",
         "freeValue": "Kostenlos",
         "freeLabel": "Für immer & ewig",
-        "uptimeValue": "99,9%",
-        "uptimeLabel": "Verfügbarkeitsgarantie",
-        "supportValue": "24/7",
-        "supportLabel": "Support verfügbar"
+        "openValue": "Offener",
+        "openLabel": "Quellcode",
+        "languagesValue": "29",
+        "languagesLabel": "Unterstützte Sprachen"
       },
       "items": [
         {
@@ -175,10 +301,11 @@
       ],
       "ctaTitle": "Bereit, Ihre Gemeindeverwaltung zu transformieren?",
       "ctaDescription": "Schließen Sie sich der wachsenden Gemeinschaft von Gemeinden an, die B1 bereits nutzen – komplett kostenlos, für immer. Keine Kreditkarte erforderlich, keine Testphasen, keine versteckten Gebühren.",
-      "ctaButton": "Kostenlos starten"
+      "ctaButton": "Kostenlos starten",
+      "compareLink": "Sehen Sie, wie B1 im Vergleich zu Planning Center, Pushpay & Co. abschneidet"
     },
     "websiteBuilder": {
-      "badge": "Web-Portal-Funktion",
+      "badge": "Ihre Gemeinde-Website",
       "title": "Kostenloser Gemeinde-Website-Baukasten",
       "titleHighlight": "In Minuten, nicht Monaten",
       "description": "Erstellen Sie eine ansprechende, professionelle Gemeinde-Website mit unserem kostenlosen integrierten Website-Baukasten. Keine Programmierkenntnisse erforderlich – einfach per Drag & Drop gestalten und veröffentlichen.",
@@ -197,90 +324,15 @@
       "cta": "Starten Sie Ihren Gemeinde-Website-Baukasten",
       "ctaSubtext": "Vollständig kostenloser Gemeinde-Website-Baukasten in jedem Konto enthalten"
     },
-    "perfectFor": {
-      "title": "Kostenlos für jede",
-      "titleHighlight": "Kirchengemeinde",
-      "subtitle": "Komplett kostenlose Plattform für Gemeinden jeder Größe. Unsere Mission als Gemeindedienst bedeutet: keine versteckten Kosten, keine Funktionseinschränkungen, keine Überraschungen.",
-      "audiences": [
-        {
-          "title": "Lokale Gemeinden",
-          "description": "Einzelstandort-Gemeinden, die ihre digitale Präsenz modernisieren möchten",
-          "stats": "Jede Größe"
-        },
-        {
-          "title": "Gemeinden mit mehreren Standorten",
-          "description": "Mehrere Standorte, die eine einheitliche Verwaltung mit eigener Identität benötigen",
-          "stats": "Alle Standorte"
-        },
-        {
-          "title": "Kirchenverbände",
-          "description": "Organisationen, die mehrere Gemeinden mit gemeinsamen Ressourcen betreuen",
-          "stats": "Jedes Netzwerk"
-        },
-        {
-          "title": "Gemeinschaftsorientiert",
-          "description": "Gemeinden, die tiefes Engagement und Beziehungsaufbau priorisieren",
-          "stats": "Täglich wachsend"
-        }
-      ],
-      "integrations": {
-        "adminIntegration": {
-          "title": "B1 Admin-Integration",
-          "description": "Nahtlos integriert mit der B1 Admin-Gemeindeverwaltungssoftware für eine vollständige Workflow-Automatisierung."
-        },
-        "webPortal": {
-          "title": "Web-Portal inklusive",
-          "description": "Umfassendes Web-Portal mit Website-Baukasten neben der leistungsstarken mobilen App."
-        },
-        "instantSetup": {
-          "title": "Sofortige Einrichtung",
-          "description": "Starten Sie in wenigen Minuten mit unserem optimierten Onboarding-Prozess und unserem engagierten Support-Team."
-        }
-      },
-      "about": {
-        "title": "Über unsere kostenlose Software",
-        "description": "Wir sind ein gemeinnütziger 501(c)(3)-Verein, der sich der Bereitstellung komplett kostenloser Gemeindeverwaltungssoftware widmet. Unsere Mission ist es, Gemeinden zu befähigen, sich auf den Gemeindedienst zu konzentrieren – nicht auf Softwarekosten.",
-        "stats": {
-          "freeValue": "100%",
-          "freeLabel": "Für immer kostenlos",
-          "setupValue": "$0",
-          "setupLabel": "Einrichtungskosten",
-          "churchesValue": "100+",
-          "churchesLabel": "Gemeinden betreut",
-          "openValue": "Open",
-          "openLabel": "Source Code"
-        },
-        "features": [
-          "Keine Kreditkarte erforderlich",
-          "Unbegrenzte Benutzer & Mitglieder",
-          "Alle Funktionen inklusive",
-          "Regelmäßige Updates & Verbesserungen",
-          "24/7 Community-Support",
-          "Mobiler & Web-Zugang",
-          "Unterstützung beim Datenimport",
-          "Open-Source-Transparenz"
-        ],
-        "learnMore": "Erfahren Sie mehr über unseren Dienst und unsere Mission",
-        "aboutChurchApps": "Über ChurchApps",
-        "viewOnGitHub": "Auf GitHub ansehen"
-      },
-      "cta": {
-        "title": "Bereit, Ihre Gemeinschaft zu stärken?",
-        "description": "Entdecken Sie, wie unsere umfassende Gemeindeplattform Ihnen helfen kann, tiefere Beziehungen und stärkere Gemeinschaften aufzubauen.",
-        "button": "Heute kostenlos starten",
-        "tagline": "100% kostenlos \u2022 Keine versteckten Kosten \u2022 Gemeindedienst-Mission"
-      }
-    },
     "footer": {
-      "companyDescription": "Die All-in-One-Kommunikationsplattform für Gemeinden, die Gottesdienst, Gemeinschaft, Spenden und Verwaltung vereint.",
+      "companyDescription": "Die kostenlose Open-Source-Plattform, die App, Website, Spenden und Verwaltung Ihrer Gemeinde vereint.",
       "product": "Produkt",
       "mobileFeatures": "Mobile Funktionen",
       "websiteBuilder": "Website-Baukasten",
       "faq": "FAQ",
       "aboutChurchApps": "Über ChurchApps",
       "appsAndResources": "Apps & Ressourcen",
-      "androidApp": "Android-App",
-      "iosApp": "iOS-App",
+      "installApp": "Mobile App installieren",
       "helpCenter": "Hilfecenter",
       "contact": "Kontakt",
       "availableWorldwide": "Weltweit verfügbar"
@@ -296,8 +348,8 @@
           "answer": "Ja, B1.church ist komplett kostenlos – ohne versteckte Gebühren, ohne Premium-Stufen und ohne Transaktionsgebühren auf Spenden. Wir sind ein gemeinnütziger 501(c)(3)-Verein, der davon überzeugt ist, dass jede Gemeinde Zugang zu moderner Technologie verdient – unabhängig vom Budget. Unsere Plattform wird durch Spenden und Google Ad Grants finanziert."
         },
         {
-          "question": "Welche Funktionen bietet B1.church?",
-          "answer": "B1.church umfasst eine vollständige Gemeindeverwaltungsplattform: mobile Apps für iOS und Android, einen Drag & Drop-Website-Baukasten, Online-Spenden ohne Transaktionsgebühren, ein intelligentes Check-in-System, eine Mitgliederdatenbank, Anwesenheitserfassung, Gruppenverwaltung, Gottesdienstplanung, Liederbibliothek, Predigtverwaltung und Bibelintegration."
+          "question": "Welche Funktionen umfasst B1.church?",
+          "answer": "B1.church umfasst eine komplette Plattform für die Gemeindeverwaltung: eine direkt über Ihre Website installierbare Mitglieder-App, einen Website-Baukasten per Drag-and-drop, Online-Spenden ohne zusätzliche Plattformgebühren, ein Kinder-Check-in-System mit Sicherheitscodes, Mitgliederdatenbank, Anwesenheitserfassung, Gruppenverwaltung, Gottesdienstplanung, Liedbibliothek, Predigtverwaltung und Bibelintegration."
         },
         {
           "question": "Wie schneidet B1.church im Vergleich zu Planning Center ab?",
@@ -316,8 +368,8 @@
           "answer": "B1.church ist kostenlos, während Breeze ab $72/Monat kostet. B1 enthält eine vollständige mobile App und einen Website-Baukasten, während Breeze eingeschränkte mobile Funktionen und keinen Website-Baukasten bietet. Beide bieten Gemeindeverwaltung, aber B1 bietet mehr Funktionen ohne Kosten."
         },
         {
-          "question": "Kann ich eine eigene mobile App für meine Gemeinde erhalten?",
-          "answer": "Ja, B1.church stellt individuelle mobile Apps für iOS und Android mit Ihrem eigenen Branding bereit. Ihre Gemeinde erhält eine eigene App, die Mitglieder aus dem App Store und bei Google Play herunterladen können. Dies ist bei B1 kostenlos enthalten."
+          "question": "Bekommt meine Gemeinde eine mobile App?",
+          "answer": "Ja. B1 bietet Ihrer Gemeinde ein eigenes App-Erlebnis als installierbare Web-App (PWA). Mitglieder öffnen die Website Ihrer Gemeinde, tippen auf 'Zum Startbildschirm hinzufügen' und erhalten eine Vollbild-App mit Name und Logo Ihrer Gemeinde. Updates erreichen alle sofort."
         },
         {
           "question": "Unterstützt B1.church Online-Spenden?",
@@ -345,7 +397,7 @@
         },
         {
           "question": "Wie beginne ich mit B1.church?",
-          "answer": "Der Einstieg ist einfach: Besuchen Sie b1.church, klicken Sie auf \u201EKostenlos starten\u201C, erstellen Sie Ihr Gemeindekonto, passen Sie Ihre App und Website an und laden Sie Ihre Gemeinde ein. Keine Kreditkarte erforderlich und keine Testphase – es ist für immer kostenlos."
+          "answer": "Der Einstieg ist einfach: Besuchen Sie b1.church, klicken Sie auf „Kostenlos starten“, erstellen Sie Ihr Gemeindekonto, passen Sie Ihre App und Website an und laden Sie Ihre Gemeinde ein. Keine Kreditkarte erforderlich und keine Testphase – es ist für immer kostenlos."
         },
         {
           "question": "Unterstützt B1.church mehrere Standorte?",
@@ -377,16 +429,56 @@
           "tagline": "Kostenlose Alternative zu Planning Center",
           "description": "Planning Center ist eine beliebte Gemeindeverwaltungsplattform mit modularer Preisgestaltung. B1.church bietet vergleichbare Funktionen komplett kostenlos.",
           "features": [
-            { "name": "Mitgliederdatenbank", "b1": true, "competitor": true },
-            { "name": "Check-in-System", "b1": true, "competitor": "$99/Monat" },
-            { "name": "Online-Spenden", "b1": "Keine B1-Gebühren", "competitor": "Plattform- + Stripe-Gebühren" },
-            { "name": "Gruppenverwaltung", "b1": true, "competitor": "$50/Monat" },
-            { "name": "Gottesdienstplanung", "b1": true, "competitor": "$14–99/Monat" },
-            { "name": "Mobile App", "b1": "Kostenlose App mit eigenem Branding", "competitor": "$0–199/Monat" },
-            { "name": "Website-Baukasten", "b1": true, "competitor": false },
-            { "name": "Predigtverwaltung", "b1": true, "competitor": false },
-            { "name": "Mehrere Standorte", "b1": true, "competitor": "Zusatzkosten" },
-            { "name": "Open Source", "b1": true, "competitor": false }
+            {
+              "name": "Mitgliederdatenbank",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Check-in-System",
+              "b1": true,
+              "competitor": "$99/Monat"
+            },
+            {
+              "name": "Online-Spenden",
+              "b1": "Keine B1-Gebühren",
+              "competitor": "Plattform- + Stripe-Gebühren"
+            },
+            {
+              "name": "Gruppenverwaltung",
+              "b1": true,
+              "competitor": "$50/Monat"
+            },
+            {
+              "name": "Gottesdienstplanung",
+              "b1": true,
+              "competitor": "$14–99/Monat"
+            },
+            {
+              "name": "Mobile App",
+              "b1": "Kostenlose App mit eigenem Branding",
+              "competitor": "$0–199/Monat"
+            },
+            {
+              "name": "Website-Baukasten",
+              "b1": true,
+              "competitor": false
+            },
+            {
+              "name": "Predigtverwaltung",
+              "b1": true,
+              "competitor": false
+            },
+            {
+              "name": "Mehrere Standorte",
+              "b1": true,
+              "competitor": "Zusatzkosten"
+            },
+            {
+              "name": "Open Source",
+              "b1": true,
+              "competitor": false
+            }
           ],
           "pricingB1": "100% kostenlos",
           "pricingCompetitor": "$0 – $500+/Monat je nach Modulen",
@@ -397,16 +489,56 @@
           "tagline": "Kostenlose Alternative zu Pushpay",
           "description": "Pushpay ist bekannt für mobiles Spenden, verursacht aber erhebliche monatliche Kosten und Transaktionsgebühren. B1.church bietet Spendenfunktionen ohne Plattformgebühren.",
           "features": [
-            { "name": "Online-Spenden", "b1": "Keine B1-Gebühren", "competitor": "Plattform- + Stripe-Gebühren" },
-            { "name": "Wiederkehrende Spenden", "b1": true, "competitor": true },
-            { "name": "Mobile App", "b1": "Kostenlose App mit eigenem Branding", "competitor": "Inklusive" },
-            { "name": "Mitgliederdatenbank", "b1": true, "competitor": "ChMS extra" },
-            { "name": "Check-in-System", "b1": true, "competitor": "Zusatzkosten" },
-            { "name": "Website-Baukasten", "b1": true, "competitor": false },
-            { "name": "Gruppenverwaltung", "b1": true, "competitor": "Zusatzkosten" },
-            { "name": "Spendenbescheinigungen", "b1": true, "competitor": true },
-            { "name": "Fondsverwaltung", "b1": true, "competitor": true },
-            { "name": "Open Source", "b1": true, "competitor": false }
+            {
+              "name": "Online-Spenden",
+              "b1": "Keine B1-Gebühren",
+              "competitor": "Plattform- + Stripe-Gebühren"
+            },
+            {
+              "name": "Wiederkehrende Spenden",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Mobile App",
+              "b1": "Kostenlose App mit eigenem Branding",
+              "competitor": "Inklusive"
+            },
+            {
+              "name": "Mitgliederdatenbank",
+              "b1": true,
+              "competitor": "ChMS extra"
+            },
+            {
+              "name": "Check-in-System",
+              "b1": true,
+              "competitor": "Zusatzkosten"
+            },
+            {
+              "name": "Website-Baukasten",
+              "b1": true,
+              "competitor": false
+            },
+            {
+              "name": "Gruppenverwaltung",
+              "b1": true,
+              "competitor": "Zusatzkosten"
+            },
+            {
+              "name": "Spendenbescheinigungen",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Fondsverwaltung",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Open Source",
+              "b1": true,
+              "competitor": false
+            }
           ],
           "pricingB1": "100% kostenlos",
           "pricingCompetitor": "$300 – $1.000+/Monat",
@@ -417,16 +549,56 @@
           "tagline": "Kostenlose Alternative zu Tithe.ly",
           "description": "Tithe.ly bietet Spenden- und Verwaltungstools für Gemeinden mit Freemium-Preisgestaltung. B1.church stellt alles kostenlos und ohne Transaktionsgebühren bereit.",
           "features": [
-            { "name": "Online-Spenden", "b1": "Keine B1-Gebühren", "competitor": "Plattform- + Stripe-Gebühren" },
-            { "name": "Wiederkehrende Spenden", "b1": true, "competitor": true },
-            { "name": "Mobile App", "b1": "Kostenlose App mit eigenem Branding", "competitor": "$99/Monat" },
-            { "name": "Mitgliederdatenbank", "b1": true, "competitor": "$99/Monat" },
-            { "name": "Check-in-System", "b1": true, "competitor": "$49/Monat" },
-            { "name": "Website-Baukasten", "b1": true, "competitor": "$49/Monat" },
-            { "name": "Gruppenverwaltung", "b1": true, "competitor": "$99/Monat" },
-            { "name": "Predigtverwaltung", "b1": true, "competitor": "$49/Monat" },
-            { "name": "Mehrere Standorte", "b1": true, "competitor": "Zusatzkosten" },
-            { "name": "Open Source", "b1": true, "competitor": false }
+            {
+              "name": "Online-Spenden",
+              "b1": "Keine B1-Gebühren",
+              "competitor": "Plattform- + Stripe-Gebühren"
+            },
+            {
+              "name": "Wiederkehrende Spenden",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Mobile App",
+              "b1": "Kostenlose App mit eigenem Branding",
+              "competitor": "$99/Monat"
+            },
+            {
+              "name": "Mitgliederdatenbank",
+              "b1": true,
+              "competitor": "$99/Monat"
+            },
+            {
+              "name": "Check-in-System",
+              "b1": true,
+              "competitor": "$49/Monat"
+            },
+            {
+              "name": "Website-Baukasten",
+              "b1": true,
+              "competitor": "$49/Monat"
+            },
+            {
+              "name": "Gruppenverwaltung",
+              "b1": true,
+              "competitor": "$99/Monat"
+            },
+            {
+              "name": "Predigtverwaltung",
+              "b1": true,
+              "competitor": "$49/Monat"
+            },
+            {
+              "name": "Mehrere Standorte",
+              "b1": true,
+              "competitor": "Zusatzkosten"
+            },
+            {
+              "name": "Open Source",
+              "b1": true,
+              "competitor": false
+            }
           ],
           "pricingB1": "100% kostenlos",
           "pricingCompetitor": "Kostenlose Stufe + $49–199/Monat für Funktionen",
@@ -437,16 +609,56 @@
           "tagline": "Kostenlose Alternative zu Breeze ChMS",
           "description": "Breeze ist ein einfaches Gemeindeverwaltungssystem mit transparenter Preisgestaltung. B1.church bietet mehr Funktionen ohne Kosten.",
           "features": [
-            { "name": "Mitgliederdatenbank", "b1": true, "competitor": true },
-            { "name": "Spendenverwaltung", "b1": "Keine B1-Gebühren", "competitor": "2,9% + 30¢" },
-            { "name": "Check-in-System", "b1": true, "competitor": "Einfach" },
-            { "name": "Mobile App", "b1": "Kostenlose App mit eigenem Branding", "competitor": "Eingeschränkt" },
-            { "name": "Website-Baukasten", "b1": true, "competitor": false },
-            { "name": "Gruppenverwaltung", "b1": true, "competitor": true },
-            { "name": "Veranstaltungsverwaltung", "b1": true, "competitor": true },
-            { "name": "Ehrenamtlichen-Planung", "b1": true, "competitor": true },
-            { "name": "Mehrere Standorte", "b1": true, "competitor": false },
-            { "name": "Open Source", "b1": true, "competitor": false }
+            {
+              "name": "Mitgliederdatenbank",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Spendenverwaltung",
+              "b1": "Keine B1-Gebühren",
+              "competitor": "2,9% + 30¢"
+            },
+            {
+              "name": "Check-in-System",
+              "b1": true,
+              "competitor": "Einfach"
+            },
+            {
+              "name": "Mobile App",
+              "b1": "Kostenlose App mit eigenem Branding",
+              "competitor": "Eingeschränkt"
+            },
+            {
+              "name": "Website-Baukasten",
+              "b1": true,
+              "competitor": false
+            },
+            {
+              "name": "Gruppenverwaltung",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Veranstaltungsverwaltung",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Ehrenamtlichen-Planung",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Mehrere Standorte",
+              "b1": true,
+              "competitor": false
+            },
+            {
+              "name": "Open Source",
+              "b1": true,
+              "competitor": false
+            }
           ],
           "pricingB1": "100% kostenlos",
           "pricingCompetitor": "$72 – $135/Monat",
@@ -479,7 +691,7 @@
         "features": [
           "Suche per Telefonnummer und automatische Dienstauswahl",
           "Druckt Etiketten und Belege drahtlos auf gemeinsam genutzten Druckern",
-          "Läuft auf günstigen Android-Tablets unter $80",
+          "Läuft auf günstigen Android-Tablets (rund $150)",
           "Synchronisiert sich automatisch mit dem Anwesenheitserfassungssystem"
         ]
       },
@@ -588,6 +800,54 @@
         "description": "Schließen Sie sich Gemeinden weltweit an, die auf eine komplett kostenlose, Open-Source-Lösung umgestiegen sind – entwickelt von einer Gemeinde, für Gemeinden.",
         "primaryButton": "Kostenlos starten",
         "secondaryButton": "Demo testen"
+      },
+      "showcase": {
+        "groupsMinistries": {
+          "title": "Gruppen & Dienste",
+          "description": "Unbegrenzt Gruppen und Kurse verwalten"
+        },
+        "peopleSearch": {
+          "title": "Personensuche",
+          "description": "Erweiterte Mitgliederdatenbank"
+        },
+        "servicePlanning": {
+          "title": "Gottesdienstplanung",
+          "description": "Teams und Zuweisungen planen"
+        },
+        "songLibrary": {
+          "title": "Liederbibliothek",
+          "description": "Arrangements und Akkordtabellen"
+        }
+      },
+      "dashboard": {
+        "title": "Übersichtliches, intuitives Dashboard",
+        "description": "Greifen Sie auf alle Ihre Gemeindedaten über unsere moderne, benutzerfreundliche Oberfläche zu – entwickelt für Effizienz und einfache Bedienung."
+      },
+      "additional": {
+        "security": {
+          "title": "Sicherheit & Datenschutz",
+          "description": "Branchenübliche Verschlüsselung und sichere Datenspeicherung"
+        },
+        "mobile": {
+          "title": "Mobile Zugänglichkeit",
+          "description": "Responsives Design funktioniert perfekt auf allen Geräten"
+        },
+        "workflows": {
+          "title": "Automatisierte Abläufe",
+          "description": "Nachverfolgungssequenzen und automatisierte Mitgliederbetreuung"
+        },
+        "reporting": {
+          "title": "Echtzeit-Berichte",
+          "description": "Erstellen Sie sofort Berichte und exportieren Sie Daten jederzeit"
+        },
+        "forms": {
+          "title": "Individuelle Formulare",
+          "description": "Erstellen Sie Anmeldeformulare und Umfragen für jeden Zweck"
+        },
+        "roles": {
+          "title": "Rollenbasierter Zugriff",
+          "description": "Sichere Berechtigungen für Mitarbeitende und Ehrenamtliche"
+        }
       }
     },
     "notFound": {

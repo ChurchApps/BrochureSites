@@ -1,4 +1,3 @@
-import { lazy, Suspense } from "react";
 import type { RouteRecord } from "vite-react-ssg";
 import RootLayout from "@/layouts/RootLayout";
 import LanguageLayout from "@/layouts/LanguageLayout";
@@ -9,20 +8,14 @@ import FAQ from "@/pages/FAQ";
 import Compare from "@/pages/Compare";
 import NotFound from "@/pages/NotFound";
 import LanguageRedirect from "@/components/LanguageRedirect";
-
-// Login is the only page that uses @churchapps/apphelper. It is not prerendered,
-// so lazy-load it to keep apphelper out of the SSG/server module graph.
-const Login = lazy(() => import("@/pages/Login"));
-const LazyLogin = () => (
-  <Suspense fallback={null}>
-    <Login />
-  </Suspense>
-);
+import ExternalRedirect from "@/components/ExternalRedirect";
+import { ADMIN_LOGIN_URL } from "@/constants/externalUrls";
 
 // Route tree as a react-router data-router object array (required by
-// vite-react-ssg). Mirrors the old App.tsx <Routes>: "/" is the English home,
-// legacy unprefixed paths redirect to the detected language, and the real
-// pages live under /:lang/*.
+// vite-react-ssg). "/" is the English home, legacy unprefixed paths redirect
+// to the detected language, and the real pages live under /:lang/*.
+// Sign-in moved to admin.b1.church; old /login links forward there with their
+// query string (e.g. ?jwt=) intact.
 export const routes: RouteRecord[] = [
   {
     path: "/",
@@ -30,7 +23,7 @@ export const routes: RouteRecord[] = [
     children: [
       { index: true, element: <RootHome /> },
       // Legacy unprefixed routes -> client redirect to /:lang/...
-      { path: "login", element: <LanguageRedirect /> },
+      { path: "login", element: <ExternalRedirect to={ADMIN_LOGIN_URL} /> },
       { path: "church-management", element: <LanguageRedirect /> },
       { path: "faq", element: <LanguageRedirect /> },
       { path: "compare", element: <LanguageRedirect /> },
@@ -41,7 +34,7 @@ export const routes: RouteRecord[] = [
         element: <LanguageLayout />,
         children: [
           { index: true, element: <Index /> },
-          { path: "login", element: <LazyLogin /> },
+          { path: "login", element: <ExternalRedirect to={ADMIN_LOGIN_URL} /> },
           { path: "church-management", element: <ChurchManagement /> },
           { path: "faq", element: <FAQ /> },
           { path: "compare", element: <Compare /> },

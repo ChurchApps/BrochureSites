@@ -23,9 +23,13 @@ import {
   Globe,
   Github
 } from "lucide-react";
-import LocaleLink from "@/components/LocaleLink";
-import heroImage from "@/assets/church-hero-background.jpg";
-import checkinImage from "@/assets/church-checkin-station-interface.png";
+import Reveal from "@/components/Reveal";
+import { ADMIN_REGISTER_URL, DEMO_URL } from "@/constants/externalUrls";
+import TabletFrame from "@/components/frames/TabletFrame";
+import BrowserFrame from "@/components/frames/BrowserFrame";
+import NameTagBadge from "@/components/fragments/NameTagBadge";
+
+const featureTones = ["bg-primary/10 text-primary", "bg-coral/10 text-coral", "bg-lilac/10 text-lilac", "bg-accent/10 text-accent"];
 
 const ChurchManagement = () => {
   const { t } = useTranslation();
@@ -40,33 +44,56 @@ const ChurchManagement = () => {
   const additionalFeaturesData = [
     {
       icon: Shield,
-      title: t("brochure.features.additional.security.title"),
-      description: t("brochure.features.additional.security.description")
+      title: t("brochure.churchManagement.additional.security.title"),
+      description: t("brochure.churchManagement.additional.security.description")
     },
     {
       icon: Smartphone,
-      title: t("brochure.features.additional.mobile.title"),
-      description: t("brochure.features.additional.mobile.description")
+      title: t("brochure.churchManagement.additional.mobile.title"),
+      description: t("brochure.churchManagement.additional.mobile.description")
     },
     {
       icon: Mail,
-      title: t("brochure.features.additional.workflows.title"),
-      description: t("brochure.features.additional.workflows.description")
+      title: t("brochure.churchManagement.additional.workflows.title"),
+      description: t("brochure.churchManagement.additional.workflows.description")
     },
     {
       icon: Clock,
-      title: t("brochure.features.additional.reporting.title"),
-      description: t("brochure.features.additional.reporting.description")
+      title: t("brochure.churchManagement.additional.reporting.title"),
+      description: t("brochure.churchManagement.additional.reporting.description")
     },
     {
       icon: FileText,
-      title: t("brochure.features.additional.forms.title"),
-      description: t("brochure.features.additional.forms.description")
+      title: t("brochure.churchManagement.additional.forms.title"),
+      description: t("brochure.churchManagement.additional.forms.description")
     },
     {
       icon: Users,
-      title: t("brochure.features.additional.roles.title"),
-      description: t("brochure.features.additional.roles.description")
+      title: t("brochure.churchManagement.additional.roles.title"),
+      description: t("brochure.churchManagement.additional.roles.description")
+    }
+  ];
+
+  const showcaseCards = [
+    {
+      src: "/groups-ministry-management.webp",
+      title: t("brochure.churchManagement.showcase.groupsMinistries.title"),
+      description: t("brochure.churchManagement.showcase.groupsMinistries.description")
+    },
+    {
+      src: "/people-search-database.webp",
+      title: t("brochure.churchManagement.showcase.peopleSearch.title"),
+      description: t("brochure.churchManagement.showcase.peopleSearch.description")
+    },
+    {
+      src: "/worship-service-planning.webp",
+      title: t("brochure.churchManagement.showcase.servicePlanning.title"),
+      description: t("brochure.churchManagement.showcase.servicePlanning.description")
+    },
+    {
+      src: "/song-library-arrangements.webp",
+      title: t("brochure.churchManagement.showcase.songLibrary.title"),
+      description: t("brochure.churchManagement.showcase.songLibrary.description")
     }
   ];
 
@@ -114,218 +141,163 @@ const ChurchManagement = () => {
 
       <main>
         {/* Hero Section */}
-        <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-          {/* Background Image with Overlay */}
-          <div className="absolute inset-0 z-0">
-            <img
-              src={heroImage}
-              alt="Church community"
-              className="w-full h-full object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-br from-background/95 via-background/80 to-background/60" />
-            <div className="absolute inset-0 bg-gradient-primary opacity-10" />
-          </div>
-
-          {/* Content */}
-          <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <section className="relative overflow-hidden bg-mesh-hero pt-32 pb-20 lg:pt-40 lg:pb-24">
+          <div className="relative z-10 mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
             <div className="animate-fade-in">
-              <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 text-foreground">
+              <h1 className="mb-6 text-4xl font-extrabold leading-[1.06] tracking-[-0.03em] text-foreground md:text-5xl lg:text-6xl">
                 {t("brochure.churchManagement.hero.title")} <span className="text-gradient">{t("brochure.churchManagement.hero.titleHighlight")}</span>
                 <br />
                 {t("brochure.churchManagement.hero.titleLine2")}
               </h1>
 
               <p
-                className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed"
+                className="mx-auto mb-8 max-w-3xl text-lg leading-relaxed text-muted-foreground md:text-xl"
                 dangerouslySetInnerHTML={{ __html: t("brochure.churchManagement.hero.description") }}
               />
 
-              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-                <Button variant="gradient" size="xl" className="group shadow-glow" asChild>
-                  <LocaleLink to="/login">
+              <div className="mb-12 flex flex-col items-center justify-center gap-4 sm:flex-row">
+                <Button size="xl" className="group" asChild>
+                  <a href={ADMIN_REGISTER_URL}>
                     {t("brochure.churchManagement.hero.ctaPrimary")}
-                    <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-                  </LocaleLink>
+                    <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+                  </a>
                 </Button>
                 <Button variant="outline" size="xl" className="group" asChild>
-                  <LocaleLink to="/login">
+                  <a href={DEMO_URL} target="_blank" rel="noopener">
                     <Play className="mr-2 h-5 w-5" />
                     {t("brochure.churchManagement.hero.ctaSecondary")}
-                  </LocaleLink>
+                  </a>
                 </Button>
               </div>
 
               {/* Trust Indicators */}
               <div className="flex flex-col items-center space-y-4">
-                <p className="text-sm text-muted-foreground uppercase tracking-wider font-medium">
+                <p className="text-sm font-medium uppercase tracking-wider text-muted-foreground">
                   {t("brochure.churchManagement.hero.trustLine")}
                 </p>
-                <div className="flex flex-wrap items-center justify-center gap-4 md:gap-8 opacity-80">
-                  <div className="text-sm font-medium">✨ {t("brochure.churchManagement.hero.trustFree")}</div>
-                  <div className="hidden md:block h-4 w-px bg-border"></div>
-                  <div className="text-sm font-medium">🏛️ {t("brochure.churchManagement.hero.trustNonProfit")}</div>
-                  <div className="hidden md:block h-4 w-px bg-border"></div>
-                  <div className="text-sm font-medium">📖 {t("brochure.churchManagement.hero.trustOpenSource")}</div>
+                <div className="flex flex-wrap items-center justify-center gap-4 text-muted-foreground md:gap-8">
+                  <div className="flex items-center gap-2 text-sm font-medium"><Check className="h-4 w-4 text-accent" />{t("brochure.churchManagement.hero.trustFree")}</div>
+                  <div className="hidden h-4 w-px bg-border md:block"></div>
+                  <div className="flex items-center gap-2 text-sm font-medium"><Check className="h-4 w-4 text-accent" />{t("brochure.churchManagement.hero.trustNonProfit")}</div>
+                  <div className="hidden h-4 w-px bg-border md:block"></div>
+                  <div className="flex items-center gap-2 text-sm font-medium"><Check className="h-4 w-4 text-accent" />{t("brochure.churchManagement.hero.trustOpenSource")}</div>
                 </div>
               </div>
             </div>
           </div>
-
-          {/* Floating Elements */}
-          <div className="absolute top-20 left-10 w-20 h-20 bg-primary/20 rounded-full blur-xl animate-float" />
-          <div className="absolute bottom-20 right-10 w-32 h-32 bg-accent/20 rounded-full blur-xl animate-float" style={{ animationDelay: "-2s" }} />
-          <div className="absolute top-1/2 left-1/4 w-16 h-16 bg-primary/30 rounded-full blur-lg animate-float" style={{ animationDelay: "-4s" }} />
         </section>
 
         {/* Features Section */}
-        <section className="py-24 pattern-background">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <section className="bg-background py-24">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             {/* Header */}
-            <div className="text-center mb-16 animate-fade-in">
-              <h2 className="text-3xl md:text-5xl font-bold mb-6 text-foreground">
+            <Reveal className="mb-16 text-center">
+              <h2 className="mb-6 text-3xl font-bold tracking-tight text-foreground md:text-5xl">
                 {t("brochure.churchManagement.featuresHeader.title")}{" "}
                 <span className="text-gradient">{t("brochure.churchManagement.featuresHeader.titleHighlight")}</span>{" "}
                 {t("brochure.churchManagement.featuresHeader.titleSuffix")}
               </h2>
-              <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              <p className="mx-auto max-w-3xl text-xl text-muted-foreground">
                 {t("brochure.churchManagement.featuresHeader.description")}
               </p>
-            </div>
+            </Reveal>
 
             {/* Check-in Stations Feature */}
             <div className="mb-20">
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
                 <div className="space-y-6">
                   <div className="space-y-4">
                     <div className="flex items-center space-x-3">
-                      <div className="p-3 rounded-xl bg-primary/20">
+                      <div className="rounded-xl bg-primary/10 p-3">
                         <UserCheck className="h-6 w-6 text-primary" />
                       </div>
-                      <h3 className="text-2xl md:text-3xl font-bold text-foreground">{t("brochure.churchManagement.checkinStations.title")}</h3>
+                      <h3 className="text-2xl font-bold text-foreground md:text-3xl">{t("brochure.churchManagement.checkinStations.title")}</h3>
                     </div>
-                    <p className="text-lg text-muted-foreground leading-relaxed">
+                    <p className="text-lg leading-relaxed text-muted-foreground">
                       {t("brochure.churchManagement.checkinStations.description")}
                     </p>
                   </div>
                   <div className="space-y-4">
                     {checkinFeatures.map((feature, index) => (
                       <div key={index} className="flex items-start space-x-3">
-                        <Check className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
+                        <Check className="mt-1 h-5 w-5 flex-shrink-0 text-accent" />
                         <p className="text-foreground/80">{feature}</p>
                       </div>
                     ))}
                   </div>
                 </div>
-                <div className="relative">
-                  <div className="rounded-2xl overflow-hidden shadow-soft border border-border/50">
-                    <img
-                      src={checkinImage}
-                      alt="Self-serve church check-in station interface showing family search and child safety features"
-                      className="w-full h-auto"
-                      loading="lazy"
-                    />
-                  </div>
+                <div className="relative mx-auto w-full max-w-xs pb-8">
+                  <div className="absolute -inset-x-6 inset-y-6 -rotate-2 rounded-3xl bg-gradient-to-br from-amber-100 via-rose-100 to-sky-100" />
+                  <TabletFrame
+                    src="/images/checkin/family.webp"
+                    alt="Self-serve church check-in station showing household member selection"
+                    className="relative"
+                  />
+                  <NameTagBadge className="absolute -right-8 top-12 rotate-3 animate-float" />
                 </div>
               </div>
             </div>
 
             {/* Main Features Grid */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-20">
+            <div className="mb-20 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
               {mainFeatures.map((feature, index) => (
-                <div key={index} className="gradient-glass p-6 rounded-2xl border border-border/50 hover:border-primary/50 transition-all card-hover">
-                  <div className="p-3 rounded-xl bg-primary/20 w-fit mb-4">
-                    <feature.icon className="h-6 w-6 text-primary" />
+                <div key={index} className="card-elevated card-hover rounded-2xl p-6">
+                  <div className={`mb-4 w-fit rounded-xl p-3 ${featureTones[index % featureTones.length]}`}>
+                    <feature.icon className="h-6 w-6" />
                   </div>
-                  <h3 className="text-xl font-bold mb-2 text-foreground">{feature.title}</h3>
+                  <h3 className="mb-2 text-xl font-bold text-foreground">{feature.title}</h3>
                   <p className="text-muted-foreground">{feature.description}</p>
                 </div>
               ))}
             </div>
 
             {/* Feature Showcase Cards */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-20">
-              <div className="group relative rounded-xl overflow-hidden shadow-soft border border-border/50 hover:shadow-primary transition-all duration-300">
-                <img
-                  src="/groups-ministry-management.png"
-                  alt="Groups Management"
-                  className="w-full h-auto group-hover:scale-105 transition-transform duration-300"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                <div className="absolute bottom-4 left-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <h4 className="text-sm font-semibold text-white mb-1">{t("brochure.features.showcase.groupsMinistries.title")}</h4>
-                  <p className="text-xs text-white/80">{t("brochure.features.showcase.groupsMinistries.description")}</p>
+            <div className="mb-20 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
+              {showcaseCards.map((card, index) => (
+                <div key={index} className="card-elevated card-hover overflow-hidden rounded-xl">
+                  <img
+                    src={card.src}
+                    alt={card.title}
+                    loading="lazy"
+                    className="w-full h-auto"
+                  />
+                  <div className="border-t border-border p-4">
+                    <h4 className="mb-0.5 text-sm font-semibold text-foreground">{card.title}</h4>
+                    <p className="text-xs text-muted-foreground">{card.description}</p>
+                  </div>
                 </div>
-              </div>
-
-              <div className="group relative rounded-xl overflow-hidden shadow-soft border border-border/50 hover:shadow-primary transition-all duration-300">
-                <img
-                  src="/people-search-database.png"
-                  alt="People Management"
-                  className="w-full h-auto group-hover:scale-105 transition-transform duration-300"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                <div className="absolute bottom-4 left-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <h4 className="text-sm font-semibold text-white mb-1">{t("brochure.features.showcase.peopleSearch.title")}</h4>
-                  <p className="text-xs text-white/80">{t("brochure.features.showcase.peopleSearch.description")}</p>
-                </div>
-              </div>
-
-              <div className="group relative rounded-xl overflow-hidden shadow-soft border border-border/50 hover:shadow-primary transition-all duration-300">
-                <img
-                  src="/worship-service-planning.png"
-                  alt="Worship Planning"
-                  className="w-full h-auto group-hover:scale-105 transition-transform duration-300"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                <div className="absolute bottom-4 left-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <h4 className="text-sm font-semibold text-white mb-1">{t("brochure.features.showcase.servicePlanning.title")}</h4>
-                  <p className="text-xs text-white/80">{t("brochure.features.showcase.servicePlanning.description")}</p>
-                </div>
-              </div>
-
-              <div className="group relative rounded-xl overflow-hidden shadow-soft border border-border/50 hover:shadow-primary transition-all duration-300">
-                <img
-                  src="/song-library-arrangements.png"
-                  alt="Song Library"
-                  className="w-full h-auto group-hover:scale-105 transition-transform duration-300"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                <div className="absolute bottom-4 left-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <h4 className="text-sm font-semibold text-white mb-1">{t("brochure.features.showcase.songLibrary.title")}</h4>
-                  <p className="text-xs text-white/80">{t("brochure.features.showcase.songLibrary.description")}</p>
-                </div>
-              </div>
+              ))}
             </div>
 
             {/* Dashboard Preview */}
             <div className="mb-20">
-              <div className="relative rounded-3xl overflow-hidden shadow-soft border border-border/50">
-                <img
-                  src="/chums-dashboard-preview.png"
-                  alt="Church Management Dashboard"
-                  className="w-full h-auto"
+              <Reveal className="mb-10 text-center">
+                <h3 className="mb-2 text-2xl font-bold text-foreground md:text-3xl">
+                  {t("brochure.churchManagement.dashboard.title")}
+                </h3>
+                <p className="mx-auto max-w-2xl text-muted-foreground">
+                  {t("brochure.churchManagement.dashboard.description")}
+                </p>
+              </Reveal>
+              <div className="relative mx-auto max-w-4xl">
+                <div className="absolute -inset-x-4 -inset-y-5 rotate-1 rounded-3xl bg-gradient-to-br from-primary/10 via-sky-100 to-indigo-100" />
+                <BrowserFrame
+                  src="/attendance-analytics-dashboard.webp"
+                  alt="B1Admin attendance dashboard with trend chart and report filters"
+                  className="relative"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-background/70 via-transparent to-transparent" />
-                <div className="absolute bottom-8 left-8 right-8 text-center">
-                  <h3 className="text-2xl md:text-3xl font-bold mb-2 text-white">
-                    {t("brochure.features.dashboard.title")}
-                  </h3>
-                  <p className="text-white/90 max-w-2xl mx-auto">
-                    {t("brochure.features.dashboard.description")}
-                  </p>
-                </div>
               </div>
             </div>
 
             {/* Additional Features Grid */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+            <div className="mb-12 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
               {additionalFeaturesData.map((feature, index) => (
-                <div key={index} className="flex items-start space-x-4 p-4 rounded-xl border border-border/30 hover:border-primary/50 transition-colors gradient-glass">
-                  <div className="p-2 rounded-lg bg-primary/10">
+                <div key={index} className="card-elevated flex items-start space-x-4 rounded-xl p-4 transition-colors hover:border-primary/50">
+                  <div className="rounded-lg bg-primary/10 p-2">
                     <feature.icon className="h-5 w-5 text-primary" />
                   </div>
                   <div>
-                    <h4 className="font-semibold mb-1 text-foreground">{feature.title}</h4>
+                    <h4 className="mb-1 font-semibold text-foreground">{feature.title}</h4>
                     <p className="text-sm text-muted-foreground">{feature.description}</p>
                   </div>
                 </div>
@@ -335,50 +307,50 @@ const ChurchManagement = () => {
         </section>
 
         {/* Testimonials Section */}
-        <section className="py-24 bg-gradient-to-br from-background via-muted/20 to-background">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <section className="bg-surface-tint py-24">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             {/* Header */}
-            <div className="text-center mb-16 animate-fade-in">
-              <h2 className="text-3xl md:text-5xl font-bold mb-6 text-foreground">
+            <Reveal className="mb-16 text-center">
+              <h2 className="mb-6 text-3xl font-bold tracking-tight text-foreground md:text-5xl">
                 {t("brochure.churchManagement.testimonials.title")}{" "}
                 <span className="text-gradient">{t("brochure.churchManagement.testimonials.titleHighlight")}</span>
               </h2>
-              <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              <p className="mx-auto max-w-3xl text-xl text-muted-foreground">
                 {t("brochure.churchManagement.testimonials.subtitle")}
               </p>
-            </div>
+            </Reveal>
 
             {/* Stats */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-16">
+            <div className="mb-16 grid grid-cols-2 gap-8 md:grid-cols-4">
               <div className="text-center">
-                <div className="text-3xl md:text-4xl font-bold text-gradient mb-2">{t("brochure.testimonials.stats.churches.value")}</div>
-                <div className="text-muted-foreground">{t("brochure.testimonials.stats.churches.label")}</div>
+                <div className="mb-2 text-3xl font-extrabold tracking-tight text-foreground md:text-4xl">{t("brochure.testimonials.stats.churchesValue")}</div>
+                <div className="text-muted-foreground">{t("brochure.testimonials.stats.churchesLabel")}</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl md:text-4xl font-bold text-gradient mb-2">{t("brochure.testimonials.stats.price.value")}</div>
-                <div className="text-muted-foreground">{t("brochure.testimonials.stats.price.label")}</div>
+                <div className="mb-2 text-3xl font-extrabold tracking-tight text-foreground md:text-4xl">{t("brochure.testimonials.stats.freeValue")}</div>
+                <div className="text-muted-foreground">{t("brochure.testimonials.stats.freeLabel")}</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl md:text-4xl font-bold text-gradient mb-2">{t("brochure.testimonials.stats.uptime.value")}</div>
-                <div className="text-muted-foreground">{t("brochure.testimonials.stats.uptime.label")}</div>
+                <div className="mb-2 text-3xl font-extrabold tracking-tight text-foreground md:text-4xl">{t("brochure.testimonials.stats.openValue")}</div>
+                <div className="text-muted-foreground">{t("brochure.testimonials.stats.openLabel")}</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl md:text-4xl font-bold text-gradient mb-2">{t("brochure.testimonials.stats.support.value")}</div>
-                <div className="text-muted-foreground">{t("brochure.testimonials.stats.support.label")}</div>
+                <div className="mb-2 text-3xl font-extrabold tracking-tight text-foreground md:text-4xl">{t("brochure.testimonials.stats.languagesValue")}</div>
+                <div className="text-muted-foreground">{t("brochure.testimonials.stats.languagesLabel")}</div>
               </div>
             </div>
 
             {/* Testimonials Grid */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
               {testimonials.map((testimonial, index) => (
                 <div
                   key={index}
-                  className="gradient-glass rounded-2xl p-6 border border-border/50 hover:border-primary/30 transition-all duration-300 hover:shadow-primary hover:-translate-y-1 group"
+                  className="card-elevated card-hover rounded-2xl p-6"
                 >
-                  <p className="text-foreground/80 mb-6 leading-relaxed">
+                  <p className="mb-6 leading-relaxed text-foreground/80">
                     "{testimonial.content}"
                   </p>
-                  <div className="border-t border-border/30 pt-4">
+                  <div className="border-t border-border pt-4">
                     <div className="font-semibold text-foreground">{testimonial.name}</div>
                     <div className="text-sm text-muted-foreground">{testimonial.church}</div>
                     <div className="text-sm text-muted-foreground">{testimonial.location}</div>
@@ -390,48 +362,48 @@ const ChurchManagement = () => {
         </section>
 
         {/* About/Pricing Section */}
-        <section className="py-24 pattern-background">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <section className="bg-background py-24">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             {/* Header */}
-            <div className="text-center mb-16 animate-fade-in">
-              <h2 className="text-3xl md:text-5xl font-bold mb-6 text-foreground">
+            <Reveal className="mb-16 text-center">
+              <h2 className="mb-6 text-3xl font-bold tracking-tight text-foreground md:text-5xl">
                 {t("brochure.churchManagement.aboutSection.title")}{" "}
                 <span className="text-gradient">{t("brochure.churchManagement.aboutSection.titleHighlight")}</span>
               </h2>
               <p
-                className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed"
+                className="mx-auto max-w-4xl text-xl leading-relaxed text-muted-foreground"
                 dangerouslySetInnerHTML={{ __html: t("brochure.churchManagement.aboutSection.description") }}
               />
-            </div>
+            </Reveal>
 
             {/* Statistics */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+            <div className="mb-16 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
               {statsItems.map((stat, index) => (
                 <div
                   key={index}
-                  className="text-center gradient-glass rounded-2xl p-6 border border-border/50 hover:border-primary/30 transition-all duration-300 hover:shadow-primary hover:-translate-y-1"
+                  className="card-elevated card-hover rounded-2xl p-6 text-center"
                 >
-                  <div className="text-3xl md:text-4xl font-bold text-gradient mb-2">
+                  <div className="mb-2 text-3xl font-extrabold tracking-tight text-gradient md:text-4xl">
                     {stat.number}
                   </div>
-                  <div className="font-semibold mb-2 text-foreground">{stat.label}</div>
+                  <div className="mb-2 font-semibold text-foreground">{stat.label}</div>
                   <div className="text-sm text-muted-foreground">{stat.description}</div>
                 </div>
               ))}
             </div>
 
             {/* Mission Statement */}
-            <div className="gradient-glass rounded-3xl p-8 md:p-12 border border-border/50 mb-16 text-center">
-              <Heart className="h-16 w-16 text-primary mx-auto mb-6" />
-              <h3 className="text-2xl md:text-3xl font-bold mb-6 text-foreground">
+            <div className="card-elevated mb-16 rounded-3xl p-8 text-center md:p-12">
+              <Heart className="mx-auto mb-6 h-16 w-16 text-coral" />
+              <h3 className="mb-6 text-2xl font-bold text-foreground md:text-3xl">
                 {t("brochure.churchManagement.mission.title")}
               </h3>
               <p
-                className="text-lg text-muted-foreground max-w-3xl mx-auto mb-8 leading-relaxed"
+                className="mx-auto mb-8 max-w-3xl text-lg leading-relaxed text-muted-foreground"
                 dangerouslySetInnerHTML={{ __html: t("brochure.churchManagement.mission.description") }}
               />
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button variant="gradient" size="lg" className="group shadow-glow" asChild>
+              <div className="flex flex-col justify-center gap-4 sm:flex-row">
+                <Button size="lg" className="group" asChild>
                   <a href="https://churchapps.org/" target="_blank" rel="noopener noreferrer">
                     <Globe className="mr-2 h-5 w-5" />
                     {t("brochure.churchManagement.mission.learnMore")}
@@ -447,17 +419,17 @@ const ChurchManagement = () => {
             </div>
 
             {/* Features Grid */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-12">
-              <div className="lg:col-span-3 text-center mb-8">
-                <h3 className="text-2xl font-bold mb-4 text-foreground">{t("brochure.churchManagement.allFeatures.title")}</h3>
+            <div className="mb-12 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+              <div className="mb-8 text-center lg:col-span-3">
+                <h3 className="mb-4 text-2xl font-bold text-foreground">{t("brochure.churchManagement.allFeatures.title")}</h3>
                 <p className="text-muted-foreground">{t("brochure.churchManagement.allFeatures.subtitle")}</p>
               </div>
               {allFeaturesItems.map((feature, index) => (
                 <div
                   key={index}
-                  className="flex items-center space-x-3 p-4 rounded-xl border border-border/30 hover:border-primary/50 transition-colors gradient-glass"
+                  className="card-elevated flex items-center space-x-3 rounded-xl p-4 transition-colors hover:border-primary/50"
                 >
-                  <Check className="h-5 w-5 text-accent flex-shrink-0" />
+                  <Check className="h-5 w-5 flex-shrink-0 text-accent" />
                   <span className="text-sm text-foreground">{feature}</span>
                 </div>
               ))}
@@ -465,23 +437,23 @@ const ChurchManagement = () => {
 
             {/* Call to Action */}
             <div className="text-center">
-              <div className="gradient-glass rounded-2xl p-8 border border-border/50 max-w-3xl mx-auto">
-                <h3 className="text-2xl font-bold mb-4 text-foreground">
+              <div className="card-elevated mx-auto max-w-3xl rounded-2xl p-8">
+                <h3 className="mb-4 text-2xl font-bold text-foreground">
                   {t("brochure.churchManagement.cta.title")}
                 </h3>
-                <p className="text-muted-foreground mb-6">
+                <p className="mb-6 text-muted-foreground">
                   {t("brochure.churchManagement.cta.description")}
                 </p>
-                <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <Button variant="gradient" size="xl" className="shadow-glow" asChild>
-                    <LocaleLink to="/login">
+                <div className="flex flex-col justify-center gap-4 sm:flex-row">
+                  <Button size="xl" asChild>
+                    <a href={ADMIN_REGISTER_URL}>
                       {t("brochure.churchManagement.cta.primaryButton")}
-                    </LocaleLink>
+                    </a>
                   </Button>
                   <Button variant="outline" size="xl" asChild>
-                    <LocaleLink to="/login">
+                    <a href={DEMO_URL} target="_blank" rel="noopener">
                       {t("brochure.churchManagement.cta.secondaryButton")}
-                    </LocaleLink>
+                    </a>
                   </Button>
                 </div>
               </div>

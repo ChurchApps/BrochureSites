@@ -1,22 +1,24 @@
 # B1.church - Free Church Management Platform
 
-> B1.church is a 100% free, open-source church management platform providing mobile apps, website builder, digital giving, check-in, and community features for churches of all sizes.
+> B1.church is a 100% free, open-source church management platform providing a member mobile app (installable PWA), website builder, digital giving, check-in, and community features for churches of all sizes. One platform, one shared database: staff manage the church in B1Admin, members engage through the church website and mobile app, and families check in on B1Checkin kiosks.
 
 ## Quick Facts
 - Price: 100% Free (no hidden fees, forever free)
 - Type: Church Management Software / Church App Platform
-- Platforms: iOS, Android, Web
+- Platforms: Web; member app installs as a PWA on iOS and Android
 - Target: Churches, Ministries, Religious Organizations
 - Developer: Live Church Solutions (501c3 Nonprofit, EIN 45-5349618)
 
 ## Core Features
 
-### Mobile Church App
-- Custom branded iOS and Android apps for your church
+### Mobile Church App (PWA)
+- Installable web app branded with your church's name and logo
+- Installs straight from your church website with instant updates
 - Community groups and discussions
 - Direct messaging between members
 - Member directory with photos
 - Push notifications for events and announcements
+- Volunteer scheduling and serving plans
 
 ### Church Website Builder
 - Drag-and-drop website builder
@@ -32,22 +34,24 @@
 - Giving history and tax statements
 - Direct Stripe integration (no B1 platform fees, Stripe rates apply ~2.9%)
 
-### Smart Check-in
-- Contactless self-check-in kiosks
-- Family check-in management
-- Automatic group assignments
-- Attendance tracking and reports
-- Child safety with security codes
+### Self-Service Check-in (B1Checkin)
+- Self-check-in kiosks on affordable Android tablets (~$150)
+- Family check-in with phone number lookup
+- Wireless name tag printing with matching parent pickup security codes
+- Guest registration by QR code
+- Attendance recorded automatically in B1Admin
 
-### B1 Admin (Church Management)
-- Member database and profiles
+### B1Admin (Church Management)
+- Member database and profiles with AI-powered natural language search
 - Attendance analytics and trends
 - Groups and ministry management
 - Service planning and scheduling
 - Song library with arrangements and chord charts
 - Volunteer coordination
+- Automated workflows (visitor follow-up, recurring tasks)
 - Multi-campus support
 - Giving administration and batch entry
+- Integrations: Slack, Discord, Zapier, Make, Google Sheets, Mailchimp, Claude, ChatGPT, and more
 
 ### Content & Media
 - Sermon library and archives

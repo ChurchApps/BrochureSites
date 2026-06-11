@@ -2,144 +2,270 @@
   "brochure": {
     "header": {
       "features": "Mga Tampok",
+      "pricing": "Presyo",
       "churchManagement": "Pamamahala ng Simbahan",
       "about": "Tungkol",
       "contact": "Makipag-ugnayan",
+      "demo": "Live Demo",
       "signIn": "Mag-sign In",
       "getStartedFree": "Magsimula nang Libre"
     },
-    "hero": {
-      "badge": "100% Libre \u2022 Plataporma para sa Ministeryo",
-      "headlineTop": "Komunidad ng Simbahan",
-      "headlineBottom": "Nang Walang Hadlang",
-      "subheadline": "Kumpletong software para sa pamamahala ng simbahan na may mobile app, website builder, digital na pag-abuloy, at mga tampok para sa komunidad. 100% libreng plataporma para sa simbahan na dinisenyo ng isang ministeryo, para sa mga ministeryo.",
-      "ctaPrimary": "Magsimula nang Libre",
-      "ctaSecondary": "Tingnan Kung Paano Ito Gumagana",
-      "statFreeValue": "100%",
-      "statFreeLabel": "Libre Magpakailanman",
-      "statModernValue": "Moderno",
-      "statModernLabel": "Plataporma",
-      "statMinistryValue": "Ministeryo",
-      "statMinistryLabel": "Hindi Kita"
-    },
-    "features": {
-      "community": {
-        "title": "Koneksyon sa Komunidad ng Simbahan",
-        "description": "Bumuo ng mas malalim na relasyon sa pamamagitan ng mga grupo, talakayan, pagmemensahe, at mga kaganapan. Ikonekta ang mga miyembro lampas sa serbisyo ng Linggo sa pamamagitan ng makabuluhang interaksyon.",
-        "items": ["Maliliit na Grupo", "Direktang Mensahe", "Mga Forum ng Talakayan", "Direktoryo ng Miyembro"],
-        "cta": "Sumali sa Komunidad"
+    "home": {
+      "hero": {
+        "eyebrow": "Libre at open-source na software para sa simbahan",
+        "headline": "Lahat ng kailangan ng inyong simbahan para",
+        "headlineAccent": "magkaugnay, magbigay, at lumago.",
+        "subheadline": "Member app, website builder, online giving, check-in ng mga bata, at kumpletong pamamahala ng simbahan — isang libreng platform mula sa isang nonprofit na ministeryo, para manatili sa ministeryo ang inyong budget.",
+        "ctaPrimary": "Magsimula nang Libre",
+        "ctaSecondary": "Tingnan Kung Paano Gumagana",
+        "trust": [
+          "Libre magpakailanman — walang tier, walang trial",
+          "Walang dagdag na transaction fee",
+          "Open source sa GitHub",
+          "501(c)(3) na ministeryo mula pa noong 2012"
+        ]
       },
-      "content": {
-        "title": "Digital na Hub ng Nilalaman ng Simbahan",
-        "description": "I-access ang mga sermon, aralin sa klase, talata ng araw, at buong salin ng Bibliya. Panatilihing aktibo ang inyong komunidad sa pamamagitan ng bagong nilalaman sa buong linggo.",
-        "items": ["Koleksyon ng Sermon", "Integrasyon ng Bibliya", "Talata ng Araw", "Mga Aralin sa Klase"],
-        "cta": "Tingnan ang Nilalaman"
+      "products": {
+        "eyebrow": "Isang platform",
+        "title": "Lahat ng ministeryo, sa wakas ay magkasundo na.",
+        "lead": "Anim na tool na gumagana bilang isa — dahil iisa nga sila. Isang platform na may isang database, walang ibinebentang hiwalay.",
+        "linkLabel": "Tuklasin",
+        "items": {
+          "app": {
+            "name": "App para sa mga Miyembro",
+            "desc": "Mga grupo, mensahe, sermon, at pagbibigay sa bulsa ng bawat miyembro."
+          },
+          "giving": {
+            "name": "Pagbibigay",
+            "desc": "Online at paulit-ulit na pagbibigay na may mga pondo, batch, at taunang ulat."
+          },
+          "people": {
+            "name": "Mga Tao",
+            "desc": "Kumpletong database ng mga miyembro na may attendance, workflow, at AI search."
+          },
+          "checkin": {
+            "name": "Check-In",
+            "desc": "Mabilis at ligtas na check-in ng mga bata na may name tag at pagtutugma sa pagsundo."
+          },
+          "web": {
+            "name": "Mga Website",
+            "desc": "Drag-and-drop na website builder na ginawa para sa mga simbahan."
+          },
+          "plans": {
+            "name": "Pagpaplano ng Pagsamba",
+            "desc": "Mga plano ng serbisyo, library ng mga awit, at iskedyul ng mga volunteer."
+          }
+        }
+      },
+      "connect": {
+        "eyebrow": "Ang B1 Mobile App",
+        "title": "Ang inyong mga kaanib, konektado",
+        "titleAccent": "buong linggo.",
+        "lead": "Bigyan ang inyong simbahan ng iisang lugar na mapagsasamahan sa pagitan ng mga Linggo. Dinadala ng B1 app ang inyong member directory, mga grupo, mensahe, at sermon sa bawat telepono sa inyong kongregasyon.",
+        "items": [
+          "Group chat at mga talakayan",
+          "Member directory at pagmemensahe",
+          "Mga sermon at live streaming",
+          "Push notification",
+          "Bibliya at talata ng araw",
+          "Pag-iiskedyul ng mga volunteer"
+        ],
+        "pwaTitle": "Mai-install ng mga miyembro sa loob ng ilang segundo",
+        "pwaNote": "Direktang nai-install ang B1 app mula sa website ng inyong simbahan at laging napapanahon — awtomatikong nakukuha ng bawat miyembro ang pinakabagong bersyon."
       },
       "giving": {
-        "title": "Online na Pag-abuloy sa Simbahan",
-        "description": "Ligtas na donasyon sa pamamagitan ng credit/bangko na may mga opsyon sa ulit-ulit na pagbibigay at pag-abuloy sa partikular na pondo. Walang bayad mula sa B1 - direktang integrasyon sa Stripe.",
-        "items": ["Ligtas na Pagbabayad", "Ulit-ulit na Donasyon", "Pamamahala ng Pondo", "Kasaysayan ng Pag-abuloy"],
-        "cta": "Magsimulang Mag-abuloy"
+        "eyebrow": "Online Giving",
+        "title": "Gawing madali",
+        "titleAccent": "ang pagbibigay.",
+        "lead": "Nagbibigay ang mga miyembro gamit ang card o bank account sa ilang tap lang — isang beses o paulit-ulit. Sinusubaybayan ng inyong team ang bawat pondo, batch, at year-end statement sa iisang lugar.",
+        "items": [
+          "One-time at recurring na mga kaloob",
+          "Maraming pondo at paglalaan",
+          "Awtomatikong year-end statement",
+          "Batch tracking para sa cash at tseke"
+        ],
+        "feeNote": "Walang idinadagdag na bayarin ang B1 sa mga donasyon. Standard processing rate lang ng Stripe o PayPal ang babayaran ninyo — walang napupunta sa amin."
+      },
+      "people": {
+        "eyebrow": "B1Admin · Pamamahala ng Simbahan",
+        "title": "Tunay na kilalanin",
+        "titleAccent": "ang inyong mga kaanib.",
+        "lead": "Ang B1Admin ang home base ng inyong team: kumpletong member database na may attendance insights, matatalinong follow-up, at AI search na sumasagot sa mga tanong sa simpleng pananalita.",
+        "items": [
+          "Kumpletong profile ng miyembro at sambahayan",
+          "Pagsubaybay at trend ng attendance",
+          "Awtomatikong follow-up workflow",
+          "AI-powered na paghahanap ng tao"
+        ],
+        "link": "Tuklasin ang pamamahala ng simbahan"
       },
       "checkin": {
-        "title": "Plataporma ng Check-in sa Simbahan",
-        "description": "Contactless na check-in sa serbisyo na may pamamahala ng pamilya at awtomatikong pagtatalaga ng grupo. Gawing mas maayos ang pagsubaybay sa pagdalo.",
-        "items": ["Contactless na Check-in", "Pamamahala ng Pamilya", "Awtomatikong Pagtatalaga ng Grupo", "Mga Ulat ng Pagdalo"],
-        "cta": "Subukan ang Check-in"
-      },
-      "mobileFirst": "Mobile Muna",
-      "managementSystem": {
-        "title": "Kumpletong",
-        "titleHighlight": "Sistema ng Pamamahala ng Simbahan",
-        "description": "Propesyonal na software ng database ng simbahan na may pamamahala ng miyembro, pagsubaybay sa pagdalo, administrasyon ng pag-abuloy, at mga kasangkapan sa komunikasyon ng ministeryo. Libreng sistema ng pamamahala ng simbahan na partikular na idinisenyo para sa mga lumalagong kongregasyon at simbahang may maraming campus."
-      },
-      "grid": {
-        "peopleManagement": {
-          "title": "Pamamahala ng Tao",
-          "description": "Kumpletong talaan ng miyembro at bisita na may advanced na paghahanap at pagsubaybay ng relasyon."
-        },
-        "attendanceAnalytics": {
-          "title": "Analytics ng Pagdalo",
-          "description": "Subaybayan ang mga uso sa pagdalo gamit ang magagandang chart at komprehensibong ulat."
-        },
-        "groupsMinistries": {
-          "title": "Mga Grupo at Ministeryo",
-          "description": "Pamahalaan ang walang limitasyong mga grupo at klase na may pagtatalaga at pagsubaybay ng miyembro."
-        },
-        "givingManagement": {
-          "title": "Pamamahala ng Pag-abuloy",
-          "description": "Iproseso ang mga donasyon na may batch management, pagsubaybay ng pondo, at tax statement."
-        },
-        "servicePlanning": {
-          "title": "Pagpaplano ng Serbisyo",
-          "description": "Mag-iskedyul ng mga serbisyo ng pagsamba, magtalaga ng mga koponan, at pamahalaan ang koordinasyon ng mga boluntaryo."
-        },
-        "songLibrary": {
-          "title": "Koleksyon ng Awit",
-          "description": "Pamahalaan ang mga awit na may mga arrangement, susi, chord chart, at setlist."
-        },
-        "communications": {
-          "title": "Komunikasyon",
-          "description": "Magpadala ng naka-target na email at anunsyo na may mga awtomatikong workflow."
-        },
-        "multiCampus": {
-          "title": "Multi-Campus",
-          "description": "Pamahalaan ang maraming lokasyon mula sa iisang dashboard na may datos na partikular sa bawat campus."
+        "eyebrow": "B1Checkin",
+        "title": "Salubungin ang mga pamilya",
+        "titleAccent": "nang may kumpiyansa.",
+        "lead": "Self-service check-in na nagpi-print ng mga name tag at katugmang parent pickup code — built-in ang kaligtasan ng mga bata, nakakaluwag ang mga volunteer, at awtomatikong naitatala ang attendance.",
+        "items": [
+          "Paghahanap gamit ang phone number sa ilang segundo",
+          "Magkatugmang security code para sa pickup",
+          "Wireless na pag-print ng label",
+          "Pagrerehistro ng bisita gamit ang QR code"
+        ],
+        "receipt": {
+          "title": "Magkano ang gastos",
+          "tablet": "Android tablet",
+          "printer": "Label printer",
+          "total": "Hardware, isang beses lang",
+          "software": "Software, magpakailanman"
         }
       },
-      "showcase": {
-        "groupsMinistries": {
-          "title": "Mga Grupo at Ministeryo",
-          "description": "Pamahalaan ang walang limitasyong mga grupo at klase"
+      "ecosystem": {
+        "eyebrow": "Paano nagkakaugnay ang lahat",
+        "title": "Isang platform.",
+        "titleAccent": "Isang database.",
+        "lead": "I-update ang isang pamilya nang isang beses at tama na ito saanman — sa website, app, check-in, at giving. Walang pag-sync, walang pag-export, walang per-module na presyo.",
+        "hubTitle": "Iisang shared database",
+        "hubSubtitle": "mga tao · mga grupo · giving · attendance",
+        "nodes": {
+          "admin": {
+            "name": "B1Admin",
+            "desc": "Ang dashboard ng staff para sa mga tao, giving, plano, at report."
+          },
+          "web": {
+            "name": "Website ng Simbahan",
+            "desc": "Ang inyong pampublikong site, mga sermon, kalendaryo, at giving page."
+          },
+          "mobile": {
+            "name": "Mobile App",
+            "desc": "Ang member app para sa mga grupo, mensahe, at giving."
+          },
+          "checkin": {
+            "name": "B1Checkin",
+            "desc": "Kiosk check-in na may mga name tag at security code."
+          }
         },
-        "peopleSearch": {
-          "title": "Paghahanap ng Tao",
-          "description": "Advanced na database ng miyembro"
-        },
-        "servicePlanning": {
-          "title": "Pagpaplano ng Serbisyo",
-          "description": "Mag-iskedyul ng mga koponan at pagtatalaga"
-        },
-        "songLibrary": {
-          "title": "Koleksyon ng Awit",
-          "description": "Mga arrangement at chord chart"
-        }
-      },
-      "dashboard": {
-        "title": "Maganda at Madaling Gamitin na Dashboard",
-        "description": "I-access ang lahat ng datos ng inyong simbahan sa pamamagitan ng aming malinis at modernong interface na dinisenyo para sa kahusayan at kaginhawahan."
-      },
-      "additional": {
-        "security": {
-          "title": "Seguridad at Privacy",
-          "description": "Karaniwang pamantayan ng industriya sa encryption at ligtas na pag-iimbak ng datos"
-        },
-        "mobile": {
-          "title": "Mobile na Accessibility",
-          "description": "Responsive na disenyo na gumagana nang perpekto sa lahat ng device"
-        },
-        "workflows": {
-          "title": "Mga Awtomatikong Workflow",
-          "description": "Mga follow-up sequence at automation para sa pangangalaga ng miyembro"
-        },
-        "reporting": {
-          "title": "Real-Time na Pag-uulat",
-          "description": "Mag-generate ng mga instant na ulat at i-export ang datos anumang oras"
-        },
-        "forms": {
-          "title": "Mga Custom na Form",
-          "description": "Bumuo ng mga registration form at survey para sa anumang layunin"
-        },
-        "roles": {
-          "title": "Role-Based na Access",
-          "description": "Ligtas na mga pahintulot para sa mga kawani at boluntaryo"
-        }
-      },
-      "ctaSection": {
-        "title": "Handa na Bang Bumuo ng Mas Matibay na",
-        "titleHighlight": "Komunidad ng Simbahan?",
-        "description": "Baguhin ang inyong simbahan gamit ang aming komprehensibong libreng plataporma na dinisenyo upang palalimin ang mga relasyon at palakasin ang mga komunidad ng simbahan sa pamamagitan ng modernong teknolohiya.",
+        "integrationsLabel": "Maayos na gumagana kasama ng mga tool na ginagamit na ninyo",
         "cta": "Magsimula nang Libre"
+      },
+      "capabilities": {
+        "eyebrow": "At marami pang iba",
+        "title": "Ang natitira sa to-do list, asikasado na.",
+        "lead": "Pagpaplano ng worship, mga volunteer, form, automation — ang pang-araw-araw na gawain sa pagpapatakbo ng simbahan, kasama na lahat.",
+        "cells": {
+          "servicePlanning": {
+            "title": "Pagpaplano ng serbisyo",
+            "desc": "Magplano ng mga serbisyo, magtalaga ng mga volunteer team, at awtomatikong abisuhan ang lahat."
+          },
+          "groups": {
+            "title": "Mga grupo at ministeryo",
+            "desc": "Walang limitasyong grupo na may mga lider, kalendaryo, at attendance."
+          },
+          "songs": {
+            "title": "Aklatan ng mga awit",
+            "desc": "Mga arrangement, key, at link para sa inyong worship team."
+          },
+          "forms": {
+            "title": "Mga form at pagpaparehistro",
+            "desc": "Custom na mga form para sa mga event, sign-up, at survey."
+          },
+          "automations": {
+            "title": "Mga workflow at automation",
+            "desc": "Follow-up sa mga bisita at mga paulit-ulit na gawaing kusang tumatakbo."
+          },
+          "multiCampus": {
+            "title": "Multi-campus",
+            "desc": "Bawat lokasyon sa iisang dashboard na may report sa antas ng campus."
+          },
+          "roles": {
+            "title": "Mga role at permiso",
+            "desc": "Ibigay sa staff at mga volunteer ang eksaktong access na kailangan nila."
+          },
+          "reports": {
+            "title": "Mga report at export",
+            "desc": "Mga trend ng attendance, buod ng giving, at one-click na export."
+          }
+        },
+        "openSource": {
+          "title": "Open source, walang lock-in",
+          "desc": "Open source ang buong B1. Suriin ang code, mag-ambag, o mag-self-host — laging sa inyo ang inyong data.",
+          "linkLabel": "Tingnan ang code sa GitHub"
+        }
+      },
+      "pricing": {
+        "eyebrow": "Presyo",
+        "title": "Narito ang buong talahanayan ng presyo.",
+        "lead": "Walang tier, walang bayad kada miyembro, walang biglang pagtaas sa 200 katao. Lahat ng nasa pahinang ito ay kasama para sa bawat simbahan, anuman ang laki.",
+        "per": "bawat buwan — para sa lahat, magpakailanman",
+        "note": "Ang pagproseso ng card para sa online na pagbibigay ay hawak ng payment processor sa kanilang karaniwang singil. Wala kaming idinadagdag.",
+        "cta": "Magsimula nang Libre"
+      },
+      "mission": {
+        "eyebrow": "Bakit ito libre?",
+        "statement1": "Hindi ipinagbibili.",
+        "statement2": "Hindi para sa tubo.",
+        "title": "Gawa ng isang ministeryo, hindi ng isang vendor.",
+        "lead": "Ang B1 ay gawa ng Live Church Solutions, isang 501(c)(3) nonprofit na itinatag noong 2012. Daan-daang milyon ang ginagastos ng mga simbahan kada taon sa software — mas gusto naming mapunta sa ministeryo ang perang iyon.",
+        "stats": {
+          "free": "Libre magpakailanman",
+          "fees": "Dagdag na bayarin",
+          "founded": "Naglilingkod sa mga simbahan mula",
+          "languages": "Mga wikang suportado"
+        },
+        "audiences": [
+          {
+            "title": "Mga church plant",
+            "description": "Magsimula gamit ang mga propesyonal na tool mula sa unang araw — kahit walang budget para sa software."
+          },
+          {
+            "title": "Maliliit at katamtamang laki na simbahan",
+            "description": "Lahat ng kayang patakbuhin mismo ng mga volunteer, na walang kailangang i-maintain."
+          },
+          {
+            "title": "Mga multi-site na simbahan",
+            "description": "Pinag-isang data ng mga tao at pag-uulat sa bawat campus."
+          },
+          {
+            "title": "Mga pandaigdigang ministeryo",
+            "description": "Available sa 29 na wika at pinopondohan para manatiling libre saanman."
+          }
+        ],
+        "sister": "Gumagawa rin kami ng FreeShow, libreng presentation software, at Lessons.church, libreng kurikulum na may 1,100+ na aralin — libre at open source, tulad ng lahat ng ginagawa namin.",
+        "aboutChurchApps": "Tungkol sa ChurchApps"
+      },
+      "finalCta": {
+        "title": "Maging iisang simbahan.",
+        "titleAccent": "Lahat sa iisang lugar.",
+        "description": "I-set up ang inyong simbahan sa loob ng ilang minuto — naghihintay na ang inyong app, website, giving, at check-in.",
+        "ctaPrimary": "Magsimula nang Libre",
+        "ctaSecondary": "Basahin ang FAQ",
+        "reassurance": "Hindi kailangan ng credit card — wala namang sisingilin. Libre magpakailanman, mula sa isang ministeryong gustong manatili itong ganoon."
+      }
+    },
+    "fragments": {
+      "checkinToast": {
+        "title": "Nag-check in ang pamilya Johnson",
+        "detail": "Preschool A · 9:02 AM"
+      },
+      "givingStat": {
+        "label": "Giving ngayong buwan"
+      },
+      "aiSearch": {
+        "query": "mga pamilyang sumali sa nakalipas na 90 araw"
+      },
+      "workflow": {
+        "title": "Follow-up sa bagong bisita",
+        "badge": "Awtomatiko",
+        "step1": "Magpadala ng welcome email",
+        "step2": "Italaga sa isang pastor"
+      },
+      "nameTag": {
+        "hello": "Hello",
+        "myNameIs": "ako si",
+        "pickup": "Pickup ng magulang"
+      },
+      "pushNotification": {
+        "app": "Grace Church",
+        "message": "Naka-post na ang iskedyul ng mga volunteer para sa Linggo",
+        "time": "ngayon"
       }
     },
     "testimonials": {
@@ -148,23 +274,23 @@
       "subtitle": "Sumali sa mga lumalagong simbahan na nagbago ng kanilang ministeryo gamit ang aming ganap na libreng plataporma. Narito po ang sinasabi ng mga pastor at administrador ng simbahan tungkol sa B1.",
       "stats": {
         "churchesValue": "100+",
-        "churchesLabel": "Mga Simbahang Nagtitiwala sa Amin",
+        "churchesLabel": "Mga simbahan sa buong mundo",
         "freeValue": "Libre",
-        "freeLabel": "Magpakailanman",
-        "uptimeValue": "99.9%",
-        "uptimeLabel": "Garantiya ng Uptime",
-        "supportValue": "24/7",
-        "supportLabel": "Suportang Available"
+        "freeLabel": "Magpakailanman at palagi",
+        "openValue": "Open",
+        "openLabel": "Source code",
+        "languagesValue": "29",
+        "languagesLabel": "Mga wikang suportado"
       },
       "items": [
         {
           "content": "Lubos ko pong inirerekomenda ang ChurchApps. Ito ay isang ministeryo sa pinakatunay at pinakamagandang kahulugan ng salita. Nagbibigay ang ChurchApps ng mga serbisyong teknikal upang mapahusay at maiangat ang espirituwal na epekto ng simbahan sa kanilang mga komunidad. Makakatulong po sila sa imprastraktura ng Simbahan sa mga darating na taon."
         },
         {
-          "content": "Tinulungan po kami ng ChurchApps na maging mas nakikita sa aming komunidad\u2014pinahusay ang kamalayan, mga donasyon, at mga boluntaryo upang mas mahusay naming mapagsilbihan ang mga pamilyang nangangailangan."
+          "content": "Tinulungan po kami ng ChurchApps na maging mas nakikita sa aming komunidad—pinahusay ang kamalayan, mga donasyon, at mga boluntaryo upang mas mahusay naming mapagsilbihan ang mga pamilyang nangangailangan."
         },
         {
-          "content": "Ang ChurchApps ay higit pa sa isang software\u2014ito po ay isang praktikal na kasangkapan na sumusuporta sa misyon, bisyon, at pang-araw-araw na gawain ng ministeryo. Nagpapasalamat po ako sa pagkakataong matuto nito, ituro ito, at masaksihan kung paano nito binibigyang-kakayahan ang mga simbahan na gumana nang mas malinaw, mahusay, at may layunin."
+          "content": "Ang ChurchApps ay higit pa sa isang software—ito po ay isang praktikal na kasangkapan na sumusuporta sa misyon, bisyon, at pang-araw-araw na gawain ng ministeryo. Nagpapasalamat po ako sa pagkakataong matuto nito, ituro ito, at masaksihan kung paano nito binibigyang-kakayahan ang mga simbahan na gumana nang mas malinaw, mahusay, at may layunin."
         },
         {
           "content": "Ang pagkakaroon ng pahina para sa donasyon ay nagpataas ng pag-abuloy sa aming organisasyon. Hindi lamang po pinahahalagahan ng mga tao ang kaginhawahan ng pag-scan ng code na magdadala sa kanila nang direkta sa pahina ng donasyon, maaari rin pong i-set up ang buwanang pag-abuloy para sa mga gustong maging madali ang online na pagbibigay."
@@ -175,10 +301,11 @@
       ],
       "ctaTitle": "Handa na po Ba Kayong Baguhin ang Pamamahala ng Inyong Simbahan?",
       "ctaDescription": "Sumali sa lumalagong komunidad ng mga simbahan na gumagamit na ng B1 - ganap na libre magpakailanman. Walang kinakailangang credit card, walang pagsubok, walang nakatagong bayad.",
-      "ctaButton": "Magsimula nang Libre"
+      "ctaButton": "Magsimula nang Libre",
+      "compareLink": "Tingnan kung paano maikukumpara ang B1 sa Planning Center, Pushpay, at iba pa"
     },
     "websiteBuilder": {
-      "badge": "Tampok ng Web Portal",
+      "badge": "Website ng Inyong Simbahan",
       "title": "Libreng Website Builder para sa Simbahan",
       "titleHighlight": "Sa Ilang Minuto, Hindi Buwan",
       "description": "Lumikha ng maganda at propesyonal na website ng simbahan gamit ang aming libreng built-in na website builder. Hindi po kailangan ng coding - i-drag, i-drop, at i-publish lang ang website ng inyong simbahan.",
@@ -197,90 +324,15 @@
       "cta": "Simulan ang Pagbuo ng Website ng Inyong Simbahan",
       "ctaSubtext": "Kumpletong libreng website builder na kasama sa bawat account"
     },
-    "perfectFor": {
-      "title": "Libre para sa Bawat",
-      "titleHighlight": "Komunidad ng Simbahan",
-      "subtitle": "Ganap na libreng plataporma para sa lahat ng laki ng simbahan. Ang aming misyon bilang ministeryo ay nangangahulugang walang nakatagong bayad, walang limitasyon sa mga tampok, walang mga sorpresa.",
-      "audiences": [
-        {
-          "title": "Mga Lokal na Simbahan",
-          "description": "Mga kongregasyong may iisang lokasyon na gustong i-modernize ang kanilang digital na presensya",
-          "stats": "Anumang Laki"
-        },
-        {
-          "title": "Mga Multi-Site na Kongregasyon",
-          "description": "Maraming lokasyon na nangangailangan ng pinag-isang pamamahala na may natatanging pagkakakilanlan",
-          "stats": "Lahat ng Lokasyon"
-        },
-        {
-          "title": "Mga Denominasyonal na Network",
-          "description": "Mga organisasyong naglilingkod sa maraming simbahan na may mga ibinahaging mapagkukunan",
-          "stats": "Bawat Network"
-        },
-        {
-          "title": "Nakatuon sa Komunidad",
-          "description": "Mga simbahang nagpapahalaga sa malalim na pakikipag-ugnayan at pagbuo ng relasyon",
-          "stats": "Lumalago Araw-araw"
-        }
-      ],
-      "integrations": {
-        "adminIntegration": {
-          "title": "Integrasyon ng B1 Admin",
-          "description": "Walang putol na naka-integrate sa B1 Admin na software ng pamamahala ng simbahan para sa kumpletong automation ng workflow."
-        },
-        "webPortal": {
-          "title": "Kasama ang Web Portal",
-          "description": "Komprehensibong web portal na may website builder kasama ng makapangyarihang karanasan sa mobile app."
-        },
-        "instantSetup": {
-          "title": "Instant na Setup",
-          "description": "Magsimula sa loob ng ilang minuto gamit ang aming streamlined na proseso ng onboarding at dedikadong koponan ng suporta."
-        }
-      },
-      "about": {
-        "title": "Tungkol sa Aming Libreng Software",
-        "description": "Kami po ay isang 501(c)(3) non-profit na ministeryo na nakatuon sa pagbibigay ng ganap na libreng software sa pamamahala ng simbahan. Ang aming misyon ay bigyang-kakayahan ang mga simbahan na tumuon sa ministeryo, hindi sa gastos sa software.",
-        "stats": {
-          "freeValue": "100%",
-          "freeLabel": "Libre Magpakailanman",
-          "setupValue": "$0",
-          "setupLabel": "Gastos sa Setup",
-          "churchesValue": "100+",
-          "churchesLabel": "Mga Simbahang Napagsilbihan",
-          "openValue": "Open",
-          "openLabel": "Source Code"
-        },
-        "features": [
-          "Walang kinakailangang credit card",
-          "Walang limitasyong mga user at miyembro",
-          "Lahat ng tampok ay kasama",
-          "Regular na mga update at pagpapabuti",
-          "24/7 na suporta ng komunidad",
-          "Mobile at web access",
-          "Tulong sa pag-import ng datos",
-          "Transparensya ng open source"
-        ],
-        "learnMore": "Matuto pa tungkol sa aming ministeryo at misyon",
-        "aboutChurchApps": "Tungkol sa ChurchApps",
-        "viewOnGitHub": "Tingnan sa GitHub"
-      },
-      "cta": {
-        "title": "Handa na po Bang Palakasin ang Inyong Komunidad?",
-        "description": "Tuklasin kung paano makakatulong ang aming komprehensibong plataporma ng ministeryo sa pagbuo ng mas malalim na relasyon at mas matibay na mga komunidad.",
-        "button": "Magsimula nang Libre Ngayon",
-        "tagline": "100% Libre \u2022 Walang nakatagong bayad \u2022 Misyon ng ministeryo"
-      }
-    },
     "footer": {
-      "companyDescription": "Ang all-in-one na plataporma ng komunikasyon ng simbahan na pinagsasama-sama ang pagsamba, komunidad, pag-abuloy, at administrasyon.",
+      "companyDescription": "Ang libre at open-source na platform na nagsasama-sama ng app, website, giving, at administrasyon ng inyong simbahan.",
       "product": "Produkto",
       "mobileFeatures": "Mga Tampok ng Mobile",
       "websiteBuilder": "Website Builder",
       "faq": "FAQ",
       "aboutChurchApps": "Tungkol sa ChurchApps",
       "appsAndResources": "Mga App at Resource",
-      "androidApp": "Android App",
-      "iosApp": "iOS App",
+      "installApp": "I-install ang Mobile App",
       "helpCenter": "Help Center",
       "contact": "Makipag-ugnayan",
       "availableWorldwide": "Available sa Buong Mundo"
@@ -296,8 +348,8 @@
           "answer": "Opo, ang B1.church ay ganap na libre na walang nakatagong bayad, walang premium tier, at walang transaction fee sa mga donasyon. Kami po ay isang 501(c)(3) nonprofit na ministeryo na naniniwala na ang bawat simbahan ay nararapat na magkaroon ng access sa modernong teknolohiya anuman ang budget. Ang aming plataporma ay pinopondohan ng mga donasyon at Google Ad Grants."
         },
         {
-          "question": "Anong mga tampok ang kasama sa B1.church?",
-          "answer": "Kasama sa B1.church ang isang kumpletong plataporma ng pamamahala ng simbahan: mga mobile app para sa iOS at Android, drag-and-drop na website builder, online na pag-abuloy na walang transaction fee, smart na sistema ng check-in, database ng miyembro, pagsubaybay sa pagdalo, pamamahala ng mga grupo, pagpaplano ng serbisyo, koleksyon ng awit, pamamahala ng sermon, at integrasyon ng Bibliya."
+          "question": "Anong mga feature ang kasama sa B1.church?",
+          "answer": "Kasama sa B1.church ang kumpletong platform sa pamamahala ng simbahan: member mobile app na direktang nai-install mula sa inyong website, drag-and-drop na website builder, online giving na walang dagdag na platform fee, check-in system para sa mga bata na may security code, member database, pagsubaybay ng attendance, pamamahala ng mga grupo, pagpaplano ng serbisyo, aklatan ng mga awit, pamamahala ng mga sermon, at integrasyon ng Bibliya."
         },
         {
           "question": "Paano po nagkukumpara ang B1.church sa Planning Center?",
@@ -316,12 +368,12 @@
           "answer": "Ang B1.church ay libre habang ang Breeze ay nagsisimula sa $72/buwan. Kasama sa B1 ang isang buong mobile app at website builder, habang ang Breeze ay may limitadong mga tampok sa mobile at walang website builder. Parehong nag-aalok ng pamamahala ng simbahan, ngunit higit na maraming tampok ang ibinibigay ng B1 nang walang bayad."
         },
         {
-          "question": "Maaari po ba akong magkaroon ng custom na mobile app para sa aming simbahan?",
-          "answer": "Opo, nagbibigay ang B1.church ng custom-branded na mga mobile app para sa iOS at Android. Ang inyong simbahan ay magkakaroon ng sariling app na may inyong branding na maaaring i-download ng mga miyembro mula sa App Store at Google Play. Kasama po ito nang libre sa B1."
+          "question": "Magkakaroon ba ng mobile app ang simbahan ko?",
+          "answer": "Oo. Binibigyan ng B1 ang inyong simbahan ng branded na karanasan ng mobile app bilang installable web app (PWA). Bubuksan ng mga miyembro ang site ng inyong simbahan, ita-tap ang 'Add to Home Screen', at makakakuha sila ng full-screen na app na may pangalan at logo ng inyong simbahan. Agad na nakakarating sa lahat ang mga update."
         },
         {
           "question": "Sinusuportahan po ba ng B1.church ang online na pag-abuloy?",
-          "answer": "Opo, kasama sa B1.church ang ligtas na online na pag-abuloy na may suporta sa credit card at bank transfer. Maaari po kayong mag-set up ng ulit-ulit na donasyon, pamahalaan ang maraming pondo, at magbigay ng kasaysayan ng pag-abuloy para sa mga tax statement. Gumagamit kami ng direktang integrasyon sa Stripe na walang bayad sa plataporma ng B1 - ang inyong simbahan ay nakikipag-negotiate ng mga rate nang direkta sa Stripe (karaniwang mga 2.9% + 30\u00a2)."
+          "answer": "Opo, kasama sa B1.church ang ligtas na online na pag-abuloy na may suporta sa credit card at bank transfer. Maaari po kayong mag-set up ng ulit-ulit na donasyon, pamahalaan ang maraming pondo, at magbigay ng kasaysayan ng pag-abuloy para sa mga tax statement. Gumagamit kami ng direktang integrasyon sa Stripe na walang bayad sa plataporma ng B1 - ang inyong simbahan ay nakikipag-negotiate ng mga rate nang direkta sa Stripe (karaniwang mga 2.9% + 30¢)."
         },
         {
           "question": "Maaari po ba akong bumuo ng website gamit ang B1.church?",
@@ -377,16 +429,56 @@
           "tagline": "Libreng alternatibo sa Planning Center",
           "description": "Ang Planning Center ay isang tanyag na plataporma ng pamamahala ng simbahan na may modular na presyo. Nag-aalok ang B1.church ng mga katulad na tampok nang ganap na libre.",
           "features": [
-            { "name": "Database ng Miyembro", "b1": true, "competitor": true },
-            { "name": "Sistema ng Check-in", "b1": true, "competitor": "$99/buwan" },
-            { "name": "Online na Pag-abuloy", "b1": "Walang bayad sa B1", "competitor": "Bayad sa platform + Stripe" },
-            { "name": "Pamamahala ng Grupo", "b1": true, "competitor": "$50/buwan" },
-            { "name": "Pagpaplano ng Serbisyo", "b1": true, "competitor": "$14-99/buwan" },
-            { "name": "Mobile App", "b1": "Libreng branded app", "competitor": "$0-199/buwan" },
-            { "name": "Website Builder", "b1": true, "competitor": false },
-            { "name": "Pamamahala ng Sermon", "b1": true, "competitor": false },
-            { "name": "Multi-Campus", "b1": true, "competitor": "Karagdagang bayad" },
-            { "name": "Open Source", "b1": true, "competitor": false }
+            {
+              "name": "Database ng Miyembro",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Sistema ng Check-in",
+              "b1": true,
+              "competitor": "$99/buwan"
+            },
+            {
+              "name": "Online na Pag-abuloy",
+              "b1": "Walang bayad sa B1",
+              "competitor": "Bayad sa platform + Stripe"
+            },
+            {
+              "name": "Pamamahala ng Grupo",
+              "b1": true,
+              "competitor": "$50/buwan"
+            },
+            {
+              "name": "Pagpaplano ng Serbisyo",
+              "b1": true,
+              "competitor": "$14-99/buwan"
+            },
+            {
+              "name": "Mobile App",
+              "b1": "Libreng branded app",
+              "competitor": "$0-199/buwan"
+            },
+            {
+              "name": "Website Builder",
+              "b1": true,
+              "competitor": false
+            },
+            {
+              "name": "Pamamahala ng Sermon",
+              "b1": true,
+              "competitor": false
+            },
+            {
+              "name": "Multi-Campus",
+              "b1": true,
+              "competitor": "Karagdagang bayad"
+            },
+            {
+              "name": "Open Source",
+              "b1": true,
+              "competitor": false
+            }
           ],
           "pricingB1": "100% Libre",
           "pricingCompetitor": "$0 - $500+/buwan depende sa mga module",
@@ -397,16 +489,56 @@
           "tagline": "Libreng alternatibo sa Pushpay",
           "description": "Ang Pushpay ay kilala sa mobile na pag-abuloy ngunit may kasamang malaking buwanang gastos at transaction fee. Nag-aalok ang B1.church ng pag-abuloy na walang bayad sa plataporma.",
           "features": [
-            { "name": "Online na Pag-abuloy", "b1": "Walang bayad sa B1", "competitor": "Bayad sa platform + Stripe" },
-            { "name": "Ulit-ulit na Donasyon", "b1": true, "competitor": true },
-            { "name": "Mobile App", "b1": "Libreng branded app", "competitor": "Kasama" },
-            { "name": "Database ng Miyembro", "b1": true, "competitor": "Dagdag ang ChMS" },
-            { "name": "Sistema ng Check-in", "b1": true, "competitor": "Karagdagang bayad" },
-            { "name": "Website Builder", "b1": true, "competitor": false },
-            { "name": "Pamamahala ng Grupo", "b1": true, "competitor": "Karagdagang bayad" },
-            { "name": "Mga Statement ng Pag-abuloy", "b1": true, "competitor": true },
-            { "name": "Pamamahala ng Pondo", "b1": true, "competitor": true },
-            { "name": "Open Source", "b1": true, "competitor": false }
+            {
+              "name": "Online na Pag-abuloy",
+              "b1": "Walang bayad sa B1",
+              "competitor": "Bayad sa platform + Stripe"
+            },
+            {
+              "name": "Ulit-ulit na Donasyon",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Mobile App",
+              "b1": "Libreng branded app",
+              "competitor": "Kasama"
+            },
+            {
+              "name": "Database ng Miyembro",
+              "b1": true,
+              "competitor": "Dagdag ang ChMS"
+            },
+            {
+              "name": "Sistema ng Check-in",
+              "b1": true,
+              "competitor": "Karagdagang bayad"
+            },
+            {
+              "name": "Website Builder",
+              "b1": true,
+              "competitor": false
+            },
+            {
+              "name": "Pamamahala ng Grupo",
+              "b1": true,
+              "competitor": "Karagdagang bayad"
+            },
+            {
+              "name": "Mga Statement ng Pag-abuloy",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Pamamahala ng Pondo",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Open Source",
+              "b1": true,
+              "competitor": false
+            }
           ],
           "pricingB1": "100% Libre",
           "pricingCompetitor": "$300 - $1,000+/buwan",
@@ -417,16 +549,56 @@
           "tagline": "Libreng alternatibo sa Tithe.ly",
           "description": "Nag-aalok ang Tithe.ly ng mga kasangkapan sa pag-abuloy at pamamahala ng simbahan na may freemium na presyo. Ibinibigay ng B1.church ang lahat nang libre na walang transaction fee.",
           "features": [
-            { "name": "Online na Pag-abuloy", "b1": "Walang bayad sa B1", "competitor": "Bayad sa platform + Stripe" },
-            { "name": "Ulit-ulit na Donasyon", "b1": true, "competitor": true },
-            { "name": "Mobile App", "b1": "Libreng branded app", "competitor": "$99/buwan" },
-            { "name": "Database ng Miyembro", "b1": true, "competitor": "$99/buwan" },
-            { "name": "Sistema ng Check-in", "b1": true, "competitor": "$49/buwan" },
-            { "name": "Website Builder", "b1": true, "competitor": "$49/buwan" },
-            { "name": "Pamamahala ng Grupo", "b1": true, "competitor": "$99/buwan" },
-            { "name": "Pamamahala ng Sermon", "b1": true, "competitor": "$49/buwan" },
-            { "name": "Multi-Campus", "b1": true, "competitor": "Karagdagang bayad" },
-            { "name": "Open Source", "b1": true, "competitor": false }
+            {
+              "name": "Online na Pag-abuloy",
+              "b1": "Walang bayad sa B1",
+              "competitor": "Bayad sa platform + Stripe"
+            },
+            {
+              "name": "Ulit-ulit na Donasyon",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Mobile App",
+              "b1": "Libreng branded app",
+              "competitor": "$99/buwan"
+            },
+            {
+              "name": "Database ng Miyembro",
+              "b1": true,
+              "competitor": "$99/buwan"
+            },
+            {
+              "name": "Sistema ng Check-in",
+              "b1": true,
+              "competitor": "$49/buwan"
+            },
+            {
+              "name": "Website Builder",
+              "b1": true,
+              "competitor": "$49/buwan"
+            },
+            {
+              "name": "Pamamahala ng Grupo",
+              "b1": true,
+              "competitor": "$99/buwan"
+            },
+            {
+              "name": "Pamamahala ng Sermon",
+              "b1": true,
+              "competitor": "$49/buwan"
+            },
+            {
+              "name": "Multi-Campus",
+              "b1": true,
+              "competitor": "Karagdagang bayad"
+            },
+            {
+              "name": "Open Source",
+              "b1": true,
+              "competitor": false
+            }
           ],
           "pricingB1": "100% Libre",
           "pricingCompetitor": "Libreng tier + $49-199/buwan para sa mga tampok",
@@ -437,16 +609,56 @@
           "tagline": "Libreng alternatibo sa Breeze ChMS",
           "description": "Ang Breeze ay isang simpleng sistema ng pamamahala ng simbahan na may tuwiran na presyo. Nag-aalok ang B1.church ng mas maraming tampok nang walang bayad.",
           "features": [
-            { "name": "Database ng Miyembro", "b1": true, "competitor": true },
-            { "name": "Pamamahala ng Pag-abuloy", "b1": "Walang bayad sa B1", "competitor": "2.9% + 30\u00a2" },
-            { "name": "Sistema ng Check-in", "b1": true, "competitor": "Pangunahin" },
-            { "name": "Mobile App", "b1": "Libreng branded app", "competitor": "Limitado" },
-            { "name": "Website Builder", "b1": true, "competitor": false },
-            { "name": "Pamamahala ng Grupo", "b1": true, "competitor": true },
-            { "name": "Pamamahala ng Kaganapan", "b1": true, "competitor": true },
-            { "name": "Pag-iskedyul ng Boluntaryo", "b1": true, "competitor": true },
-            { "name": "Multi-Campus", "b1": true, "competitor": false },
-            { "name": "Open Source", "b1": true, "competitor": false }
+            {
+              "name": "Database ng Miyembro",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Pamamahala ng Pag-abuloy",
+              "b1": "Walang bayad sa B1",
+              "competitor": "2.9% + 30¢"
+            },
+            {
+              "name": "Sistema ng Check-in",
+              "b1": true,
+              "competitor": "Pangunahin"
+            },
+            {
+              "name": "Mobile App",
+              "b1": "Libreng branded app",
+              "competitor": "Limitado"
+            },
+            {
+              "name": "Website Builder",
+              "b1": true,
+              "competitor": false
+            },
+            {
+              "name": "Pamamahala ng Grupo",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Pamamahala ng Kaganapan",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Pag-iskedyul ng Boluntaryo",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Multi-Campus",
+              "b1": true,
+              "competitor": false
+            },
+            {
+              "name": "Open Source",
+              "b1": true,
+              "competitor": false
+            }
           ],
           "pricingB1": "100% Libre",
           "pricingCompetitor": "$72 - $135/buwan",
@@ -479,7 +691,7 @@
         "features": [
           "Maghanap gamit ang numero ng telepono at awtomatikong pumili ng mga serbisyo",
           "Nag-print ng mga label at resibo nang wireless sa mga shared na printer",
-          "Tumatakbo sa mga abot-kayang Android tablet na wala pang $80",
+          "Tumatakbo sa abot-kayang Android tablet (humigit-kumulang $150)",
           "Awtomatikong nagsi-sync sa sistema ng pagsubaybay sa pagdalo"
         ]
       },
@@ -588,6 +800,54 @@
         "description": "Sumali sa mga simbahan sa buong mundo na lumipat na sa isang ganap na libre at open-source na solusyon na ginawa ng isang ministeryo, para sa mga ministeryo.",
         "primaryButton": "Magsimula nang Libre",
         "secondaryButton": "Subukan ang Demo"
+      },
+      "showcase": {
+        "groupsMinistries": {
+          "title": "Mga Grupo at Ministeryo",
+          "description": "Pamahalaan ang walang limitasyong mga grupo at klase"
+        },
+        "peopleSearch": {
+          "title": "Paghahanap ng Tao",
+          "description": "Advanced na database ng miyembro"
+        },
+        "servicePlanning": {
+          "title": "Pagpaplano ng Serbisyo",
+          "description": "Mag-iskedyul ng mga koponan at pagtatalaga"
+        },
+        "songLibrary": {
+          "title": "Koleksyon ng Awit",
+          "description": "Mga arrangement at chord chart"
+        }
+      },
+      "dashboard": {
+        "title": "Maganda at Madaling Gamitin na Dashboard",
+        "description": "I-access ang lahat ng datos ng inyong simbahan sa pamamagitan ng aming malinis at modernong interface na dinisenyo para sa kahusayan at kaginhawahan."
+      },
+      "additional": {
+        "security": {
+          "title": "Seguridad at Privacy",
+          "description": "Karaniwang pamantayan ng industriya sa encryption at ligtas na pag-iimbak ng datos"
+        },
+        "mobile": {
+          "title": "Mobile na Accessibility",
+          "description": "Responsive na disenyo na gumagana nang perpekto sa lahat ng device"
+        },
+        "workflows": {
+          "title": "Mga Awtomatikong Workflow",
+          "description": "Mga follow-up sequence at automation para sa pangangalaga ng miyembro"
+        },
+        "reporting": {
+          "title": "Real-Time na Pag-uulat",
+          "description": "Mag-generate ng mga instant na ulat at i-export ang datos anumang oras"
+        },
+        "forms": {
+          "title": "Mga Custom na Form",
+          "description": "Bumuo ng mga registration form at survey para sa anumang layunin"
+        },
+        "roles": {
+          "title": "Role-Based na Access",
+          "description": "Ligtas na mga pahintulot para sa mga kawani at boluntaryo"
+        }
       }
     },
     "notFound": {

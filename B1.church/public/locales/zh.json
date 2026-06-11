@@ -2,144 +2,270 @@
   "brochure": {
     "header": {
       "features": "功能",
+      "pricing": "价格",
       "churchManagement": "教会管理",
       "about": "关于",
       "contact": "联系我们",
+      "demo": "在线演示",
       "signIn": "登录",
       "getStartedFree": "免费开始"
     },
-    "hero": {
-      "badge": "100% 免费 \u2022 事工驱动平台",
-      "headlineTop": "教会社区",
-      "headlineBottom": "无障碍连接",
-      "subheadline": "完整的教会管理软件，包含移动应用、网站构建器、数字奉献和社区功能。100% 免费的教会平台，由事工团队设计，为事工服务。",
-      "ctaPrimary": "免费开始",
-      "ctaSecondary": "了解运作方式",
-      "statFreeValue": "100%",
-      "statFreeLabel": "永久免费",
-      "statModernValue": "现代化",
-      "statModernLabel": "平台",
-      "statMinistryValue": "事工",
-      "statMinistryLabel": "非营利"
-    },
-    "features": {
-      "community": {
-        "title": "教会社区连接",
-        "description": "通过小组、讨论、消息和活动建立更深层的关系。在主日礼拜之外，通过有意义的互动连接会众。",
-        "items": ["小组", "私信", "讨论论坛", "会员通讯录"],
-        "cta": "加入社区"
+    "home": {
+      "hero": {
+        "eyebrow": "免费开源的教会软件",
+        "headline": "教会所需的一切，帮助您",
+        "headlineAccent": "连接、奉献、成长。",
+        "subheadline": "会友应用、网站构建器、在线奉献、儿童签到，以及完整的教会管理——一个由非营利事工提供的免费平台，让您的预算专注于事工本身。",
+        "ctaPrimary": "免费开始",
+        "ctaSecondary": "立即体验",
+        "trust": [
+          "永久免费——没有套餐，没有试用期",
+          "不加收任何交易费用",
+          "在 GitHub 上开源",
+          "始于 2012 年的 501(c)(3) 非营利事工"
+        ]
       },
-      "content": {
-        "title": "数字教会内容中心",
-        "description": "获取讲道、课堂课程、每日经文和完整的圣经译本。通过一周内持续更新的内容保持社区活跃。",
-        "items": ["讲道库", "圣经集成", "每日经文", "课堂课程"],
-        "cta": "浏览内容"
+      "products": {
+        "eyebrow": "一个平台",
+        "title": "每个事工，终于步调一致。",
+        "lead": "六个工具如同一个般运作——因为它们本就是一体。一个平台、一个数据库，没有任何功能单独收费。",
+        "linkLabel": "了解更多",
+        "items": {
+          "app": {
+            "name": "会友应用",
+            "desc": "小组、消息、讲道和奉献，尽在每位会友的口袋中。"
+          },
+          "giving": {
+            "name": "奉献",
+            "desc": "支持基金、批次和年度报表的在线奉献与定期奉献。"
+          },
+          "people": {
+            "name": "会友管理",
+            "desc": "完整的会友数据库，包含考勤、工作流程和 AI 搜索。"
+          },
+          "checkin": {
+            "name": "签到",
+            "desc": "快速安全的儿童签到，配有姓名标签和接送核对。"
+          },
+          "web": {
+            "name": "网站",
+            "desc": "专为教会主页打造的拖放式网站构建器。"
+          },
+          "plans": {
+            "name": "敬拜规划",
+            "desc": "聚会流程、诗歌库和义工排班。"
+          }
+        }
+      },
+      "connect": {
+        "eyebrow": "B1 移动应用",
+        "title": "让您的会众，",
+        "titleAccent": "一周七天保持连接。",
+        "lead": "在主日之外，也给教会一个共同的家。B1 应用将会友通讯录、小组、消息和讲道送到每位会众的手机上。",
+        "items": [
+          "小组聊天与讨论",
+          "会友通讯录与消息",
+          "讲道与直播",
+          "推送通知",
+          "圣经与每日金句",
+          "义工排班"
+        ],
+        "pwaTitle": "会友几秒钟即可完成安装",
+        "pwaNote": "B1 应用直接从教会网站安装，并且始终保持最新——每位会友都会自动获得最新版本。"
       },
       "giving": {
-        "title": "在线教会奉献",
-        "description": "通过信用卡/银行安全捐献，支持定期奉献和指定基金奉献。B1 不收取任何费用 - 直接集成 Stripe。",
-        "items": ["安全支付", "定期捐献", "基金管理", "奉献记录"],
-        "cta": "开始奉献"
+        "eyebrow": "在线奉献",
+        "title": "让慷慨奉献",
+        "titleAccent": "轻而易举。",
+        "lead": "会友只需几次点击，即可通过银行卡或银行账户奉献——一次性或定期皆可。您的团队可在同一处管理每个奉献项目、批次和年终报表。",
+        "items": [
+          "一次性与定期奉献",
+          "多个奉献项目与指定用途",
+          "自动生成年终奉献报表",
+          "现金与支票的批次管理"
+        ],
+        "feeNote": "B1 不在奉献中收取任何费用。您只需支付 Stripe 或 PayPal 的标准手续费——我们分文不取。"
+      },
+      "people": {
+        "eyebrow": "B1Admin · 教会管理",
+        "title": "真正认识",
+        "titleAccent": "您的会众。",
+        "lead": "B1Admin 是您团队的大本营：完整的会友数据库，配有出席分析、智能跟进，以及能用日常语言回答问题的 AI 搜索。",
+        "items": [
+          "完整的会友与家庭档案",
+          "出席记录与趋势分析",
+          "自动跟进工作流",
+          "AI 智能会友搜索"
+        ],
+        "link": "了解教会管理功能"
       },
       "checkin": {
-        "title": "教会签到平台",
-        "description": "无接触式礼拜签到，支持家庭管理和自动分组。简化出勤追踪流程。",
-        "items": ["无接触签到", "家庭管理", "自动分组", "出勤报告"],
-        "cta": "试用签到"
-      },
-      "mobileFirst": "移动优先",
-      "managementSystem": {
-        "title": "完整的",
-        "titleHighlight": "教会管理系统",
-        "description": "专业的教会数据库软件，包含会员管理、出勤追踪、奉献管理和事工沟通工具。专为成长中的教会和多堂点教会设计的免费教会管理系统。"
-      },
-      "grid": {
-        "peopleManagement": {
-          "title": "人员管理",
-          "description": "完整的会员和访客记录，支持高级搜索和关系追踪。"
-        },
-        "attendanceAnalytics": {
-          "title": "出勤分析",
-          "description": "通过精美的图表和全面的报告追踪出勤趋势。"
-        },
-        "groupsMinistries": {
-          "title": "小组与事工",
-          "description": "管理无限量的小组和班级，支持成员分配和追踪。"
-        },
-        "givingManagement": {
-          "title": "奉献管理",
-          "description": "处理捐献，支持批量管理、基金追踪和税务报表。"
-        },
-        "servicePlanning": {
-          "title": "礼拜规划",
-          "description": "安排崇拜礼拜、分配团队，管理志愿者协调。"
-        },
-        "songLibrary": {
-          "title": "诗歌库",
-          "description": "管理诗歌的编曲、调性、和弦谱和歌单。"
-        },
-        "communications": {
-          "title": "通讯",
-          "description": "发送精准的邮件和公告，支持自动化工作流程。"
-        },
-        "multiCampus": {
-          "title": "多堂点",
-          "description": "从统一的仪表板管理多个地点，支持各堂点专属数据。"
+        "eyebrow": "B1Checkin",
+        "title": "安心迎接",
+        "titleAccent": "每个家庭。",
+        "lead": "自助签到，自动打印姓名贴和配对的家长接领码——内置儿童安全保障，解放义工双手，出席自动记录。",
+        "items": [
+          "几秒钟即可按电话号码查询",
+          "接领时核对的配对安全码",
+          "无线标签打印",
+          "扫二维码即可登记访客"
+        ],
+        "receipt": {
+          "title": "费用一览",
+          "tablet": "Android 平板",
+          "printer": "标签打印机",
+          "total": "硬件，一次性",
+          "software": "软件，永久"
         }
       },
-      "showcase": {
-        "groupsMinistries": {
-          "title": "小组与事工",
-          "description": "管理无限量的小组和班级"
+      "ecosystem": {
+        "eyebrow": "整体架构",
+        "title": "一个平台。",
+        "titleAccent": "一个数据库。",
+        "lead": "家庭信息只需更新一次，网站、应用、签到和奉献处处准确。无需同步操作，无需导出，也没有按模块收费。",
+        "hubTitle": "一个共享数据库",
+        "hubSubtitle": "会友 · 小组 · 奉献 · 出席",
+        "nodes": {
+          "admin": {
+            "name": "B1Admin",
+            "desc": "管理会友、奉献、事奉计划和报表的同工后台。"
+          },
+          "web": {
+            "name": "教会网站",
+            "desc": "您的公开网站、讲道、日历和奉献页面。"
+          },
+          "mobile": {
+            "name": "移动应用",
+            "desc": "面向会友的小组、消息和奉献应用。"
+          },
+          "checkin": {
+            "name": "B1Checkin",
+            "desc": "带姓名贴和安全码的自助签到台。"
+          }
         },
-        "peopleSearch": {
-          "title": "人员搜索",
-          "description": "高级会员数据库"
-        },
-        "servicePlanning": {
-          "title": "礼拜规划",
-          "description": "安排团队和任务分配"
-        },
-        "songLibrary": {
-          "title": "诗歌库",
-          "description": "编曲和和弦谱"
-        }
-      },
-      "dashboard": {
-        "title": "美观、直观的仪表板",
-        "description": "通过我们简洁、现代化的界面访问您所有的教会数据，专为高效和易用而设计。"
-      },
-      "additional": {
-        "security": {
-          "title": "安全与隐私",
-          "description": "行业标准加密和安全数据存储"
-        },
-        "mobile": {
-          "title": "移动端访问",
-          "description": "响应式设计，在所有设备上完美运行"
-        },
-        "workflows": {
-          "title": "自动化工作流程",
-          "description": "跟进序列和会员关怀自动化"
-        },
-        "reporting": {
-          "title": "实时报告",
-          "description": "即时生成报告，随时导出数据"
-        },
-        "forms": {
-          "title": "自定义表单",
-          "description": "为任何用途构建注册表单和调查问卷"
-        },
-        "roles": {
-          "title": "基于角色的访问控制",
-          "description": "为工作人员和志愿者设置安全权限"
-        }
-      },
-      "ctaSection": {
-        "title": "准备好建设更强大的",
-        "titleHighlight": "教会社区了吗？",
-        "description": "借助我们全面的免费平台，通过现代技术加深关系、增强教会社区，实现教会的转型。",
+        "integrationsLabel": "与您已经在用的工具无缝配合",
         "cta": "免费开始"
+      },
+      "capabilities": {
+        "eyebrow": "还有更多",
+        "title": "待办清单上剩下的事，也都搞定。",
+        "lead": "敬拜规划、义工、表单、自动化——运营教会的日常工作，全部包含在内。",
+        "cells": {
+          "servicePlanning": {
+            "title": "崇拜规划",
+            "desc": "规划崇拜聚会、分配义工团队，并自动通知所有人。"
+          },
+          "groups": {
+            "title": "小组与事工",
+            "desc": "不限数量的小组，配有组长、日历和出席管理。"
+          },
+          "songs": {
+            "title": "诗歌库",
+            "desc": "为敬拜团队准备的编曲、调号和链接。"
+          },
+          "forms": {
+            "title": "表单与报名",
+            "desc": "用于活动、报名和问卷的自定义表单。"
+          },
+          "automations": {
+            "title": "工作流与自动化",
+            "desc": "新人跟进和周期性任务自动运行。"
+          },
+          "multiCampus": {
+            "title": "多堂点",
+            "desc": "所有堂点尽在一个后台，并提供堂点级报表。"
+          },
+          "roles": {
+            "title": "角色与权限",
+            "desc": "为同工和义工精确分配所需权限。"
+          },
+          "reports": {
+            "title": "报表与导出",
+            "desc": "出席趋势、奉献汇总，以及一键导出。"
+          }
+        },
+        "openSource": {
+          "title": "开源，无锁定",
+          "desc": "B1 完全开源。您可以查看代码、参与贡献或自行部署——数据永远属于您。",
+          "linkLabel": "在 GitHub 上查看代码"
+        }
+      },
+      "pricing": {
+        "eyebrow": "价格",
+        "title": "这就是完整的价格表。",
+        "lead": "没有套餐分级，没有按人数收费，也不会在 200 人时突然涨价。本页所有内容对任何规模的教会都完全包含。",
+        "per": "每月——包含一切，永久有效",
+        "note": "在线奉献的银行卡手续费由支付处理商按其标准费率收取，我们不加收任何费用。",
+        "cta": "免费开始"
+      },
+      "mission": {
+        "eyebrow": "为什么免费？",
+        "statement1": "不出售。",
+        "statement2": "不营利。",
+        "title": "出自事工之手，而非商业供应商。",
+        "lead": "B1 由 Live Church Solutions 打造，这是一家成立于 2012 年的 501(c)(3) 非营利机构。教会每年在软件上花费数亿美元——我们更希望这些钱用在事工上。",
+        "stats": {
+          "free": "永久免费",
+          "fees": "额外费用",
+          "founded": "服务教会始于",
+          "languages": "支持语言"
+        },
+        "audiences": [
+          {
+            "title": "植堂教会",
+            "description": "从第一天起就拥有专业工具——无需软件预算。"
+          },
+          {
+            "title": "中小型教会",
+            "description": "义工也能轻松上手运营，无需任何维护。"
+          },
+          {
+            "title": "多堂点教会",
+            "description": "统一所有堂点的会友数据与报表。"
+          },
+          {
+            "title": "全球事工",
+            "description": "支持 29 种语言，并有资金保障，让它在世界任何地方都保持免费。"
+          }
+        ],
+        "sister": "我们还开发了免费演示软件 FreeShow，以及拥有 1,100 多课免费课程的 Lessons.church——和我们做的所有产品一样，免费且开源。",
+        "aboutChurchApps": "关于 ChurchApps"
+      },
+      "finalCta": {
+        "title": "合一的教会。",
+        "titleAccent": "一切尽在一处。",
+        "description": "几分钟即可完成教会设置——您的应用、网站、奉献和签到都已就绪。",
+        "ctaPrimary": "免费开始",
+        "ctaSecondary": "阅读常见问题",
+        "reassurance": "无需信用卡——因为根本没有任何收费。永久免费，由一个希望它一直免费的事工提供。"
+      }
+    },
+    "fragments": {
+      "checkinToast": {
+        "title": "约翰逊一家已签到",
+        "detail": "学前班 A · 上午 9:02"
+      },
+      "givingStat": {
+        "label": "本月奉献"
+      },
+      "aiSearch": {
+        "query": "过去 90 天内加入的家庭"
+      },
+      "workflow": {
+        "title": "新访客跟进",
+        "badge": "自动化",
+        "step1": "发送欢迎邮件",
+        "step2": "分配给牧者"
+      },
+      "nameTag": {
+        "hello": "你好",
+        "myNameIs": "我的名字是",
+        "pickup": "家长接领"
+      },
+      "pushNotification": {
+        "app": "Grace Church",
+        "message": "主日义工排班已发布",
+        "time": "刚刚"
       }
     },
     "testimonials": {
@@ -148,13 +274,13 @@
       "subtitle": "加入已通过我们完全免费的平台实现事工转型的成长中教会。以下是牧师和教会管理员对 B1 的评价。",
       "stats": {
         "churchesValue": "100+",
-        "churchesLabel": "教会信赖我们",
+        "churchesLabel": "服务全球教会",
         "freeValue": "免费",
-        "freeLabel": "永久免费",
-        "uptimeValue": "99.9%",
-        "uptimeLabel": "在线率保证",
-        "supportValue": "24/7",
-        "supportLabel": "全天候支持"
+        "freeLabel": "永远如此",
+        "openValue": "开放",
+        "openLabel": "源代码",
+        "languagesValue": "29",
+        "languagesLabel": "支持语言"
       },
       "items": [
         {
@@ -175,10 +301,11 @@
       ],
       "ctaTitle": "准备好转型您的教会管理了吗？",
       "ctaDescription": "加入越来越多已在使用 B1 的教会社区 - 完全永久免费。无需信用卡，无试用期，无隐藏费用。",
-      "ctaButton": "免费开始"
+      "ctaButton": "免费开始",
+      "compareLink": "看看 B1 与 Planning Center、Pushpay 等如何对比"
     },
     "websiteBuilder": {
-      "badge": "Web 门户功能",
+      "badge": "您的教会网站",
       "title": "免费教会网站构建器",
       "titleHighlight": "几分钟而非几个月",
       "description": "使用我们免费的内置网站构建器创建美观、专业的教会网站。无需编程 - 只需拖放并发布您的教会网站。",
@@ -197,90 +324,15 @@
       "cta": "开始构建您的教会网站",
       "ctaSubtext": "每个账户均包含完整的免费教会网站构建器"
     },
-    "perfectFor": {
-      "title": "适用于每一个",
-      "titleHighlight": "教会社区",
-      "subtitle": "适用于所有规模教会的完全免费平台。我们的事工使命意味着没有隐藏费用、没有功能限制、没有意外。",
-      "audiences": [
-        {
-          "title": "本地教会",
-          "description": "希望实现数字化转型的单一堂点教会",
-          "stats": "任何规模"
-        },
-        {
-          "title": "多堂点教会",
-          "description": "需要统一管理同时保持各自特色的多个地点",
-          "stats": "所有地点"
-        },
-        {
-          "title": "宗派网络",
-          "description": "为多个教会提供共享资源服务的组织",
-          "stats": "每个网络"
-        },
-        {
-          "title": "注重社区",
-          "description": "重视深度参与和关系建设的教会",
-          "stats": "日益增长"
-        }
-      ],
-      "integrations": {
-        "adminIntegration": {
-          "title": "B1 Admin 集成",
-          "description": "与 B1 Admin 教会管理软件无缝集成，实现完整的工作流程自动化。"
-        },
-        "webPortal": {
-          "title": "包含 Web 门户",
-          "description": "全面的 Web 门户，配有网站构建器，同时提供强大的移动应用体验。"
-        },
-        "instantSetup": {
-          "title": "即时设置",
-          "description": "通过我们简化的引导流程和专属支持团队，几分钟内即可开始使用。"
-        }
-      },
-      "about": {
-        "title": "关于我们的免费软件",
-        "description": "我们是一个 501(c)(3) 非营利事工组织，致力于提供完全免费的教会管理软件。我们的使命是赋能教会专注于事工，而非软件成本。",
-        "stats": {
-          "freeValue": "100%",
-          "freeLabel": "永久免费",
-          "setupValue": "$0",
-          "setupLabel": "设置费用",
-          "churchesValue": "100+",
-          "churchesLabel": "服务的教会",
-          "openValue": "Open",
-          "openLabel": "Source Code"
-        },
-        "features": [
-          "无需信用卡",
-          "无限用户和会员",
-          "包含所有功能",
-          "定期更新和改进",
-          "24/7 社区支持",
-          "移动端和网页端访问",
-          "数据导入协助",
-          "开源透明"
-        ],
-        "learnMore": "了解更多关于我们的事工和使命",
-        "aboutChurchApps": "关于 ChurchApps",
-        "viewOnGitHub": "在 GitHub 上查看"
-      },
-      "cta": {
-        "title": "准备好增强您的社区了吗？",
-        "description": "了解我们全面的事工平台如何帮助您建立更深层的关系和更强大的社区。",
-        "button": "立即免费开始",
-        "tagline": "100% 免费 \u2022 无隐藏费用 \u2022 事工驱动使命"
-      }
-    },
     "footer": {
-      "companyDescription": "一体化教会沟通平台，将崇拜、社区、奉献和管理融为一体。",
+      "companyDescription": "将教会的应用、网站、奉献和行政管理融为一体的免费开源平台。",
       "product": "产品",
       "mobileFeatures": "移动功能",
       "websiteBuilder": "网站构建器",
       "faq": "常见问题",
       "aboutChurchApps": "关于 ChurchApps",
       "appsAndResources": "应用与资源",
-      "androidApp": "Android 应用",
-      "iosApp": "iOS 应用",
+      "installApp": "安装移动应用",
       "helpCenter": "帮助中心",
       "contact": "联系我们",
       "availableWorldwide": "全球可用"
@@ -297,7 +349,7 @@
         },
         {
           "question": "B1.church 包含哪些功能？",
-          "answer": "B1.church 包含完整的教会管理平台：iOS 和 Android 移动应用、拖放式网站构建器、无交易手续费的在线奉献、智能签到系统、会员数据库、出勤追踪、小组管理、礼拜规划、诗歌库、讲道管理和圣经集成。"
+          "answer": "B1.church 包含一个完整的教会管理平台：直接从您的网站安装的会友移动应用、拖拽式网站构建器、不加收平台费用的在线奉献、带安全码的儿童签到系统、会友数据库、出席管理、小组管理、崇拜规划、诗歌库、讲道管理以及圣经集成。"
         },
         {
           "question": "B1.church 与 Planning Center 相比如何？",
@@ -316,12 +368,12 @@
           "answer": "B1.church 免费，而 Breeze 起价 $72/月。B1 包含完整的移动应用和网站构建器，而 Breeze 的移动功能有限且没有网站构建器。两者都提供教会管理功能，但 B1 免费提供更多功能。"
         },
         {
-          "question": "我可以为我的教会获得定制的移动应用吗？",
-          "answer": "可以，B1.church 为 iOS 和 Android 提供定制品牌的移动应用。您的教会将拥有带有自己品牌标识的专属应用，会众可以从 App Store 和 Google Play 下载。这包含在 B1 的免费服务中。"
+          "question": "我的教会会有自己的移动应用吗？",
+          "answer": "会的。B1 以可安装的网页应用（PWA）形式，为您的教会提供专属品牌的移动应用体验。会友打开教会网站，点击“添加到主屏幕”，就能获得带有教会名称和标志的全屏应用。更新即刻送达每个人。"
         },
         {
           "question": "B1.church 支持在线奉献吗？",
-          "answer": "是的，B1.church 包含安全的在线奉献功能，支持信用卡和银行转账。您可以设置定期捐献、管理多个基金，并提供奉献记录用于税务报表。我们使用直接的 Stripe 集成，B1 平台不收取任何费用 - 您的教会直接与 Stripe 协商费率（通常约 2.9% + 30\u00a2）。"
+          "answer": "是的，B1.church 包含安全的在线奉献功能，支持信用卡和银行转账。您可以设置定期捐献、管理多个基金，并提供奉献记录用于税务报表。我们使用直接的 Stripe 集成，B1 平台不收取任何费用 - 您的教会直接与 Stripe 协商费率（通常约 2.9% + 30¢）。"
         },
         {
           "question": "我可以用 B1.church 建立网站吗？",
@@ -377,16 +429,56 @@
           "tagline": "Planning Center 的免费替代方案",
           "description": "Planning Center 是一个流行的教会管理平台，采用模块化定价。B1.church 完全免费地提供类似功能。",
           "features": [
-            { "name": "会员数据库", "b1": true, "competitor": true },
-            { "name": "签到系统", "b1": true, "competitor": "$99/月" },
-            { "name": "在线奉献", "b1": "B1 无费用", "competitor": "平台费 + Stripe 费用" },
-            { "name": "小组管理", "b1": true, "competitor": "$50/月" },
-            { "name": "礼拜规划", "b1": true, "competitor": "$14-99/月" },
-            { "name": "移动应用", "b1": "免费品牌应用", "competitor": "$0-199/月" },
-            { "name": "网站构建器", "b1": true, "competitor": false },
-            { "name": "讲道管理", "b1": true, "competitor": false },
-            { "name": "多堂点", "b1": true, "competitor": "额外费用" },
-            { "name": "开源", "b1": true, "competitor": false }
+            {
+              "name": "会员数据库",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "签到系统",
+              "b1": true,
+              "competitor": "$99/月"
+            },
+            {
+              "name": "在线奉献",
+              "b1": "B1 无费用",
+              "competitor": "平台费 + Stripe 费用"
+            },
+            {
+              "name": "小组管理",
+              "b1": true,
+              "competitor": "$50/月"
+            },
+            {
+              "name": "礼拜规划",
+              "b1": true,
+              "competitor": "$14-99/月"
+            },
+            {
+              "name": "移动应用",
+              "b1": "免费品牌应用",
+              "competitor": "$0-199/月"
+            },
+            {
+              "name": "网站构建器",
+              "b1": true,
+              "competitor": false
+            },
+            {
+              "name": "讲道管理",
+              "b1": true,
+              "competitor": false
+            },
+            {
+              "name": "多堂点",
+              "b1": true,
+              "competitor": "额外费用"
+            },
+            {
+              "name": "开源",
+              "b1": true,
+              "competitor": false
+            }
           ],
           "pricingB1": "100% 免费",
           "pricingCompetitor": "$0 - $500+/月，取决于模块",
@@ -397,16 +489,56 @@
           "tagline": "Pushpay 的免费替代方案",
           "description": "Pushpay 以移动奉献著称，但伴随着高昂的月费和交易手续费。B1.church 提供零平台费用的奉献功能。",
           "features": [
-            { "name": "在线奉献", "b1": "B1 无费用", "competitor": "平台费 + Stripe 费用" },
-            { "name": "定期捐献", "b1": true, "competitor": true },
-            { "name": "移动应用", "b1": "免费品牌应用", "competitor": "包含" },
-            { "name": "会员数据库", "b1": true, "competitor": "ChMS 额外付费" },
-            { "name": "签到系统", "b1": true, "competitor": "额外费用" },
-            { "name": "网站构建器", "b1": true, "competitor": false },
-            { "name": "小组管理", "b1": true, "competitor": "额外费用" },
-            { "name": "奉献报表", "b1": true, "competitor": true },
-            { "name": "基金管理", "b1": true, "competitor": true },
-            { "name": "开源", "b1": true, "competitor": false }
+            {
+              "name": "在线奉献",
+              "b1": "B1 无费用",
+              "competitor": "平台费 + Stripe 费用"
+            },
+            {
+              "name": "定期捐献",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "移动应用",
+              "b1": "免费品牌应用",
+              "competitor": "包含"
+            },
+            {
+              "name": "会员数据库",
+              "b1": true,
+              "competitor": "ChMS 额外付费"
+            },
+            {
+              "name": "签到系统",
+              "b1": true,
+              "competitor": "额外费用"
+            },
+            {
+              "name": "网站构建器",
+              "b1": true,
+              "competitor": false
+            },
+            {
+              "name": "小组管理",
+              "b1": true,
+              "competitor": "额外费用"
+            },
+            {
+              "name": "奉献报表",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "基金管理",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "开源",
+              "b1": true,
+              "competitor": false
+            }
           ],
           "pricingB1": "100% 免费",
           "pricingCompetitor": "$300 - $1,000+/月",
@@ -417,16 +549,56 @@
           "tagline": "Tithe.ly 的免费替代方案",
           "description": "Tithe.ly 提供教会奉献和管理工具，采用免费增值定价。B1.church 提供所有功能且完全免费，不收取交易手续费。",
           "features": [
-            { "name": "在线奉献", "b1": "B1 无费用", "competitor": "平台费 + Stripe 费用" },
-            { "name": "定期捐献", "b1": true, "competitor": true },
-            { "name": "移动应用", "b1": "免费品牌应用", "competitor": "$99/月" },
-            { "name": "会员数据库", "b1": true, "competitor": "$99/月" },
-            { "name": "签到系统", "b1": true, "competitor": "$49/月" },
-            { "name": "网站构建器", "b1": true, "competitor": "$49/月" },
-            { "name": "小组管理", "b1": true, "competitor": "$99/月" },
-            { "name": "讲道管理", "b1": true, "competitor": "$49/月" },
-            { "name": "多堂点", "b1": true, "competitor": "额外费用" },
-            { "name": "开源", "b1": true, "competitor": false }
+            {
+              "name": "在线奉献",
+              "b1": "B1 无费用",
+              "competitor": "平台费 + Stripe 费用"
+            },
+            {
+              "name": "定期捐献",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "移动应用",
+              "b1": "免费品牌应用",
+              "competitor": "$99/月"
+            },
+            {
+              "name": "会员数据库",
+              "b1": true,
+              "competitor": "$99/月"
+            },
+            {
+              "name": "签到系统",
+              "b1": true,
+              "competitor": "$49/月"
+            },
+            {
+              "name": "网站构建器",
+              "b1": true,
+              "competitor": "$49/月"
+            },
+            {
+              "name": "小组管理",
+              "b1": true,
+              "competitor": "$99/月"
+            },
+            {
+              "name": "讲道管理",
+              "b1": true,
+              "competitor": "$49/月"
+            },
+            {
+              "name": "多堂点",
+              "b1": true,
+              "competitor": "额外费用"
+            },
+            {
+              "name": "开源",
+              "b1": true,
+              "competitor": false
+            }
           ],
           "pricingB1": "100% 免费",
           "pricingCompetitor": "免费版 + $49-199/月获取更多功能",
@@ -437,16 +609,56 @@
           "tagline": "Breeze ChMS 的免费替代方案",
           "description": "Breeze 是一个简单的教会管理系统，定价直观。B1.church 免费提供更多功能。",
           "features": [
-            { "name": "会员数据库", "b1": true, "competitor": true },
-            { "name": "奉献管理", "b1": "B1 无费用", "competitor": "2.9% + 30\u00a2" },
-            { "name": "签到系统", "b1": true, "competitor": "基础版" },
-            { "name": "移动应用", "b1": "免费品牌应用", "competitor": "有限" },
-            { "name": "网站构建器", "b1": true, "competitor": false },
-            { "name": "小组管理", "b1": true, "competitor": true },
-            { "name": "活动管理", "b1": true, "competitor": true },
-            { "name": "志愿者排班", "b1": true, "competitor": true },
-            { "name": "多堂点", "b1": true, "competitor": false },
-            { "name": "开源", "b1": true, "competitor": false }
+            {
+              "name": "会员数据库",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "奉献管理",
+              "b1": "B1 无费用",
+              "competitor": "2.9% + 30¢"
+            },
+            {
+              "name": "签到系统",
+              "b1": true,
+              "competitor": "基础版"
+            },
+            {
+              "name": "移动应用",
+              "b1": "免费品牌应用",
+              "competitor": "有限"
+            },
+            {
+              "name": "网站构建器",
+              "b1": true,
+              "competitor": false
+            },
+            {
+              "name": "小组管理",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "活动管理",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "志愿者排班",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "多堂点",
+              "b1": true,
+              "competitor": false
+            },
+            {
+              "name": "开源",
+              "b1": true,
+              "competitor": false
+            }
           ],
           "pricingB1": "100% 免费",
           "pricingCompetitor": "$72 - $135/月",
@@ -479,7 +691,7 @@
         "features": [
           "通过电话号码搜索并自动选择礼拜",
           "无线打印标签和收据到共享打印机",
-          "在低于 $80 的 Android 平板上运行",
+          "可在价格亲民的 Android 平板上运行（约 $150）",
           "自动与出勤追踪系统同步"
         ]
       },
@@ -588,6 +800,54 @@
         "description": "加入全球已切换到完全免费、开源解决方案的教会，该方案由事工团队打造，为事工服务。",
         "primaryButton": "免费开始",
         "secondaryButton": "试用演示"
+      },
+      "showcase": {
+        "groupsMinistries": {
+          "title": "小组与事工",
+          "description": "管理无限量的小组和班级"
+        },
+        "peopleSearch": {
+          "title": "人员搜索",
+          "description": "高级会员数据库"
+        },
+        "servicePlanning": {
+          "title": "礼拜规划",
+          "description": "安排团队和任务分配"
+        },
+        "songLibrary": {
+          "title": "诗歌库",
+          "description": "编曲和和弦谱"
+        }
+      },
+      "dashboard": {
+        "title": "美观、直观的仪表板",
+        "description": "通过我们简洁、现代化的界面访问您所有的教会数据，专为高效和易用而设计。"
+      },
+      "additional": {
+        "security": {
+          "title": "安全与隐私",
+          "description": "行业标准加密和安全数据存储"
+        },
+        "mobile": {
+          "title": "移动端访问",
+          "description": "响应式设计，在所有设备上完美运行"
+        },
+        "workflows": {
+          "title": "自动化工作流程",
+          "description": "跟进序列和会员关怀自动化"
+        },
+        "reporting": {
+          "title": "实时报告",
+          "description": "即时生成报告，随时导出数据"
+        },
+        "forms": {
+          "title": "自定义表单",
+          "description": "为任何用途构建注册表单和调查问卷"
+        },
+        "roles": {
+          "title": "基于角色的访问控制",
+          "description": "为工作人员和志愿者设置安全权限"
+        }
       }
     },
     "notFound": {
