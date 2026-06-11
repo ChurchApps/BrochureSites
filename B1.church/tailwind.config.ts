@@ -17,7 +17,7 @@ export default {
       screens: { "2xl": "1400px" }
     },
     extend: {
-      fontFamily: { sans: ["Inter", "sans-serif"] },
+      fontFamily: { sans: ["Plus Jakarta Sans", "sans-serif"] },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -54,9 +54,10 @@ export default {
         },
         "surface-tint": "hsl(var(--surface-tint))",
         "surface-warm": "hsl(var(--surface-warm))",
-        sun: "hsl(var(--sun))",
-        coral: "hsl(var(--coral))",
-        lilac: "hsl(var(--lilac))",
+        sun: { DEFAULT: "hsl(var(--sun))", deep: "hsl(var(--sun-deep))" },
+        coral: { DEFAULT: "hsl(var(--coral))", deep: "hsl(var(--coral-deep))" },
+        lilac: { DEFAULT: "hsl(var(--lilac))", deep: "hsl(var(--lilac-deep))" },
+        cyan: { DEFAULT: "hsl(var(--cyan))", deep: "hsl(var(--cyan-deep))" },
         popover: {
           DEFAULT: "hsl(var(--popover))",
           foreground: "hsl(var(--popover-foreground))"

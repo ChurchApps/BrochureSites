@@ -18,11 +18,12 @@ const ConnectSection = () => {
           <Reveal>
             <SectionHeading
               align="left"
+              tone="text-cyan"
               eyebrow={t("brochure.home.connect.eyebrow")}
               title={
                 <>
                   {t("brochure.home.connect.title")}{" "}
-                  <span className="text-primary">{t("brochure.home.connect.titleAccent")}</span>
+                  <span className="text-cyan">{t("brochure.home.connect.titleAccent")}</span>
                 </>
               }
               lead={t("brochure.home.connect.lead")}
@@ -35,8 +36,8 @@ const ConnectSection = () => {
                 </div>
               ))}
             </div>
-            <div className="mt-8 flex items-start gap-3 rounded-xl border border-primary/20 bg-primary/5 p-4">
-              <Smartphone className="mt-0.5 h-5 w-5 shrink-0 text-primary" />
+            <div className="mt-8 flex items-start gap-3 rounded-2xl border border-cyan/20 bg-cyan/5 p-4">
+              <Smartphone className="mt-0.5 h-5 w-5 shrink-0 text-cyan" />
               <div>
                 <div className="text-sm font-semibold text-foreground">{t("brochure.home.connect.pwaTitle")}</div>
                 <p className="text-sm text-muted-foreground">{t("brochure.home.connect.pwaNote")}</p>
@@ -45,7 +46,7 @@ const ConnectSection = () => {
           </Reveal>
 
           <div className="relative mx-auto flex max-w-md justify-center gap-6 pb-10">
-            <div className="absolute inset-x-0 inset-y-6 rotate-2 rounded-3xl bg-gradient-to-br from-violet-100 via-sky-100 to-primary/10" />
+            <div className="absolute inset-x-0 inset-y-6 rounded-[2.5rem] bg-cyan/10" />
             <PhoneFrame
               src="/community-groups-phone.webp"
               alt="B1 mobile app groups screen"

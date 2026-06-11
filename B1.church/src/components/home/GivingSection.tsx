@@ -13,12 +13,11 @@ const GivingSection = () => {
   const items = tArray<string>("brochure.home.giving.items");
 
   return (
-    <section className="relative overflow-hidden bg-surface-tint py-24 lg:py-32">
-      <div className="absolute inset-0 bg-dots" aria-hidden="true" />
+    <section id="giving" className="relative overflow-hidden bg-surface-tint py-24 lg:py-32">
       <div className="container relative z-10 mx-auto px-4">
         <div className="grid items-center gap-16 lg:grid-cols-2">
           <div className="relative order-2 pb-12 lg:order-1">
-            <div className="absolute -inset-y-4 -left-4 -right-2 -rotate-2 rounded-3xl bg-gradient-to-br from-emerald-100 via-sky-100 to-primary/10" />
+            <div className="absolute -inset-y-4 -left-4 -right-2 rounded-[2.5rem] bg-sun/10" />
             <BrowserFrame
               src="/giving-management-dashboard.webp"
               alt="B1Admin donation summary dashboard"
@@ -36,11 +35,12 @@ const GivingSection = () => {
           <Reveal className="order-1 lg:order-2">
             <SectionHeading
               align="left"
+              tone="text-sun-deep"
               eyebrow={t("brochure.home.giving.eyebrow")}
               title={
                 <>
                   {t("brochure.home.giving.title")}{" "}
-                  <span className="text-primary">{t("brochure.home.giving.titleAccent")}</span>
+                  <span className="text-sun-deep">{t("brochure.home.giving.titleAccent")}</span>
                 </>
               }
               lead={t("brochure.home.giving.lead")}
@@ -53,8 +53,8 @@ const GivingSection = () => {
                 </div>
               ))}
             </div>
-            <div className="mt-8 flex items-start gap-3 rounded-xl border border-accent/25 bg-accent/5 p-4">
-              <BadgeDollarSign className="mt-0.5 h-5 w-5 shrink-0 text-accent" />
+            <div className="mt-8 flex items-start gap-3 rounded-2xl border border-sun/30 bg-sun/10 p-4">
+              <BadgeDollarSign className="mt-0.5 h-5 w-5 shrink-0 text-sun-deep" />
               <p className="text-sm text-muted-foreground">{t("brochure.home.giving.feeNote")}</p>
             </div>
           </Reveal>

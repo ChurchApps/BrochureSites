@@ -30,7 +30,7 @@ const Node = ({ icon: Icon, name, desc, iconClass = "text-primary-light", classN
 );
 
 const Hub = ({ title, subtitle }: { title: string; subtitle: string }) => (
-  <div className="w-fit rounded-2xl bg-primary/15 px-7 py-5 text-center ring-1 ring-primary/40 backdrop-blur shadow-[0_0_60px_hsl(215_85%_48%/0.35)]">
+  <div className="w-fit rounded-2xl bg-primary/15 px-7 py-5 text-center ring-1 ring-primary/40 backdrop-blur shadow-[0_0_60px_hsl(221_93%_55%/0.35)]">
     <Database className="mx-auto h-7 w-7 text-primary-light" />
     <div className="mt-2 font-bold text-ink-foreground">{title}</div>
     <div className="text-xs text-ink-muted">{subtitle}</div>
@@ -41,16 +41,14 @@ const EcosystemSection = () => {
   const { t } = useTranslation();
 
   const nodes = [
-    { icon: LayoutDashboard, name: t("brochure.home.ecosystem.nodes.admin.name"), desc: t("brochure.home.ecosystem.nodes.admin.desc"), iconClass: "text-primary-light" },
-    { icon: Globe, name: t("brochure.home.ecosystem.nodes.web.name"), desc: t("brochure.home.ecosystem.nodes.web.desc"), iconClass: "text-violet-400" },
-    { icon: Smartphone, name: t("brochure.home.ecosystem.nodes.mobile.name"), desc: t("brochure.home.ecosystem.nodes.mobile.desc"), iconClass: "text-emerald-400" },
-    { icon: Tablet, name: t("brochure.home.ecosystem.nodes.checkin.name"), desc: t("brochure.home.ecosystem.nodes.checkin.desc"), iconClass: "text-amber-400" }
+    { icon: LayoutDashboard, name: t("brochure.home.ecosystem.nodes.admin.name"), desc: t("brochure.home.ecosystem.nodes.admin.desc"), iconClass: "text-sky-400" },
+    { icon: Globe, name: t("brochure.home.ecosystem.nodes.web.name"), desc: t("brochure.home.ecosystem.nodes.web.desc"), iconClass: "text-orange-400" },
+    { icon: Smartphone, name: t("brochure.home.ecosystem.nodes.mobile.name"), desc: t("brochure.home.ecosystem.nodes.mobile.desc"), iconClass: "text-cyan-400" },
+    { icon: Tablet, name: t("brochure.home.ecosystem.nodes.checkin.name"), desc: t("brochure.home.ecosystem.nodes.checkin.desc"), iconClass: "text-purple-300" }
   ];
 
   return (
     <section className="relative overflow-hidden bg-ink-aurora py-24 lg:py-32">
-      <div className="stained-strip absolute inset-x-0 top-0 h-[3px] opacity-80" aria-hidden="true" />
-      <div className="absolute inset-0 bg-dots-dark" aria-hidden="true" />
       <div className="container relative z-10 mx-auto px-4">
         <Reveal>
           <SectionHeading
@@ -69,10 +67,10 @@ const EcosystemSection = () => {
         {/* Desktop diagram */}
         <div className="relative mx-auto mt-16 hidden h-[400px] max-w-4xl lg:block">
           <svg className="absolute inset-0 h-full w-full" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
-            <line x1="22" y1="22" x2="50" y2="50" stroke="hsl(213 94% 68% / 0.35)" strokeWidth="1" strokeDasharray="3 3" vectorEffect="non-scaling-stroke" className="animate-dash" />
-            <line x1="78" y1="22" x2="50" y2="50" stroke="hsl(213 94% 68% / 0.35)" strokeWidth="1" strokeDasharray="3 3" vectorEffect="non-scaling-stroke" className="animate-dash" />
-            <line x1="22" y1="78" x2="50" y2="50" stroke="hsl(213 94% 68% / 0.35)" strokeWidth="1" strokeDasharray="3 3" vectorEffect="non-scaling-stroke" className="animate-dash" />
-            <line x1="78" y1="78" x2="50" y2="50" stroke="hsl(213 94% 68% / 0.35)" strokeWidth="1" strokeDasharray="3 3" vectorEffect="non-scaling-stroke" className="animate-dash" />
+            <line x1="22" y1="22" x2="50" y2="50" stroke="hsl(220 80% 65% / 0.35)" strokeWidth="1" strokeDasharray="3 3" vectorEffect="non-scaling-stroke" className="animate-dash" />
+            <line x1="78" y1="22" x2="50" y2="50" stroke="hsl(220 80% 65% / 0.35)" strokeWidth="1" strokeDasharray="3 3" vectorEffect="non-scaling-stroke" className="animate-dash" />
+            <line x1="22" y1="78" x2="50" y2="50" stroke="hsl(220 80% 65% / 0.35)" strokeWidth="1" strokeDasharray="3 3" vectorEffect="non-scaling-stroke" className="animate-dash" />
+            <line x1="78" y1="78" x2="50" y2="50" stroke="hsl(220 80% 65% / 0.35)" strokeWidth="1" strokeDasharray="3 3" vectorEffect="non-scaling-stroke" className="animate-dash" />
           </svg>
           <Node {...nodes[0]} className="absolute left-[6%] top-[8%]" />
           <Node {...nodes[1]} className="absolute right-[6%] top-[8%]" />

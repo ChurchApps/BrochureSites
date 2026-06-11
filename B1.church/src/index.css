@@ -1,5 +1,5 @@
 /* CSS @import statements MUST come before all other rules */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
 
 @import "tailwindcss";
 @config "../tailwind.config.ts";
@@ -7,67 +7,74 @@
 /* Definition of the design system. All colors, gradients, fonts, etc should be defined here.
 All colors MUST be HSL.
 
-"Light Table" direction: paper-white canvas with ink-navy punctuation bands.
-The product UI (light/blue) is the photography; screenshots must blend in.
-Warmth layer ("stained glass"): sun/coral/lilac accents and sunrise blooms keep
-the page from reading single-hue corporate blue — color stands in for photos. */
+"In sync" direction (Planning Center-inspired): blue-tinted paper, deep navy ink,
+one vivid royal blue for action, and a product-color family (cyan app, gold giving,
+plum check-in, orange websites) so each ministry section carries its own hue.
+Type is geometric and friendly (Plus Jakarta Sans), body sits at weight 500,
+buttons are chunky pills. Product screenshots stay the photography. */
 
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 222 47% 11%;
+    --foreground: 224 57% 18%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222 47% 11%;
+    --card-foreground: 224 57% 18%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222 47% 11%;
+    --popover-foreground: 224 57% 18%;
 
-    /* Primary blue bridges the brand mark and the MUI blue in product screenshots */
-    --primary: 215 85% 48%;
+    /* Royal blue: the single action color */
+    --primary: 221 93% 55%;
     --primary-foreground: 0 0% 100%;
-    --primary-light: 213 94% 68%;
-    --primary-dark: 217 80% 36%;
-    --primary-vibrant: 207 95% 55%;
+    --primary-light: 220 74% 57%;
+    --primary-dark: 221 93% 47%;
+    --primary-vibrant: 221 100% 62%;
 
-    --secondary: 214 50% 96%;
-    --secondary-foreground: 222 47% 11%;
+    --secondary: 218 63% 94%;
+    --secondary-foreground: 224 57% 18%;
 
-    --muted: 214 40% 96%;
-    --muted-foreground: 217 18% 38%;
+    --muted: 210 57% 97%;
+    --muted-foreground: 220 15% 47%;
 
-    --accent: 145 65% 38%;
+    --accent: 173 40% 40%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 215 28% 90%;
-    --input: 215 28% 90%;
-    --ring: 215 85% 48%;
+    --border: 217 33% 89%;
+    --input: 217 33% 89%;
+    --ring: 221 93% 55%;
 
-    --radius: 0.75rem;
+    --radius: 1rem;
 
-    /* Ink: deep navy bands that replace stock-photo drama */
-    --ink: 222 47% 11%;
-    --ink-soft: 221 40% 16%;
-    --ink-foreground: 210 40% 98%;
-    --ink-muted: 215 25% 72%;
-    --surface-tint: 214 60% 97.5%;
-    --surface-warm: 33 75% 96.5%;
+    /* Ink: deep navy bands and headings */
+    --ink: 224 57% 18%;
+    --ink-soft: 224 50% 24%;
+    --ink-foreground: 213 100% 98%;
+    --ink-muted: 225 42% 76%;
+    --surface-tint: 213 80% 97.5%;
+    --surface-warm: 210 57% 97%;
 
-    /* Warm accents: amber sun, coral, lilac — the "stained glass" family */
-    --sun: 35 92% 52%;
-    --coral: 11 80% 60%;
-    --lilac: 258 65% 60%;
+    /* Product family: gold giving, orange websites, plum check-in, cyan app.
+    Deep shades are text-safe on light backgrounds. */
+    --sun: 41 89% 50%;
+    --sun-deep: 38 95% 36%;
+    --coral: 17 90% 56%;
+    --coral-deep: 17 85% 42%;
+    --lilac: 283 24% 48%;
+    --lilac-deep: 283 28% 40%;
+    --cyan: 191 82% 38%;
+    --cyan-deep: 191 85% 30%;
 
-    --gradient-primary: linear-gradient(120deg, hsl(215 85% 48%), hsl(207 95% 55%));
-    --gradient-accent: linear-gradient(135deg, hsl(215 85% 48%), hsl(145 65% 38%));
-    --gradient-sunrise: linear-gradient(120deg, hsl(35 92% 52%), hsl(11 80% 60%));
+    --gradient-primary: linear-gradient(120deg, hsl(221 93% 55%), hsl(221 100% 62%));
+    --gradient-accent: linear-gradient(135deg, hsl(221 93% 55%), hsl(173 40% 40%));
+    --gradient-sunrise: linear-gradient(120deg, hsl(41 89% 50%), hsl(17 90% 56%));
 
-    --shadow-primary: 0 10px 30px -10px hsl(215 85% 48% / 0.35);
-    --shadow-soft: 0 1px 2px hsl(222 47% 11% / 0.05), 0 12px 32px -12px hsl(222 47% 11% / 0.12);
-    --shadow-screenshot: 0 2px 6px hsl(222 47% 11% / 0.06), 0 32px 64px -24px hsl(217 60% 30% / 0.28);
+    --shadow-primary: 0 10px 24px -10px hsl(221 93% 55% / 0.4);
+    --shadow-soft: 0 1px 2px hsl(224 57% 18% / 0.05), 0 12px 32px -12px hsl(224 57% 18% / 0.1);
+    --shadow-screenshot: 0 2px 6px hsl(224 57% 18% / 0.05), 0 28px 56px -20px hsl(224 50% 30% / 0.25);
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -86,12 +93,13 @@ the page from reading single-hue corporate blue — color stands in for photos. 
   }
 
   body {
-    @apply bg-background text-foreground font-sans;
-    font-family: 'Inter', sans-serif;
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 500;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply font-semibold tracking-tight text-foreground;
+    @apply font-bold tracking-tight text-foreground;
   }
 }
 
@@ -104,24 +112,20 @@ the page from reading single-hue corporate blue — color stands in for photos. 
     background: var(--gradient-accent);
   }
 
-  /* Hero canvas: white with blue blooms and a sunrise rising behind the product */
+  /* Hero canvas: white with soft blue blooms */
   .bg-mesh-hero {
     background:
-      radial-gradient(at 15% 0%, hsl(214 95% 92%) 0%, transparent 50%),
-      radial-gradient(at 85% 12%, hsl(199 90% 92%) 0%, transparent 45%),
-      radial-gradient(at 88% 90%, hsl(28 100% 92%) 0%, transparent 50%),
-      radial-gradient(at 5% 100%, hsl(345 85% 95%) 0%, transparent 40%),
-      radial-gradient(at 50% 110%, hsl(226 90% 95%) 0%, transparent 55%),
+      radial-gradient(at 18% 0%, hsl(213 100% 93%) 0%, transparent 50%),
+      radial-gradient(at 85% 10%, hsl(199 100% 94%) 0%, transparent 45%),
+      radial-gradient(at 50% 115%, hsl(221 90% 95%) 0%, transparent 55%),
       hsl(0 0% 100%);
   }
 
-  /* Ink band: navy at dusk — blue aurora with coral and lilac edges */
+  /* Ink band: deep navy with a quiet royal-blue glow */
   .bg-ink-aurora {
     background:
-      radial-gradient(at 70% -10%, hsl(215 85% 48% / 0.35) 0%, transparent 55%),
-      radial-gradient(at 15% 110%, hsl(207 95% 55% / 0.22) 0%, transparent 50%),
-      radial-gradient(at 98% 95%, hsl(11 80% 60% / 0.17) 0%, transparent 42%),
-      radial-gradient(at 0% 0%, hsl(258 65% 60% / 0.14) 0%, transparent 38%),
+      radial-gradient(at 70% -10%, hsl(221 93% 55% / 0.3) 0%, transparent 55%),
+      radial-gradient(at 12% 110%, hsl(221 100% 62% / 0.18) 0%, transparent 50%),
       hsl(var(--ink));
   }
 
@@ -131,27 +135,6 @@ the page from reading single-hue corporate blue — color stands in for photos. 
 
   .bg-surface-warm {
     background-color: hsl(var(--surface-warm));
-  }
-
-  /* Stained-glass seam: thin multi-hue band marking section transitions */
-  .stained-strip {
-    background: linear-gradient(100deg,
-      hsl(215 85% 48%), hsl(199 89% 52%), hsl(168 65% 45%),
-      hsl(145 65% 42%), hsl(35 92% 52%), hsl(11 80% 60%), hsl(258 65% 60%));
-  }
-
-  .bg-dots {
-    background-image: radial-gradient(circle at 1px 1px, hsl(var(--foreground) / 0.07) 1px, transparent 0);
-    background-size: 22px 22px;
-    mask-image: radial-gradient(ellipse at center, black 50%, transparent 85%);
-    -webkit-mask-image: radial-gradient(ellipse at center, black 50%, transparent 85%);
-  }
-
-  .bg-dots-dark {
-    background-image: radial-gradient(circle at 1px 1px, hsl(var(--ink-foreground) / 0.08) 1px, transparent 0);
-    background-size: 22px 22px;
-    mask-image: radial-gradient(ellipse at center, black 50%, transparent 85%);
-    -webkit-mask-image: radial-gradient(ellipse at center, black 50%, transparent 85%);
   }
 
   .card-elevated {
@@ -185,6 +168,16 @@ the page from reading single-hue corporate blue — color stands in for photos. 
     background-clip: text;
   }
 
+  /* Keyword accent: solid blue with a gold marker underline */
+  .accent-underline {
+    color: hsl(var(--primary));
+    text-decoration: underline;
+    text-decoration-color: hsl(var(--sun) / 0.85);
+    text-decoration-thickness: 0.09em;
+    text-decoration-skip-ink: none;
+    text-underline-offset: 0.14em;
+  }
+
   .card-hover {
     @apply transition-all duration-300 hover:-translate-y-1;
   }
@@ -194,7 +187,7 @@ the page from reading single-hue corporate blue — color stands in for photos. 
   }
 
   .eyebrow {
-    @apply text-sm font-semibold uppercase tracking-[0.14em] text-primary;
+    @apply text-sm font-extrabold uppercase tracking-[0.14em] text-primary;
   }
 
   /* Scroll reveal (applied by useReveal hook) */

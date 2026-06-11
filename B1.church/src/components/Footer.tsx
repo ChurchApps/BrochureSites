@@ -40,7 +40,7 @@ const Footer = () => {
   };
 
   return (
-    <footer id="contact" className="bg-[hsl(222_47%_8%)] text-ink-foreground">
+    <footer id="contact" className="bg-ink text-ink-foreground">
       {/* Main Footer */}
       <div className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

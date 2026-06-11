@@ -2,6 +2,7 @@
   "brochure": {
     "header": {
       "features": "Features",
+      "pricing": "Pricing",
       "churchManagement": "Church Management",
       "about": "About",
       "contact": "Contact",
@@ -22,6 +23,38 @@
           "Open source on GitHub",
           "501(c)(3) ministry since 2012"
         ]
+      },
+      "products": {
+        "eyebrow": "One platform",
+        "title": "Every ministry, finally on the same page.",
+        "lead": "Six tools that work like one — because they are one. A single platform on a single database, with nothing sold separately.",
+        "linkLabel": "Explore",
+        "items": {
+          "app": {
+            "name": "Member App",
+            "desc": "Groups, messages, sermons, and giving in every member's pocket."
+          },
+          "giving": {
+            "name": "Giving",
+            "desc": "Online and recurring giving with funds, batches, and year-end statements."
+          },
+          "people": {
+            "name": "People",
+            "desc": "A full member database with attendance, workflows, and AI search."
+          },
+          "checkin": {
+            "name": "Check-In",
+            "desc": "Fast, secure kids check-in with name tags and pickup matching."
+          },
+          "web": {
+            "name": "Websites",
+            "desc": "A drag-and-drop website builder made for church home pages."
+          },
+          "plans": {
+            "name": "Worship Planning",
+            "desc": "Service plans, song libraries, and volunteer scheduling."
+          }
+        }
       },
       "connect": {
         "eyebrow": "The B1 Mobile App",
@@ -156,8 +189,18 @@
           "linkLabel": "See the code on GitHub"
         }
       },
+      "pricing": {
+        "eyebrow": "Pricing",
+        "title": "Here's the entire pricing table.",
+        "lead": "No tiers, no per-member pricing, no surprise jump at 200 people. Everything on this page is included for every church, at every size.",
+        "per": "per month — for everything, forever",
+        "note": "Card processing for online giving is handled by the payment processor at their standard rates. We add nothing on top.",
+        "cta": "Get Started Free"
+      },
       "mission": {
         "eyebrow": "Why is it free?",
+        "statement1": "Not for sale.",
+        "statement2": "Not for profit.",
         "title": "Built by a ministry, not a vendor.",
         "lead": "B1 is built by Live Church Solutions, a 501(c)(3) nonprofit founded in 2012. Churches spend hundreds of millions a year on software — we'd rather see that money go to ministry.",
         "stats": {

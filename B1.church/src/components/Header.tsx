@@ -38,8 +38,7 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 border-b border-border bg-background/80 backdrop-blur-md">
-      <div className="stained-strip h-[3px]" aria-hidden="true" />
+    <header className="fixed top-0 left-0 right-0 z-50 border-b border-border bg-background/85 backdrop-blur-md">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
@@ -56,10 +55,16 @@ const Header = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             <button
-              onClick={() => scrollToSection("features")}
+              onClick={() => scrollToSection("products")}
               className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors"
             >
               {t("brochure.header.features")}
+            </button>
+            <button
+              onClick={() => scrollToSection("pricing")}
+              className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors"
+            >
+              {t("brochure.header.pricing")}
             </button>
             <LocaleLink to="/church-management" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
               {t("brochure.header.churchManagement")}
@@ -107,10 +112,16 @@ const Header = () => {
           <div className="md:hidden py-4 border-t border-border bg-background">
             <nav className="flex flex-col space-y-4">
               <button
-                onClick={() => scrollToSection("features")}
+                onClick={() => scrollToSection("products")}
                 className="text-foreground/80 hover:text-foreground transition-colors text-left"
               >
                 {t("brochure.header.features")}
+              </button>
+              <button
+                onClick={() => scrollToSection("pricing")}
+                className="text-foreground/80 hover:text-foreground transition-colors text-left"
+              >
+                {t("brochure.header.pricing")}
               </button>
               <LocaleLink
                 to="/church-management"

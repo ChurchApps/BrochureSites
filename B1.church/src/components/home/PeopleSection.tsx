@@ -14,7 +14,7 @@ const PeopleSection = () => {
   const items = tArray<string>("brochure.home.people.items");
 
   return (
-    <section className="overflow-hidden bg-background py-24 lg:py-32">
+    <section id="people" className="overflow-hidden bg-background py-24 lg:py-32">
       <div className="container mx-auto px-4">
         <div className="grid items-center gap-16 lg:grid-cols-2">
           <Reveal>
@@ -47,12 +47,12 @@ const PeopleSection = () => {
           </Reveal>
 
           <div className="relative pb-12 pt-8">
-            <div className="absolute -inset-y-2 -left-2 -right-4 rotate-2 rounded-3xl bg-gradient-to-br from-primary/10 via-sky-100 to-indigo-100" />
+            <div className="absolute -inset-y-2 -left-2 -right-4 rounded-[2.5rem] bg-secondary" />
             <AISearchPill className="absolute -top-0 left-6 z-10 animate-float" />
             <BrowserFrame
               src="/attendance-analytics-dashboard.webp"
               alt="B1Admin attendance trend report"
-              className="relative mt-6 -rotate-1"
+              className="relative mt-6"
             />
             <WorkflowCard className="absolute -bottom-2 -right-2 animate-float [animation-delay:1.5s]" />
           </div>

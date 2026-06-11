@@ -21,7 +21,7 @@ const WebsiteBuilder = () => {
       <div className="container mx-auto px-4">
         <div className="grid items-center gap-16 lg:grid-cols-2">
           <Reveal>
-            <div className="eyebrow mb-4 flex items-center gap-2">
+            <div className="eyebrow mb-4 flex items-center gap-2 text-coral-deep">
               <Monitor className="h-4 w-4" />
               {t("brochure.websiteBuilder.badge")}
             </div>
@@ -30,7 +30,7 @@ const WebsiteBuilder = () => {
               title={
                 <>
                   {t("brochure.websiteBuilder.title")}{" "}
-                  <span className="text-primary">{t("brochure.websiteBuilder.titleHighlight")}</span>
+                  <span className="text-coral-deep">{t("brochure.websiteBuilder.titleHighlight")}</span>
                 </>
               }
               lead={t("brochure.websiteBuilder.description")}
@@ -60,12 +60,12 @@ const WebsiteBuilder = () => {
           </Reveal>
 
           <div className="relative">
-            <div className="absolute -inset-y-6 -left-4 -right-6 rotate-2 rounded-3xl bg-gradient-to-br from-indigo-100 via-violet-100 to-rose-100" />
+            <div className="absolute -inset-y-6 -left-4 -right-6 rounded-[2.5rem] bg-coral/10" />
             <BrowserFrame
               src="/website-builder-interface.webp"
               alt="B1 church website builder editing a church home page"
               url="yourchurch.b1.church"
-              className="relative rotate-1"
+              className="relative"
             />
           </div>
         </div>
