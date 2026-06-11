@@ -2,9 +2,11 @@
   "brochure": {
     "header": {
       "features": "Funktioner",
+      "pricing": "Priser",
       "churchManagement": "Kirkeadministration",
       "about": "Om os",
       "contact": "Kontakt",
+      "demo": "Live demo",
       "signIn": "Log ind",
       "getStartedFree": "Kom gratis i gang"
     },
@@ -22,6 +24,38 @@
           "Open source på GitHub",
           "501(c)(3)-tjeneste siden 2012"
         ]
+      },
+      "products": {
+        "eyebrow": "Én platform",
+        "title": "Alle tjenestegrene, endelig på samme side.",
+        "lead": "Seks værktøjer, der fungerer som ét — fordi de er ét. Én platform med én database, hvor intet sælges separat.",
+        "linkLabel": "Udforsk",
+        "items": {
+          "app": {
+            "name": "Medlemsapp",
+            "desc": "Grupper, beskeder, prædikener og gaver i hvert medlems lomme."
+          },
+          "giving": {
+            "name": "Gaver",
+            "desc": "Online og tilbagevendende gaver med fonde, bundter og årsopgørelser."
+          },
+          "people": {
+            "name": "Personer",
+            "desc": "En komplet medlemsdatabase med fremmøde, arbejdsgange og AI-søgning."
+          },
+          "checkin": {
+            "name": "Check-in",
+            "desc": "Hurtigt og sikkert check-in af børn med navneskilte og afhentningskontrol."
+          },
+          "web": {
+            "name": "Hjemmesider",
+            "desc": "En træk-og-slip hjemmesidebygger lavet til kirker."
+          },
+          "plans": {
+            "name": "Gudstjenesteplanlægning",
+            "desc": "Gudstjenesteplaner, sangbiblioteker og frivilligplanlægning."
+          }
+        }
       },
       "connect": {
         "eyebrow": "B1-mobilappen",
@@ -156,8 +190,18 @@
           "linkLabel": "Se koden på GitHub"
         }
       },
+      "pricing": {
+        "eyebrow": "Priser",
+        "title": "Her er hele pristabellen.",
+        "lead": "Ingen niveauer, ingen pris pr. medlem, ingen overraskende stigning ved 200 personer. Alt på denne side er inkluderet for enhver kirke, uanset størrelse.",
+        "per": "pr. måned — for alt, for altid",
+        "note": "Kortbehandling for onlinegaver håndteres af betalingsudbyderen til deres standardtakster. Vi lægger intet oveni.",
+        "cta": "Kom gratis i gang"
+      },
       "mission": {
         "eyebrow": "Hvorfor er det gratis?",
+        "statement1": "Ikke til salg.",
+        "statement2": "Ikke for profit.",
         "title": "Bygget af en tjeneste, ikke en leverandør.",
         "lead": "B1 er bygget af Live Church Solutions, en 501(c)(3)-nonprofit grundlagt i 2012. Kirker bruger hvert år hundredvis af millioner på software — vi vil hellere se de penge gå til kirkens arbejde.",
         "stats": {

@@ -2,9 +2,11 @@
   "brochure": {
     "header": {
       "features": "Funkcje",
+      "pricing": "Cennik",
       "churchManagement": "Zarządzanie kościołem",
       "about": "O nas",
       "contact": "Kontakt",
+      "demo": "Demo na żywo",
       "signIn": "Zaloguj się",
       "getStartedFree": "Zacznij za darmo"
     },
@@ -22,6 +24,38 @@
           "Open source na GitHub",
           "Służba non-profit 501(c)(3) od 2012 roku"
         ]
+      },
+      "products": {
+        "eyebrow": "Jedna platforma",
+        "title": "Wszystkie służby wreszcie działają razem.",
+        "lead": "Sześć narzędzi działających jak jedno — bo są jednym. Jedna platforma z jedną bazą danych, nic nie jest sprzedawane osobno.",
+        "linkLabel": "Poznaj",
+        "items": {
+          "app": {
+            "name": "Aplikacja dla członków",
+            "desc": "Grupy, wiadomości, kazania i ofiary w kieszeni każdego członka."
+          },
+          "giving": {
+            "name": "Ofiary",
+            "desc": "Ofiary online i cykliczne z funduszami, partiami i rocznymi zestawieniami."
+          },
+          "people": {
+            "name": "Osoby",
+            "desc": "Pełna baza członków z obecnością, przepływami pracy i wyszukiwaniem AI."
+          },
+          "checkin": {
+            "name": "Check-in",
+            "desc": "Szybki i bezpieczny check-in dzieci z identyfikatorami i weryfikacją odbioru."
+          },
+          "web": {
+            "name": "Strony internetowe",
+            "desc": "Kreator stron typu „przeciągnij i upuść” stworzony dla kościołów."
+          },
+          "plans": {
+            "name": "Planowanie nabożeństw",
+            "desc": "Plany nabożeństw, biblioteki pieśni i grafiki wolontariuszy."
+          }
+        }
       },
       "connect": {
         "eyebrow": "Aplikacja mobilna B1",
@@ -156,8 +190,18 @@
           "linkLabel": "Zobacz kod na GitHub"
         }
       },
+      "pricing": {
+        "eyebrow": "Cennik",
+        "title": "Oto cały cennik.",
+        "lead": "Żadnych poziomów, żadnych opłat za członka, żadnego nagłego skoku przy 200 osobach. Wszystko na tej stronie jest w cenie dla każdego kościoła, niezależnie od wielkości.",
+        "per": "miesięcznie — za wszystko, na zawsze",
+        "note": "Obsługę kart przy ofiarach online zapewnia operator płatności według swoich standardowych stawek. My nic nie doliczamy.",
+        "cta": "Zacznij za darmo"
+      },
       "mission": {
         "eyebrow": "Dlaczego to jest darmowe?",
+        "statement1": "Nie na sprzedaż.",
+        "statement2": "Nie dla zysku.",
         "title": "Tworzone przez służbę, nie przez sprzedawcę.",
         "lead": "B1 tworzy Live Church Solutions, organizacja non-profit 501(c)(3) założona w 2012 roku. Kościoły wydają na oprogramowanie setki milionów rocznie — wolimy, żeby te pieniądze szły na służbę.",
         "stats": {

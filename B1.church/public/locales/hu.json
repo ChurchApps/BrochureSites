@@ -2,9 +2,11 @@
   "brochure": {
     "header": {
       "features": "Funkciók",
+      "pricing": "Árak",
       "churchManagement": "Gyülekezetkezelés",
       "about": "Rólunk",
       "contact": "Kapcsolat",
+      "demo": "Élő demó",
       "signIn": "Bejelentkezés",
       "getStartedFree": "Kezdje el ingyen"
     },
@@ -22,6 +24,38 @@
           "Nyílt forráskód a GitHubon",
           "501(c)(3) szolgálat 2012 óta"
         ]
+      },
+      "products": {
+        "eyebrow": "Egyetlen platform",
+        "title": "Minden szolgálat végre egy hullámhosszon.",
+        "lead": "Hat eszköz, amely egyként működik — mert valóban egy. Egyetlen platform, egyetlen adatbázis, semmit sem árulunk külön.",
+        "linkLabel": "Felfedezés",
+        "items": {
+          "app": {
+            "name": "Tagsági alkalmazás",
+            "desc": "Csoportok, üzenetek, igehirdetések és adakozás minden tag zsebében."
+          },
+          "giving": {
+            "name": "Adakozás",
+            "desc": "Online és rendszeres adakozás alapokkal, kötegekkel és év végi kimutatásokkal."
+          },
+          "people": {
+            "name": "Emberek",
+            "desc": "Teljes tagnyilvántartás jelenléttel, munkafolyamatokkal és MI-kereséssel."
+          },
+          "checkin": {
+            "name": "Check-in",
+            "desc": "Gyors és biztonságos gyermek-check-in névkártyákkal és átvétel-egyeztetéssel."
+          },
+          "web": {
+            "name": "Weboldalak",
+            "desc": "Fogd és vidd weboldal-készítő gyülekezeti honlapokhoz."
+          },
+          "plans": {
+            "name": "Istentisztelet-tervezés",
+            "desc": "Istentiszteleti tervek, énektárak és önkéntes-beosztás."
+          }
+        }
       },
       "connect": {
         "eyebrow": "A B1 mobilalkalmazás",
@@ -156,8 +190,18 @@
           "linkLabel": "Nézze meg a kódot a GitHubon"
         }
       },
+      "pricing": {
+        "eyebrow": "Árak",
+        "title": "Íme a teljes árlista.",
+        "lead": "Nincsenek csomagok, nincs tagonkénti díj, nincs meglepetés-ugrás 200 főnél. Az oldalon minden benne van, minden gyülekezetnek, bármekkora is.",
+        "per": "havonta — mindenért, örökre",
+        "note": "Az online adakozás kártyás fizetését a fizetési szolgáltató kezeli a saját szokásos díjain. Mi semmit sem teszünk rá.",
+        "cta": "Kezdje el ingyen"
+      },
       "mission": {
         "eyebrow": "Miért ingyenes?",
+        "statement1": "Nem eladó.",
+        "statement2": "Nem a profitért.",
         "title": "Szolgálat építi, nem szoftvercég.",
         "lead": "A B1-et a Live Church Solutions építi, egy 2012-ben alapított 501(c)(3) nonprofit szervezet. A gyülekezetek évente több százmilliót költenek szoftverre — mi inkább azt szeretnénk, ha ez a pénz a szolgálatra menne.",
         "stats": {

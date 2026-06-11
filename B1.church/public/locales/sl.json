@@ -2,9 +2,11 @@
   "brochure": {
     "header": {
       "features": "Funkcije",
+      "pricing": "Cene",
       "churchManagement": "Upravljanje cerkve",
       "about": "O nas",
       "contact": "Kontakt",
+      "demo": "Demo v živo",
       "signIn": "Prijava",
       "getStartedFree": "Začnite brezplačno"
     },
@@ -22,6 +24,38 @@
           "Odprta koda na GitHub",
           "Neprofitna organizacija 501(c)(3) od leta 2012"
         ]
+      },
+      "products": {
+        "eyebrow": "Ena platforma",
+        "title": "Vse službe končno usklajene.",
+        "lead": "Šest orodij, ki delujejo kot eno — ker eno tudi so. Ena platforma z eno podatkovno bazo, nič se ne prodaja posebej.",
+        "linkLabel": "Razišči",
+        "items": {
+          "app": {
+            "name": "Aplikacija za člane",
+            "desc": "Skupine, sporočila, pridige in darovi v žepu vsakega člana."
+          },
+          "giving": {
+            "name": "Darovanje",
+            "desc": "Spletni in ponavljajoči se darovi s skladi, paketi in letnimi izpiski."
+          },
+          "people": {
+            "name": "Ljudje",
+            "desc": "Popolna baza članov s prisotnostjo, delovnimi tokovi in iskanjem z UI."
+          },
+          "checkin": {
+            "name": "Prijava",
+            "desc": "Hitra in varna prijava otrok z imenskimi karticami in preverjanjem ob prevzemu."
+          },
+          "web": {
+            "name": "Spletne strani",
+            "desc": "Graditelj spletnih strani povleci-in-spusti, narejen za cerkve."
+          },
+          "plans": {
+            "name": "Načrtovanje bogoslužij",
+            "desc": "Načrti bogoslužij, knjižnice pesmi in razporedi prostovoljcev."
+          }
+        }
       },
       "connect": {
         "eyebrow": "Mobilna aplikacija B1",
@@ -156,8 +190,18 @@
           "linkLabel": "Oglejte si kodo na GitHub"
         }
       },
+      "pricing": {
+        "eyebrow": "Cene",
+        "title": "Tukaj je celoten cenik.",
+        "lead": "Brez paketov, brez cene na člana, brez presenetljivega skoka pri 200 ljudeh. Vse na tej strani je vključeno za vsako cerkev, ne glede na velikost.",
+        "per": "na mesec — za vse, za vedno",
+        "note": "Obdelavo kartic pri spletnih darovih opravlja ponudnik plačil po svojih običajnih tarifah. Mi ne dodamo ničesar.",
+        "cta": "Začnite brezplačno"
+      },
       "mission": {
         "eyebrow": "Zakaj je brezplačno?",
+        "statement1": "Ni naprodaj.",
+        "statement2": "Ni za dobiček.",
         "title": "Ustvarila ga je služba, ne prodajalec.",
         "lead": "B1 razvija Live Church Solutions, neprofitna organizacija 501(c)(3), ustanovljena leta 2012. Cerkve za programsko opremo letno porabijo na stotine milijonov — raje vidimo, da gre ta denar v služenje.",
         "stats": {

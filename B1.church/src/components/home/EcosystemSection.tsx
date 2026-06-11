@@ -2,8 +2,8 @@ import { useTranslation } from "react-i18next";
 import type { ComponentType } from "react";
 import { Button } from "@/components/ui/button";
 import { Database, LayoutDashboard, Globe, Smartphone, Tablet, ArrowRight } from "lucide-react";
-import LocaleLink from "@/components/LocaleLink";
 import { trackChurchSignup } from "@/utils/analytics";
+import { ADMIN_REGISTER_URL } from "@/constants/externalUrls";
 import Reveal from "@/components/Reveal";
 import SectionHeading from "@/components/SectionHeading";
 
@@ -108,10 +108,10 @@ const EcosystemSection = () => {
 
         <div className="mt-14 text-center">
           <Button size="xl" className="group" asChild onClick={() => trackChurchSignup("ecosystem_cta")}>
-            <LocaleLink to="/login">
+            <a href={ADMIN_REGISTER_URL}>
               {t("brochure.home.ecosystem.cta")}
               <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
-            </LocaleLink>
+            </a>
           </Button>
         </div>
       </div>

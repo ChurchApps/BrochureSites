@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Check, X, ArrowRight } from "lucide-react";
 import LocaleLink from "@/components/LocaleLink";
 import Seo from "@/components/Seo";
+import { ADMIN_REGISTER_URL } from "@/constants/externalUrls";
 
 interface ComparisonData {
   competitor: string;
@@ -220,10 +221,10 @@ const Compare = () => {
               {t("brochure.compare.ctaDescription")}
             </p>
             <Button size="xl" asChild>
-              <LocaleLink to="/login">
+              <a href={ADMIN_REGISTER_URL}>
                 {t("brochure.compare.ctaButton")}
                 <ArrowRight className="w-5 h-5 ml-2" />
-              </LocaleLink>
+              </a>
             </Button>
           </div>
 

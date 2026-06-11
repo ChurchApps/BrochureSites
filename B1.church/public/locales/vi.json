@@ -2,9 +2,11 @@
   "brochure": {
     "header": {
       "features": "Tính năng",
+      "pricing": "Bảng giá",
       "churchManagement": "Quản lý Hội thánh",
       "about": "Giới thiệu",
       "contact": "Liên hệ",
+      "demo": "Demo trực tiếp",
       "signIn": "Đăng nhập",
       "getStartedFree": "Bắt đầu miễn phí"
     },
@@ -22,6 +24,38 @@
           "Mã nguồn mở trên GitHub",
           "Mục vụ 501(c)(3) từ năm 2012"
         ]
+      },
+      "products": {
+        "eyebrow": "Một nền tảng duy nhất",
+        "title": "Mọi mục vụ, cuối cùng đã đồng lòng.",
+        "lead": "Sáu công cụ hoạt động như một — vì chúng thực sự là một. Một nền tảng với một cơ sở dữ liệu, không có gì bán riêng lẻ.",
+        "linkLabel": "Khám phá",
+        "items": {
+          "app": {
+            "name": "Ứng dụng cho tín hữu",
+            "desc": "Nhóm, tin nhắn, bài giảng và dâng hiến trong túi của mỗi tín hữu."
+          },
+          "giving": {
+            "name": "Dâng hiến",
+            "desc": "Dâng hiến trực tuyến và định kỳ với quỹ, đợt thu và báo cáo cuối năm."
+          },
+          "people": {
+            "name": "Tín hữu",
+            "desc": "Cơ sở dữ liệu tín hữu đầy đủ với điểm danh, quy trình làm việc và tìm kiếm AI."
+          },
+          "checkin": {
+            "name": "Check-In",
+            "desc": "Check-in trẻ em nhanh chóng, an toàn với thẻ tên và đối chiếu khi đón."
+          },
+          "web": {
+            "name": "Trang web",
+            "desc": "Trình tạo trang web kéo-thả dành cho hội thánh."
+          },
+          "plans": {
+            "name": "Lập kế hoạch thờ phượng",
+            "desc": "Chương trình buổi nhóm, thư viện bài hát và lịch tình nguyện viên."
+          }
+        }
       },
       "connect": {
         "eyebrow": "Ứng dụng di động B1",
@@ -156,8 +190,18 @@
           "linkLabel": "Xem mã nguồn trên GitHub"
         }
       },
+      "pricing": {
+        "eyebrow": "Bảng giá",
+        "title": "Đây là toàn bộ bảng giá.",
+        "lead": "Không phân hạng, không tính phí theo đầu người, không tăng giá bất ngờ khi đạt 200 người. Mọi thứ trên trang này đều bao gồm cho mọi hội thánh, ở mọi quy mô.",
+        "per": "mỗi tháng — cho tất cả, mãi mãi",
+        "note": "Việc xử lý thẻ cho dâng hiến trực tuyến do đơn vị xử lý thanh toán đảm nhận theo mức phí tiêu chuẩn của họ. Chúng tôi không cộng thêm gì.",
+        "cta": "Bắt đầu miễn phí"
+      },
       "mission": {
         "eyebrow": "Vì sao miễn phí?",
+        "statement1": "Không phải để bán.",
+        "statement2": "Không vì lợi nhuận.",
         "title": "Được xây dựng bởi một mục vụ, không phải một nhà cung cấp.",
         "lead": "B1 được xây dựng bởi Live Church Solutions, tổ chức phi lợi nhuận 501(c)(3) thành lập năm 2012. Mỗi năm các hội thánh chi hàng trăm triệu đô-la cho phần mềm — chúng tôi mong số tiền ấy được dành cho công việc Chúa.",
         "stats": {

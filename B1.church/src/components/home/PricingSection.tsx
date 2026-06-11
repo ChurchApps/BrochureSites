@@ -1,8 +1,8 @@
 import { useTranslation } from "react-i18next";
 import { Check, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import LocaleLink from "@/components/LocaleLink";
 import { trackChurchSignup } from "@/utils/analytics";
+import { ADMIN_REGISTER_URL } from "@/constants/externalUrls";
 import { useTArray } from "@/lib/i18nArray";
 import Reveal from "@/components/Reveal";
 import SectionHeading from "@/components/SectionHeading";
@@ -40,10 +40,10 @@ const PricingSection = () => {
               ))}
             </ul>
             <Button size="xl" className="group mt-10" asChild onClick={() => trackChurchSignup("pricing_cta")}>
-              <LocaleLink to="/login">
+              <a href={ADMIN_REGISTER_URL}>
                 {t("brochure.home.pricing.cta")}
                 <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
-              </LocaleLink>
+              </a>
             </Button>
             <p className="mt-6 text-xs leading-relaxed text-muted-foreground">
               {t("brochure.home.pricing.note")}

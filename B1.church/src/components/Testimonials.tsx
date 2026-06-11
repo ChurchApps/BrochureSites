@@ -1,6 +1,6 @@
 import { Star, Quote, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import LocaleLink from "@/components/LocaleLink";
+import { ADMIN_REGISTER_URL } from "@/constants/externalUrls";
 import {
   Carousel,
   CarouselContent,
@@ -14,6 +14,7 @@ import { useState, useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
 import Reveal from "@/components/Reveal";
 import SectionHeading from "@/components/SectionHeading";
+import LocaleLink from "@/components/LocaleLink";
 
 const testimonialsBase = [
   {
@@ -191,9 +192,9 @@ export const Testimonials = () => {
             </p>
             <div className="flex flex-col justify-center gap-4 sm:flex-row">
               <Button size="lg" asChild>
-                <LocaleLink to="/login">
+                <a href={ADMIN_REGISTER_URL}>
                   {t("brochure.testimonials.ctaButton")}
-                </LocaleLink>
+                </a>
               </Button>
             </div>
           </div>

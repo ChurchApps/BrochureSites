@@ -2,9 +2,11 @@
   "brochure": {
     "header": {
       "features": "Funktionen",
+      "pricing": "Preise",
       "churchManagement": "Gemeindeverwaltung",
       "about": "Über uns",
       "contact": "Kontakt",
+      "demo": "Live-Demo",
       "signIn": "Anmelden",
       "getStartedFree": "Kostenlos starten"
     },
@@ -22,6 +24,38 @@
           "Open Source auf GitHub",
           "501(c)(3)-Werk seit 2012"
         ]
+      },
+      "products": {
+        "eyebrow": "Eine Plattform",
+        "title": "Alle Dienste endlich auf einer Linie.",
+        "lead": "Sechs Werkzeuge, die wie eines funktionieren — weil sie eines sind. Eine Plattform mit einer Datenbank, nichts wird separat verkauft.",
+        "linkLabel": "Entdecken",
+        "items": {
+          "app": {
+            "name": "Mitglieder-App",
+            "desc": "Gruppen, Nachrichten, Predigten und Spenden in der Tasche jedes Mitglieds."
+          },
+          "giving": {
+            "name": "Spenden",
+            "desc": "Online- und wiederkehrende Spenden mit Fonds, Stapeln und Jahresbescheinigungen."
+          },
+          "people": {
+            "name": "Personen",
+            "desc": "Eine vollständige Mitgliederdatenbank mit Anwesenheit, Workflows und KI-Suche."
+          },
+          "checkin": {
+            "name": "Check-in",
+            "desc": "Schneller, sicherer Kinder-Check-in mit Namensschildern und Abhol-Abgleich."
+          },
+          "web": {
+            "name": "Webseiten",
+            "desc": "Ein Drag-and-Drop-Website-Baukasten für Gemeinde-Websites."
+          },
+          "plans": {
+            "name": "Gottesdienstplanung",
+            "desc": "Ablaufpläne, Liedbibliotheken und Einsatzplanung für Mitarbeiter."
+          }
+        }
       },
       "connect": {
         "eyebrow": "Die B1 Mobile App",
@@ -156,8 +190,18 @@
           "linkLabel": "Code auf GitHub ansehen"
         }
       },
+      "pricing": {
+        "eyebrow": "Preise",
+        "title": "Hier ist die komplette Preistabelle.",
+        "lead": "Keine Tarifstufen, keine Preise pro Mitglied, kein Preissprung bei 200 Personen. Alles auf dieser Seite ist für jede Gemeinde jeder Größe enthalten.",
+        "per": "pro Monat — für alles, für immer",
+        "note": "Die Kartenabwicklung für Online-Spenden übernimmt der Zahlungsdienstleister zu seinen üblichen Gebühren. Wir schlagen nichts auf.",
+        "cta": "Kostenlos starten"
+      },
       "mission": {
         "eyebrow": "Warum ist es kostenlos?",
+        "statement1": "Nicht zu verkaufen.",
+        "statement2": "Nicht auf Gewinn aus.",
         "title": "Entwickelt von einem Werk, nicht von einem Anbieter.",
         "lead": "B1 wird von Live Church Solutions entwickelt, einer 2012 gegründeten gemeinnützigen 501(c)(3)-Organisation. Gemeinden geben jedes Jahr Hunderte Millionen für Software aus — wir möchten, dass dieses Geld in den Dienst fließt.",
         "stats": {

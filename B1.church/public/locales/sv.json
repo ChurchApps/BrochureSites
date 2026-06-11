@@ -2,9 +2,11 @@
   "brochure": {
     "header": {
       "features": "Funktioner",
+      "pricing": "Priser",
       "churchManagement": "Församlingsadministration",
       "about": "Om oss",
       "contact": "Kontakt",
+      "demo": "Live-demo",
       "signIn": "Logga in",
       "getStartedFree": "Kom igång gratis"
     },
@@ -22,6 +24,38 @@
           "Öppen källkod på GitHub",
           "501(c)(3)-organisation sedan 2012"
         ]
+      },
+      "products": {
+        "eyebrow": "En plattform",
+        "title": "Alla tjänster, äntligen på samma sida.",
+        "lead": "Sex verktyg som fungerar som ett — för att de är ett. En plattform med en databas, inget säljs separat.",
+        "linkLabel": "Utforska",
+        "items": {
+          "app": {
+            "name": "Medlemsapp",
+            "desc": "Grupper, meddelanden, predikningar och gåvor i varje medlems ficka."
+          },
+          "giving": {
+            "name": "Gåvor",
+            "desc": "Online- och återkommande gåvor med fonder, buntar och årsbesked."
+          },
+          "people": {
+            "name": "Personer",
+            "desc": "En komplett medlemsdatabas med närvaro, arbetsflöden och AI-sökning."
+          },
+          "checkin": {
+            "name": "Incheckning",
+            "desc": "Snabb och säker incheckning av barn med namnskyltar och upphämtningskontroll."
+          },
+          "web": {
+            "name": "Webbplatser",
+            "desc": "En dra-och-släpp-webbplatsbyggare gjord för församlingar."
+          },
+          "plans": {
+            "name": "Gudstjänstplanering",
+            "desc": "Gudstjänstplaner, sångbibliotek och volontärschema."
+          }
+        }
       },
       "connect": {
         "eyebrow": "B1-mobilappen",
@@ -156,8 +190,18 @@
           "linkLabel": "Se koden på GitHub"
         }
       },
+      "pricing": {
+        "eyebrow": "Priser",
+        "title": "Här är hela pristabellen.",
+        "lead": "Inga nivåer, inget pris per medlem, inget överraskande hopp vid 200 personer. Allt på den här sidan ingår för varje församling, oavsett storlek.",
+        "per": "per månad — för allt, för alltid",
+        "note": "Kortbetalningar för onlinegåvor hanteras av betalningsleverantören till deras standardavgifter. Vi lägger inte på något.",
+        "cta": "Kom igång gratis"
+      },
       "mission": {
         "eyebrow": "Varför är det gratis?",
+        "statement1": "Inte till salu.",
+        "statement2": "Inte för vinst.",
         "title": "Byggt av en missionsorganisation, inte en leverantör.",
         "lead": "B1 byggs av Live Church Solutions, en ideell 501(c)(3)-organisation grundad 2012. Församlingar lägger hundratals miljoner om året på programvara — vi vill hellre se de pengarna gå till församlingsarbetet.",
         "stats": {

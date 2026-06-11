@@ -19,12 +19,8 @@ export const useLanguage = () => useContext(LanguageContext);
 
 const loadLanguage = async (lang: string) => {
   try {
-    const [apphelperData, brochureData] = await Promise.all([
-      fetch(`/apphelper/locales/${lang}.json`).then(r => r.json()).catch(() => ({})),
-      fetch(`/locales/${lang}.json`).then(r => r.json()).catch(() => ({}))
-    ]);
-    const merged = { ...apphelperData, ...brochureData };
-    i18n.addResourceBundle(lang, "translation", merged, true, true);
+    const data = await fetch(`/locales/${lang}.json`).then(r => r.json());
+    i18n.addResourceBundle(lang, "translation", data, true, true);
   } catch (e) {
     console.warn("Failed to load translations for", lang, e);
   }

@@ -2,9 +2,11 @@
   "brochure": {
     "header": {
       "features": "Funksjoner",
+      "pricing": "Priser",
       "churchManagement": "Menighetsadministrasjon",
       "about": "Om oss",
       "contact": "Kontakt",
+      "demo": "Live-demo",
       "signIn": "Logg inn",
       "getStartedFree": "Kom i gang gratis"
     },
@@ -22,6 +24,38 @@
           "Åpen kildekode på GitHub",
           "501(c)(3)-organisasjon siden 2012"
         ]
+      },
+      "products": {
+        "eyebrow": "Én plattform",
+        "title": "Alle tjenester, endelig på samme side.",
+        "lead": "Seks verktøy som fungerer som ett — fordi de er ett. Én plattform med én database, ingenting selges separat.",
+        "linkLabel": "Utforsk",
+        "items": {
+          "app": {
+            "name": "Medlemsapp",
+            "desc": "Grupper, meldinger, prekener og gaver i lomma til hvert medlem."
+          },
+          "giving": {
+            "name": "Givertjeneste",
+            "desc": "Nettbaserte og faste gaver med fond, bunker og årsoppgaver."
+          },
+          "people": {
+            "name": "Personer",
+            "desc": "En komplett medlemsdatabase med oppmøte, arbeidsflyter og AI-søk."
+          },
+          "checkin": {
+            "name": "Innsjekk",
+            "desc": "Rask og trygg innsjekk av barn med navnelapper og hentekontroll."
+          },
+          "web": {
+            "name": "Nettsider",
+            "desc": "En dra-og-slipp nettsidebygger laget for menigheter."
+          },
+          "plans": {
+            "name": "Gudstjenesteplanlegging",
+            "desc": "Gudstjenesteplaner, sangbiblioteker og frivilligplanlegging."
+          }
+        }
       },
       "connect": {
         "eyebrow": "B1-mobilappen",
@@ -156,8 +190,18 @@
           "linkLabel": "Se koden på GitHub"
         }
       },
+      "pricing": {
+        "eyebrow": "Priser",
+        "title": "Her er hele pristabellen.",
+        "lead": "Ingen nivåer, ingen pris per medlem, ingen overraskende hopp ved 200 personer. Alt på denne siden er inkludert for enhver menighet, uansett størrelse.",
+        "per": "per måned — for alt, for alltid",
+        "note": "Kortbehandling for nettgaver håndteres av betalingsleverandøren til deres standardpriser. Vi legger ikke på noe.",
+        "cta": "Kom i gang gratis"
+      },
       "mission": {
         "eyebrow": "Hvorfor er det gratis?",
+        "statement1": "Ikke til salgs.",
+        "statement2": "Ikke for profitt.",
         "title": "Bygget av en tjeneste, ikke en leverandør.",
         "lead": "B1 bygges av Live Church Solutions, en ideell 501(c)(3)-organisasjon grunnlagt i 2012. Menigheter bruker hundrevis av millioner i året på programvare — vi vil heller se at de pengene går til menighetsarbeid.",
         "stats": {

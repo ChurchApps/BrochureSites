@@ -2,9 +2,11 @@
   "brochure": {
     "header": {
       "features": "Functies",
+      "pricing": "Prijzen",
       "churchManagement": "Kerkbeheer",
       "about": "Over ons",
       "contact": "Contact",
+      "demo": "Live demo",
       "signIn": "Inloggen",
       "getStartedFree": "Gratis beginnen"
     },
@@ -22,6 +24,38 @@
           "Open source op GitHub",
           "501(c)(3)-bediening sinds 2012"
         ]
+      },
+      "products": {
+        "eyebrow": "Eén platform",
+        "title": "Elke bediening, eindelijk op één lijn.",
+        "lead": "Zes tools die als één werken — omdat ze één zijn. Eén platform met één database, niets wordt apart verkocht.",
+        "linkLabel": "Ontdekken",
+        "items": {
+          "app": {
+            "name": "Ledenapp",
+            "desc": "Groepen, berichten, preken en giften in de broekzak van elk lid."
+          },
+          "giving": {
+            "name": "Giften",
+            "desc": "Online en terugkerende giften met fondsen, batches en jaaroverzichten."
+          },
+          "people": {
+            "name": "Personen",
+            "desc": "Een volledige ledendatabase met aanwezigheid, workflows en AI-zoeken."
+          },
+          "checkin": {
+            "name": "Check-in",
+            "desc": "Snel en veilig inchecken van kinderen met naamkaartjes en ophaalcontrole."
+          },
+          "web": {
+            "name": "Websites",
+            "desc": "Een drag-and-drop websitebouwer gemaakt voor kerken."
+          },
+          "plans": {
+            "name": "Dienstplanning",
+            "desc": "Orden van dienst, liedbibliotheken en vrijwilligersroosters."
+          }
+        }
       },
       "connect": {
         "eyebrow": "De B1 Mobile App",
@@ -156,8 +190,18 @@
           "linkLabel": "Bekijk de code op GitHub"
         }
       },
+      "pricing": {
+        "eyebrow": "Prijzen",
+        "title": "Dit is de volledige prijstabel.",
+        "lead": "Geen niveaus, geen prijs per lid, geen verrassende sprong bij 200 mensen. Alles op deze pagina is inbegrepen voor elke kerk, ongeacht de grootte.",
+        "per": "per maand — voor alles, voor altijd",
+        "note": "Kaartverwerking voor online giften wordt afgehandeld door de betalingsverwerker tegen hun standaardtarieven. Wij rekenen niets extra.",
+        "cta": "Gratis beginnen"
+      },
       "mission": {
         "eyebrow": "Waarom is het gratis?",
+        "statement1": "Niet te koop.",
+        "statement2": "Niet voor winst.",
         "title": "Gebouwd door een bediening, niet door een leverancier.",
         "lead": "B1 wordt gebouwd door Live Church Solutions, een 501(c)(3)-non-profit opgericht in 2012. Kerken geven jaarlijks honderden miljoenen uit aan software — wij zien dat geld liever naar het kerkenwerk gaan.",
         "stats": {

@@ -2,9 +2,11 @@
   "brochure": {
     "header": {
       "features": "Funkcie",
+      "pricing": "Cenník",
       "churchManagement": "Správa cirkvi",
       "about": "O nás",
       "contact": "Kontakt",
+      "demo": "Živá ukážka",
       "signIn": "Prihlásiť sa",
       "getStartedFree": "Začnite zadarmo"
     },
@@ -22,6 +24,38 @@
           "Open source na GitHub",
           "Nezisková služba 501(c)(3) od roku 2012"
         ]
+      },
+      "products": {
+        "eyebrow": "Jedna platforma",
+        "title": "Všetky služby konečne na jednej vlne.",
+        "lead": "Šesť nástrojov, ktoré fungujú ako jeden — pretože jedným sú. Jedna platforma s jednou databázou, nič sa nepredáva zvlášť.",
+        "linkLabel": "Preskúmať",
+        "items": {
+          "app": {
+            "name": "Aplikácia pre členov",
+            "desc": "Skupiny, správy, kázne a dary vo vrecku každého člena."
+          },
+          "giving": {
+            "name": "Dary",
+            "desc": "Online a pravidelné dary s fondmi, dávkami a ročnými výpismi."
+          },
+          "people": {
+            "name": "Ľudia",
+            "desc": "Kompletná databáza členov s dochádzkou, pracovnými postupmi a AI vyhľadávaním."
+          },
+          "checkin": {
+            "name": "Check-in",
+            "desc": "Rýchly a bezpečný check-in detí s menovkami a overením pri vyzdvihnutí."
+          },
+          "web": {
+            "name": "Weby",
+            "desc": "Drag-and-drop tvorca webov navrhnutý pre cirkevné stránky."
+          },
+          "plans": {
+            "name": "Plánovanie bohoslužieb",
+            "desc": "Plány bohoslužieb, knižnice piesní a rozpisy dobrovoľníkov."
+          }
+        }
       },
       "connect": {
         "eyebrow": "Mobilná aplikácia B1",
@@ -156,8 +190,18 @@
           "linkLabel": "Pozrite si kód na GitHub"
         }
       },
+      "pricing": {
+        "eyebrow": "Cenník",
+        "title": "Tu je celý cenník.",
+        "lead": "Žiadne úrovne, žiadne ceny za člena, žiadny nečakaný skok pri 200 ľuďoch. Všetko na tejto stránke je v cene pre každý zbor akejkoľvek veľkosti.",
+        "per": "mesačne — za všetko, navždy",
+        "note": "Spracovanie kariet pri online daroch zabezpečuje platobná brána za svoje bežné sadzby. My nepridávame nič.",
+        "cta": "Začnite zadarmo"
+      },
       "mission": {
         "eyebrow": "Prečo je to zadarmo?",
+        "statement1": "Nie je na predaj.",
+        "statement2": "Nie pre zisk.",
         "title": "Vytvorené službou, nie predajcom.",
         "lead": "B1 vytvára Live Church Solutions, nezisková organizácia 501(c)(3) založená v roku 2012. Cirkvi míňajú na softvér stovky miliónov ročne — my by sme radšej videli, ako tieto peniaze idú do služby.",
         "stats": {

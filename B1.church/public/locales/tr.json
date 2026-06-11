@@ -2,9 +2,11 @@
   "brochure": {
     "header": {
       "features": "Özellikler",
+      "pricing": "Fiyatlandırma",
       "churchManagement": "Kilise Yönetimi",
       "about": "Hakkında",
       "contact": "İletişim",
+      "demo": "Canlı Demo",
       "signIn": "Giriş Yap",
       "getStartedFree": "Ücretsiz Başlayın"
     },
@@ -22,6 +24,38 @@
           "GitHub'da açık kaynak",
           "2012'den beri 501(c)(3) statüsünde bir hizmet"
         ]
+      },
+      "products": {
+        "eyebrow": "Tek platform",
+        "title": "Tüm hizmetler sonunda aynı çizgide.",
+        "lead": "Tek gibi çalışan altı araç — çünkü gerçekten tek. Tek veritabanına sahip tek bir platform, hiçbir şey ayrı satılmaz.",
+        "linkLabel": "Keşfet",
+        "items": {
+          "app": {
+            "name": "Üye Uygulaması",
+            "desc": "Gruplar, mesajlar, vaazlar ve bağışlar her üyenin cebinde."
+          },
+          "giving": {
+            "name": "Bağışlar",
+            "desc": "Fonlar, partiler ve yıl sonu dökümleriyle çevrim içi ve düzenli bağışlar."
+          },
+          "people": {
+            "name": "Kişiler",
+            "desc": "Katılım, iş akışları ve yapay zekâ aramasıyla eksiksiz bir üye veritabanı."
+          },
+          "checkin": {
+            "name": "Check-In",
+            "desc": "İsim etiketleri ve teslim eşleştirmesiyle hızlı, güvenli çocuk check-in'i."
+          },
+          "web": {
+            "name": "Web Siteleri",
+            "desc": "Kiliseler için tasarlanmış sürükle-bırak web sitesi oluşturucu."
+          },
+          "plans": {
+            "name": "İbadet Planlama",
+            "desc": "İbadet planları, ilahi kitaplıkları ve gönüllü programları."
+          }
+        }
       },
       "connect": {
         "eyebrow": "B1 Mobil Uygulaması",
@@ -156,8 +190,18 @@
           "linkLabel": "Kodu GitHub'da görün"
         }
       },
+      "pricing": {
+        "eyebrow": "Fiyatlandırma",
+        "title": "İşte tüm fiyat tablosu.",
+        "lead": "Kademeler yok, üye başına ücret yok, 200 kişide sürpriz zam yok. Bu sayfadaki her şey, her boyuttaki her kilise için dahildir.",
+        "per": "aylık — her şey için, sonsuza dek",
+        "note": "Çevrim içi bağışlarda kart işlemleri, ödeme sağlayıcısı tarafından kendi standart ücretleriyle yürütülür. Biz üzerine hiçbir şey eklemeyiz.",
+        "cta": "Ücretsiz Başlayın"
+      },
       "mission": {
         "eyebrow": "Neden ücretsiz?",
+        "statement1": "Satılık değil.",
+        "statement2": "Kâr amaçlı değil.",
         "title": "Bir tedarikçi değil, bir hizmet topluluğu tarafından geliştirildi.",
         "lead": "B1, 2012'de kurulan 501(c)(3) statüsündeki kâr amacı gütmeyen Live Church Solutions tarafından geliştiriliyor. Kiliseler yazılıma yılda yüz milyonlarca dolar harcıyor — biz o paranın hizmete gitmesini tercih ediyoruz.",
         "stats": {

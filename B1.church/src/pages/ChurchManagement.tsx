@@ -23,8 +23,8 @@ import {
   Globe,
   Github
 } from "lucide-react";
-import LocaleLink from "@/components/LocaleLink";
 import Reveal from "@/components/Reveal";
+import { ADMIN_REGISTER_URL, DEMO_URL } from "@/constants/externalUrls";
 import TabletFrame from "@/components/frames/TabletFrame";
 import BrowserFrame from "@/components/frames/BrowserFrame";
 import NameTagBadge from "@/components/fragments/NameTagBadge";
@@ -157,16 +157,16 @@ const ChurchManagement = () => {
 
               <div className="mb-12 flex flex-col items-center justify-center gap-4 sm:flex-row">
                 <Button size="xl" className="group" asChild>
-                  <LocaleLink to="/login">
+                  <a href={ADMIN_REGISTER_URL}>
                     {t("brochure.churchManagement.hero.ctaPrimary")}
                     <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
-                  </LocaleLink>
+                  </a>
                 </Button>
                 <Button variant="outline" size="xl" className="group" asChild>
-                  <LocaleLink to="/login">
+                  <a href={DEMO_URL} target="_blank" rel="noopener">
                     <Play className="mr-2 h-5 w-5" />
                     {t("brochure.churchManagement.hero.ctaSecondary")}
-                  </LocaleLink>
+                  </a>
                 </Button>
               </div>
 
@@ -446,14 +446,14 @@ const ChurchManagement = () => {
                 </p>
                 <div className="flex flex-col justify-center gap-4 sm:flex-row">
                   <Button size="xl" asChild>
-                    <LocaleLink to="/login">
+                    <a href={ADMIN_REGISTER_URL}>
                       {t("brochure.churchManagement.cta.primaryButton")}
-                    </LocaleLink>
+                    </a>
                   </Button>
                   <Button variant="outline" size="xl" asChild>
-                    <LocaleLink to="/login">
+                    <a href={DEMO_URL} target="_blank" rel="noopener">
                       {t("brochure.churchManagement.cta.secondaryButton")}
-                    </LocaleLink>
+                    </a>
                   </Button>
                 </div>
               </div>

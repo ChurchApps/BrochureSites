@@ -1,8 +1,8 @@
 import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 import { Monitor, Palette, Globe, Zap, ArrowRight } from "lucide-react";
-import LocaleLink from "@/components/LocaleLink";
 import { trackWebsiteBuilderClick } from "@/utils/analytics";
+import { ADMIN_REGISTER_URL } from "@/constants/externalUrls";
 import Reveal from "@/components/Reveal";
 import SectionHeading from "@/components/SectionHeading";
 import BrowserFrame from "@/components/frames/BrowserFrame";
@@ -50,10 +50,10 @@ const WebsiteBuilder = () => {
             </div>
             <div className="mt-10">
               <Button size="xl" className="group" asChild onClick={() => trackWebsiteBuilderClick()}>
-                <LocaleLink to="/login">
+                <a href={ADMIN_REGISTER_URL}>
                   {t("brochure.websiteBuilder.cta")}
                   <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
-                </LocaleLink>
+                </a>
               </Button>
               <p className="mt-4 text-sm text-muted-foreground">{t("brochure.websiteBuilder.ctaSubtext")}</p>
             </div>

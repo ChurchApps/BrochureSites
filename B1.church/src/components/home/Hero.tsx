@@ -1,8 +1,8 @@
 import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import LocaleLink from "@/components/LocaleLink";
 import { trackChurchSignup, trackFeatureClick } from "@/utils/analytics";
+import { ADMIN_REGISTER_URL, DEMO_URL } from "@/constants/externalUrls";
 import BrowserFrame from "@/components/frames/BrowserFrame";
 import PhoneFrame from "@/components/frames/PhoneFrame";
 import CheckinToast from "@/components/fragments/CheckinToast";
@@ -10,11 +10,6 @@ import GivingStat from "@/components/fragments/GivingStat";
 
 const Hero = () => {
   const { t } = useTranslation();
-
-  const scrollToProducts = () => {
-    trackFeatureClick("see_how_it_works");
-    document.getElementById("products")?.scrollIntoView({ behavior: "smooth" });
-  };
 
   return (
     <section className="relative overflow-hidden bg-mesh-hero pt-32 lg:pt-44">
@@ -29,13 +24,15 @@ const Hero = () => {
         </p>
         <div className="mt-9 flex flex-col justify-center gap-4 sm:flex-row">
           <Button size="xl" className="group" asChild onClick={() => trackChurchSignup("hero_primary_cta")}>
-            <LocaleLink to="/login">
+            <a href={ADMIN_REGISTER_URL}>
               {t("brochure.home.hero.ctaPrimary")}
               <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
-            </LocaleLink>
+            </a>
           </Button>
-          <Button variant="outline" size="xl" onClick={scrollToProducts}>
-            {t("brochure.home.hero.ctaSecondary")}
+          <Button variant="outline" size="xl" asChild onClick={() => trackFeatureClick("live_demo")}>
+            <a href={DEMO_URL} target="_blank" rel="noopener">
+              {t("brochure.home.hero.ctaSecondary")}
+            </a>
           </Button>
         </div>
 

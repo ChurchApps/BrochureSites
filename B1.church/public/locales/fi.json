@@ -2,9 +2,11 @@
   "brochure": {
     "header": {
       "features": "Ominaisuudet",
+      "pricing": "Hinnoittelu",
       "churchManagement": "Seurakuntahallinta",
       "about": "Tietoa meistä",
       "contact": "Yhteystiedot",
+      "demo": "Live-demo",
       "signIn": "Kirjaudu sisään",
       "getStartedFree": "Aloita ilmaiseksi"
     },
@@ -22,6 +24,38 @@
           "Avoin lähdekoodi GitHubissa",
           "501(c)(3)-järjestö vuodesta 2012"
         ]
+      },
+      "products": {
+        "eyebrow": "Yksi alusta",
+        "title": "Kaikki työmuodot vihdoin samalla sivulla.",
+        "lead": "Kuusi työkalua, jotka toimivat kuin yksi — koska ne ovat yksi. Yksi alusta ja yksi tietokanta, mitään ei myydä erikseen.",
+        "linkLabel": "Tutustu",
+        "items": {
+          "app": {
+            "name": "Jäsensovellus",
+            "desc": "Ryhmät, viestit, saarnat ja lahjoitukset jokaisen jäsenen taskussa."
+          },
+          "giving": {
+            "name": "Lahjoitukset",
+            "desc": "Verkko- ja toistuvat lahjoitukset rahastoineen, erineen ja vuosiraportteineen."
+          },
+          "people": {
+            "name": "Jäsenet",
+            "desc": "Täysi jäsenrekisteri läsnäoloineen, työnkulkuineen ja tekoälyhakuineen."
+          },
+          "checkin": {
+            "name": "Check-in",
+            "desc": "Nopea ja turvallinen lasten check-in nimitarroineen ja noutovarmistuksineen."
+          },
+          "web": {
+            "name": "Verkkosivut",
+            "desc": "Vedä ja pudota -kotisivutyökalu seurakunnille."
+          },
+          "plans": {
+            "name": "Jumalanpalvelussuunnittelu",
+            "desc": "Jumalanpalvelusten ohjelmat, laulukirjastot ja vapaaehtoisten vuorot."
+          }
+        }
       },
       "connect": {
         "eyebrow": "B1-mobiilisovellus",
@@ -156,8 +190,18 @@
           "linkLabel": "Katso koodi GitHubissa"
         }
       },
+      "pricing": {
+        "eyebrow": "Hinnoittelu",
+        "title": "Tässä on koko hinnasto.",
+        "lead": "Ei tasoja, ei jäsenkohtaista hinnoittelua, ei yllätyskorotusta 200 hengen kohdalla. Kaikki tällä sivulla sisältyy jokaiselle seurakunnalle koosta riippumatta.",
+        "per": "kuukaudessa — kaikesta, ikuisesti",
+        "note": "Maksunvälittäjä veloittaa verkkolahjoitusten korttimaksuista omat vakiohintansa. Me emme lisää mitään.",
+        "cta": "Aloita ilmaiseksi"
+      },
       "mission": {
         "eyebrow": "Miksi se on ilmainen?",
+        "statement1": "Ei myytävänä.",
+        "statement2": "Ei voittoa tavoitteleva.",
         "title": "Järjestön rakentama, ei ohjelmistotalon.",
         "lead": "B1:n on rakentanut Live Church Solutions, vuonna 2012 perustettu voittoa tavoittelematon 501(c)(3)-järjestö. Seurakunnat käyttävät ohjelmistoihin satoja miljoonia vuodessa — me haluaisimme nähdä sen rahan menevän seurakuntatyöhön.",
         "stats": {

@@ -2,9 +2,11 @@
   "brochure": {
     "header": {
       "features": "Funzionalità",
+      "pricing": "Prezzi",
       "churchManagement": "Gestione della Chiesa",
       "about": "Chi Siamo",
       "contact": "Contatti",
+      "demo": "Demo dal vivo",
       "signIn": "Accedi",
       "getStartedFree": "Inizia Gratis"
     },
@@ -22,6 +24,38 @@
           "Open source su GitHub",
           "Ministero 501(c)(3) dal 2012"
         ]
+      },
+      "products": {
+        "eyebrow": "Un'unica piattaforma",
+        "title": "Ogni ministero, finalmente in sintonia.",
+        "lead": "Sei strumenti che funzionano come uno solo — perché lo sono. Un'unica piattaforma con un unico database, niente venduto a parte.",
+        "linkLabel": "Scopri",
+        "items": {
+          "app": {
+            "name": "App per i membri",
+            "desc": "Gruppi, messaggi, sermoni e offerte nella tasca di ogni membro."
+          },
+          "giving": {
+            "name": "Offerte",
+            "desc": "Offerte online e ricorrenti con fondi, lotti e rendiconti di fine anno."
+          },
+          "people": {
+            "name": "Persone",
+            "desc": "Un database completo dei membri con presenze, flussi di lavoro e ricerca IA."
+          },
+          "checkin": {
+            "name": "Check-In",
+            "desc": "Check-in dei bambini rapido e sicuro con badge nominativi e verifica al ritiro."
+          },
+          "web": {
+            "name": "Siti web",
+            "desc": "Un costruttore di siti drag-and-drop pensato per le chiese."
+          },
+          "plans": {
+            "name": "Pianificazione del culto",
+            "desc": "Scalette dei culti, raccolte di canti e turni dei volontari."
+          }
+        }
       },
       "connect": {
         "eyebrow": "L'app mobile B1",
@@ -156,8 +190,18 @@
           "linkLabel": "Guarda il codice su GitHub"
         }
       },
+      "pricing": {
+        "eyebrow": "Prezzi",
+        "title": "Ecco l'intero listino prezzi.",
+        "lead": "Niente livelli, niente prezzi per membro, niente aumenti a sorpresa a 200 persone. Tutto ciò che è in questa pagina è incluso per ogni chiesa, di qualsiasi dimensione.",
+        "per": "al mese — per tutto, per sempre",
+        "note": "L'elaborazione delle carte per le offerte online è gestita dal processore di pagamento alle sue tariffe standard. Noi non aggiungiamo nulla.",
+        "cta": "Inizia Gratis"
+      },
       "mission": {
         "eyebrow": "Perché è gratuito?",
+        "statement1": "Non in vendita.",
+        "statement2": "Non a scopo di lucro.",
         "title": "Creato da un ministero, non da un fornitore.",
         "lead": "B1 è sviluppato da Live Church Solutions, un'organizzazione senza scopo di lucro 501(c)(3) fondata nel 2012. Le chiese spendono centinaia di milioni all'anno in software — preferiamo che quei soldi vadano al ministero.",
         "stats": {

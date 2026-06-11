@@ -2,9 +2,11 @@
   "brochure": {
     "header": {
       "features": "Fitur",
+      "pricing": "Harga",
       "churchManagement": "Manajemen Gereja",
       "about": "Tentang",
       "contact": "Kontak",
+      "demo": "Demo Langsung",
       "signIn": "Masuk",
       "getStartedFree": "Mulai Gratis"
     },
@@ -22,6 +24,38 @@
           "Open source di GitHub",
           "Pelayanan nirlaba 501(c)(3) sejak 2012"
         ]
+      },
+      "products": {
+        "eyebrow": "Satu platform",
+        "title": "Semua pelayanan, akhirnya selaras.",
+        "lead": "Enam alat yang bekerja seperti satu — karena memang satu. Satu platform dengan satu basis data, tanpa ada yang dijual terpisah.",
+        "linkLabel": "Jelajahi",
+        "items": {
+          "app": {
+            "name": "Aplikasi Jemaat",
+            "desc": "Grup, pesan, khotbah, dan persembahan di saku setiap jemaat."
+          },
+          "giving": {
+            "name": "Persembahan",
+            "desc": "Persembahan online dan berulang dengan dana, batch, dan laporan akhir tahun."
+          },
+          "people": {
+            "name": "Jemaat",
+            "desc": "Basis data jemaat lengkap dengan kehadiran, alur kerja, dan pencarian AI."
+          },
+          "checkin": {
+            "name": "Check-In",
+            "desc": "Check-in anak yang cepat dan aman dengan tanda nama serta pencocokan penjemputan."
+          },
+          "web": {
+            "name": "Situs Web",
+            "desc": "Pembuat situs web seret-dan-lepas yang dirancang untuk gereja."
+          },
+          "plans": {
+            "name": "Perencanaan Ibadah",
+            "desc": "Susunan ibadah, pustaka lagu, dan penjadwalan relawan."
+          }
+        }
       },
       "connect": {
         "eyebrow": "Aplikasi Seluler B1",
@@ -156,8 +190,18 @@
           "linkLabel": "Lihat kodenya di GitHub"
         }
       },
+      "pricing": {
+        "eyebrow": "Harga",
+        "title": "Inilah seluruh tabel harganya.",
+        "lead": "Tanpa tingkatan, tanpa biaya per jemaat, tanpa lonjakan mendadak di 200 orang. Semua di halaman ini termasuk untuk setiap gereja, berapa pun ukurannya.",
+        "per": "per bulan — untuk semuanya, selamanya",
+        "note": "Pemrosesan kartu untuk persembahan online ditangani oleh penyedia pembayaran dengan tarif standar mereka. Kami tidak menambahkan apa pun.",
+        "cta": "Mulai Gratis"
+      },
       "mission": {
         "eyebrow": "Mengapa gratis?",
+        "statement1": "Tidak untuk dijual.",
+        "statement2": "Bukan untuk mencari untung.",
         "title": "Dibangun oleh pelayanan, bukan vendor.",
         "lead": "B1 dibangun oleh Live Church Solutions, organisasi nirlaba 501(c)(3) yang berdiri sejak 2012. Gereja-gereja menghabiskan ratusan juta dolar per tahun untuk perangkat lunak — kami lebih ingin uang itu dipakai untuk pelayanan.",
         "stats": {

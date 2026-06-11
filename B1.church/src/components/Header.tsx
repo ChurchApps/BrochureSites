@@ -8,6 +8,7 @@ import LocaleLink from "@/components/LocaleLink";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import { useLanguage } from "@/context/LanguageContext";
 import { LANG_HOME_REGEX } from "@/constants/languages";
+import { ADMIN_LOGIN_URL, ADMIN_REGISTER_URL, DEMO_URL } from "@/constants/externalUrls";
 
 const Header = () => {
   const { t } = useTranslation();
@@ -69,6 +70,14 @@ const Header = () => {
             <LocaleLink to="/church-management" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
               {t("brochure.header.churchManagement")}
             </LocaleLink>
+            <a
+              href={DEMO_URL}
+              target="_blank"
+              rel="noopener"
+              className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors"
+            >
+              {t("brochure.header.demo")}
+            </a>
             <button
               onClick={() => scrollToSection("about")}
               className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors"
@@ -87,14 +96,14 @@ const Header = () => {
           {/* Desktop CTA */}
           <div className="hidden md:flex items-center space-x-3">
             <Button variant="ghost" asChild>
-              <LocaleLink to="/login">{t("brochure.header.signIn")}</LocaleLink>
+              <a href={ADMIN_LOGIN_URL}>{t("brochure.header.signIn")}</a>
             </Button>
             <Button
               size="lg"
               asChild
               onClick={() => trackChurchSignup("header_cta")}
             >
-              <LocaleLink to="/login">{t("brochure.header.getStartedFree")}</LocaleLink>
+              <a href={ADMIN_REGISTER_URL}>{t("brochure.header.getStartedFree")}</a>
             </Button>
           </div>
 
@@ -130,6 +139,15 @@ const Header = () => {
               >
                 {t("brochure.header.churchManagement")}
               </LocaleLink>
+              <a
+                href={DEMO_URL}
+                target="_blank"
+                rel="noopener"
+                onClick={() => setIsMenuOpen(false)}
+                className="text-foreground/80 hover:text-foreground transition-colors"
+              >
+                {t("brochure.header.demo")}
+              </a>
               <button
                 onClick={() => scrollToSection("about")}
                 className="text-foreground/80 hover:text-foreground transition-colors text-left"
@@ -145,13 +163,13 @@ const Header = () => {
               <LanguageSwitcher />
               <div className="flex flex-col space-y-2 pt-4 border-t border-border">
                 <Button variant="ghost" className="justify-start" asChild>
-                  <LocaleLink to="/login">{t("brochure.header.signIn")}</LocaleLink>
+                  <a href={ADMIN_LOGIN_URL}>{t("brochure.header.signIn")}</a>
                 </Button>
                 <Button
                   asChild
                   onClick={() => trackChurchSignup("mobile_header_cta")}
                 >
-                  <LocaleLink to="/login">{t("brochure.header.getStartedFree")}</LocaleLink>
+                  <a href={ADMIN_REGISTER_URL}>{t("brochure.header.getStartedFree")}</a>
                 </Button>
               </div>
             </nav>

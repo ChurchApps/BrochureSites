@@ -2,9 +2,11 @@
   "brochure": {
     "header": {
       "features": "Funkcijos",
+      "pricing": "Kainos",
       "churchManagement": "Bažnyčios valdymas",
       "about": "Apie mus",
       "contact": "Kontaktai",
+      "demo": "Tiesioginė demonstracija",
       "signIn": "Prisijungti",
       "getStartedFree": "Pradėti nemokamai"
     },
@@ -22,6 +24,38 @@
           "Atvirasis kodas GitHub platformoje",
           "501(c)(3) tarnystė nuo 2012 m."
         ]
+      },
+      "products": {
+        "eyebrow": "Viena platforma",
+        "title": "Visos tarnystės pagaliau veikia išvien.",
+        "lead": "Šeši įrankiai, veikiantys kaip vienas — nes jie ir yra viena. Viena platforma su viena duomenų baze, nieko neparduodama atskirai.",
+        "linkLabel": "Naršyti",
+        "items": {
+          "app": {
+            "name": "Narių programėlė",
+            "desc": "Grupės, žinutės, pamokslai ir aukos kiekvieno nario kišenėje."
+          },
+          "giving": {
+            "name": "Aukojimas",
+            "desc": "Aukos internetu ir periodinės aukos su fondais, partijomis ir metinėmis ataskaitomis."
+          },
+          "people": {
+            "name": "Žmonės",
+            "desc": "Pilna narių duomenų bazė su lankomumu, darbo eigomis ir DI paieška."
+          },
+          "checkin": {
+            "name": "Registracija",
+            "desc": "Greita ir saugi vaikų registracija su vardų kortelėmis ir atsiėmimo patikra."
+          },
+          "web": {
+            "name": "Svetainės",
+            "desc": "Vilkimo ir paleidimo svetainių kūrimo įrankis bažnyčių svetainėms."
+          },
+          "plans": {
+            "name": "Pamaldų planavimas",
+            "desc": "Pamaldų planai, giesmių bibliotekos ir savanorių grafikai."
+          }
+        }
       },
       "connect": {
         "eyebrow": "B1 mobilioji programėlė",
@@ -156,8 +190,18 @@
           "linkLabel": "Žiūrėkite kodą GitHub platformoje"
         }
       },
+      "pricing": {
+        "eyebrow": "Kainos",
+        "title": "Štai visa kainų lentelė.",
+        "lead": "Jokių lygių, jokios kainos už narį, jokio netikėto šuolio ties 200 žmonių. Viskas šiame puslapyje įtraukta kiekvienai bet kokio dydžio bažnyčiai.",
+        "per": "per mėnesį — už viską, visam laikui",
+        "note": "Kortelių mokėjimus už aukas internetu tvarko mokėjimų tarpininkas savo standartiniais įkainiais. Mes nieko nepridedame.",
+        "cta": "Pradėti nemokamai"
+      },
       "mission": {
         "eyebrow": "Kodėl tai nemokama?",
+        "statement1": "Neparduodama.",
+        "statement2": "Ne dėl pelno.",
         "title": "Sukurta tarnystės, o ne pardavėjo.",
         "lead": "B1 kuria Live Church Solutions — 501(c)(3) ne pelno organizacija, įkurta 2012 m. Bažnyčios programinei įrangai kasmet išleidžia šimtus milijonų — mes norėtume, kad tie pinigai eitų tarnystei.",
         "stats": {

@@ -2,9 +2,11 @@
   "brochure": {
     "header": {
       "features": "Fonctionnalités",
+      "pricing": "Tarifs",
       "churchManagement": "Gestion d'église",
       "about": "À propos",
       "contact": "Contact",
+      "demo": "Démo en direct",
       "signIn": "Connexion",
       "getStartedFree": "Commencer gratuitement"
     },
@@ -22,6 +24,38 @@
           "Open source sur GitHub",
           "Ministère 501(c)(3) depuis 2012"
         ]
+      },
+      "products": {
+        "eyebrow": "Une seule plateforme",
+        "title": "Tous les ministères, enfin sur la même longueur d'onde.",
+        "lead": "Six outils qui fonctionnent comme un seul — parce qu'ils n'en font qu'un. Une seule plateforme, une seule base de données, rien n'est vendu séparément.",
+        "linkLabel": "Découvrir",
+        "items": {
+          "app": {
+            "name": "Appli membres",
+            "desc": "Groupes, messages, prédications et dons dans la poche de chaque membre."
+          },
+          "giving": {
+            "name": "Dons",
+            "desc": "Dons en ligne et récurrents avec fonds, lots et reçus annuels."
+          },
+          "people": {
+            "name": "Personnes",
+            "desc": "Une base de données complète des membres avec présence, flux de travail et recherche IA."
+          },
+          "checkin": {
+            "name": "Check-In",
+            "desc": "Enregistrement des enfants rapide et sécurisé avec badges nominatifs et contrôle à la sortie."
+          },
+          "web": {
+            "name": "Sites web",
+            "desc": "Un créateur de sites par glisser-déposer conçu pour les églises."
+          },
+          "plans": {
+            "name": "Planification des cultes",
+            "desc": "Déroulés de culte, bibliothèques de chants et planning des bénévoles."
+          }
+        }
       },
       "connect": {
         "eyebrow": "L'application mobile B1",
@@ -156,8 +190,18 @@
           "linkLabel": "Voir le code sur GitHub"
         }
       },
+      "pricing": {
+        "eyebrow": "Tarifs",
+        "title": "Voici la grille tarifaire complète.",
+        "lead": "Pas de formules, pas de tarif par membre, pas de hausse surprise à 200 personnes. Tout ce qui figure sur cette page est inclus pour chaque église, quelle que soit sa taille.",
+        "per": "par mois — pour tout, pour toujours",
+        "note": "Le traitement des cartes pour les dons en ligne est assuré par le prestataire de paiement à ses tarifs standards. Nous n'ajoutons rien.",
+        "cta": "Commencer gratuitement"
+      },
       "mission": {
         "eyebrow": "Pourquoi est-ce gratuit ?",
+        "statement1": "Pas à vendre.",
+        "statement2": "Pas pour le profit.",
         "title": "Créé par un ministère, pas par un fournisseur.",
         "lead": "B1 est développé par Live Church Solutions, une organisation à but non lucratif 501(c)(3) fondée en 2012. Les églises dépensent des centaines de millions par an en logiciels — nous préférons voir cet argent servir le ministère.",
         "stats": {

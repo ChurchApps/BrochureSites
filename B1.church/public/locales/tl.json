@@ -2,9 +2,11 @@
   "brochure": {
     "header": {
       "features": "Mga Tampok",
+      "pricing": "Presyo",
       "churchManagement": "Pamamahala ng Simbahan",
       "about": "Tungkol",
       "contact": "Makipag-ugnayan",
+      "demo": "Live Demo",
       "signIn": "Mag-sign In",
       "getStartedFree": "Magsimula nang Libre"
     },
@@ -22,6 +24,38 @@
           "Open source sa GitHub",
           "501(c)(3) na ministeryo mula pa noong 2012"
         ]
+      },
+      "products": {
+        "eyebrow": "Isang platform",
+        "title": "Lahat ng ministeryo, sa wakas ay magkasundo na.",
+        "lead": "Anim na tool na gumagana bilang isa — dahil iisa nga sila. Isang platform na may isang database, walang ibinebentang hiwalay.",
+        "linkLabel": "Tuklasin",
+        "items": {
+          "app": {
+            "name": "App para sa mga Miyembro",
+            "desc": "Mga grupo, mensahe, sermon, at pagbibigay sa bulsa ng bawat miyembro."
+          },
+          "giving": {
+            "name": "Pagbibigay",
+            "desc": "Online at paulit-ulit na pagbibigay na may mga pondo, batch, at taunang ulat."
+          },
+          "people": {
+            "name": "Mga Tao",
+            "desc": "Kumpletong database ng mga miyembro na may attendance, workflow, at AI search."
+          },
+          "checkin": {
+            "name": "Check-In",
+            "desc": "Mabilis at ligtas na check-in ng mga bata na may name tag at pagtutugma sa pagsundo."
+          },
+          "web": {
+            "name": "Mga Website",
+            "desc": "Drag-and-drop na website builder na ginawa para sa mga simbahan."
+          },
+          "plans": {
+            "name": "Pagpaplano ng Pagsamba",
+            "desc": "Mga plano ng serbisyo, library ng mga awit, at iskedyul ng mga volunteer."
+          }
+        }
       },
       "connect": {
         "eyebrow": "Ang B1 Mobile App",
@@ -156,8 +190,18 @@
           "linkLabel": "Tingnan ang code sa GitHub"
         }
       },
+      "pricing": {
+        "eyebrow": "Presyo",
+        "title": "Narito ang buong talahanayan ng presyo.",
+        "lead": "Walang tier, walang bayad kada miyembro, walang biglang pagtaas sa 200 katao. Lahat ng nasa pahinang ito ay kasama para sa bawat simbahan, anuman ang laki.",
+        "per": "bawat buwan — para sa lahat, magpakailanman",
+        "note": "Ang pagproseso ng card para sa online na pagbibigay ay hawak ng payment processor sa kanilang karaniwang singil. Wala kaming idinadagdag.",
+        "cta": "Magsimula nang Libre"
+      },
       "mission": {
         "eyebrow": "Bakit ito libre?",
+        "statement1": "Hindi ipinagbibili.",
+        "statement2": "Hindi para sa tubo.",
         "title": "Gawa ng isang ministeryo, hindi ng isang vendor.",
         "lead": "Ang B1 ay gawa ng Live Church Solutions, isang 501(c)(3) nonprofit na itinatag noong 2012. Daan-daang milyon ang ginagastos ng mga simbahan kada taon sa software — mas gusto naming mapunta sa ministeryo ang perang iyon.",
         "stats": {
