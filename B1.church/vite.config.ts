@@ -20,13 +20,8 @@ export default defineConfig(({ mode }) => ({
     global: 'globalThis',
     'process.env': {},
   },
-  // English-only prerendering: vite-react-ssg renders exactly these paths to
-  // static HTML. The default handler drops all dynamic routes, so we list the
-  // concrete English paths (incl. the :competitor compare pages) explicitly.
-  // All other languages/routes continue to render client-side.
+  // Prerender English paths to static HTML; other languages render client-side.
   ssgOptions: {
-    // Emit `/en/faq` as `dist/en/faq/index.html` so S3/CloudFront serves it as
-    // a directory index at the clean URL (matches the site's URL scheme).
     dirStyle: "nested",
     includedRoutes: () => {
       const competitors = ["planning-center", "pushpay", "tithely", "breeze"];

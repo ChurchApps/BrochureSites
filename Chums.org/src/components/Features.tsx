@@ -71,7 +71,6 @@ export const Features = () => {
   return (
     <section id="features" className="py-24 bg-gradient-to-br from-background via-muted/20 to-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header */}
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
             Complete{" "}
@@ -84,7 +83,6 @@ export const Features = () => {
           </p>
         </div>
 
-        {/* Check-in Stations Feature */}
         <div className="mb-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
@@ -133,7 +131,6 @@ export const Features = () => {
           </div>
         </div>
 
-        {/* Attendance Analytics Feature */}
         <div className="mb-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1 relative">
@@ -178,7 +175,6 @@ export const Features = () => {
           </div>
         </div>
 
-        {/* Giving Management Feature */}
         <div className="mb-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
@@ -227,7 +223,6 @@ export const Features = () => {
           </div>
         </div>
 
-        {/* Additional Features Grid */}
         <div className="mb-20">
           <div className="text-center mb-12">
             <h3 className="text-2xl md:text-3xl font-bold mb-4">
@@ -239,7 +234,6 @@ export const Features = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
-            {/* Groups Management */}
             <div className="group relative rounded-xl overflow-hidden shadow-card-hover border border-border/50 hover:shadow-elegant transition-all duration-300">
               <img
                 src="/groups-ministry-management.png"
@@ -253,7 +247,6 @@ export const Features = () => {
               </div>
             </div>
 
-            {/* People Management */}
             <div className="group relative rounded-xl overflow-hidden shadow-card-hover border border-border/50 hover:shadow-elegant transition-all duration-300">
               <img
                 src="/people-search-database.png"
@@ -267,7 +260,6 @@ export const Features = () => {
               </div>
             </div>
 
-            {/* Worship Planning */}
             <div className="group relative rounded-xl overflow-hidden shadow-card-hover border border-border/50 hover:shadow-elegant transition-all duration-300">
               <img
                 src="/worship-service-planning.png"
@@ -281,7 +273,6 @@ export const Features = () => {
               </div>
             </div>
 
-            {/* Song Library */}
             <div className="group relative rounded-xl overflow-hidden shadow-card-hover border border-border/50 hover:shadow-elegant transition-all duration-300">
               <img
                 src="/song-library-arrangements.png"
@@ -297,7 +288,6 @@ export const Features = () => {
           </div>
         </div>
 
-        {/* Dashboard Preview */}
         <div className="mb-20">
           <div className="relative rounded-3xl overflow-hidden shadow-card-hover border border-border/50">
             <img
@@ -317,7 +307,6 @@ export const Features = () => {
           </div>
         </div>
 
-        {/* Additional Features */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
           {additionalFeatures.map((feature, _index) => (
             <div
@@ -335,7 +324,6 @@ export const Features = () => {
           ))}
         </div>
 
-        {/* CTA */}
         <div className="text-center">
           <Button variant="hero" size="xl" asChild>
             <a href="https://app.chums.org/login#register">

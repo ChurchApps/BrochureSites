@@ -60,9 +60,7 @@ const footerLinks = {
 export const Footer = () => {
   return <footer className="bg-gradient-to-br from-muted/50 via-background to-muted/30 border-t border-border/50">
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-      {/* Main Footer Content */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8 mb-12">
-        {/* Brand Section */}
         <div className="lg:col-span-2">
           <div className="flex items-center space-x-3 mb-4">
             <img src="/chums-logo.png" alt="CHUMS Logo" className="h-8 w-auto" />
@@ -73,7 +71,6 @@ export const Footer = () => {
             a 501(c)(3) non-profit ministry helping churches save money and focus on ministry.
           </p>
 
-          {/* Contact Info */}
           <div className="space-y-3">
             <div className="flex items-center space-x-3">
               <Mail className="h-4 w-4 text-primary" />
@@ -86,7 +83,6 @@ export const Footer = () => {
           </div>
         </div>
 
-        {/* Links Sections */}
         {Object.entries(footerLinks).map(([category, links]) => <div key={category}>
           <h4 className="font-semibold mb-4">{category}</h4>
           <ul className="space-y-3">
@@ -98,8 +94,6 @@ export const Footer = () => {
           </ul>
         </div>)}
       </div>
-
-      {/* Newsletter Signup */}
 
       {/*
       <div className="gradient-card rounded-2xl p-8 border border-border/50 mb-12">
@@ -118,7 +112,6 @@ export const Footer = () => {
       </div>
       */}
 
-      {/* Bottom Bar */}
       <div className="border-t border-border/30 pt-8">
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div className="flex items-center space-x-2 text-sm text-foreground/60">

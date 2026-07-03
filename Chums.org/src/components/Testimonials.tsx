@@ -29,7 +29,6 @@ export const Testimonials = () => {
   return (
     <section id="testimonials" className="py-24 bg-gradient-to-br from-muted/30 via-background to-muted/30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header */}
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
             Loved by Churches{" "}
@@ -41,7 +40,6 @@ export const Testimonials = () => {
           </p>
         </div>
 
-        {/* Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-16">
           <div className="text-center">
             <div className="text-3xl md:text-4xl font-bold text-gradient-primary mb-2">100+</div>
@@ -61,7 +59,6 @@ export const Testimonials = () => {
           </div>
         </div>
 
-        {/* Testimonials Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
             <div
@@ -69,7 +66,6 @@ export const Testimonials = () => {
               className="gradient-card rounded-2xl p-6 border border-border/50 hover:border-primary/30 transition-all duration-300 hover:shadow-elegant hover:-translate-y-1 group"
               style={{ animationDelay: `${index * 100}ms` }}
             >
-              {/* Quote Icon */}
               <div className="flex items-center justify-between mb-4">
                 <Quote className="h-8 w-8 text-primary/50" />
                 <div className="flex items-center space-x-1">
@@ -79,12 +75,10 @@ export const Testimonials = () => {
                 </div>
               </div>
 
-              {/* Content */}
               <p className="text-foreground/80 mb-6 leading-relaxed">
                 "{testimonial.content}"
               </p>
 
-              {/* Author */}
               <div className="border-t border-border/30 pt-4">
                 <div className="font-semibold">{testimonial.name}</div>
                 <div className="text-sm text-foreground/60">{testimonial.church}</div>
@@ -94,7 +88,6 @@ export const Testimonials = () => {
           ))}
         </div>
 
-        {/* Bottom CTA */}
         <div className="text-center mt-16">
           <div className="gradient-card rounded-2xl p-8 border border-border/50 max-w-3xl mx-auto">
             <h3 className="text-2xl font-bold mb-4">

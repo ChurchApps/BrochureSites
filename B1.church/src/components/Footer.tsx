@@ -41,10 +41,8 @@ const Footer = () => {
 
   return (
     <footer id="contact" className="bg-ink text-ink-foreground">
-      {/* Main Footer */}
       <div className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {/* Company Info */}
           <div className="space-y-6">
             <div className="flex items-center">
               <img
@@ -85,7 +83,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Product */}
           <div className="space-y-6">
             <h3 className="text-lg font-semibold text-ink-foreground">{t("brochure.footer.product")}</h3>
             <ul className="space-y-3">
@@ -97,7 +94,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Apps & Resources */}
           <div className="space-y-6">
             <h3 className="text-lg font-semibold text-ink-foreground">{t("brochure.footer.appsAndResources")}</h3>
             <ul className="space-y-3">
@@ -109,7 +105,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Contact */}
           <div className="space-y-6">
             <h3 className="text-lg font-semibold text-ink-foreground">{t("brochure.footer.contact")}</h3>
             <div className="space-y-4">
@@ -131,7 +126,6 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Bottom Bar */}
       <div className="container mx-auto px-4 pb-8">
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-ink-muted/70 text-sm">

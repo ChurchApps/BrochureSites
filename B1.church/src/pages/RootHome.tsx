@@ -4,12 +4,7 @@ import { LanguageProvider } from "@/context/LanguageContext";
 import { SUPPORTED_LANGS } from "@/constants/languages";
 import Index from "@/pages/Index";
 
-// The bare domain "/" is prerendered as the English homepage (so crawlers and
-// the first paint get real content instead of an empty redirect shell). After
-// hydration, non-English browsers are forwarded to their language-prefixed
-// home, preserving the previous auto-redirect behavior. English browsers stay
-// on "/", and because the server- and client-rendered markup match (English),
-// hydration is clean.
+// Prerendering "/" as English keeps hydration clean (server/client markup match).
 const RootHome = () => {
   const navigate = useNavigate();
 

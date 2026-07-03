@@ -6,15 +6,10 @@ const SITE = "https://b1.church";
 interface SeoProps {
   title: string;
   description: string;
-  /** Locale-relative path, e.g. "/faq" or "/". The current language prefix and
-   *  a trailing slash are added automatically. */
   path: string;
 }
 
-// Per-page <head> metadata. The key job is a self-referential canonical URL
-// (current language prefix + trailing slash) so prerendered subpages are NOT
-// deduped to the homepage by the canonical that used to live in index.html.
-// Renders on both the server (SSG) and the client via vite-react-ssg's <Head>.
+// Canonical URL prevents subpage deduplication to homepage.
 const Seo = ({ title, description, path }: SeoProps) => {
   const { localePath } = useLanguage();
   const url = `${SITE}${localePath(path)}`;

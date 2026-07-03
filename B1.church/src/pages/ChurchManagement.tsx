@@ -140,7 +140,6 @@ const ChurchManagement = () => {
       <Header />
 
       <main>
-        {/* Hero Section */}
         <section className="relative overflow-hidden bg-mesh-hero pt-32 pb-20 lg:pt-40 lg:pb-24">
           <div className="relative z-10 mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
             <div className="animate-fade-in">
@@ -170,7 +169,6 @@ const ChurchManagement = () => {
                 </Button>
               </div>
 
-              {/* Trust Indicators */}
               <div className="flex flex-col items-center space-y-4">
                 <p className="text-sm font-medium uppercase tracking-wider text-muted-foreground">
                   {t("brochure.churchManagement.hero.trustLine")}
@@ -187,10 +185,8 @@ const ChurchManagement = () => {
           </div>
         </section>
 
-        {/* Features Section */}
         <section className="bg-background py-24">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            {/* Header */}
             <Reveal className="mb-16 text-center">
               <h2 className="mb-6 text-3xl font-bold tracking-tight text-foreground md:text-5xl">
                 {t("brochure.churchManagement.featuresHeader.title")}{" "}
@@ -202,7 +198,6 @@ const ChurchManagement = () => {
               </p>
             </Reveal>
 
-            {/* Check-in Stations Feature */}
             <div className="mb-20">
               <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
                 <div className="space-y-6">
@@ -238,7 +233,6 @@ const ChurchManagement = () => {
               </div>
             </div>
 
-            {/* Main Features Grid */}
             <div className="mb-20 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
               {mainFeatures.map((feature, index) => (
                 <div key={index} className="card-elevated card-hover rounded-2xl p-6">
@@ -251,7 +245,6 @@ const ChurchManagement = () => {
               ))}
             </div>
 
-            {/* Feature Showcase Cards */}
             <div className="mb-20 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
               {showcaseCards.map((card, index) => (
                 <div key={index} className="card-elevated card-hover overflow-hidden rounded-xl">
@@ -269,7 +262,6 @@ const ChurchManagement = () => {
               ))}
             </div>
 
-            {/* Dashboard Preview */}
             <div className="mb-20">
               <Reveal className="mb-10 text-center">
                 <h3 className="mb-2 text-2xl font-bold text-foreground md:text-3xl">
@@ -289,7 +281,6 @@ const ChurchManagement = () => {
               </div>
             </div>
 
-            {/* Additional Features Grid */}
             <div className="mb-12 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
               {additionalFeaturesData.map((feature, index) => (
                 <div key={index} className="card-elevated flex items-start space-x-4 rounded-xl p-4 transition-colors hover:border-primary/50">
@@ -306,10 +297,8 @@ const ChurchManagement = () => {
           </div>
         </section>
 
-        {/* Testimonials Section */}
         <section className="bg-surface-tint py-24">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            {/* Header */}
             <Reveal className="mb-16 text-center">
               <h2 className="mb-6 text-3xl font-bold tracking-tight text-foreground md:text-5xl">
                 {t("brochure.churchManagement.testimonials.title")}{" "}
@@ -320,7 +309,6 @@ const ChurchManagement = () => {
               </p>
             </Reveal>
 
-            {/* Stats */}
             <div className="mb-16 grid grid-cols-2 gap-8 md:grid-cols-4">
               <div className="text-center">
                 <div className="mb-2 text-3xl font-extrabold tracking-tight text-foreground md:text-4xl">{t("brochure.testimonials.stats.churchesValue")}</div>
@@ -340,7 +328,6 @@ const ChurchManagement = () => {
               </div>
             </div>
 
-            {/* Testimonials Grid */}
             <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
               {testimonials.map((testimonial, index) => (
                 <div
@@ -361,10 +348,8 @@ const ChurchManagement = () => {
           </div>
         </section>
 
-        {/* About/Pricing Section */}
         <section className="bg-background py-24">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            {/* Header */}
             <Reveal className="mb-16 text-center">
               <h2 className="mb-6 text-3xl font-bold tracking-tight text-foreground md:text-5xl">
                 {t("brochure.churchManagement.aboutSection.title")}{" "}
@@ -376,7 +361,6 @@ const ChurchManagement = () => {
               />
             </Reveal>
 
-            {/* Statistics */}
             <div className="mb-16 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
               {statsItems.map((stat, index) => (
                 <div
@@ -392,7 +376,6 @@ const ChurchManagement = () => {
               ))}
             </div>
 
-            {/* Mission Statement */}
             <div className="card-elevated mb-16 rounded-3xl p-8 text-center md:p-12">
               <Heart className="mx-auto mb-6 h-16 w-16 text-coral" />
               <h3 className="mb-6 text-2xl font-bold text-foreground md:text-3xl">
@@ -418,7 +401,6 @@ const ChurchManagement = () => {
               </div>
             </div>
 
-            {/* Features Grid */}
             <div className="mb-12 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
               <div className="mb-8 text-center lg:col-span-3">
                 <h3 className="mb-4 text-2xl font-bold text-foreground">{t("brochure.churchManagement.allFeatures.title")}</h3>
@@ -435,7 +417,6 @@ const ChurchManagement = () => {
               ))}
             </div>
 
-            {/* Call to Action */}
             <div className="text-center">
               <div className="card-elevated mx-auto max-w-3xl rounded-2xl p-8">
                 <h3 className="mb-4 text-2xl font-bold text-foreground">

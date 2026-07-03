@@ -64,8 +64,6 @@ export const LANGUAGE_NAMES: Record<string, string> = {
 
 const LANG_ALTERNATION = SUPPORTED_LANGS.join("|");
 
-/** Matches any supported language code at start of a path, e.g. /en/faq */
 export const LANG_PATH_REGEX = new RegExp(`^/(${LANG_ALTERNATION})`);
 
-/** Matches a language-prefixed home route, e.g. /en/ or /es */
 export const LANG_HOME_REGEX = new RegExp(`^/(${LANG_ALTERNATION})/?$`);

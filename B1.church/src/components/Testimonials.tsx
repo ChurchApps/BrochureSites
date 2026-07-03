@@ -93,7 +93,6 @@ export const Testimonials = () => {
           />
         </Reveal>
 
-        {/* Stats */}
         <div className="mx-auto mt-14 mb-16 grid max-w-4xl grid-cols-2 gap-8 md:grid-cols-4">
           <div className="text-center">
             <div className="mb-1 text-3xl font-extrabold tabular-nums tracking-tight text-foreground md:text-4xl">{t("brochure.testimonials.stats.churchesValue")}</div>
@@ -113,7 +112,6 @@ export const Testimonials = () => {
           </div>
         </div>
 
-        {/* Testimonials Carousel */}
         <div className="px-12">
           <Carousel
             setApi={setApi}
@@ -128,7 +126,6 @@ export const Testimonials = () => {
               {testimonials.map((testimonial, index) => (
                 <CarouselItem key={index} className="pl-4 basis-full md:basis-1/2 lg:basis-1/3">
                   <div className="card-elevated group flex h-full flex-col rounded-2xl p-6 transition-all duration-300 hover:-translate-y-1">
-                    {/* Quote Icon */}
                     <div className="flex items-center justify-between mb-4">
                       <Quote className="h-8 w-8 text-sun/50" />
                       <div className="flex items-center space-x-1">
@@ -138,12 +135,10 @@ export const Testimonials = () => {
                       </div>
                     </div>
 
-                    {/* Content */}
                     <p className="mb-6 flex-grow leading-relaxed text-foreground/80">
                       "{testimonial.content}"
                     </p>
 
-                    {/* Author */}
                     <div className="mt-auto border-t border-border pt-4">
                       <div className="font-semibold text-foreground">{testimonial.name}</div>
                       {testimonial.church && <div className="text-sm text-muted-foreground">{testimonial.church}</div>}
@@ -157,7 +152,6 @@ export const Testimonials = () => {
             <CarouselNext />
           </Carousel>
 
-          {/* Dot indicators */}
           <div className="flex justify-center gap-2 mt-6">
             {Array.from({ length: count }).map((_, index) => (
               <button
@@ -174,7 +168,6 @@ export const Testimonials = () => {
           </div>
         </div>
 
-        {/* Bottom CTA */}
         <div className="mt-16 text-center">
           <LocaleLink
             to="/compare"

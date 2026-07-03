@@ -6,7 +6,6 @@ import { trackButtonClick } from "@/lib/analytics";
 export const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-24">
-      {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img
           src={heroImage}
@@ -17,7 +16,6 @@ export const Hero = () => {
         <div className="absolute inset-0 bg-gradient-primary opacity-20" />
       </div>
 
-      {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="animate-fade-in">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6">
@@ -47,7 +45,6 @@ export const Hero = () => {
             </Button>
           </div>
 
-          {/* Trust Indicators */}
           <div className="flex flex-col items-center space-y-4">
             <p className="text-sm text-foreground/60 uppercase tracking-wider font-medium">
               Trusted by Growing Churches Worldwide
@@ -63,7 +60,6 @@ export const Hero = () => {
         </div>
       </div>
 
-      {/* Floating Elements */}
       <div className="absolute top-20 left-10 w-20 h-20 bg-primary/20 rounded-full blur-xl animate-float" />
       <div className="absolute bottom-20 right-10 w-32 h-32 bg-accent/20 rounded-full blur-xl animate-float" style={{ animationDelay: "-2s" }} />
       <div className="absolute top-1/2 left-1/4 w-16 h-16 bg-primary/30 rounded-full blur-lg animate-float" style={{ animationDelay: "-4s" }} />

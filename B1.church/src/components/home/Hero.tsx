@@ -36,7 +36,6 @@ const Hero = () => {
           </Button>
         </div>
 
-        {/* Product showcase: one big screenshot, centered, with floating moments */}
         <div className="relative mx-auto mt-16 max-w-5xl pb-16 lg:mt-20 lg:pb-20">
           <div className="absolute -inset-x-12 top-12 bottom-0 rounded-[3rem] bg-gradient-to-b from-secondary to-surface-tint" aria-hidden="true" />
           <BrowserFrame

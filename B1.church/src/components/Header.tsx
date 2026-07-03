@@ -21,7 +21,6 @@ const Header = () => {
     setIsMenuOpen(false);
 
     if (!LANG_HOME_REGEX.test(location.pathname)) {
-      // Navigate to home page first, then scroll after a brief delay
       navigate(localePath("/"));
       setTimeout(() => {
         const element = document.getElementById(sectionId);
@@ -30,7 +29,6 @@ const Header = () => {
         }
       }, 100);
     } else {
-      // Already on home page, just scroll
       const element = document.getElementById(sectionId);
       if (element) {
         element.scrollIntoView({ behavior: "smooth" });
@@ -42,7 +40,6 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 border-b border-border bg-background/85 backdrop-blur-md">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          {/* Logo */}
           <LocaleLink to="/" className="flex items-center">
             <img
               src="/b1-church-logo.png"
@@ -53,7 +50,6 @@ const Header = () => {
             />
           </LocaleLink>
 
-          {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             <button
               onClick={() => scrollToSection("products")}
@@ -93,7 +89,6 @@ const Header = () => {
             <LanguageSwitcher />
           </nav>
 
-          {/* Desktop CTA */}
           <div className="hidden md:flex items-center space-x-3">
             <Button variant="ghost" asChild>
               <a href={ADMIN_LOGIN_URL}>{t("brochure.header.signIn")}</a>
@@ -107,7 +102,6 @@ const Header = () => {
             </Button>
           </div>
 
-          {/* Mobile Menu Button */}
           <button
             className="md:hidden p-2 text-foreground"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -116,7 +110,6 @@ const Header = () => {
           </button>
         </div>
 
-        {/* Mobile Menu */}
         {isMenuOpen && (
           <div className="md:hidden py-4 border-t border-border bg-background">
             <nav className="flex flex-col space-y-4">

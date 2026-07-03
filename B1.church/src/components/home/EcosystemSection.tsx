@@ -64,7 +64,6 @@ const EcosystemSection = () => {
           />
         </Reveal>
 
-        {/* Desktop diagram */}
         <div className="relative mx-auto mt-16 hidden h-[400px] max-w-4xl lg:block">
           <svg className="absolute inset-0 h-full w-full" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
             <line x1="22" y1="22" x2="50" y2="50" stroke="hsl(220 80% 65% / 0.35)" strokeWidth="1" strokeDasharray="3 3" vectorEffect="non-scaling-stroke" className="animate-dash" />
@@ -81,7 +80,6 @@ const EcosystemSection = () => {
           </div>
         </div>
 
-        {/* Mobile stack */}
         <div className="mx-auto mt-12 flex max-w-sm flex-col items-center gap-4 lg:hidden">
           <Hub title={t("brochure.home.ecosystem.hubTitle")} subtitle={t("brochure.home.ecosystem.hubSubtitle")} />
           <div className="h-6 w-px bg-primary-light/40" aria-hidden="true" />
@@ -90,7 +88,6 @@ const EcosystemSection = () => {
           ))}
         </div>
 
-        {/* Integration marquee */}
         <div className="mt-16">
           <div className="mb-5 text-center text-xs font-semibold uppercase tracking-[0.14em] text-ink-muted">
             {t("brochure.home.ecosystem.integrationsLabel")}

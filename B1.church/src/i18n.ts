@@ -2,13 +2,7 @@ import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import enBrochure from "../public/locales/en.json";
 
-// Synchronously seed English so it is available during static generation (SSG)
-// AND on the client's first render. This gives crawlers fully-rendered English
-// HTML and avoids a hydration mismatch. Other languages are still loaded at
-// runtime by LanguageContext (fetch + addResourceBundle), exactly as before.
-//
-// `initAsync: false` makes init synchronous (resources are inline, no
-// network backend), so t() returns real strings on the very first render.
+// Synchronously seed English to avoid hydration mismatch; other languages load at runtime.
 if (!i18n.isInitialized) {
   void i18n.use(initReactI18next).init({
     lng: "en",
