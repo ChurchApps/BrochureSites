@@ -1,0 +1,325 @@
+/* Ministry Commons — clean commons system in the spirit of creativecommons.org
+   white / dark gray / amber accent, Roboto Condensed + Source Sans 3 */
+
+:root {
+  --bg: #ffffff;
+  --bg-soft: #f5f5f5;
+  --ink: #212121;
+  --muted: #595959;
+  --accent: #ef9421;
+  --accent-dark: #a35200;
+  --ok: #2d7d46;
+  --border: #e3e3e3;
+  --dark: #1a1a1a;
+  --measure: 46rem;
+  --wide: 70rem;
+  --head: "Roboto Condensed", "Arial Narrow", sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Source Sans 3", "Segoe UI", Arial, sans-serif;
+  font-size: 1.06rem;
+  line-height: 1.65;
+}
+
+a { color: var(--accent-dark); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+a:hover { color: var(--ink); }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+.container { max-width: var(--wide); margin: 0 auto; padding: 0 1.5rem; }
+.measure { max-width: var(--measure); margin-left: auto; margin-right: auto; }
+
+.fleuron { display: none; }
+
+/* ---------- masthead ---------- */
+
+.masthead { border-bottom: 1px solid var(--border); padding: 0.9rem 0; }
+.masthead .container {
+  display: flex; align-items: center; justify-content: space-between;
+  flex-wrap: wrap; gap: 0.6rem 1.5rem;
+}
+.wordmark {
+  display: inline-flex; align-items: center; gap: 0.6rem;
+  font-family: var(--head); font-weight: 700; font-size: 1.2rem;
+  color: var(--ink); text-decoration: none;
+  text-transform: none; letter-spacing: 0;
+}
+.wordmark .logo { display: block; }
+.hero-logo { display: block; margin: 0 auto 1.4rem; }
+.masthead nav { display: flex; gap: 1.5rem; }
+.masthead nav a {
+  font-family: var(--head); font-weight: 700; font-size: 0.88rem;
+  text-transform: uppercase; letter-spacing: 0.05em;
+  color: var(--muted); text-decoration: none;
+}
+.masthead nav a:hover, .masthead nav a[aria-current] { color: var(--accent-dark); }
+
+/* ---------- hero ---------- */
+
+.titlepage { text-align: center; padding: 4.5rem 0 3.8rem; }
+.eyebrow {
+  font-family: var(--head); font-weight: 700;
+  color: var(--accent-dark);
+  text-transform: uppercase; letter-spacing: 0.12em;
+  font-size: 0.9rem; margin: 0 0 1rem;
+}
+.display {
+  font-family: var(--head); font-weight: 700;
+  font-size: clamp(2.4rem, 6vw, 4rem);
+  line-height: 1.08; letter-spacing: -0.01em;
+  text-transform: none;
+  margin: 0 0 1.2rem;
+}
+.subtitle {
+  font-size: 1.25rem; color: var(--muted);
+  max-width: 46rem; margin: 0 auto;
+}
+.cta-row { margin-top: 2.2rem; display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+
+.btn {
+  display: inline-block;
+  font-family: var(--head); font-weight: 700; font-size: 0.9rem;
+  text-transform: uppercase; letter-spacing: 0.05em;
+  border: 2px solid var(--ink); color: var(--ink); background: transparent;
+  padding: 0.65rem 1.5rem; border-radius: 4px; text-decoration: none;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+  cursor: pointer;
+}
+.btn:hover { background: var(--ink); color: #fff; }
+.btn-rubric { background: var(--accent); border-color: var(--accent); color: var(--dark); }
+.btn-rubric:hover { background: var(--accent-dark); border-color: var(--accent-dark); color: #fff; }
+
+/* ---------- sections ---------- */
+
+section { padding: 3.2rem 0; }
+.section-rule { border: none; border-top: 1px solid var(--border); margin: 0; }
+
+.section-head { text-align: center; margin-bottom: 2.4rem; }
+.section-head h2 {
+  font-family: var(--head); font-weight: 700; font-size: 2rem;
+  letter-spacing: 0; text-transform: none; margin: 0 0 0.3rem;
+}
+.section-head p { color: var(--muted); font-style: normal; margin: 0; font-size: 1.1rem; }
+
+.subhead {
+  font-family: var(--head); font-weight: 700; font-size: 1.5rem;
+  text-align: center; margin: 2.8rem 0 1rem;
+}
+
+/* ---------- how it works ---------- */
+
+.steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.5rem; text-align: center; }
+.step .step-no {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 2.6rem; height: 2.6rem; border: 3px solid var(--accent); border-radius: 50%;
+  font-family: var(--head); font-weight: 700; font-size: 0.95rem; color: var(--accent-dark);
+  letter-spacing: 0;
+}
+.step h3 { font-family: var(--head); font-weight: 700; font-size: 1.25rem; letter-spacing: 0; text-transform: none; margin: 0.7rem 0 0.4rem; }
+.step p { margin: 0; color: var(--muted); font-size: 1rem; }
+
+/* ---------- element badges ---------- */
+
+.badges { display: flex; gap: 0.45rem; flex-wrap: wrap; }
+.badge {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 2.2rem; height: 2.2rem; border: 3px solid var(--ink); border-radius: 50%;
+  font-family: var(--head); font-weight: 700; font-size: 0.72rem; letter-spacing: 0.02em;
+  color: var(--ink); background: #fff;
+}
+
+/* ---------- tier cards ---------- */
+
+.tiers {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem;
+  border: none;
+}
+.tier {
+  border: 2px solid var(--border); border-radius: 8px;
+  padding: 1.8rem 1.6rem 2rem; background: #fff;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.tier:hover { border-color: var(--ink); box-shadow: 0 4px 14px rgba(0,0,0,0.07); }
+.tier + .tier { border-left: 2px solid var(--border); border-top: 2px solid var(--border); }
+.tier-no {
+  display: flex; justify-content: space-between; align-items: baseline;
+  font-family: var(--head); font-weight: 700; font-size: 0.82rem;
+  text-transform: uppercase; letter-spacing: 0.06em;
+  color: var(--muted); margin-bottom: 0.6rem;
+}
+.tier-no span:last-child { color: var(--accent-dark); }
+.tier h3 {
+  font-family: var(--head); font-weight: 700; font-size: 1.65rem;
+  letter-spacing: 0; text-transform: none; margin: 0 0 0.2rem;
+}
+.tier .meter { color: var(--muted); font-style: normal; margin: 0 0 0.9rem; font-size: 1rem; }
+.tier .badges { margin-bottom: 1.1rem; }
+.tier .grants { list-style: none; padding: 0; margin: 0 0 1.1rem; font-size: 0.98rem; }
+.tier .grants li { padding-left: 1.6rem; position: relative; margin-bottom: 0.35rem; }
+.tier .grants li::before { content: "✓"; color: var(--ok); font-weight: 700; position: absolute; left: 0; }
+.tier .grants li.denied { color: var(--muted); }
+.tier .grants li.denied::before { content: "✕"; color: #b5b5b5; }
+.tier .cc-note {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.72rem; color: var(--muted); margin-bottom: 1.2rem;
+}
+.tier-links { display: flex; gap: 0.7rem; flex-wrap: wrap; }
+
+/* ---------- baseline (every tier includes) ---------- */
+
+.baseline {
+  background: var(--bg-soft); border: none; border-radius: 8px;
+  padding: 2.2rem 2.4rem;
+}
+.baseline h2 {
+  font-family: var(--head); font-weight: 700; font-size: 1.4rem;
+  text-transform: none; letter-spacing: 0;
+  margin: 0 0 1rem; color: var(--ink); text-align: center;
+}
+.baseline ul { list-style: none; padding: 0; margin: 0; columns: 2; column-gap: 3rem; }
+.baseline li { padding-left: 1.6rem; position: relative; margin-bottom: 0.5rem; break-inside: avoid; }
+.baseline li::before { content: "✓"; color: var(--ok); font-weight: 700; position: absolute; left: 0; }
+.baseline .footnote { margin: 1.2rem 0 0; font-style: normal; color: var(--muted); font-size: 0.98rem; text-align: center; }
+
+/* ---------- chooser ---------- */
+
+.chooser fieldset {
+  border: 2px solid var(--border); border-radius: 8px;
+  padding: 1.3rem 1.6rem; margin: 0 0 1.2rem;
+}
+.chooser legend { padding: 0 0.7rem; font-weight: 700; font-size: 1.05rem; }
+.chooser label { margin-right: 2rem; cursor: pointer; }
+.chooser input[type="radio"] { accent-color: var(--accent-dark); margin-right: 0.4rem; }
+.verdict {
+  border-left: 5px solid var(--accent); background: var(--bg-soft);
+  border-radius: 0 8px 8px 0;
+  padding: 1.4rem 1.8rem; margin-top: 1.6rem;
+}
+.verdict[hidden] { display: none; }
+.verdict h3 {
+  margin: 0 0 0.3rem; font-family: var(--head); font-weight: 700;
+  text-transform: none; letter-spacing: 0; font-size: 1.35rem; color: var(--ink);
+}
+.verdict p { margin: 0 0 0.9rem; }
+
+/* ---------- notice block ---------- */
+
+.notice {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.84rem; line-height: 1.7;
+  background: var(--bg-soft); color: var(--ink);
+  border-left: 5px solid var(--accent); border-radius: 0 8px 8px 0;
+  padding: 1.3rem 1.6rem; overflow-x: auto; margin: 1.2rem 0;
+}
+.notice em { color: var(--accent-dark); font-style: normal; }
+
+/* ---------- FAQ ---------- */
+
+.faq details { border-bottom: 1px solid var(--border); padding: 0.9rem 0; }
+.faq details:first-of-type { border-top: 1px solid var(--border); }
+.faq summary { font-weight: 700; cursor: pointer; font-size: 1.05rem; }
+.faq summary::marker { color: var(--accent-dark); }
+.faq details p { color: var(--muted); margin: 0.6rem 0 0.2rem; }
+
+/* ---------- deed pages ---------- */
+
+.deed-plate {
+  text-align: center; border: 2px solid var(--border); border-radius: 8px;
+  position: relative;
+  max-width: 32rem; margin: 3.2rem auto 0; padding: 2.2rem 2rem 2rem;
+}
+.deed-plate::before { display: none; }
+.deed-plate .tier-code {
+  font-family: var(--head); font-weight: 700;
+  color: var(--muted); font-size: 0.82rem; letter-spacing: 0.1em;
+}
+.deed-plate h1 {
+  font-family: var(--head); font-weight: 700;
+  font-size: 2.3rem; text-transform: none; letter-spacing: 0;
+  margin: 0.3rem 0 0.4rem;
+}
+.deed-plate .motto { font-style: normal; color: var(--muted); margin: 0 0 1.1rem; }
+.deed-plate .badges { justify-content: center; }
+
+.deed-note {
+  text-align: center; font-style: normal; color: var(--muted);
+  max-width: 34rem; margin: 1.3rem auto 0; font-size: 0.98rem;
+}
+
+.deed h2 {
+  font-family: var(--head); font-weight: 700;
+  font-size: 1.45rem; text-transform: none; letter-spacing: 0;
+  text-align: left; margin: 2.8rem 0 1.1rem;
+  padding-bottom: 0.35rem; border-bottom: 3px solid var(--accent);
+}
+.deed h2.rubric-head { color: var(--ink); }
+
+ul.freedoms, ul.terms { list-style: none; padding: 0; margin: 0; }
+ul.freedoms li, ul.terms li { padding-left: 1.8rem; position: relative; margin-bottom: 0.8rem; }
+ul.freedoms li::before { content: "✓"; color: var(--ok); font-weight: 700; position: absolute; left: 0; }
+ul.terms li::before {
+  content: ""; position: absolute; left: 0.1rem; top: 0.5rem;
+  width: 0.62rem; height: 0.62rem; background: var(--accent); border-radius: 2px;
+}
+ul.terms li { color: var(--ink); }
+ul.terms li b { color: var(--ink); }
+
+.deed .notices {
+  border-top: 1px solid var(--border); margin-top: 2.6rem; padding-top: 1.4rem;
+  font-size: 0.98rem; color: var(--muted);
+}
+.deed .notices .tier-links { margin-top: 1.2rem; }
+
+/* ---------- legal pages ---------- */
+
+.legal h1 {
+  font-family: var(--head); font-weight: 700;
+  font-size: 2.1rem; text-transform: none; letter-spacing: 0;
+  text-align: center; margin: 2.8rem 0 0.3rem;
+}
+.legal .legal-sub { text-align: center; font-style: normal; color: var(--muted); margin: 0 0 2.4rem; }
+.legal h2 {
+  font-family: var(--head); font-weight: 700;
+  font-size: 1.3rem; text-transform: none; letter-spacing: 0;
+  margin: 2.4rem 0 0.9rem;
+}
+.legal h2 .sec-no { color: var(--accent-dark); margin-right: 0.6rem; }
+.legal ol.alpha { list-style: lower-alpha; padding-left: 1.6rem; }
+.legal ol.alpha li { margin-bottom: 0.7rem; }
+.legal .backlinks {
+  border-top: 1px solid var(--border); margin-top: 3rem; padding-top: 1.2rem;
+  display: flex; gap: 1.6rem; flex-wrap: wrap;
+}
+
+/* ---------- footer ---------- */
+
+footer {
+  background: var(--dark); color: #cfcfcf;
+  border-top: none; margin-top: 3.5rem;
+  padding: 2.4rem 0 2.8rem; text-align: center;
+}
+footer p { color: #bdbdbd; font-size: 0.95rem; max-width: 46rem; margin: 0.4rem auto; }
+footer .domain {
+  font-family: var(--head); font-weight: 700; font-size: 0.95rem;
+  letter-spacing: 0.05em; color: var(--accent);
+}
+
+/* ---------- responsive ---------- */
+
+@media (max-width: 860px) {
+  .tiers { grid-template-columns: 1fr; }
+  .steps { grid-template-columns: 1fr; gap: 1.8rem; }
+  .baseline ul { columns: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .btn, .tier { transition: none; }
+}
