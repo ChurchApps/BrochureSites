@@ -225,7 +225,7 @@
           },
           {
             "title": "Global ministries",
-            "description": "Available in 29 languages and funded so it stays free anywhere."
+            "description": "Available in 30 languages and funded so it stays free anywhere."
           }
         ],
         "sister": "We also build FreeShow, free presentation software, and Lessons.church, free curriculum with 1,100+ lessons — free and open source, like everything we make.",
@@ -279,7 +279,7 @@
         "freeLabel": "Forever & always",
         "openValue": "Open",
         "openLabel": "Source code",
-        "languagesValue": "29",
+        "languagesValue": "30",
         "languagesLabel": "Languages supported"
       },
       "items": [

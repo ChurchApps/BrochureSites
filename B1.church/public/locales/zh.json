@@ -225,7 +225,7 @@
           },
           {
             "title": "全球事工",
-            "description": "支持 29 种语言，并有资金保障，让它在世界任何地方都保持免费。"
+            "description": "支持 30 种语言，并有资金保障，让它在世界任何地方都保持免费。"
           }
         ],
         "sister": "我们还开发了免费演示软件 FreeShow，以及拥有 1,100 多课免费课程的 Lessons.church——和我们做的所有产品一样，免费且开源。",
@@ -279,7 +279,7 @@
         "freeLabel": "永远如此",
         "openValue": "开放",
         "openLabel": "源代码",
-        "languagesValue": "29",
+        "languagesValue": "30",
         "languagesLabel": "支持语言"
       },
       "items": [

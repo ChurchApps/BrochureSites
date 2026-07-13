@@ -225,7 +225,7 @@
           },
           {
             "title": "Wereldwijde bedieningen",
-            "description": "Beschikbaar in 29 talen en zo gefinancierd dat het overal gratis blijft."
+            "description": "Beschikbaar in 30 talen en zo gefinancierd dat het overal gratis blijft."
           }
         ],
         "sister": "We bouwen ook FreeShow, gratis presentatiesoftware, en Lessons.church, gratis lesmateriaal met ruim 1.100 lessen — gratis en open source, zoals alles wat we maken.",
@@ -279,7 +279,7 @@
         "freeLabel": "Voor eeuwig & altijd",
         "openValue": "Open",
         "openLabel": "Broncode",
-        "languagesValue": "29",
+        "languagesValue": "30",
         "languagesLabel": "Ondersteunde talen"
       },
       "items": [

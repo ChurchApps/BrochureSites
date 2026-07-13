@@ -225,7 +225,7 @@
           },
           {
             "title": "글로벌 사역",
-            "description": "29개 언어를 지원하며, 세계 어디서나 무료로 유지되도록 후원으로 운영됩니다."
+            "description": "30개 언어를 지원하며, 세계 어디서나 무료로 유지되도록 후원으로 운영됩니다."
           }
         ],
         "sister": "저희는 무료 프레젠테이션 소프트웨어 FreeShow와 1,100개 이상의 레슨을 담은 무료 커리큘럼 Lessons.church도 만듭니다 — 저희가 만드는 모든 것이 그렇듯, 무료 오픈소스입니다.",
@@ -279,7 +279,7 @@
         "freeLabel": "영원히, 언제나",
         "openValue": "오픈",
         "openLabel": "소스 코드",
-        "languagesValue": "29",
+        "languagesValue": "30",
         "languagesLabel": "지원 언어"
       },
       "items": [

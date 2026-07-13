@@ -225,7 +225,7 @@
           },
           {
             "title": "Weltweite Missionswerke",
-            "description": "Verfügbar in 29 Sprachen und so finanziert, dass es überall kostenlos bleibt."
+            "description": "Verfügbar in 30 Sprachen und so finanziert, dass es überall kostenlos bleibt."
           }
         ],
         "sister": "Wir entwickeln außerdem FreeShow, eine kostenlose Präsentationssoftware, und Lessons.church, kostenloses Unterrichtsmaterial mit über 1.100 Lektionen — kostenlos und Open Source, wie alles, was wir machen.",
@@ -279,7 +279,7 @@
         "freeLabel": "Für immer & ewig",
         "openValue": "Offener",
         "openLabel": "Quellcode",
-        "languagesValue": "29",
+        "languagesValue": "30",
         "languagesLabel": "Unterstützte Sprachen"
       },
       "items": [

@@ -1,0 +1,859 @@
+{
+  "brochure": {
+    "header": {
+      "features": "Timphawu",
+      "pricing": "Emanani",
+      "churchManagement": "Kuphatfwa Kwelibandla",
+      "about": "Ngatsi",
+      "contact": "Sitsintse",
+      "demo": "Idemo Bukhoma",
+      "signIn": "Ngena",
+      "getStartedFree": "Cala Mahhala"
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "I-software yelibandla yamahhala, yemtfombo lovulekile",
+        "headline": "Konkhe libandla lakho lelikudzingako kute",
+        "headlineAccent": "nihlangane, niphe, futsi nikhule.",
+        "subheadline": "I-app yemalunga, sakhi seliwebhusayithi, kupha nge-inthanethi, ku-check-in kwebantfwana, nekuphatfwa kwelibandla lokuphelele — inkundla yinye yamahhala levela enkonzweni lengakenteli inzuzo, kute sabelotimali sakho sihlale enkonzweni.",
+        "ctaPrimary": "Cala Mahhala",
+        "ctaSecondary": "Yibone Isebenta",
+        "trust": [
+          "Mahhala phakadze — kute emazinga, kute kuzama",
+          "Kute timali tekutsengiselana letengetiwe",
+          "Umtfombo lovulekile ku-GitHub",
+          "Inkonzo ye-501(c)(3) kusukela nga-2012"
+        ]
+      },
+      "products": {
+        "eyebrow": "Inkundla yinye",
+        "title": "Yonkhe inkonzo, ekugcineni isekhasini linye.",
+        "lead": "Emathulusi lasitfupha lasebenta njengalinye — ngoba alinye. Inkundla yinye kudathabhesi yinye, kute lokutsengiswa ngekwehlukana.",
+        "linkLabel": "Hlola",
+        "items": {
+          "app": {
+            "name": "I-App Yemalunga",
+            "desc": "Emacembu, imilayeto, tintjumayelo, nekupha ephaketheni lalelo nalelo lilunga."
+          },
+          "giving": {
+            "name": "Kupha",
+            "desc": "Kupha nge-inthanethi nalokuphindzaphindzekako ngetimali, emabhetji, netitatimende tekuphela kwemnyaka."
+          },
+          "people": {
+            "name": "Bantfu",
+            "desc": "Kudathabhesi yemalunga lephelele nekubakhona, tinchubo temsebenti, nekusesha nge-AI."
+          },
+          "checkin": {
+            "name": "Ku-Check-In",
+            "desc": "Ku-check-in kwebantfwana lokusheshako, lokuphephile ngemathegi emagama nekucondzanisa kwekulandvwa."
+          },
+          "web": {
+            "name": "Emawebhusayithi",
+            "desc": "Sakhi seliwebhusayithi sekuhudvula-ulahle lesentelwe emakhasi elikhaya emabandla."
+          },
+          "plans": {
+            "name": "Kuhlela Kwekukhonta",
+            "desc": "Emaplani enkonzo, imitapo yetingoma, nekuhlela emavolontiya."
+          }
+        }
+      },
+      "connect": {
+        "eyebrow": "I-App Yemakhalekhukhwini ye-B1",
+        "title": "Bantfu bakho, bahlangene",
+        "titleAccent": "liviki lonkhe.",
+        "lead": "Nika libandla lakho indzawo yinye yekuba khona emkhatsini wemaSontfo. I-app ye-B1 iletsa uhla lwemalunga akho, emacembu, imilayeto, netintjumayelo kuwo onkhe emakhalekhukhwini ebandleni lakho.",
+        "items": [
+          "Ingcogco yelicembu & tingcoco",
+          "Uhla lwemalunga & kutfumela imilayeto",
+          "Tintjumayelo & kusakata bukhoma",
+          "Tatiso letiphushwako",
+          "LiBhayibheli & livesi lelusuku",
+          "Kuhlela emavolontiya"
+        ],
+        "pwaTitle": "Emalunga ayifaka ngemasekhondi",
+        "pwaNote": "I-app ye-B1 ifakwa ngco kusuka kuliwebhusayithi lelibandla lakho futsi ihlala isesikhatsini — lonkhe lilunga litfola inguqulo lensha ngekutentakalela."
+      },
+      "giving": {
+        "eyebrow": "Kupha Nge-inthanethi",
+        "title": "Yenta kuphana",
+        "titleAccent": "kube lula.",
+        "lead": "Emalunga apha ngelikhadi nome nge-akhawunti yelibhange ngekucindzetela lokumbalwa — kanye nome ngalokuphindzaphindzekako. Licembu lakho lilandzelela tonkhe timali, emabhetji, netitatimende tekuphela kwemnyaka endzaweni yinye.",
+        "items": [
+          "Tipho tekanye & letiphindzaphindzekako",
+          "Timali letinyenti & tinhloso",
+          "Titatimende tekuphela kwemnyaka letitentakalelako",
+          "Kulandzelela emabhetji emali & emasheke"
+        ],
+        "feeNote": "I-B1 ayengeti timali kuminikelo. Ukhokha kuphela emanani ekusetjentwa lavamile e-Stripe nome e-PayPal — kute lokuta kitsi."
+      },
+      "people": {
+        "eyebrow": "B1Admin · Kuphatfwa Kwelibandla",
+        "title": "Bati ngempela",
+        "titleAccent": "bantfu bakho.",
+        "lead": "I-B1Admin likhaya lelicembu lakho: kudathabhesi yemalunga lephelele nemibono yekubakhona, kulandzelela lokuhlakaniphile, nekusesha nge-AI lokuphendvula imibuto ngelulwimi lolulula.",
+        "items": [
+          "Emaphrofayili emalunga & emindeni laphelele",
+          "Kulandzelela kubakhona & emathrendi",
+          "Tinchubo tekulandzelela letitentakalelako",
+          "Kusesha bantfu ngemandla e-AI"
+        ],
+        "link": "Hlola kuphatfwa kwelibandla"
+      },
+      "checkin": {
+        "eyebrow": "B1Checkin",
+        "title": "Emukela imindeni",
+        "titleAccent": "ngekutetsemba.",
+        "lead": "Ku-check-in kwekutisita lokuphrinta emathegi emagama nemakhodi ekulandvwa batali lacondzanako — kuphepha kwebantfwana kwakhelwe ngekhatsi, emavolontiya akhululiwe, kubakhona kubhalwa ngekutentakalela.",
+        "items": [
+          "Kufuna ngenombolo yelucingo ngemasekhondi",
+          "Emakhodi ekuphepha lacondzanako ekulandvweni",
+          "Kuphrinta emalebula ngaphandle kwetintsambo",
+          "Kubhalisa tivakashi ngelikhodi le-QR"
+        ],
+        "receipt": {
+          "title": "Kubita malini",
+          "tablet": "Ithebulethi ye-Android",
+          "printer": "Iphrinta yemalebula",
+          "total": "Ihadiwe, kanye",
+          "software": "I-software, phakadze"
+        }
+      },
+      "ecosystem": {
+        "eyebrow": "Kuhlangana kwako",
+        "title": "Inkundla yinye.",
+        "titleAccent": "Kudathabhesi yinye.",
+        "lead": "Vuselela umndeni kanye bese kulungile yonkhe indzawo — liwebhusayithi, i-app, ku-check-in, nekupha. Kute kuvumelanisa, kute kukhishwa kwedatha, kute emanani ngemamojula.",
+        "hubTitle": "Kudathabhesi yinye leyabelwane",
+        "hubSubtitle": "bantfu · emacembu · kupha · kubakhona",
+        "nodes": {
+          "admin": {
+            "name": "B1Admin",
+            "desc": "Idheshbhodi yetisebenti yebantfu, kupha, emaplani, nemibiko."
+          },
+          "web": {
+            "name": "Liwebhusayithi Lelibandla",
+            "desc": "Sayithi yakho yemphakatsi, tintjumayelo, ikhalenda, nemakhasi ekupha."
+          },
+          "mobile": {
+            "name": "I-App Yemakhalekhukhwini",
+            "desc": "I-app yemalunga yemacembu, imilayeto, nekupha."
+          },
+          "checkin": {
+            "name": "B1Checkin",
+            "desc": "Ku-check-in kwekhiyoski ngemathegi emagama nemakhodi ekuphepha."
+          }
+        },
+        "integrationsLabel": "Isebenta kahle nemathulusi lowasebentisako kakadze",
+        "cta": "Cala Mahhala"
+      },
+      "capabilities": {
+        "eyebrow": "Nalokunye lokunyenti",
+        "title": "Konkhe lokusele eluhlwini lwemisebenti, kwentiwe.",
+        "lead": "Kuhlela kwekukhonta, emavolontiya, emafomu, kutentakalela — umsebenti wemihla ngemihla wekuphatsa libandla, konkhe kufakiwe.",
+        "cells": {
+          "servicePlanning": {
+            "title": "Kuhlela inkonzo",
+            "desc": "Hlela tinkonzo, unike emacembu emavolontiya, watise bonkhe ngekutentakalela."
+          },
+          "groups": {
+            "title": "Emacembu & tinkonzo",
+            "desc": "Emacembu langenamkhawulo nebaholi, emakhalenda, nekubakhona."
+          },
+          "songs": {
+            "title": "Umtapo wetingoma",
+            "desc": "Emahlelo, emakhiye, nemalinki elicembu lakho lekukhonta."
+          },
+          "forms": {
+            "title": "Emafomu & kubhalisa",
+            "desc": "Emafomu langekhetselwe imicimbi, kubhalisa, nemibuto."
+          },
+          "automations": {
+            "title": "Tinchubo & kutentakalela",
+            "desc": "Kulandzelela tivakashi nemisebenti lephindzaphindzekako letitisebentelako."
+          },
+          "multiCampus": {
+            "title": "Emakhampasi lamanyenti",
+            "desc": "Tonkhe tindzawo kudheshbhodi yinye nemibiko yelizinga lelikhampasi."
+          },
+          "roles": {
+            "title": "Tindzima & timvume",
+            "desc": "Nika tisebenti nemavolontiya kufinyelela lokudzingako ncamashi."
+          },
+          "reports": {
+            "title": "Imibiko & kukhipha idatha",
+            "desc": "Emathrendi ekubakhona, tifinyeto tekupha, nekukhipha idatha ngekucindzetela kanye."
+          }
+        },
+        "openSource": {
+          "title": "Umtfombo lovulekile, kute kuvaleleka",
+          "desc": "Yonkhe i-B1 ingumtfombo lovulekile. Hlola ikhodi, faka sandla, nome uti-hoste wena — idatha yakho ihlala iyakho.",
+          "linkLabel": "Bona ikhodi ku-GitHub"
+        }
+      },
+      "pricing": {
+        "eyebrow": "Emanani",
+        "title": "Nali lonkhe lithebula lemanani.",
+        "lead": "Kute emazinga, kute emanani ngelilunga, kute kwenyuka lokumangalisako ebantfwini laba-200. Konkhe lokukulelikhasi kufakiwe kuwo onkhe emabandla, kuwo onkhe emasayizi.",
+        "per": "ngenyanga — kwako konkhe, phakadze",
+        "note": "Kusetjentwa kwemakhadi ekupheni nge-inthanethi kwentiwa ngumsebentisi wetinkhokhelo ngemanani abo lavamile. Kute lesikwengetako etulu.",
+        "cta": "Cala Mahhala"
+      },
+      "mission": {
+        "eyebrow": "Kungani kumahhala?",
+        "statement1": "Akutsengiswa.",
+        "statement2": "Akwenteli inzuzo.",
+        "title": "Yakhiwe yinkonzo, hhayi umtsengisi.",
+        "lead": "I-B1 yakhiwa yi-Live Church Solutions, inhlangano lengakenteli inzuzo ye-501(c)(3) leyasungulwa nga-2012. Emabandla asebentisa emakhulu etigidzi ngemnyaka ku-software — singatsandza kubona leyo mali iya enkonzweni.",
+        "stats": {
+          "free": "Mahhala phakadze",
+          "fees": "Timali letengetiwe",
+          "founded": "Sisita emabandla kusukela",
+          "languages": "Tilwimi letisekelwako"
+        },
+        "audiences": [
+          {
+            "title": "Emabandla lasandza kucala",
+            "description": "Cala ngemathulusi elizinga leliphakeme kusukela ngelusuku lwekucala — ngaphandle kwesabelotimali se-software."
+          },
+          {
+            "title": "Emabandla lamancane nalasemkhatsini",
+            "description": "Konkhe emavolontiya langakusebentisa ngempela, kute lokudzinga kunakekelwa."
+          },
+          {
+            "title": "Emabandla lanetindzawo letinyenti",
+            "description": "Idatha yebantfu lehlanganisiwe nemibiko kuwo onkhe emakhampasi."
+          },
+          {
+            "title": "Tinkonzo temhlaba wonkhe",
+            "description": "Iyatfolakala ngetilwimi letingema-30 futsi ixhaswe ngemali kute ihlale imahhala nome kuphi."
+          }
+        ],
+        "sister": "Siphindze sakhe i-FreeShow, i-software yemboniso yamahhala, ne-Lessons.church, ikharikhulamu yamahhala lenetifundvo letingetulu kwa-1,100 — mahhala futsi umtfombo lovulekile, njengako konkhe lesikwentako.",
+        "aboutChurchApps": "Mayelana ne-ChurchApps"
+      },
+      "finalCta": {
+        "title": "Yiba libandla linye.",
+        "titleAccent": "Konkhe endzaweni yinye.",
+        "description": "Lungisa libandla lakho ngemaminithi — i-app yakho, liwebhusayithi, kupha, neku-check-in kulindzile.",
+        "ctaPrimary": "Cala Mahhala",
+        "ctaSecondary": "Fundza Imibuto",
+        "reassurance": "Kute likhadi lesikweletu lelidzingekako — kute lokungakhokhelwa. Mahhala phakadze, kuvela enkonzweni lefuna kutsi ukugcine kunjalo."
+      }
+    },
+    "fragments": {
+      "checkinToast": {
+        "title": "Umndeni wakwa-Johnson u-check-in-ile",
+        "detail": "Preschool A · 9:02 ekuseni"
+      },
+      "givingStat": {
+        "label": "Kupha kwalenyanga"
+      },
+      "aiSearch": {
+        "query": "imindeni lejoyine emalangeni langema-90 lendlulile"
+      },
+      "workflow": {
+        "title": "Kulandzelela sivakashi lesisha",
+        "badge": "Kuyatentakalela",
+        "step1": "Tfumela i-imeyili yekwemukela",
+        "step2": "Nika umfundisi"
+      },
+      "nameTag": {
+        "hello": "Sawubona",
+        "myNameIs": "ligama lami ngu",
+        "pickup": "Kulandvwa ngumtali"
+      },
+      "pushNotification": {
+        "app": "Grace Church",
+        "message": "Ishejuli yemavolontiya ifakiwe yeliSontfo",
+        "time": "nyalo"
+      }
+    },
+    "testimonials": {
+      "title": "Itsandvwa nguMabandla",
+      "titleHighlight": "Yonkhe Indzawo",
+      "subtitle": "Joyina emabandla lakhulako lasagucule inkonzo yawo ngenkundla yetfu yamahhala ngalokuphelele. Naku lokushiwo bafundisi nebaphatsi bemabandla nge-B1.",
+      "stats": {
+        "churchesValue": "100+",
+        "churchesLabel": "Emabandla emhlabeni wonkhe",
+        "freeValue": "Mahhala",
+        "freeLabel": "Phakadze naphakadze",
+        "openValue": "Vulekile",
+        "openLabel": "Ikhodi yemtfombo",
+        "languagesValue": "30",
+        "languagesLabel": "Tilwimi letisekelwako"
+      },
+      "items": [
+        {
+          "content": "Ngincoma i-ChurchApps ngenhlitiyo yonkhe. Iyinkonzo ngendlela leyiyo nalencono yalelo gama. I-ChurchApps iniketa tinsita tebuchwepheshe kute kutfutfukiswe futsi kuphakanyiswe umtselela wakamoya wemabandla emiphakatsini yawo. Batawusita sisekelo seliBandla iminyaka letako."
+        },
+        {
+          "content": "I-ChurchApps isisitile kutsi sibonakale kakhudlwana emphakatsini wetfu—yenyusa kwatiwa, iminikelo, nemavolontiya kute sikwati kusita kancono imindeni lesweleko."
+        },
+        {
+          "content": "I-ChurchApps ingetulu kwe-software—ilithulusi lelisebentako lelisekela umgomo, umbono, nemsebenti wemihla ngemihla wenkonzo. Ngiyabonga litfuba lekuyifundza, kuyifundzisa, nekubona indlela lenika ngayo emabandla emandla ekusebenta ngekucondza, kusebenta kahle, nenhloso lenkhulu."
+        },
+        {
+          "content": "Kuba nelikhasi leminikelo kwenyuse kupha enhlanganweni yetfu. Bantfu abajabuleli nje kuphela kulula kwekuskena likhodi lelibayisa ngco ekhasini leminikelo, kupha kwanyanga tonkhe kungahlelwa kulabo labafuna kutsi kupha nge-inthanethi kube lula."
+        },
+        {
+          "content": "Ngitsandza kugcina emarekhodi ekubakhona, futsi sisebentisa i-B1 Admin onkhe emaSontfo ngaleyo nhloso. Siyayibonga kakhulu insita ye-B1 Admin, lekhombise kuba yindlela lesebentako yelibandla letfu yekugcina emarekhodi ebantfu nekubakhona."
+        }
+      ],
+      "ctaTitle": "Ukulungele Kugucula Kuphatfwa Kwelibandla Lakho?",
+      "ctaDescription": "Joyina umphakatsi lokhulako wemabandla lasasebentisa i-B1 - mahhala ngalokuphelele phakadze. Kute likhadi lesikweletu lelidzingekako, kute kuzama, kute timali letifihlakele.",
+      "ctaButton": "Cala Mahhala",
+      "compareLink": "Bona kutsi i-B1 icatsaniswa njani ne-Planning Center, Pushpay nalokunye"
+    },
+    "websiteBuilder": {
+      "badge": "Liwebhusayithi Lelibandla Lakho",
+      "title": "Sakhi Seliwebhusayithi Lelibandla Samahhala",
+      "titleHighlight": "Ngemaminithi, Hhayi Ngetinyanga",
+      "description": "Yakha liwebhusayithi lelibandla lelihle, lelisezingeni lelisebenti ngesakhi setfu seliwebhusayithi lesakhelwe ngekhatsi samahhala. Kute i-coding ledzingekako - mane uhudvule, ulahle, bese ushicilela liwebhusayithi lelibandla lakho.",
+      "dragDrop": {
+        "title": "Sakhi Sekuhudvula & Kulahla",
+        "description": "Umhleli wekubuka lolula nemacenceba lasavele ahleliwe. Yakha emakhasi lamahle ngaphandle kwalo nome ngulwaphi lwati lwebuchwepheshe."
+      },
+      "templates": {
+        "title": "Emathempulethi Lakhelwe Emabandla",
+        "description": "Emathempulethi lamahle lakhelwe emabandla ngco. Afaka emakhasi etintjumayelo, emakhalenda emicimbi, nemiboniso yetinkonzo."
+      },
+      "integration": {
+        "title": "Kuhlanganiswa ne-App",
+        "description": "Hlanganisa liwebhusayithi lakho ne-app yemakhalekhukhwini kalula. Imicimbi, tintjumayelo, netibuyeketo temphakatsi tivumelana ngekutentakalela."
+      },
+      "cta": "Cala Kwakha Liwebhusayithi Lelibandla Lakho",
+      "ctaSubtext": "Sakhi seliwebhusayithi lelibandla samahhala lesiphelele sifakwe kuyo yonkhe i-akhawunti"
+    },
+    "footer": {
+      "companyDescription": "Inkundla yamahhala, yemtfombo lovulekile lehlanganisa i-app yelibandla lakho, liwebhusayithi, kupha, nekuphatsa ndzawonye.",
+      "product": "Umkhicito",
+      "mobileFeatures": "Timphawu Temakhalekhukhwini",
+      "websiteBuilder": "Sakhi Seliwebhusayithi",
+      "faq": "Imibuto Levamile",
+      "aboutChurchApps": "Mayelana ne-ChurchApps",
+      "appsAndResources": "Ema-App & Tinsita",
+      "installApp": "Faka I-App Yemakhalekhukhwini",
+      "helpCenter": "Likusito",
+      "contact": "Sitsintse",
+      "availableWorldwide": "Iyatfolakala Mhlaba Wonkhe"
+    },
+    "faq": {
+      "pageTitle": "Imibuto Levame",
+      "pageTitleHighlight": "Kubutwa",
+      "pageSubtitle": "Konkhe lodzinga kukwati nge-B1.church, inkundla yekuphatsa libandla yamahhala nge-100%.",
+      "documentTitle": "Imibuto Levamile - B1.church | Imibuto Nge-Software Yekuphatsa Libandla Yamahhala",
+      "items": [
+        {
+          "question": "Ingabe i-B1.church imahhala ngempela nge-100%?",
+          "answer": "Yebo, i-B1.church imahhala ngalokuphelele kute timali letifihlakele, kute emazinga laphakeme lakhokhelwako, futsi kute timali tekutsengiselana kuminikelo. Siyinkonzo lengakenteli inzuzo ye-501(c)(3) lekholwa kutsi lonkhe libandla lifanelwe kufinyelela kubuchwepheshe besimanje ngale kwesabelotimali. Inkundla yetfu ixhaswa yiminikelo nema-Google Ad Grants."
+        },
+        {
+          "question": "I-B1.church ifaka tiphi timphawu?",
+          "answer": "I-B1.church ifaka inkundla yekuphatsa libandla lephelele: i-app yemakhalekhukhwini yemalunga lefakwa ngco kusuka kuliwebhusayithi lakho, sakhi seliwebhusayithi sekuhudvula-ulahle, kupha nge-inthanethi ngaphandle kwetimali tenkundla letengetiwe, luhlelo lwe-check-in lwebantfwana ngemakhodi ekuphepha, kudathabhesi yemalunga, kulandzelela kubakhona, kuphatfwa kwemacembu, kuhlela tinkonzo, umtapo wetingoma, kuphatfwa kwetintjumayelo, nekuhlanganiswa kweliBhayibheli."
+        },
+        {
+          "question": "I-B1.church icatsaniswa njani ne-Planning Center?",
+          "answer": "I-B1.church imahhala nge-100% kantsi i-Planning Center ikhokhelwa ngemojula ($0-299+/ngenyanga). I-B1 ifaka i-app yemakhalekhukhwini nesakhi seliwebhusayithi ngaphandle kwenkhokhelo, kantsi i-Planning Center ikhokhelisa ngekwengetiwe nge-Church Center futsi ayifaki sakhi seliwebhusayithi. Totimbili tiniketa timphawu tekuphatsa libandla, kodvwa i-B1 iniketa konkhe kuliphakheji linye lelimahhala."
+        },
+        {
+          "question": "I-B1.church icatsaniswa njani ne-Pushpay?",
+          "answer": "I-B1.church imahhala ngalokuphelele kantsi i-Pushpay ibita $300-1000+/ngenyanga. I-B1 ite timali tekutsengiselana ekupheni, kantsi i-Pushpay itsatsa liphesenti leminikelo. I-B1 ingumtfombo lovulekile futsi ifaka kuphatfwa kwelibandla lokuphelele, kantsi i-Pushpay iyimfihlo futsi igcile kakhulu ekupheni."
+        },
+        {
+          "question": "I-B1.church icatsaniswa njani ne-Tithe.ly?",
+          "answer": "I-B1.church imahhala ngalokuphelele kute timali tekutsengiselana. I-Tithe.ly iniketa lizinga lelimahhala kodvwa ikhokhelisa ngetimphawu letiphakeme futsi itsatsa liphesenti kuwo wonkhe umnikelo. I-B1 ifaka i-software yekuphatsa libandla lephelele, kantsi i-ChMS ye-Tithe.ly ingumkhicito lokhokhelwako lohlukile."
+        },
+        {
+          "question": "I-B1.church icatsaniswa njani ne-Breeze ChMS?",
+          "answer": "I-B1.church imahhala kantsi i-Breeze icala ku-$72/ngenyanga. I-B1 ifaka i-app yemakhalekhukhwini lephelele nesakhi seliwebhusayithi, kantsi i-Breeze inetimphawu temakhalekhukhwini letincane futsi ite sakhi seliwebhusayithi. Totimbili tiniketa kuphatfwa kwelibandla, kodvwa i-B1 iniketa timphawu letinyenti ngaphandle kwenkhokhelo."
+        },
+        {
+          "question": "Ingabe libandla lami litfola i-app yemakhalekhukhwini?",
+          "answer": "Yebo. I-B1 inika libandla lakho i-app yemakhalekhukhwini lenelibrendi lakho njenge-web app lefakekako (PWA). Emalunga avula sayithi yelibandla lakho, acindzetele 'Add to Home Screen', bese atfola i-app yesikrini lesigcwele leneligama nelilogo lelibandla lakho. Tibuyeketo tifika kubo bonkhe masinyane."
+        },
+        {
+          "question": "Ingabe i-B1.church isekela kupha nge-inthanethi?",
+          "answer": "Yebo, i-B1.church ifaka kupha nge-inthanethi lokuphephile ngekusekelwa kwelikhadi lesikweletu nekutfumela ngelibhange. Ungahlela iminikelo lephindzaphindzekako, uphatse timali letinyenti, futsi unikete umlandvo wekupha wetitatimende tentela. Sisebentisa kuhlanganiswa kwe-Stripe ngco ngaphandle kwetimali tenkundla ye-B1 - libandla lakho lixoxisana ngemanani ngco ne-Stripe (ngokuvamile cishe 2.9% + 30¢)."
+        },
+        {
+          "question": "Ngingakha liwebhusayithi nge-B1.church?",
+          "answer": "Yebo, i-B1.church ifaka sakhi seliwebhusayithi sekuhudvula-ulahle nemathempulethi lavumelana nemakhalekhukhwini. Ungasebentisa idomeyini yakho, futsi liwebhusayithi lihlangana nato tonkhe timphawu takho te-B1 njengemicimbi, emacembu, nekupha."
+        },
+        {
+          "question": "Ingabe i-B1.church ine-check-in yenkonzo yebantfwana?",
+          "answer": "Yebo, i-B1.church ifaka luhlelo lwe-check-in loluhlakaniphile ngemakhiyoski ekutisita langatsintvwa, ku-check-in kwemndeni, kunikwa kwemacembu ngekutentakalela, emakhodi ekuphepha ekulandvweni kwebantfwana, nekulandzelela kubakhona ngemibiko."
+        },
+        {
+          "question": "Ingabe i-B1.church ingumtfombo lovulekile?",
+          "answer": "Yebo, i-B1.church ingumtfombo lovulekile ngalokugcwele. Ungabuka ikhodi yetfu ku-GitHub ku-github.com/ChurchApps. Loku kusho kutsi ungati-hosta wena nangabe ufuna, ufake sandla ekutfutfukiseni, futsi wetsembe kutsi idatha yakho iphatfwa ngekukhanya."
+        },
+        {
+          "question": "Ngubani lowakha i-B1.church?",
+          "answer": "I-B1.church yakhiwa yi-Live Church Solutions, inhlangano lengakenteli inzuzo ye-501(c)(3) (EIN 45-5349618). Siyinkonzo yebathfutfukisi labakholwa kutsi emabandla akufanele akhetse emkhatsini webuchwepheshe nekuxhaswa kwenkonzo."
+        },
+        {
+          "question": "Ngumiphi leminye imikhicito yamahhala leniketwa yi-Live Church Solutions?",
+          "answer": "Ngetulu kwe-B1.church, siniketa i-FreeShow (i-software yemboniso yamahhala ku-freeshow.app, lokunye esikhundleni se-ProPresenter) ne-Lessons.church (ikharikhulamu yelibandla yamahhala lenetifundvo letingetulu kwa-1,100 tabo bonkhe iminyaka). Yonkhe imikhicito yetfu imahhala futsi ingumtfombo lovulekile."
+        },
+        {
+          "question": "Ngicala njani nge-B1.church?",
+          "answer": "Kucala kulula: vakashela b1.church, ucindzetele 'Cala Mahhala', wakhe i-akhawunti yelibandla lakho, ulungise i-app neliwebhusayithi lakho, bese umema libandla lakho. Kute likhadi lesikweletu lelidzingekako futsi kute sikhatsi sekuzama - kumahhala phakadze."
+        },
+        {
+          "question": "Ingabe i-B1.church isekela emakhampasi lamanyenti?",
+          "answer": "Yebo, i-B1.church isekela emabandla lanemakhampasi lamanyenti. Ungaphatsa tindzawo letinyenti kusuka kudheshbhodi yinye lehlanganisiwe ngedatha, kubakhona, nemacembu lakhetsekile ngelikhampasi kube ugcina kudathabhesi yemalunga yinye."
+        }
+      ],
+      "stillHaveQuestions": "Usenayo imibuto?",
+      "supportText": "Licembu letfu lelusito likhona kukusita kutsi ucale nge-B1.church.",
+      "contactSupport": "Tsintsana Nelusito",
+      "viewDocumentation": "Buka Imibhalo"
+    },
+    "compare": {
+      "notFound": {
+        "title": "Kucatsanisa Akutfolakali",
+        "subtitle": "Buka kucatsanisa kwetfu lokukhona:"
+      },
+      "b1vsPrefix": "B1 vs",
+      "noHiddenFees": "Kute timali letifihlakele, phakadze",
+      "plusTransactionFees": "Kanye netimali tekutsengiselana",
+      "featureColumn": "Simphawu",
+      "ourTake": "Umbono Wetfu",
+      "ctaTitle": "Ukulungele kongela libandla lakho imali?",
+      "ctaDescription": "Gucukela ku-B1.church bese ubuyisela sabelotimali sakho se-software enkonzweni.",
+      "ctaButton": "Cala Mahhala",
+      "otherComparisons": "Lokunye Kucatsanisa",
+      "competitors": {
+        "planning-center": {
+          "name": "Planning Center",
+          "tagline": "Lokunye esikhundleni se-Planning Center kwamahhala",
+          "description": "I-Planning Center yinkundla yekuphatsa libandla ledvumile lenemanani ngemamojula. I-B1.church iniketa timphawu letifanako mahhala ngalokuphelele.",
+          "features": [
+            {
+              "name": "Kudathabhesi Yemalunga",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Luhlelo Lwe-Check-in",
+              "b1": true,
+              "competitor": "$99/mo"
+            },
+            {
+              "name": "Kupha Nge-inthanethi",
+              "b1": "Kute timali te-B1",
+              "competitor": "Timali tenkundla + te-Stripe"
+            },
+            {
+              "name": "Kuphatfwa Kwemacembu",
+              "b1": true,
+              "competitor": "$50/mo"
+            },
+            {
+              "name": "Kuhlela Inkonzo",
+              "b1": true,
+              "competitor": "$14-99/mo"
+            },
+            {
+              "name": "I-App Yemakhalekhukhwini",
+              "b1": "I-app yelibrendi yamahhala",
+              "competitor": "$0-199/mo"
+            },
+            {
+              "name": "Sakhi Seliwebhusayithi",
+              "b1": true,
+              "competitor": false
+            },
+            {
+              "name": "Kuphatfwa Kwetintjumayelo",
+              "b1": true,
+              "competitor": false
+            },
+            {
+              "name": "Emakhampasi Lamanyenti",
+              "b1": true,
+              "competitor": "Inkhokhelo lengetiwe"
+            },
+            {
+              "name": "Umtfombo Lovulekile",
+              "b1": true,
+              "competitor": false
+            }
+          ],
+          "pricingB1": "Mahhala nge-100%",
+          "pricingCompetitor": "$0 - $500+/ngenyanga kuye ngemamojula",
+          "verdict": "I-B1.church iniketa tonkhe timphawu letisisekelo te-Planning Center ngaphandle kwebunkimbinkimbi bemanani ngemamojula. Nangabe sabelotimali siyinkinga, i-B1 ikhetfo lelicacile."
+        },
+        "pushpay": {
+          "name": "Pushpay",
+          "tagline": "Lokunye esikhundleni se-Pushpay kwamahhala",
+          "description": "I-Pushpay yatiwa ngekupha ngemakhalekhukhwini kodvwa ita netindleko tanyanga tonkhe letinkhulu netimali tekutsengiselana. I-B1.church iniketa kupha ngetimali tenkundla letingu-ziro.",
+          "features": [
+            {
+              "name": "Kupha Nge-inthanethi",
+              "b1": "Kute timali te-B1",
+              "competitor": "Timali tenkundla + te-Stripe"
+            },
+            {
+              "name": "Iminikelo Lephindzaphindzekako",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "I-App Yemakhalekhukhwini",
+              "b1": "I-app yelibrendi yamahhala",
+              "competitor": "Ifakiwe"
+            },
+            {
+              "name": "Kudathabhesi Yemalunga",
+              "b1": true,
+              "competitor": "I-ChMS ingetiwe"
+            },
+            {
+              "name": "Luhlelo Lwe-Check-in",
+              "b1": true,
+              "competitor": "Inkhokhelo lengetiwe"
+            },
+            {
+              "name": "Sakhi Seliwebhusayithi",
+              "b1": true,
+              "competitor": false
+            },
+            {
+              "name": "Kuphatfwa Kwemacembu",
+              "b1": true,
+              "competitor": "Inkhokhelo lengetiwe"
+            },
+            {
+              "name": "Titatimende Tekupha",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Kuphatfwa Kwetimali",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Umtfombo Lovulekile",
+              "b1": true,
+              "competitor": false
+            }
+          ],
+          "pricingB1": "Mahhala nge-100%",
+          "pricingCompetitor": "$300 - $1,000+/ngenyanga",
+          "verdict": "I-Pushpay inetimphawu letinyenti kodvwa iyabita. I-B1.church iniketa timphawu tekupha letifanako kanye nekuphatfwa kwelibandla lokuphelele ngaphandle kwenkhokhelo. Kongiwa kungabuyiselwa enkonzweni."
+        },
+        "tithely": {
+          "name": "Tithe.ly",
+          "tagline": "Lokunye esikhundleni se-Tithe.ly kwamahhala",
+          "description": "I-Tithe.ly iniketa emathulusi ekupha nekuphatsa libandla ngemanani e-freemium. I-B1.church iniketa konkhe mahhala ngaphandle kwetimali tekutsengiselana.",
+          "features": [
+            {
+              "name": "Kupha Nge-inthanethi",
+              "b1": "Kute timali te-B1",
+              "competitor": "Timali tenkundla + te-Stripe"
+            },
+            {
+              "name": "Iminikelo Lephindzaphindzekako",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "I-App Yemakhalekhukhwini",
+              "b1": "I-app yelibrendi yamahhala",
+              "competitor": "$99/mo"
+            },
+            {
+              "name": "Kudathabhesi Yemalunga",
+              "b1": true,
+              "competitor": "$99/mo"
+            },
+            {
+              "name": "Luhlelo Lwe-Check-in",
+              "b1": true,
+              "competitor": "$49/mo"
+            },
+            {
+              "name": "Sakhi Seliwebhusayithi",
+              "b1": true,
+              "competitor": "$49/mo"
+            },
+            {
+              "name": "Kuphatfwa Kwemacembu",
+              "b1": true,
+              "competitor": "$99/mo"
+            },
+            {
+              "name": "Kuphatfwa Kwetintjumayelo",
+              "b1": true,
+              "competitor": "$49/mo"
+            },
+            {
+              "name": "Emakhampasi Lamanyenti",
+              "b1": true,
+              "competitor": "Inkhokhelo lengetiwe"
+            },
+            {
+              "name": "Umtfombo Lovulekile",
+              "b1": true,
+              "competitor": false
+            }
+          ],
+          "pricingB1": "Mahhala nge-100%",
+          "pricingCompetitor": "Lizinga lelimahhala + $49-199/ngenyanga ngetimphawu",
+          "verdict": "Lizinga lelimahhala le-Tithe.ly linemkhawulo. Kute utfole kusebenta lokuphelele, tindleko tikhula masinyane. I-B1.church ifaka konkhe kusukela ngelusuku lwekucala ngaphandle kwekucindzetelwa kutsi ukhuphule."
+        },
+        "breeze": {
+          "name": "Breeze ChMS",
+          "tagline": "Lokunye esikhundleni se-Breeze ChMS kwamahhala",
+          "description": "I-Breeze luhlelo lwekuphatsa libandla lolulula lolunemanani lacacile. I-B1.church iniketa timphawu letinyenti ngaphandle kwenkhokhelo.",
+          "features": [
+            {
+              "name": "Kudathabhesi Yemalunga",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Kuphatfwa Kwekupha",
+              "b1": "Kute timali te-B1",
+              "competitor": "2.9% + 30¢"
+            },
+            {
+              "name": "Luhlelo Lwe-Check-in",
+              "b1": true,
+              "competitor": "Lokusisekelo"
+            },
+            {
+              "name": "I-App Yemakhalekhukhwini",
+              "b1": "I-app yelibrendi yamahhala",
+              "competitor": "Inemkhawulo"
+            },
+            {
+              "name": "Sakhi Seliwebhusayithi",
+              "b1": true,
+              "competitor": false
+            },
+            {
+              "name": "Kuphatfwa Kwemacembu",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Kuphatfwa Kwemicimbi",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Kuhlela Emavolontiya",
+              "b1": true,
+              "competitor": true
+            },
+            {
+              "name": "Emakhampasi Lamanyenti",
+              "b1": true,
+              "competitor": false
+            },
+            {
+              "name": "Umtfombo Lovulekile",
+              "b1": true,
+              "competitor": false
+            }
+          ],
+          "pricingB1": "Mahhala nge-100%",
+          "pricingCompetitor": "$72 - $135/ngenyanga",
+          "verdict": "I-Breeze ilula futsi iyafinyeleleka, kodvwa i-B1.church ilula kakhudlwana kusabelotimali (mahhala!) kube iniketa timphawu letinyenti njengesakhi seliwebhusayithi ne-app yemakhalekhukhwini lephelele."
+        }
+      }
+    },
+    "churchManagement": {
+      "hero": {
+        "title": "I-Software Yekuphatsa Libandla",
+        "titleHighlight": "Yamahhala",
+        "titleLine2": "Inkundla Yenkonzo Lephelele",
+        "description": "I-<strong>software yekuphatsa libandla</strong> yelizinga lelisebenti nekulandzelela kubakhona, kudathabhesi yemalunga, kuphatfwa kwekupha, nemathulusi ekuchumana. I-<strong>software yelibandla yamahhala</strong> ngalokuphelele leniketwa yi-Live Church Solutions, inkonzo lengakenteli inzuzo ye-501(c)(3). Joyina emabandla langetulu kwa-100 longa tinkhulungwane etindlekweni te-software yenkonzo.",
+        "ctaPrimary": "Cala Mahhala",
+        "ctaSecondary": "Zama Idemo",
+        "trustLine": "Yetsenjwa nguMabandla Lakhulako Emhlabeni Wonkhe",
+        "trustFree": "Mahhala Ngalokuphelele Phakadze",
+        "trustNonProfit": "Inkonzo Lengakenteli Inzuzo ye-501(c)(3)",
+        "trustOpenSource": "Umtfombo Lovulekile"
+      },
+      "featuresHeader": {
+        "title": "Timphawu",
+        "titleHighlight": "Teluhlelo Lwekuphatsa Libandla",
+        "titleSuffix": "Loluphelele",
+        "description": "I-software yekudathabhesi yelibandla yelizinga lelisebenti nekuphatfwa kwemalunga, kulandzelela kubakhona, kuphatfwa kwekupha, nemathulusi ekuchumana kwenkonzo. Luhlelo lwekuphatsa libandla lwamahhala lolwakhelwe ngco emabandla lakhulako nemabandla lanemakhampasi lamanyenti."
+      },
+      "checkinStations": {
+        "title": "Titeshi Te-Check-in Tekutisita",
+        "description": "Cinisekisa kuphepha kwebantfwana kube ukhulula emavolontiya kutsi asebente nemindeni. Luhlelo lwetfu lwe-check-in lwekutisita lukhipha emakhodi lacondzanako ebantfwana nebadzala, lokwenta inchubo yekulandvwa lephephile.",
+        "features": [
+          "Sesha ngenombolo yelucingo bese ukhetsa tinkonzo ngekutentakalela",
+          "Iphrinta emalebula nemarisidi ngaphandle kwetintsambo kumaphrinta labelwane",
+          "Isebenta kumathebulethi e-Android lafinyelelekako (cishe $150)",
+          "Ivumelana neluhlelo lwekulandzelela kubakhona ngekutentakalela"
+        ]
+      },
+      "mainFeatures": [
+        {
+          "title": "Kuphatfwa Kwebantfu Lokuphelele",
+          "description": "Gcina emarekhodi emalunga netivakashi lanemininingwane ngelwati lwekutsintsana, budlelwane, emalanga ekutalwa, nekulandzelela emaminyaka emshado. Emandla ekusesha nekuhlunga lasezingeni leliphakeme."
+        },
+        {
+          "title": "Kuhlatiywa Kwekubakhona",
+          "description": "Landzelela emathrendi ekubakhona kuto tonkhe tinkonzo nemacembu ngemashadi nemibiko lemihle. Bukisisa emaphethini ekutimbandzakanya nekukhula ngesikhatsi."
+        },
+        {
+          "title": "Kuphatfwa Kwemacembu & Tinkonzo",
+          "description": "Hlela emacembu, emaklasi, netinkonzo letingenamkhawulo. Phatsa kunikwa kwemalunga, ulandzelele kuhlanganyela, wakhe imikhakha yemacembu yangekhetselwe."
+        },
+        {
+          "title": "Kuphatfwa Kwekupha Lokusezingeni Leliphakeme",
+          "description": "Sebenta iminikelo ngekuphatfwa kwemabhetji, kulandzelela timali, nekubika kwetetimali lokuphelele. Khipha titatimende tentela ubukisise emathrendi ekupha."
+        },
+        {
+          "title": "Kuhlela Kwekukhonta & Inkonzo",
+          "description": "Hlela tinkonzo tekukhonta, unike emalunga elicembu, uphatse kuhlanganiswa kwemavolontiya. Landzelela tikhundla letidzingekako wente tatiso titentakalele."
+        },
+        {
+          "title": "Umtapo Wetingoma & Emahlelo",
+          "description": "Hlela umtapo wakho wetingoma lophelele ngemahlelo lamanyenti, emakhiye, nemashadi emakhodi. Xhumanisa netinsita tangaphandle uphatse ema-setlist ekukhonta."
+        },
+        {
+          "title": "Sikhungo Sekuchumana",
+          "description": "Tfumela ema-imeyili netimemetelo leticondzisiwe. Yakha tinchubo letitentakalelako ugcine libandla lakho lihlangene."
+        },
+        {
+          "title": "Kusekelwa Kwemakhampasi Lamanyenti",
+          "description": "Phatsa tindzawo letinyenti kusuka kudheshbhodi yinye lehlanganisiwe. Landzelela idatha yelikhampasi ngalinye kube ugcina kubika kwenhlangano yonkhe."
+        }
+      ],
+      "testimonials": {
+        "title": "Itsandvwa nguMabandla",
+        "titleHighlight": "Yonkhe Indzawo",
+        "subtitle": "Joyina emabandla lakhulako lasagucule inkonzo yawo ngenkundla yetfu yamahhala ngalokuphelele. Naku lokushiwo bafundisi nebaphatsi bemabandla.",
+        "items": [
+          {
+            "content": "Sisebentisa lenkundla onkhe emaSontfo kulandzelela kubakhona nekugcina emarekhodi abo bonkhe labafikako, kufaka ekhatsi bantfwana betfu besikolwa seliSontfo. Njengetitfunywa letinesabelotimali lesincane, siyakubonga kutsi le-software imahhala futsi iyasebenta."
+          },
+          {
+            "content": "Lona ngumsindzisi welibandla. Njengelibandla lelincane lelinesabelotimali lesincane, le-software ITFUNYELWE NGUNKULUNKULU futsi iyisibusiso. Ilula kumsebentisi futsi kulula kuyihlela. Imibiko yeminikelo kulula kuyibhala. Kutsi ngingakhipha idatha ku-excel kwenta kuhlatiywa kwemarekhodi kube lula kakhulu. Ingephulile lokungenani 25% wesikhatsi sami sehhovisi."
+          },
+          {
+            "content": "Loku kwasisita kutsi sendlulele ekupheni kwedijithali kalula ngesikhatsi selubhubhane. Licembu lelusito belimangalisa futsi inkundla yetsembeke kakhulu. Kuba mahhala kwasivumela kutsi sibuyisele sabelotimali setfu se-software enkonzweni yangempela."
+          }
+        ]
+      },
+      "aboutSection": {
+        "title": "Mayelana Ne-Software",
+        "titleHighlight": "Yelibandla Yetfu Yamahhala",
+        "description": "I-<strong>software yekuphatsa libandla</strong> lephelele leniketwa mahhala ngalokuphelele emabandleni emaKrestu netinkonzo yi-<strong>Live Church Solutions</strong>, inhlangano lengakenteli inzuzo ye-501(c)(3) leyasungulwa nga-2012. Umgomo wetfu kusita emabandla kutsi asebentise i-<strong>software yenkonzo</strong> yelizinga lelisebenti ngaphandle kwetindleko letiphakeme letivamile tetinhlelo tekuphatsa libandla."
+      },
+      "stats": [
+        {
+          "number": "$800M",
+          "label": "Emabandla ayisebentisa ngemnyaka ku-software yekuphatsa",
+          "description": "Sikholwa kutsi lemali ingasetjentiswa kancono"
+        },
+        {
+          "number": "100+",
+          "label": "Emabandla lasasebentisa inkundla yetfu",
+          "description": "Umphakatsi lokhulako webasebentisi labenetisekile"
+        },
+        {
+          "number": "2012",
+          "label": "Umnyaka i-Live Church Solutions leyasungulwa ngawo",
+          "description": "Ngetulu kweminyaka lelishumi sisita emabandla ngebuchwepheshe"
+        },
+        {
+          "number": "100%",
+          "label": "Siciniseko semahhala phakadze",
+          "description": "Kute timali letifihlakele, kute kuzama, kute imikhawulo"
+        }
+      ],
+      "mission": {
+        "title": "Umgomo Wetfu: Kusita Emabandla Kutsi Agcile Enkonzweni",
+        "description": "Umnyaka ngamunye liBandla lisebentisa ngetulu kwe-<strong>$800 million</strong> ku-software yekuphatsa libandla. Sikholwa kutsi leyo mali ingasetjentiswa kancono, ngiko nje satfutfukisa lenkundla; sisombululo sekuphatsa libandla lesimahhala ngalokuphelele, semtfombo lovulekile.",
+        "learnMore": "Fundza Kabanti Nge-Live Church Solutions",
+        "viewOnGitHub": "Buka ku-GitHub"
+      },
+      "allFeatures": {
+        "title": "Konkhe Lokudzingako, Mahhala Ngalokuphelele",
+        "subtitle": "Kute tikhatsi tekuzama, kute imikhawulo yemalunga, kute timali letifihlakele",
+        "items": [
+          "Kudathabhesi yemalunga lephelele nemaphrofayili lanemininingwane",
+          "Kulandzelela kubakhona nge-app ye-check-in yekutisita",
+          "Kuphatfwa kwemacembu nemacembu lamancane",
+          "Kuphatfwa kwekupha ngekubika lokunemininingwane",
+          "Emafomu langekhetselwe nekucocwa kwedatha",
+          "Emathulusi ekuchumana nge-imeyili",
+          "Kuphatfwa kwemicimbi nekuhlela",
+          "Kungeniswa kwedatha kusuka etinhlelweni letikhona",
+          "Kusekelwa kwetindzawo letinyenti nemakhampasi lamanyenti",
+          "Kufinyelela netimvume ngetindzima",
+          "Umtfombo lovulekile ngekufinyelela ku-GitHub"
+        ]
+      },
+      "cta": {
+        "title": "Ukulungele Kuyekela Kukhokhela I-Software Yekuphatsa Libandla?",
+        "description": "Joyina emabandla emhlabeni wonkhe lasagucukele esisombululweni lesimahhala ngalokuphelele, semtfombo lovulekile lesakhiwe yinkonzo, sentelwe tinkonzo.",
+        "primaryButton": "Cala Mahhala",
+        "secondaryButton": "Zama Idemo"
+      },
+      "showcase": {
+        "groupsMinistries": {
+          "title": "Emacembu & Tinkonzo",
+          "description": "Phatsa emacembu nemaklasi langenamkhawulo"
+        },
+        "peopleSearch": {
+          "title": "Kusesha Bantfu",
+          "description": "Kudathabhesi yemalunga lesezingeni leliphakeme"
+        },
+        "servicePlanning": {
+          "title": "Kuhlela Inkonzo",
+          "description": "Hlela emacembu nekwabiwa kwemisebenti"
+        },
+        "songLibrary": {
+          "title": "Umtapo Wetingoma",
+          "description": "Emahlelo nemashadi emakhodi"
+        }
+      },
+      "dashboard": {
+        "title": "Idheshbhodi Lenhle, Lecondzakalako",
+        "description": "Finyelela yonkhe idatha yelibandla lakho nge-interface yetfu lehlobile, yesimanje leyakhelwe kusebenta kahle nekulula."
+      },
+      "additional": {
+        "security": {
+          "title": "Kuphepha & Imfihlo",
+          "description": "Kubhalwa ngemfihlo kwelizinga lemkhakha nekugcinwa kwedatha lokuphephile"
+        },
+        "mobile": {
+          "title": "Kufinyeleleka Ngemakhalekhukhwini",
+          "description": "Umklamo lovumelanako usebenta kahle kuwo onkhe emadivayisi"
+        },
+        "workflows": {
+          "title": "Tinchubo Letitentakalelako",
+          "description": "Kulandzelelana kwekulandzelela nekutentakalela kwekunakekela emalunga"
+        },
+        "reporting": {
+          "title": "Kubika Kwesikhatsi Sangempela",
+          "description": "Khipha imibiko masinyane ukhiphe idatha nome nini"
+        },
+        "forms": {
+          "title": "Emafomu Langekhetselwe",
+          "description": "Yakha emafomu ekubhalisa nemibuto yanome nguyiphi inhloso"
+        },
+        "roles": {
+          "title": "Kufinyelela Ngetindzima",
+          "description": "Timvume letiphephile tetisebenti nemavolontiya"
+        }
+      }
+    },
+    "notFound": {
+      "title": "404",
+      "message": "Yeyi! Likhasi alitfolakali",
+      "returnHome": "Buyela Ekhaya"
+    }
+  }
+}

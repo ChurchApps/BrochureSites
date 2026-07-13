@@ -225,7 +225,7 @@
           },
           {
             "title": "Maailmanlaajuinen seurakuntatyö",
-            "description": "Saatavilla 29 kielellä ja rahoitettu niin, että se pysyy ilmaisena kaikkialla."
+            "description": "Saatavilla 30 kielellä ja rahoitettu niin, että se pysyy ilmaisena kaikkialla."
           }
         ],
         "sister": "Rakennamme myös FreeShow'n, ilmaisen esitysohjelmiston, ja Lessons.churchin, ilmaisen opetusmateriaalin, jossa on 1,100+ oppituntia — ilmaisia ja avointa lähdekoodia, kuten kaikki mitä teemme.",
@@ -279,7 +279,7 @@
         "freeLabel": "Ikuisesti ja aina",
         "openValue": "Avoin",
         "openLabel": "Lähdekoodi",
-        "languagesValue": "29",
+        "languagesValue": "30",
         "languagesLabel": "Tuettua kieltä"
       },
       "items": [

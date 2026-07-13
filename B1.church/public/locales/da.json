@@ -225,7 +225,7 @@
           },
           {
             "title": "Globale tjenester",
-            "description": "Tilgængelig på 29 sprog og finansieret, så det forbliver gratis overalt."
+            "description": "Tilgængelig på 30 sprog og finansieret, så det forbliver gratis overalt."
           }
         ],
         "sister": "Vi bygger også FreeShow, gratis præsentationssoftware, og Lessons.church, gratis undervisningsmateriale med over 1.100 lektioner — gratis og open source, ligesom alt andet, vi laver.",
@@ -279,7 +279,7 @@
         "freeLabel": "For evigt & altid",
         "openValue": "Åben",
         "openLabel": "Kildekode",
-        "languagesValue": "29",
+        "languagesValue": "30",
         "languagesLabel": "Understøttede sprog"
       },
       "items": [

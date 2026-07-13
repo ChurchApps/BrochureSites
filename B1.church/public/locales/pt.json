@@ -225,7 +225,7 @@
           },
           {
             "title": "Ministérios globais",
-            "description": "Disponível em 29 idiomas e financiado para continuar gratuito em qualquer lugar."
+            "description": "Disponível em 30 idiomas e financiado para continuar gratuito em qualquer lugar."
           }
         ],
         "sister": "Também criamos o FreeShow, software gratuito de apresentações, e o Lessons.church, currículo gratuito com mais de 1,100 lições — grátis e de código aberto, como tudo o que fazemos.",
@@ -279,7 +279,7 @@
         "freeLabel": "Para todo o sempre",
         "openValue": "Aberto",
         "openLabel": "Código-fonte",
-        "languagesValue": "29",
+        "languagesValue": "30",
         "languagesLabel": "Idiomas disponíveis"
       },
       "items": [

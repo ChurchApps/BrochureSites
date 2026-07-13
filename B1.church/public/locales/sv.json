@@ -225,7 +225,7 @@
           },
           {
             "title": "Globala verksamheter",
-            "description": "Tillgängligt på 29 språk och finansierat så att det förblir gratis överallt."
+            "description": "Tillgängligt på 30 språk och finansierat så att det förblir gratis överallt."
           }
         ],
         "sister": "Vi bygger också FreeShow, gratis presentationsprogram, och Lessons.church, gratis undervisningsmaterial med över 1 100 lektioner — gratis och öppen källkod, precis som allt vi gör.",
@@ -279,7 +279,7 @@
         "freeLabel": "För alltid & evigt",
         "openValue": "Öppen",
         "openLabel": "Källkod",
-        "languagesValue": "29",
+        "languagesValue": "30",
         "languagesLabel": "Språk som stöds"
       },
       "items": [

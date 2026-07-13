@@ -225,7 +225,7 @@
           },
           {
             "title": "Pasaulinės tarnystės",
-            "description": "Prieinama 29 kalbomis ir finansuojama taip, kad liktų nemokama bet kur."
+            "description": "Prieinama 30 kalbomis ir finansuojama taip, kad liktų nemokama bet kur."
           }
         ],
         "sister": "Taip pat kuriame FreeShow — nemokamą prezentacijų programą — ir Lessons.church — nemokamą mokymo medžiagą su daugiau nei 1 100 pamokų. Nemokama ir atvirojo kodo, kaip ir viskas, ką darome.",
@@ -279,7 +279,7 @@
         "freeLabel": "Amžinai ir visada",
         "openValue": "Atviras",
         "openLabel": "Pirminis kodas",
-        "languagesValue": "29",
+        "languagesValue": "30",
         "languagesLabel": "Palaikomų kalbų"
       },
       "items": [

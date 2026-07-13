@@ -225,7 +225,7 @@
           },
           {
             "title": "Mga pandaigdigang ministeryo",
-            "description": "Available sa 29 na wika at pinopondohan para manatiling libre saanman."
+            "description": "Available sa 30 na wika at pinopondohan para manatiling libre saanman."
           }
         ],
         "sister": "Gumagawa rin kami ng FreeShow, libreng presentation software, at Lessons.church, libreng kurikulum na may 1,100+ na aralin — libre at open source, tulad ng lahat ng ginagawa namin.",
@@ -279,7 +279,7 @@
         "freeLabel": "Magpakailanman at palagi",
         "openValue": "Open",
         "openLabel": "Source code",
-        "languagesValue": "29",
+        "languagesValue": "30",
         "languagesLabel": "Mga wikang suportado"
       },
       "items": [

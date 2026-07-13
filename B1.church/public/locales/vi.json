@@ -225,7 +225,7 @@
           },
           {
             "title": "Mục vụ toàn cầu",
-            "description": "Có sẵn trong 29 ngôn ngữ và được tài trợ để luôn miễn phí ở bất cứ đâu."
+            "description": "Có sẵn trong 30 ngôn ngữ và được tài trợ để luôn miễn phí ở bất cứ đâu."
           }
         ],
         "sister": "Chúng tôi cũng xây dựng FreeShow, phần mềm trình chiếu miễn phí, và Lessons.church, giáo trình miễn phí với hơn 1,100 bài học — miễn phí và mã nguồn mở, như mọi thứ chúng tôi làm.",
@@ -279,7 +279,7 @@
         "freeLabel": "Mãi mãi và luôn luôn",
         "openValue": "Mở",
         "openLabel": "Mã nguồn",
-        "languagesValue": "29",
+        "languagesValue": "30",
         "languagesLabel": "Ngôn ngữ được hỗ trợ"
       },
       "items": [

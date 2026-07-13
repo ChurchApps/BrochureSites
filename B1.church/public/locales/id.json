@@ -225,7 +225,7 @@
           },
           {
             "title": "Pelayanan global",
-            "description": "Tersedia dalam 29 bahasa dan didanai agar tetap gratis di mana pun."
+            "description": "Tersedia dalam 30 bahasa dan didanai agar tetap gratis di mana pun."
           }
         ],
         "sister": "Kami juga membangun FreeShow, perangkat lunak presentasi gratis, dan Lessons.church, kurikulum gratis dengan 1,100+ pelajaran — gratis dan open source, seperti semua yang kami buat.",
@@ -279,7 +279,7 @@
         "freeLabel": "Selamanya & selalu",
         "openValue": "Terbuka",
         "openLabel": "Kode sumbernya",
-        "languagesValue": "29",
+        "languagesValue": "30",
         "languagesLabel": "Bahasa yang didukung"
       },
       "items": [

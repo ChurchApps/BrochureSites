@@ -225,7 +225,7 @@
           },
           {
             "title": "Globalne službe",
-            "description": "Na voljo v 29 jezikih in financirano tako, da ostane brezplačno kjerkoli."
+            "description": "Na voljo v 30 jezikih in financirano tako, da ostane brezplačno kjerkoli."
           }
         ],
         "sister": "Razvijamo tudi FreeShow, brezplačno programsko opremo za predstavitve, in Lessons.church, brezplačno gradivo z več kot 1,100 lekcijami — brezplačno in odprtokodno, kot vse, kar ustvarjamo.",
@@ -279,7 +279,7 @@
         "freeLabel": "Za vedno in vselej",
         "openValue": "Odprta",
         "openLabel": "Izvorna koda",
-        "languagesValue": "29",
+        "languagesValue": "30",
         "languagesLabel": "Podprtih jezikov"
       },
       "items": [

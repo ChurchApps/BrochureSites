@@ -47,7 +47,7 @@ const MissionSection = () => {
           </div>
           <div>
             <div className="text-4xl font-extrabold tabular-nums tracking-tight text-sun md:text-5xl">
-              <CountUp value={29} />
+              <CountUp value={30} />
             </div>
             <div className="mt-1 text-sm text-ink-muted">{t("brochure.home.mission.stats.languages")}</div>
           </div>

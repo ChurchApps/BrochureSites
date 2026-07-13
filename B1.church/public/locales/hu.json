@@ -225,7 +225,7 @@
           },
           {
             "title": "Világméretű szolgálatok",
-            "description": "29 nyelven elérhető, és úgy finanszírozott, hogy bárhol ingyenes maradjon."
+            "description": "30 nyelven elérhető, és úgy finanszírozott, hogy bárhol ingyenes maradjon."
           }
         ],
         "sister": "Mi készítjük a FreeShow ingyenes vetítőszoftvert és a Lessons.church ingyenes tananyagtárat is, több mint 1 100 leckével — ingyenes és nyílt forráskódú, mint minden, amit készítünk.",
@@ -279,7 +279,7 @@
         "freeLabel": "Örökkön örökké",
         "openValue": "Nyílt",
         "openLabel": "Forráskód",
-        "languagesValue": "29",
+        "languagesValue": "30",
         "languagesLabel": "Támogatott nyelv"
       },
       "items": [

@@ -225,7 +225,7 @@
           },
           {
             "title": "Globální služby",
-            "description": "K dispozici ve 29 jazycích a financováno tak, aby zůstalo zdarma kdekoli na světě."
+            "description": "K dispozici ve 30 jazycích a financováno tak, aby zůstalo zdarma kdekoli na světě."
           }
         ],
         "sister": "Tvoříme také FreeShow, bezplatný prezentační software, a Lessons.church, bezplatné materiály s více než 1,100 lekcemi — zdarma a open source, jako všechno, co děláme.",
@@ -279,7 +279,7 @@
         "freeLabel": "Navždy a napořád",
         "openValue": "Otevřený",
         "openLabel": "Zdrojový kód",
-        "languagesValue": "29",
+        "languagesValue": "30",
         "languagesLabel": "Podporovaných jazyků"
       },
       "items": [

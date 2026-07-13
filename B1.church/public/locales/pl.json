@@ -225,7 +225,7 @@
           },
           {
             "title": "Służby globalne",
-            "description": "Dostępne w 29 językach i finansowane tak, by wszędzie pozostało darmowe."
+            "description": "Dostępne w 30 językach i finansowane tak, by wszędzie pozostało darmowe."
           }
         ],
         "sister": "Tworzymy też FreeShow, darmowy program do prezentacji, oraz Lessons.church, darmowe materiały z ponad 1,100 lekcjami — darmowe i open source, jak wszystko, co robimy.",
@@ -279,7 +279,7 @@
         "freeLabel": "Na zawsze i na dobre",
         "openValue": "Otwarty",
         "openLabel": "Kod źródłowy",
-        "languagesValue": "29",
+        "languagesValue": "30",
         "languagesLabel": "Obsługiwanych języków"
       },
       "items": [

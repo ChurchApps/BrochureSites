@@ -225,7 +225,7 @@
           },
           {
             "title": "Küresel hizmetler",
-            "description": "29 dilde kullanılabilir ve her yerde ücretsiz kalması için fonlanıyor."
+            "description": "30 dilde kullanılabilir ve her yerde ücretsiz kalması için fonlanıyor."
           }
         ],
         "sister": "Ayrıca ücretsiz sunum yazılımı FreeShow'u ve 1,100'den fazla dersten oluşan ücretsiz müfredat Lessons.church'ü de geliştiriyoruz — yaptığımız her şey gibi ücretsiz ve açık kaynak.",
@@ -279,7 +279,7 @@
         "freeLabel": "Sonsuza dek, her zaman",
         "openValue": "Açık",
         "openLabel": "Kaynak kodu",
-        "languagesValue": "29",
+        "languagesValue": "30",
         "languagesLabel": "Desteklenen dil"
       },
       "items": [
