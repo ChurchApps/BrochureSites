@@ -5,7 +5,6 @@ import Seo from "@/components/Seo";
 import { Button } from "@/components/ui/button";
 import {
   ArrowRight,
-  Play,
   Users,
   BarChart3,
   UserCheck,
@@ -144,9 +143,9 @@ const ChurchManagement = () => {
     name: "B1.church",
     applicationCategory: "BusinessApplication",
     operatingSystem: "Web",
-    description: "100% free church management software, including hosting. People, giving, check-in, groups, website, and attendance. Open source from ChurchApps.",
+    description: "People, giving, check-in, website, member app, and worship planning. One platform. $0 forever. For churches that have not bought a ChMS yet.",
     offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
-    featureList: ["People", "Giving", "Check-in", "Groups", "Website", "Attendance"]
+    featureList: ["People", "Giving", "Check-in", "Website", "Member app", "Worship planning"]
   };
 
   return (
@@ -154,7 +153,7 @@ const ChurchManagement = () => {
       <Seo
         path="/church-management"
         title="Free Church Management Software (Including Hosting) | B1.church"
-        description="100% free church management software, including hosting. People, giving, check-in, groups, website, and attendance. Open source. Stripe nonprofit 2.2% + $0.30 — no Apple Pay or Google Pay."
+        description="People, giving, check-in, website, member app, and worship planning. One platform. $0 forever. For churches that have not bought a ChMS yet."
         jsonLd={churchManagementSchema}
       />
       <Header />
@@ -182,10 +181,10 @@ const ChurchManagement = () => {
                   </a>
                 </Button>
                 <Button variant="outline" size="xl" className="group" asChild>
-                  <a href={DEMO_URL} target="_blank" rel="noopener">
-                    <Play className="mr-2 h-5 w-5" />
+                  <LocaleLink to="/compare">
                     {t("brochure.churchManagement.hero.ctaSecondary")}
-                  </a>
+                    <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+                  </LocaleLink>
                 </Button>
               </div>
 
@@ -223,7 +222,7 @@ const ChurchManagement = () => {
               ))}
             </div>
             <p className="mt-8 text-center">
-              <LocaleLink to="/compare/tithely" className="font-semibold text-primary hover:underline">
+              <LocaleLink to="/compare" className="font-semibold text-primary hover:underline">
                 {t("brochure.churchManagement.freeMeaning.compareLink")}
               </LocaleLink>
             </p>

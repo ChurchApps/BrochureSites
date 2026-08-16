@@ -33,9 +33,7 @@
 - Recurring giving options
 - Multiple fund management
 - Giving history and tax statements
-- Direct Stripe integration (no B1 platform fees)
-- Stripe nonprofit rate: 2.2% + $0.30
-- B1 does not include Apple Pay or Google Pay
+- Giving included, no B1 platform fee
 
 ### Self-Service Check-in (B1Checkin)
 - Self-check-in kiosks on affordable Android tablets (~$150)
