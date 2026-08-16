@@ -143,7 +143,7 @@ const ChurchManagement = () => {
     name: "B1.church",
     applicationCategory: "BusinessApplication",
     operatingSystem: "Web",
-    description: "People, giving, check-in, website, member app, and worship planning. One platform. $0 forever. For churches that have not bought a ChMS yet.",
+    description: "People, giving, check-in, website, member app, and worship planning. One platform. $0 forever.",
     offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
     featureList: ["People", "Giving", "Check-in", "Website", "Member app", "Worship planning"]
   };
@@ -153,7 +153,7 @@ const ChurchManagement = () => {
       <Seo
         path="/church-management"
         title="Free Church Management Software (Including Hosting) | B1.church"
-        description="People, giving, check-in, website, member app, and worship planning. One platform. $0 forever. For churches that have not bought a ChMS yet."
+        description="People, giving, check-in, website, member app, and worship planning. One platform. $0 forever."
         jsonLd={churchManagementSchema}
       />
       <Header />
