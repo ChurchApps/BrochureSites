@@ -503,7 +503,7 @@
         "title": "Free",
         "titleHighlight": "Church Management Software",
         "titleLine2": "Including hosting.",
-        "description": "People, giving, check-in, website, member app, and worship planning. One platform. $0 forever. For churches that have not bought a ChMS yet.",
+        "description": "People, giving, check-in, website, member app, and worship planning. One platform. $0 forever.",
         "ctaPrimary": "Get Started Free",
         "ctaSecondary": "See how B1 compares",
         "trustLine": "What you actually get",
@@ -656,7 +656,7 @@
       },
       "cta": {
         "title": "Ready to stop paying for church software?",
-        "description": "B1 is the ChMS you start on. Whole stack at $0. If you have not bought software yet, start here.",
+        "description": "B1 is the whole stack at $0. Hosting included.",
         "primaryButton": "Get Started for Free",
         "secondaryButton": "Try Demo"
       },
