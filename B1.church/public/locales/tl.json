@@ -664,7 +664,11 @@
           "pricingCompetitor": "$72 - $135/buwan",
           "verdict": "Ang Breeze ay simple at abot-kaya, ngunit ang B1.church ay mas magaan sa budget (libre!) habang nag-aalok ng mas maraming tampok tulad ng website builder at buong mobile app."
         }
-      }
+      },
+      "hubTitle": "How B1 compares",
+      "hubSubtitle": "B1 is the ChMS you start on. People, giving, check-in, website, member app, worship planning. $0 forever. 501(c)(3).",
+      "priceB1Label": "$0 / month",
+      "priceB1Note": "No tiers. No platform fee on gifts."
     },
     "churchManagement": {
       "hero": {

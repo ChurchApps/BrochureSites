@@ -8,10 +8,13 @@ import FAQ from "@/pages/FAQ";
 import Compare from "@/pages/Compare";
 import NotFound from "@/pages/NotFound";
 import LanguageRedirect from "@/components/LanguageRedirect";
+import HtmlRedirect from "@/components/HtmlRedirect";
 import ExternalRedirect from "@/components/ExternalRedirect";
 import { ADMIN_LOGIN_URL } from "@/constants/externalUrls";
 
-// Legacy unprefixed paths redirect to detected language; real pages under /:lang/*.
+const PCO_COMPARE = "/en/compare/planning-center/";
+
+// Legacy unprefixed paths redirect to /en/… (HTML + meta refresh) so S3 has a real key.
 export const routes: RouteRecord[] = [
   {
     path: "/",
@@ -23,6 +26,8 @@ export const routes: RouteRecord[] = [
       { path: "faq", element: <LanguageRedirect /> },
       { path: "compare", element: <LanguageRedirect /> },
       { path: "compare/:competitor", element: <LanguageRedirect /> },
+      { path: "vs", element: <HtmlRedirect to={PCO_COMPARE} /> },
+      { path: "vs/planning-center", element: <HtmlRedirect to={PCO_COMPARE} /> },
       {
         path: ":lang",
         element: <LanguageLayout />,

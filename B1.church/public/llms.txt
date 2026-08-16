@@ -62,30 +62,24 @@
 
 ## Comparison to Alternatives
 
+B1 is the ChMS you start on. Whole stack at $0. No platform fee on gifts. You still pay Stripe or PayPal rates. Native B1 Mobile is deprecated; the member app is a PWA.
+
 ### B1 vs Planning Center
-- B1 is 100% free; Planning Center charges per module ($0-299+/month)
-- B1 includes mobile app; Planning Center charges extra for Church Center
-- B1 has built-in website builder; Planning Center does not
+- Planning Center People is free. Other PCO products have free tiers, then you pay as you grow. Church Center essentials are free.
+- B1 is the whole stack at $0 with no module step-up.
+- If your worship team already lives in Services, stay. B1 does not match Music Stand or SongSelect, and we do not import service plans.
+- Member app: PWA from your church site vs Church Center (free). Website builder is included in B1.
 
 ### B1 vs Pushpay
-- B1 is free; Pushpay costs $300-1000+/month
-- B1 has no transaction fees; Pushpay takes percentage of donations
-- B1 is open source; Pushpay is proprietary
+- Pushpay is a paid giving platform. B1 includes giving with no platform fee, plus the rest of the ChMS, at $0.
+- You still pay card or ACH rates either way.
 
 ### B1 vs Tithe.ly
-- B1 is completely free; Tithe.ly has premium tiers
-- B1 includes full church management; Tithe.ly ChMS is separate cost
-- B1 has no giving fees; Tithe.ly charges per transaction
+- Tithe.ly is a giving company with a paid ChMS. B1 is the ChMS. Giving is included. B1 adds $0 on top of Stripe or PayPal.
 
-### B1 vs Breeze ChMS
-- B1 is free; Breeze starts at $72/month
-- B1 includes mobile app; Breeze mobile is limited
-- B1 has website builder; Breeze does not
-
-### B1 vs Church Community Builder (CCB)
-- B1 is free; CCB costs $50-500+/month
-- B1 is modern cloud-native; CCB is legacy platform
-- B1 includes website builder and mobile app
+### B1 vs Breeze
+- Breeze is a paid, simple ChMS. B1 is $0 and includes the website, giving with no platform fee, check-in, and worship planning.
+- We import Breeze people.
 
 ## Why Free?
 B1.church is built by Live Church Solutions, a 501(c)(3) nonprofit ministry. We believe every church deserves access to modern technology regardless of budget. The platform is funded by donations and supported by Google Ad Grants.
