@@ -4,6 +4,12 @@
 Hosting: CloudFront E3HSNKONYYRLKN in front of s3://chums-web via the S3 REST API
 (not the S3 website endpoint). S3 website redirects and HTML/JS refreshes are not
 HTTP 301s through this origin. A viewer-request CloudFront Function is.
+
+This script does not touch app.chums.org, staging.chums.org, or
+app.staging.chums.org. Those hosts are other CloudFront distributions:
+- app.chums.org / admin.b1.church: ChurchApps/B1Admin -> s3://chums-app (E2OZ4STEUZXHZZ)
+- app.staging.chums.org: ChurchApps/B1Admin -> s3://staging-chums-app
+- staging.chums.org: leftover ChurchApps marketing CRA (cert is churchapps.org); not this repo
 """
 
 from __future__ import annotations

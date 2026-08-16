@@ -1,3 +1,5 @@
+// Brochure apex only (CloudFront E3HSNKONYYRLKN / s3://chums-web).
+// app.chums.org and staging.chums.org are other distributions — do not add them here.
 function handler(event) {
   var host = ((event.request.headers.host && event.request.headers.host.value) || "").toLowerCase();
   if (host !== "chums.org" && host !== "www.chums.org") {
