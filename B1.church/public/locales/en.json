@@ -423,14 +423,14 @@
       "priceB1Note": "No tiers. No platform fee on gifts.",
       "featureColumn": "Feature",
       "ourTake": "Our Take",
-      "ctaTitle": "Starting a church, or still on spreadsheets?",
+      "ctaTitle": "Get the whole stack at $0",
       "ctaDescription": "B1 is the whole stack at $0.",
       "ctaButton": "Get Started Free",
       "otherComparisons": "Other Comparisons",
       "competitors": {
         "planning-center": {
           "name": "Planning Center",
-          "tagline": "The stack you start on, not the one you switch to",
+          "tagline": "The whole stack at $0",
           "description": "B1 is the whole stack at $0. No module step-up.",
           "features": [
             { "name": "People database", "b1": "Included", "competitor": "Free, unlimited" },
