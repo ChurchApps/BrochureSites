@@ -503,38 +503,38 @@
         "title": "Free",
         "titleHighlight": "Church Management Software",
         "titleLine2": "Including hosting.",
-        "description": "People, giving, check-in, groups, a church website, and attendance — one platform that is 100% free, including hosting. Open source from ChurchApps. Card processing uses Stripe's nonprofit rate (2.2% + $0.30). B1 does not include Apple Pay or Google Pay.",
-        "ctaPrimary": "Get Started for Free",
-        "ctaSecondary": "Try Demo",
+        "description": "People, giving, check-in, website, member app, and worship planning. One platform. $0 forever. For churches that have not bought a ChMS yet.",
+        "ctaPrimary": "Get Started Free",
+        "ctaSecondary": "See how B1 compares",
         "trustLine": "What you actually get",
-        "trustFree": "100% free, including hosting",
-        "trustNonProfit": "No member limits or paid tiers",
-        "trustOpenSource": "Open source (ChurchApps)"
+        "trustFree": "501(c)(3)",
+        "trustNonProfit": "No tiers",
+        "trustOpenSource": "Hosting included"
       },
       "freeMeaning": {
         "eyebrow": "Free church management software",
         "title": "Free means the software and the hosting.",
-        "lead": "B1 is free church management software for churches that want people, giving, check-in, groups, a website, and attendance without a monthly ChMS bill.",
+        "lead": "Churches get people, giving, check-in, a website, a member app, and worship planning without a monthly ChMS bill.",
         "items": [
           {
             "title": "Software and hosting are free",
             "description": "The platform is truly 100% free, including hosting. No trial, no church-size cap, and no upgrade to unlock people, giving, check-in, groups, website, or attendance."
           },
           {
-            "title": "Giving rates, stated plainly",
-            "description": "B1 adds nothing on top of the processor. Stripe's nonprofit rate is 2.2% + $0.30. Tithe.ly's \"free\" giving is 2.9% + $0.30. B1 does not include Apple Pay or Google Pay."
+            "title": "Giving is included",
+            "description": "Online giving is part of the platform. B1 adds no platform fee on gifts."
           },
           {
             "title": "Open source from ChurchApps",
-            "description": "B1 is part of the ChurchApps suite. You can read the code, export your data, or self-host. Compare giving and features against Tithe.ly if you want the side-by-side."
+            "description": "B1 is part of the ChurchApps suite. You can read the code, export your data, or self-host."
           }
         ],
-        "compareLink": "See B1 vs Tithe.ly"
+        "compareLink": "See how B1 compares"
       },
       "highlights": [
         { "number": "$0", "label": "Software and hosting" },
         { "number": "100%", "label": "Free forever" },
-        { "number": "2.2%", "label": "Stripe nonprofit rate" },
+        { "number": "One", "label": "Shared database" },
         { "number": "Open", "label": "Source on GitHub" }
       ],
       "featuresHeader": {
