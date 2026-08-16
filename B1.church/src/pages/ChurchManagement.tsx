@@ -24,6 +24,8 @@ import {
   Github
 } from "lucide-react";
 import Reveal from "@/components/Reveal";
+import SectionHeading from "@/components/SectionHeading";
+import LocaleLink from "@/components/LocaleLink";
 import { ADMIN_REGISTER_URL, DEMO_URL } from "@/constants/externalUrls";
 import TabletFrame from "@/components/frames/TabletFrame";
 import BrowserFrame from "@/components/frames/BrowserFrame";
@@ -130,12 +132,30 @@ const ChurchManagement = () => {
   const rawCheckinFeatures = t("brochure.churchManagement.checkinStations.features", { returnObjects: true });
   const checkinFeatures = Array.isArray(rawCheckinFeatures) ? rawCheckinFeatures as string[] : [];
 
+  const rawFreeMeaning = t("brochure.churchManagement.freeMeaning.items", { returnObjects: true });
+  const freeMeaningItems = Array.isArray(rawFreeMeaning) ? rawFreeMeaning as { title: string; description: string }[] : [];
+
+  const rawHighlights = t("brochure.churchManagement.highlights", { returnObjects: true });
+  const highlightItems = Array.isArray(rawHighlights) ? rawHighlights as { number: string; label: string }[] : [];
+
+  const churchManagementSchema = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    name: "B1.church",
+    applicationCategory: "BusinessApplication",
+    operatingSystem: "Web",
+    description: "100% free church management software, including hosting. People, giving, check-in, groups, website, and attendance. Open source from ChurchApps.",
+    offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+    featureList: ["People", "Giving", "Check-in", "Groups", "Website", "Attendance"]
+  };
+
   return (
     <div className="min-h-screen bg-background">
       <Seo
         path="/church-management"
-        title="Free Church Management Software - Complete Ministry Platform | B1.church"
-        description="Professional church management software with member management, check-in, online giving, scheduling, and communication tools — 100% free for churches of all sizes."
+        title="Free Church Management Software (Including Hosting) | B1.church"
+        description="100% free church management software, including hosting. People, giving, check-in, groups, website, and attendance. Open source. Stripe nonprofit 2.2% + $0.30 — no Apple Pay or Google Pay."
+        jsonLd={churchManagementSchema}
       />
       <Header />
 
@@ -182,6 +202,31 @@ const ChurchManagement = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </section>
+
+        <section className="bg-surface-tint py-24">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <Reveal>
+              <SectionHeading
+                eyebrow={t("brochure.churchManagement.freeMeaning.eyebrow")}
+                title={t("brochure.churchManagement.freeMeaning.title")}
+                lead={t("brochure.churchManagement.freeMeaning.lead")}
+              />
+            </Reveal>
+            <div className="mt-14 grid grid-cols-1 gap-6 md:grid-cols-3">
+              {freeMeaningItems.map((item, index) => (
+                <div key={index} className="card-elevated rounded-2xl p-6">
+                  <h3 className="mb-3 text-xl font-bold text-foreground">{item.title}</h3>
+                  <p className="text-muted-foreground">{item.description}</p>
+                </div>
+              ))}
+            </div>
+            <p className="mt-8 text-center">
+              <LocaleLink to="/compare/tithely" className="font-semibold text-primary hover:underline">
+                {t("brochure.churchManagement.freeMeaning.compareLink")}
+              </LocaleLink>
+            </p>
           </div>
         </section>
 
@@ -310,22 +355,12 @@ const ChurchManagement = () => {
             </Reveal>
 
             <div className="mb-16 grid grid-cols-2 gap-8 md:grid-cols-4">
-              <div className="text-center">
-                <div className="mb-2 text-3xl font-extrabold tracking-tight text-foreground md:text-4xl">{t("brochure.testimonials.stats.churchesValue")}</div>
-                <div className="text-muted-foreground">{t("brochure.testimonials.stats.churchesLabel")}</div>
-              </div>
-              <div className="text-center">
-                <div className="mb-2 text-3xl font-extrabold tracking-tight text-foreground md:text-4xl">{t("brochure.testimonials.stats.freeValue")}</div>
-                <div className="text-muted-foreground">{t("brochure.testimonials.stats.freeLabel")}</div>
-              </div>
-              <div className="text-center">
-                <div className="mb-2 text-3xl font-extrabold tracking-tight text-foreground md:text-4xl">{t("brochure.testimonials.stats.openValue")}</div>
-                <div className="text-muted-foreground">{t("brochure.testimonials.stats.openLabel")}</div>
-              </div>
-              <div className="text-center">
-                <div className="mb-2 text-3xl font-extrabold tracking-tight text-foreground md:text-4xl">{t("brochure.testimonials.stats.languagesValue")}</div>
-                <div className="text-muted-foreground">{t("brochure.testimonials.stats.languagesLabel")}</div>
-              </div>
+              {highlightItems.map((item, index) => (
+                <div key={index} className="text-center">
+                  <div className="mb-2 text-3xl font-extrabold tracking-tight text-foreground md:text-4xl">{item.number}</div>
+                  <div className="text-muted-foreground">{item.label}</div>
+                </div>
+              ))}
             </div>
 
             <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">

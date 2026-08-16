@@ -1086,6 +1086,7 @@
   </url>
   <url>
     <loc>https://b1.church/ar/church-management/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://b1.church/en/church-management/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://b1.church/ar/church-management/" />
     <xhtml:link rel="alternate" hreflang="cs" href="https://b1.church/cs/church-management/" />
     <xhtml:link rel="alternate" hreflang="da" href="https://b1.church/da/church-management/" />
@@ -1116,12 +1117,13 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://b1.church/uk/church-management/" />
     <xhtml:link rel="alternate" hreflang="vi" href="https://b1.church/vi/church-management/" />
     <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/church-management/" />
-    <lastmod>2026-02-16</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://b1.church/cs/church-management/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://b1.church/en/church-management/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://b1.church/ar/church-management/" />
     <xhtml:link rel="alternate" hreflang="cs" href="https://b1.church/cs/church-management/" />
     <xhtml:link rel="alternate" hreflang="da" href="https://b1.church/da/church-management/" />
@@ -1152,12 +1154,13 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://b1.church/uk/church-management/" />
     <xhtml:link rel="alternate" hreflang="vi" href="https://b1.church/vi/church-management/" />
     <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/church-management/" />
-    <lastmod>2026-02-16</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://b1.church/da/church-management/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://b1.church/en/church-management/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://b1.church/ar/church-management/" />
     <xhtml:link rel="alternate" hreflang="cs" href="https://b1.church/cs/church-management/" />
     <xhtml:link rel="alternate" hreflang="da" href="https://b1.church/da/church-management/" />
@@ -1188,12 +1191,13 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://b1.church/uk/church-management/" />
     <xhtml:link rel="alternate" hreflang="vi" href="https://b1.church/vi/church-management/" />
     <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/church-management/" />
-    <lastmod>2026-02-16</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://b1.church/de/church-management/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://b1.church/en/church-management/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://b1.church/ar/church-management/" />
     <xhtml:link rel="alternate" hreflang="cs" href="https://b1.church/cs/church-management/" />
     <xhtml:link rel="alternate" hreflang="da" href="https://b1.church/da/church-management/" />
@@ -1224,12 +1228,13 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://b1.church/uk/church-management/" />
     <xhtml:link rel="alternate" hreflang="vi" href="https://b1.church/vi/church-management/" />
     <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/church-management/" />
-    <lastmod>2026-02-16</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://b1.church/en/church-management/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://b1.church/en/church-management/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://b1.church/ar/church-management/" />
     <xhtml:link rel="alternate" hreflang="cs" href="https://b1.church/cs/church-management/" />
     <xhtml:link rel="alternate" hreflang="da" href="https://b1.church/da/church-management/" />
@@ -1260,12 +1265,13 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://b1.church/uk/church-management/" />
     <xhtml:link rel="alternate" hreflang="vi" href="https://b1.church/vi/church-management/" />
     <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/church-management/" />
-    <lastmod>2026-02-16</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://b1.church/es/church-management/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://b1.church/en/church-management/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://b1.church/ar/church-management/" />
     <xhtml:link rel="alternate" hreflang="cs" href="https://b1.church/cs/church-management/" />
     <xhtml:link rel="alternate" hreflang="da" href="https://b1.church/da/church-management/" />
@@ -1296,12 +1302,13 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://b1.church/uk/church-management/" />
     <xhtml:link rel="alternate" hreflang="vi" href="https://b1.church/vi/church-management/" />
     <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/church-management/" />
-    <lastmod>2026-02-16</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://b1.church/fi/church-management/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://b1.church/en/church-management/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://b1.church/ar/church-management/" />
     <xhtml:link rel="alternate" hreflang="cs" href="https://b1.church/cs/church-management/" />
     <xhtml:link rel="alternate" hreflang="da" href="https://b1.church/da/church-management/" />
@@ -1332,12 +1339,13 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://b1.church/uk/church-management/" />
     <xhtml:link rel="alternate" hreflang="vi" href="https://b1.church/vi/church-management/" />
     <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/church-management/" />
-    <lastmod>2026-02-16</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://b1.church/fr/church-management/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://b1.church/en/church-management/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://b1.church/ar/church-management/" />
     <xhtml:link rel="alternate" hreflang="cs" href="https://b1.church/cs/church-management/" />
     <xhtml:link rel="alternate" hreflang="da" href="https://b1.church/da/church-management/" />
@@ -1368,12 +1376,13 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://b1.church/uk/church-management/" />
     <xhtml:link rel="alternate" hreflang="vi" href="https://b1.church/vi/church-management/" />
     <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/church-management/" />
-    <lastmod>2026-02-16</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://b1.church/hi/church-management/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://b1.church/en/church-management/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://b1.church/ar/church-management/" />
     <xhtml:link rel="alternate" hreflang="cs" href="https://b1.church/cs/church-management/" />
     <xhtml:link rel="alternate" hreflang="da" href="https://b1.church/da/church-management/" />
@@ -1404,12 +1413,13 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://b1.church/uk/church-management/" />
     <xhtml:link rel="alternate" hreflang="vi" href="https://b1.church/vi/church-management/" />
     <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/church-management/" />
-    <lastmod>2026-02-16</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://b1.church/hu/church-management/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://b1.church/en/church-management/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://b1.church/ar/church-management/" />
     <xhtml:link rel="alternate" hreflang="cs" href="https://b1.church/cs/church-management/" />
     <xhtml:link rel="alternate" hreflang="da" href="https://b1.church/da/church-management/" />
@@ -1440,12 +1450,13 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://b1.church/uk/church-management/" />
     <xhtml:link rel="alternate" hreflang="vi" href="https://b1.church/vi/church-management/" />
     <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/church-management/" />
-    <lastmod>2026-02-16</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://b1.church/id/church-management/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://b1.church/en/church-management/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://b1.church/ar/church-management/" />
     <xhtml:link rel="alternate" hreflang="cs" href="https://b1.church/cs/church-management/" />
     <xhtml:link rel="alternate" hreflang="da" href="https://b1.church/da/church-management/" />
@@ -1476,12 +1487,13 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://b1.church/uk/church-management/" />
     <xhtml:link rel="alternate" hreflang="vi" href="https://b1.church/vi/church-management/" />
     <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/church-management/" />
-    <lastmod>2026-02-16</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://b1.church/it/church-management/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://b1.church/en/church-management/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://b1.church/ar/church-management/" />
     <xhtml:link rel="alternate" hreflang="cs" href="https://b1.church/cs/church-management/" />
     <xhtml:link rel="alternate" hreflang="da" href="https://b1.church/da/church-management/" />
@@ -1512,12 +1524,13 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://b1.church/uk/church-management/" />
     <xhtml:link rel="alternate" hreflang="vi" href="https://b1.church/vi/church-management/" />
     <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/church-management/" />
-    <lastmod>2026-02-16</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://b1.church/ja/church-management/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://b1.church/en/church-management/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://b1.church/ar/church-management/" />
     <xhtml:link rel="alternate" hreflang="cs" href="https://b1.church/cs/church-management/" />
     <xhtml:link rel="alternate" hreflang="da" href="https://b1.church/da/church-management/" />
@@ -1548,12 +1561,13 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://b1.church/uk/church-management/" />
     <xhtml:link rel="alternate" hreflang="vi" href="https://b1.church/vi/church-management/" />
     <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/church-management/" />
-    <lastmod>2026-02-16</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://b1.church/ko/church-management/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://b1.church/en/church-management/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://b1.church/ar/church-management/" />
     <xhtml:link rel="alternate" hreflang="cs" href="https://b1.church/cs/church-management/" />
     <xhtml:link rel="alternate" hreflang="da" href="https://b1.church/da/church-management/" />
@@ -1584,12 +1598,13 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://b1.church/uk/church-management/" />
     <xhtml:link rel="alternate" hreflang="vi" href="https://b1.church/vi/church-management/" />
     <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/church-management/" />
-    <lastmod>2026-02-16</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://b1.church/lt/church-management/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://b1.church/en/church-management/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://b1.church/ar/church-management/" />
     <xhtml:link rel="alternate" hreflang="cs" href="https://b1.church/cs/church-management/" />
     <xhtml:link rel="alternate" hreflang="da" href="https://b1.church/da/church-management/" />
@@ -1620,12 +1635,13 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://b1.church/uk/church-management/" />
     <xhtml:link rel="alternate" hreflang="vi" href="https://b1.church/vi/church-management/" />
     <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/church-management/" />
-    <lastmod>2026-02-16</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://b1.church/nl/church-management/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://b1.church/en/church-management/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://b1.church/ar/church-management/" />
     <xhtml:link rel="alternate" hreflang="cs" href="https://b1.church/cs/church-management/" />
     <xhtml:link rel="alternate" hreflang="da" href="https://b1.church/da/church-management/" />
@@ -1656,12 +1672,13 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://b1.church/uk/church-management/" />
     <xhtml:link rel="alternate" hreflang="vi" href="https://b1.church/vi/church-management/" />
     <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/church-management/" />
-    <lastmod>2026-02-16</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://b1.church/no/church-management/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://b1.church/en/church-management/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://b1.church/ar/church-management/" />
     <xhtml:link rel="alternate" hreflang="cs" href="https://b1.church/cs/church-management/" />
     <xhtml:link rel="alternate" hreflang="da" href="https://b1.church/da/church-management/" />
@@ -1692,12 +1709,13 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://b1.church/uk/church-management/" />
     <xhtml:link rel="alternate" hreflang="vi" href="https://b1.church/vi/church-management/" />
     <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/church-management/" />
-    <lastmod>2026-02-16</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://b1.church/pl/church-management/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://b1.church/en/church-management/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://b1.church/ar/church-management/" />
     <xhtml:link rel="alternate" hreflang="cs" href="https://b1.church/cs/church-management/" />
     <xhtml:link rel="alternate" hreflang="da" href="https://b1.church/da/church-management/" />
@@ -1728,12 +1746,13 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://b1.church/uk/church-management/" />
     <xhtml:link rel="alternate" hreflang="vi" href="https://b1.church/vi/church-management/" />
     <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/church-management/" />
-    <lastmod>2026-02-16</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://b1.church/pt/church-management/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://b1.church/en/church-management/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://b1.church/ar/church-management/" />
     <xhtml:link rel="alternate" hreflang="cs" href="https://b1.church/cs/church-management/" />
     <xhtml:link rel="alternate" hreflang="da" href="https://b1.church/da/church-management/" />
@@ -1764,12 +1783,13 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://b1.church/uk/church-management/" />
     <xhtml:link rel="alternate" hreflang="vi" href="https://b1.church/vi/church-management/" />
     <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/church-management/" />
-    <lastmod>2026-02-16</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://b1.church/ru/church-management/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://b1.church/en/church-management/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://b1.church/ar/church-management/" />
     <xhtml:link rel="alternate" hreflang="cs" href="https://b1.church/cs/church-management/" />
     <xhtml:link rel="alternate" hreflang="da" href="https://b1.church/da/church-management/" />
@@ -1800,12 +1820,13 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://b1.church/uk/church-management/" />
     <xhtml:link rel="alternate" hreflang="vi" href="https://b1.church/vi/church-management/" />
     <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/church-management/" />
-    <lastmod>2026-02-16</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://b1.church/sk/church-management/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://b1.church/en/church-management/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://b1.church/ar/church-management/" />
     <xhtml:link rel="alternate" hreflang="cs" href="https://b1.church/cs/church-management/" />
     <xhtml:link rel="alternate" hreflang="da" href="https://b1.church/da/church-management/" />
@@ -1836,12 +1857,13 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://b1.church/uk/church-management/" />
     <xhtml:link rel="alternate" hreflang="vi" href="https://b1.church/vi/church-management/" />
     <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/church-management/" />
-    <lastmod>2026-02-16</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://b1.church/sl/church-management/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://b1.church/en/church-management/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://b1.church/ar/church-management/" />
     <xhtml:link rel="alternate" hreflang="cs" href="https://b1.church/cs/church-management/" />
     <xhtml:link rel="alternate" hreflang="da" href="https://b1.church/da/church-management/" />
@@ -1872,12 +1894,13 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://b1.church/uk/church-management/" />
     <xhtml:link rel="alternate" hreflang="vi" href="https://b1.church/vi/church-management/" />
     <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/church-management/" />
-    <lastmod>2026-02-16</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://b1.church/sr/church-management/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://b1.church/en/church-management/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://b1.church/ar/church-management/" />
     <xhtml:link rel="alternate" hreflang="cs" href="https://b1.church/cs/church-management/" />
     <xhtml:link rel="alternate" hreflang="da" href="https://b1.church/da/church-management/" />
@@ -1908,12 +1931,13 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://b1.church/uk/church-management/" />
     <xhtml:link rel="alternate" hreflang="vi" href="https://b1.church/vi/church-management/" />
     <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/church-management/" />
-    <lastmod>2026-02-16</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://b1.church/ss/church-management/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://b1.church/en/church-management/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://b1.church/ar/church-management/" />
     <xhtml:link rel="alternate" hreflang="cs" href="https://b1.church/cs/church-management/" />
     <xhtml:link rel="alternate" hreflang="da" href="https://b1.church/da/church-management/" />
@@ -1944,12 +1968,13 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://b1.church/uk/church-management/" />
     <xhtml:link rel="alternate" hreflang="vi" href="https://b1.church/vi/church-management/" />
     <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/church-management/" />
-    <lastmod>2026-02-16</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://b1.church/sv/church-management/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://b1.church/en/church-management/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://b1.church/ar/church-management/" />
     <xhtml:link rel="alternate" hreflang="cs" href="https://b1.church/cs/church-management/" />
     <xhtml:link rel="alternate" hreflang="da" href="https://b1.church/da/church-management/" />
@@ -1980,12 +2005,13 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://b1.church/uk/church-management/" />
     <xhtml:link rel="alternate" hreflang="vi" href="https://b1.church/vi/church-management/" />
     <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/church-management/" />
-    <lastmod>2026-02-16</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://b1.church/tl/church-management/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://b1.church/en/church-management/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://b1.church/ar/church-management/" />
     <xhtml:link rel="alternate" hreflang="cs" href="https://b1.church/cs/church-management/" />
     <xhtml:link rel="alternate" hreflang="da" href="https://b1.church/da/church-management/" />
@@ -2016,12 +2042,13 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://b1.church/uk/church-management/" />
     <xhtml:link rel="alternate" hreflang="vi" href="https://b1.church/vi/church-management/" />
     <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/church-management/" />
-    <lastmod>2026-02-16</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://b1.church/tr/church-management/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://b1.church/en/church-management/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://b1.church/ar/church-management/" />
     <xhtml:link rel="alternate" hreflang="cs" href="https://b1.church/cs/church-management/" />
     <xhtml:link rel="alternate" hreflang="da" href="https://b1.church/da/church-management/" />
@@ -2052,12 +2079,13 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://b1.church/uk/church-management/" />
     <xhtml:link rel="alternate" hreflang="vi" href="https://b1.church/vi/church-management/" />
     <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/church-management/" />
-    <lastmod>2026-02-16</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://b1.church/uk/church-management/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://b1.church/en/church-management/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://b1.church/ar/church-management/" />
     <xhtml:link rel="alternate" hreflang="cs" href="https://b1.church/cs/church-management/" />
     <xhtml:link rel="alternate" hreflang="da" href="https://b1.church/da/church-management/" />
@@ -2088,12 +2116,13 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://b1.church/uk/church-management/" />
     <xhtml:link rel="alternate" hreflang="vi" href="https://b1.church/vi/church-management/" />
     <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/church-management/" />
-    <lastmod>2026-02-16</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://b1.church/vi/church-management/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://b1.church/en/church-management/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://b1.church/ar/church-management/" />
     <xhtml:link rel="alternate" hreflang="cs" href="https://b1.church/cs/church-management/" />
     <xhtml:link rel="alternate" hreflang="da" href="https://b1.church/da/church-management/" />
@@ -2124,12 +2153,13 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://b1.church/uk/church-management/" />
     <xhtml:link rel="alternate" hreflang="vi" href="https://b1.church/vi/church-management/" />
     <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/church-management/" />
-    <lastmod>2026-02-16</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://b1.church/zh/church-management/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://b1.church/en/church-management/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://b1.church/ar/church-management/" />
     <xhtml:link rel="alternate" hreflang="cs" href="https://b1.church/cs/church-management/" />
     <xhtml:link rel="alternate" hreflang="da" href="https://b1.church/da/church-management/" />
@@ -2160,7 +2190,7 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://b1.church/uk/church-management/" />
     <xhtml:link rel="alternate" hreflang="vi" href="https://b1.church/vi/church-management/" />
     <xhtml:link rel="alternate" hreflang="zh" href="https://b1.church/zh/church-management/" />
-    <lastmod>2026-02-16</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>

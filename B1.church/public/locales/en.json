@@ -361,7 +361,7 @@
         },
         {
           "question": "How does B1.church compare to Tithe.ly?",
-          "answer": "Tithe.ly is a giving company with a paid ChMS. B1 is the ChMS. Giving is included. B1 adds $0 on top of Stripe or PayPal."
+          "answer": "Tithe.ly is a giving company with a paid ChMS. B1 is the ChMS, 100% free including hosting. Giving is included. Stripe nonprofit is 2.2% + $0.30; Tithe.ly \"free\" giving is 2.9% + $0.30. B1 does not include Apple Pay or Google Pay."
         },
         {
           "question": "How does B1.church compare to Breeze ChMS?",
@@ -373,7 +373,7 @@
         },
         {
           "question": "Does B1.church support online giving?",
-          "answer": "Yes. Stripe or PayPal. Recurring gifts, funds, statements. B1 adds $0. No Apple Pay or Google Pay."
+          "answer": "Yes. Stripe or PayPal. Recurring gifts, funds, statements. B1 adds $0. Stripe nonprofit is 2.2% + $0.30. No Apple Pay or Google Pay."
         },
         {
           "question": "Can I build a website with B1.church?",
@@ -466,9 +466,9 @@
         "tithely": {
           "name": "Tithe.ly",
           "tagline": "They own the word free. We don't take a cut.",
-          "description": "Tithe.ly is a giving company with church software attached. B1 is the ChMS. Giving is included. B1 adds $0.",
+          "description": "Tithe.ly is a giving company with church software attached. B1 is the ChMS, 100% free including hosting. Giving is included. Stripe nonprofit is 2.2% + $0.30; Tithe.ly \"free\" giving is 2.9% + $0.30. B1 does not include Apple Pay or Google Pay.",
           "features": [
-            { "name": "Giving", "b1": "No B1 platform fee", "competitor": "Tithe.ly processing" },
+            { "name": "Giving", "b1": "Stripe nonprofit 2.2% + $0.30", "competitor": "Tithe.ly \"free\" 2.9% + $0.30" },
             { "name": "People database", "b1": "Included", "competitor": "Paid ChMS" },
             { "name": "Check-in", "b1": "Included (Android tablet)", "competitor": "Paid add-on" },
             { "name": "Member app", "b1": "PWA from your church site", "competitor": "Paid" },
@@ -477,7 +477,7 @@
           ],
           "pricingB1": "$0 / month",
           "pricingCompetitor": "Free giving page, paid ChMS",
-          "verdict": "Tithe.ly sells free giving and a paid ChMS. B1 is the church software. No B1 fee on gifts. No paid tier to unlock people, check-in, or the website."
+          "verdict": "Tithe.ly sells free giving and a paid ChMS. B1 is the church software, including hosting. Stripe nonprofit is 2.2% + $0.30 versus Tithe.ly \"free\" at 2.9% + $0.30. No Apple Pay or Google Pay. No paid tier to unlock people, check-in, or the website."
         },
         "breeze": {
           "name": "Breeze",
@@ -502,20 +502,46 @@
       "hero": {
         "title": "Free",
         "titleHighlight": "Church Management Software",
-        "titleLine2": "Complete Ministry Platform",
-        "description": "Professional <strong>church management software</strong> with attendance tracking, member database, giving management, and communication tools. Completely <strong>free church software</strong> from Live Church Solutions, a 501(c)(3) nonprofit.",
+        "titleLine2": "Including hosting.",
+        "description": "People, giving, check-in, groups, a church website, and attendance — one platform that is 100% free, including hosting. Open source from ChurchApps. Card processing uses Stripe's nonprofit rate (2.2% + $0.30). B1 does not include Apple Pay or Google Pay.",
         "ctaPrimary": "Get Started for Free",
         "ctaSecondary": "Try Demo",
-        "trustLine": "Trusted by Growing Churches Worldwide",
-        "trustFree": "Completely Free Forever",
-        "trustNonProfit": "501(c)(3) Non-Profit Ministry",
-        "trustOpenSource": "Open Source"
+        "trustLine": "What you actually get",
+        "trustFree": "100% free, including hosting",
+        "trustNonProfit": "No member limits or paid tiers",
+        "trustOpenSource": "Open source (ChurchApps)"
       },
+      "freeMeaning": {
+        "eyebrow": "Free church management software",
+        "title": "Free means the software and the hosting.",
+        "lead": "B1 is free church management software for churches that want people, giving, check-in, groups, a website, and attendance without a monthly ChMS bill.",
+        "items": [
+          {
+            "title": "Software and hosting are free",
+            "description": "The platform is truly 100% free, including hosting. No trial, no church-size cap, and no upgrade to unlock people, giving, check-in, groups, website, or attendance."
+          },
+          {
+            "title": "Giving rates, stated plainly",
+            "description": "B1 adds nothing on top of the processor. Stripe's nonprofit rate is 2.2% + $0.30. Tithe.ly's \"free\" giving is 2.9% + $0.30. B1 does not include Apple Pay or Google Pay."
+          },
+          {
+            "title": "Open source from ChurchApps",
+            "description": "B1 is part of the ChurchApps suite. You can read the code, export your data, or self-host. Compare giving and features against Tithe.ly if you want the side-by-side."
+          }
+        ],
+        "compareLink": "See B1 vs Tithe.ly"
+      },
+      "highlights": [
+        { "number": "$0", "label": "Software and hosting" },
+        { "number": "100%", "label": "Free forever" },
+        { "number": "2.2%", "label": "Stripe nonprofit rate" },
+        { "number": "Open", "label": "Source on GitHub" }
+      ],
       "featuresHeader": {
-        "title": "Complete",
-        "titleHighlight": "Church Management System",
-        "titleSuffix": "Features",
-        "description": "Professional church database software with member management, attendance tracking, giving administration, and ministry communication tools. Free church management system designed specifically for growing congregations and multi-campus churches."
+        "title": "One",
+        "titleHighlight": "free church management",
+        "titleSuffix": "toolkit",
+        "description": "People, giving, check-in, groups, website, and attendance in one database. Hosting is included. Nothing on this page is sold as an add-on."
       },
       "checkinStations": {
         "title": "Self-Serve Check-in Stations",
@@ -564,7 +590,7 @@
       "testimonials": {
         "title": "Loved by Churches",
         "titleHighlight": "Everywhere",
-        "subtitle": "Join growing churches that have transformed their ministry with our completely free platform. Here's what pastors and church administrators have to say.",
+        "subtitle": "Pastors and church administrators who needed free church management software tools — and stopped paying a monthly ChMS bill.",
         "items": [
           {
             "content": "We use this platform every Sunday to track attendance and keep records of everyone who attends, including our Sunday school children. As missionaries with a limited budget, we appreciate that this software is free and effective."
@@ -580,13 +606,18 @@
       "aboutSection": {
         "title": "About Our",
         "titleHighlight": "Free Church Software",
-        "description": "Comprehensive <strong>church management software</strong> provided completely free to Christian churches and ministries by <strong>Live Church Solutions</strong>, a 501(c)(3) non-profit founded in 2012. Our mission is helping churches implement professional <strong>ministry software</strong> without the typical high costs of church administration systems."
+        "description": "B1 is free church management software from <strong>Live Church Solutions</strong> and the open-source <strong>ChurchApps</strong> suite. Hosting is included. The product is people, giving, check-in, groups, website, and attendance — not a free trial that turns into a quote."
       },
       "stats": [
         {
           "number": "$800M",
           "label": "Churches spend yearly on management software",
           "description": "We believe this money can be put to better use"
+        },
+        {
+          "number": "$0",
+          "label": "Hosting included",
+          "description": "The app, website, and admin tools run on us"
         },
         {
           "number": "2012",
@@ -607,12 +638,13 @@
       },
       "allFeatures": {
         "title": "Everything You Need, Completely Free",
-        "subtitle": "No trial periods, no member limits, no hidden fees",
+        "subtitle": "No trial periods, no member limits, no hidden fees — hosting included",
         "items": [
           "Complete member database with detailed profiles",
           "Attendance tracking with self check-in app",
           "Groups and small group management",
           "Giving management with detailed reporting",
+          "Church website builder",
           "Custom forms and data collection",
           "Email communication tools",
           "Event management and scheduling",
