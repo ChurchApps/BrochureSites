@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Publish a CloudFront Function that 301s chums.org (and www) to https://b1.church/.
+"""Publish a CloudFront Function that 301s chums.org (and www) to https://b1.church + path + query.
 
 Hosting: CloudFront E3HSNKONYYRLKN in front of s3://chums-web via the S3 REST API
 (not the S3 website endpoint). S3 website redirects and HTML/JS refreshes are not
@@ -21,10 +21,10 @@ import tempfile
 from pathlib import Path
 
 DIST_ID = "E3HSNKONYYRLKN"
-FUNCTION_NAME = "chums-org-redirect-to-b1"
+FUNCTION_NAME = "chums-org-to-b1"
 BUCKET = "chums-web"
 RUNTIME = "cloudfront-js-2.0"
-COMMENT = "301 chums.org and www.chums.org to https://b1.church/"
+COMMENT = "301 chums.org and www.chums.org to https://b1.church + path + query"
 ROOT = Path(__file__).resolve().parent.parent
 FUNCTION_FILE = ROOT / "cloudfront" / "redirect-to-b1.js"
 
