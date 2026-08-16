@@ -11,10 +11,11 @@
     "build:dev": "vite build --mode development",
     "lint": "eslint --fix src/",
     "preview": "vite preview",
-    "predeploy-prod": "yarn build",
-    "exec-deploy-prod": "aws s3 sync dist/ s3://chums-web",
+    "predeploy-prod": "echo 'Chums.org is retired. Use yarn deploy-prod to apply the CloudFront 301 to https://b1.church/.' && exit 1",
+    "exec-deploy-prod": "echo 'Do not sync the Vite brochure to s3://chums-web. Use yarn deploy-prod.' && exit 1",
     "invalidate-chums": "aws cloudfront create-invalidation --distribution-id E3HSNKONYYRLKN --paths \"/*\"",
-    "deploy-prod": "yarn predeploy-prod && yarn exec-deploy-prod && yarn invalidate-chums"
+    "apply-redirect": "python3 scripts/apply-cloudfront-redirect.py",
+    "deploy-prod": "python3 scripts/apply-cloudfront-redirect.py"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
