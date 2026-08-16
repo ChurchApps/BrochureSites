@@ -32,6 +32,12 @@ export default defineConfig(({ mode }) => ({
         "/en/faq",
         "/en/compare",
         ...competitors.map((c) => `/en/compare/${c}`),
+        "/church-management",
+        "/faq",
+        "/compare",
+        ...competitors.map((c) => `/compare/${c}`),
+        "/vs",
+        "/vs/planning-center",
       ];
     },
   },

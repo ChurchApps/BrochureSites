@@ -664,7 +664,11 @@
           "pricingCompetitor": "$72 - $135/měsíc",
           "verdict": "Breeze je jednoduchý a dostupný, ale B1.church je jednodušší pro rozpočet (zdarma!) a zároveň nabízí více funkcí, jako je nástroj pro tvorbu webu a plnohodnotnou mobilní aplikaci."
         }
-      }
+      },
+      "hubTitle": "How B1 compares",
+      "hubSubtitle": "B1 is the ChMS you start on. People, giving, check-in, website, member app, worship planning. $0 forever. 501(c)(3).",
+      "priceB1Label": "$0 / month",
+      "priceB1Note": "No tiers. No platform fee on gifts."
     },
     "churchManagement": {
       "hero": {
