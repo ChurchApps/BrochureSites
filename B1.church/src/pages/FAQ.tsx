@@ -1,5 +1,5 @@
-import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
+import { Head } from "vite-react-ssg";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Seo from "@/components/Seo";
@@ -30,25 +30,6 @@ const FAQ = () => {
     }))
   };
 
-  useEffect(() => {
-    document.title = t("brochure.faq.documentTitle");
-
-    // Add FAQ schema to head
-    const existingSchema = document.getElementById("faq-schema");
-    if (!existingSchema) {
-      const script = document.createElement("script");
-      script.id = "faq-schema";
-      script.type = "application/ld+json";
-      script.text = JSON.stringify(faqSchema);
-      document.head.appendChild(script);
-    }
-
-    return () => {
-      const schema = document.getElementById("faq-schema");
-      if (schema) schema.remove();
-    };
-  }, []);
-
   return (
     <div className="min-h-screen bg-background">
       <Seo
@@ -56,6 +37,9 @@ const FAQ = () => {
         title={t("brochure.faq.documentTitle")}
         description={t("brochure.faq.pageSubtitle")}
       />
+      <Head>
+        <script id="faq-schema" type="application/ld+json">{JSON.stringify(faqSchema)}</script>
+      </Head>
       <Header />
 
       <main className="container mx-auto px-4 py-24">
