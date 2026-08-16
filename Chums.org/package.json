@@ -7,7 +7,7 @@
   "scripts": {
     "preinstall": "node -e \"if(!(process.env.npm_config_user_agent||'').startsWith('yarn')){console.error('\\n[Chums.org] This project uses Yarn (Berry). Run \\'yarn install\\' instead of npm/pnpm.\\n');process.exit(1)}\"",
     "dev": "vite",
-    "build": "rm -rf dist && mkdir -p dist && cp index.html dist/index.html && cp index.html dist/404.html && cp public/robots.txt dist/robots.txt && cp public/sitemap.xml dist/sitemap.xml",
+    "build": "vite build",
     "build:dev": "vite build --mode development",
     "lint": "eslint --fix src/",
     "preview": "vite preview",

@@ -20,7 +20,7 @@
         "ctaSecondary": "See It in Action",
         "trust": [
           "Free forever — no tiers, no trials",
-          "No added transaction fees",
+          "No B1 platform fee on gifts",
           "Open source on GitHub",
           "501(c)(3) ministry since 2012"
         ]
@@ -58,7 +58,7 @@
         }
       },
       "connect": {
-        "eyebrow": "The B1 Mobile App",
+        "eyebrow": "PWA · install from your church site",
         "title": "Your people, connected",
         "titleAccent": "all week long.",
         "lead": "Give your church one place to belong between Sundays. The B1 app brings your member directory, groups, messages, and sermons to every phone in your congregation.",
@@ -332,7 +332,7 @@
       "faq": "FAQ",
       "aboutChurchApps": "About ChurchApps",
       "appsAndResources": "Apps & Resources",
-      "installApp": "Install the Mobile App",
+      "installApp": "Install from your church site",
       "helpCenter": "Help Center",
       "contact": "Contact",
       "availableWorldwide": "Available Worldwide"
