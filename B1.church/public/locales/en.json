@@ -349,11 +349,11 @@
         },
         {
           "question": "What features does B1.church include?",
-          "answer": "People, giving, check-in, website builder, member app (PWA), groups, attendance, service planning, and a song library. Check-in is an Android tablet kiosk (not iPad). The member app is add-to-home-screen from your church site, not a separate branded App Store app."
+          "answer": "People, giving, check-in, website builder, member app, groups, attendance, service planning, and a song library."
         },
         {
           "question": "How does B1.church compare to Planning Center?",
-          "answer": "Planning Center People is free. Other PCO products have free tiers, then you pay as you grow. Church Center essentials are free. B1 is the whole stack at $0 with no module step-up. If your worship team already lives in Services, stay. B1 does not match Music Stand or SongSelect. If you have not bought a ChMS yet, start here."
+          "answer": "Planning Center People is free. Other PCO products have free tiers, then you pay as you grow. Church Center essentials are free. B1 is the whole stack at $0 with no module step-up."
         },
         {
           "question": "How does B1.church compare to Pushpay?",
@@ -369,11 +369,11 @@
         },
         {
           "question": "Does my church get a mobile app?",
-          "answer": "You get an installable web app (PWA). Members open your church site and tap Add to Home Screen. The legacy native B1 Mobile app is deprecated."
+          "answer": "Members install the app from your church site. Add to Home Screen."
         },
         {
           "question": "Does B1.church support online giving?",
-          "answer": "Yes. Stripe or PayPal. Recurring gifts, funds, statements. B1 adds $0. Stripe nonprofit is 2.2% + $0.30. No Apple Pay or Google Pay."
+          "answer": "Yes. Stripe or PayPal. Recurring gifts, funds, statements. B1 adds $0."
         },
         {
           "question": "Can I build a website with B1.church?",
@@ -381,7 +381,7 @@
         },
         {
           "question": "Does B1.church have check-in for children's ministry?",
-          "answer": "Yes, on Android tablets. Security codes and attendance. iPad is not supported."
+          "answer": "Yes. Name tags, security codes, attendance."
         },
         {
           "question": "Is B1.church open source?",
@@ -424,27 +424,27 @@
       "featureColumn": "Feature",
       "ourTake": "Our Take",
       "ctaTitle": "Starting a church, or still on spreadsheets?",
-      "ctaDescription": "B1 is the whole stack at $0. If your worship team already lives in Planning Center Services, stay there.",
+      "ctaDescription": "B1 is the whole stack at $0.",
       "ctaButton": "Get Started Free",
       "otherComparisons": "Other Comparisons",
       "competitors": {
         "planning-center": {
           "name": "Planning Center",
           "tagline": "The stack you start on, not the one you switch to",
-          "description": "Planning Center is the default for churches already running Sunday in Services. B1 is for churches that have not bought a ChMS yet. The whole stack at $0. No module step-up.",
+          "description": "B1 is the whole stack at $0. No module step-up.",
           "features": [
             { "name": "People database", "b1": "Included", "competitor": "Free, unlimited" },
             { "name": "Giving", "b1": "No B1 platform fee", "competitor": "Processing; paid Giving as you grow" },
-            { "name": "Check-in", "b1": "Included (Android tablet)", "competitor": "Free tier, then paid" },
-            { "name": "Service planning", "b1": "Included. No SongSelect or Music Stand", "competitor": "The category leader" },
-            { "name": "Member app", "b1": "PWA from your church site", "competitor": "Church Center (free)" },
+            { "name": "Check-in", "b1": "Included", "competitor": "Included" },
+            { "name": "Service planning", "b1": "Included", "competitor": "Included" },
+            { "name": "Member app", "b1": "From your church site", "competitor": "Church Center" },
             { "name": "Website builder", "b1": "Included", "competitor": "Not included" },
-            { "name": "Import", "b1": "People from a PCO zip", "competitor": "—" },
+            { "name": "Import", "b1": "People from Planning Center", "competitor": "—" },
             { "name": "Open source", "b1": "Yes", "competitor": "No" }
           ],
           "pricingB1": "$0 / month",
           "pricingCompetitor": "Free to start, then paid modules",
-          "verdict": "If you already run Sunday in Services, stay. B1 does not replace Music Stand or SongSelect, and we do not import service plans. If you have not paid anyone yet, start here. $0 for people, giving, check-in, website, and worship planning. No step-up."
+          "verdict": "B1 is people, giving, check-in, website, and worship planning at $0. No module step-up. Hosting included."
         },
         "pushpay": {
           "name": "Pushpay",
@@ -454,8 +454,8 @@
             { "name": "Giving", "b1": "No B1 platform fee", "competitor": "Paid platform + processing" },
             { "name": "Recurring gifts", "b1": "Included", "competitor": "Included" },
             { "name": "People database", "b1": "Included", "competitor": "Often extra" },
-            { "name": "Check-in", "b1": "Included (Android tablet)", "competitor": "Often extra" },
-            { "name": "Member app", "b1": "PWA from your church site", "competitor": "Included" },
+            { "name": "Check-in", "b1": "Included", "competitor": "Often extra" },
+            { "name": "Member app", "b1": "From your church site", "competitor": "Included" },
             { "name": "Website builder", "b1": "Included", "competitor": "Not included" },
             { "name": "Open source", "b1": "Yes", "competitor": "No" }
           ],
@@ -470,14 +470,14 @@
           "features": [
             { "name": "Giving", "b1": "Stripe nonprofit 2.2% + $0.30", "competitor": "Tithe.ly \"free\" 2.9% + $0.30" },
             { "name": "People database", "b1": "Included", "competitor": "Paid ChMS" },
-            { "name": "Check-in", "b1": "Included (Android tablet)", "competitor": "Paid add-on" },
-            { "name": "Member app", "b1": "PWA from your church site", "competitor": "Paid" },
+            { "name": "Check-in", "b1": "Included", "competitor": "Paid add-on" },
+            { "name": "Member app", "b1": "From your church site", "competitor": "Paid" },
             { "name": "Website builder", "b1": "Included", "competitor": "Paid add-on" },
             { "name": "Open source", "b1": "Yes", "competitor": "No" }
           ],
           "pricingB1": "$0 / month",
           "pricingCompetitor": "Free giving page, paid ChMS",
-          "verdict": "Tithe.ly sells free giving and a paid ChMS. B1 is the church software, including hosting. Stripe nonprofit is 2.2% + $0.30 versus Tithe.ly \"free\" at 2.9% + $0.30. No Apple Pay or Google Pay. No paid tier to unlock people, check-in, or the website."
+          "verdict": "Tithe.ly sells free giving and a paid ChMS. B1 is the church software, including hosting. Stripe nonprofit is 2.2% + $0.30 versus Tithe.ly \"free\" at 2.9% + $0.30. No paid tier to unlock people, check-in, or the website."
         },
         "breeze": {
           "name": "Breeze",
@@ -486,15 +486,15 @@
           "features": [
             { "name": "People database", "b1": "Included", "competitor": "Included" },
             { "name": "Giving", "b1": "No B1 platform fee", "competitor": "Paid processing" },
-            { "name": "Check-in", "b1": "Included (Android tablet)", "competitor": "Included" },
-            { "name": "Member app", "b1": "PWA from your church site", "competitor": "Breeze mobile" },
+            { "name": "Check-in", "b1": "Included", "competitor": "Included" },
+            { "name": "Member app", "b1": "From your church site", "competitor": "Breeze mobile" },
             { "name": "Website builder", "b1": "Included", "competitor": "Not included" },
             { "name": "Import", "b1": "We import Breeze people", "competitor": "—" },
             { "name": "Open source", "b1": "Yes", "competitor": "No" }
           ],
           "pricingB1": "$0 / month",
           "pricingCompetitor": "Paid monthly",
-          "verdict": "Pick Breeze if you want a polished paid product and you are leaving Planning Center. Pick B1 if you have not bought a ChMS and you want the website and giving in the same $0 system."
+          "verdict": "Pick Breeze if you want a polished paid product and you are leaving Planning Center. Pick B1 if you want the website and giving in the same $0 system."
         }
       }
     },
