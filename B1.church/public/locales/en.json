@@ -20,7 +20,7 @@
         "ctaSecondary": "See It in Action",
         "trust": [
           "Free forever — no tiers, no trials",
-          "No added transaction fees",
+          "No B1 platform fee on gifts",
           "Open source on GitHub",
           "501(c)(3) ministry since 2012"
         ]
@@ -58,7 +58,7 @@
         }
       },
       "connect": {
-        "eyebrow": "The B1 Mobile App",
+        "eyebrow": "PWA · install from your church site",
         "title": "Your people, connected",
         "titleAccent": "all week long.",
         "lead": "Give your church one place to belong between Sundays. The B1 app brings your member directory, groups, messages, and sermons to every phone in your congregation.",
@@ -273,8 +273,8 @@
       "titleHighlight": "Everywhere",
       "subtitle": "Join growing churches that have transformed their ministry with our completely free platform. Here's what pastors and church administrators have to say about B1.",
       "stats": {
-        "churchesValue": "100+",
-        "churchesLabel": "Churches worldwide",
+        "churchesValue": "501(c)(3)",
+        "churchesLabel": "Nonprofit ministry",
         "freeValue": "Free",
         "freeLabel": "Forever & always",
         "openValue": "Open",
@@ -332,7 +332,7 @@
       "faq": "FAQ",
       "aboutChurchApps": "About ChurchApps",
       "appsAndResources": "Apps & Resources",
-      "installApp": "Install the Mobile App",
+      "installApp": "Install from your church site",
       "helpCenter": "Help Center",
       "contact": "Contact",
       "availableWorldwide": "Available Worldwide"
@@ -503,7 +503,7 @@
         "title": "Free",
         "titleHighlight": "Church Management Software",
         "titleLine2": "Complete Ministry Platform",
-        "description": "Professional <strong>church management software</strong> with attendance tracking, member database, giving management, and communication tools. Completely <strong>free church software</strong> provided by Live Church Solutions, a 501(c)(3) non-profit ministry. Join 100+ churches saving thousands on ministry software costs.",
+        "description": "Professional <strong>church management software</strong> with attendance tracking, member database, giving management, and communication tools. Completely <strong>free church software</strong> from Live Church Solutions, a 501(c)(3) nonprofit.",
         "ctaPrimary": "Get Started for Free",
         "ctaSecondary": "Try Demo",
         "trustLine": "Trusted by Growing Churches Worldwide",
@@ -589,11 +589,6 @@
           "description": "We believe this money can be put to better use"
         },
         {
-          "number": "100+",
-          "label": "Churches already using our platform",
-          "description": "Growing community of satisfied users"
-        },
-        {
           "number": "2012",
           "label": "Year Live Church Solutions was founded",
           "description": "Over a decade helping churches with technology"
@@ -628,8 +623,8 @@
         ]
       },
       "cta": {
-        "title": "Ready to Stop Paying for Church Management Software?",
-        "description": "Join churches worldwide that have made the switch to a completely free, open-source solution built by a ministry, for ministries.",
+        "title": "Ready to stop paying for church software?",
+        "description": "B1 is the ChMS you start on. Whole stack at $0. If you have not bought software yet, start here.",
         "primaryButton": "Get Started for Free",
         "secondaryButton": "Try Demo"
       },

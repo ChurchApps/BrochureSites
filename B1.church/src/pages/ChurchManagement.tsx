@@ -361,7 +361,7 @@ const ChurchManagement = () => {
               />
             </Reveal>
 
-            <div className="mb-16 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
+            <div className={`mb-16 grid grid-cols-1 gap-8 md:grid-cols-2 ${statsItems.length > 3 ? "lg:grid-cols-4" : "lg:grid-cols-3"}`}>
               {statsItems.map((stat, index) => (
                 <div
                   key={index}
