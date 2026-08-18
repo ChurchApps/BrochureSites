@@ -361,7 +361,7 @@
         },
         {
           "question": "How does B1.church compare to Tithe.ly?",
-          "answer": "Tithe.ly is a giving company with a paid ChMS. B1 is the ChMS, 100% free including hosting. Giving is included. Stripe nonprofit is 2.2% + $0.30; Tithe.ly \"free\" giving is 2.9% + $0.30. B1 does not include Apple Pay or Google Pay."
+          "answer": "Tithe.ly is a giving company with a paid ChMS. B1 is the ChMS, 100% free including hosting. Giving is included. Stripe nonprofit is 2.2% + $0.30; Tithe.ly \"free\" giving is 2.9% + $0.30."
         },
         {
           "question": "How does B1.church compare to Breeze ChMS?",
@@ -466,7 +466,7 @@
         "tithely": {
           "name": "Tithe.ly",
           "tagline": "They own the word free. We don't take a cut.",
-          "description": "Tithe.ly is a giving company with church software attached. B1 is the ChMS, 100% free including hosting. Giving is included. Stripe nonprofit is 2.2% + $0.30; Tithe.ly \"free\" giving is 2.9% + $0.30. B1 does not include Apple Pay or Google Pay.",
+          "description": "Tithe.ly is a giving company with church software attached. B1 is the ChMS, 100% free including hosting. Giving is included. Stripe nonprofit is 2.2% + $0.30; Tithe.ly \"free\" giving is 2.9% + $0.30.",
           "features": [
             { "name": "Giving", "b1": "Stripe nonprofit 2.2% + $0.30", "competitor": "Tithe.ly \"free\" 2.9% + $0.30" },
             { "name": "People database", "b1": "Included", "competitor": "Paid ChMS" },
