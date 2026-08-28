@@ -78,7 +78,6 @@ B1 is the ChMS you start on. Whole stack at $0. No platform fee on gifts. You st
 ### B1 vs Tithe.ly
 - Tithe.ly is a giving company with a paid ChMS. B1 is the ChMS, 100% free including hosting. Giving is included.
 - B1 giving uses Stripe nonprofit 2.2% + $0.30; Tithe.ly "free" giving is 2.9% + $0.30.
-- B1 does not include Apple Pay or Google Pay.
 
 ### B1 vs Breeze
 - Breeze is a paid, simple ChMS. B1 is $0 and includes the website, giving with no platform fee, check-in, and worship planning.
