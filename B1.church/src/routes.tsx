@@ -5,6 +5,7 @@ import RootHome from "@/pages/RootHome";
 import Index from "@/pages/Index";
 import ChurchManagement from "@/pages/ChurchManagement";
 import FAQ from "@/pages/FAQ";
+import Security from "@/pages/Security";
 import Compare from "@/pages/Compare";
 import NotFound from "@/pages/NotFound";
 import LanguageRedirect from "@/components/LanguageRedirect";
@@ -24,6 +25,7 @@ export const routes: RouteRecord[] = [
       { path: "login", element: <ExternalRedirect to={ADMIN_LOGIN_URL} /> },
       { path: "church-management", element: <LanguageRedirect /> },
       { path: "faq", element: <LanguageRedirect /> },
+      { path: "security", element: <LanguageRedirect /> },
       { path: "compare", element: <LanguageRedirect /> },
       { path: "compare/:competitor", element: <LanguageRedirect /> },
       { path: "vs", element: <HtmlRedirect to={PCO_COMPARE} /> },
@@ -36,6 +38,7 @@ export const routes: RouteRecord[] = [
           { path: "login", element: <ExternalRedirect to={ADMIN_LOGIN_URL} /> },
           { path: "church-management", element: <ChurchManagement /> },
           { path: "faq", element: <FAQ /> },
+          { path: "security", element: <Security /> },
           { path: "compare", element: <Compare /> },
           { path: "compare/:competitor", element: <Compare /> },
           { path: "*", element: <NotFound /> }

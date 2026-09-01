@@ -335,7 +335,8 @@
       "installApp": "Install from your church site",
       "helpCenter": "Help Center",
       "contact": "Contact",
-      "availableWorldwide": "Available Worldwide"
+      "availableWorldwide": "Available Worldwide",
+      "security": "Security"
     },
     "faq": {
       "pageTitle": "Frequently Asked",
@@ -408,6 +409,117 @@
       "supportText": "Our support team is here to help you get started with B1.church.",
       "contactSupport": "Contact Support",
       "viewDocumentation": "View Documentation"
+    },
+    "security": {
+      "documentTitle": "Security Overview | B1.church",
+      "eyebrow": "For church boards and leadership teams",
+      "pageTitle": "Security",
+      "pageTitleHighlight": "Overview",
+      "pageSubtitle": "A plain summary of how B1 protects your church's data — written so you can hand it to your board or finance team without translating it first.",
+      "hero": {
+        "ctaPrimary": "Read the full details",
+        "ctaSecondary": "Ask a security question"
+      },
+      "factsSection": {
+        "eyebrow": "At a glance",
+        "title": "The short answers",
+        "lead": "The questions boards ask first, answered before the detail."
+      },
+      "facts": [
+        {
+          "label": "Hosting",
+          "value": "Amazon Web Services, us-east-2, United States"
+        },
+        {
+          "label": "In transit",
+          "value": "TLS on all traffic"
+        },
+        {
+          "label": "Card & bank details",
+          "value": "Never stored on our servers"
+        },
+        {
+          "label": "Passwords",
+          "value": "One-way hashed, unrecoverable"
+        },
+        {
+          "label": "Production access",
+          "value": "Two people, both board members"
+        },
+        {
+          "label": "Breach notification",
+          "value": "Affected churches within 72 hours"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Where your data lives",
+          "description": "B1 runs entirely on Amazon Web Services in the US East (Ohio) region, us-east-2. The APIs run as AWS Lambda functions and the web apps are served from S3 through CloudFront. Application secrets and credentials are held in AWS SSM Parameter Store rather than in code or configuration files.",
+          "points": [
+            "Database servers sit behind a firewall and are not reachable from the internet.",
+            "Each church's data is reachable only through its own account and permissions."
+          ]
+        },
+        {
+          "title": "Encryption",
+          "description": "All traffic between a browser and our servers is encrypted with TLS. Data stored on AWS is encrypted at rest using AWS-managed encryption."
+        },
+        {
+          "title": "Giving and payment details",
+          "description": "Card and bank details go directly from the donor's browser to Stripe, or to whichever payment processor your church has chosen. They are never stored on, and never pass through, ChurchApps servers. Even in a worst case there are no card or bank numbers of yours for anyone to take."
+        },
+        {
+          "title": "Passwords and sign-in",
+          "description": "Passwords go through a one-way hash before they are stored, so nobody can read or recover them — not an attacker, and not us. Sessions use JWTs that carry the church and the signed-in person's granular role permissions, so every request is checked against what that person is actually allowed to do. Integrations authenticate with OAuth2 using short-lived access tokens."
+        },
+        {
+          "title": "Six databases, not one",
+          "description": "Data is split across six independent databases — membership, giving, attendance, messaging, serving, and content — each with its own credentials. Compromising one does not hand over the rest. The giving database, for example, holds donation amounts and dates but no donor identities; those live in membership."
+        },
+        {
+          "title": "Who can reach production",
+          "description": "Access to production servers is limited to two individuals, both of whom are members of the board. Developers, volunteers, and other board members do not have access to production servers or databases."
+        },
+        {
+          "title": "Everything is logged",
+          "description": "Administrative activity is written to a full audit log — who did what, when, and from which IP address — including before-images of changed records so an edit can be reviewed and undone."
+        },
+        {
+          "title": "Privacy and GDPR",
+          "description": "ChurchApps acts as the data processor; your church is the data controller. A Data Processing Agreement is available on request, and transfers from the UK and EU are covered by Standard Contractual Clauses through the AWS Data Processing Addendum. B1 includes per-person data export and anonymization tools so your church can answer access and erasure requests itself. No health, biometric, or criminal-record data is collected.",
+          "points": [
+            "Your data is yours. It is never sold to third parties."
+          ]
+        },
+        {
+          "title": "Sub-processors",
+          "description": "Two: Amazon Web Services for hosting and storage, and Stripe for donation processing — plus the payment provider your church selects, if that is not Stripe."
+        },
+        {
+          "title": "If something goes wrong",
+          "description": "If we become aware of a personal data breach, affected churches are notified within 72 hours."
+        }
+      ],
+      "openSource": {
+        "title": "You don't have to take our word for it",
+        "description": "The entire B1 platform is open source on GitHub. Your board doesn't have to trust a vendor questionnaire — you can hand the repositories to any developer you trust and have them see for themselves how sign-in, permissions, and payment handling actually work. Almost no other church platform can offer that.",
+        "cta": "Review the code on GitHub"
+      },
+      "honesty": {
+        "title": "What we don't claim",
+        "description": "We would rather be honest than impressive, so here is what this page is not:",
+        "points": [
+          "ChurchApps does not hold SOC 2, ISO 27001, or any other security certification. Audits of that kind cost more than a small nonprofit can justify spending on paperwork instead of on the software.",
+          "What we offer instead of a certificate is transparency: the whole platform is open source, and this page describes what we actually do rather than what we intend to do.",
+          "B1 is built by Live Church Solutions, a 501(c)(3) nonprofit ministry. If your board needs something this page doesn't cover, please ask us rather than assume."
+        ]
+      },
+      "cta": {
+        "title": "Questions from your board?",
+        "description": "We're happy to answer security questionnaires and to provide a Data Processing Agreement on request.",
+        "primaryButton": "Email support@churchapps.org",
+        "secondaryButton": "Read the full documentation"
+      }
     },
     "compare": {
       "notFound": {
