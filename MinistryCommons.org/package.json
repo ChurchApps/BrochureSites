@@ -7,10 +7,11 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "predeploy-prod": "npm run build",
-    "exec-deploy-prod": "aws s3 sync dist/ s3://ministrycommons-web --delete",
+    "predeploy-prod": "echo 'MinistryCommons.org is retired. Use npm run deploy-prod to apply the CloudFront 301 to https://b1.church/.' && exit 1",
+    "exec-deploy-prod": "echo 'Do not sync the Vite brochure to s3://ministrycommons-web. Use npm run deploy-prod.' && exit 1",
     "invalidate-prod": "aws cloudfront create-invalidation --distribution-id E26HUBKU5QIXG5 --paths \"/*\"",
-    "deploy-prod": "npm run predeploy-prod && npm run exec-deploy-prod && npm run invalidate-prod"
+    "apply-redirect": "python3 scripts/apply-cloudfront-redirect.py",
+    "deploy-prod": "python3 scripts/apply-cloudfront-redirect.py"
   },
   "dependencies": {
     "react": "^18.3.1",
