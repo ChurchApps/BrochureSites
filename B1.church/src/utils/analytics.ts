@@ -1,25 +1,24 @@
-// Analytics utility functions for B1 Church
-
 declare global {
   interface Window {
     gtag: (...args: unknown[]) => void;
+    dataLayer: unknown[];
   }
 }
 
-// Google Analytics 4 tracking functions
+export const GA_MEASUREMENT_ID = "G-3RQGLEE47Y";
+
 export const trackEvent = (eventName: string, parameters?: Record<string, unknown>) => {
-  if (typeof window !== "undefined" && window.gtag) {
-    window.gtag("event", eventName, parameters);
-  }
+  if (typeof window === "undefined" || !window.gtag) return;
+  window.gtag("event", eventName, { send_to: GA_MEASUREMENT_ID, ...parameters });
 };
 
-export const trackPageView = (page_path: string) => {
-  if (typeof window !== "undefined" && window.gtag) {
-    window.gtag("event", "page_view", {
-      page_location: window.location.href,
-      page_path: page_path
-    });
-  }
+export const trackPageView = (pagePath?: string) => {
+  if (typeof window === "undefined" || !window.gtag) return;
+  window.gtag("event", "page_view", {
+    send_to: GA_MEASUREMENT_ID,
+    page_location: window.location.href,
+    page_path: pagePath || window.location.pathname
+  });
 };
 
 // Custom event tracking for B1 Church specific actions
