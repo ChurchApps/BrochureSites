@@ -417,13 +417,24 @@
       "meta": {
         "hubTitle": "Paano Ikinukumpara ang B1",
         "hubDescription": "Ang B1 ang sistema sa pamamahala ng simbahan na pagsisimulan mo. Mga miyembro, pagbibigay, check-in, website, app para sa miyembro, pagpaplano ng pagsamba. $0 magpakailanman. 501(c)(3).",
-        "detailTitle": "B1.church vs {{competitor}} - Paghahambing ng Libreng Software ng Simbahan",
+        "detailTitle": "Libreng Alternatibo sa {{competitor}} | B1.church vs {{competitor}}",
         "descriptions": {
           "planning-center": "Ang B1 ay buong pakete sa halagang $0. Walang bayad na dagdag na module.",
           "pushpay": "Ang Pushpay ay isang bayad na plataporma para sa pagbibigay. Kasama sa B1 ang pagbibigay nang walang bayad sa plataporma, pati na ang mga miyembro, check-in, website, at pagpaplano ng pagsamba.",
           "tithely": "Ang Tithe.ly ay kumpanya ng pagbibigay na may kasamang software ng simbahan. Ang B1 ang sistema sa pamamahala ng simbahan, 100% libre kasama ang hosting. Kasama ang pagbibigay. Ang Stripe para sa nonprofit ay 2.2% + $0.30; ang \"libreng\" pagbibigay ng Tithe.ly ay 2.9% + $0.30.",
           "breeze": "Ang Breeze ay isang bayad at simpleng sistema sa pamamahala ng simbahan na binabanggit ng mga umaalis sa Planning Center. Ang B1 ay $0 at kasama ang website, pagbibigay nang walang bayad sa plataporma, check-in, at pagpaplano ng pagsamba. Ini-import namin ang iyong mga miyembro mula sa Breeze."
         }
+      },
+      "switching": {
+        "title": "Paglipat mula sa {{competitor}}",
+        "steps": [
+          "Gumawa ng libreng B1 account. Ilang minuto lang ito at hindi nangangailangan ng credit card.",
+          "I-import ang inyong mga tao, grupo, at talaan ng pagbibigay gamit ang B1 Transfer, na bumabasa ng mga export mula sa Planning Center, Breeze, Tithe.ly, at Pushpay (CCB), o anumang CSV o Excel file.",
+          "Ikonekta ang sariling Stripe, PayPal, o Paystack account ng inyong simbahan para sa online na pagbibigay.",
+          "I-publish ang inyong website at member app, at i-set up ang check-in kung gagamitin ninyo ito.",
+          "Anyayahan ang inyong kongregasyon na mag-sign in."
+        ],
+        "note": "Nagbago ang isip? Mag-export ng buong backup anumang oras, o i-convert muli ang inyong datos sa format ng Breeze o Planning Center."
       },
       "notFound": {
         "title": "Paano ihambing ang B1",
@@ -850,6 +861,420 @@
           "title": "Role-Based na Access",
           "description": "Ligtas na mga pahintulot para sa mga kawani at boluntaryo"
         }
+      }
+    },
+    "pages": {
+      "app": {
+        "name": "App ng Simbahan",
+        "meta": {
+          "title": "Libreng Church App para sa Inyong mga Miyembro | B1.church",
+          "description": "Libreng app para sa miyembro na may pangalan at logo ng inyong simbahan: directory, mga grupo, mensahe, pagbibigay, check-in, mga sermon, at push notification. Ini-install mula sa website ng simbahan."
+        },
+        "hero": {
+          "eyebrow": "Libreng church app",
+          "title": "Sariling app ng inyong simbahan, libre",
+          "subtitle": "Isang lugar para sa mga miyembro: mga grupo, mensahe, pagbibigay, check-in, sermon, at mga event. Dala nito ang pangalan at logo ng inyong simbahan, nai-install mula sa website ng simbahan sa loob ng ilang segundo, at laging updated."
+        },
+        "sections": [
+          {
+            "title": "Naii-install sa loob ng ilang segundo",
+            "body": "Nasa B1 address ng inyong simbahan ang app at direktang nai-install sa home screen, full-screen at may badge ng mga hindi pa nababasa.",
+            "bullets": [
+              "iPhone: buksan ang website ng simbahan sa Safari, i-tap ang Share, saka Add to Home Screen",
+              "Android: isang tap na pag-install mula sa Chrome",
+              "Ang mga bumibisita mula sa computer ay makakakita ng QR code para ipadala ito sa kanilang telepono",
+              "Nagsa-sign in ang mga miyembro gamit ang email, Google, o Microsoft"
+            ]
+          },
+          {
+            "title": "Mga grupo at pagmemensahe",
+            "body": "Nananatiling konektado ang maliliit na grupo, ministeryo, at team nang hindi na kailangan ng hiwalay na chat app.",
+            "bullets": [
+              "Maghanap ng mga grupo at humiling na sumali",
+              "Group chat at mga anunsyong para lang sa mga lider",
+              "RSVP sa mga event: Pupunta, Baka, o Hindi makakapunta",
+              "Pribadong mensahe, na may minimum na edad na kayo ang magtatakda"
+            ]
+          },
+          {
+            "title": "Directory na kayo ang may kontrol",
+            "body": "Mahahanap ng mga miyembro ang isa't isa at makakapag-message, tumawag, o mag-text. Kayo ang magpapasya kung sino ang makakakita ng ano.",
+            "bullets": [
+              "Maghanap gamit ang mga larawan at profile",
+              "Mga antas ng visibility: lahat, mga miyembro, mga grupo lang, mga lider ng grupo, o staff lang"
+            ]
+          },
+          {
+            "title": "Mga abisong talagang natatanggap",
+            "body": "Push notification, bell sa loob ng app, at email, na may opsyonal na text message.",
+            "bullets": [
+              "Pipili ang bawat miyembro ng setting sa bawat uri at ng daily email digest",
+              "Quiet hours para walang maistorbo sa hatinggabi"
+            ]
+          },
+          {
+            "title": "Pagbibigay, check-in, at paglilingkod",
+            "body": "Iisang app ang bahala sa mga ginagawa ng mga miyembro linggu-linggo.",
+            "bullets": [
+              "Magbigay nang isang beses o mag-set up ng paulit-ulit na handog, at tingnan ang kasaysayan ng pagbibigay",
+              "I-check in ang buong sambahayan bago dumating",
+              "Tingnan ang mga atas sa paglilingkod at mag-sign up bilang boluntaryo",
+              "I-rehistro ang mga kapamilya sa mga event, kasama ang mga may bayad"
+            ]
+          },
+          {
+            "title": "Mga sermon at ang Biblia",
+            "body": "Panatilihing konektado ang mga tao sa pagtuturo sa buong linggo.",
+            "bullets": [
+              "Aklatan ng mga sermon at live stream na may chat",
+              "Built-in na Bible reader at talata ng araw",
+              "Pinipili ng staff kung aling mga tab ang lalabas at kung ano ang makikita ng mga bisita bago mag-sign in"
+            ]
+          }
+        ],
+        "faqTitle": "Mga tanong tungkol sa church app",
+        "faq": [
+          {
+            "q": "Magkano ang church app?",
+            "a": "Wala. Libre ang member app, hosting, at lahat ng feature. Ang B1 ay gawa ng Live Church Solutions, isang 501(c)(3) na nonprofit."
+          },
+          {
+            "q": "Ipinapakita ba ng app ang pangalan at logo ng aming simbahan?",
+            "a": "Oo. Ini-install ito ng mga miyembro mula sa B1 website ng inyong simbahan at dala nito ang pangalan at logo ng inyong simbahan."
+          },
+          {
+            "q": "Kailangan bang mag-install ng anuman ang mga miyembro para magamit ito?",
+            "a": "Hindi. Gumagana ito sa kahit anong browser, at ang mga miyembrong gustong may icon sa home screen ay maaaring mag-install nito sa ilang tap lang."
+          },
+          {
+            "q": "Gumagana ba ito offline?",
+            "a": "Kailangan ng app ng internet connection; hindi ito nag-iimbak ng nilalaman para sa offline na paggamit."
+          }
+        ]
+      },
+      "websiteBuilder": {
+        "name": "Tagabuo ng Website",
+        "meta": {
+          "title": "Libreng Website Builder para sa Simbahan, May Hosting | B1.church",
+          "description": "Buuin ang website ng simbahan nang libre gamit ang drag-and-drop na mga seksyon, sermon, event, pagbibigay, form, at blog. Kasama ang custom domain at SSL. Walang bayad sa hosting."
+        },
+        "hero": {
+          "eyebrow": "Libreng church website builder",
+          "title": "Website ng simbahang kusang tumatakbo",
+          "subtitle": "Mga drag-and-drop na pahina na kumukuha ng mga sermon, event, grupo, oras ng serbisyo, at pagbibigay direkta mula sa B1, kaya hindi kailanman luma ang inyong site. Kasama nang libre ang hosting, SSL, at sarili ninyong domain."
+        },
+        "sections": [
+          {
+            "title": "Magsimula sa loob ng ilang minuto",
+            "body": "Bawat simbahan ay may handang site sa yourchurch.b1.church sa mismong araw ng pag-sign up.",
+            "bullets": [
+              "Ituro ang sarili ninyong domain gamit ang CNAME o A record",
+              "Awtomatiko ang mga SSL certificate",
+              "Gumawa ng maraming site para sa iisang simbahan kung kailangan"
+            ]
+          },
+          {
+            "title": "Drag-and-drop na page editor",
+            "body": "Bumuo ng mga pahina mula sa mga seksyon at elemento. Magsimula sa template (hero, tungkol sa amin, mga serbisyo, pagbibigay, at iba pa) o sa blangkong column layout.",
+            "bullets": [
+              "Teksto, larawan, button, card, gallery, patotoo, FAQ, at talahanayan",
+              "Video, podcast mula sa RSS feed, live stream player, mapa, at embed",
+              "Countdown, estadistika, staff grid, at mga elemento ng logo"
+            ]
+          },
+          {
+            "title": "Nilalamang kusang nag-a-update",
+            "body": "Ang mga elementong pang-simbahan ay kumukuha sa parehong database na ginagamit na ng inyong staff.",
+            "bullets": [
+              "Kalendaryo bilang month grid o paparating na mga event, na may sariling pahina ang bawat event",
+              "Oras ng serbisyo mula sa inyong attendance setup",
+              "Group browser, mga form, at mga rehistrasyon",
+              "Mga donation form at progress bar ng kampanya"
+            ]
+          },
+          {
+            "title": "Mga sermon at live stream",
+            "body": "Aklatan ng sermon na may playlist ng serye at pahina para sa bawat mensahe.",
+            "bullets": [
+              "Bulk import mula sa YouTube o Vimeo",
+              "Iskedyul ng live stream na may chat"
+            ]
+          },
+          {
+            "title": "May kasamang blog",
+            "body": "Mag-post ng balita at debosyonal sa /blog na may RSS feed.",
+            "bullets": [
+              "Mga draft, naka-iskedyul na post, kategorya, at tag",
+              "Opsyonal na mga komento sa pamamagitan ng Hyvor Talk, FastComments, o Disqus"
+            ]
+          },
+          {
+            "title": "Ang inyong istilo, ang inyong mga patakaran",
+            "body": "Kayo ang magtatakda ng kulay, font, espasyo, logo, at nabigasyon.",
+            "bullets": [
+              "Mga pahina para sa lahat, mga miyembro lang, staff lang, o piling grupo",
+              "Meta description, social image, redirect, at Google Analytics 4",
+              "Announcement banner at custom CSS o JavaScript"
+            ]
+          }
+        ],
+        "faqTitle": "Mga tanong tungkol sa website builder",
+        "faq": [
+          {
+            "q": "Talaga bang libre ang church website builder?",
+            "a": "Oo. Libre ang builder, hosting, SSL, at suporta sa custom domain. Ang babayaran mo lang ay ang domain registrar para sa mismong pangalan ng domain."
+          },
+          {
+            "q": "Puwede ko bang gamitin ang sarili kong domain?",
+            "a": "Oo. Magdagdag ng CNAME o A record sa inyong registrar at awtomatikong maglalabas ang B1 ng SSL certificate."
+          },
+          {
+            "q": "Kailangan ko bang marunong mag-code?",
+            "a": "Hindi. Binubuo ang mga pahina sa pamamagitan ng pag-drag ng mga seksyon at elemento. Narito ang custom CSS at JavaScript kung gusto ninyo."
+          },
+          {
+            "q": "Magagamit ba namin ang B1 nang walang pampublikong website?",
+            "a": "Oo. Maaari ninyong patayin ang pampublikong site at gamitin ang B1 para lang sa member app, pagbibigay, at mga rehistrasyon."
+          }
+        ]
+      },
+      "giving": {
+        "name": "Online na Pagbibigay",
+        "meta": {
+          "title": "Libreng Online na Pagbibigay, Walang Platform Fee | B1.church",
+          "description": "Online na pagbibigay ng simbahan nang walang platform fee ng B1. Gamitin ang sarili ninyong Stripe, PayPal, o Paystack account: paulit-ulit na handog, ACH, Apple Pay, mga pondo, pledge, at taunang ulat."
+        },
+        "hero": {
+          "eyebrow": "Online na pagbibigay",
+          "title": "Online na pagbibigay na walang platform fee",
+          "subtitle": "Hindi kailanman dumadaan ang pera sa B1. Ikinokonekta ng simbahan ang sarili nitong payment account, direkta sa inyo ang mga handog, at walang idinadagdag ang B1. Ang babayaran lang ninyo ay ang singil ng inyong payment processor."
+        },
+        "sections": [
+          {
+            "title": "Inyong account, inyong pera",
+            "body": "Ikinokonekta ng bawat simbahan ang sarili nitong payment gateway. Hindi kailanman nahahawakan ng mga server ng ChurchApps ang datos ng card.",
+            "bullets": [
+              "Stripe, kasama ang Apple Pay at Google Pay para sa minsanang handog",
+              "PayPal, na may mga Venmo button",
+              "Paystack sa buong Africa, may mobile money at bank transfer",
+              "Mga handog mula sa bangko (ACH), na may agarang beripikasyon para sa mga bisita"
+            ]
+          },
+          {
+            "title": "Magkano talaga ang gastos",
+            "body": "Walang platform fee ang B1 at walang bayad na tier. Ang tanging gastos ay ang singil ng inyong processor, na mapupunta sa kanila, hindi sa amin.",
+            "bullets": [
+              "May diskwentong singil ang Stripe para sa mga kwalipikadong nonprofit (2.2% + $0.30 bawat handog gamit ang card)",
+              "Maaaring piliin ng mga nagbibigay na sagutin ang bayad sa pagproseso",
+              "Multi-currency na pagbibigay gamit ang Stripe sa 15 currency"
+            ]
+          },
+          {
+            "title": "Paulit-ulit na pagbibigay na nakakabawi ng sarili",
+            "body": "Nagse-set up ang mga miyembro ng paulit-ulit na handog at pinamamahalaan ito mula sa app.",
+            "bullets": [
+              "I-pause o ituloy ang paulit-ulit na handog sa Stripe anumang oras",
+              "Lumalabas sa iisang listahan ang mga bigong handog, may Retry button",
+              "Ine-email ang nagbibigay kapag pumalya ang handog, at muli pagkalipas ng 3 at 7 araw"
+            ]
+          },
+          {
+            "title": "Mga pondo, kampanya, at pledge",
+            "body": "Bigyan ang mga nagbibigay ng malinaw na pagpipilian at subaybayan ang bawat layunin.",
+            "bullets": [
+              "Mga pondong tax-deductible at nakatagong pondo",
+              "Mga giving link na may nakatakdang pondo at halaga",
+              "Mga kampanya na may layunin, progress bar, at kabuuang ipinangako laban sa naibigay",
+              "Mga anonymous na handog"
+            ]
+          },
+          {
+            "title": "Cash, tseke, at mga talaan",
+            "body": "Lahat ng naibigay ay nasa iisang lugar, kasama ng datos ng inyong mga tao.",
+            "bullets": [
+              "Batch entry para sa cash at tseke",
+              "I-import ang mga nawawalang transaksyon sa Stripe",
+              "Taunang ulat na may logo ninyo, kasama ang mga format para sa Canada, Australia, at New Zealand",
+              "Maaaring tingnan at i-print ng mga miyembro ang sarili nilang kasaysayan ng pagbibigay"
+            ]
+          }
+        ],
+        "faqTitle": "Mga tanong tungkol sa online na pagbibigay",
+        "faq": [
+          {
+            "q": "Kumukuha ba ng bahagi ang B1 sa mga handog?",
+            "a": "Hindi. Walang platform fee ang B1. Direkta sa Stripe, PayPal, o Paystack account ng inyong simbahan ang mga handog, at ang babayaran lang ninyo ay ang singil ng processor na iyon."
+          },
+          {
+            "q": "Aling mga payment processor ang gumagana sa B1?",
+            "a": "Stripe, PayPal (kasama ang Venmo), at Paystack. Ang Kingdom Funding ay available sa beta."
+          },
+          {
+            "q": "Puwede bang magbigay ang mga miyembro mula sa telepono?",
+            "a": "Oo. Nagbibigay ang mga miyembro mula sa church app o website, nagse-set up ng paulit-ulit na handog, at nakikita ang buong kasaysayan ng kanilang pagbibigay."
+          },
+          {
+            "q": "Puwede ba naming itala ang mga handog na cash at tseke?",
+            "a": "Oo. Ipasok ang mga ito nang batch para lumabas ang bawat handog sa mga taunang ulat."
+          }
+        ]
+      },
+      "checkin": {
+        "name": "Pag-check-in",
+        "meta": {
+          "title": "Libreng Check-in Software para sa Kids Ministry | B1.church",
+          "description": "Libreng check-in ng simbahan na may self-serve kiosk, name tag, katugmang pickup code ng magulang, QR registration ng bisita, room ratio, at ulat ng attendance. Gumagana sa abot-kayang tablet."
+        },
+        "hero": {
+          "eyebrow": "Check-in ng simbahan",
+          "title": "Mabilis at ligtas na check-in para sa bawat pamilya",
+          "subtitle": "Nagche-check in ang mga pamilya sa kiosk o mula sa telepono, nakakakuha ang mga bata ng name tag na may katugmang pickup code, at kusang naitatala ang attendance. Libre, gamit ang abot-kayang tablet at label printer."
+        },
+        "sections": [
+          {
+            "title": "Mga self-serve na kiosk",
+            "body": "Patakbuhin ang B1 check-in app sa abot-kayang tablet.",
+            "bullets": [
+              "Inirerekomenda: Samsung Galaxy Tab A-series o Amazon Fire HD 10",
+              "Hinahanap ng pamilya ang sarili gamit ang huling 4 na digit ng numero ng telepono o ang pangalan",
+              "Inilalagay ang bawat tao sa tamang silid, may gabay sa edad at grado",
+              "Tumutugma sa inyong simbahan ang mga kulay ng kiosk at ang idle-screen slideshow"
+            ]
+          },
+          {
+            "title": "Mga name tag at pickup code",
+            "body": "Mag-print ng name label para sa bawat bata at pickup slip para sa magulang na may parehong 4-character na security code.",
+            "bullets": [
+              "Mga Brother QL label printer (inirerekomenda ang QL-1110NWB) na may DK-1201 na label",
+              "Magdisenyo ng sarili ninyong label",
+              "I-print muli ang label anumang oras"
+            ]
+          },
+          {
+            "title": "May kasamang kaligtasan ng bata",
+            "body": "Mga kasangkapan sa checkout at sa mga silid na tumutulong sa mga boluntaryo na maingatan ang mga bata.",
+            "bullets": [
+              "Mag-check out gamit ang security code, na ini-scan ng camera o barcode scanner",
+              "Mga listahan ng awtorisado at hindi awtorisadong sumundo",
+              "Kapasidad ng silid at ratio ng boluntaryo na nagbababala o humaharang",
+              "Tawagin ang magulang o magpadala ng emergency text (kailangan ng texting provider)"
+            ]
+          },
+          {
+            "title": "Malugod na tinatanggap ang mga bisita",
+            "body": "Maaaring magparehistro ang mga unang beses na pamilya sa kiosk o sa sarili nilang telepono.",
+            "bullets": [
+              "QR code na registration ng bisita na may mga field na kayo ang pipili",
+              "Awtomatikong idagdag ang mga bisita sa isang grupo para sa follow-up"
+            ]
+          },
+          {
+            "title": "Mag-check in bago dumating",
+            "body": "Maaaring i-check in ng mga miyembro ang buong sambahayan mula sa church app."
+          },
+          {
+            "title": "Attendance na kusang naitatala",
+            "body": "Bawat check-in ay napupunta sa inyong mga ulat ng attendance sa B1Admin.",
+            "bullets": [
+              "Lingguhang buod, trend ng attendance, at attendance bawat grupo",
+              "Mga check-in window para sa bawat oras ng serbisyo",
+              "Pagpasok ng bilang lang para sa mga serbisyong walang check-in"
+            ]
+          }
+        ],
+        "faqTitle": "Mga tanong tungkol sa check-in",
+        "faq": [
+          {
+            "q": "Anong hardware ang kailangan namin?",
+            "a": "Isang tablet para sa bawat kiosk at, kung gusto ninyo ng name tag, isang Brother QL label printer. Kabilang sa mga inirerekomendang tablet ang Samsung Galaxy Tab A-series at Amazon Fire HD 10."
+          },
+          {
+            "q": "Libre ba ang check-in software?",
+            "a": "Oo. Bahagi ng B1 ang check-in, na libre kasama ang hosting. Ang bibilhin ninyo lang ay ang hardware."
+          },
+          {
+            "q": "Paano sinusundo ng mga magulang ang kanilang mga anak?",
+            "a": "Iisang 4-character na code ang nasa name tag ng bata at sa pickup slip ng magulang. Sinusuri o ini-scan ng mga boluntaryo ang code sa pagsundo."
+          },
+          {
+            "q": "Puwede bang mag-check in ang mga bisita?",
+            "a": "Oo. Maaaring idagdag ang mga bisita sa kiosk, o mag-scan ng QR code para magparehistro sa sarili nilang telepono."
+          }
+        ]
+      },
+      "about": {
+        "name": "Tungkol sa Amin",
+        "meta": {
+          "title": "Tungkol sa B1: Libreng Software ng Simbahan | B1.church",
+          "description": "Ang B1 ay libre at open-source na software ng simbahan na gawa ng Live Church Solutions, isang 501(c)(3) na nonprofit. Paano ito naging libre, sino ang pumopondo, at ano ang aasahan ninyo."
+        },
+        "hero": {
+          "eyebrow": "Tungkol sa B1",
+          "title": "Libreng software ng simbahan, gawa ng isang nonprofit",
+          "subtitle": "Ang B1 ay gawa ng Live Church Solutions, isang 501(c)(3) na nonprofit na ministeryo (EIN 45-5349618). Naniniwala kaming nararapat sa bawat simbahan ang makabagong teknolohiya, anuman ang badyet."
+        },
+        "sections": [
+          {
+            "title": "Paano naging libre ang B1?",
+            "body": "Ang B1 ay isang ministeryo, hindi negosyo. Pinopondohan ng mga donasyon ang pag-develop at hosting, at sinusuportahan ng Google Ad Grants, kaya hindi kailanman nagbabayad ang mga simbahan para sa software.",
+            "bullets": [
+              "Walang bayad na tier, walang presyo bawat miyembro, walang limitasyon sa feature",
+              "Kasama ang hosting",
+              "Walang platform fee sa mga handog"
+            ]
+          },
+          {
+            "title": "Ano pa ang maaaring bayaran ninyo",
+            "body": "Gusto naming alam ninyo ang buong larawan mula sa simula.",
+            "bullets": [
+              "Mga bayad sa pagproseso ng card at bangko, na binabayaran sa sarili ninyong payment processor",
+              "Mga tablet at label printer kung gagamit kayo ng kiosk check-in",
+              "Isang texting provider kung gusto ninyo ng SMS",
+              "Ang pangalan ng inyong domain, kung gagamit kayo ng custom",
+              "Dagdag na imbakan ng file na lampas sa 100 MB, na maaari ring sagutin sa pag-link ng Google Drive, Dropbox, OneDrive, o S3"
+            ]
+          },
+          {
+            "title": "Bukas na source code",
+            "body": "Lahat ng code ng B1 ay pampubliko sa GitHub, sa humigit-kumulang 20 repository.",
+            "bullets": [
+              "Kahit sino ay maaaring suriin kung paano ito gumagana",
+              "I-self-host gamit ang Docker o isang one-click na Railway template kung iyon ang gusto ninyo"
+            ]
+          },
+          {
+            "title": "Inyo ang inyong datos",
+            "body": "Walang lock-in.",
+            "bullets": [
+              "Mag-import mula sa Planning Center, Breeze, Tithe.ly, Pushpay (CCB), o anumang CSV o Excel file gamit ang B1 Transfer",
+              "Mag-export ng buong backup ng mga tao, grupo, pagbibigay, attendance, at mga form",
+              "I-convert ang inyong datos sa mga format ng Breeze o Planning Center"
+            ]
+          },
+          {
+            "title": "Isang pamilya ng mga libreng kasangkapan",
+            "body": "Ang B1 ay bahagi ng ChurchApps, kasama ng FreeShow na presentation software at Lessons.church na kurikulum. Iisang libreng account ang gumagana sa lahat."
+          }
+        ],
+        "faqTitle": "Mga tanong tungkol sa B1",
+        "faq": [
+          {
+            "q": "Talaga bang libre ang B1?",
+            "a": "Oo. Libre ang software at hosting, walang tier, at walang platform fee sa mga handog. Ang babayaran lang ninyo ay mga panlabas na gastos tulad ng bayad sa pagproseso ng card sa sarili ninyong processor, at hardware kung gagamit kayo ng check-in kiosk."
+          },
+          {
+            "q": "Sino ang nasa likod ng B1?",
+            "a": "Ang Live Church Solutions, isang 501(c)(3) na nonprofit na ministeryo (EIN 45-5349618) na gumagawa rin ng FreeShow at Lessons.church sa ilalim ng pangalang ChurchApps."
+          },
+          {
+            "q": "Magsisimula bang maningil ang B1 sa hinaharap?",
+            "a": "Pinopondohan ang B1 ng mga donasyon at grant, hindi ng subscription, at open source ang code. Kung gusto ninyong umalis anumang oras, maaari ninyong i-export ang lahat."
+          },
+          {
+            "q": "Paano kami hihingi ng tulong?",
+            "a": "Bisitahin ang help center sa support.churchapps.org o mag-email sa support@churchapps.org."
+          }
+        ]
       }
     },
     "notFound": {

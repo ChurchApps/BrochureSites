@@ -417,13 +417,24 @@
       "meta": {
         "hubTitle": "Hogyan teljesít a B1 az összevetésben",
         "hubDescription": "A B1 az a gyülekezetkezelő rendszer, amellyel elindulhatsz. Tagok, adományok, bejelentkezés, weboldal, tagi alkalmazás, istentisztelet-tervezés. Örökre 0 $. 501(c)(3).",
-        "detailTitle": "B1.church vs {{competitor}} - ingyenes gyülekezeti szoftverek összehasonlítása",
+        "detailTitle": "Ingyenes {{competitor}}-alternatíva | B1.church vs {{competitor}}",
         "descriptions": {
           "planning-center": "A B1 a teljes csomag 0 $-ért. Nincsenek fizetős kiegészítő modulok.",
           "pushpay": "A Pushpay fizetős adományozási platform. A B1 platformdíj nélküli adományozást kínál, valamint tagnyilvántartást, bejelentkezést, weboldalt és istentisztelet-tervezést.",
           "tithely": "A Tithe.ly adományozási cég, amelyhez gyülekezeti szoftver tartozik. A B1 a gyülekezetkezelő rendszer, 100%-ban ingyenes tárhellyel együtt. Az adományozás benne van. A Stripe nonprofit díja 2,2% + 0,30 $; a Tithe.ly „ingyenes” adományozása 2,9% + 0,30 $.",
           "breeze": "A Breeze fizetős, egyszerű gyülekezetkezelő rendszer, amelyet a Planning Centert elhagyók gyakran említenek. A B1 0 $, és tartalmazza a weboldalt, a platformdíj nélküli adományozást, a bejelentkezést és az istentisztelet-tervezést. A Breeze-ből átvesszük a tagjaidat."
         }
+      },
+      "switching": {
+        "title": "Átállás a(z) {{competitor}} rendszerről",
+        "steps": [
+          "Hozza létre ingyenes B1-fiókját. Pár percet vesz igénybe, és nem kell hozzá bankkártya.",
+          "Importálja a személyeket, csoportokat és adományokat a B1 Transferrel, amely beolvassa a Planning Center, a Breeze, a Tithe.ly és a Pushpay (CCB) exportjait, vagy bármilyen CSV- vagy Excel-fájlt.",
+          "Kösse be a gyülekezet saját Stripe, PayPal vagy Paystack fiókját az online adakozáshoz.",
+          "Tegye közzé weboldalát és tagi alkalmazását, és állítsa be a check-int, ha használja.",
+          "Hívja meg a gyülekezetet, hogy lépjen be."
+        ],
+        "note": "Meggondolta magát? Bármikor exportálhat teljes mentést, vagy visszaalakíthatja adatait Breeze vagy Planning Center formátumra."
       },
       "notFound": {
         "title": "Hogyan viszonyul a B1",
@@ -850,6 +861,420 @@
           "title": "Szerepkör-alapú hozzáférés",
           "description": "Biztonságos jogosultságok a munkatársak és önkéntesek számára"
         }
+      }
+    },
+    "pages": {
+      "app": {
+        "name": "Gyülekezeti alkalmazás",
+        "meta": {
+          "title": "Ingyenes gyülekezeti alkalmazás a tagjainak | B1.church",
+          "description": "Ingyenes tagi alkalmazás a gyülekezet nevével és logójával: névjegyzék, csoportok, üzenetek, adakozás, check-in, igehirdetések és push értesítések. A gyülekezet oldaláról telepíthető."
+        },
+        "hero": {
+          "eyebrow": "Ingyenes gyülekezeti alkalmazás",
+          "title": "A gyülekezet saját alkalmazása, ingyen",
+          "subtitle": "A tagok egy helyen érik el a csoportokat, üzeneteket, adakozást, check-int, igehirdetéseket és eseményeket. A gyülekezet nevét és logóját viseli, másodpercek alatt telepíthető a gyülekezet weboldaláról, és mindig naprakész."
+        },
+        "sections": [
+          {
+            "title": "Másodpercek alatt telepítve",
+            "body": "Az alkalmazás a gyülekezet B1-címén fut, és közvetlenül a kezdőképernyőre telepíthető teljes képernyős módban, olvasatlan üzenetjelzővel.",
+            "bullets": [
+              "iPhone: nyissa meg a gyülekezet oldalát Safariban, koppintson a Megosztás gombra, majd a Főképernyőhöz adás lehetőségre",
+              "Android: egyérintéses telepítés Chrome-ból",
+              "Számítógépen a látogatók QR-kódot látnak, hogy telefonjukra küldhessék",
+              "A tagok e-mail-címmel, Google- vagy Microsoft-fiókkal lépnek be"
+            ]
+          },
+          {
+            "title": "Csoportok és üzenetek",
+            "body": "A kiscsoportok, szolgálatok és csapatok külön csevegőalkalmazás nélkül is kapcsolatban maradnak.",
+            "bullets": [
+              "Csoportok böngészése és csatlakozási kérelem",
+              "Csoportos csevegés és csak vezetőknek szóló közlemények",
+              "Eseményre jelentkezés: Megyek, Talán vagy Nem tudok menni",
+              "Privát üzenetek, Ön által beállítható alsó korhatárral"
+            ]
+          },
+          {
+            "title": "Névjegyzék az Ön szabályaival",
+            "body": "A tagok megtalálhatják egymást, és üzenettel, hívással vagy SMS-sel kereshetik meg egymást. Ön dönti el, ki mit lát.",
+            "bullets": [
+              "Keresés fotókkal és profilokkal",
+              "Láthatósági szintek: mindenki, tagok, csak csoportok, csoportvezetők vagy csak munkatársak"
+            ]
+          },
+          {
+            "title": "Értesítések, amelyek tényleg megérkeznek",
+            "body": "Push értesítések, alkalmazáson belüli csengő és e-mail, igény szerint SMS-sel.",
+            "bullets": [
+              "Mindenki típusonként állítja be az értesítéseket, és napi e-mailes összefoglalót kérhet",
+              "Csendes órák, hogy senkit se zavarjanak éjfélkor"
+            ]
+          },
+          {
+            "title": "Adakozás, check-in és szolgálat",
+            "body": "Ugyanaz az alkalmazás intézi mindazt, amit a tagok hétről hétre csinálnak.",
+            "bullets": [
+              "Adakozzon egyszer, vagy állítson be rendszeres adományt, és nézze meg az adakozási előzményeit",
+              "Jelentkeztesse be az egész családot még érkezés előtt",
+              "Nézze meg szolgálati beosztását, és jelentkezzen önkéntesnek",
+              "Regisztrálja családtagjait eseményekre, fizetős eseményekre is"
+            ]
+          },
+          {
+            "title": "Igehirdetések és a Biblia",
+            "body": "Tartsa kapcsolatban az embereket az igehirdetéssel a hét folyamán is.",
+            "bullets": [
+              "Igehirdetés-könyvtár és élő közvetítés csevegéssel",
+              "Beépített bibliaolvasó és a nap igéje",
+              "A munkatársak döntik el, mely fülek jelenjenek meg, és mit lássanak a látogatók belépés előtt"
+            ]
+          }
+        ],
+        "faqTitle": "Kérdések a gyülekezeti alkalmazásról",
+        "faq": [
+          {
+            "q": "Mennyibe kerül a gyülekezeti alkalmazás?",
+            "a": "Semmibe. A tagi alkalmazás, a tárhely és minden funkció ingyenes. A B1-et a Live Church Solutions készíti, egy 501(c)(3) nonprofit szervezet."
+          },
+          {
+            "q": "Megjelenik az alkalmazásban a gyülekezetünk neve és logója?",
+            "a": "Igen. A tagok a gyülekezet B1-weboldaláról telepítik, és az alkalmazás a gyülekezet nevét és logóját viseli."
+          },
+          {
+            "q": "Kell a tagoknak bármit telepíteniük a használathoz?",
+            "a": "Nem. Bármelyik böngészőben működik, és aki ikont szeretne a kezdőképernyőn, néhány koppintással telepítheti."
+          },
+          {
+            "q": "Működik internet nélkül?",
+            "a": "Az alkalmazáshoz internetkapcsolat kell; nem tárol tartalmat offline használatra."
+          }
+        ]
+      },
+      "websiteBuilder": {
+        "name": "Weboldal-készítő",
+        "meta": {
+          "title": "Ingyenes gyülekezeti weboldal-készítő tárhellyel | B1.church",
+          "description": "Készítse el gyülekezete weboldalát ingyen, fogd és vidd módszerrel: igehirdetések, események, adakozás, űrlapok és blog. Saját domain és SSL benne van. Nincs tárhelyszámla."
+        },
+        "hero": {
+          "eyebrow": "Ingyenes gyülekezeti weboldal-készítő",
+          "title": "Gyülekezeti weboldal, amely magától naprakész marad",
+          "subtitle": "Fogd és vidd oldalak, amelyek az igehirdetéseket, eseményeket, csoportokat, istentiszteleti időpontokat és az adakozást közvetlenül a B1-ből veszik, így az oldal soha nem avul el. A tárhely, az SSL és a saját domain díjmentesen benne van."
+        },
+        "sections": [
+          {
+            "title": "Percek alatt indulhat",
+            "body": "Minden gyülekezet már a regisztráció napján kész oldalt kap a yourchurch.b1.church címen.",
+            "bullets": [
+              "Irányítsa rá saját domainjét CNAME vagy A rekorddal",
+              "Az SSL-tanúsítványok automatikusak",
+              "Ha szükséges, egy gyülekezethez több oldalt is készíthet"
+            ]
+          },
+          {
+            "title": "Fogd és vidd oldalszerkesztő",
+            "body": "Szekciókból és elemekből építse fel az oldalakat. Indulhat sablonból (nyitókép, rólunk, istentiszteletek, adakozás és más) vagy üres oszlopos elrendezésből.",
+            "bullets": [
+              "Szöveg, képek, gombok, kártyák, galériák, bizonyságtételek, GYIK és táblázatok",
+              "Videó, RSS-hírcsatornából készült podcast, élő közvetítés lejátszója, térképek és beágyazások",
+              "Visszaszámláló, statisztikák, munkatársi rács és logóelemek"
+            ]
+          },
+          {
+            "title": "Tartalom, amely magától frissül",
+            "body": "A gyülekezeti elemek ugyanabból az adatbázisból olvasnak, amelyet a munkatársai már használnak.",
+            "bullets": [
+              "Naptár havi rácsként vagy közelgő eseményekként, minden eseményhez külön oldallal",
+              "Istentiszteleti időpontok a jelenléti beállításokból",
+              "Csoportböngésző, űrlapok és regisztrációk",
+              "Adakozási űrlapok és kampányok haladási sávjai"
+            ]
+          },
+          {
+            "title": "Igehirdetések és élő közvetítés",
+            "body": "Igehirdetés-könyvtár sorozatonkénti lejátszási listákkal és minden üzenethez külön oldallal.",
+            "bullets": [
+              "Tömeges importálás YouTube-ról vagy Vimeóról",
+              "Élő közvetítések ütemezése csevegéssel"
+            ]
+          },
+          {
+            "title": "Beépített blog",
+            "body": "Tegyen közzé híreket és áhítatokat a /blog címen, RSS-hírcsatornával.",
+            "bullets": [
+              "Piszkozatok, ütemezett bejegyzések, kategóriák és címkék",
+              "Opcionális hozzászólások a Hyvor Talk, a FastComments vagy a Disqus segítségével"
+            ]
+          },
+          {
+            "title": "Az Ön stílusa, az Ön szabályai",
+            "body": "A színeket, betűtípusokat, térközöket, logókat és a navigációt Ön állítja be.",
+            "bullets": [
+              "Oldalak mindenkinek, csak tagoknak, csak munkatársaknak vagy meghatározott csoportoknak",
+              "Meta leírások, közösségi képek, átirányítások és Google Analytics 4",
+              "Közleménysáv, valamint egyéni CSS vagy JavaScript"
+            ]
+          }
+        ],
+        "faqTitle": "Kérdések a weboldal-készítőről",
+        "faq": [
+          {
+            "q": "Tényleg ingyenes a gyülekezeti weboldal-készítő?",
+            "a": "Igen. A készítő, a tárhely, az SSL és a saját domain támogatása ingyenes. Csak magáért a domainnévért fizet a domain-regisztrátornak."
+          },
+          {
+            "q": "Használhatom a saját domainemet?",
+            "a": "Igen. Vegyen fel egy CNAME vagy A rekordot a regisztrátornál, és a B1 automatikusan kiállítja az SSL-tanúsítványt."
+          },
+          {
+            "q": "Kell programozni tudnom?",
+            "a": "Nem. Az oldalak szekciók és elemek behúzásával készülnek. Egyéni CSS és JavaScript is rendelkezésre áll, ha szeretné."
+          },
+          {
+            "q": "Használhatjuk a B1-et nyilvános weboldal nélkül?",
+            "a": "Igen. Kikapcsolhatja a nyilvános oldalt, és a B1-et csak a tagi alkalmazásra, az adakozásra és a regisztrációkra használhatja."
+          }
+        ]
+      },
+      "giving": {
+        "name": "Online adakozás",
+        "meta": {
+          "title": "Ingyenes online adakozás gyülekezeteknek, díjmentesen | B1.church",
+          "description": "Gyülekezeti online adakozás B1 platformdíj nélkül. Használja saját Stripe, PayPal vagy Paystack fiókját: rendszeres adományok, ACH, Apple Pay, alapok, fogadalmak és év végi kimutatások."
+        },
+        "hero": {
+          "eyebrow": "Online adakozás",
+          "title": "Online adakozás platformdíj nélkül",
+          "subtitle": "A B1 soha nem kerül a pénz útjába. A gyülekezet a saját fizetési fiókját köti be, az adományok közvetlenül Önökhöz érkeznek, és a B1 nem tesz hozzá semmit. Csak a fizetésfeldolgozó díját fizeti."
+        },
+        "sections": [
+          {
+            "title": "Az Ön fiókja, az Ön pénze",
+            "body": "Minden gyülekezet a saját fizetési átjáróját köti be. A kártyaadatok soha nem érintik a ChurchApps szervereit.",
+            "bullets": [
+              "Stripe, egyszeri adományoknál Apple Pay és Google Pay támogatással",
+              "PayPal, Venmo gombokkal",
+              "Paystack Afrikában, mobilpénzzel és banki átutalással",
+              "Banki (ACH) adományok, vendégek számára azonnali ellenőrzéssel"
+            ]
+          },
+          {
+            "title": "Mibe kerül valójában",
+            "body": "A B1 nem számít fel platformdíjat, és nincsenek fizetős csomagjai. Az egyetlen költség a fizetésfeldolgozó díja, amely őket illeti, nem minket.",
+            "bullets": [
+              "A Stripe kedvezményes díjat kínál a jogosult nonprofit szervezeteknek (2.2% + $0.30 kártyás adományonként)",
+              "Az adakozók dönthetnek úgy, hogy átvállalják a feldolgozási díjat",
+              "Többdevizás adakozás a Stripe-pal 15 pénznemben"
+            ]
+          },
+          {
+            "title": "Rendszeres adakozás, amely magát helyrehozza",
+            "body": "A tagok rendszeres adományt állítanak be, és az alkalmazásból kezelik.",
+            "bullets": [
+              "A Stripe rendszeres adományai bármikor szüneteltethetők vagy folytathatók",
+              "A sikertelen adományok egy listában jelennek meg Újrapróbálás gombbal",
+              "Sikertelen adomány esetén az adakozó e-mailt kap, majd 3 és 7 nap múlva újra"
+            ]
+          },
+          {
+            "title": "Alapok, kampányok és fogadalmak",
+            "body": "Adjon az adakozóknak világos választási lehetőségeket, és kövessen nyomon minden célt.",
+            "bullets": [
+              "Adókedvezményes és rejtett alapok",
+              "Adakozási hivatkozások, amelyek előre kitöltik az alapot és az összeget",
+              "Kampányok célokkal, haladási sávokkal, valamint a vállalt és a teljesített összegek összevetésével",
+              "Névtelen adományok"
+            ]
+          },
+          {
+            "title": "Készpénz, csekkek és nyilvántartás",
+            "body": "Minden adomány egy helyre kerül, a személyek adatai mellett.",
+            "bullets": [
+              "Készpénz és csekkek kötegelt rögzítése",
+              "Hiányzó Stripe-tranzakciók importálása",
+              "Év végi kimutatások az Ön logójával, köztük kanadai, ausztrál és új-zélandi formátumban",
+              "A tagok megtekinthetik és kinyomtathatják saját adakozási előzményeiket"
+            ]
+          }
+        ],
+        "faqTitle": "Kérdések az online adakozásról",
+        "faq": [
+          {
+            "q": "Levon a B1 részt az adományokból?",
+            "a": "Nem. A B1-nek nincs platformdíja. Az adományok közvetlenül a gyülekezet saját Stripe, PayPal vagy Paystack fiókjába mennek, és Ön csak annak a fizetésfeldolgozónak a díját fizeti."
+          },
+          {
+            "q": "Mely fizetésfeldolgozók működnek a B1-gyel?",
+            "a": "A Stripe, a PayPal (Venmóval) és a Paystack. A Kingdom Funding béta változatban érhető el."
+          },
+          {
+            "q": "Adakozhatnak a tagok a telefonjukról?",
+            "a": "Igen. A tagok a gyülekezeti alkalmazásból vagy a weboldalról adakoznak, rendszeres adományt állítanak be, és látják a teljes adakozási előzményüket."
+          },
+          {
+            "q": "Rögzíthetjük a készpénzes és csekkes adományokat?",
+            "a": "Igen. Kötegekben vigye be őket, hogy minden adomány szerepeljen az év végi kimutatásokon."
+          }
+        ]
+      },
+      "checkin": {
+        "name": "Check-in rendszer",
+        "meta": {
+          "title": "Ingyenes gyülekezeti check-in szoftver gyermekszolgálathoz | B1.church",
+          "description": "Ingyenes gyülekezeti check-in: önkiszolgáló kioszkok, névkártyák, egyező átvételi kódok, vendégek QR-regisztrációja, termenkénti arányok és jelenléti jelentések. Olcsó táblagépeken fut."
+        },
+        "hero": {
+          "eyebrow": "Gyülekezeti check-in",
+          "title": "Gyors és biztonságos check-in minden családnak",
+          "subtitle": "A családok kioszkon vagy telefonról jelentkeznek be, a gyerekek egyező átvételi kódos névkártyát kapnak, a jelenlét pedig magától rögzítődik. Ingyenes, megfizethető táblagépeken és címkenyomtatókon."
+        },
+        "sections": [
+          {
+            "title": "Önkiszolgáló kioszkok",
+            "body": "Futtassa a B1 check-in alkalmazást egy megfizethető táblagépen.",
+            "bullets": [
+              "Ajánlott: Samsung Galaxy Tab A-series vagy Amazon Fire HD 10",
+              "A családok a telefonszám utolsó 4 számjegyével vagy névvel keresik meg magukat",
+              "Mindenki a megfelelő terembe kerül, kor- és évfolyam-iránymutatással",
+              "A kioszk színei és a készenléti képernyő diavetítése illeszkednek a gyülekezethez"
+            ]
+          },
+          {
+            "title": "Névkártyák és átvételi kódok",
+            "body": "Nyomtasson névcímkét minden gyereknek és átvételi cédulát a szülőnek, ugyanazzal a 4 karakteres biztonsági kóddal.",
+            "bullets": [
+              "Brother QL címkenyomtatók (ajánlott: QL-1110NWB) DK-1201 címkékkel",
+              "Tervezze meg saját címkéit",
+              "A címke bármikor újranyomtatható"
+            ]
+          },
+          {
+            "title": "Beépített gyermekbiztonság",
+            "body": "Kijelentkeztetési és teremkezelő eszközök, amelyek segítik az önkénteseket a gyerekek védelmében.",
+            "bullets": [
+              "Kijelentkeztetés biztonsági kóddal, kamerával vagy vonalkódolvasóval beolvasva",
+              "Átvételre jogosult és nem jogosult személyek listái",
+              "Teremkapacitás és önkéntes-arányok, amelyek figyelmeztetnek vagy tiltanak",
+              "Szülő kihívása vagy vészhelyzeti SMS küldése (SMS-szolgáltató szükséges)"
+            ]
+          },
+          {
+            "title": "A vendégek szívesen látottak",
+            "body": "Az első alkalommal érkező családok regisztrálhatnak a kioszkon vagy a saját telefonjukon.",
+            "bullets": [
+              "Vendégek regisztrációja QR-kóddal, az Ön által választott mezőkkel",
+              "A vendégek automatikus hozzáadása egy csoporthoz a követéshez"
+            ]
+          },
+          {
+            "title": "Bejelentkezés érkezés előtt",
+            "body": "A tagok a gyülekezeti alkalmazásból az egész háztartásukat bejelentkeztethetik."
+          },
+          {
+            "title": "Jelenlét, amely magától rögzítődik",
+            "body": "Minden check-in a B1Admin jelenléti jelentéseit táplálja.",
+            "bullets": [
+              "Heti összesítő, jelenléti trend és csoportonkénti jelenlét",
+              "Check-in időablakok minden istentiszteleti időponthoz",
+              "Csak létszám rögzítése a check-in nélküli alkalmakhoz"
+            ]
+          }
+        ],
+        "faqTitle": "Kérdések a check-inről",
+        "faq": [
+          {
+            "q": "Milyen hardverre van szükségünk?",
+            "a": "Kioszkonként egy táblagépre, névkártyákhoz pedig egy Brother QL címkenyomtatóra. Az ajánlott táblagépek közé tartozik a Samsung Galaxy Tab A-series és az Amazon Fire HD 10."
+          },
+          {
+            "q": "Ingyenes a check-in szoftver?",
+            "a": "Igen. A check-in a B1 része, amely tárhellyel együtt ingyenes. Csak a hardvert kell megvennie."
+          },
+          {
+            "q": "Hogyan viszik haza a szülők a gyerekeiket?",
+            "a": "A gyerek névkártyája és a szülő átvételi cédulája ugyanazt a 4 karakteres kódot viseli. Az önkéntesek átvételkor ellenőrzik vagy beolvassák a kódot."
+          },
+          {
+            "q": "Bejelentkezhetnek a látogatók?",
+            "a": "Igen. A vendégeket fel lehet venni a kioszkon, vagy QR-kódot olvashatnak be, és saját telefonjukon regisztrálhatnak."
+          }
+        ]
+      },
+      "about": {
+        "name": "Rólunk",
+        "meta": {
+          "title": "A B1-ről: ingyenes gyülekezeti szoftver nonprofittól | B1.church",
+          "description": "A B1 ingyenes, nyílt forráskódú gyülekezetkezelő szoftver, amelyet a Live Church Solutions, egy 501(c)(3) nonprofit szervezet készít. Hogyan ingyenes, ki finanszírozza, és mire számíthat."
+        },
+        "hero": {
+          "eyebrow": "A B1-ről",
+          "title": "Ingyenes gyülekezeti szoftver, nonprofit szervezettől",
+          "subtitle": "A B1-et a Live Church Solutions készíti, egy 501(c)(3) nonprofit szolgálat (EIN 45-5349618). Hisszük, hogy minden gyülekezet megérdemli a modern technológiát, bármekkora is a költségvetése."
+        },
+        "sections": [
+          {
+            "title": "Hogyan lehet a B1 ingyenes?",
+            "body": "A B1 szolgálat, nem üzlet. A fejlesztést és a tárhelyet adományok finanszírozzák, a Google Ad Grants támogatja, így a gyülekezeteknek soha nem kell fizetniük a szoftverért.",
+            "bullets": [
+              "Nincsenek fizetős csomagok, tagonkénti árazás vagy funkciókorlátok",
+              "A tárhely benne van",
+              "Nincs platformdíj az adományokon"
+            ]
+          },
+          {
+            "title": "Miért fizethet mégis",
+            "body": "Azt szeretnénk, ha az elejétől a teljes képet ismerné.",
+            "bullets": [
+              "Kártya- és banki feldolgozási díjak, amelyeket a saját fizetésfeldolgozójának fizet",
+              "Táblagépek és címkenyomtatók, ha kioszkos check-int használ",
+              "SMS-szolgáltató, ha SMS-eket szeretne küldeni",
+              "A domainneve, ha egyéni domaint használ",
+              "100 MB feletti további fájltárhely, amelyet Google Drive, Dropbox, OneDrive vagy S3 csatlakoztatásával is fedezhet"
+            ]
+          },
+          {
+            "title": "Nyílt forráskód",
+            "body": "A B1 teljes kódja nyilvános a GitHubon, mintegy 20 tárolóban.",
+            "bullets": [
+              "Bárki átnézheti, hogyan működik",
+              "Ha szeretné, saját szerveren is futtathatja Dockerrel vagy egykattintásos Railway-sablonnal"
+            ]
+          },
+          {
+            "title": "Az adatai az Öné maradnak",
+            "body": "Nincs bezártság.",
+            "bullets": [
+              "Importáljon a Planning Centerből, a Breeze-ből, a Tithe.ly-ból, a Pushpay (CCB) rendszeréből vagy bármilyen CSV- vagy Excel-fájlból a B1 Transferrel",
+              "Exportáljon teljes mentést a személyekről, csoportokról, adományokról, jelenlétről és űrlapokról",
+              "Alakítsa át adatait Breeze vagy Planning Center formátumra"
+            ]
+          },
+          {
+            "title": "Ingyenes eszközök egy családban",
+            "body": "A B1 a ChurchApps része, a FreeShow vetítőszoftver és a Lessons.church tananyag mellett. Egyetlen ingyenes fiók mindegyikben működik."
+          }
+        ],
+        "faqTitle": "Kérdések a B1-ről",
+        "faq": [
+          {
+            "q": "Tényleg ingyenes a B1?",
+            "a": "Igen. A szoftver és a tárhely ingyenes, csomagok és az adományokon felszámított platformdíj nélkül. Csak külső költségeket fizet, például a kártyafeldolgozási díjat a saját fizetésfeldolgozójának, és a hardvert, ha check-in kioszkokat használ."
+          },
+          {
+            "q": "Ki áll a B1 mögött?",
+            "a": "A Live Church Solutions, egy 501(c)(3) nonprofit szolgálat (EIN 45-5349618), amely a ChurchApps név alatt a FreeShow-t és a Lessons.church-öt is készíti."
+          },
+          {
+            "q": "Fog a B1 később pénzt kérni?",
+            "a": "A B1-et adományok és támogatások finanszírozzák, nem előfizetések, a kód pedig nyílt forráskódú. Ha valaha távozni szeretne, mindent exportálhat."
+          },
+          {
+            "q": "Hogyan kaphatunk segítséget?",
+            "a": "Látogassa meg a súgóközpontot a support.churchapps.org címen, vagy írjon a support@churchapps.org címre."
+          }
+        ]
       }
     },
     "notFound": {

@@ -417,13 +417,24 @@
       "meta": {
         "hubTitle": "Ako si B1 stojí v porovnaní",
         "hubDescription": "B1 je systém na správu zboru, s ktorým začnete. Ľudia, dary, check-in, web, aplikácia pre členov, plánovanie bohoslužieb. Navždy za 0 $. 501(c)(3).",
-        "detailTitle": "B1.church vs {{competitor}} - porovnanie bezplatného softvéru pre zbory",
+        "detailTitle": "Bezplatná alternatíva k {{competitor}} | B1.church vs {{competitor}}",
         "descriptions": {
           "planning-center": "B1 je celý balík za 0 $. Žiadne platené moduly navyše.",
           "pushpay": "Pushpay je platená platforma na dary. B1 zahŕňa dary bez poplatku za platformu a k tomu ľudí, check-in, web a plánovanie bohoslužieb.",
           "tithely": "Tithe.ly je firma na dary s pridaným softvérom pre zbory. B1 je systém na správu zboru, 100 % zadarmo vrátane hostingu. Dary sú súčasťou. Stripe pre neziskovky stojí 2,2 % + 0,30 $; „bezplatné“ dary Tithe.ly stoja 2,9 % + 0,30 $.",
           "breeze": "Breeze je platený, jednoduchý systém na správu zboru, ktorý spomínajú tí, čo odchádzajú z Planning Center. B1 stojí 0 $ a zahŕňa web, dary bez poplatku za platformu, check-in a plánovanie bohoslužieb. Ľudí z Breeze naimportujeme."
         }
+      },
+      "switching": {
+        "title": "Prechod z {{competitor}}",
+        "steps": [
+          "Vytvorte si bezplatný účet B1. Trvá to pár minút a nevyžaduje kreditnú kartu.",
+          "Importujte ľudí, skupiny a záznamy o daroch pomocou B1 Transfer, ktorý číta exporty z Planning Center, Breeze, Tithe.ly a Pushpay (CCB) alebo ľubovoľný súbor CSV či Excel.",
+          "Pripojte vlastný účet Stripe, PayPal alebo Paystack vašej cirkvi pre online dary.",
+          "Zverejnite web a aplikáciu pre členov a nastavte check-in, ak ho používate.",
+          "Pozvite svoje zhromaždenie, aby sa prihlásilo."
+        ],
+        "note": "Rozmysleli ste si to? Kedykoľvek exportujte kompletnú zálohu alebo skonvertujte dáta späť do formátu Breeze či Planning Center."
       },
       "notFound": {
         "title": "Ako si B1 stojí v porovnaní",
@@ -850,6 +861,420 @@
           "title": "Prístup podľa rolí",
           "description": "Bezpečné oprávnenia pre personál a dobrovoľníkov"
         }
+      }
+    },
+    "pages": {
+      "app": {
+        "name": "Cirkevná aplikácia",
+        "meta": {
+          "title": "Bezplatná cirkevná aplikácia pre vašich členov | B1.church",
+          "description": "Bezplatná aplikácia s názvom a logom vašej cirkvi: adresár, skupiny, správy, dary, check-in, kázne a push upozornenia. Inštaluje sa z webu cirkvi."
+        },
+        "hero": {
+          "eyebrow": "Bezplatná cirkevná aplikácia",
+          "title": "Vlastná aplikácia vašej cirkvi, zadarmo",
+          "subtitle": "Členovia majú jedno miesto pre skupiny, správy, dary, check-in, kázne a udalosti. Aplikácia nesie názov a logo vašej cirkvi, nainštaluje sa z webu cirkvi za pár sekúnd a je vždy aktuálna."
+        },
+        "sections": [
+          {
+            "title": "Inštalácia za pár sekúnd",
+            "body": "Vaša aplikácia beží na B1 adrese vašej cirkvi a nainštaluje sa priamo na domovskú obrazovku, na celú obrazovku a s odznakom neprečítaných správ.",
+            "bullets": [
+              "iPhone: otvorte web cirkvi v Safari, ťuknite na Zdieľať a potom na Pridať na plochu",
+              "Android: inštalácia jedným ťuknutím z Chrome",
+              "Návštevníci z počítača uvidia QR kód, ktorým aplikáciu pošlú do telefónu",
+              "Členovia sa prihlasujú e-mailom, cez Google alebo Microsoft"
+            ]
+          },
+          {
+            "title": "Skupiny a správy",
+            "body": "Malé skupiny, služby a tímy zostávajú v spojení bez samostatnej chatovacej aplikácie.",
+            "bullets": [
+              "Prehliadanie skupín a žiadosti o pripojenie",
+              "Skupinový chat a oznamy iba od vedúcich",
+              "Odpovede na udalosti: Idem, Možno alebo Nemôžem",
+              "Súkromné správy s minimálnym vekom, ktorý si určíte vy"
+            ]
+          },
+          {
+            "title": "Adresár pod vašou kontrolou",
+            "body": "Členovia sa môžu navzájom nájsť a osloviť správou, hovorom alebo SMS. Vy rozhodujete, kto čo vidí.",
+            "bullets": [
+              "Vyhľadávanie s fotografiami a profilmi",
+              "Úrovne viditeľnosti: všetci, členovia, iba skupiny, vedúci skupín alebo iba zamestnanci"
+            ]
+          },
+          {
+            "title": "Upozornenia, ktoré naozaj dorazia",
+            "body": "Push upozornenia, zvonček v aplikácii a e-mail, voliteľne aj textové správy.",
+            "bullets": [
+              "Každý člen si volí nastavenia podľa typu a denný e-mailový prehľad",
+              "Tiché hodiny, aby nikoho nebudilo o polnoci"
+            ]
+          },
+          {
+            "title": "Dary, check-in a služba",
+            "body": "Tá istá aplikácia rieši všetko, čo členovia robia každý týždeň.",
+            "bullets": [
+              "Jednorazové alebo pravidelné dary a história darov",
+              "Check-in celej domácnosti ešte pred príchodom",
+              "Zobrazenie rozpisu služieb a prihlásenie sa ako dobrovoľník",
+              "Prihlásenie členov rodiny na udalosti, aj platené"
+            ]
+          },
+          {
+            "title": "Kázne a Biblia",
+            "body": "Udržte ľudí v kontakte s vyučovaním počas celého týždňa.",
+            "bullets": [
+              "Knižnica kázní a živý prenos s chatom",
+              "Vstavaný čítač Biblie a verš dňa",
+              "Zamestnanci vyberú, ktoré karty sa zobrazia a čo uvidia návštevníci pred prihlásením"
+            ]
+          }
+        ],
+        "faqTitle": "Otázky o cirkevnej aplikácii",
+        "faq": [
+          {
+            "q": "Koľko stojí cirkevná aplikácia?",
+            "a": "Nič. Aplikácia pre členov, hosting a všetky funkcie sú zadarmo. B1 vytvára Live Church Solutions, nezisková organizácia 501(c)(3)."
+          },
+          {
+            "q": "Zobrazuje aplikácia názov a logo našej cirkvi?",
+            "a": "Áno. Členovia ju inštalujú z B1 webu vašej cirkvi a nesie názov a logo cirkvi."
+          },
+          {
+            "q": "Musia členovia niečo inštalovať, aby ju mohli používať?",
+            "a": "Nie. Funguje v každom prehliadači a tí, ktorí chcú ikonu na domovskej obrazovke, ju pridajú za pár ťuknutí."
+          },
+          {
+            "q": "Funguje aj offline?",
+            "a": "Aplikácia potrebuje pripojenie na internet; neukladá obsah na používanie offline."
+          }
+        ]
+      },
+      "websiteBuilder": {
+        "name": "Tvorca webov",
+        "meta": {
+          "title": "Bezplatný tvorca webu cirkvi s hostingom | B1.church",
+          "description": "Vytvorte web cirkvi zadarmo: sekcie drag-and-drop, kázne, udalosti, dary, formuláre a blog. Vlastná doména a SSL v cene. Žiadny účet za hosting."
+        },
+        "hero": {
+          "eyebrow": "Bezplatný tvorca webu cirkvi",
+          "title": "Web cirkvi, ktorý sa aktualizuje sám",
+          "subtitle": "Stránky skladané presúvaním preberajú kázne, udalosti, skupiny, časy bohoslužieb a dary priamo z B1, takže váš web nikdy nezastaré. Hosting, SSL a vlastná doména sú v cene bez poplatku."
+        },
+        "sections": [
+          {
+            "title": "Začnite za pár minút",
+            "body": "Každá cirkev dostane hotový web na yourchurch.b1.church už v deň registrácie.",
+            "bullets": [
+              "Nasmerujte vlastnú doménu záznamom CNAME alebo A",
+              "Certifikáty SSL sa vydávajú automaticky",
+              "Ak treba, vytvorte pre jednu cirkev viac webov"
+            ]
+          },
+          {
+            "title": "Editor stránok drag-and-drop",
+            "body": "Skladajte stránky zo sekcií a prvkov. Začnite šablónou (úvod, o nás, bohoslužby, dary a ďalšie) alebo prázdnym rozložením do stĺpcov.",
+            "bullets": [
+              "Text, obrázky, tlačidlá, karty, galérie, svedectvá, často kladené otázky a tabuľky",
+              "Video, podcast z RSS kanála, prehrávač živého prenosu, mapy a vložený obsah",
+              "Odpočítavanie, štatistiky, mriežka zamestnancov a prvky s logom"
+            ]
+          },
+          {
+            "title": "Obsah, ktorý sa aktualizuje sám",
+            "body": "Prvky určené pre cirkev čítajú z tej istej databázy, ktorú už používajú vaši zamestnanci.",
+            "bullets": [
+              "Kalendár ako mesačná mriežka alebo zoznam nadchádzajúcich udalostí, s vlastnou stránkou pre každú udalosť",
+              "Časy bohoslužieb z nastavenia dochádzky",
+              "Prehliadač skupín, formuláre a registrácie",
+              "Formuláre na dary a ukazovatele priebehu zbierok"
+            ]
+          },
+          {
+            "title": "Kázne a živý prenos",
+            "body": "Knižnica kázní so zoznamami seriálov a vlastnou stránkou pre každé posolstvo.",
+            "bullets": [
+              "Hromadný import z YouTube alebo Vimeo",
+              "Plán živých prenosov s chatom"
+            ]
+          },
+          {
+            "title": "Vstavaný blog",
+            "body": "Zverejňujte novinky a zamyslenia na /blog s RSS kanálom.",
+            "bullets": [
+              "Koncepty, plánované príspevky, kategórie a štítky",
+              "Voliteľné komentáre cez Hyvor Talk, FastComments alebo Disqus"
+            ]
+          },
+          {
+            "title": "Váš vzhľad, vaše pravidlá",
+            "body": "Farby, písma, odsadenia, logá a navigáciu si nastavíte sami.",
+            "bullets": [
+              "Stránky pre všetkých, iba pre členov, iba pre zamestnancov alebo pre vybrané skupiny",
+              "Meta popisy, obrázok na zdieľanie, presmerovania a Google Analytics 4",
+              "Banner s oznamom a vlastné CSS alebo JavaScript"
+            ]
+          }
+        ],
+        "faqTitle": "Otázky o tvorcovi webov",
+        "faq": [
+          {
+            "q": "Je tvorca webu pre cirkvi naozaj zadarmo?",
+            "a": "Áno. Tvorca, hosting, SSL aj podpora vlastnej domény sú zadarmo. Registrátorovi platíte len za samotný názov domény."
+          },
+          {
+            "q": "Môžem použiť vlastnú doménu?",
+            "a": "Áno. Pridajte záznam CNAME alebo A u svojho registrátora a B1 automaticky vydá certifikát SSL."
+          },
+          {
+            "q": "Musím vedieť programovať?",
+            "a": "Nie. Stránky sa skladajú presúvaním sekcií a prvkov. Vlastné CSS a JavaScript tam sú, ak ich chcete."
+          },
+          {
+            "q": "Môžeme používať B1 bez verejného webu?",
+            "a": "Áno. Verejný web môžete vypnúť a B1 používať iba na aplikáciu pre členov, dary a registrácie."
+          }
+        ]
+      },
+      "giving": {
+        "name": "Online dary",
+        "meta": {
+          "title": "Bezplatné online dary pre cirkvi, bez poplatku platforme | B1.church",
+          "description": "Online dary pre cirkvi bez poplatku platforme B1. Použite vlastný účet Stripe, PayPal alebo Paystack: pravidelné dary, ACH, Apple Pay, fondy, sľuby a ročné výpisy."
+        },
+        "hero": {
+          "eyebrow": "Online dary",
+          "title": "Online dary bez poplatku platforme",
+          "subtitle": "B1 nikdy nestojí v ceste peňazí. Vaša cirkev pripojí vlastný platobný účet, dary idú priamo vám a B1 nepridáva nič navyše. Platíte len sadzbu svojho spracovateľa platieb."
+        },
+        "sections": [
+          {
+            "title": "Váš účet, vaše peniaze",
+            "body": "Každá cirkev si pripojí vlastnú platobnú bránu. Údaje o kartách sa nikdy nedostanú na servery ChurchApps.",
+            "bullets": [
+              "Stripe vrátane Apple Pay a Google Pay pri jednorazových daroch",
+              "PayPal s tlačidlami Venmo",
+              "Paystack v celej Afrike, s mobilnými peniazmi a bankovým prevodom",
+              "Dary z bankového účtu (ACH) s okamžitým overením pre hostí"
+            ]
+          },
+          {
+            "title": "Koľko to naozaj stojí",
+            "body": "B1 si neúčtuje poplatok za platformu a nemá platené balíky. Jediným nákladom je sadzba vášho spracovateľa platieb, ktorá ide jemu, nie nám.",
+            "bullets": [
+              "Stripe ponúka zvýhodnené sadzby oprávneným neziskovým organizáciám (2,2 % + 0,30 $ za darovanie kartou)",
+              "Darcovia sa môžu rozhodnúť, že pokryjú poplatok za spracovanie",
+              "Dary vo viacerých menách cez Stripe v 15 menách"
+            ]
+          },
+          {
+            "title": "Pravidelné dary, ktoré sa samy napravia",
+            "body": "Členovia si nastavia pravidelné dary a spravujú ich z aplikácie.",
+            "bullets": [
+              "Pravidelné dary cez Stripe môžete kedykoľvek pozastaviť alebo obnoviť",
+              "Neúspešné dary sú v jednom zozname s tlačidlom Skúsiť znova",
+              "Darca dostane e-mail, keď sa dar nepodarí, a znova o 3 a 7 dní neskôr"
+            ]
+          },
+          {
+            "title": "Fondy, zbierky a sľuby",
+            "body": "Dajte darcom jasné možnosti a sledujte každý cieľ.",
+            "bullets": [
+              "Fondy odpočítateľné z daní a skryté fondy",
+              "Odkazy na dary s predvoleným fondom a sumou",
+              "Zbierky s cieľmi, ukazovateľmi priebehu a súčtami sľúbeného oproti darovanému",
+              "Anonymné dary"
+            ]
+          },
+          {
+            "title": "Hotovosť, šeky a evidencia",
+            "body": "Všetko, čo sa daruje, končí na jednom mieste spolu s údajmi o ľuďoch.",
+            "bullets": [
+              "Dávkové zadávanie hotovosti a šekov",
+              "Import chýbajúcich transakcií zo Stripe",
+              "Ročné výpisy s vaším logom vrátane formátov pre Kanadu, Austráliu a Nový Zéland",
+              "Členovia si môžu pozrieť a vytlačiť vlastnú históriu darov"
+            ]
+          }
+        ],
+        "faqTitle": "Otázky o online daroch",
+        "faq": [
+          {
+            "q": "Berie si B1 podiel z darov?",
+            "a": "Nie. B1 nemá poplatok za platformu. Dary idú priamo na vlastný účet Stripe, PayPal alebo Paystack vašej cirkvi a platíte len sadzbu daného spracovateľa."
+          },
+          {
+            "q": "S ktorými spracovateľmi platieb B1 funguje?",
+            "a": "Stripe, PayPal (s Venmo) a Paystack. Kingdom Funding je dostupný v beta verzii."
+          },
+          {
+            "q": "Môžu členovia darovať z telefónu?",
+            "a": "Áno. Členovia darujú z cirkevnej aplikácie alebo z webu, nastavia si pravidelné dary a vidia celú históriu svojich darov."
+          },
+          {
+            "q": "Môžeme zaznamenávať dary v hotovosti a šekoch?",
+            "a": "Áno. Zadávajte ich v dávkach, aby sa každý dar objavil v ročných výpisoch."
+          }
+        ]
+      },
+      "checkin": {
+        "name": "Detský check-in",
+        "meta": {
+          "title": "Bezplatný check-in pre cirkvi a detskú službu | B1.church",
+          "description": "Bezplatný cirkevný check-in so samoobslužnými kioskami, menovkami, zhodnými kódmi na vyzdvihnutie, QR registráciou hostí, limitmi v miestnostiach a správami o dochádzke. Beží na lacných tabletoch."
+        },
+        "hero": {
+          "eyebrow": "Cirkevný check-in",
+          "title": "Rýchly a bezpečný check-in pre každú rodinu",
+          "subtitle": "Rodiny sa prihlasujú pri kiosku alebo z telefónu, deti dostanú menovky so zhodným kódom na vyzdvihnutie a dochádzka sa zaznamenáva sama. Zadarmo, na cenovo dostupných tabletoch a tlačiarňach štítkov."
+        },
+        "sections": [
+          {
+            "title": "Samoobslužné kiosky",
+            "body": "Spustite check-in aplikáciu B1 na cenovo dostupnom tablete.",
+            "bullets": [
+              "Odporúčame: Samsung Galaxy Tab A-series alebo Amazon Fire HD 10",
+              "Rodiny sa vyhľadajú podľa posledných 4 číslic telefónneho čísla alebo podľa mena",
+              "Každý človek je zaradený do správnej miestnosti, s usmernením podľa veku a ročníka",
+              "Farby kiosku a prezentácia na úvodnej obrazovke zodpovedajú vašej cirkvi"
+            ]
+          },
+          {
+            "title": "Menovky a kódy na vyzdvihnutie",
+            "body": "Vytlačte menovku pre každé dieťa a potvrdenku pre rodiča s rovnakým 4-znakovým bezpečnostným kódom.",
+            "bullets": [
+              "Tlačiarne štítkov Brother QL (odporúčame QL-1110NWB) so štítkami DK-1201",
+              "Navrhnite si vlastné štítky",
+              "Štítok môžete kedykoľvek vytlačiť znova"
+            ]
+          },
+          {
+            "title": "Bezpečnosť detí vstavaná",
+            "body": "Nástroje na odovzdávanie detí a správu miestností, ktoré pomáhajú dobrovoľníkom chrániť deti.",
+            "bullets": [
+              "Odovzdanie dieťaťa podľa bezpečnostného kódu, naskenovaného kamerou alebo čítačkou čiarových kódov",
+              "Zoznamy osôb oprávnených a neoprávnených vyzdvihnúť dieťa",
+              "Kapacita miestností a pomer dobrovoľníkov, ktoré upozornia alebo zablokujú",
+              "Zavolanie rodiča alebo núdzová SMS (vyžaduje poskytovateľa SMS)"
+            ]
+          },
+          {
+            "title": "Hostia sú vítaní",
+            "body": "Rodiny, ktoré prišli prvýkrát, sa môžu zaregistrovať pri kiosku alebo na vlastnom telefóne.",
+            "bullets": [
+              "Registrácia hostí cez QR kód s poľami, ktoré si zvolíte",
+              "Automatické pridanie hostí do skupiny na ďalšie kontaktovanie"
+            ]
+          },
+          {
+            "title": "Check-in ešte pred príchodom",
+            "body": "Členovia môžu prihlásiť celú domácnosť priamo z cirkevnej aplikácie."
+          },
+          {
+            "title": "Dochádzka, ktorá sa zapisuje sama",
+            "body": "Každý check-in napĺňa vaše správy o dochádzke v B1Admin.",
+            "bullets": [
+              "Týždenný prehľad, trend dochádzky a dochádzka podľa skupín",
+              "Okná check-inu pre každý čas bohoslužby",
+              "Zadávanie len počtu ľudí pre stretnutia bez check-inu"
+            ]
+          }
+        ],
+        "faqTitle": "Otázky o check-ine",
+        "faq": [
+          {
+            "q": "Aké vybavenie potrebujeme?",
+            "a": "Tablet pre každý kiosk a, ak chcete menovky, tlačiareň štítkov Brother QL. Medzi odporúčané tablety patria Samsung Galaxy Tab A-series a Amazon Fire HD 10."
+          },
+          {
+            "q": "Je softvér na check-in zadarmo?",
+            "a": "Áno. Check-in je súčasťou B1, ktorý je zadarmo vrátane hostingu. Kupujete len hardvér."
+          },
+          {
+            "q": "Ako si rodičia vyzdvihnú deti?",
+            "a": "Menovka dieťaťa a potvrdenka rodiča majú rovnaký 4-znakový kód. Dobrovoľníci kód pri vyzdvihnutí skontrolujú alebo naskenujú."
+          },
+          {
+            "q": "Môžu sa hostia zaregistrovať?",
+            "a": "Áno. Hostí možno pridať pri kiosku alebo si môžu naskenovať QR kód a zaregistrovať sa na vlastnom telefóne."
+          }
+        ]
+      },
+      "about": {
+        "name": "O nás",
+        "meta": {
+          "title": "O B1: bezplatný cirkevný softvér od neziskovky | B1.church",
+          "description": "B1 je bezplatný cirkevný softvér s otvoreným kódom od Live Church Solutions, neziskovej organizácie 501(c)(3). Prečo je zadarmo, kto ho financuje a čo môžete očakávať."
+        },
+        "hero": {
+          "eyebrow": "O B1",
+          "title": "Bezplatný cirkevný softvér od neziskovej organizácie",
+          "subtitle": "B1 vytvára Live Church Solutions, nezisková služba 501(c)(3) (EIN 45-5349618). Veríme, že každá cirkev si zaslúži moderné technológie, nech má akýkoľvek rozpočet."
+        },
+        "sections": [
+          {
+            "title": "Ako je B1 zadarmo?",
+            "body": "B1 je služba, nie podnik. Vývoj a hosting sa financujú z darov a podporuje ich Google Ad Grants, takže cirkvi za softvér nikdy neplatia.",
+            "bullets": [
+              "Žiadne platené balíky, žiadna cena za člena, žiadne obmedzenia funkcií",
+              "Hosting je v cene",
+              "Žiadny poplatok platforme z darov"
+            ]
+          },
+          {
+            "title": "Za čo možno budete stále platiť",
+            "body": "Chceme, aby ste hneď na začiatku poznali celý obraz.",
+            "bullets": [
+              "Poplatky za spracovanie kariet a bankových platieb, ktoré platíte vlastnému spracovateľovi platieb",
+              "Tablety a tlačiarne štítkov, ak používate check-in kiosky",
+              "Poskytovateľ SMS, ak chcete posielať textové správy",
+              "Názov domény, ak používate vlastnú",
+              "Úložisko navyše nad 100 MB, ktoré môžete pokryť aj prepojením Google Drive, Dropbox, OneDrive alebo S3"
+            ]
+          },
+          {
+            "title": "Otvorený kód",
+            "body": "Celý kód B1 je verejný na GitHube v približne 20 repozitároch.",
+            "bullets": [
+              "Ktokoľvek si môže overiť, ako to funguje",
+              "Ak chcete, prevádzkujte si ho sami cez Docker alebo šablónu Railway na jedno kliknutie"
+            ]
+          },
+          {
+            "title": "Vaše dáta zostávajú vaše",
+            "body": "Nie ste nikde uzamknutí.",
+            "bullets": [
+              "Importujte z Planning Center, Breeze, Tithe.ly, Pushpay (CCB) alebo z ľubovoľného súboru CSV či Excel pomocou B1 Transfer",
+              "Exportujte kompletnú zálohu ľudí, skupín, darov, dochádzky a formulárov",
+              "Skonvertujte svoje dáta do formátov Breeze alebo Planning Center"
+            ]
+          },
+          {
+            "title": "Jedna rodina bezplatných nástrojov",
+            "body": "B1 je súčasťou ChurchApps spolu s prezentačným softvérom FreeShow a učebnými materiálmi Lessons.church. Jeden bezplatný účet funguje vo všetkých."
+          }
+        ],
+        "faqTitle": "Otázky o B1",
+        "faq": [
+          {
+            "q": "Je B1 naozaj zadarmo?",
+            "a": "Áno. Softvér a hosting sú zadarmo, bez balíkov a bez poplatku platforme z darov. Platíte len vonkajšie náklady, napríklad poplatky za spracovanie kariet svojmu spracovateľovi platieb, a hardvér, ak používate check-in kiosky."
+          },
+          {
+            "q": "Kto stojí za B1?",
+            "a": "Live Church Solutions, nezisková služba 501(c)(3) (EIN 45-5349618), ktorá pod názvom ChurchApps vytvára aj FreeShow a Lessons.church."
+          },
+          {
+            "q": "Začne B1 neskôr vyberať poplatky?",
+            "a": "B1 sa financuje z darov a grantov, nie z predplatného, a kód je otvorený. Ak by ste niekedy chceli odísť, môžete exportovať všetko."
+          },
+          {
+            "q": "Ako získame pomoc?",
+            "a": "Navštívte centrum pomoci na support.churchapps.org alebo napíšte na support@churchapps.org."
+          }
+        ]
       }
     },
     "notFound": {

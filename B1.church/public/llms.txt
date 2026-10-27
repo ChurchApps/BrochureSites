@@ -5,10 +5,19 @@
 ## Quick Facts
 - Price: 100% Free including hosting (no hidden fees, forever free)
 - Type: Church Management Software / Church App Platform
-- Flagship page: https://b1.church/en/church-management/
 - Platforms: Web; member app installs as a PWA on iOS and Android
 - Target: Churches, Ministries, Religious Organizations
 - Developer: Live Church Solutions (501c3 Nonprofit, EIN 45-5349618)
+
+## Key Pages
+- [Free church management software](https://b1.church/en/church-management/): the whole platform at $0, including hosting
+- [Church app](https://b1.church/en/church-app/): the member app (PWA) with groups, messaging, giving, and check-in
+- [Church website builder](https://b1.church/en/church-website-builder/): drag-and-drop sites with sermons, events, and giving
+- [Online giving](https://b1.church/en/church-giving/): no B1 platform fee; use your own Stripe, PayPal, or Paystack account
+- [Church check-in](https://b1.church/en/church-check-in/): kiosks, name tags, pickup codes, and attendance
+- [About B1](https://b1.church/en/about/): who builds B1, how it is free, and what you may still pay for
+- [FAQ](https://b1.church/en/faq/)
+- [B1 vs Planning Center](https://b1.church/en/compare/planning-center/), [B1 vs Pushpay](https://b1.church/en/compare/pushpay/), [B1 vs Tithe.ly](https://b1.church/en/compare/tithely/), [B1 vs Breeze](https://b1.church/en/compare/breeze/)
 
 ## Core Features
 
@@ -29,16 +38,16 @@
 - Integrated with all B1 features
 
 ### Digital Giving
-- Online donations via credit card and bank transfer
+- Online donations by card, bank (ACH), Apple Pay, and Google Pay through your own Stripe, PayPal, or Paystack account
 - Recurring giving options
 - Multiple fund management
-- Giving history and tax statements
+- Giving history and year-end statements
 - Giving included, no B1 platform fee
 
 ### Self-Service Check-in (B1Checkin)
-- Self-check-in kiosks on affordable Android tablets (~$150)
+- Self-check-in kiosks on affordable tablets (Samsung Galaxy Tab A-series or Amazon Fire HD 10 recommended)
 - Family check-in with phone number lookup
-- Wireless name tag printing with matching parent pickup security codes
+- Name tags on Brother QL label printers with matching parent pickup security codes
 - Guest registration by QR code
 - Attendance recorded automatically in B1Admin
 
@@ -81,7 +90,7 @@ B1 is the ChMS you start on. Whole stack at $0. No platform fee on gifts. You st
 
 ### B1 vs Breeze
 - Breeze is a paid, simple ChMS. B1 is $0 and includes the website, giving with no platform fee, check-in, and worship planning.
-- We import Breeze people.
+- B1 Transfer imports people, groups, and giving from Breeze.
 
 ## Why Free?
 B1.church is built by Live Church Solutions, a 501(c)(3) nonprofit ministry. We believe every church deserves access to modern technology regardless of budget. The platform is funded by donations and supported by Google Ad Grants.
@@ -104,24 +113,23 @@ B1.church is built by Live Church Solutions, a 501(c)(3) nonprofit ministry. We 
 
 ### Lessons.church
 - Free church curriculum platform
-- 189 studies, 1,119 lessons available
 - Preschool, elementary, teen, and adult content
 - TV and mobile apps available
 - Completely free for all churches
 
 ## Links
-- Website: https://b1.church
-- Parent Organization: https://churchapps.org
-- Support: https://support.churchapps.org
-- FreeShow: https://freeshow.app
-- Lessons.church: https://lessons.church
+- [B1.church](https://b1.church)
+- [ChurchApps (parent organization)](https://churchapps.org)
+- [Help center](https://support.churchapps.org)
+- [FreeShow](https://freeshow.app)
+- [Lessons.church](https://lessons.church)
 - Contact: support@churchapps.org | 918-994-2638
 
 ## Technical Details
-- Open Source: https://github.com/ChurchApps
-- API Documentation: Available on GitHub
-- Self-hosting: Possible with open source code
-- Data Export: Full data portability
+- Open Source: [github.com/ChurchApps](https://github.com/ChurchApps)
+- Self-hosting: Docker images or a one-click Railway template
+- Migration: [B1 Transfer](https://transfer.b1.church) imports from Planning Center, Breeze, Tithe.ly, Pushpay (CCB), and CSV/Excel
+- Data Export: full backup zip, or conversion to Breeze or Planning Center formats
 
 ---
 This file follows the llms.txt standard for AI/LLM discoverability.

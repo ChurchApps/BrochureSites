@@ -417,13 +417,24 @@
       "meta": {
         "hubTitle": "B1 im Vergleich",
         "hubDescription": "B1 ist die Gemeindeverwaltung, mit der Sie starten. Personen, Spenden, Check-in, Website, Mitglieder-App, Gottesdienstplanung. Für immer 0 $. 501(c)(3).",
-        "detailTitle": "B1.church vs. {{competitor}} - Vergleich kostenloser Gemeindesoftware",
+        "detailTitle": "Kostenlose Alternative zu {{competitor}} | B1.church vs {{competitor}}",
         "descriptions": {
           "planning-center": "B1 ist das komplette Paket für 0 $. Keine kostenpflichtigen Zusatzmodule.",
           "pushpay": "Pushpay ist eine kostenpflichtige Spendenplattform. B1 enthält Spenden ohne Plattformgebühr, dazu Personen, Check-in, Website und Gottesdienstplanung.",
           "tithely": "Tithe.ly ist ein Spendenunternehmen mit angehängter Gemeindesoftware. B1 ist die Gemeindeverwaltung, 100 % kostenlos inklusive Hosting. Spenden sind inbegriffen. Stripe für Gemeinnützige kostet 2,2 % + 0,30 $; die „kostenlosen“ Spenden von Tithe.ly kosten 2,9 % + 0,30 $.",
           "breeze": "Breeze ist eine kostenpflichtige, einfache Gemeindeverwaltung, die oft genannt wird, wenn Gemeinden Planning Center verlassen. B1 kostet 0 $ und enthält Website, Spenden ohne Plattformgebühr, Check-in und Gottesdienstplanung. Wir importieren Ihre Personen aus Breeze."
         }
+      },
+      "switching": {
+        "title": "Wechsel von {{competitor}}",
+        "steps": [
+          "Erstellen Sie Ihr kostenloses B1-Konto. Das dauert wenige Minuten und braucht keine Kreditkarte.",
+          "Importieren Sie Personen, Gruppen und Spendendaten mit B1 Transfer, das Exporte von Planning Center, Breeze, Tithe.ly und Pushpay (CCB) oder jede CSV- oder Excel-Datei einliest.",
+          "Verbinden Sie das eigene Stripe-, PayPal- oder Paystack-Konto Ihrer Gemeinde für Online-Spenden.",
+          "Veröffentlichen Sie Ihre Website und Mitglieder-App und richten Sie das Check-in ein, falls Sie es nutzen.",
+          "Laden Sie Ihre Gemeinde zur Anmeldung ein."
+        ],
+        "note": "Anders entschieden? Exportieren Sie jederzeit ein vollständiges Backup oder wandeln Sie Ihre Daten zurück ins Breeze- oder Planning-Center-Format um."
       },
       "notFound": {
         "title": "So schneidet B1 im Vergleich ab",
@@ -850,6 +861,420 @@
           "title": "Rollenbasierter Zugriff",
           "description": "Sichere Berechtigungen für Mitarbeitende und Ehrenamtliche"
         }
+      }
+    },
+    "pages": {
+      "app": {
+        "name": "Gemeinde-App",
+        "meta": {
+          "title": "Kostenlose Gemeinde-App für Ihre Mitglieder | B1.church",
+          "description": "Eine kostenlose Mitglieder-App mit Name und Logo Ihrer Gemeinde: Verzeichnis, Gruppen, Nachrichten, Spenden, Check-in, Predigten und Push-Benachrichtigungen. Installation über Ihre Gemeinde-Website."
+        },
+        "hero": {
+          "eyebrow": "Kostenlose Gemeinde-App",
+          "title": "Die eigene App Ihrer Gemeinde, kostenlos",
+          "subtitle": "Mitglieder finden an einem Ort Gruppen, Nachrichten, Spenden, Check-in, Predigten und Veranstaltungen. Die App trägt Name und Logo Ihrer Gemeinde, lässt sich in Sekunden über Ihre Website installieren und ist immer auf dem neuesten Stand."
+        },
+        "sections": [
+          {
+            "title": "In Sekunden installiert",
+            "body": "Ihre App liegt unter der B1-Adresse Ihrer Gemeinde und wird direkt auf dem Startbildschirm installiert, im Vollbild und mit Zähler für ungelesene Nachrichten.",
+            "bullets": [
+              "iPhone: Gemeinde-Website in Safari öffnen, auf Teilen tippen, dann Zum Home-Bildschirm",
+              "Android: Installation mit einem Tipp über Chrome",
+              "Besucher am Computer sehen einen QR-Code, um die App aufs Smartphone zu schicken",
+              "Mitglieder melden sich mit E-Mail, Google oder Microsoft an"
+            ]
+          },
+          {
+            "title": "Gruppen und Nachrichten",
+            "body": "Kleingruppen, Dienstbereiche und Teams bleiben in Kontakt, ohne eine separate Chat-App.",
+            "bullets": [
+              "Gruppen entdecken und Beitritt anfragen",
+              "Gruppenchat und Ankündigungen nur für Leiter",
+              "Zusagen zu Veranstaltungen: Komme, Vielleicht oder Kann nicht",
+              "Private Nachrichten, mit einem Mindestalter, das Sie festlegen"
+            ]
+          },
+          {
+            "title": "Ein Verzeichnis unter Ihrer Kontrolle",
+            "body": "Mitglieder können sich finden und per Nachricht, Anruf oder SMS Kontakt aufnehmen. Sie bestimmen, wer was sieht.",
+            "bullets": [
+              "Suche mit Fotos und Profilen",
+              "Sichtbarkeitsstufen: alle, Mitglieder, nur Gruppen, Gruppenleiter oder nur Mitarbeiter"
+            ]
+          },
+          {
+            "title": "Benachrichtigungen, die ankommen",
+            "body": "Push-Benachrichtigungen, eine Glocke in der App und E-Mail, optional auch per SMS.",
+            "bullets": [
+              "Jedes Mitglied wählt Einstellungen je Art und eine tägliche E-Mail-Zusammenfassung",
+              "Ruhezeiten, damit niemand um Mitternacht gestört wird"
+            ]
+          },
+          {
+            "title": "Spenden, Check-in und Mitarbeit",
+            "body": "Dieselbe App erledigt, was Mitglieder jede Woche tun.",
+            "bullets": [
+              "Einmalig spenden oder regelmäßige Spenden einrichten und den Spendenverlauf einsehen",
+              "Die ganze Familie schon vor der Ankunft einchecken",
+              "Einsatzpläne ansehen und sich als Mitarbeiter eintragen",
+              "Familienmitglieder zu Veranstaltungen anmelden, auch kostenpflichtigen"
+            ]
+          },
+          {
+            "title": "Predigten und die Bibel",
+            "body": "Halten Sie die Menschen auch unter der Woche mit der Verkündigung verbunden.",
+            "bullets": [
+              "Predigtbibliothek und Livestream mit Chat",
+              "Integrierter Bibelleser und Vers des Tages",
+              "Mitarbeiter legen fest, welche Tabs erscheinen und was Besucher vor der Anmeldung sehen"
+            ]
+          }
+        ],
+        "faqTitle": "Fragen zur Gemeinde-App",
+        "faq": [
+          {
+            "q": "Was kostet die Gemeinde-App?",
+            "a": "Nichts. Die Mitglieder-App, das Hosting und alle Funktionen sind kostenlos. B1 wird von Live Church Solutions entwickelt, einer gemeinnützigen 501(c)(3)-Organisation."
+          },
+          {
+            "q": "Zeigt die App Name und Logo unserer Gemeinde?",
+            "a": "Ja. Mitglieder installieren sie über die B1-Website Ihrer Gemeinde, und sie trägt Name und Logo Ihrer Gemeinde."
+          },
+          {
+            "q": "Müssen Mitglieder etwas installieren, um sie zu nutzen?",
+            "a": "Nein. Sie funktioniert in jedem Browser, und wer ein Symbol auf dem Startbildschirm möchte, installiert sie mit wenigen Tipps."
+          },
+          {
+            "q": "Funktioniert sie offline?",
+            "a": "Die App benötigt eine Internetverbindung; Inhalte werden nicht für die Offline-Nutzung gespeichert."
+          }
+        ]
+      },
+      "websiteBuilder": {
+        "name": "Website-Baukasten",
+        "meta": {
+          "title": "Kostenloser Website-Baukasten für Gemeinden | B1.church",
+          "description": "Erstellen Sie Ihre Gemeinde-Website kostenlos: Drag-and-Drop-Bereiche, Predigten, Termine, Spenden, Formulare und Blog. Eigene Domain und SSL inklusive. Keine Hosting-Rechnung."
+        },
+        "hero": {
+          "eyebrow": "Kostenloser Website-Baukasten für Gemeinden",
+          "title": "Eine Gemeinde-Website, die sich selbst pflegt",
+          "subtitle": "Drag-and-Drop-Seiten, die Predigten, Termine, Gruppen, Gottesdienstzeiten und Spenden direkt aus B1 holen, damit Ihre Website nie veraltet ist. Hosting, SSL und Ihre eigene Domain sind kostenlos enthalten."
+        },
+        "sections": [
+          {
+            "title": "In Minuten startklar",
+            "body": "Jede Gemeinde erhält am Tag der Anmeldung eine fertige Website unter yourchurch.b1.church.",
+            "bullets": [
+              "Eigene Domain per CNAME- oder A-Eintrag verbinden",
+              "SSL-Zertifikate werden automatisch erstellt",
+              "Bei Bedarf mehrere Websites für eine Gemeinde anlegen"
+            ]
+          },
+          {
+            "title": "Drag-and-Drop-Seiteneditor",
+            "body": "Bauen Sie Seiten aus Bereichen und Elementen. Starten Sie mit einer Vorlage (Startseite, Über uns, Gottesdienste, Spenden und mehr) oder einem leeren Spaltenlayout.",
+            "bullets": [
+              "Text, Bilder, Schaltflächen, Karten, Galerien, Zeugnisse, FAQs und Tabellen",
+              "Video, Podcast aus einem RSS-Feed, Livestream-Player, Karten und Einbettungen",
+              "Countdown, Kennzahlen, Mitarbeiterraster und Logo-Elemente"
+            ]
+          },
+          {
+            "title": "Inhalte, die sich selbst aktualisieren",
+            "body": "Gemeindespezifische Elemente lesen aus derselben Datenbank, die Ihre Mitarbeiter ohnehin nutzen.",
+            "bullets": [
+              "Kalender als Monatsraster oder mit kommenden Terminen, mit einer eigenen Seite je Veranstaltung",
+              "Gottesdienstzeiten aus Ihrer Anwesenheitseinrichtung",
+              "Gruppenübersicht, Formulare und Anmeldungen",
+              "Spendenformulare und Fortschrittsbalken für Aktionen"
+            ]
+          },
+          {
+            "title": "Predigten und Livestream",
+            "body": "Eine Predigtbibliothek mit Serien-Playlists und einer Seite für jede Botschaft.",
+            "bullets": [
+              "Massenimport von YouTube oder Vimeo",
+              "Livestream-Plan mit Chat"
+            ]
+          },
+          {
+            "title": "Blog inklusive",
+            "body": "Veröffentlichen Sie Neuigkeiten und Andachten unter /blog mit RSS-Feed.",
+            "bullets": [
+              "Entwürfe, geplante Beiträge, Kategorien und Schlagwörter",
+              "Optionale Kommentare über Hyvor Talk, FastComments oder Disqus"
+            ]
+          },
+          {
+            "title": "Ihr Stil, Ihre Regeln",
+            "body": "Farben, Schriften, Abstände, Logos und Navigation bestimmen Sie selbst.",
+            "bullets": [
+              "Seiten für alle, nur für Mitglieder, nur für Mitarbeiter oder für bestimmte Gruppen",
+              "Meta-Beschreibungen, Social-Media-Bild, Weiterleitungen und Google Analytics 4",
+              "Ankündigungsbanner sowie eigenes CSS oder JavaScript"
+            ]
+          }
+        ],
+        "faqTitle": "Fragen zum Website-Baukasten",
+        "faq": [
+          {
+            "q": "Ist der Website-Baukasten für Gemeinden wirklich kostenlos?",
+            "a": "Ja. Baukasten, Hosting, SSL und die Nutzung einer eigenen Domain sind kostenlos. Sie zahlen nur Ihrem Domain-Anbieter den Domainnamen selbst."
+          },
+          {
+            "q": "Kann ich meine eigene Domain verwenden?",
+            "a": "Ja. Legen Sie bei Ihrem Anbieter einen CNAME- oder A-Eintrag an, und B1 stellt das SSL-Zertifikat automatisch aus."
+          },
+          {
+            "q": "Muss ich programmieren können?",
+            "a": "Nein. Seiten entstehen, indem Sie Bereiche und Elemente hineinziehen. Eigenes CSS und JavaScript stehen bereit, wenn Sie sie möchten."
+          },
+          {
+            "q": "Können wir B1 ohne öffentliche Website nutzen?",
+            "a": "Ja. Sie können die öffentliche Website abschalten und B1 nur für die Mitglieder-App, Spenden und Anmeldungen verwenden."
+          }
+        ]
+      },
+      "giving": {
+        "name": "Online-Spenden",
+        "meta": {
+          "title": "Online-Spenden für Gemeinden ohne Plattformgebühr | B1.church",
+          "description": "Online-Spenden für Gemeinden ohne B1-Plattformgebühr. Nutzen Sie Ihr eigenes Stripe-, PayPal- oder Paystack-Konto: wiederkehrende Spenden, ACH, Apple Pay, Fonds, Zusagen und Jahresbescheinigungen."
+        },
+        "hero": {
+          "eyebrow": "Online-Spenden",
+          "title": "Online-Spenden ohne Plattformgebühr",
+          "subtitle": "B1 schaltet sich nie in den Geldfluss. Ihre Gemeinde verbindet ihr eigenes Zahlungskonto, Spenden gehen direkt an Sie, und B1 schlägt nichts obendrauf. Sie zahlen nur den Satz Ihres Zahlungsdienstleisters."
+        },
+        "sections": [
+          {
+            "title": "Ihr Konto, Ihr Geld",
+            "body": "Jede Gemeinde verbindet ihr eigenes Zahlungsgateway. Kartendaten berühren die Server von ChurchApps nie.",
+            "bullets": [
+              "Stripe, einschließlich Apple Pay und Google Pay bei einmaligen Spenden",
+              "PayPal, mit Venmo-Schaltflächen",
+              "Paystack in ganz Afrika, mit Mobile Money und Banküberweisung",
+              "Bankspenden (ACH), mit Sofortverifizierung für Gäste"
+            ]
+          },
+          {
+            "title": "Was es wirklich kostet",
+            "body": "B1 erhebt keine Plattformgebühr und hat keine kostenpflichtigen Tarife. Die einzigen Kosten sind der Satz Ihres Zahlungsdienstleisters, der an ihn geht, nicht an uns.",
+            "bullets": [
+              "Stripe bietet berechtigten gemeinnützigen Organisationen vergünstigte Sätze (2.2% + $0.30 pro Kartenspende)",
+              "Spender können wählen, die Bearbeitungsgebühr zu übernehmen",
+              "Spenden in mehreren Währungen mit Stripe in 15 Währungen"
+            ]
+          },
+          {
+            "title": "Regelmäßige Spenden, die sich selbst auffangen",
+            "body": "Mitglieder richten regelmäßige Spenden ein und verwalten sie in der App.",
+            "bullets": [
+              "Wiederkehrende Stripe-Spenden jederzeit pausieren oder fortsetzen",
+              "Fehlgeschlagene Spenden erscheinen in einer Liste mit Schaltfläche zum erneuten Versuch",
+              "Spender erhalten eine E-Mail, wenn eine Spende fehlschlägt, und erneut nach 3 und 7 Tagen"
+            ]
+          },
+          {
+            "title": "Fonds, Aktionen und Zusagen",
+            "body": "Geben Sie Spendern klare Auswahlmöglichkeiten und behalten Sie jedes Ziel im Blick.",
+            "bullets": [
+              "Steuerlich absetzbare und versteckte Fonds",
+              "Spendenlinks mit voreingestelltem Fonds und Betrag",
+              "Aktionen mit Zielen, Fortschrittsbalken und Summen von Zugesagtem gegenüber Gegebenem",
+              "Anonyme Spenden"
+            ]
+          },
+          {
+            "title": "Bargeld, Schecks und Unterlagen",
+            "body": "Alles Gegebene landet an einem Ort, neben Ihren Personendaten.",
+            "bullets": [
+              "Sammelerfassung für Bargeld und Schecks",
+              "Fehlende Stripe-Transaktionen nachimportieren",
+              "Jahresbescheinigungen mit Ihrem Logo, auch in den Formaten für Kanada, Australien und Neuseeland",
+              "Mitglieder können ihren eigenen Spendenverlauf einsehen und ausdrucken"
+            ]
+          }
+        ],
+        "faqTitle": "Fragen zu Online-Spenden",
+        "faq": [
+          {
+            "q": "Behält B1 einen Anteil der Spenden?",
+            "a": "Nein. B1 erhebt keine Plattformgebühr. Spenden gehen direkt an das eigene Stripe-, PayPal- oder Paystack-Konto Ihrer Gemeinde, und Sie zahlen nur den Satz dieses Zahlungsdienstleisters."
+          },
+          {
+            "q": "Mit welchen Zahlungsdienstleistern funktioniert B1?",
+            "a": "Stripe, PayPal (mit Venmo) und Paystack. Kingdom Funding ist als Beta verfügbar."
+          },
+          {
+            "q": "Können Mitglieder mit dem Smartphone spenden?",
+            "a": "Ja. Mitglieder spenden über die Gemeinde-App oder die Website, richten regelmäßige Spenden ein und sehen ihren gesamten Spendenverlauf."
+          },
+          {
+            "q": "Können wir Bargeld- und Scheckspenden erfassen?",
+            "a": "Ja. Erfassen Sie sie stapelweise, damit jede Spende auf den Jahresbescheinigungen erscheint."
+          }
+        ]
+      },
+      "checkin": {
+        "name": "Kinder-Check-in",
+        "meta": {
+          "title": "Kostenloses Check-in für Gemeinden und Kinderarbeit | B1.church",
+          "description": "Kostenloses Gemeinde-Check-in mit Selbstbedienungs-Kiosken, Namensschildern, passenden Abholcodes, Gäste-Registrierung per QR, Raumverhältnissen und Anwesenheitsberichten. Läuft auf günstigen Tablets."
+        },
+        "hero": {
+          "eyebrow": "Gemeinde-Check-in",
+          "title": "Schnelles, sicheres Check-in für jede Familie",
+          "subtitle": "Familien checken am Kiosk oder per Smartphone ein, Kinder erhalten Namensschilder mit passendem Abholcode, und die Anwesenheit erfasst sich selbst. Kostenlos, mit günstigen Tablets und Etikettendruckern."
+        },
+        "sections": [
+          {
+            "title": "Selbstbedienungs-Kioske",
+            "body": "Betreiben Sie die B1-Check-in-App auf einem günstigen Tablet.",
+            "bullets": [
+              "Empfohlen: Samsung Galaxy Tab A-series oder Amazon Fire HD 10",
+              "Familien suchen sich selbst über die letzten 4 Ziffern der Telefonnummer oder den Namen",
+              "Jede Person wird dem richtigen Raum zugeordnet, mit Hinweisen zu Alter und Klassenstufe",
+              "Kioskfarben und eine Diashow im Ruhebildschirm passen zu Ihrer Gemeinde"
+            ]
+          },
+          {
+            "title": "Namensschilder und Abholcodes",
+            "body": "Drucken Sie ein Namensetikett für jedes Kind und einen Abholschein für die Eltern mit demselben 4-stelligen Sicherheitscode.",
+            "bullets": [
+              "Brother QL-Etikettendrucker (QL-1110NWB empfohlen) mit DK-1201-Etiketten",
+              "Eigene Etiketten gestalten",
+              "Etikett jederzeit erneut drucken"
+            ]
+          },
+          {
+            "title": "Kindersicherheit eingebaut",
+            "body": "Abhol- und Raumwerkzeuge, die Mitarbeitern helfen, Kinder zu schützen.",
+            "bullets": [
+              "Abholung per Sicherheitscode, gescannt per Kamera oder Barcode-Scanner",
+              "Listen mit abholberechtigten und nicht abholberechtigten Personen",
+              "Raumkapazität und Betreuungsschlüssel, die warnen oder blockieren",
+              "Eltern ausrufen oder eine Notfall-SMS senden (erfordert einen SMS-Anbieter)"
+            ]
+          },
+          {
+            "title": "Gäste willkommen",
+            "body": "Erstbesucher-Familien können sich am Kiosk oder auf dem eigenen Smartphone registrieren.",
+            "bullets": [
+              "Gäste-Registrierung per QR-Code mit den Feldern Ihrer Wahl",
+              "Gäste automatisch zur Nachverfolgung einer Gruppe hinzufügen"
+            ]
+          },
+          {
+            "title": "Einchecken vor der Ankunft",
+            "body": "Mitglieder können ihren ganzen Haushalt über die Gemeinde-App einchecken."
+          },
+          {
+            "title": "Anwesenheit, die sich selbst erfasst",
+            "body": "Jedes Check-in fließt in Ihre Anwesenheitsberichte in B1Admin ein.",
+            "bullets": [
+              "Wochenübersicht, Anwesenheitstrend und Anwesenheit je Gruppe",
+              "Check-in-Zeitfenster für jede Gottesdienstzeit",
+              "Reine Personenzählung für Gottesdienste ohne Check-in"
+            ]
+          }
+        ],
+        "faqTitle": "Fragen zum Check-in",
+        "faq": [
+          {
+            "q": "Welche Hardware brauchen wir?",
+            "a": "Ein Tablet pro Kiosk und, falls Sie Namensschilder möchten, einen Brother QL-Etikettendrucker. Empfohlene Tablets sind unter anderem das Samsung Galaxy Tab A-series und das Amazon Fire HD 10."
+          },
+          {
+            "q": "Ist die Check-in-Software kostenlos?",
+            "a": "Ja. Das Check-in ist Teil von B1, das einschließlich Hosting kostenlos ist. Sie kaufen nur die Hardware."
+          },
+          {
+            "q": "Wie holen Eltern ihre Kinder ab?",
+            "a": "Das Namensschild des Kindes und der Abholschein der Eltern tragen denselben 4-stelligen Code. Mitarbeiter prüfen oder scannen den Code bei der Abholung."
+          },
+          {
+            "q": "Können Besucher einchecken?",
+            "a": "Ja. Gäste können am Kiosk hinzugefügt werden oder per QR-Code auf dem eigenen Smartphone sich selbst registrieren."
+          }
+        ]
+      },
+      "about": {
+        "name": "Über uns",
+        "meta": {
+          "title": "Über B1: Kostenlose Gemeindesoftware | B1.church",
+          "description": "B1 ist kostenlose Open-Source-Gemeindesoftware von Live Church Solutions, einer gemeinnützigen 501(c)(3)-Organisation. Wie sie kostenlos ist, wer sie finanziert und was Sie erwarten können."
+        },
+        "hero": {
+          "eyebrow": "Über B1",
+          "title": "Kostenlose Gemeindesoftware, von einer gemeinnützigen Organisation entwickelt",
+          "subtitle": "B1 wird von Live Church Solutions entwickelt, einem gemeinnützigen 501(c)(3)-Werk (EIN 45-5349618). Wir glauben, dass jede Gemeinde moderne Technik verdient, egal wie groß ihr Budget ist."
+        },
+        "sections": [
+          {
+            "title": "Wie ist B1 kostenlos?",
+            "body": "B1 ist ein Werk, kein Unternehmen. Entwicklung und Hosting werden durch Spenden finanziert und von Google Ad Grants unterstützt, sodass Gemeinden nie für die Software zahlen.",
+            "bullets": [
+              "Keine kostenpflichtigen Tarife, keine Preise pro Mitglied, keine Funktionsgrenzen",
+              "Hosting ist inbegriffen",
+              "Keine Plattformgebühr auf Spenden"
+            ]
+          },
+          {
+            "title": "Wofür Sie trotzdem zahlen könnten",
+            "body": "Wir möchten, dass Sie von Anfang an das ganze Bild kennen.",
+            "bullets": [
+              "Karten- und Bankgebühren, die an Ihren eigenen Zahlungsdienstleister gehen",
+              "Tablets und Etikettendrucker, wenn Sie Kiosk-Check-in nutzen",
+              "Ein SMS-Anbieter, wenn Sie Textnachrichten senden möchten",
+              "Ihr Domainname, falls Sie eine eigene Domain verwenden",
+              "Zusätzlicher Dateispeicher über 100 MB hinaus, den Sie auch durch die Verknüpfung von Google Drive, Dropbox, OneDrive oder S3 abdecken können"
+            ]
+          },
+          {
+            "title": "Open Source",
+            "body": "Der gesamte Code von B1 ist auf GitHub öffentlich, verteilt auf etwa 20 Repositories.",
+            "bullets": [
+              "Jeder kann prüfen, wie es funktioniert",
+              "Auf Wunsch selbst hosten mit Docker oder einer Railway-Vorlage per Klick"
+            ]
+          },
+          {
+            "title": "Ihre Daten bleiben Ihre",
+            "body": "Es gibt keine Bindung.",
+            "bullets": [
+              "Import aus Planning Center, Breeze, Tithe.ly, Pushpay (CCB) oder jeder CSV- oder Excel-Datei mit B1 Transfer",
+              "Vollständiges Backup von Personen, Gruppen, Spenden, Anwesenheit und Formularen exportieren",
+              "Ihre Daten in Breeze- oder Planning-Center-Formate umwandeln"
+            ]
+          },
+          {
+            "title": "Eine Familie kostenloser Werkzeuge",
+            "body": "B1 gehört zu ChurchApps, neben der Präsentationssoftware FreeShow und dem Lehrmaterial Lessons.church. Ein kostenloses Konto funktioniert in allen."
+          }
+        ],
+        "faqTitle": "Fragen zu B1",
+        "faq": [
+          {
+            "q": "Ist B1 wirklich kostenlos?",
+            "a": "Ja. Software und Hosting sind kostenlos, ohne Tarife und ohne Plattformgebühr auf Spenden. Sie zahlen nur externe Kosten wie Kartengebühren an Ihren eigenen Zahlungsdienstleister und Hardware, wenn Sie Check-in-Kioske nutzen."
+          },
+          {
+            "q": "Wer steht hinter B1?",
+            "a": "Live Church Solutions, ein gemeinnütziges 501(c)(3)-Werk (EIN 45-5349618), das unter dem Namen ChurchApps auch FreeShow und Lessons.church entwickelt."
+          },
+          {
+            "q": "Wird B1 später Geld verlangen?",
+            "a": "B1 wird durch Spenden und Zuschüsse finanziert, nicht durch Abonnements, und der Code ist Open Source. Wenn Sie je gehen möchten, können Sie alles exportieren."
+          },
+          {
+            "q": "Wie bekommen wir Hilfe?",
+            "a": "Besuchen Sie das Hilfezentrum unter support.churchapps.org oder schreiben Sie an support@churchapps.org."
+          }
+        ]
       }
     },
     "notFound": {

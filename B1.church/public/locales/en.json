@@ -417,13 +417,24 @@
       "meta": {
         "hubTitle": "How B1 compares",
         "hubDescription": "B1 is the ChMS you start on. People, giving, check-in, website, member app, worship planning. $0 forever. 501(c)(3).",
-        "detailTitle": "B1.church vs {{competitor}} - Free Church Software Comparison",
+        "detailTitle": "Free {{competitor}} Alternative | B1.church vs {{competitor}}",
         "descriptions": {
           "planning-center": "B1 is the whole stack at $0. No module step-up.",
           "pushpay": "Pushpay is a paid giving platform. B1 includes giving with no platform fee, plus people, check-in, website, and worship planning.",
           "tithely": "Tithe.ly is a giving company with church software attached. B1 is the ChMS, 100% free including hosting. Giving is included. Stripe nonprofit is 2.2% + $0.30; Tithe.ly \"free\" giving is 2.9% + $0.30.",
           "breeze": "Breeze is a paid, simple ChMS. People leaving Planning Center name Breeze. B1 is $0 and includes the website, giving with no platform fee, check-in, and worship planning. We import Breeze people."
         }
+      },
+      "switching": {
+        "title": "Switching from {{competitor}}",
+        "steps": [
+          "Create your free B1 account. It takes a few minutes and needs no credit card.",
+          "Import your people, groups, and giving records with B1 Transfer, which reads exports from Planning Center, Breeze, Tithe.ly, and Pushpay (CCB), or any CSV or Excel file.",
+          "Connect your church's own Stripe, PayPal, or Paystack account for online giving.",
+          "Publish your website and member app, and set up check-in if you use it.",
+          "Invite your congregation to sign in."
+        ],
+        "note": "Changed your mind? Export a full backup anytime, or convert your data back to Breeze or Planning Center format."
       },
       "notFound": {
         "title": "How B1 compares",
@@ -726,6 +737,420 @@
           "title": "Role-Based Access",
           "description": "Secure permissions for staff and volunteers"
         }
+      }
+    },
+    "pages": {
+      "app": {
+        "name": "Church App",
+        "meta": {
+          "title": "Free Church App for Your Members | B1.church",
+          "description": "A free member app with your church's name and logo: directory, groups, messaging, giving, check-in, sermons, and push notifications. Installs from your church website."
+        },
+        "hero": {
+          "eyebrow": "Free church app",
+          "title": "Your church's own app, free",
+          "subtitle": "Members get one place for groups, messages, giving, check-in, sermons, and events. It carries your church's name and logo, installs from your church website in seconds, and is always up to date."
+        },
+        "sections": [
+          {
+            "title": "Installs in seconds",
+            "body": "Your app lives at your church's B1 address and installs straight to the home screen, full-screen with an unread badge.",
+            "bullets": [
+              "iPhone: open your church site in Safari, tap Share, then Add to Home Screen",
+              "Android: one-tap install from Chrome",
+              "Desktop visitors see a QR code to send it to their phone",
+              "Members sign in with email, Google, or Microsoft"
+            ]
+          },
+          {
+            "title": "Groups and messaging",
+            "body": "Small groups, ministries, and teams stay connected without a separate chat app.",
+            "bullets": [
+              "Browse groups and request to join",
+              "Group chat plus leader-only announcements",
+              "Event RSVPs: Going, Maybe, or Can't go",
+              "Private messages, with a minimum-age setting you control"
+            ]
+          },
+          {
+            "title": "A directory you control",
+            "body": "Members can find each other and reach out by message, call, or text. You decide who sees what.",
+            "bullets": [
+              "Search with photos and profiles",
+              "Visibility levels: everyone, members, groups only, group leaders, or staff only"
+            ]
+          },
+          {
+            "title": "Notifications people actually get",
+            "body": "Push notifications, an in-app bell, and email, with optional text messages.",
+            "bullets": [
+              "Each member picks per-type settings and a daily email digest",
+              "Quiet hours so nobody is buzzed at midnight"
+            ]
+          },
+          {
+            "title": "Giving, check-in, and serving",
+            "body": "The same app handles the things members do every week.",
+            "bullets": [
+              "Give once or set up recurring gifts, and see giving history",
+              "Check in the whole household before arriving",
+              "See serving assignments and sign up to volunteer",
+              "Register family members for events, including paid events"
+            ]
+          },
+          {
+            "title": "Sermons and the Bible",
+            "body": "Keep people connected to teaching during the week.",
+            "bullets": [
+              "Sermon library and live stream with chat",
+              "Built-in Bible reader and verse of the day",
+              "Staff choose which tabs appear and what visitors see before they sign in"
+            ]
+          }
+        ],
+        "faqTitle": "Church app questions",
+        "faq": [
+          {
+            "q": "How much does the church app cost?",
+            "a": "Nothing. The member app, hosting, and every feature are free. B1 is built by Live Church Solutions, a 501(c)(3) nonprofit."
+          },
+          {
+            "q": "Does the app show our church's name and logo?",
+            "a": "Yes. Members install it from your church's B1 website, and it carries your church's name and logo."
+          },
+          {
+            "q": "Do members need to install anything to use it?",
+            "a": "No. It works in any browser, and members who want an icon on their home screen can install it in a few taps."
+          },
+          {
+            "q": "Does it work offline?",
+            "a": "The app needs an internet connection; it does not store content for offline use."
+          }
+        ]
+      },
+      "websiteBuilder": {
+        "name": "Website Builder",
+        "meta": {
+          "title": "Free Church Website Builder with Hosting | B1.church",
+          "description": "Build your church website free with drag-and-drop sections, sermons, events, giving, forms, and a blog. Custom domain and SSL included. No hosting bill."
+        },
+        "hero": {
+          "eyebrow": "Free church website builder",
+          "title": "A church website that runs itself",
+          "subtitle": "Drag-and-drop pages that pull sermons, events, groups, service times, and giving straight from B1, so your site is never out of date. Hosting, SSL, and your own domain are included at no cost."
+        },
+        "sections": [
+          {
+            "title": "Start in minutes",
+            "body": "Every church gets a ready-made site at yourchurch.b1.church the day it signs up.",
+            "bullets": [
+              "Point your own domain with a CNAME or A record",
+              "SSL certificates are automatic",
+              "Build multiple sites for one church if you need them"
+            ]
+          },
+          {
+            "title": "Drag-and-drop page editor",
+            "body": "Build pages from sections and elements. Start from a template (hero, about, services, giving, and more) or a blank column layout.",
+            "bullets": [
+              "Text, images, buttons, cards, galleries, testimonials, FAQs, and tables",
+              "Video, podcast from an RSS feed, live stream player, maps, and embeds",
+              "Countdown, stats, staff grid, and logo elements"
+            ]
+          },
+          {
+            "title": "Content that updates itself",
+            "body": "Church-specific elements read from the same database your staff already use.",
+            "bullets": [
+              "Calendar as a month grid or upcoming events, with a page for each event",
+              "Service times from your attendance setup",
+              "Groups browser, forms, and registrations",
+              "Donation forms and campaign progress bars"
+            ]
+          },
+          {
+            "title": "Sermons and live stream",
+            "body": "A sermon library with series playlists and a page for every message.",
+            "bullets": [
+              "Bulk import from YouTube or Vimeo",
+              "Live stream schedule with chat"
+            ]
+          },
+          {
+            "title": "Blog built in",
+            "body": "Post news and devotionals at /blog with an RSS feed.",
+            "bullets": [
+              "Drafts, scheduled posts, categories, and tags",
+              "Optional comments through Hyvor Talk, FastComments, or Disqus"
+            ]
+          },
+          {
+            "title": "Your look, your rules",
+            "body": "Colors, fonts, spacing, logos, and navigation are all yours to set.",
+            "bullets": [
+              "Pages for everyone, members only, staff only, or specific groups",
+              "Meta descriptions, social image, redirects, and Google Analytics 4",
+              "Announcement banner and custom CSS or JavaScript"
+            ]
+          }
+        ],
+        "faqTitle": "Website builder questions",
+        "faq": [
+          {
+            "q": "Is the church website builder really free?",
+            "a": "Yes. The builder, hosting, SSL, and custom domain support are free. You only pay your domain registrar for the domain name itself."
+          },
+          {
+            "q": "Can I use my own domain?",
+            "a": "Yes. Add a CNAME or A record at your registrar and B1 issues the SSL certificate automatically."
+          },
+          {
+            "q": "Do I need to know how to code?",
+            "a": "No. Pages are built by dragging in sections and elements. Custom CSS and JavaScript are there if you want them."
+          },
+          {
+            "q": "Can we use B1 without a public website?",
+            "a": "Yes. You can turn off the public site and use B1 only for the member app, giving, and registrations."
+          }
+        ]
+      },
+      "giving": {
+        "name": "Online Giving",
+        "meta": {
+          "title": "Free Online Giving for Churches, No Platform Fee | B1.church",
+          "description": "Church online giving with no B1 platform fee. Use your own Stripe, PayPal, or Paystack account: recurring gifts, ACH, Apple Pay, funds, pledges, and year-end statements."
+        },
+        "hero": {
+          "eyebrow": "Online giving",
+          "title": "Online giving with no platform fee",
+          "subtitle": "B1 never sits in the money path. Your church connects its own payment account, gifts go straight to you, and B1 adds nothing on top. You pay only your processor's rate."
+        },
+        "sections": [
+          {
+            "title": "Your account, your money",
+            "body": "Each church connects its own payment gateway. Card data never touches ChurchApps servers.",
+            "bullets": [
+              "Stripe, including Apple Pay and Google Pay on one-time gifts",
+              "PayPal, with Venmo buttons",
+              "Paystack across Africa, with mobile money and bank transfer",
+              "Bank (ACH) gifts, with instant verification for guests"
+            ]
+          },
+          {
+            "title": "What it actually costs",
+            "body": "B1 charges no platform fee and has no paid tiers. The only cost is your processor's rate, which goes to them, not us.",
+            "bullets": [
+              "Stripe offers discounted rates to eligible nonprofits (2.2% + $0.30 per card gift)",
+              "Donors can choose to cover the processing fee",
+              "Multi-currency giving with Stripe in 15 currencies"
+            ]
+          },
+          {
+            "title": "Recurring giving that recovers itself",
+            "body": "Members set up recurring gifts and manage them from the app.",
+            "bullets": [
+              "Pause or resume Stripe recurring gifts anytime",
+              "Failed gifts appear in one list with a Retry button",
+              "Donors are emailed when a gift fails, and again 3 and 7 days later"
+            ]
+          },
+          {
+            "title": "Funds, campaigns, and pledges",
+            "body": "Give donors clear choices and track every goal.",
+            "bullets": [
+              "Tax-deductible and hidden funds",
+              "Giving links that preset a fund and amount",
+              "Campaigns with goals, progress bars, and pledged-versus-given totals",
+              "Anonymous gifts"
+            ]
+          },
+          {
+            "title": "Cash, checks, and records",
+            "body": "Everything given lands in one place, alongside your people data.",
+            "bullets": [
+              "Batch entry for cash and checks",
+              "Import missing Stripe transactions",
+              "Year-end statements with your logo, including Canada, Australia, and New Zealand formats",
+              "Members can view and print their own giving history"
+            ]
+          }
+        ],
+        "faqTitle": "Online giving questions",
+        "faq": [
+          {
+            "q": "Does B1 take a cut of donations?",
+            "a": "No. B1 has no platform fee. Gifts go directly to your church's own Stripe, PayPal, or Paystack account, and you pay only that processor's rate."
+          },
+          {
+            "q": "Which payment processors work with B1?",
+            "a": "Stripe, PayPal (with Venmo), and Paystack. Kingdom Funding is available in beta."
+          },
+          {
+            "q": "Can members give from their phone?",
+            "a": "Yes. Members give from the church app or website, set up recurring gifts, and see their full giving history."
+          },
+          {
+            "q": "Can we record cash and check gifts?",
+            "a": "Yes. Enter them in batches so every gift appears on year-end statements."
+          }
+        ]
+      },
+      "checkin": {
+        "name": "Check-in",
+        "meta": {
+          "title": "Free Church Check-in Software for Kids Ministry | B1.church",
+          "description": "Free church check-in with self-serve kiosks, name tags, matching parent pickup codes, guest QR registration, room ratios, and attendance reports. Runs on affordable tablets."
+        },
+        "hero": {
+          "eyebrow": "Church check-in",
+          "title": "Fast, safe check-in for every family",
+          "subtitle": "Families check in at a kiosk or from their phone, kids get name tags with a matching pickup code, and attendance records itself. Free, on affordable tablets and label printers."
+        },
+        "sections": [
+          {
+            "title": "Self-serve kiosks",
+            "body": "Run the B1 check-in app on an affordable tablet.",
+            "bullets": [
+              "Recommended: Samsung Galaxy Tab A-series or Amazon Fire HD 10",
+              "Families look themselves up by the last 4 digits of a phone number or by name",
+              "Each person is placed in the right room, with age and grade guidance",
+              "Kiosk colors and an idle-screen slideshow match your church"
+            ]
+          },
+          {
+            "title": "Name tags and pickup codes",
+            "body": "Print a name label for each child and a pickup slip for the parent with the same 4-character security code.",
+            "bullets": [
+              "Brother QL label printers (QL-1110NWB recommended) with DK-1201 labels",
+              "Design your own labels",
+              "Reprint a label anytime"
+            ]
+          },
+          {
+            "title": "Child safety built in",
+            "body": "Checkout and room tools that help volunteers keep kids safe.",
+            "bullets": [
+              "Check out by security code, scanned by camera or barcode scanner",
+              "Authorized and not-authorized pickup lists",
+              "Room capacity and volunteer ratios that warn or block",
+              "Page a parent or send an emergency text (requires a texting provider)"
+            ]
+          },
+          {
+            "title": "Guests welcome",
+            "body": "First-time families can register at the kiosk or on their own phone.",
+            "bullets": [
+              "QR code guest registration with the fields you choose",
+              "Auto-add guests to a group for follow-up"
+            ]
+          },
+          {
+            "title": "Check in before you arrive",
+            "body": "Members can check in their whole household from the church app."
+          },
+          {
+            "title": "Attendance that records itself",
+            "body": "Every check-in feeds your attendance reports in B1Admin.",
+            "bullets": [
+              "Weekly summary, attendance trend, and per-group attendance",
+              "Check-in windows for each service time",
+              "Headcount-only entry for services without check-in"
+            ]
+          }
+        ],
+        "faqTitle": "Check-in questions",
+        "faq": [
+          {
+            "q": "What hardware do we need?",
+            "a": "A tablet for each kiosk and, if you want name tags, a Brother QL label printer. Recommended tablets include the Samsung Galaxy Tab A-series and Amazon Fire HD 10."
+          },
+          {
+            "q": "Is the check-in software free?",
+            "a": "Yes. Check-in is part of B1, which is free including hosting. You only buy the hardware."
+          },
+          {
+            "q": "How do parents pick up their kids?",
+            "a": "Each child's name tag and the parent's pickup slip share a 4-character code. Volunteers check the code, or scan it, at pickup."
+          },
+          {
+            "q": "Can visitors check in?",
+            "a": "Yes. Guests can be added at the kiosk, or scan a QR code to register on their own phone."
+          }
+        ]
+      },
+      "about": {
+        "name": "About",
+        "meta": {
+          "title": "About B1: Free Church Software from a Nonprofit | B1.church",
+          "description": "B1 is free, open-source church management software built by Live Church Solutions, a 501(c)(3) nonprofit. How it's free, who funds it, and what you can expect."
+        },
+        "hero": {
+          "eyebrow": "About B1",
+          "title": "Free church software, built by a nonprofit",
+          "subtitle": "B1 is built by Live Church Solutions, a 501(c)(3) nonprofit ministry (EIN 45-5349618). We believe every church deserves modern technology, whatever its budget."
+        },
+        "sections": [
+          {
+            "title": "How is B1 free?",
+            "body": "B1 is a ministry, not a business. Development and hosting are funded by donations and supported by Google Ad Grants, so churches never pay for the software.",
+            "bullets": [
+              "No paid tiers, no per-member pricing, no feature limits",
+              "Hosting is included",
+              "No platform fee on gifts"
+            ]
+          },
+          {
+            "title": "What you might still pay for",
+            "body": "We want you to know the full picture up front.",
+            "bullets": [
+              "Card and bank processing fees, paid to your own payment processor",
+              "Tablets and label printers if you use kiosk check-in",
+              "A texting provider if you want SMS messages",
+              "Your domain name, if you use a custom one",
+              "Extra file storage beyond 100 MB, which you can also cover by linking Google Drive, Dropbox, OneDrive, or S3"
+            ]
+          },
+          {
+            "title": "Open source",
+            "body": "All of B1's code is public on GitHub across about 20 repositories.",
+            "bullets": [
+              "Anyone can review how it works",
+              "Self-host with Docker or a one-click Railway template if you prefer"
+            ]
+          },
+          {
+            "title": "Your data stays yours",
+            "body": "There is no lock-in.",
+            "bullets": [
+              "Import from Planning Center, Breeze, Tithe.ly, Pushpay (CCB), or any CSV or Excel file with B1 Transfer",
+              "Export a full backup of people, groups, giving, attendance, and forms",
+              "Convert your data to Breeze or Planning Center formats"
+            ]
+          },
+          {
+            "title": "One family of free tools",
+            "body": "B1 is part of ChurchApps, alongside FreeShow presentation software and Lessons.church curriculum. One free account works across all of them."
+          }
+        ],
+        "faqTitle": "Questions about B1",
+        "faq": [
+          {
+            "q": "Is B1 really free?",
+            "a": "Yes. The software and hosting are free, with no tiers and no platform fee on gifts. You pay only outside costs such as card processing fees to your own processor, and hardware if you use check-in kiosks."
+          },
+          {
+            "q": "Who is behind B1?",
+            "a": "Live Church Solutions, a 501(c)(3) nonprofit ministry (EIN 45-5349618) that also builds FreeShow and Lessons.church under the ChurchApps name."
+          },
+          {
+            "q": "Will B1 start charging later?",
+            "a": "B1 is funded by donations and grants, not subscriptions, and the code is open source. If you ever want to leave, you can export everything."
+          },
+          {
+            "q": "How do we get help?",
+            "a": "Visit the help center at support.churchapps.org or email support@churchapps.org."
+          }
+        ]
       }
     },
     "notFound": {

@@ -57,6 +57,8 @@ const Compare = () => {
   const priceB1Note = t("brochure.compare.priceB1Note");
   const ctaTitle = t("brochure.compare.ctaTitle");
   const ctaDescription = t("brochure.compare.ctaDescription");
+  const rawSteps = t("brochure.compare.switching.steps", { returnObjects: true });
+  const switchingSteps = Array.isArray(rawSteps) ? rawSteps as string[] : [];
 
   const renderFeatureValue = (value: boolean | string) => {
     if (value === true || value === "Yes") {
@@ -202,6 +204,19 @@ const Compare = () => {
             <p className="text-lg text-foreground/80 leading-relaxed">
               {data.verdict}
             </p>
+          </div>
+
+          <div className="card-elevated rounded-2xl p-8 mb-16">
+            <h2 className="text-2xl font-bold mb-6">{t("brochure.compare.switching.title", { competitor: data.competitor })}</h2>
+            <ol className="space-y-4">
+              {switchingSteps.map((step, i) => (
+                <li key={i} className="flex items-start gap-4">
+                  <span className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-primary/10 font-bold text-primary">{i + 1}</span>
+                  <span className="pt-1 text-foreground/80">{step}</span>
+                </li>
+              ))}
+            </ol>
+            <p className="mt-6 text-sm text-muted-foreground">{t("brochure.compare.switching.note")}</p>
           </div>
 
           {cta}

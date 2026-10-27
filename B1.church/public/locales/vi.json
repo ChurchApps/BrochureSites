@@ -417,13 +417,24 @@
       "meta": {
         "hubTitle": "B1 so sánh thế nào",
         "hubDescription": "B1 là hệ thống quản lý nhà thờ để bạn bắt đầu. Tín hữu, dâng hiến, điểm danh, website, ứng dụng cho tín hữu, lên kế hoạch thờ phượng. $0 mãi mãi. 501(c)(3).",
-        "detailTitle": "B1.church và {{competitor}} - So sánh phần mềm nhà thờ miễn phí",
+        "detailTitle": "Giải pháp thay thế {{competitor}} miễn phí | B1.church so với {{competitor}}",
         "descriptions": {
           "planning-center": "B1 là trọn bộ với giá $0. Không phải trả thêm cho từng mô-đun.",
           "pushpay": "Pushpay là nền tảng dâng hiến trả phí. B1 bao gồm dâng hiến không thu phí nền tảng, cùng với quản lý tín hữu, điểm danh, website và lên kế hoạch thờ phượng.",
           "tithely": "Tithe.ly là công ty dâng hiến kèm theo phần mềm nhà thờ. B1 là hệ thống quản lý nhà thờ, miễn phí 100% kể cả hosting. Dâng hiến đã được bao gồm. Stripe cho tổ chức phi lợi nhuận là 2,2% + $0,30; dâng hiến \"miễn phí\" của Tithe.ly là 2,9% + $0,30.",
           "breeze": "Breeze là hệ thống quản lý nhà thờ đơn giản và trả phí, thường được nhắc đến bởi những người rời Planning Center. B1 có giá $0 và bao gồm website, dâng hiến không thu phí nền tảng, điểm danh và lên kế hoạch thờ phượng. Chúng tôi nhập dữ liệu tín hữu từ Breeze."
         }
+      },
+      "switching": {
+        "title": "Chuyển từ {{competitor}} sang B1",
+        "steps": [
+          "Tạo tài khoản B1 miễn phí. Chỉ mất vài phút và không cần thẻ tín dụng.",
+          "Nhập tín hữu, nhóm và dữ liệu dâng hiến bằng B1 Transfer, công cụ đọc tệp xuất từ Planning Center, Breeze, Tithe.ly và Pushpay (CCB), hoặc bất kỳ tệp CSV hay Excel nào.",
+          "Kết nối tài khoản Stripe, PayPal hoặc Paystack của riêng hội thánh bạn để dâng hiến trực tuyến.",
+          "Xuất bản website và ứng dụng cho tín hữu, và thiết lập check-in nếu bạn dùng.",
+          "Mời hội chúng của bạn đăng nhập."
+        ],
+        "note": "Đổi ý? Bạn có thể xuất bản sao lưu đầy đủ bất cứ lúc nào, hoặc chuyển dữ liệu về định dạng Breeze hay Planning Center."
       },
       "notFound": {
         "title": "B1 so sánh thế nào",
@@ -850,6 +861,420 @@
           "title": "Truy cập Theo Vai trò",
           "description": "Quyền truy cập an toàn cho nhân viên và tình nguyện viên"
         }
+      }
+    },
+    "pages": {
+      "app": {
+        "name": "Ứng dụng hội thánh",
+        "meta": {
+          "title": "Ứng dụng hội thánh miễn phí cho tín hữu | B1.church",
+          "description": "Ứng dụng miễn phí mang tên và logo hội thánh bạn: danh bạ, nhóm, nhắn tin, dâng hiến, check-in, bài giảng và thông báo đẩy. Cài đặt ngay từ website hội thánh."
+        },
+        "hero": {
+          "eyebrow": "Ứng dụng hội thánh miễn phí",
+          "title": "Ứng dụng riêng của hội thánh bạn, miễn phí",
+          "subtitle": "Tín hữu có một nơi duy nhất cho nhóm, tin nhắn, dâng hiến, check-in, bài giảng và sự kiện. Ứng dụng mang tên và logo hội thánh, cài đặt từ website hội thánh trong vài giây và luôn được cập nhật."
+        },
+        "sections": [
+          {
+            "title": "Cài đặt trong vài giây",
+            "body": "Ứng dụng nằm tại địa chỉ B1 của hội thánh bạn và cài thẳng vào màn hình chính, mở toàn màn hình kèm huy hiệu tin chưa đọc.",
+            "bullets": [
+              "iPhone: mở website hội thánh trong Safari, chạm Chia sẻ, rồi chọn Thêm vào Màn hình chính",
+              "Android: cài đặt chỉ một lần chạm từ Chrome",
+              "Khách truy cập trên máy tính thấy mã QR để gửi sang điện thoại",
+              "Tín hữu đăng nhập bằng email, Google hoặc Microsoft"
+            ]
+          },
+          {
+            "title": "Nhóm và nhắn tin",
+            "body": "Các nhóm nhỏ, mục vụ và ban ngành luôn gắn kết mà không cần ứng dụng trò chuyện riêng.",
+            "bullets": [
+              "Duyệt các nhóm và gửi yêu cầu tham gia",
+              "Trò chuyện nhóm cùng thông báo chỉ dành cho người lãnh đạo",
+              "Phản hồi sự kiện: Sẽ tham dự, Có thể, hoặc Không đến được",
+              "Tin nhắn riêng, với độ tuổi tối thiểu do bạn thiết lập"
+            ]
+          },
+          {
+            "title": "Danh bạ do bạn kiểm soát",
+            "body": "Tín hữu có thể tìm nhau và liên lạc qua tin nhắn, cuộc gọi hoặc SMS. Bạn quyết định ai được xem gì.",
+            "bullets": [
+              "Tìm kiếm kèm ảnh và hồ sơ",
+              "Các mức hiển thị: mọi người, tín hữu, chỉ trong nhóm, người lãnh đạo nhóm, hoặc chỉ nhân sự"
+            ]
+          },
+          {
+            "title": "Thông báo thật sự đến tay người nhận",
+            "body": "Thông báo đẩy, chuông trong ứng dụng và email, cùng tin nhắn SMS tùy chọn.",
+            "bullets": [
+              "Mỗi tín hữu tự chọn cài đặt theo từng loại và nhận bản tóm tắt email hằng ngày",
+              "Giờ yên tĩnh để không ai bị làm phiền lúc nửa đêm"
+            ]
+          },
+          {
+            "title": "Dâng hiến, check-in và phục vụ",
+            "body": "Cùng một ứng dụng lo mọi việc tín hữu làm mỗi tuần.",
+            "bullets": [
+              "Dâng hiến một lần hoặc thiết lập định kỳ, và xem lịch sử dâng hiến",
+              "Check-in cả gia đình trước khi đến",
+              "Xem phân công phục vụ và đăng ký làm tình nguyện viên",
+              "Đăng ký cho người thân tham gia sự kiện, kể cả sự kiện có thu phí"
+            ]
+          },
+          {
+            "title": "Bài giảng và Kinh Thánh",
+            "body": "Giữ mọi người gắn bó với lời dạy suốt cả tuần.",
+            "bullets": [
+              "Thư viện bài giảng và phát trực tiếp có trò chuyện",
+              "Trình đọc Kinh Thánh tích hợp và câu gốc mỗi ngày",
+              "Nhân sự chọn các tab hiển thị và nội dung khách thấy trước khi đăng nhập"
+            ]
+          }
+        ],
+        "faqTitle": "Câu hỏi về ứng dụng hội thánh",
+        "faq": [
+          {
+            "q": "Ứng dụng hội thánh có giá bao nhiêu?",
+            "a": "Hoàn toàn miễn phí. Ứng dụng cho tín hữu, lưu trữ và mọi tính năng đều miễn phí. B1 do Live Church Solutions, một tổ chức phi lợi nhuận 501(c)(3), xây dựng."
+          },
+          {
+            "q": "Ứng dụng có hiển thị tên và logo hội thánh chúng tôi không?",
+            "a": "Có. Tín hữu cài đặt từ website B1 của hội thánh bạn, và ứng dụng mang tên cùng logo của hội thánh."
+          },
+          {
+            "q": "Tín hữu có cần cài đặt gì để sử dụng không?",
+            "a": "Không. Ứng dụng chạy trên mọi trình duyệt, và ai muốn có biểu tượng trên màn hình chính chỉ cần vài thao tác chạm để cài."
+          },
+          {
+            "q": "Ứng dụng có hoạt động khi không có mạng không?",
+            "a": "Ứng dụng cần kết nối internet; nó không lưu nội dung để dùng ngoại tuyến."
+          }
+        ]
+      },
+      "websiteBuilder": {
+        "name": "Trình tạo website",
+        "meta": {
+          "title": "Tạo website hội thánh miễn phí, kèm lưu trữ | B1.church",
+          "description": "Tạo website hội thánh miễn phí với các khối kéo-thả, bài giảng, sự kiện, dâng hiến, biểu mẫu và blog. Gồm tên miền riêng và SSL. Không tốn phí lưu trữ."
+        },
+        "hero": {
+          "eyebrow": "Trình tạo website hội thánh miễn phí",
+          "title": "Website hội thánh tự cập nhật",
+          "subtitle": "Các trang kéo-thả lấy bài giảng, sự kiện, nhóm, giờ nhóm họp và dâng hiến trực tiếp từ B1, nên website của bạn không bao giờ lỗi thời. Lưu trữ, SSL và tên miền riêng đều miễn phí."
+        },
+        "sections": [
+          {
+            "title": "Bắt đầu chỉ trong vài phút",
+            "body": "Mỗi hội thánh có sẵn một website tại yourchurch.b1.church ngay ngày đăng ký.",
+            "bullets": [
+              "Trỏ tên miền riêng của bạn bằng bản ghi CNAME hoặc A",
+              "Chứng chỉ SSL được cấp tự động",
+              "Tạo nhiều website cho cùng một hội thánh nếu cần"
+            ]
+          },
+          {
+            "title": "Trình soạn trang kéo-thả",
+            "body": "Dựng trang từ các khối và thành phần. Bắt đầu từ mẫu có sẵn (giới thiệu đầu trang, về chúng tôi, các buổi nhóm, dâng hiến và nhiều hơn nữa) hoặc bố cục cột trống.",
+            "bullets": [
+              "Văn bản, hình ảnh, nút bấm, thẻ, thư viện ảnh, lời chứng, câu hỏi thường gặp và bảng",
+              "Video, podcast từ nguồn RSS, trình phát trực tiếp, bản đồ và nội dung nhúng",
+              "Đồng hồ đếm ngược, số liệu thống kê, lưới nhân sự và logo"
+            ]
+          },
+          {
+            "title": "Nội dung tự cập nhật",
+            "body": "Các thành phần dành riêng cho hội thánh đọc từ chính cơ sở dữ liệu mà nhân sự của bạn đang dùng.",
+            "bullets": [
+              "Lịch dạng lưới theo tháng hoặc danh sách sự kiện sắp tới, mỗi sự kiện có một trang riêng",
+              "Giờ nhóm họp lấy từ thiết lập điểm danh",
+              "Trình duyệt nhóm, biểu mẫu và đăng ký",
+              "Biểu mẫu dâng hiến và thanh tiến độ chiến dịch"
+            ]
+          },
+          {
+            "title": "Bài giảng và phát trực tiếp",
+            "body": "Thư viện bài giảng với danh sách phát theo loạt và một trang cho mỗi bài giảng.",
+            "bullets": [
+              "Nhập hàng loạt từ YouTube hoặc Vimeo",
+              "Lịch phát trực tiếp có trò chuyện"
+            ]
+          },
+          {
+            "title": "Blog tích hợp sẵn",
+            "body": "Đăng tin tức và suy ngẫm hằng ngày tại /blog kèm nguồn cấp RSS.",
+            "bullets": [
+              "Bản nháp, bài hẹn giờ, danh mục và thẻ",
+              "Bình luận tùy chọn qua Hyvor Talk, FastComments hoặc Disqus"
+            ]
+          },
+          {
+            "title": "Phong cách của bạn, quy tắc của bạn",
+            "body": "Màu sắc, phông chữ, khoảng cách, logo và thanh điều hướng đều do bạn quyết định.",
+            "bullets": [
+              "Trang dành cho mọi người, chỉ tín hữu, chỉ nhân sự, hoặc những nhóm cụ thể",
+              "Mô tả meta, hình ảnh chia sẻ mạng xã hội, chuyển hướng và Google Analytics 4",
+              "Biểu ngữ thông báo cùng CSS hoặc JavaScript tùy chỉnh"
+            ]
+          }
+        ],
+        "faqTitle": "Câu hỏi về trình tạo website",
+        "faq": [
+          {
+            "q": "Trình tạo website hội thánh có thực sự miễn phí không?",
+            "a": "Có. Trình tạo, lưu trữ, SSL và hỗ trợ tên miền riêng đều miễn phí. Bạn chỉ trả cho nhà đăng ký tên miền phần phí của chính tên miền."
+          },
+          {
+            "q": "Tôi có thể dùng tên miền riêng không?",
+            "a": "Có. Thêm bản ghi CNAME hoặc A tại nhà đăng ký, B1 sẽ tự động cấp chứng chỉ SSL."
+          },
+          {
+            "q": "Tôi có cần biết lập trình không?",
+            "a": "Không. Các trang được dựng bằng cách kéo-thả khối và thành phần. CSS và JavaScript tùy chỉnh luôn sẵn có nếu bạn muốn."
+          },
+          {
+            "q": "Chúng tôi có thể dùng B1 mà không cần website công khai không?",
+            "a": "Có. Bạn có thể tắt website công khai và chỉ dùng B1 cho ứng dụng tín hữu, dâng hiến và đăng ký."
+          }
+        ]
+      },
+      "giving": {
+        "name": "Dâng hiến trực tuyến",
+        "meta": {
+          "title": "Dâng hiến trực tuyến miễn phí, không phí nền tảng | B1.church",
+          "description": "Dâng hiến trực tuyến cho hội thánh, B1 không thu phí nền tảng. Dùng tài khoản Stripe, PayPal hoặc Paystack của bạn: dâng định kỳ, ACH, Apple Pay, quỹ, cam kết và báo cáo cuối năm."
+        },
+        "hero": {
+          "eyebrow": "Dâng hiến trực tuyến",
+          "title": "Dâng hiến trực tuyến, không phí nền tảng",
+          "subtitle": "B1 không bao giờ đứng giữa dòng tiền. Hội thánh kết nối tài khoản thanh toán của riêng mình, khoản dâng đến thẳng tay bạn và B1 không cộng thêm gì. Bạn chỉ trả mức phí của đơn vị xử lý thanh toán."
+        },
+        "sections": [
+          {
+            "title": "Tài khoản của bạn, tiền của bạn",
+            "body": "Mỗi hội thánh kết nối cổng thanh toán riêng. Dữ liệu thẻ không bao giờ đi qua máy chủ ChurchApps.",
+            "bullets": [
+              "Stripe, gồm Apple Pay và Google Pay cho các khoản dâng một lần",
+              "PayPal, kèm nút Venmo",
+              "Paystack trên khắp châu Phi, hỗ trợ tiền di động và chuyển khoản ngân hàng",
+              "Dâng hiến qua ngân hàng (ACH), xác minh tức thì cho khách"
+            ]
+          },
+          {
+            "title": "Chi phí thực tế là bao nhiêu",
+            "body": "B1 không thu phí nền tảng và không có gói trả phí. Chi phí duy nhất là mức phí của đơn vị xử lý thanh toán, khoản này thuộc về họ chứ không phải chúng tôi.",
+            "bullets": [
+              "Stripe có mức phí ưu đãi cho các tổ chức phi lợi nhuận đủ điều kiện (2.2% + $0.30 cho mỗi khoản dâng bằng thẻ)",
+              "Người dâng có thể chọn chi trả phí xử lý",
+              "Dâng hiến đa tiền tệ với Stripe trong 15 loại tiền"
+            ]
+          },
+          {
+            "title": "Dâng định kỳ tự phục hồi",
+            "body": "Tín hữu thiết lập các khoản dâng định kỳ và quản lý ngay trong ứng dụng.",
+            "bullets": [
+              "Tạm dừng hoặc tiếp tục các khoản dâng định kỳ Stripe bất cứ lúc nào",
+              "Các khoản dâng thất bại hiện trong một danh sách với nút Thử lại",
+              "Người dâng nhận email khi khoản dâng thất bại, và nhắc lại sau 3 và 7 ngày"
+            ]
+          },
+          {
+            "title": "Quỹ, chiến dịch và cam kết",
+            "body": "Cho người dâng những lựa chọn rõ ràng và theo dõi mọi mục tiêu.",
+            "bullets": [
+              "Quỹ được khấu trừ thuế và quỹ ẩn",
+              "Liên kết dâng hiến cài sẵn quỹ và số tiền",
+              "Chiến dịch có mục tiêu, thanh tiến độ và so sánh số đã cam kết với số đã dâng",
+              "Dâng hiến ẩn danh"
+            ]
+          },
+          {
+            "title": "Tiền mặt, séc và sổ sách",
+            "body": "Mọi khoản dâng đều về một nơi, ngay cạnh dữ liệu về con người.",
+            "bullets": [
+              "Nhập theo đợt cho tiền mặt và séc",
+              "Nhập các giao dịch Stripe còn thiếu",
+              "Báo cáo cuối năm kèm logo của bạn, gồm định dạng cho Canada, Úc và New Zealand",
+              "Tín hữu có thể xem và in lịch sử dâng hiến của chính mình"
+            ]
+          }
+        ],
+        "faqTitle": "Câu hỏi về dâng hiến trực tuyến",
+        "faq": [
+          {
+            "q": "B1 có lấy phần trăm từ các khoản dâng không?",
+            "a": "Không. B1 không có phí nền tảng. Khoản dâng đi thẳng vào tài khoản Stripe, PayPal hoặc Paystack của hội thánh bạn, và bạn chỉ trả mức phí của đơn vị đó."
+          },
+          {
+            "q": "B1 hoạt động với những đơn vị xử lý thanh toán nào?",
+            "a": "Stripe, PayPal (kèm Venmo) và Paystack. Kingdom Funding có sẵn ở bản beta."
+          },
+          {
+            "q": "Tín hữu có thể dâng hiến từ điện thoại không?",
+            "a": "Có. Tín hữu dâng từ ứng dụng hoặc website của hội thánh, thiết lập dâng định kỳ và xem toàn bộ lịch sử dâng hiến."
+          },
+          {
+            "q": "Chúng tôi có thể ghi nhận các khoản dâng bằng tiền mặt và séc không?",
+            "a": "Có. Hãy nhập theo đợt để mọi khoản dâng đều xuất hiện trong báo cáo cuối năm."
+          }
+        ]
+      },
+      "checkin": {
+        "name": "Check-in trẻ em",
+        "meta": {
+          "title": "Phần mềm check-in miễn phí cho mục vụ thiếu nhi | B1.church",
+          "description": "Check-in hội thánh miễn phí với ki-ốt tự phục vụ, thẻ tên, mã đón khớp cho phụ huynh, đăng ký khách qua QR, tỷ lệ phòng và báo cáo điểm danh. Chạy trên máy tính bảng giá rẻ."
+        },
+        "hero": {
+          "eyebrow": "Check-in hội thánh",
+          "title": "Check-in nhanh và an toàn cho mọi gia đình",
+          "subtitle": "Các gia đình check-in tại ki-ốt hoặc từ điện thoại, trẻ em nhận thẻ tên kèm mã đón khớp, và điểm danh tự động ghi nhận. Miễn phí, dùng máy tính bảng và máy in nhãn giá phải chăng."
+        },
+        "sections": [
+          {
+            "title": "Ki-ốt tự phục vụ",
+            "body": "Chạy ứng dụng check-in B1 trên một máy tính bảng giá phải chăng.",
+            "bullets": [
+              "Khuyến nghị: Samsung Galaxy Tab A-series hoặc Amazon Fire HD 10",
+              "Gia đình tự tìm mình bằng 4 số cuối của số điện thoại hoặc theo tên",
+              "Mỗi người được xếp vào đúng phòng, kèm hướng dẫn theo độ tuổi và lớp",
+              "Màu sắc ki-ốt và trình chiếu ở màn hình chờ phù hợp với hội thánh bạn"
+            ]
+          },
+          {
+            "title": "Thẻ tên và mã đón",
+            "body": "In thẻ tên cho từng em và phiếu đón cho phụ huynh với cùng một mã bảo mật gồm 4 ký tự.",
+            "bullets": [
+              "Máy in nhãn Brother QL (khuyến nghị QL-1110NWB) với nhãn DK-1201",
+              "Tự thiết kế nhãn của riêng bạn",
+              "In lại nhãn bất cứ lúc nào"
+            ]
+          },
+          {
+            "title": "An toàn trẻ em được tích hợp sẵn",
+            "body": "Các công cụ trả trẻ và quản lý phòng giúp tình nguyện viên giữ cho các em được an toàn.",
+            "bullets": [
+              "Trả trẻ bằng mã bảo mật, quét bằng camera hoặc máy quét mã vạch",
+              "Danh sách người được phép và không được phép đón",
+              "Sức chứa phòng và tỷ lệ tình nguyện viên có thể cảnh báo hoặc chặn",
+              "Gọi phụ huynh hoặc gửi SMS khẩn cấp (cần nhà cung cấp tin nhắn SMS)"
+            ]
+          },
+          {
+            "title": "Chào đón khách mới",
+            "body": "Các gia đình đến lần đầu có thể đăng ký tại ki-ốt hoặc trên điện thoại của mình.",
+            "bullets": [
+              "Đăng ký khách bằng mã QR với các trường do bạn chọn",
+              "Tự động thêm khách vào một nhóm để chăm sóc tiếp theo"
+            ]
+          },
+          {
+            "title": "Check-in trước khi đến",
+            "body": "Tín hữu có thể check-in cả gia đình từ ứng dụng của hội thánh."
+          },
+          {
+            "title": "Điểm danh tự động ghi nhận",
+            "body": "Mỗi lượt check-in đều cập nhật vào báo cáo điểm danh trong B1Admin.",
+            "bullets": [
+              "Tổng kết hằng tuần, xu hướng điểm danh và điểm danh theo từng nhóm",
+              "Khung giờ check-in cho từng buổi nhóm họp",
+              "Chỉ nhập số người cho các buổi không dùng check-in"
+            ]
+          }
+        ],
+        "faqTitle": "Câu hỏi về check-in",
+        "faq": [
+          {
+            "q": "Chúng tôi cần thiết bị gì?",
+            "a": "Một máy tính bảng cho mỗi ki-ốt và, nếu muốn có thẻ tên, một máy in nhãn Brother QL. Các máy tính bảng được khuyến nghị gồm Samsung Galaxy Tab A-series và Amazon Fire HD 10."
+          },
+          {
+            "q": "Phần mềm check-in có miễn phí không?",
+            "a": "Có. Check-in là một phần của B1, miễn phí kể cả lưu trữ. Bạn chỉ phải mua thiết bị."
+          },
+          {
+            "q": "Phụ huynh đón con bằng cách nào?",
+            "a": "Thẻ tên của mỗi em và phiếu đón của phụ huynh có chung một mã 4 ký tự. Tình nguyện viên kiểm tra hoặc quét mã khi đón."
+          },
+          {
+            "q": "Khách thăm có thể check-in không?",
+            "a": "Có. Khách có thể được thêm tại ki-ốt, hoặc quét mã QR để tự đăng ký trên điện thoại."
+          }
+        ]
+      },
+      "about": {
+        "name": "Giới thiệu",
+        "meta": {
+          "title": "Về B1: Phần mềm hội thánh miễn phí, phi lợi nhuận | B1.church",
+          "description": "B1 là phần mềm quản lý hội thánh mã nguồn mở, miễn phí do Live Church Solutions, tổ chức phi lợi nhuận 501(c)(3), xây dựng. Vì sao miễn phí, ai tài trợ và bạn có thể kỳ vọng gì."
+        },
+        "hero": {
+          "eyebrow": "Về B1",
+          "title": "Phần mềm hội thánh miễn phí, do một tổ chức phi lợi nhuận xây dựng",
+          "subtitle": "B1 được xây dựng bởi Live Church Solutions, một mục vụ phi lợi nhuận 501(c)(3) (EIN 45-5349618). Chúng tôi tin rằng mọi hội thánh đều xứng đáng có công nghệ hiện đại, dù ngân sách ra sao."
+        },
+        "sections": [
+          {
+            "title": "Vì sao B1 miễn phí?",
+            "body": "B1 là một mục vụ, không phải doanh nghiệp. Việc phát triển và lưu trữ được tài trợ bằng các khoản dâng góp và hỗ trợ bởi Google Ad Grants, nên hội thánh không bao giờ phải trả tiền cho phần mềm.",
+            "bullets": [
+              "Không gói trả phí, không tính giá theo số tín hữu, không giới hạn tính năng",
+              "Đã bao gồm lưu trữ",
+              "Không thu phí nền tảng trên các khoản dâng"
+            ]
+          },
+          {
+            "title": "Những khoản bạn vẫn có thể phải trả",
+            "body": "Chúng tôi muốn bạn biết rõ bức tranh toàn cảnh ngay từ đầu.",
+            "bullets": [
+              "Phí xử lý thẻ và ngân hàng, trả cho đơn vị xử lý thanh toán của riêng bạn",
+              "Máy tính bảng và máy in nhãn nếu bạn dùng ki-ốt check-in",
+              "Nhà cung cấp tin nhắn SMS nếu bạn muốn gửi tin nhắn",
+              "Tên miền của bạn, nếu dùng tên miền riêng",
+              "Dung lượng lưu trữ tệp vượt quá 100 MB, bạn cũng có thể giải quyết bằng cách liên kết Google Drive, Dropbox, OneDrive hoặc S3"
+            ]
+          },
+          {
+            "title": "Mã nguồn mở",
+            "body": "Toàn bộ mã của B1 được công khai trên GitHub, trải trên khoảng 20 kho mã.",
+            "bullets": [
+              "Ai cũng có thể xem xét cách nó vận hành",
+              "Tự triển khai bằng Docker hoặc mẫu Railway một cú nhấp nếu bạn muốn"
+            ]
+          },
+          {
+            "title": "Dữ liệu vẫn là của bạn",
+            "body": "Không có ràng buộc nào.",
+            "bullets": [
+              "Nhập từ Planning Center, Breeze, Tithe.ly, Pushpay (CCB), hoặc bất kỳ tệp CSV hay Excel nào bằng B1 Transfer",
+              "Xuất bản sao lưu đầy đủ về tín hữu, nhóm, dâng hiến, điểm danh và biểu mẫu",
+              "Chuyển đổi dữ liệu sang định dạng của Breeze hoặc Planning Center"
+            ]
+          },
+          {
+            "title": "Một gia đình các công cụ miễn phí",
+            "body": "B1 thuộc ChurchApps, cùng với phần mềm trình chiếu FreeShow và giáo trình Lessons.church. Một tài khoản miễn phí dùng được cho tất cả."
+          }
+        ],
+        "faqTitle": "Câu hỏi về B1",
+        "faq": [
+          {
+            "q": "B1 có thực sự miễn phí không?",
+            "a": "Có. Phần mềm và lưu trữ đều miễn phí, không có gói trả phí và không thu phí nền tảng trên khoản dâng. Bạn chỉ trả các chi phí bên ngoài như phí xử lý thẻ cho đơn vị thanh toán của mình, và thiết bị nếu dùng ki-ốt check-in."
+          },
+          {
+            "q": "Ai đứng sau B1?",
+            "a": "Live Church Solutions, một mục vụ phi lợi nhuận 501(c)(3) (EIN 45-5349618), cũng là đơn vị xây dựng FreeShow và Lessons.church dưới tên ChurchApps."
+          },
+          {
+            "q": "Sau này B1 có bắt đầu thu phí không?",
+            "a": "B1 được tài trợ bằng các khoản dâng góp và tài trợ, không phải bằng thuê bao, và mã nguồn là mã mở. Nếu muốn rời đi, bạn có thể xuất toàn bộ dữ liệu."
+          },
+          {
+            "q": "Chúng tôi nhận hỗ trợ bằng cách nào?",
+            "a": "Truy cập trung tâm trợ giúp tại support.churchapps.org hoặc gửi email đến support@churchapps.org."
+          }
+        ]
       }
     },
     "notFound": {

@@ -417,13 +417,24 @@
       "meta": {
         "hubTitle": "Cómo se compara B1",
         "hubDescription": "B1 es el sistema de gestión de iglesias con el que empiezas. Personas, ofrendas, registro de asistencia, sitio web, app para miembros, planificación de cultos. $0 para siempre. 501(c)(3).",
-        "detailTitle": "B1.church vs {{competitor}} - Comparación de software gratuito para iglesias",
+        "detailTitle": "Alternativa gratuita a {{competitor}} | B1.church vs {{competitor}}",
         "descriptions": {
           "planning-center": "B1 es la plataforma completa por $0. Sin pagar por módulos adicionales.",
           "pushpay": "Pushpay es una plataforma de ofrendas de pago. B1 incluye ofrendas sin comisión de plataforma, además de personas, registro de asistencia, sitio web y planificación de cultos.",
           "tithely": "Tithe.ly es una empresa de ofrendas con software para iglesias añadido. B1 es el sistema de gestión de iglesias, 100 % gratis con hosting incluido. Las ofrendas están incluidas. Stripe para organizaciones sin fines de lucro cobra 2,2 % + $0,30; las ofrendas \"gratis\" de Tithe.ly cuestan 2,9 % + $0,30.",
           "breeze": "Breeze es un sistema de gestión de iglesias sencillo y de pago, que mencionan quienes dejan Planning Center. B1 cuesta $0 e incluye sitio web, ofrendas sin comisión de plataforma, registro de asistencia y planificación de cultos. Importamos tus personas desde Breeze."
         }
+      },
+      "switching": {
+        "title": "Cómo pasar de {{competitor}}",
+        "steps": [
+          "Crea tu cuenta gratuita de B1. Toma unos minutos y no requiere tarjeta de crédito.",
+          "Importa tus personas, grupos y registros de ofrendas con B1 Transfer, que lee las exportaciones de Planning Center, Breeze, Tithe.ly y Pushpay (CCB), o cualquier archivo CSV o Excel.",
+          "Conecta la cuenta de Stripe, PayPal o Paystack de tu propia iglesia para las ofrendas en línea.",
+          "Publica tu sitio web y tu app para miembros, y configura el check-in si lo usas.",
+          "Invita a tu congregación a iniciar sesión."
+        ],
+        "note": "¿Cambiaste de opinión? Exporta una copia de seguridad completa cuando quieras, o convierte tus datos de vuelta al formato de Breeze o Planning Center."
       },
       "notFound": {
         "title": "Cómo se compara B1",
@@ -850,6 +861,420 @@
           "title": "Acceso Basado en Roles",
           "description": "Permisos seguros para el personal y los voluntarios"
         }
+      }
+    },
+    "pages": {
+      "app": {
+        "name": "App para la iglesia",
+        "meta": {
+          "title": "App gratuita para los miembros de tu iglesia | B1.church",
+          "description": "Una app gratuita para miembros con el nombre y el logo de tu iglesia: directorio, grupos, mensajes, ofrendas, check-in, sermones y notificaciones push. Se instala desde el sitio web de tu iglesia."
+        },
+        "hero": {
+          "eyebrow": "App gratuita para iglesias",
+          "title": "La app propia de tu iglesia, gratis",
+          "subtitle": "Los miembros tienen un solo lugar para grupos, mensajes, ofrendas, check-in, sermones y eventos. Lleva el nombre y el logo de tu iglesia, se instala desde su sitio web en segundos y siempre está actualizada."
+        },
+        "sections": [
+          {
+            "title": "Se instala en segundos",
+            "body": "Tu app vive en la dirección B1 de tu iglesia y se instala directo en la pantalla de inicio, a pantalla completa y con insignia de mensajes sin leer.",
+            "bullets": [
+              "iPhone: abre el sitio de tu iglesia en Safari, toca Compartir y luego Añadir a pantalla de inicio",
+              "Android: instalación con un toque desde Chrome",
+              "Quienes visitan desde un ordenador ven un código QR para enviarla a su teléfono",
+              "Los miembros inician sesión con correo, Google o Microsoft"
+            ]
+          },
+          {
+            "title": "Grupos y mensajes",
+            "body": "Los grupos pequeños, ministerios y equipos se mantienen en contacto sin otra app de chat.",
+            "bullets": [
+              "Explora los grupos y solicita unirte",
+              "Chat de grupo y avisos solo para líderes",
+              "Confirmación de asistencia a eventos: Voy, Quizás o No puedo",
+              "Mensajes privados, con una edad mínima que tú controlas"
+            ]
+          },
+          {
+            "title": "Un directorio bajo tu control",
+            "body": "Los miembros pueden encontrarse y comunicarse por mensaje, llamada o texto. Tú decides quién ve qué.",
+            "bullets": [
+              "Búsqueda con fotos y perfiles",
+              "Niveles de visibilidad: todos, miembros, solo grupos, líderes de grupo o solo el personal"
+            ]
+          },
+          {
+            "title": "Notificaciones que sí llegan",
+            "body": "Notificaciones push, una campana dentro de la app y correo electrónico, con mensajes de texto opcionales.",
+            "bullets": [
+              "Cada miembro elige sus ajustes por tipo y un resumen diario por correo",
+              "Horas de silencio para que nadie reciba avisos a medianoche"
+            ]
+          },
+          {
+            "title": "Ofrendas, check-in y servicio",
+            "body": "La misma app resuelve lo que los miembros hacen cada semana.",
+            "bullets": [
+              "Ofrenda única o recurrente, con historial de ofrendas",
+              "Registra a toda la familia antes de llegar",
+              "Consulta tus asignaciones de servicio y apúntate como voluntario",
+              "Inscribe a tu familia en eventos, incluso de pago"
+            ]
+          },
+          {
+            "title": "Sermones y la Biblia",
+            "body": "Mantén a la gente conectada con la enseñanza durante la semana.",
+            "bullets": [
+              "Biblioteca de sermones y transmisión en vivo con chat",
+              "Lector de la Biblia integrado y versículo del día",
+              "El personal elige qué pestañas aparecen y qué ven los visitantes antes de iniciar sesión"
+            ]
+          }
+        ],
+        "faqTitle": "Preguntas sobre la app de la iglesia",
+        "faq": [
+          {
+            "q": "¿Cuánto cuesta la app de la iglesia?",
+            "a": "Nada. La app para miembros, el alojamiento y todas las funciones son gratis. B1 lo crea Live Church Solutions, una organización sin fines de lucro 501(c)(3)."
+          },
+          {
+            "q": "¿La app muestra el nombre y el logo de nuestra iglesia?",
+            "a": "Sí. Los miembros la instalan desde el sitio web B1 de tu iglesia y lleva el nombre y el logo de tu iglesia."
+          },
+          {
+            "q": "¿Los miembros necesitan instalar algo para usarla?",
+            "a": "No. Funciona en cualquier navegador, y quien quiera un icono en su pantalla de inicio puede instalarla en unos toques."
+          },
+          {
+            "q": "¿Funciona sin conexión?",
+            "a": "La app necesita conexión a internet; no guarda contenido para usarlo sin conexión."
+          }
+        ]
+      },
+      "websiteBuilder": {
+        "name": "Creador de sitios web",
+        "meta": {
+          "title": "Creador de sitios web para iglesias, gratis | B1.church",
+          "description": "Crea el sitio de tu iglesia gratis con secciones de arrastrar y soltar, sermones, eventos, ofrendas, formularios y blog. Dominio propio y SSL incluidos. Sin cuota de alojamiento."
+        },
+        "hero": {
+          "eyebrow": "Creador de sitios web gratuito para iglesias",
+          "title": "Un sitio web de iglesia que se actualiza solo",
+          "subtitle": "Páginas de arrastrar y soltar que toman sermones, eventos, grupos, horarios de culto y ofrendas directamente de B1, así tu sitio nunca queda desactualizado. El alojamiento, el SSL y tu propio dominio van incluidos sin costo."
+        },
+        "sections": [
+          {
+            "title": "Empieza en minutos",
+            "body": "Cada iglesia tiene un sitio listo en yourchurch.b1.church desde el día en que se registra.",
+            "bullets": [
+              "Apunta tu propio dominio con un registro CNAME o A",
+              "Los certificados SSL son automáticos",
+              "Crea varios sitios para una misma iglesia si lo necesitas"
+            ]
+          },
+          {
+            "title": "Editor de páginas de arrastrar y soltar",
+            "body": "Arma páginas con secciones y elementos. Parte de una plantilla (portada, quiénes somos, servicios, ofrendas y más) o de un diseño en columnas en blanco.",
+            "bullets": [
+              "Texto, imágenes, botones, tarjetas, galerías, testimonios, preguntas frecuentes y tablas",
+              "Video, podcast desde un feed RSS, reproductor de transmisión en vivo, mapas e incrustaciones",
+              "Cuenta regresiva, cifras, cuadrícula del equipo y logotipos"
+            ]
+          },
+          {
+            "title": "Contenido que se actualiza solo",
+            "body": "Los elementos propios de la iglesia leen de la misma base de datos que ya usa tu equipo.",
+            "bullets": [
+              "Calendario en cuadrícula mensual o con los próximos eventos, y una página para cada evento",
+              "Horarios de culto tomados de tu configuración de asistencia",
+              "Explorador de grupos, formularios e inscripciones",
+              "Formularios de ofrendas y barras de progreso de campañas"
+            ]
+          },
+          {
+            "title": "Sermones y transmisión en vivo",
+            "body": "Una biblioteca de sermones con listas por serie y una página para cada mensaje.",
+            "bullets": [
+              "Importación masiva desde YouTube o Vimeo",
+              "Programación de transmisiones en vivo con chat"
+            ]
+          },
+          {
+            "title": "Blog integrado",
+            "body": "Publica noticias y devocionales en /blog con un feed RSS.",
+            "bullets": [
+              "Borradores, publicaciones programadas, categorías y etiquetas",
+              "Comentarios opcionales con Hyvor Talk, FastComments o Disqus"
+            ]
+          },
+          {
+            "title": "Tu estilo, tus reglas",
+            "body": "Colores, tipografías, espaciado, logotipos y navegación: todo lo defines tú.",
+            "bullets": [
+              "Páginas para todos, solo para miembros, solo para el personal o para grupos específicos",
+              "Meta descripciones, imagen para redes sociales, redirecciones y Google Analytics 4",
+              "Banner de anuncios y CSS o JavaScript personalizado"
+            ]
+          }
+        ],
+        "faqTitle": "Preguntas sobre el creador de sitios web",
+        "faq": [
+          {
+            "q": "¿El creador de sitios web para iglesias es realmente gratis?",
+            "a": "Sí. El creador, el alojamiento, el SSL y el uso de dominio propio son gratis. Solo pagas a tu registrador el nombre del dominio."
+          },
+          {
+            "q": "¿Puedo usar mi propio dominio?",
+            "a": "Sí. Añade un registro CNAME o A en tu registrador y B1 emite el certificado SSL automáticamente."
+          },
+          {
+            "q": "¿Necesito saber programar?",
+            "a": "No. Las páginas se arman arrastrando secciones y elementos. El CSS y JavaScript personalizado está ahí por si lo quieres."
+          },
+          {
+            "q": "¿Podemos usar B1 sin un sitio web público?",
+            "a": "Sí. Puedes desactivar el sitio público y usar B1 solo para la app de miembros, las ofrendas y las inscripciones."
+          }
+        ]
+      },
+      "giving": {
+        "name": "Ofrendas en línea",
+        "meta": {
+          "title": "Ofrendas en línea gratis para iglesias, sin comisión | B1.church",
+          "description": "Ofrendas en línea para iglesias sin comisión de plataforma de B1. Usa tu propia cuenta de Stripe, PayPal o Paystack: donaciones recurrentes, ACH, Apple Pay, fondos, promesas y estados anuales."
+        },
+        "hero": {
+          "eyebrow": "Ofrendas en línea",
+          "title": "Ofrendas en línea sin comisión de plataforma",
+          "subtitle": "B1 nunca se interpone en el camino del dinero. Tu iglesia conecta su propia cuenta de pagos, las ofrendas llegan directo a ti y B1 no suma nada. Solo pagas la tarifa de tu procesador."
+        },
+        "sections": [
+          {
+            "title": "Tu cuenta, tu dinero",
+            "body": "Cada iglesia conecta su propia pasarela de pagos. Los datos de las tarjetas nunca pasan por los servidores de ChurchApps.",
+            "bullets": [
+              "Stripe, con Apple Pay y Google Pay en ofrendas únicas",
+              "PayPal, con botones de Venmo",
+              "Paystack en toda África, con dinero móvil y transferencia bancaria",
+              "Ofrendas por cuenta bancaria (ACH), con verificación instantánea para invitados"
+            ]
+          },
+          {
+            "title": "Lo que realmente cuesta",
+            "body": "B1 no cobra comisión de plataforma ni tiene planes de pago. El único costo es la tarifa de tu procesador, que va para ellos, no para nosotros.",
+            "bullets": [
+              "Stripe ofrece tarifas con descuento a organizaciones sin fines de lucro elegibles (2.2% + $0.30 por ofrenda con tarjeta)",
+              "Los donantes pueden elegir cubrir la comisión de procesamiento",
+              "Ofrendas en varias monedas con Stripe en 15 divisas"
+            ]
+          },
+          {
+            "title": "Ofrendas recurrentes que se recuperan solas",
+            "body": "Los miembros configuran ofrendas recurrentes y las gestionan desde la app.",
+            "bullets": [
+              "Pausa o reanuda las ofrendas recurrentes de Stripe cuando quieras",
+              "Las ofrendas fallidas aparecen en una sola lista con un botón para reintentar",
+              "Se avisa por correo al donante cuando una ofrenda falla, y de nuevo 3 y 7 días después"
+            ]
+          },
+          {
+            "title": "Fondos, campañas y promesas",
+            "body": "Da a los donantes opciones claras y sigue cada meta.",
+            "bullets": [
+              "Fondos deducibles de impuestos y fondos ocultos",
+              "Enlaces de ofrenda con fondo y monto predefinidos",
+              "Campañas con metas, barras de progreso y totales de lo prometido frente a lo dado",
+              "Ofrendas anónimas"
+            ]
+          },
+          {
+            "title": "Efectivo, cheques y registros",
+            "body": "Todo lo que se da queda en un solo lugar, junto con los datos de tu gente.",
+            "bullets": [
+              "Registro por lotes de efectivo y cheques",
+              "Importa las transacciones de Stripe que falten",
+              "Estados de fin de año con tu logo, incluidos los formatos de Canadá, Australia y Nueva Zelanda",
+              "Los miembros pueden ver e imprimir su propio historial de ofrendas"
+            ]
+          }
+        ],
+        "faqTitle": "Preguntas sobre las ofrendas en línea",
+        "faq": [
+          {
+            "q": "¿B1 se queda con una parte de las ofrendas?",
+            "a": "No. B1 no cobra comisión de plataforma. Las ofrendas van directo a la cuenta de Stripe, PayPal o Paystack de tu propia iglesia, y solo pagas la tarifa de ese procesador."
+          },
+          {
+            "q": "¿Con qué procesadores de pago funciona B1?",
+            "a": "Stripe, PayPal (con Venmo) y Paystack. Kingdom Funding está disponible en beta."
+          },
+          {
+            "q": "¿Pueden los miembros dar desde el teléfono?",
+            "a": "Sí. Los miembros dan desde la app o el sitio web de la iglesia, configuran ofrendas recurrentes y ven todo su historial."
+          },
+          {
+            "q": "¿Podemos registrar ofrendas en efectivo y cheques?",
+            "a": "Sí. Regístralas por lotes para que cada ofrenda aparezca en los estados de fin de año."
+          }
+        ]
+      },
+      "checkin": {
+        "name": "Registro de asistencia",
+        "meta": {
+          "title": "Check-in gratis para iglesias y ministerio infantil | B1.church",
+          "description": "Check-in gratis para iglesias con quioscos de autoservicio, etiquetas de nombre, códigos de recogida para los padres, registro de invitados con QR, proporciones por salón e informes de asistencia."
+        },
+        "hero": {
+          "eyebrow": "Check-in de la iglesia",
+          "title": "Check-in rápido y seguro para cada familia",
+          "subtitle": "Las familias se registran en un quiosco o desde su teléfono, los niños reciben etiquetas con un código de recogida a juego y la asistencia se registra sola. Gratis, con tabletas e impresoras de etiquetas económicas."
+        },
+        "sections": [
+          {
+            "title": "Quioscos de autoservicio",
+            "body": "Usa la app de check-in de B1 en una tableta económica.",
+            "bullets": [
+              "Recomendadas: Samsung Galaxy Tab A-series o Amazon Fire HD 10",
+              "Las familias se buscan solas por los últimos 4 dígitos del teléfono o por nombre",
+              "Cada persona va al salón correcto, con orientación por edad y grado",
+              "Los colores del quiosco y la presentación de la pantalla de reposo se ajustan a tu iglesia"
+            ]
+          },
+          {
+            "title": "Etiquetas de nombre y códigos de recogida",
+            "body": "Imprime una etiqueta con el nombre de cada niño y un comprobante de recogida para los padres con el mismo código de seguridad de 4 caracteres.",
+            "bullets": [
+              "Impresoras de etiquetas Brother QL (se recomienda la QL-1110NWB) con etiquetas DK-1201",
+              "Diseña tus propias etiquetas",
+              "Reimprime una etiqueta cuando quieras"
+            ]
+          },
+          {
+            "title": "Seguridad infantil integrada",
+            "body": "Herramientas de salida y de salones que ayudan a los voluntarios a cuidar a los niños.",
+            "bullets": [
+              "Salida con código de seguridad, escaneado con la cámara o con un lector de códigos de barras",
+              "Listas de personas autorizadas y no autorizadas para recoger",
+              "Capacidad de los salones y proporciones de voluntarios que avisan o bloquean",
+              "Llama a un padre o envía un texto de emergencia (requiere un proveedor de mensajes de texto)"
+            ]
+          },
+          {
+            "title": "Los invitados son bienvenidos",
+            "body": "Las familias que llegan por primera vez pueden registrarse en el quiosco o en su propio teléfono.",
+            "bullets": [
+              "Registro de invitados con código QR y los campos que tú elijas",
+              "Añade automáticamente a los invitados a un grupo para el seguimiento"
+            ]
+          },
+          {
+            "title": "Check-in antes de llegar",
+            "body": "Los miembros pueden registrar a toda su familia desde la app de la iglesia."
+          },
+          {
+            "title": "Una asistencia que se registra sola",
+            "body": "Cada check-in alimenta tus informes de asistencia en B1Admin.",
+            "bullets": [
+              "Resumen semanal, tendencia de asistencia y asistencia por grupo",
+              "Ventanas de check-in para cada horario de culto",
+              "Registro de solo conteo para servicios sin check-in"
+            ]
+          }
+        ],
+        "faqTitle": "Preguntas sobre el check-in",
+        "faq": [
+          {
+            "q": "¿Qué equipo necesitamos?",
+            "a": "Una tableta por cada quiosco y, si quieres etiquetas de nombre, una impresora de etiquetas Brother QL. Entre las tabletas recomendadas están la Samsung Galaxy Tab A-series y la Amazon Fire HD 10."
+          },
+          {
+            "q": "¿El software de check-in es gratis?",
+            "a": "Sí. El check-in es parte de B1, que es gratis, alojamiento incluido. Solo compras el equipo."
+          },
+          {
+            "q": "¿Cómo recogen los padres a sus hijos?",
+            "a": "La etiqueta de cada niño y el comprobante del padre comparten un código de 4 caracteres. Los voluntarios revisan el código, o lo escanean, al momento de la recogida."
+          },
+          {
+            "q": "¿Pueden registrarse los visitantes?",
+            "a": "Sí. Se pueden añadir invitados en el quiosco, o escanear un código QR para registrarse desde su propio teléfono."
+          }
+        ]
+      },
+      "about": {
+        "name": "Acerca de",
+        "meta": {
+          "title": "Acerca de B1: software gratuito para iglesias | B1.church",
+          "description": "B1 es un software de gestión de iglesias gratuito y de código abierto creado por Live Church Solutions, una organización 501(c)(3). Cómo es gratis, quién lo financia y qué esperar."
+        },
+        "hero": {
+          "eyebrow": "Acerca de B1",
+          "title": "Software gratuito para iglesias, creado por una organización sin fines de lucro",
+          "subtitle": "B1 lo crea Live Church Solutions, un ministerio sin fines de lucro 501(c)(3) (EIN 45-5349618). Creemos que toda iglesia merece tecnología moderna, sea cual sea su presupuesto."
+        },
+        "sections": [
+          {
+            "title": "¿Cómo es gratis B1?",
+            "body": "B1 es un ministerio, no un negocio. El desarrollo y el alojamiento se financian con donaciones y con el apoyo de Google Ad Grants, por eso las iglesias nunca pagan por el software.",
+            "bullets": [
+              "Sin planes de pago, sin precios por miembro, sin límites de funciones",
+              "El alojamiento está incluido",
+              "Sin comisión de plataforma en las ofrendas"
+            ]
+          },
+          {
+            "title": "Lo que aún podrías pagar",
+            "body": "Queremos que tengas el panorama completo desde el principio.",
+            "bullets": [
+              "Comisiones de procesamiento de tarjetas y bancos, que se pagan a tu propio procesador de pagos",
+              "Tabletas e impresoras de etiquetas si usas quioscos de check-in",
+              "Un proveedor de mensajes de texto si quieres enviar SMS",
+              "El nombre de tu dominio, si usas uno propio",
+              "Almacenamiento adicional de archivos más allá de 100 MB, que también puedes cubrir vinculando Google Drive, Dropbox, OneDrive o S3"
+            ]
+          },
+          {
+            "title": "Código abierto",
+            "body": "Todo el código de B1 es público en GitHub, repartido en unos 20 repositorios.",
+            "bullets": [
+              "Cualquiera puede revisar cómo funciona",
+              "Si lo prefieres, instálalo en tu propio servidor con Docker o con una plantilla de Railway de un clic"
+            ]
+          },
+          {
+            "title": "Tus datos siguen siendo tuyos",
+            "body": "No hay ataduras.",
+            "bullets": [
+              "Importa desde Planning Center, Breeze, Tithe.ly, Pushpay (CCB) o cualquier archivo CSV o Excel con B1 Transfer",
+              "Exporta una copia de seguridad completa de personas, grupos, ofrendas, asistencia y formularios",
+              "Convierte tus datos a los formatos de Breeze o Planning Center"
+            ]
+          },
+          {
+            "title": "Una familia de herramientas gratuitas",
+            "body": "B1 forma parte de ChurchApps, junto con el software de presentaciones FreeShow y el currículo de Lessons.church. Una sola cuenta gratuita sirve para todos."
+          }
+        ],
+        "faqTitle": "Preguntas sobre B1",
+        "faq": [
+          {
+            "q": "¿B1 es realmente gratis?",
+            "a": "Sí. El software y el alojamiento son gratis, sin planes y sin comisión de plataforma en las ofrendas. Solo pagas costos externos, como las comisiones de tarjeta a tu propio procesador y el equipo si usas quioscos de check-in."
+          },
+          {
+            "q": "¿Quién está detrás de B1?",
+            "a": "Live Church Solutions, un ministerio sin fines de lucro 501(c)(3) (EIN 45-5349618) que también crea FreeShow y Lessons.church bajo el nombre ChurchApps."
+          },
+          {
+            "q": "¿B1 empezará a cobrar más adelante?",
+            "a": "B1 se financia con donaciones y subvenciones, no con suscripciones, y su código es abierto. Si algún día quieres irte, puedes exportarlo todo."
+          },
+          {
+            "q": "¿Cómo obtenemos ayuda?",
+            "a": "Visita el centro de ayuda en support.churchapps.org o escribe a support@churchapps.org."
+          }
+        ]
       }
     },
     "notFound": {

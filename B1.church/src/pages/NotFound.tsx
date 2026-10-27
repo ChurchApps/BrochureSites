@@ -1,6 +1,7 @@
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
+import { Head } from "vite-react-ssg";
 import LocaleLink from "@/components/LocaleLink";
 
 const NotFound = () => {
@@ -16,6 +17,10 @@ const NotFound = () => {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
+      <Head>
+        <title>{t("brochure.notFound.title")}</title>
+        <meta name="robots" content="noindex" />
+      </Head>
       <div className="text-center">
         <h1 className="text-4xl font-bold mb-4">{t("brochure.notFound.title")}</h1>
         <p className="text-xl text-gray-600 mb-4">{t("brochure.notFound.message")}</p>

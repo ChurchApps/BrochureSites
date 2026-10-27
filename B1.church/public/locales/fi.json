@@ -417,13 +417,24 @@
       "meta": {
         "hubTitle": "Miten B1 vertautuu",
         "hubDescription": "B1 on seurakunnan hallintajärjestelmä, jolla aloitat. Ihmiset, lahjoitukset, sisäänkirjautuminen, verkkosivut, jäsensovellus, jumalanpalvelusten suunnittelu. 0 $ ikuisesti. 501(c)(3).",
-        "detailTitle": "B1.church vs {{competitor}} - ilmaisten seurakuntaohjelmistojen vertailu",
+        "detailTitle": "Ilmainen vaihtoehto: {{competitor}} | B1.church vs {{competitor}}",
         "descriptions": {
           "planning-center": "B1 on koko kokonaisuus hintaan 0 $. Ei maksullisia lisämoduuleja.",
           "pushpay": "Pushpay on maksullinen lahjoitusalusta. B1 sisältää lahjoitukset ilman alustamaksua sekä ihmiset, sisäänkirjautumisen, verkkosivut ja jumalanpalvelusten suunnittelun.",
           "tithely": "Tithe.ly on lahjoitusyritys, jonka kylkeen on lisätty seurakuntaohjelmisto. B1 on seurakunnan hallintajärjestelmä, 100 % ilmainen hosting mukaan lukien. Lahjoitukset sisältyvät. Stripe voittoa tavoittelemattomille maksaa 2,2 % + 0,30 $; Tithe.lyn \"ilmaiset\" lahjoitukset maksavat 2,9 % + 0,30 $.",
           "breeze": "Breeze on maksullinen, yksinkertainen seurakunnan hallintajärjestelmä, jonka Planning Centeristä lähtevät usein mainitsevat. B1 maksaa 0 $ ja sisältää verkkosivut, lahjoitukset ilman alustamaksua, sisäänkirjautumisen ja jumalanpalvelusten suunnittelun. Tuomme ihmiset Breezestä."
         }
+      },
+      "switching": {
+        "title": "Vaihto palvelusta {{competitor}}",
+        "steps": [
+          "Luo ilmainen B1-tilisi. Se vie muutaman minuutin, eikä luottokorttia tarvita.",
+          "Tuo jäsenet, ryhmät ja lahjoitustiedot B1 Transferilla, joka lukee viennit Planning Centeristä, Breezestä, Tithe.lystä ja Pushpaysta (CCB) tai mistä tahansa CSV- tai Excel-tiedostosta.",
+          "Yhdistä seurakuntasi oma Stripe-, PayPal- tai Paystack-tili verkkolahjoituksia varten.",
+          "Julkaise kotisivut ja jäsensovellus, ja ota check-in käyttöön, jos tarvitset sitä.",
+          "Kutsu seurakuntalaiset kirjautumaan sisään."
+        ],
+        "note": "Muutitko mielesi? Vie täysi varmuuskopio milloin tahansa tai muunna tietosi takaisin Breezen tai Planning Centerin muotoon."
       },
       "notFound": {
         "title": "Näin B1 vertautuu",
@@ -850,6 +861,420 @@
           "title": "Roolipohjainen käyttöoikeus",
           "description": "Turvalliset oikeudet työntekijöille ja vapaaehtoisille"
         }
+      }
+    },
+    "pages": {
+      "app": {
+        "name": "Seurakuntasovellus",
+        "meta": {
+          "title": "Ilmainen seurakuntasovellus jäsenillesi | B1.church",
+          "description": "Ilmainen jäsensovellus seurakuntasi nimellä ja logolla: jäsenhakemisto, ryhmät, viestit, lahjoitukset, check-in, saarnat ja push-ilmoitukset. Asennus seurakunnan sivuilta."
+        },
+        "hero": {
+          "eyebrow": "Ilmainen seurakuntasovellus",
+          "title": "Seurakuntasi oma sovellus, ilmaiseksi",
+          "subtitle": "Jäsenet saavat yhden paikan ryhmille, viesteille, lahjoituksille, check-inille, saarnoille ja tapahtumille. Sovellus kantaa seurakuntasi nimeä ja logoa, asentuu seurakunnan sivuilta sekunneissa ja on aina ajan tasalla."
+        },
+        "sections": [
+          {
+            "title": "Asennus sekunneissa",
+            "body": "Sovelluksesi löytyy seurakuntasi B1-osoitteesta ja asentuu suoraan kotinäytölle koko näytön tilassa ja lukemattomien merkillä.",
+            "bullets": [
+              "iPhone: avaa seurakunnan sivut Safarilla, napauta Jaa ja valitse Lisää kotinäytölle",
+              "Android: asennus yhdellä napautuksella Chromesta",
+              "Tietokoneen käyttäjät näkevät QR-koodin, jolla sovelluksen saa puhelimeen",
+              "Jäsenet kirjautuvat sähköpostilla, Googlella tai Microsoftilla"
+            ]
+          },
+          {
+            "title": "Ryhmät ja viestit",
+            "body": "Pienryhmät, palvelutehtävät ja tiimit pysyvät yhteydessä ilman erillistä chat-sovellusta.",
+            "bullets": [
+              "Selaa ryhmiä ja pyydä liittymistä",
+              "Ryhmäkeskustelu sekä vain johtajille tarkoitetut tiedotteet",
+              "Tapahtumailmoittautumiset: Tulen, Ehkä tai En pääse",
+              "Yksityisviestit, joille voit asettaa alaikärajan"
+            ]
+          },
+          {
+            "title": "Jäsenhakemisto omilla säännöilläsi",
+            "body": "Jäsenet löytävät toisensa ja voivat ottaa yhteyttä viestillä, soittamalla tai tekstiviestillä. Sinä päätät, kuka näkee mitä.",
+            "bullets": [
+              "Haku kuvineen ja profiileineen",
+              "Näkyvyystasot: kaikki, jäsenet, vain ryhmät, ryhmien johtajat tai vain henkilökunta"
+            ]
+          },
+          {
+            "title": "Ilmoitukset, jotka tavoittavat",
+            "body": "Push-ilmoitukset, sovelluksen kello ja sähköposti sekä halutessa tekstiviestit.",
+            "bullets": [
+              "Jokainen jäsen valitsee ilmoitustyyppinsä ja päiväkohtaisen sähköpostiyhteenvedon",
+              "Hiljaiset tunnit, ettei kukaan herää keskellä yötä"
+            ]
+          },
+          {
+            "title": "Lahjoitus, check-in ja palvelu",
+            "body": "Sama sovellus hoitaa kaiken, mitä jäsenet tekevät joka viikko.",
+            "bullets": [
+              "Lahjoita kerran tai perusta toistuva lahjoitus ja katso lahjoitushistoria",
+              "Kirjaa koko perhe sisään ennen saapumista",
+              "Näe palvelutehtäväsi ja ilmoittaudu vapaaehtoiseksi",
+              "Ilmoita perheenjäsenet tapahtumiin, myös maksullisiin"
+            ]
+          },
+          {
+            "title": "Saarnat ja Raamattu",
+            "body": "Pidä ihmiset kiinni opetuksessa myös viikon aikana.",
+            "bullets": [
+              "Saarnakirjasto ja suora lähetys keskusteluineen",
+              "Sisäänrakennettu Raamattu-lukija ja päivän jae",
+              "Henkilökunta valitsee näkyvät välilehdet ja sen, mitä vierailijat näkevät ennen kirjautumista"
+            ]
+          }
+        ],
+        "faqTitle": "Kysymyksiä seurakuntasovelluksesta",
+        "faq": [
+          {
+            "q": "Paljonko seurakuntasovellus maksaa?",
+            "a": "Ei mitään. Jäsensovellus, palvelinhosting ja kaikki ominaisuudet ovat ilmaisia. B1:n takana on Live Church Solutions, 501(c)(3)-voittoa tavoittelematon järjestö."
+          },
+          {
+            "q": "Näkyvätkö seurakuntamme nimi ja logo sovelluksessa?",
+            "a": "Kyllä. Jäsenet asentavat sovelluksen seurakuntasi B1-sivuilta, ja se kantaa seurakuntasi nimeä ja logoa."
+          },
+          {
+            "q": "Täytyykö jäsenten asentaa jotain?",
+            "a": "Ei. Se toimii missä tahansa selaimessa, ja kuvakkeen kotinäytölle voi halutessaan lisätä muutamalla napautuksella."
+          },
+          {
+            "q": "Toimiiko se ilman verkkoyhteyttä?",
+            "a": "Sovellus tarvitsee internetyhteyden, eikä se tallenna sisältöä offline-käyttöön."
+          }
+        ]
+      },
+      "websiteBuilder": {
+        "name": "Kotisivutyökalu",
+        "meta": {
+          "title": "Ilmainen seurakunnan kotisivutyökalu ja hosting | B1.church",
+          "description": "Tee seurakunnan kotisivut ilmaiseksi vetämällä ja pudottamalla: saarnat, tapahtumat, lahjoitukset, lomakkeet ja blogi. Oma verkkotunnus ja SSL mukana. Ei hostinglaskua."
+        },
+        "hero": {
+          "eyebrow": "Ilmainen seurakunnan kotisivutyökalu",
+          "title": "Seurakunnan kotisivut, jotka pitävät itse itsensä ajan tasalla",
+          "subtitle": "Vedä ja pudota -sivut hakevat saarnat, tapahtumat, ryhmät, jumalanpalveluksen ajat ja lahjoitukset suoraan B1:stä, joten sivusi eivät vanhene. Hosting, SSL ja oma verkkotunnus kuuluvat hintaan, eli ovat ilmaisia."
+        },
+        "sections": [
+          {
+            "title": "Alkuun minuuteissa",
+            "body": "Jokainen seurakunta saa valmiit sivut osoitteeseen yourchurch.b1.church heti rekisteröitymispäivänä.",
+            "bullets": [
+              "Ohjaa oma verkkotunnuksesi CNAME- tai A-tietueella",
+              "SSL-varmenteet ovat automaattisia",
+              "Voit rakentaa tarvittaessa useita sivustoja yhdelle seurakunnalle"
+            ]
+          },
+          {
+            "title": "Vedä ja pudota -sivueditori",
+            "body": "Rakenna sivut osioista ja elementeistä. Aloita mallista (esittely, tietoa meistä, jumalanpalvelukset, lahjoitus ja muita) tai tyhjästä palstapohjasta.",
+            "bullets": [
+              "Teksti, kuvat, painikkeet, kortit, galleriat, kokemukset, UKK ja taulukot",
+              "Video, RSS-syötteeseen perustuva podcast, suoran lähetyksen soitin, kartat ja upotukset",
+              "Lähtölaskenta, tilastot, henkilökuntaruudukko ja logoelementit"
+            ]
+          },
+          {
+            "title": "Sisältö, joka päivittyy itsestään",
+            "body": "Seurakuntakohtaiset elementit lukevat samaa tietokantaa, jota henkilökuntasi jo käyttää.",
+            "bullets": [
+              "Kalenteri kuukausinäkymänä tai tulevien tapahtumien listana, jokaiselle tapahtumalle oma sivu",
+              "Jumalanpalvelusten ajat läsnäolotietojen asetuksista",
+              "Ryhmäselain, lomakkeet ja ilmoittautumiset",
+              "Lahjoituslomakkeet ja kampanjoiden edistymispalkit"
+            ]
+          },
+          {
+            "title": "Saarnat ja suora lähetys",
+            "body": "Saarnakirjasto sarjakohtaisine soittolistoineen ja oma sivu jokaiselle puheelle.",
+            "bullets": [
+              "Massatuonti YouTubesta tai Vimeosta",
+              "Suorien lähetysten aikataulu keskusteluineen"
+            ]
+          },
+          {
+            "title": "Blogi sisäänrakennettuna",
+            "body": "Julkaise uutisia ja hartauksia osoitteessa /blog RSS-syötteen kera.",
+            "bullets": [
+              "Luonnokset, ajastetut julkaisut, luokat ja tunnisteet",
+              "Valinnaiset kommentit Hyvor Talkin, FastCommentsin tai Disqusin kautta"
+            ]
+          },
+          {
+            "title": "Sinun ilmeesi, sinun sääntösi",
+            "body": "Värit, fontit, välistys, logot ja navigaatio ovat täysin sinun päätettävissäsi.",
+            "bullets": [
+              "Sivuja kaikille, vain jäsenille, vain henkilökunnalle tai tietyille ryhmille",
+              "Metakuvaukset, somekuva, uudelleenohjaukset ja Google Analytics 4",
+              "Tiedotepalkki sekä oma CSS tai JavaScript"
+            ]
+          }
+        ],
+        "faqTitle": "Kysymyksiä kotisivutyökalusta",
+        "faq": [
+          {
+            "q": "Onko seurakunnan kotisivutyökalu oikeasti ilmainen?",
+            "a": "On. Työkalu, hosting, SSL ja oman verkkotunnuksen käyttö ovat ilmaisia. Maksat vain verkkotunnuksen rekisteröijälle itse verkkotunnuksesta."
+          },
+          {
+            "q": "Voinko käyttää omaa verkkotunnusta?",
+            "a": "Voit. Lisää CNAME- tai A-tietue verkkotunnuksen rekisteröijällä, niin B1 myöntää SSL-varmenteen automaattisesti."
+          },
+          {
+            "q": "Pitääkö minun osata koodata?",
+            "a": "Ei. Sivut rakennetaan vetämällä osioita ja elementtejä. Oma CSS ja JavaScript ovat käytettävissä, jos haluat."
+          },
+          {
+            "q": "Voimmeko käyttää B1:tä ilman julkisia kotisivuja?",
+            "a": "Voitte. Julkiset sivut voi poistaa käytöstä ja käyttää B1:tä vain jäsensovellukseen, lahjoituksiin ja ilmoittautumisiin."
+          }
+        ]
+      },
+      "giving": {
+        "name": "Verkkolahjoitukset",
+        "meta": {
+          "title": "Ilmaiset verkkolahjoitukset seurakunnille, ei alustamaksua | B1.church",
+          "description": "Seurakunnan verkkolahjoitukset ilman B1:n alustamaksua. Käytä omaa Stripe-, PayPal- tai Paystack-tiliäsi: toistuvat lahjoitukset, ACH, Apple Pay, rahastot, lupaukset ja vuosiyhteenvedot."
+        },
+        "hero": {
+          "eyebrow": "Verkkolahjoitukset",
+          "title": "Verkkolahjoitukset ilman alustamaksua",
+          "subtitle": "B1 ei koskaan ole rahavirran välissä. Seurakuntasi yhdistää oman maksutilinsä, lahjoitukset menevät suoraan teille, eikä B1 lisää niihin mitään. Maksat vain maksupalvelun oman hinnan."
+        },
+        "sections": [
+          {
+            "title": "Sinun tilisi, sinun rahasi",
+            "body": "Jokainen seurakunta yhdistää oman maksupalvelunsa. Korttitiedot eivät koskaan kulje ChurchAppsin palvelimien kautta.",
+            "bullets": [
+              "Stripe, mukaan lukien Apple Pay ja Google Pay kertalahjoituksissa",
+              "PayPal Venmo-painikkeineen",
+              "Paystack Afrikassa, mobiilirahalla ja pankkisiirrolla",
+              "Pankkilahjoitukset (ACH) ja vieraille välitön tunnistus"
+            ]
+          },
+          {
+            "title": "Mitä se oikeasti maksaa",
+            "body": "B1 ei veloita alustamaksua eikä sillä ole maksullisia tasoja. Ainoa kulu on maksupalvelun hinta, joka menee heille, ei meille.",
+            "bullets": [
+              "Stripe tarjoaa kelpoisille voittoa tavoittelemattomille alennettuja hintoja (2.2% + $0.30 korttilahjoitusta kohden)",
+              "Lahjoittajat voivat halutessaan kattaa käsittelymaksun",
+              "Monivaluuttalahjoitukset Stripellä 15 valuutassa"
+            ]
+          },
+          {
+            "title": "Toistuvat lahjoitukset, jotka korjaavat itsensä",
+            "body": "Jäsenet perustavat toistuvia lahjoituksia ja hallinnoivat niitä sovelluksessa.",
+            "bullets": [
+              "Keskeytä tai jatka Stripe-toistolahjoituksia milloin tahansa",
+              "Epäonnistuneet lahjoitukset näkyvät yhdessä listassa Yritä uudelleen -painikkeineen",
+              "Lahjoittajalle lähetetään sähköposti epäonnistumisesta ja uudestaan 3 ja 7 päivän päästä"
+            ]
+          },
+          {
+            "title": "Rahastot, kampanjat ja lupaukset",
+            "body": "Anna lahjoittajille selkeät valinnat ja seuraa jokaista tavoitetta.",
+            "bullets": [
+              "Verovähennyskelpoiset ja piilotetut rahastot",
+              "Lahjoituslinkit, jotka esivalitsevat rahaston ja summan",
+              "Kampanjat tavoitteineen, edistymispalkkeineen sekä luvattujen ja annettujen summien vertailu",
+              "Nimettömät lahjoitukset"
+            ]
+          },
+          {
+            "title": "Käteinen, sekit ja kirjanpito",
+            "body": "Kaikki lahjoitukset päätyvät yhteen paikkaan jäsentietojen rinnalle.",
+            "bullets": [
+              "Erätallennus käteiselle ja sekeille",
+              "Puuttuvien Stripe-tapahtumien tuonti",
+              "Vuosiyhteenvedot logollasi, myös Kanadan, Australian ja Uuden-Seelannin muodoissa",
+              "Jäsenet voivat katsoa ja tulostaa oman lahjoitushistoriansa"
+            ]
+          }
+        ],
+        "faqTitle": "Kysymyksiä verkkolahjoituksista",
+        "faq": [
+          {
+            "q": "Ottaako B1 osuuden lahjoituksista?",
+            "a": "Ei. B1 ei veloita alustamaksua. Lahjoitukset menevät suoraan seurakuntasi omalle Stripe-, PayPal- tai Paystack-tilille, ja maksat vain kyseisen palvelun hinnan."
+          },
+          {
+            "q": "Mitkä maksupalvelut toimivat B1:n kanssa?",
+            "a": "Stripe, PayPal (Venmon kanssa) ja Paystack. Kingdom Funding on saatavilla beta-versiona."
+          },
+          {
+            "q": "Voivatko jäsenet lahjoittaa puhelimella?",
+            "a": "Voivat. Jäsenet lahjoittavat seurakuntasovelluksesta tai kotisivuilta, perustavat toistuvia lahjoituksia ja näkevät koko lahjoitushistoriansa."
+          },
+          {
+            "q": "Voimmeko kirjata käteis- ja sekkilahjoitukset?",
+            "a": "Voitte. Syötä ne erinä, jolloin jokainen lahjoitus näkyy vuosiyhteenvedoissa."
+          }
+        ]
+      },
+      "checkin": {
+        "name": "Sisäänkirjaus",
+        "meta": {
+          "title": "Ilmainen check-in-ohjelma seurakunnan lastentyöhön | B1.church",
+          "description": "Ilmainen seurakunnan check-in: itsepalvelupäätteet, nimitarrat, vastaavat noutokoodit, vieraiden QR-rekisteröinti, huoneiden suhdeluvut ja läsnäoloraportit. Toimii edullisilla tableteilla."
+        },
+        "hero": {
+          "eyebrow": "Seurakunnan check-in",
+          "title": "Nopea ja turvallinen check-in jokaiselle perheelle",
+          "subtitle": "Perheet kirjautuvat sisään päätteellä tai puhelimella, lapset saavat nimitarran ja vastaavan noutokoodin, ja läsnäolo kirjautuu itsestään. Ilmainen, edullisilla tableteilla ja tarratulostimilla."
+        },
+        "sections": [
+          {
+            "title": "Itsepalvelupäätteet",
+            "body": "Käytä B1:n check-in-sovellusta edullisella tabletilla.",
+            "bullets": [
+              "Suositus: Samsung Galaxy Tab A-series tai Amazon Fire HD 10",
+              "Perheet hakevat itsensä puhelinnumeron 4 viimeisellä numerolla tai nimellä",
+              "Jokainen ohjataan oikeaan huoneeseen ikä- ja luokkaohjeistuksen mukaan",
+              "Päätteen värit ja tyhjäkäyntinäytön diaesitys vastaavat seurakuntaasi"
+            ]
+          },
+          {
+            "title": "Nimitarrat ja noutokoodit",
+            "body": "Tulosta jokaiselle lapselle nimitarra ja vanhemmalle noutolappu, joissa on sama 4-merkkinen turvakoodi.",
+            "bullets": [
+              "Brother QL -tarratulostimet (suositus QL-1110NWB) ja DK-1201-tarrat",
+              "Suunnittele omat tarrat",
+              "Tulosta tarra uudelleen milloin tahansa"
+            ]
+          },
+          {
+            "title": "Lasten turvallisuus sisäänrakennettuna",
+            "body": "Uloskirjaus- ja huonetyökalut auttavat vapaaehtoisia pitämään lapset turvassa.",
+            "bullets": [
+              "Uloskirjaus turvakoodilla, luettuna kameralla tai viivakoodinlukijalla",
+              "Luettelot hakuun oikeutetuista ja oikeudettomista henkilöistä",
+              "Huoneiden kapasiteetti ja vapaaehtoisten suhdeluvut, jotka varoittavat tai estävät",
+              "Kutsu vanhempi paikalle tai lähetä hätätekstiviesti (vaatii tekstiviestipalvelun)"
+            ]
+          },
+          {
+            "title": "Vieraat tervetulleita",
+            "body": "Ensikertalaisperheet voivat rekisteröityä päätteellä tai omalla puhelimellaan.",
+            "bullets": [
+              "Vieraiden rekisteröinti QR-koodilla valitsemillasi kentillä",
+              "Vieraat lisätään automaattisesti ryhmään seurantaa varten"
+            ]
+          },
+          {
+            "title": "Kirjaudu sisään ennen saapumista",
+            "body": "Jäsenet voivat kirjata koko perheensä sisään seurakuntasovelluksesta."
+          },
+          {
+            "title": "Läsnäolo, joka kirjautuu itsestään",
+            "body": "Jokainen sisäänkirjaus päivittää läsnäoloraporttisi B1Adminissa.",
+            "bullets": [
+              "Viikkoyhteenveto, läsnäolon kehitys ja ryhmäkohtainen läsnäolo",
+              "Sisäänkirjautumisikkunat jokaiselle jumalanpalvelusajalle",
+              "Pelkkä osallistujamäärän kirjaus tilaisuuksiin, joissa ei ole check-iniä"
+            ]
+          }
+        ],
+        "faqTitle": "Kysymyksiä check-inistä",
+        "faq": [
+          {
+            "q": "Mitä laitteita tarvitsemme?",
+            "a": "Tabletin jokaiselle päätteelle ja, jos haluatte nimitarrat, Brother QL -tarratulostimen. Suositeltuja tabletteja ovat Samsung Galaxy Tab A-series ja Amazon Fire HD 10."
+          },
+          {
+            "q": "Onko check-in-ohjelma ilmainen?",
+            "a": "Kyllä. Check-in kuuluu B1:een, joka on ilmainen hostingia myöten. Ostat vain laitteet."
+          },
+          {
+            "q": "Miten vanhemmat noutavat lapsensa?",
+            "a": "Lapsen nimitarra ja vanhemman noutolappu jakavat saman 4-merkkisen koodin. Vapaaehtoiset tarkistavat tai skannaavat koodin noudossa."
+          },
+          {
+            "q": "Voivatko vierailijat kirjautua sisään?",
+            "a": "Voivat. Vieraat voi lisätä päätteellä, tai he voivat skannata QR-koodin ja rekisteröityä omalla puhelimellaan."
+          }
+        ]
+      },
+      "about": {
+        "name": "Tietoa",
+        "meta": {
+          "title": "Tietoa B1:stä: ilmaista seurakuntaohjelmistoa järjestöltä | B1.church",
+          "description": "B1 on ilmainen avoimen lähdekoodin seurakuntaohjelmisto, jonka rakentaa Live Church Solutions, 501(c)(3)-järjestö. Miten se on ilmainen, kuka sitä rahoittaa ja mitä voit odottaa."
+        },
+        "hero": {
+          "eyebrow": "Tietoa B1:stä",
+          "title": "Ilmaista seurakuntaohjelmistoa voittoa tavoittelemattomalta järjestöltä",
+          "subtitle": "B1:n rakentaa Live Church Solutions, 501(c)(3)-voittoa tavoittelematon palvelutyö (EIN 45-5349618). Uskomme, että jokainen seurakunta ansaitsee modernin teknologian budjetistaan riippumatta."
+        },
+        "sections": [
+          {
+            "title": "Miten B1 on ilmainen?",
+            "body": "B1 on palvelutyö, ei yritys. Kehitystä ja hostingia rahoitetaan lahjoituksilla ja Google Ad Grants -tuella, joten seurakuntien ei koskaan tarvitse maksaa ohjelmistosta.",
+            "bullets": [
+              "Ei maksullisia tasoja, ei jäsenkohtaista hinnoittelua, ei ominaisuusrajoja",
+              "Hosting kuuluu mukaan",
+              "Ei alustamaksua lahjoituksista"
+            ]
+          },
+          {
+            "title": "Mistä voit silti joutua maksamaan",
+            "body": "Haluamme sinun tietävän koko kuvan heti alussa.",
+            "bullets": [
+              "Kortti- ja pankkikäsittelymaksut omalle maksupalvelullesi",
+              "Tabletit ja tarratulostimet, jos käytät check-in-päätteitä",
+              "Tekstiviestipalvelu, jos haluat lähettää tekstiviestejä",
+              "Verkkotunnus, jos käytät omaa",
+              "Lisätallennustila yli 100 MB, jonka voi myös kattaa linkittämällä Google Driven, Dropboxin, OneDriven tai S3:n"
+            ]
+          },
+          {
+            "title": "Avoin lähdekoodi",
+            "body": "Kaikki B1:n koodi on julkista GitHubissa noin 20 repositoriossa.",
+            "bullets": [
+              "Kuka tahansa voi tarkistaa, miten se toimii",
+              "Voit halutessasi ajaa sitä itse Dockerilla tai yhden napsautuksen Railway-mallilla"
+            ]
+          },
+          {
+            "title": "Tietosi pysyvät sinun",
+            "body": "Lukkiutumista ei ole.",
+            "bullets": [
+              "Tuo tiedot Planning Centeristä, Breezestä, Tithe.lystä, Pushpaysta (CCB) tai mistä tahansa CSV- tai Excel-tiedostosta B1 Transferilla",
+              "Vie täysi varmuuskopio jäsenistä, ryhmistä, lahjoituksista, läsnäolosta ja lomakkeista",
+              "Muunna tietosi Breezen tai Planning Centerin muotoon"
+            ]
+          },
+          {
+            "title": "Yksi ilmaisten työkalujen perhe",
+            "body": "B1 kuuluu ChurchAppsiin yhdessä FreeShow-esitysohjelmiston ja Lessons.church-opetusmateriaalin kanssa. Yksi ilmainen tili toimii kaikissa."
+          }
+        ],
+        "faqTitle": "Kysymyksiä B1:stä",
+        "faq": [
+          {
+            "q": "Onko B1 oikeasti ilmainen?",
+            "a": "On. Ohjelmisto ja hosting ovat ilmaisia, ilman tasoja ja ilman alustamaksua lahjoituksista. Maksat vain ulkopuoliset kulut, kuten korttikäsittelymaksut omalle maksupalvelullesi ja laitteet, jos käytät check-in-päätteitä."
+          },
+          {
+            "q": "Kuka B1:n takana on?",
+            "a": "Live Church Solutions, 501(c)(3)-voittoa tavoittelematon palvelutyö (EIN 45-5349618), joka rakentaa ChurchApps-nimen alla myös FreeShow'ta ja Lessons.churchia."
+          },
+          {
+            "q": "Alkaako B1 veloittaa myöhemmin?",
+            "a": "B1:tä rahoitetaan lahjoituksilla ja avustuksilla, ei tilauksilla, ja koodi on avointa. Jos haluat joskus lähteä, voit viedä kaiken mukanasi."
+          },
+          {
+            "q": "Mistä saamme apua?",
+            "a": "Käy tukikeskuksessa osoitteessa support.churchapps.org tai lähetä sähköpostia osoitteeseen support@churchapps.org."
+          }
+        ]
       }
     },
     "notFound": {

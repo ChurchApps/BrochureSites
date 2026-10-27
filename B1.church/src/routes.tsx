@@ -7,10 +7,12 @@ import ChurchManagement from "@/pages/ChurchManagement";
 import FAQ from "@/pages/FAQ";
 import Compare from "@/pages/Compare";
 import NotFound from "@/pages/NotFound";
+import FeaturePage from "@/pages/FeaturePage";
 import LanguageRedirect from "@/components/LanguageRedirect";
 import HtmlRedirect from "@/components/HtmlRedirect";
 import ExternalRedirect from "@/components/ExternalRedirect";
 import { ADMIN_LOGIN_URL } from "@/constants/externalUrls";
+import { FEATURE_PAGES } from "@/constants/pages";
 
 const PCO_COMPARE = "/en/compare/planning-center/";
 
@@ -38,6 +40,7 @@ export const routes: RouteRecord[] = [
           { path: "faq", element: <FAQ /> },
           { path: "compare", element: <Compare /> },
           { path: "compare/:competitor", element: <Compare /> },
+          ...FEATURE_PAGES.map((p) => ({ path: p.slug, element: <FeaturePage pageKey={p.key} /> })),
           { path: "*", element: <NotFound /> }
         ]
       },

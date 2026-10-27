@@ -417,13 +417,24 @@
       "meta": {
         "hubTitle": "Hoe B1 zich verhoudt",
         "hubDescription": "B1 is het kerkbeheersysteem waarmee je begint. Leden, giften, inchecken, website, ledenapp, dienstplanning. Voor altijd $0. 501(c)(3).",
-        "detailTitle": "B1.church vs {{competitor}} - Vergelijking van gratis kerksoftware",
+        "detailTitle": "Gratis alternatief voor {{competitor}} | B1.church vs {{competitor}}",
         "descriptions": {
           "planning-center": "B1 is het complete pakket voor $0. Geen betaalde extra modules.",
           "pushpay": "Pushpay is een betaald giftenplatform. B1 bevat giften zonder platformkosten, plus leden, inchecken, website en dienstplanning.",
           "tithely": "Tithe.ly is een giftenbedrijf met kerksoftware erbij. B1 is het kerkbeheersysteem, 100% gratis inclusief hosting. Giften zijn inbegrepen. Stripe voor non-profits kost 2,2% + $0,30; de \"gratis\" giften van Tithe.ly kosten 2,9% + $0,30.",
           "breeze": "Breeze is een betaald, eenvoudig kerkbeheersysteem dat vaak wordt genoemd door wie Planning Center verlaat. B1 kost $0 en bevat de website, giften zonder platformkosten, inchecken en dienstplanning. We importeren je leden uit Breeze."
         }
+      },
+      "switching": {
+        "title": "Overstappen van {{competitor}}",
+        "steps": [
+          "Maak je gratis B1-account aan. Het kost een paar minuten en je hebt geen creditcard nodig.",
+          "Importeer je personen, groepen en gifthistorie met B1 Transfer, dat exports van Planning Center, Breeze, Tithe.ly en Pushpay (CCB) leest, of een willekeurig CSV- of Excel-bestand.",
+          "Koppel het eigen Stripe-, PayPal- of Paystack-account van je kerk voor online geven.",
+          "Publiceer je website en ledenapp, en stel inchecken in als je dat gebruikt.",
+          "Nodig je gemeente uit om in te loggen."
+        ],
+        "note": "Bedacht je je? Exporteer op elk moment een volledige back-up, of converteer je gegevens terug naar Breeze- of Planning Center-formaat."
       },
       "notFound": {
         "title": "Zo verhoudt B1 zich",
@@ -850,6 +861,420 @@
           "title": "Op rollen gebaseerde toegang",
           "description": "Veilige machtigingen voor medewerkers en vrijwilligers"
         }
+      }
+    },
+    "pages": {
+      "app": {
+        "name": "Kerkapp",
+        "meta": {
+          "title": "Gratis kerkapp voor je leden | B1.church",
+          "description": "Een gratis ledenapp met de naam en het logo van je kerk: ledengids, groepen, berichten, giften, inchecken, preken en pushmeldingen. Te installeren vanaf de website van je kerk."
+        },
+        "hero": {
+          "eyebrow": "Gratis kerkapp",
+          "title": "De eigen app van je kerk, gratis",
+          "subtitle": "Leden vinden op één plek groepen, berichten, giften, inchecken, preken en evenementen. De app draagt de naam en het logo van je kerk, is in seconden te installeren vanaf de kerkwebsite en is altijd up-to-date."
+        },
+        "sections": [
+          {
+            "title": "In seconden geïnstalleerd",
+            "body": "Je app staat op het B1-adres van je kerk en wordt direct op het beginscherm geïnstalleerd, schermvullend en met een badge voor ongelezen berichten.",
+            "bullets": [
+              "iPhone: open de kerksite in Safari, tik op Deel en kies Zet op beginscherm",
+              "Android: met één tik installeren vanuit Chrome",
+              "Bezoekers op een computer zien een QR-code om de app naar hun telefoon te sturen",
+              "Leden loggen in met e-mail, Google of Microsoft"
+            ]
+          },
+          {
+            "title": "Groepen en berichten",
+            "body": "Kleine groepen, bedieningen en teams blijven verbonden zonder aparte chat-app.",
+            "bullets": [
+              "Blader door groepen en vraag toegang aan",
+              "Groepschat plus mededelingen alleen voor leiders",
+              "Aanmelden voor evenementen: Ik kom, Misschien of Ik kan niet",
+              "Privéberichten, met een minimumleeftijd die jij bepaalt"
+            ]
+          },
+          {
+            "title": "Een ledengids die jij beheert",
+            "body": "Leden kunnen elkaar vinden en contact opnemen via bericht, telefoon of sms. Jij bepaalt wie wat ziet.",
+            "bullets": [
+              "Zoeken met foto's en profielen",
+              "Zichtbaarheidsniveaus: iedereen, leden, alleen groepen, groepsleiders of alleen medewerkers"
+            ]
+          },
+          {
+            "title": "Meldingen die echt aankomen",
+            "body": "Pushmeldingen, een belletje in de app en e-mail, met optioneel sms-berichten.",
+            "bullets": [
+              "Elk lid kiest instellingen per soort melding en een dagelijks e-mailoverzicht",
+              "Stille uren, zodat niemand om middernacht wordt gestoord"
+            ]
+          },
+          {
+            "title": "Geven, inchecken en dienen",
+            "body": "Dezelfde app regelt alles wat leden elke week doen.",
+            "bullets": [
+              "Geef eenmalig of stel terugkerende giften in en bekijk je gifthistorie",
+              "Check het hele gezin in voordat je aankomt",
+              "Bekijk je inzetten en meld je aan als vrijwilliger",
+              "Schrijf gezinsleden in voor evenementen, ook betaalde"
+            ]
+          },
+          {
+            "title": "Preken en de Bijbel",
+            "body": "Houd mensen ook door de week verbonden met het onderwijs.",
+            "bullets": [
+              "Preekbibliotheek en livestream met chat",
+              "Ingebouwde Bijbelviewer en vers van de dag",
+              "Medewerkers kiezen welke tabbladen verschijnen en wat bezoekers zien voordat ze inloggen"
+            ]
+          }
+        ],
+        "faqTitle": "Vragen over de kerkapp",
+        "faq": [
+          {
+            "q": "Wat kost de kerkapp?",
+            "a": "Niets. De ledenapp, de hosting en alle functies zijn gratis. B1 wordt gebouwd door Live Church Solutions, een 501(c)(3) non-profitorganisatie."
+          },
+          {
+            "q": "Toont de app de naam en het logo van onze kerk?",
+            "a": "Ja. Leden installeren de app vanaf de B1-website van je kerk en hij draagt de naam en het logo van je kerk."
+          },
+          {
+            "q": "Moeten leden iets installeren om de app te gebruiken?",
+            "a": "Nee. De app werkt in elke browser, en leden die een icoon op hun beginscherm willen, installeren hem met een paar tikken."
+          },
+          {
+            "q": "Werkt de app offline?",
+            "a": "De app heeft een internetverbinding nodig en slaat geen content op voor offline gebruik."
+          }
+        ]
+      },
+      "websiteBuilder": {
+        "name": "Websitebouwer",
+        "meta": {
+          "title": "Gratis kerkwebsite maken met hosting | B1.church",
+          "description": "Bouw gratis je kerkwebsite met drag-and-drop secties, preken, evenementen, giften, formulieren en een blog. Eigen domein en SSL inbegrepen. Geen hostingrekening."
+        },
+        "hero": {
+          "eyebrow": "Gratis websitebouwer voor kerken",
+          "title": "Een kerkwebsite die zichzelf bijwerkt",
+          "subtitle": "Drag-and-drop pagina's die preken, evenementen, groepen, diensttijden en giften rechtstreeks uit B1 halen, zodat je site nooit verouderd is. Hosting, SSL en je eigen domein zijn gratis inbegrepen."
+        },
+        "sections": [
+          {
+            "title": "In minuten van start",
+            "body": "Elke kerk krijgt de dag van aanmelding een kant-en-klare site op yourchurch.b1.church.",
+            "bullets": [
+              "Koppel je eigen domein met een CNAME- of A-record",
+              "SSL-certificaten worden automatisch geregeld",
+              "Bouw meerdere sites voor één kerk als je dat nodig hebt"
+            ]
+          },
+          {
+            "title": "Drag-and-drop pagina-editor",
+            "body": "Bouw pagina's van secties en elementen. Begin met een sjabloon (hero, over ons, diensten, geven en meer) of met een lege kolomindeling.",
+            "bullets": [
+              "Tekst, afbeeldingen, knoppen, kaarten, galerijen, getuigenissen, veelgestelde vragen en tabellen",
+              "Video, podcast via een RSS-feed, livestreamspeler, kaarten en insluitingen",
+              "Aftelklok, statistieken, medewerkersraster en logo-elementen"
+            ]
+          },
+          {
+            "title": "Content die zichzelf bijwerkt",
+            "body": "Kerkspecifieke elementen lezen uit dezelfde database die je medewerkers al gebruiken.",
+            "bullets": [
+              "Agenda als maandoverzicht of komende evenementen, met een pagina per evenement",
+              "Diensttijden uit je aanwezigheidsinstellingen",
+              "Groepenoverzicht, formulieren en inschrijvingen",
+              "Giftformulieren en voortgangsbalken voor acties"
+            ]
+          },
+          {
+            "title": "Preken en livestream",
+            "body": "Een preekbibliotheek met afspeellijsten per serie en een pagina voor elke boodschap.",
+            "bullets": [
+              "Bulkimport vanuit YouTube of Vimeo",
+              "Livestreamrooster met chat"
+            ]
+          },
+          {
+            "title": "Blog ingebouwd",
+            "body": "Plaats nieuws en overdenkingen op /blog, met een RSS-feed.",
+            "bullets": [
+              "Concepten, geplande berichten, categorieën en tags",
+              "Optionele reacties via Hyvor Talk, FastComments of Disqus"
+            ]
+          },
+          {
+            "title": "Jouw stijl, jouw regels",
+            "body": "Kleuren, lettertypen, witruimte, logo's en navigatie stel je allemaal zelf in.",
+            "bullets": [
+              "Pagina's voor iedereen, alleen leden, alleen medewerkers of specifieke groepen",
+              "Metabeschrijvingen, socialemedia-afbeelding, redirects en Google Analytics 4",
+              "Mededelingenbanner en eigen CSS of JavaScript"
+            ]
+          }
+        ],
+        "faqTitle": "Vragen over de websitebouwer",
+        "faq": [
+          {
+            "q": "Is de kerkwebsitebouwer echt gratis?",
+            "a": "Ja. De bouwer, hosting, SSL en ondersteuning voor een eigen domein zijn gratis. Je betaalt alleen je domeinregistrar voor de domeinnaam zelf."
+          },
+          {
+            "q": "Kan ik mijn eigen domein gebruiken?",
+            "a": "Ja. Voeg een CNAME- of A-record toe bij je registrar en B1 regelt automatisch het SSL-certificaat."
+          },
+          {
+            "q": "Moet ik kunnen programmeren?",
+            "a": "Nee. Pagina's bouw je door secties en elementen te slepen. Eigen CSS en JavaScript zijn beschikbaar als je ze wilt."
+          },
+          {
+            "q": "Kunnen we B1 gebruiken zonder openbare website?",
+            "a": "Ja. Je kunt de openbare site uitzetten en B1 alleen gebruiken voor de ledenapp, giften en inschrijvingen."
+          }
+        ]
+      },
+      "giving": {
+        "name": "Online geven",
+        "meta": {
+          "title": "Gratis online giften voor kerken, zonder platformkosten | B1.church",
+          "description": "Online geven voor je kerk zonder B1-platformkosten. Gebruik je eigen Stripe-, PayPal- of Paystack-account: terugkerende giften, ACH, Apple Pay, fondsen, toezeggingen en jaaroverzichten."
+        },
+        "hero": {
+          "eyebrow": "Online geven",
+          "title": "Online geven zonder platformkosten",
+          "subtitle": "B1 zit nooit in de geldstroom. Je kerk koppelt een eigen betaalaccount, giften gaan rechtstreeks naar jullie en B1 rekent er niets bovenop. Je betaalt alleen het tarief van je betaalprovider."
+        },
+        "sections": [
+          {
+            "title": "Jouw account, jouw geld",
+            "body": "Elke kerk koppelt een eigen betaalgateway. Kaartgegevens komen nooit op de servers van ChurchApps.",
+            "bullets": [
+              "Stripe, inclusief Apple Pay en Google Pay bij eenmalige giften",
+              "PayPal, met Venmo-knoppen",
+              "Paystack in heel Afrika, met mobiel geld en bankoverschrijving",
+              "Giften per bank (ACH), met directe verificatie voor gasten"
+            ]
+          },
+          {
+            "title": "Wat het echt kost",
+            "body": "B1 rekent geen platformkosten en kent geen betaalde abonnementen. De enige kosten zijn het tarief van je betaalprovider, dat naar hen gaat en niet naar ons.",
+            "bullets": [
+              "Stripe biedt gunstige tarieven aan in aanmerking komende non-profitorganisaties (2.2% + $0.30 per kaartgift)",
+              "Gevers kunnen ervoor kiezen de transactiekosten te dekken",
+              "Giften in meerdere valuta's met Stripe, in 15 valuta's"
+            ]
+          },
+          {
+            "title": "Terugkerende giften die zichzelf herstellen",
+            "body": "Leden stellen terugkerende giften in en beheren ze in de app.",
+            "bullets": [
+              "Zet terugkerende Stripe-giften op elk moment op pauze of hervat ze",
+              "Mislukte giften staan in één lijst met een knop Opnieuw proberen",
+              "Gevers krijgen een e-mail als een gift mislukt, en opnieuw na 3 en 7 dagen"
+            ]
+          },
+          {
+            "title": "Fondsen, acties en toezeggingen",
+            "body": "Geef gevers duidelijke keuzes en volg elk doel.",
+            "bullets": [
+              "Fiscaal aftrekbare en verborgen fondsen",
+              "Gift-links die een fonds en bedrag vooraf invullen",
+              "Acties met doelen, voortgangsbalken en totalen van toegezegd versus gegeven",
+              "Anonieme giften"
+            ]
+          },
+          {
+            "title": "Contant geld, cheques en administratie",
+            "body": "Alles wat gegeven wordt, komt op één plek terecht, naast je ledengegevens.",
+            "bullets": [
+              "Batchinvoer voor contant geld en cheques",
+              "Ontbrekende Stripe-transacties importeren",
+              "Jaaroverzichten met je logo, ook in Canadese, Australische en Nieuw-Zeelandse formaten",
+              "Leden kunnen hun eigen gifthistorie bekijken en afdrukken"
+            ]
+          }
+        ],
+        "faqTitle": "Vragen over online geven",
+        "faq": [
+          {
+            "q": "Houdt B1 een deel van de giften in?",
+            "a": "Nee. B1 heeft geen platformkosten. Giften gaan rechtstreeks naar het eigen Stripe-, PayPal- of Paystack-account van je kerk en je betaalt alleen het tarief van die provider."
+          },
+          {
+            "q": "Welke betaalproviders werken met B1?",
+            "a": "Stripe, PayPal (met Venmo) en Paystack. Kingdom Funding is beschikbaar in bèta."
+          },
+          {
+            "q": "Kunnen leden geven vanaf hun telefoon?",
+            "a": "Ja. Leden geven via de kerkapp of de website, stellen terugkerende giften in en zien hun volledige gifthistorie."
+          },
+          {
+            "q": "Kunnen we contante giften en cheques registreren?",
+            "a": "Ja. Voer ze in batches in, zodat elke gift op de jaaroverzichten verschijnt."
+          }
+        ]
+      },
+      "checkin": {
+        "name": "Inchecken",
+        "meta": {
+          "title": "Gratis incheckprogramma voor kerken en kinderwerk | B1.church",
+          "description": "Gratis inchecken voor de kerk met zelfbedieningskiosken, naamkaartjes, bijpassende ophaalcodes voor ouders, QR-registratie voor gasten, groepsgroottes en aanwezigheidsrapporten. Op betaalbare tablets."
+        },
+        "hero": {
+          "eyebrow": "Inchecken in de kerk",
+          "title": "Snel en veilig inchecken voor elk gezin",
+          "subtitle": "Gezinnen checken in bij een kiosk of via hun telefoon, kinderen krijgen naamkaartjes met een bijpassende ophaalcode en de aanwezigheid wordt vanzelf bijgehouden. Gratis, met betaalbare tablets en labelprinters."
+        },
+        "sections": [
+          {
+            "title": "Zelfbedieningskiosken",
+            "body": "Draai de B1-incheckapp op een betaalbare tablet.",
+            "bullets": [
+              "Aanbevolen: Samsung Galaxy Tab A-series of Amazon Fire HD 10",
+              "Gezinnen zoeken zichzelf op met de laatste 4 cijfers van een telefoonnummer of op naam",
+              "Iedereen wordt in de juiste groep geplaatst, met richtlijnen voor leeftijd en leerjaar",
+              "Kioskkleuren en een diavoorstelling op het rustscherm sluiten aan bij je kerk"
+            ]
+          },
+          {
+            "title": "Naamkaartjes en ophaalcodes",
+            "body": "Print een naamlabel voor elk kind en een ophaalstrookje voor de ouder met dezelfde beveiligingscode van 4 tekens.",
+            "bullets": [
+              "Brother QL-labelprinters (QL-1110NWB aanbevolen) met DK-1201-labels",
+              "Ontwerp je eigen labels",
+              "Druk een label op elk moment opnieuw af"
+            ]
+          },
+          {
+            "title": "Kinderveiligheid ingebouwd",
+            "body": "Uitcheck- en groepstools waarmee vrijwilligers kinderen veilig houden.",
+            "bullets": [
+              "Uitchecken met de beveiligingscode, gescand met camera of barcodescanner",
+              "Lijsten met wel en niet gemachtigde ophalers",
+              "Groepscapaciteit en vrijwilligersratio's die waarschuwen of blokkeren",
+              "Roep een ouder op of stuur een noodsms (vereist een sms-provider)"
+            ]
+          },
+          {
+            "title": "Gasten welkom",
+            "body": "Gezinnen die voor het eerst komen, kunnen zich registreren bij de kiosk of op hun eigen telefoon.",
+            "bullets": [
+              "Gastregistratie via QR-code met de velden die jij kiest",
+              "Voeg gasten automatisch toe aan een groep voor opvolging"
+            ]
+          },
+          {
+            "title": "Inchecken voor je aankomt",
+            "body": "Leden kunnen hun hele huishouden inchecken vanuit de kerkapp."
+          },
+          {
+            "title": "Aanwezigheid die zichzelf bijhoudt",
+            "body": "Elke check-in voedt je aanwezigheidsrapporten in B1Admin.",
+            "bullets": [
+              "Weekoverzicht, aanwezigheidstrend en aanwezigheid per groep",
+              "Incheckvensters voor elke diensttijd",
+              "Alleen aantallen invoeren voor diensten zonder inchecken"
+            ]
+          }
+        ],
+        "faqTitle": "Vragen over inchecken",
+        "faq": [
+          {
+            "q": "Welke apparatuur hebben we nodig?",
+            "a": "Een tablet voor elke kiosk en, als je naamkaartjes wilt, een Brother QL-labelprinter. Aanbevolen tablets zijn onder meer de Samsung Galaxy Tab A-series en de Amazon Fire HD 10."
+          },
+          {
+            "q": "Is de incheck-software gratis?",
+            "a": "Ja. Inchecken is onderdeel van B1, dat gratis is, inclusief hosting. Je koopt alleen de apparatuur."
+          },
+          {
+            "q": "Hoe halen ouders hun kinderen op?",
+            "a": "Het naamkaartje van het kind en het ophaalstrookje van de ouder hebben dezelfde code van 4 tekens. Vrijwilligers controleren of scannen de code bij het ophalen."
+          },
+          {
+            "q": "Kunnen bezoekers inchecken?",
+            "a": "Ja. Gasten kunnen bij de kiosk worden toegevoegd, of een QR-code scannen om zich op hun eigen telefoon te registreren."
+          }
+        ]
+      },
+      "about": {
+        "name": "Over ons",
+        "meta": {
+          "title": "Over B1: gratis kerksoftware van een non-profit | B1.church",
+          "description": "B1 is gratis, open-source kerkbeheersoftware van Live Church Solutions, een 501(c)(3) non-profitorganisatie. Hoe het gratis kan, wie het financiert en wat je mag verwachten."
+        },
+        "hero": {
+          "eyebrow": "Over B1",
+          "title": "Gratis kerksoftware, gebouwd door een non-profit",
+          "subtitle": "B1 wordt gebouwd door Live Church Solutions, een 501(c)(3) non-profitbediening (EIN 45-5349618). Wij geloven dat elke kerk moderne technologie verdient, welk budget ze ook heeft."
+        },
+        "sections": [
+          {
+            "title": "Hoe is B1 gratis?",
+            "body": "B1 is een bediening, geen bedrijf. Ontwikkeling en hosting worden betaald uit giften en ondersteund door Google Ad Grants, zodat kerken nooit voor de software betalen.",
+            "bullets": [
+              "Geen betaalde abonnementen, geen prijs per lid, geen functiebeperkingen",
+              "Hosting is inbegrepen",
+              "Geen platformkosten op giften"
+            ]
+          },
+          {
+            "title": "Waar je mogelijk nog wel voor betaalt",
+            "body": "We willen dat je vooraf het volledige plaatje kent.",
+            "bullets": [
+              "Verwerkingskosten voor kaart- en bankbetalingen, die naar je eigen betaalprovider gaan",
+              "Tablets en labelprinters als je kioskinchecken gebruikt",
+              "Een sms-provider als je sms-berichten wilt versturen",
+              "Je domeinnaam, als je een eigen domein gebruikt",
+              "Extra bestandsopslag boven 100 MB, die je ook kunt dekken door Google Drive, Dropbox, OneDrive of S3 te koppelen"
+            ]
+          },
+          {
+            "title": "Open source en transparant",
+            "body": "Alle code van B1 is openbaar op GitHub, verspreid over ongeveer 20 repositories.",
+            "bullets": [
+              "Iedereen kan nagaan hoe het werkt",
+              "Host het zelf met Docker of een Railway-sjabloon met één klik, als je dat liever doet"
+            ]
+          },
+          {
+            "title": "Je gegevens blijven van jou",
+            "body": "Er is geen lock-in.",
+            "bullets": [
+              "Importeer uit Planning Center, Breeze, Tithe.ly, Pushpay (CCB) of een willekeurig CSV- of Excel-bestand met B1 Transfer",
+              "Exporteer een volledige back-up van personen, groepen, giften, aanwezigheid en formulieren",
+              "Converteer je gegevens naar Breeze- of Planning Center-formaten"
+            ]
+          },
+          {
+            "title": "Een familie van gratis tools",
+            "body": "B1 is onderdeel van ChurchApps, naast de presentatiesoftware FreeShow en het lesmateriaal van Lessons.church. Met één gratis account gebruik je ze allemaal."
+          }
+        ],
+        "faqTitle": "Vragen over B1",
+        "faq": [
+          {
+            "q": "Is B1 echt gratis?",
+            "a": "Ja. De software en hosting zijn gratis, zonder abonnementen en zonder platformkosten op giften. Je betaalt alleen externe kosten, zoals kaartverwerkingskosten aan je eigen betaalprovider, en apparatuur als je incheckkiosken gebruikt."
+          },
+          {
+            "q": "Wie zit er achter B1?",
+            "a": "Live Church Solutions, een 501(c)(3) non-profitbediening (EIN 45-5349618) die onder de naam ChurchApps ook FreeShow en Lessons.church bouwt."
+          },
+          {
+            "q": "Gaat B1 later geld vragen?",
+            "a": "B1 wordt gefinancierd met giften en subsidies, niet met abonnementen, en de code is open source. Als je ooit wilt vertrekken, kun je alles exporteren."
+          },
+          {
+            "q": "Hoe krijgen we hulp?",
+            "a": "Bezoek het helpcentrum op support.churchapps.org of mail naar support@churchapps.org."
+          }
+        ]
       }
     },
     "notFound": {

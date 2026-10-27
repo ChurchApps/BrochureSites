@@ -417,13 +417,24 @@
       "meta": {
         "hubTitle": "Perbandingan B1",
         "hubDescription": "B1 adalah sistem manajemen gereja tempat Anda memulai. Jemaat, persembahan, check-in, situs web, aplikasi jemaat, perencanaan ibadah. $0 selamanya. 501(c)(3).",
-        "detailTitle": "B1.church vs {{competitor}} - Perbandingan Software Gereja Gratis",
+        "detailTitle": "Alternatif {{competitor}} Gratis | B1.church vs {{competitor}}",
         "descriptions": {
           "planning-center": "B1 adalah paket lengkap seharga $0. Tanpa biaya tambahan per modul.",
           "pushpay": "Pushpay adalah platform persembahan berbayar. B1 menyertakan persembahan tanpa biaya platform, ditambah jemaat, check-in, situs web, dan perencanaan ibadah.",
           "tithely": "Tithe.ly adalah perusahaan persembahan yang dilengkapi software gereja. B1 adalah sistem manajemen gereja, 100% gratis termasuk hosting. Persembahan sudah termasuk. Stripe untuk nirlaba 2,2% + $0,30; persembahan \"gratis\" Tithe.ly 2,9% + $0,30.",
           "breeze": "Breeze adalah sistem manajemen gereja sederhana yang berbayar, yang sering disebut oleh mereka yang meninggalkan Planning Center. B1 seharga $0 dan mencakup situs web, persembahan tanpa biaya platform, check-in, dan perencanaan ibadah. Kami mengimpor data jemaat dari Breeze."
         }
+      },
+      "switching": {
+        "title": "Beralih dari {{competitor}}",
+        "steps": [
+          "Buat akun B1 gratis Anda. Hanya butuh beberapa menit dan tanpa kartu kredit.",
+          "Impor data jemaat, grup, dan catatan persembahan dengan B1 Transfer, yang membaca ekspor dari Planning Center, Breeze, Tithe.ly, dan Pushpay (CCB), atau berkas CSV atau Excel apa pun.",
+          "Hubungkan akun Stripe, PayPal, atau Paystack milik gereja Anda untuk persembahan online.",
+          "Terbitkan situs web dan aplikasi jemaat Anda, lalu atur check-in jika Anda memakainya.",
+          "Undang jemaat Anda untuk masuk."
+        ],
+        "note": "Berubah pikiran? Ekspor cadangan lengkap kapan saja, atau ubah data Anda kembali ke format Breeze atau Planning Center."
       },
       "notFound": {
         "title": "Perbandingan B1",
@@ -850,6 +861,420 @@
           "title": "Akses Berbasis Peran",
           "description": "Izin yang aman untuk staf dan relawan"
         }
+      }
+    },
+    "pages": {
+      "app": {
+        "name": "Aplikasi Gereja",
+        "meta": {
+          "title": "Aplikasi Gereja Gratis untuk Jemaat Anda | B1.church",
+          "description": "Aplikasi jemaat gratis dengan nama dan logo gereja Anda: direktori, grup, pesan, persembahan, check-in, khotbah, dan notifikasi push. Dipasang dari situs web gereja."
+        },
+        "hero": {
+          "eyebrow": "Aplikasi gereja gratis",
+          "title": "Aplikasi milik gereja Anda sendiri, gratis",
+          "subtitle": "Jemaat mendapat satu tempat untuk grup, pesan, persembahan, check-in, khotbah, dan acara. Aplikasi ini memuat nama dan logo gereja Anda, terpasang dalam hitungan detik dari situs web gereja, dan selalu mutakhir."
+        },
+        "sections": [
+          {
+            "title": "Terpasang dalam hitungan detik",
+            "body": "Aplikasi Anda berada di alamat B1 gereja Anda dan langsung terpasang di layar utama, layar penuh dengan lencana pesan belum dibaca.",
+            "bullets": [
+              "iPhone: buka situs gereja di Safari, ketuk Bagikan, lalu Tambahkan ke Layar Utama",
+              "Android: pasang dengan satu ketukan dari Chrome",
+              "Pengunjung di desktop melihat kode QR untuk mengirimnya ke ponsel",
+              "Jemaat masuk dengan email, Google, atau Microsoft"
+            ]
+          },
+          {
+            "title": "Grup dan pesan",
+            "body": "Kelompok kecil, pelayanan, dan tim tetap terhubung tanpa aplikasi obrolan terpisah.",
+            "bullets": [
+              "Telusuri grup dan ajukan permintaan bergabung",
+              "Obrolan grup beserta pengumuman khusus pemimpin",
+              "RSVP acara: Hadir, Mungkin, atau Tidak bisa hadir",
+              "Pesan pribadi, dengan batas usia minimum yang Anda atur"
+            ]
+          },
+          {
+            "title": "Direktori yang Anda kendalikan",
+            "body": "Jemaat bisa saling menemukan dan menghubungi lewat pesan, telepon, atau SMS. Anda yang menentukan siapa melihat apa.",
+            "bullets": [
+              "Pencarian dengan foto dan profil",
+              "Tingkat visibilitas: semua orang, jemaat, hanya grup, pemimpin grup, atau hanya staf"
+            ]
+          },
+          {
+            "title": "Notifikasi yang benar-benar sampai",
+            "body": "Notifikasi push, lonceng di dalam aplikasi, dan email, dengan pesan teks opsional.",
+            "bullets": [
+              "Setiap jemaat memilih pengaturan per jenis dan ringkasan email harian",
+              "Jam tenang agar tidak ada yang terganggu tengah malam"
+            ]
+          },
+          {
+            "title": "Persembahan, check-in, dan pelayanan",
+            "body": "Aplikasi yang sama mengurus hal-hal yang dilakukan jemaat setiap pekan.",
+            "bullets": [
+              "Memberi sekali atau atur persembahan berulang, dan lihat riwayat persembahan",
+              "Check-in seluruh keluarga sebelum tiba",
+              "Lihat jadwal pelayanan dan daftar sebagai relawan",
+              "Daftarkan anggota keluarga ke acara, termasuk acara berbayar"
+            ]
+          },
+          {
+            "title": "Khotbah dan Alkitab",
+            "body": "Jaga agar jemaat tetap terhubung dengan pengajaran sepanjang pekan.",
+            "bullets": [
+              "Pustaka khotbah dan siaran langsung dengan obrolan",
+              "Pembaca Alkitab bawaan dan ayat hari ini",
+              "Staf memilih tab yang tampil dan apa yang dilihat pengunjung sebelum masuk"
+            ]
+          }
+        ],
+        "faqTitle": "Pertanyaan seputar aplikasi gereja",
+        "faq": [
+          {
+            "q": "Berapa biaya aplikasi gereja ini?",
+            "a": "Tidak ada. Aplikasi jemaat, hosting, dan semua fitur gratis. B1 dibuat oleh Live Church Solutions, organisasi nirlaba 501(c)(3)."
+          },
+          {
+            "q": "Apakah aplikasi menampilkan nama dan logo gereja kami?",
+            "a": "Ya. Jemaat memasangnya dari situs web B1 gereja Anda, dan aplikasi memuat nama serta logo gereja Anda."
+          },
+          {
+            "q": "Apakah jemaat perlu memasang sesuatu untuk menggunakannya?",
+            "a": "Tidak. Aplikasi berjalan di browser mana pun, dan jemaat yang ingin ikon di layar utama bisa memasangnya dengan beberapa ketukan."
+          },
+          {
+            "q": "Apakah bisa dipakai secara offline?",
+            "a": "Aplikasi membutuhkan koneksi internet; konten tidak disimpan untuk penggunaan offline."
+          }
+        ]
+      },
+      "websiteBuilder": {
+        "name": "Pembuat Situs Web",
+        "meta": {
+          "title": "Pembuat Situs Web Gereja Gratis dengan Hosting | B1.church",
+          "description": "Buat situs web gereja gratis dengan seret-dan-lepas: khotbah, acara, persembahan, formulir, dan blog. Domain sendiri dan SSL sudah termasuk. Tanpa tagihan hosting."
+        },
+        "hero": {
+          "eyebrow": "Pembuat situs web gereja gratis",
+          "title": "Situs web gereja yang memperbarui dirinya sendiri",
+          "subtitle": "Halaman seret-dan-lepas yang mengambil khotbah, acara, grup, jadwal ibadah, dan persembahan langsung dari B1, sehingga situs Anda tidak pernah ketinggalan zaman. Hosting, SSL, dan domain sendiri sudah termasuk tanpa biaya."
+        },
+        "sections": [
+          {
+            "title": "Mulai dalam hitungan menit",
+            "body": "Setiap gereja mendapat situs siap pakai di yourchurch.b1.church pada hari mendaftar.",
+            "bullets": [
+              "Arahkan domain Anda sendiri dengan rekaman CNAME atau A",
+              "Sertifikat SSL otomatis",
+              "Buat beberapa situs untuk satu gereja jika diperlukan"
+            ]
+          },
+          {
+            "title": "Editor halaman seret-dan-lepas",
+            "body": "Susun halaman dari bagian dan elemen. Mulai dari templat (hero, tentang, ibadah, persembahan, dan lainnya) atau tata letak kolom kosong.",
+            "bullets": [
+              "Teks, gambar, tombol, kartu, galeri, kesaksian, FAQ, dan tabel",
+              "Video, podcast dari umpan RSS, pemutar siaran langsung, peta, dan sematan",
+              "Hitung mundur, statistik, kisi staf, dan elemen logo"
+            ]
+          },
+          {
+            "title": "Konten yang memperbarui dirinya",
+            "body": "Elemen khusus gereja membaca dari basis data yang sama dengan yang sudah dipakai staf Anda.",
+            "bullets": [
+              "Kalender sebagai kisi bulanan atau acara mendatang, dengan halaman untuk tiap acara",
+              "Jadwal ibadah dari pengaturan kehadiran Anda",
+              "Penelusur grup, formulir, dan pendaftaran",
+              "Formulir persembahan dan bilah progres kampanye"
+            ]
+          },
+          {
+            "title": "Khotbah dan siaran langsung",
+            "body": "Pustaka khotbah dengan daftar putar seri dan satu halaman untuk setiap pesan.",
+            "bullets": [
+              "Impor massal dari YouTube atau Vimeo",
+              "Jadwal siaran langsung dengan obrolan"
+            ]
+          },
+          {
+            "title": "Blog bawaan",
+            "body": "Bagikan berita dan renungan di /blog dengan umpan RSS.",
+            "bullets": [
+              "Draf, pos terjadwal, kategori, dan tag",
+              "Komentar opsional lewat Hyvor Talk, FastComments, atau Disqus"
+            ]
+          },
+          {
+            "title": "Tampilan Anda, aturan Anda",
+            "body": "Warna, font, jarak, logo, dan navigasi semuanya Anda yang atur.",
+            "bullets": [
+              "Halaman untuk semua orang, hanya jemaat, hanya staf, atau grup tertentu",
+              "Deskripsi meta, gambar sosial, pengalihan, dan Google Analytics 4",
+              "Spanduk pengumuman serta CSS atau JavaScript kustom"
+            ]
+          }
+        ],
+        "faqTitle": "Pertanyaan seputar pembuat situs web",
+        "faq": [
+          {
+            "q": "Apakah pembuat situs web gereja ini benar-benar gratis?",
+            "a": "Ya. Pembuat situs, hosting, SSL, dan dukungan domain kustom gratis. Anda hanya membayar registrar domain untuk nama domainnya."
+          },
+          {
+            "q": "Bisakah saya memakai domain sendiri?",
+            "a": "Bisa. Tambahkan rekaman CNAME atau A di registrar Anda dan B1 menerbitkan sertifikat SSL secara otomatis."
+          },
+          {
+            "q": "Apakah saya perlu bisa membuat kode?",
+            "a": "Tidak. Halaman dibuat dengan menyeret bagian dan elemen. CSS dan JavaScript kustom tersedia jika Anda mau."
+          },
+          {
+            "q": "Bisakah kami memakai B1 tanpa situs web publik?",
+            "a": "Bisa. Anda dapat mematikan situs publik dan memakai B1 hanya untuk aplikasi jemaat, persembahan, dan pendaftaran."
+          }
+        ]
+      },
+      "giving": {
+        "name": "Persembahan Online",
+        "meta": {
+          "title": "Persembahan Online Gratis untuk Gereja, Tanpa Biaya | B1.church",
+          "description": "Persembahan online gereja tanpa biaya platform B1. Pakai akun Stripe, PayPal, atau Paystack Anda sendiri: persembahan berulang, ACH, Apple Pay, dana, ikrar, dan laporan akhir tahun."
+        },
+        "hero": {
+          "eyebrow": "Persembahan online",
+          "title": "Persembahan online tanpa biaya platform",
+          "subtitle": "B1 tidak pernah berada di jalur uang. Gereja Anda menghubungkan akun pembayarannya sendiri, persembahan langsung sampai ke Anda, dan B1 tidak menambahkan apa pun. Anda hanya membayar tarif pemroses pembayaran Anda."
+        },
+        "sections": [
+          {
+            "title": "Akun Anda, uang Anda",
+            "body": "Setiap gereja menghubungkan gateway pembayarannya sendiri. Data kartu tidak pernah melewati server ChurchApps.",
+            "bullets": [
+              "Stripe, termasuk Apple Pay dan Google Pay untuk persembahan sekali",
+              "PayPal, dengan tombol Venmo",
+              "Paystack di Afrika, dengan uang seluler dan transfer bank",
+              "Persembahan bank (ACH), dengan verifikasi instan untuk tamu"
+            ]
+          },
+          {
+            "title": "Berapa biayanya sebenarnya",
+            "body": "B1 tidak memungut biaya platform dan tidak punya paket berbayar. Satu-satunya biaya adalah tarif pemroses pembayaran Anda, yang masuk ke mereka, bukan ke kami.",
+            "bullets": [
+              "Stripe menawarkan tarif diskon bagi organisasi nirlaba yang memenuhi syarat (2.2% + $0.30 per persembahan kartu)",
+              "Pemberi dapat memilih menanggung biaya pemrosesan",
+              "Persembahan multimata uang dengan Stripe dalam 15 mata uang"
+            ]
+          },
+          {
+            "title": "Persembahan berulang yang memulihkan dirinya",
+            "body": "Jemaat mengatur persembahan berulang dan mengelolanya dari aplikasi.",
+            "bullets": [
+              "Jeda atau lanjutkan persembahan berulang Stripe kapan saja",
+              "Persembahan gagal muncul dalam satu daftar dengan tombol Coba Lagi",
+              "Pemberi dikirimi email saat persembahan gagal, lalu lagi 3 dan 7 hari kemudian"
+            ]
+          },
+          {
+            "title": "Dana, kampanye, dan ikrar",
+            "body": "Beri pemberi pilihan yang jelas dan pantau setiap target.",
+            "bullets": [
+              "Dana yang dapat dipotong pajak dan dana tersembunyi",
+              "Tautan persembahan yang menetapkan dana dan jumlah lebih dulu",
+              "Kampanye dengan target, bilah progres, dan total ikrar dibanding yang sudah diberikan",
+              "Persembahan anonim"
+            ]
+          },
+          {
+            "title": "Tunai, cek, dan pencatatan",
+            "body": "Semua persembahan masuk ke satu tempat, bersama data jemaat Anda.",
+            "bullets": [
+              "Input batch untuk tunai dan cek",
+              "Impor transaksi Stripe yang hilang",
+              "Laporan akhir tahun dengan logo Anda, termasuk format Kanada, Australia, dan Selandia Baru",
+              "Jemaat dapat melihat dan mencetak riwayat persembahan mereka sendiri"
+            ]
+          }
+        ],
+        "faqTitle": "Pertanyaan seputar persembahan online",
+        "faq": [
+          {
+            "q": "Apakah B1 memotong sebagian persembahan?",
+            "a": "Tidak. B1 tidak punya biaya platform. Persembahan langsung masuk ke akun Stripe, PayPal, atau Paystack milik gereja Anda sendiri, dan Anda hanya membayar tarif pemroses tersebut."
+          },
+          {
+            "q": "Pemroses pembayaran apa saja yang bisa dipakai dengan B1?",
+            "a": "Stripe, PayPal (dengan Venmo), dan Paystack. Kingdom Funding tersedia dalam versi beta."
+          },
+          {
+            "q": "Bisakah jemaat memberi lewat ponsel?",
+            "a": "Bisa. Jemaat memberi dari aplikasi gereja atau situs web, mengatur persembahan berulang, dan melihat seluruh riwayat persembahan mereka."
+          },
+          {
+            "q": "Bisakah kami mencatat persembahan tunai dan cek?",
+            "a": "Bisa. Masukkan dalam batch agar setiap persembahan muncul di laporan akhir tahun."
+          }
+        ]
+      },
+      "checkin": {
+        "name": "Check-In",
+        "meta": {
+          "title": "Check-in Gereja Gratis untuk Pelayanan Anak | B1.church",
+          "description": "Check-in gereja gratis dengan kios swalayan, tanda nama, kode penjemputan yang cocok, pendaftaran tamu lewat QR, rasio ruangan, dan laporan kehadiran. Berjalan di tablet terjangkau."
+        },
+        "hero": {
+          "eyebrow": "Check-in gereja",
+          "title": "Check-in cepat dan aman untuk setiap keluarga",
+          "subtitle": "Keluarga check-in di kios atau dari ponsel, anak mendapat tanda nama dengan kode penjemputan yang cocok, dan kehadiran tercatat sendiri. Gratis, di tablet dan printer label yang terjangkau."
+        },
+        "sections": [
+          {
+            "title": "Kios swalayan",
+            "body": "Jalankan aplikasi check-in B1 di tablet yang terjangkau.",
+            "bullets": [
+              "Disarankan: Samsung Galaxy Tab A-series atau Amazon Fire HD 10",
+              "Keluarga mencari data sendiri dengan 4 digit terakhir nomor telepon atau nama",
+              "Setiap orang ditempatkan di ruangan yang tepat, dengan panduan usia dan kelas",
+              "Warna kios dan tayangan slide layar siaga disesuaikan dengan gereja Anda"
+            ]
+          },
+          {
+            "title": "Tanda nama dan kode penjemputan",
+            "body": "Cetak label nama untuk setiap anak dan slip penjemputan untuk orang tua dengan kode keamanan 4 karakter yang sama.",
+            "bullets": [
+              "Printer label Brother QL (QL-1110NWB direkomendasikan) dengan label DK-1201",
+              "Rancang label Anda sendiri",
+              "Cetak ulang label kapan saja"
+            ]
+          },
+          {
+            "title": "Keselamatan anak sudah tersedia",
+            "body": "Alat check-out dan ruangan yang membantu relawan menjaga keselamatan anak.",
+            "bullets": [
+              "Check-out dengan kode keamanan, dipindai kamera atau pemindai barcode",
+              "Daftar penjemput yang berwenang dan tidak berwenang",
+              "Kapasitas ruangan dan rasio relawan yang memberi peringatan atau memblokir",
+              "Panggil orang tua atau kirim SMS darurat (memerlukan penyedia SMS)"
+            ]
+          },
+          {
+            "title": "Tamu disambut",
+            "body": "Keluarga yang baru pertama datang bisa mendaftar di kios atau di ponsel mereka sendiri.",
+            "bullets": [
+              "Pendaftaran tamu lewat kode QR dengan isian pilihan Anda",
+              "Tambahkan tamu otomatis ke grup untuk tindak lanjut"
+            ]
+          },
+          {
+            "title": "Check-in sebelum tiba",
+            "body": "Jemaat dapat check-in seluruh anggota keluarga dari aplikasi gereja."
+          },
+          {
+            "title": "Kehadiran yang tercatat sendiri",
+            "body": "Setiap check-in mengisi laporan kehadiran Anda di B1Admin.",
+            "bullets": [
+              "Ringkasan mingguan, tren kehadiran, dan kehadiran per grup",
+              "Jendela check-in untuk setiap jam ibadah",
+              "Input jumlah hadirin saja untuk ibadah tanpa check-in"
+            ]
+          }
+        ],
+        "faqTitle": "Pertanyaan seputar check-in",
+        "faq": [
+          {
+            "q": "Perangkat keras apa yang kami butuhkan?",
+            "a": "Satu tablet untuk setiap kios dan, jika Anda ingin tanda nama, printer label Brother QL. Tablet yang disarankan antara lain Samsung Galaxy Tab A-series dan Amazon Fire HD 10."
+          },
+          {
+            "q": "Apakah perangkat lunak check-in ini gratis?",
+            "a": "Ya. Check-in adalah bagian dari B1, yang gratis termasuk hosting. Anda hanya membeli perangkat kerasnya."
+          },
+          {
+            "q": "Bagaimana orang tua menjemput anak mereka?",
+            "a": "Tanda nama anak dan slip penjemputan orang tua memiliki kode 4 karakter yang sama. Relawan memeriksa atau memindai kode saat penjemputan."
+          },
+          {
+            "q": "Bisakah pengunjung check-in?",
+            "a": "Bisa. Tamu dapat ditambahkan di kios, atau memindai kode QR untuk mendaftar di ponsel mereka sendiri."
+          }
+        ]
+      },
+      "about": {
+        "name": "Tentang",
+        "meta": {
+          "title": "Tentang B1: Perangkat Lunak Gereja Gratis dari Nirlaba | B1.church",
+          "description": "B1 adalah perangkat lunak manajemen gereja gratis dan sumber terbuka yang dibuat oleh Live Church Solutions, organisasi nirlaba 501(c)(3). Mengapa gratis, siapa pendananya, dan apa yang bisa Anda harapkan."
+        },
+        "hero": {
+          "eyebrow": "Tentang B1",
+          "title": "Perangkat lunak gereja gratis, dibuat oleh organisasi nirlaba",
+          "subtitle": "B1 dibuat oleh Live Church Solutions, pelayanan nirlaba 501(c)(3) (EIN 45-5349618). Kami percaya setiap gereja layak mendapat teknologi modern, apa pun anggarannya."
+        },
+        "sections": [
+          {
+            "title": "Bagaimana B1 bisa gratis?",
+            "body": "B1 adalah pelayanan, bukan bisnis. Pengembangan dan hosting didanai oleh persembahan dan didukung Google Ad Grants, sehingga gereja tidak pernah membayar untuk perangkat lunaknya.",
+            "bullets": [
+              "Tanpa paket berbayar, tanpa harga per jemaat, tanpa batasan fitur",
+              "Hosting sudah termasuk",
+              "Tanpa biaya platform atas persembahan"
+            ]
+          },
+          {
+            "title": "Apa yang mungkin tetap Anda bayar",
+            "body": "Kami ingin Anda tahu gambaran lengkapnya sejak awal.",
+            "bullets": [
+              "Biaya pemrosesan kartu dan bank, dibayarkan ke pemroses pembayaran Anda sendiri",
+              "Tablet dan printer label jika Anda memakai check-in kios",
+              "Penyedia SMS jika Anda ingin mengirim pesan SMS",
+              "Nama domain Anda, jika memakai domain kustom",
+              "Penyimpanan berkas tambahan di atas 100 MB, yang juga bisa Anda tutup dengan menautkan Google Drive, Dropbox, OneDrive, atau S3"
+            ]
+          },
+          {
+            "title": "Sumber terbuka",
+            "body": "Seluruh kode B1 terbuka untuk umum di GitHub dalam sekitar 20 repositori.",
+            "bullets": [
+              "Siapa pun dapat memeriksa cara kerjanya",
+              "Host sendiri dengan Docker atau templat Railway sekali klik jika Anda mau"
+            ]
+          },
+          {
+            "title": "Data Anda tetap milik Anda",
+            "body": "Tidak ada belenggu.",
+            "bullets": [
+              "Impor dari Planning Center, Breeze, Tithe.ly, Pushpay (CCB), atau berkas CSV atau Excel apa pun dengan B1 Transfer",
+              "Ekspor cadangan lengkap data jemaat, grup, persembahan, kehadiran, dan formulir",
+              "Ubah data Anda ke format Breeze atau Planning Center"
+            ]
+          },
+          {
+            "title": "Satu keluarga alat gratis",
+            "body": "B1 adalah bagian dari ChurchApps, bersama perangkat lunak presentasi FreeShow dan kurikulum Lessons.church. Satu akun gratis berlaku di semuanya."
+          }
+        ],
+        "faqTitle": "Pertanyaan seputar B1",
+        "faq": [
+          {
+            "q": "Apakah B1 benar-benar gratis?",
+            "a": "Ya. Perangkat lunak dan hosting gratis, tanpa paket dan tanpa biaya platform atas persembahan. Anda hanya membayar biaya dari luar seperti biaya pemrosesan kartu ke pemroses Anda sendiri, dan perangkat keras jika memakai kios check-in."
+          },
+          {
+            "q": "Siapa di balik B1?",
+            "a": "Live Church Solutions, pelayanan nirlaba 501(c)(3) (EIN 45-5349618) yang juga membuat FreeShow dan Lessons.church di bawah nama ChurchApps."
+          },
+          {
+            "q": "Apakah B1 akan mulai memungut biaya nanti?",
+            "a": "B1 didanai oleh persembahan dan hibah, bukan langganan, dan kodenya sumber terbuka. Jika suatu saat Anda ingin pergi, Anda dapat mengekspor semuanya."
+          },
+          {
+            "q": "Bagaimana kami mendapat bantuan?",
+            "a": "Kunjungi pusat bantuan di support.churchapps.org atau kirim email ke support@churchapps.org."
+          }
+        ]
       }
     },
     "notFound": {

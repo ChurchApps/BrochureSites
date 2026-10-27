@@ -417,13 +417,24 @@
       "meta": {
         "hubTitle": "Kaip B1 atrodo palyginus",
         "hubDescription": "B1 – bažnyčios valdymo sistema, nuo kurios pradedate. Žmonės, aukos, registracija, svetainė, narių programėlė, pamaldų planavimas. 0 $ visam laikui. 501(c)(3).",
-        "detailTitle": "B1.church prieš {{competitor}} - nemokamos bažnyčios programinės įrangos palyginimas",
+        "detailTitle": "Nemokama {{competitor}} alternatyva | B1.church prieš {{competitor}}",
         "descriptions": {
           "planning-center": "B1 – visas paketas už 0 $. Jokių mokamų papildomų modulių.",
           "pushpay": "Pushpay – mokama aukojimo platforma. B1 apima aukas be platformos mokesčio, taip pat žmones, registraciją, svetainę ir pamaldų planavimą.",
           "tithely": "Tithe.ly – aukojimo įmonė su pridėta bažnyčios programine įranga. B1 – bažnyčios valdymo sistema, 100 % nemokama kartu su priegloba. Aukos įtrauktos. Stripe ne pelno organizacijoms kainuoja 2,2 % + 0,30 $; „nemokamos“ Tithe.ly aukos kainuoja 2,9 % + 0,30 $.",
           "breeze": "Breeze – mokama, paprasta bažnyčios valdymo sistema, kurią mini paliekantys Planning Center. B1 kainuoja 0 $ ir apima svetainę, aukas be platformos mokesčio, registraciją ir pamaldų planavimą. Žmones iš Breeze importuojame."
         }
+      },
+      "switching": {
+        "title": "Perėjimas iš {{competitor}}",
+        "steps": [
+          "Susikurkite nemokamą B1 paskyrą. Tai užtrunka kelias minutes ir nereikalauja kredito kortelės.",
+          "Importuokite žmones, grupes ir aukų įrašus su B1 Transfer, kuris skaito Planning Center, Breeze, Tithe.ly ir Pushpay (CCB) eksportus arba bet kurį CSV ar Excel failą.",
+          "Prijunkite savo bažnyčios Stripe, PayPal ar Paystack paskyrą aukoms internetu.",
+          "Paskelbkite svetainę ir narių programėlę, o jei naudojate registraciją, ją nustatykite.",
+          "Pakvieskite savo bendruomenę prisijungti."
+        ],
+        "note": "Persigalvojote? Bet kada eksportuokite pilną atsarginę kopiją arba konvertuokite duomenis atgal į Breeze ar Planning Center formatą."
       },
       "notFound": {
         "title": "Kaip B1 lyginasi",
@@ -850,6 +861,420 @@
           "title": "Prieiga pagal vaidmenis",
           "description": "Saugūs leidimai darbuotojams ir savanoriams"
         }
+      }
+    },
+    "pages": {
+      "app": {
+        "name": "Bažnyčios programėlė",
+        "meta": {
+          "title": "Nemokama bažnyčios programėlė jūsų nariams | B1.church",
+          "description": "Nemokama narių programėlė su jūsų bažnyčios pavadinimu ir logotipu: katalogas, grupės, žinutės, aukos, registracija, pamokslai ir momentiniai pranešimai. Įdiegiama iš bažnyčios svetainės."
+        },
+        "hero": {
+          "eyebrow": "Nemokama bažnyčios programėlė",
+          "title": "Jūsų bažnyčios programėlė, nemokamai",
+          "subtitle": "Nariai vienoje vietoje randa grupes, žinutes, aukas, registraciją, pamokslus ir renginius. Ji turi jūsų bažnyčios pavadinimą ir logotipą, įdiegiama iš bažnyčios svetainės per kelias sekundes ir visada yra naujausia."
+        },
+        "sections": [
+          {
+            "title": "Įdiegiama per kelias sekundes",
+            "body": "Jūsų programėlė veikia bažnyčios B1 adresu ir įdiegiama tiesiai į pradžios ekraną: per visą ekraną, su neperskaitytų pranešimų ženkliuku.",
+            "bullets": [
+              "iPhone: atidarykite bažnyčios svetainę per Safari, bakstelėkite Bendrinti, tada Pridėti prie pradžios ekrano",
+              "Android: įdiegimas vienu bakstelėjimu per Chrome",
+              "Apsilankiusieji kompiuteriu mato QR kodą, kad galėtų ją nusiųsti į telefoną",
+              "Nariai prisijungia el. paštu, per Google arba Microsoft"
+            ]
+          },
+          {
+            "title": "Grupės ir žinutės",
+            "body": "Mažosios grupės, tarnystės ir komandos lieka susijusios be atskiros pokalbių programėlės.",
+            "bullets": [
+              "Naršykite grupes ir prašykite prisijungti",
+              "Grupės pokalbis ir tik vadovams skirti skelbimai",
+              "Atsakymai į renginių kvietimus: Dalyvausiu, Galbūt arba Negaliu",
+              "Privačios žinutės su jūsų nustatomu mažiausiu amžiumi"
+            ]
+          },
+          {
+            "title": "Katalogas, kurį valdote jūs",
+            "body": "Nariai gali rasti vieni kitus ir susisiekti žinute, skambučiu ar SMS. Jūs nusprendžiate, kas ką mato.",
+            "bullets": [
+              "Paieška su nuotraukomis ir profiliais",
+              "Matomumo lygiai: visi, nariai, tik grupės, grupių vadovai arba tik darbuotojai"
+            ]
+          },
+          {
+            "title": "Pranešimai, kuriuos žmonės tikrai gauna",
+            "body": "Momentiniai pranešimai, programėlės varpelis ir el. paštas, o pasirinktinai ir SMS žinutės.",
+            "bullets": [
+              "Kiekvienas narys pasirenka nustatymus pagal tipą ir kasdienę el. pašto santrauką",
+              "Tylos valandos, kad niekas nebūtų žadinamas vidurnaktį"
+            ]
+          },
+          {
+            "title": "Aukos, registracija ir tarnystė",
+            "body": "Ta pati programėlė tvarko tai, ką nariai daro kiekvieną savaitę.",
+            "bullets": [
+              "Aukokite vieną kartą arba nustatykite periodines aukas ir peržiūrėkite aukų istoriją",
+              "Užregistruokite visą šeimą dar prieš atvykdami",
+              "Matykite tarnystės paskyrimus ir registruokitės savanoriauti",
+              "Registruokite šeimos narius į renginius, įskaitant mokamus"
+            ]
+          },
+          {
+            "title": "Pamokslai ir Biblija",
+            "body": "Padėkite žmonėms išlikti prie mokymo ir savaitės dienomis.",
+            "bullets": [
+              "Pamokslų biblioteka ir tiesioginė transliacija su pokalbiu",
+              "Integruota Biblijos skaitykla ir dienos eilutė",
+              "Darbuotojai renkasi, kurie skirtukai rodomi ir ką lankytojai mato prieš prisijungdami"
+            ]
+          }
+        ],
+        "faqTitle": "Klausimai apie bažnyčios programėlę",
+        "faq": [
+          {
+            "q": "Kiek kainuoja bažnyčios programėlė?",
+            "a": "Nieko. Narių programėlė, talpinimas ir visos funkcijos yra nemokami. B1 kuria Live Church Solutions, 501(c)(3) ne pelno organizacija."
+          },
+          {
+            "q": "Ar programėlėje rodomas mūsų bažnyčios pavadinimas ir logotipas?",
+            "a": "Taip. Nariai ją įdiegia iš jūsų bažnyčios B1 svetainės, ir ji turi jūsų bažnyčios pavadinimą bei logotipą."
+          },
+          {
+            "q": "Ar nariams reikia ką nors įdiegti, kad ja naudotųsi?",
+            "a": "Ne. Ji veikia bet kurioje naršyklėje, o norintys piktogramos pradžios ekrane gali ją įdiegti keliais bakstelėjimais."
+          },
+          {
+            "q": "Ar ji veikia be interneto?",
+            "a": "Programėlei reikia interneto ryšio; turinio naudoti be interneto ji nesaugo."
+          }
+        ]
+      },
+      "websiteBuilder": {
+        "name": "Svetainių kūrimo įrankis",
+        "meta": {
+          "title": "Nemokama bažnyčios svetainė su talpinimu | B1.church",
+          "description": "Nemokamai sukurkite bažnyčios svetainę vilkdami skyrius: pamokslai, renginiai, aukos, formos ir tinklaraštis. Nuosavas domenas ir SSL įskaičiuoti. Jokių talpinimo sąskaitų."
+        },
+        "hero": {
+          "eyebrow": "Nemokamas bažnyčių svetainių kūrimo įrankis",
+          "title": "Bažnyčios svetainė, kuri atnaujina save pati",
+          "subtitle": "Vilkimo puslapiai, kurie pamokslus, renginius, grupes, pamaldų laikus ir aukas ima tiesiai iš B1, todėl svetainė niekada nepasensta. Talpinimas, SSL ir nuosavas domenas įskaičiuoti nemokamai."
+        },
+        "sections": [
+          {
+            "title": "Pradėkite per kelias minutes",
+            "body": "Kiekviena bažnyčia užsiregistravimo dieną gauna paruoštą svetainę adresu yourchurch.b1.church.",
+            "bullets": [
+              "Nukreipkite savo domeną CNAME arba A įrašu",
+              "SSL sertifikatai išduodami automatiškai",
+              "Jei reikia, sukurkite kelias vienos bažnyčios svetaines"
+            ]
+          },
+          {
+            "title": "Puslapių redaktorius vilkimo principu",
+            "body": "Kurkite puslapius iš skyrių ir elementų. Pradėkite nuo šablono (pagrindinis ekranas, apie mus, pamaldos, aukos ir kt.) arba tuščio stulpelių išdėstymo.",
+            "bullets": [
+              "Tekstas, paveikslėliai, mygtukai, kortelės, galerijos, liudijimai, DUK ir lentelės",
+              "Vaizdo įrašai, tinklalaidė iš RSS srauto, tiesioginių transliacijų grotuvas, žemėlapiai ir įterpiniai",
+              "Atgalinis skaičiavimas, statistika, darbuotojų tinklelis ir logotipų elementai"
+            ]
+          },
+          {
+            "title": "Turinys, kuris atsinaujina pats",
+            "body": "Bažnyčiai skirti elementai skaito iš tos pačios duomenų bazės, kuria jūsų darbuotojai jau naudojasi.",
+            "bullets": [
+              "Kalendorius mėnesio tinkleliu arba artimiausi renginiai, kiekvienam renginiui skirtas puslapis",
+              "Pamaldų laikai iš jūsų lankomumo nustatymų",
+              "Grupių naršyklė, formos ir registracijos",
+              "Aukų formos ir kampanijų eigos juostos"
+            ]
+          },
+          {
+            "title": "Pamokslai ir tiesioginės transliacijos",
+            "body": "Pamokslų biblioteka su serijų grojaraščiais ir puslapiu kiekvienam pamokslui.",
+            "bullets": [
+              "Masinis importas iš YouTube arba Vimeo",
+              "Tiesioginių transliacijų tvarkaraštis su pokalbiu"
+            ]
+          },
+          {
+            "title": "Integruotas tinklaraštis",
+            "body": "Skelbkite naujienas ir apmąstymus adresu /blog su RSS srautu.",
+            "bullets": [
+              "Juodraščiai, suplanuoti įrašai, kategorijos ir žymos",
+              "Pasirenkami komentarai per Hyvor Talk, FastComments arba Disqus"
+            ]
+          },
+          {
+            "title": "Jūsų stilius, jūsų taisyklės",
+            "body": "Spalvas, šriftus, tarpus, logotipus ir naršymą nustatote jūs.",
+            "bullets": [
+              "Puslapiai visiems, tik nariams, tik darbuotojams arba tam tikroms grupėms",
+              "Meta aprašymai, socialinio tinklo paveikslėlis, nukreipimai ir Google Analytics 4",
+              "Skelbimų juosta ir pasirinktinis CSS ar JavaScript"
+            ]
+          }
+        ],
+        "faqTitle": "Klausimai apie svetainių kūrimo įrankį",
+        "faq": [
+          {
+            "q": "Ar bažnyčios svetainių kūrimo įrankis tikrai nemokamas?",
+            "a": "Taip. Kūrimo įrankis, talpinimas, SSL ir nuosavo domeno palaikymas yra nemokami. Domeno registratoriui mokate tik už patį domeno pavadinimą."
+          },
+          {
+            "q": "Ar galiu naudoti savo domeną?",
+            "a": "Taip. Pridėkite CNAME arba A įrašą pas savo registratorių, ir B1 SSL sertifikatą išduos automatiškai."
+          },
+          {
+            "q": "Ar reikia mokėti programuoti?",
+            "a": "Ne. Puslapiai kuriami įtempiant skyrius ir elementus. Pasirinktinis CSS ir JavaScript yra, jei jų norėsite."
+          },
+          {
+            "q": "Ar galime naudoti B1 be viešos svetainės?",
+            "a": "Taip. Galite išjungti viešą svetainę ir naudoti B1 tik narių programėlei, aukoms ir registracijoms."
+          }
+        ]
+      },
+      "giving": {
+        "name": "Aukos internetu",
+        "meta": {
+          "title": "Nemokamos aukos internetu bažnyčioms, be mokesčių | B1.church",
+          "description": "Bažnyčios aukos internetu be B1 platformos mokesčio. Naudokite savo Stripe, PayPal ar Paystack paskyrą: periodinės aukos, ACH, Apple Pay, fondai, įsipareigojimai ir metinės ataskaitos."
+        },
+        "hero": {
+          "eyebrow": "Aukos internetu",
+          "title": "Aukos internetu be platformos mokesčio",
+          "subtitle": "B1 niekada nestovi pinigų kelyje. Bažnyčia prijungia savo mokėjimų paskyrą, aukos keliauja tiesiai jums, o B1 nieko nepriskaičiuoja. Mokate tik savo mokėjimų operatoriaus tarifą."
+        },
+        "sections": [
+          {
+            "title": "Jūsų paskyra, jūsų pinigai",
+            "body": "Kiekviena bažnyčia prijungia savo mokėjimų sistemą. Kortelių duomenys niekada nepatenka į ChurchApps serverius.",
+            "bullets": [
+              "Stripe, įskaitant Apple Pay ir Google Pay vienkartinėms aukoms",
+              "PayPal su Venmo mygtukais",
+              "Paystack visoje Afrikoje, su mobiliaisiais pinigais ir banko pavedimais",
+              "Aukos iš banko sąskaitos (ACH) su momentiniu patvirtinimu svečiams"
+            ]
+          },
+          {
+            "title": "Kiek tai iš tikrųjų kainuoja",
+            "body": "B1 netaiko platformos mokesčio ir neturi mokamų planų. Vienintelė išlaida yra mokėjimų operatoriaus tarifas, kuris atitenka jam, o ne mums.",
+            "bullets": [
+              "Stripe teikia nuolaidų tarifus tinkamoms ne pelno organizacijoms (2.2% + $0.30 už kiekvieną aukojimą kortele)",
+              "Aukotojai gali pasirinkti padengti mokėjimo mokestį",
+              "Aukos keliomis valiutomis per Stripe, 15 valiutų"
+            ]
+          },
+          {
+            "title": "Periodinės aukos, kurios atsigauna pačios",
+            "body": "Nariai nustato periodines aukas ir valdo jas programėlėje.",
+            "bullets": [
+              "Bet kada sustabdykite arba tęskite Stripe periodines aukas",
+              "Nepavykusios aukos rodomos viename sąraše su mygtuku Bandyti dar kartą",
+              "Aukotojams el. paštu pranešama, kai auka nepavyksta, ir dar kartą po 3 ir 7 dienų"
+            ]
+          },
+          {
+            "title": "Fondai, kampanijos ir įsipareigojimai",
+            "body": "Pasiūlykite aukotojams aiškius pasirinkimus ir sekite kiekvieną tikslą.",
+            "bullets": [
+              "Mokesčių požiūriu atskaitomi ir paslėpti fondai",
+              "Aukojimo nuorodos su iš anksto nustatytu fondu ir suma",
+              "Kampanijos su tikslais, eigos juostomis ir pažadėtos bei paaukotos sumos suvestinėmis",
+              "Anonimiškos aukos"
+            ]
+          },
+          {
+            "title": "Grynieji, čekiai ir įrašai",
+            "body": "Viskas, kas paaukota, kaupiasi vienoje vietoje kartu su jūsų žmonių duomenimis.",
+            "bullets": [
+              "Grynųjų ir čekių įvedimas partijomis",
+              "Trūkstamų Stripe operacijų importas",
+              "Metinės ataskaitos su jūsų logotipu, įskaitant Kanados, Australijos ir Naujosios Zelandijos formatus",
+              "Nariai gali peržiūrėti ir atsispausdinti savo aukų istoriją"
+            ]
+          }
+        ],
+        "faqTitle": "Klausimai apie aukas internetu",
+        "faq": [
+          {
+            "q": "Ar B1 pasiima dalį aukų?",
+            "a": "Ne. B1 netaiko platformos mokesčio. Aukos keliauja tiesiai į jūsų bažnyčios Stripe, PayPal ar Paystack paskyrą, o mokate tik to operatoriaus tarifą."
+          },
+          {
+            "q": "Su kokiais mokėjimų operatoriais veikia B1?",
+            "a": "Stripe, PayPal (su Venmo) ir Paystack. Kingdom Funding galima išbandyti beta versija."
+          },
+          {
+            "q": "Ar nariai gali aukoti iš telefono?",
+            "a": "Taip. Nariai aukoja iš bažnyčios programėlės ar svetainės, nustato periodines aukas ir mato visą savo aukų istoriją."
+          },
+          {
+            "q": "Ar galime užfiksuoti grynųjų ir čekių aukas?",
+            "a": "Taip. Įveskite jas partijomis, kad kiekviena auka atsirastų metinėse ataskaitose."
+          }
+        ]
+      },
+      "checkin": {
+        "name": "Registracija",
+        "meta": {
+          "title": "Nemokama bažnyčios registracija vaikų tarnystei | B1.church",
+          "description": "Nemokama bažnyčios registracija su savitarnos kioskais, vardų kortelėmis, tėvams skirtais atitinkančiais atsiėmimo kodais, svečių registracija QR kodu, patalpų santykiais ir lankomumo ataskaitomis."
+        },
+        "hero": {
+          "eyebrow": "Bažnyčios registracija",
+          "title": "Greita ir saugi registracija kiekvienai šeimai",
+          "subtitle": "Šeimos registruojasi prie kiosko arba telefonu, vaikai gauna vardų korteles su atitinkančiu atsiėmimo kodu, o lankomumas užsiregistruoja pats. Nemokamai, su nebrangiais planšetiniais kompiuteriais ir etikečių spausdintuvais."
+        },
+        "sections": [
+          {
+            "title": "Savitarnos kioskai",
+            "body": "Paleiskite B1 registracijos programą nebrangiame planšetiniame kompiuteryje.",
+            "bullets": [
+              "Rekomenduojama: Samsung Galaxy Tab A-series arba Amazon Fire HD 10",
+              "Šeimos susiranda save pagal paskutinius 4 telefono numerio skaitmenis arba pagal vardą",
+              "Kiekvienas žmogus nukreipiamas į tinkamą patalpą pagal amžių ir klasę",
+              "Kiosko spalvos ir laukimo ekrano skaidrių rodymas atitinka jūsų bažnyčią"
+            ]
+          },
+          {
+            "title": "Vardų kortelės ir atsiėmimo kodai",
+            "body": "Atspausdinkite kiekvieno vaiko vardo etiketę ir tėvams skirtą atsiėmimo lapelį su tuo pačiu 4 simbolių saugos kodu.",
+            "bullets": [
+              "Brother QL etikečių spausdintuvai (rekomenduojamas QL-1110NWB) su DK-1201 etiketėmis",
+              "Sukurkite savo etiketes",
+              "Etiketę galima perspausdinti bet kada"
+            ]
+          },
+          {
+            "title": "Vaikų saugumas įdiegtas",
+            "body": "Atsiėmimo ir patalpų įrankiai, padedantys savanoriams saugoti vaikus.",
+            "bullets": [
+              "Atsiėmimas pagal saugos kodą, nuskaitomą kamera arba brūkšninio kodo skaitytuvu",
+              "Įgaliotų ir neįgaliotų asmenų atsiėmimo sąrašai",
+              "Patalpų talpa ir savanorių santykis, kurie įspėja arba blokuoja",
+              "Iškvieskite tėvus arba išsiųskite skubią SMS žinutę (reikia SMS paslaugų teikėjo)"
+            ]
+          },
+          {
+            "title": "Svečiai laukiami",
+            "body": "Pirmą kartą atvykusios šeimos gali užsiregistruoti prie kiosko arba savo telefonu.",
+            "bullets": [
+              "Svečių registracija QR kodu su jūsų pasirinktais laukais",
+              "Automatiškai įtraukite svečius į grupę tolesniam ryšiui"
+            ]
+          },
+          {
+            "title": "Registracija prieš atvykstant",
+            "body": "Nariai gali užregistruoti visą šeimą bažnyčios programėlėje."
+          },
+          {
+            "title": "Lankomumas, kuris užsiregistruoja pats",
+            "body": "Kiekviena registracija papildo jūsų lankomumo ataskaitas B1Admin sistemoje.",
+            "bullets": [
+              "Savaitės santrauka, lankomumo tendencija ir lankomumas pagal grupes",
+              "Registracijos langai kiekvienam pamaldų laikui",
+              "Tik žmonių skaičiaus įvedimas pamaldoms be registracijos"
+            ]
+          }
+        ],
+        "faqTitle": "Klausimai apie registraciją",
+        "faq": [
+          {
+            "q": "Kokios įrangos mums reikia?",
+            "a": "Planšetinio kompiuterio kiekvienam kioskui ir, jei norite vardų kortelių, Brother QL etikečių spausdintuvo. Rekomenduojami planšetiniai kompiuteriai: Samsung Galaxy Tab A-series ir Amazon Fire HD 10."
+          },
+          {
+            "q": "Ar registracijos programa nemokama?",
+            "a": "Taip. Registracija yra B1 dalis, o B1 nemokamas kartu su talpinimu. Pirkti reikia tik įrangą."
+          },
+          {
+            "q": "Kaip tėvai atsiima vaikus?",
+            "a": "Vaiko vardo kortelė ir tėvų atsiėmimo lapelis turi tą patį 4 simbolių kodą. Savanoriai atsiimant kodą patikrina arba nuskaito."
+          },
+          {
+            "q": "Ar gali registruotis svečiai?",
+            "a": "Taip. Svečius galima įtraukti prie kiosko arba jie gali nuskaityti QR kodą ir užsiregistruoti savo telefonu."
+          }
+        ]
+      },
+      "about": {
+        "name": "Apie mus",
+        "meta": {
+          "title": "Apie B1: nemokama bažnyčių programinė įranga | B1.church",
+          "description": "B1 yra nemokama atvirojo kodo bažnyčios valdymo programinė įranga, kurią kuria 501(c)(3) ne pelno organizacija Live Church Solutions. Kodėl ji nemokama, kas ją remia ir ko galite tikėtis."
+        },
+        "hero": {
+          "eyebrow": "Apie B1",
+          "title": "Nemokama bažnyčios programinė įranga iš ne pelno organizacijos",
+          "subtitle": "B1 kuria Live Church Solutions, 501(c)(3) ne pelno tarnystė (EIN 45-5349618). Tikime, kad kiekviena bažnyčia nusipelno šiuolaikinių technologijų, kad ir koks būtų jos biudžetas."
+        },
+        "sections": [
+          {
+            "title": "Kaip B1 yra nemokamas?",
+            "body": "B1 yra tarnystė, o ne verslas. Kūrimą ir talpinimą finansuoja aukos ir remia Google Ad Grants, todėl bažnyčioms už programinę įrangą mokėti niekada nereikia.",
+            "bullets": [
+              "Jokių mokamų planų, jokių kainų pagal narių skaičių, jokių funkcijų apribojimų",
+              "Talpinimas įskaičiuotas",
+              "Jokio platformos mokesčio už aukas"
+            ]
+          },
+          {
+            "title": "Už ką vis dėlto galite mokėti",
+            "body": "Norime, kad iš anksto žinotumėte visą vaizdą.",
+            "bullets": [
+              "Kortelių ir banko apdorojimo mokesčiai, mokami jūsų pačių mokėjimų operatoriui",
+              "Planšetiniai kompiuteriai ir etikečių spausdintuvai, jei naudojate registraciją kioskuose",
+              "SMS paslaugų teikėjas, jei norite siųsti SMS žinutes",
+              "Domeno pavadinimas, jei naudojate savo",
+              "Papildoma failų saugykla virš 100 MB, kurią taip pat galite padengti prijungę Google Drive, Dropbox, OneDrive ar S3"
+            ]
+          },
+          {
+            "title": "Atvirasis kodas",
+            "body": "Visas B1 kodas viešas GitHub, maždaug 20 saugyklų.",
+            "bullets": [
+              "Bet kas gali patikrinti, kaip jis veikia",
+              "Jei norite, patys talpinkite su Docker arba vieno paspaudimo Railway šablonu"
+            ]
+          },
+          {
+            "title": "Jūsų duomenys lieka jūsų",
+            "body": "Jokio įkalinimo vienoje sistemoje.",
+            "bullets": [
+              "Importuokite iš Planning Center, Breeze, Tithe.ly, Pushpay (CCB) arba iš bet kurio CSV ar Excel failo su B1 Transfer",
+              "Eksportuokite pilną žmonių, grupių, aukų, lankomumo ir formų atsarginę kopiją",
+              "Konvertuokite duomenis į Breeze arba Planning Center formatus"
+            ]
+          },
+          {
+            "title": "Nemokamų įrankių šeima",
+            "body": "B1 yra ChurchApps dalis kartu su FreeShow pateikčių programa ir Lessons.church mokymo programa. Viena nemokama paskyra veikia su visais jais."
+          }
+        ],
+        "faqTitle": "Klausimai apie B1",
+        "faq": [
+          {
+            "q": "Ar B1 tikrai nemokamas?",
+            "a": "Taip. Programinė įranga ir talpinimas nemokami, be planų ir be platformos mokesčio už aukas. Mokate tik išorines išlaidas, pavyzdžiui, kortelių apdorojimo mokesčius savo mokėjimų operatoriui ir įrangą, jei naudojate registracijos kioskus."
+          },
+          {
+            "q": "Kas stovi už B1?",
+            "a": "Live Church Solutions, 501(c)(3) ne pelno tarnystė (EIN 45-5349618), kuri ChurchApps vardu kuria ir FreeShow bei Lessons.church."
+          },
+          {
+            "q": "Ar B1 vėliau pradės imti mokestį?",
+            "a": "B1 finansuojamas aukomis ir dotacijomis, o ne prenumeratomis, o kodas yra atvirasis. Jei kada norėtumėte išeiti, galite eksportuoti viską."
+          },
+          {
+            "q": "Kaip gauti pagalbos?",
+            "a": "Apsilankykite pagalbos centre adresu support.churchapps.org arba rašykite support@churchapps.org."
+          }
+        ]
       }
     },
     "notFound": {

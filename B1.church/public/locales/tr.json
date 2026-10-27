@@ -417,13 +417,24 @@
       "meta": {
         "hubTitle": "B1 Karşılaştırması",
         "hubDescription": "B1, başlangıç için kilise yönetim sistemidir. Kişiler, bağışlar, yoklama, web sitesi, üye uygulaması, ibadet planlaması. Sonsuza dek 0 $. 501(c)(3).",
-        "detailTitle": "B1.church ile {{competitor}} - Ücretsiz Kilise Yazılımı Karşılaştırması",
+        "detailTitle": "Ücretsiz {{competitor}} Alternatifi | B1.church ve {{competitor}}",
         "descriptions": {
           "planning-center": "B1, tüm paketi 0 dolara sunar. Ücretli ek modül yok.",
           "pushpay": "Pushpay ücretli bir bağış platformudur. B1; platform ücreti olmadan bağışın yanı sıra kişiler, yoklama, web sitesi ve ibadet planlamasını da içerir.",
           "tithely": "Tithe.ly, yanında kilise yazılımı olan bir bağış şirketidir. B1 ise kilise yönetim sistemidir; barındırma dahil %100 ücretsizdir. Bağış dahildir. Kâr amacı gütmeyenler için Stripe %2,2 + 0,30 $; Tithe.ly'nin \"ücretsiz\" bağışı ise %2,9 + 0,30 $.",
           "breeze": "Breeze ücretli ve basit bir kilise yönetim sistemidir; Planning Center'dan ayrılanlar sıkça Breeze'i anar. B1 ücretsizdir ve web sitesi, platform ücretsiz bağış, yoklama ve ibadet planlamasını içerir. Breeze'deki kişilerinizi içe aktarırız."
         }
+      },
+      "switching": {
+        "title": "{{competitor}} hizmetinden geçiş",
+        "steps": [
+          "Ücretsiz B1 hesabınızı oluşturun. Birkaç dakika sürer ve kredi kartı gerektirmez.",
+          "Planning Center, Breeze, Tithe.ly ve Pushpay (CCB) dışa aktarımlarını veya herhangi bir CSV ya da Excel dosyasını okuyan B1 Transfer ile kişilerinizi, gruplarınızı ve bağış kayıtlarınızı içe aktarın.",
+          "Çevrim içi bağış için kilisenizin kendi Stripe, PayPal veya Paystack hesabını bağlayın.",
+          "Web sitenizi ve üye uygulamanızı yayınlayın; kullanıyorsanız check-in'i kurun.",
+          "Cemaatinizi giriş yapmaya davet edin."
+        ],
+        "note": "Fikrinizi mi değiştirdiniz? İstediğiniz zaman tam yedek alabilir veya verilerinizi Breeze ya da Planning Center biçimine geri dönüştürebilirsiniz."
       },
       "notFound": {
         "title": "B1 nasıl karşılaştırılır",
@@ -850,6 +861,420 @@
           "title": "Rol Tabanlı Erişim",
           "description": "Personel ve gönüllüler için güvenli izinler"
         }
+      }
+    },
+    "pages": {
+      "app": {
+        "name": "Kilise Uygulaması",
+        "meta": {
+          "title": "Üyeleriniz İçin Ücretsiz Kilise Uygulaması | B1.church",
+          "description": "Kilisenizin adı ve logosuyla ücretsiz üye uygulaması: rehber, gruplar, mesajlaşma, bağış, check-in, vaazlar ve anlık bildirimler. Kilise sitenizden kurulur."
+        },
+        "hero": {
+          "eyebrow": "Ücretsiz kilise uygulaması",
+          "title": "Kilisenizin kendi uygulaması, ücretsiz",
+          "subtitle": "Üyeler gruplar, mesajlar, bağış, check-in, vaazlar ve etkinlikler için tek bir yere sahip olur. Kilisenizin adını ve logosunu taşır, kilise sitenizden saniyeler içinde kurulur ve her zaman günceldir."
+        },
+        "sections": [
+          {
+            "title": "Saniyeler içinde kurulur",
+            "body": "Uygulamanız kilisenizin B1 adresinde durur ve doğrudan ana ekrana kurulur; tam ekran açılır ve okunmamış bildirim rozeti gösterir.",
+            "bullets": [
+              "iPhone: kilise sitenizi Safari'de açın, Paylaş'a dokunun, ardından Ana Ekrana Ekle'yi seçin",
+              "Android: Chrome'dan tek dokunuşla kurulum",
+              "Bilgisayardan gelen ziyaretçiler telefonlarına göndermek için bir QR kod görür",
+              "Üyeler e-posta, Google veya Microsoft ile giriş yapar"
+            ]
+          },
+          {
+            "title": "Gruplar ve mesajlaşma",
+            "body": "Küçük gruplar, hizmet alanları ve ekipler ayrı bir sohbet uygulamasına gerek kalmadan bağlantıda kalır.",
+            "bullets": [
+              "Grupları keşfedin ve katılma isteği gönderin",
+              "Grup sohbeti ve yalnızca liderlere özel duyurular",
+              "Etkinlik katılımı: Geliyorum, Belki, Gelemiyorum",
+              "Sizin belirlediğiniz asgari yaş ayarıyla özel mesajlar"
+            ]
+          },
+          {
+            "title": "Kontrolün sizde olduğu rehber",
+            "body": "Üyeler birbirini bulabilir; mesaj, arama veya kısa mesajla ulaşabilir. Kimin neyi göreceğine siz karar verirsiniz.",
+            "bullets": [
+              "Fotoğraf ve profillerle arama",
+              "Görünürlük seviyeleri: herkes, üyeler, yalnızca gruplar, grup liderleri veya yalnızca personel"
+            ]
+          },
+          {
+            "title": "Gerçekten ulaşan bildirimler",
+            "body": "Anlık bildirimler, uygulama içi zil ve e-posta; isteğe bağlı olarak kısa mesaj da.",
+            "bullets": [
+              "Her üye bildirim türlerini kendisi seçer ve günlük e-posta özeti alabilir",
+              "Sessiz saatler sayesinde kimse gece yarısı rahatsız edilmez"
+            ]
+          },
+          {
+            "title": "Bağış, check-in ve hizmet",
+            "body": "Üyelerin her hafta yaptığı işlerin hepsi aynı uygulamada.",
+            "bullets": [
+              "Tek seferlik veya düzenli bağış yapın, bağış geçmişinizi görün",
+              "Varmadan önce tüm hanenin check-in'ini yapın",
+              "Hizmet görevlerinizi görün ve gönüllü olarak kaydolun",
+              "Aile üyelerini ücretli etkinlikler dahil etkinliklere kaydedin"
+            ]
+          },
+          {
+            "title": "Vaazlar ve Kutsal Kitap",
+            "body": "İnsanları hafta boyunca öğretiyle bağlantıda tutun.",
+            "bullets": [
+              "Vaaz kitaplığı ve sohbetli canlı yayın",
+              "Yerleşik Kutsal Kitap okuyucusu ve günün ayeti",
+              "Hangi sekmelerin görüneceğini ve ziyaretçilerin giriş yapmadan önce neler göreceğini personel belirler"
+            ]
+          }
+        ],
+        "faqTitle": "Kilise uygulaması hakkında sorular",
+        "faq": [
+          {
+            "q": "Kilise uygulaması ne kadar tutar?",
+            "a": "Hiçbir şey. Üye uygulaması, barındırma ve tüm özellikler ücretsizdir. B1, 501(c)(3) statüsündeki kâr amacı gütmeyen Live Church Solutions tarafından geliştirilir."
+          },
+          {
+            "q": "Uygulamada kilisemizin adı ve logosu görünür mü?",
+            "a": "Evet. Üyeler uygulamayı kilisenizin B1 web sitesinden kurar ve uygulama kilisenizin adını ve logosunu taşır."
+          },
+          {
+            "q": "Üyelerin kullanmak için bir şey kurması gerekir mi?",
+            "a": "Hayır. Her tarayıcıda çalışır; ana ekranında simge isteyen üyeler birkaç dokunuşla kurabilir."
+          },
+          {
+            "q": "Çevrim dışı çalışır mı?",
+            "a": "Uygulama internet bağlantısı gerektirir; içeriği çevrim dışı kullanım için saklamaz."
+          }
+        ]
+      },
+      "websiteBuilder": {
+        "name": "Web Sitesi Oluşturucu",
+        "meta": {
+          "title": "Barındırma Dahil Ücretsiz Kilise Web Sitesi Oluşturucu | B1.church",
+          "description": "Sürükle-bırak bölümler, vaazlar, etkinlikler, bağış, formlar ve blogla kilise web sitenizi ücretsiz oluşturun. Özel alan adı ve SSL dahil. Barındırma faturası yok."
+        },
+        "hero": {
+          "eyebrow": "Ücretsiz kilise web sitesi oluşturucu",
+          "title": "Kendi kendine güncellenen bir kilise sitesi",
+          "subtitle": "Vaazları, etkinlikleri, grupları, ibadet saatlerini ve bağışı doğrudan B1'den çeken sürükle-bırak sayfalar; sitenizin bilgileri asla eskimez. Barındırma, SSL ve kendi alan adınız ücretsiz dahildir."
+        },
+        "sections": [
+          {
+            "title": "Dakikalar içinde başlayın",
+            "body": "Her kilise, kaydolduğu gün yourchurch.b1.church adresinde hazır bir siteye sahip olur.",
+            "bullets": [
+              "Kendi alan adınızı CNAME veya A kaydıyla yönlendirin",
+              "SSL sertifikaları otomatiktir",
+              "Gerekirse tek kilise için birden fazla site oluşturun"
+            ]
+          },
+          {
+            "title": "Sürükle-bırak sayfa düzenleyici",
+            "body": "Sayfaları bölümler ve öğelerle oluşturun. Hazır bir şablonla (ana başlık, hakkımızda, ibadetler, bağış ve daha fazlası) veya boş bir sütun düzeniyle başlayın.",
+            "bullets": [
+              "Metin, görsel, düğme, kart, galeri, tanıklık, SSS ve tablolar",
+              "Video, RSS kaynağından podcast, canlı yayın oynatıcısı, haritalar ve gömülü içerikler",
+              "Geri sayım, istatistik, personel ızgarası ve logo öğeleri"
+            ]
+          },
+          {
+            "title": "Kendiliğinden güncellenen içerik",
+            "body": "Kiliseye özel öğeler, personelinizin zaten kullandığı veritabanından okur.",
+            "bullets": [
+              "Aylık ızgara veya yaklaşan etkinlikler olarak takvim, her etkinlik için ayrı sayfa",
+              "Katılım ayarlarınızdan gelen ibadet saatleri",
+              "Grup listesi, formlar ve kayıtlar",
+              "Bağış formları ve kampanya ilerleme çubukları"
+            ]
+          },
+          {
+            "title": "Vaazlar ve canlı yayın",
+            "body": "Seri oynatma listeleriyle ve her mesaj için ayrı sayfayla bir vaaz kitaplığı.",
+            "bullets": [
+              "YouTube veya Vimeo'dan toplu içe aktarma",
+              "Sohbetli canlı yayın programı"
+            ]
+          },
+          {
+            "title": "Yerleşik blog",
+            "body": "Haberleri ve günlük ilahi düşünceleri RSS kaynağıyla birlikte /blog adresinde paylaşın.",
+            "bullets": [
+              "Taslaklar, zamanlanmış yazılar, kategoriler ve etiketler",
+              "Hyvor Talk, FastComments veya Disqus ile isteğe bağlı yorumlar"
+            ]
+          },
+          {
+            "title": "Sizin tarzınız, sizin kurallarınız",
+            "body": "Renkler, yazı tipleri, boşluklar, logolar ve gezinme menüsü tamamen size ait.",
+            "bullets": [
+              "Herkese, yalnızca üyelere, yalnızca personele veya belirli gruplara açık sayfalar",
+              "Meta açıklamalar, sosyal medya görseli, yönlendirmeler ve Google Analytics 4",
+              "Duyuru bandı ile özel CSS veya JavaScript"
+            ]
+          }
+        ],
+        "faqTitle": "Web sitesi oluşturucu hakkında sorular",
+        "faq": [
+          {
+            "q": "Kilise web sitesi oluşturucu gerçekten ücretsiz mi?",
+            "a": "Evet. Oluşturucu, barındırma, SSL ve özel alan adı desteği ücretsizdir. Yalnızca alan adının kendisi için alan adı sağlayıcınıza ödeme yaparsınız."
+          },
+          {
+            "q": "Kendi alan adımı kullanabilir miyim?",
+            "a": "Evet. Alan adı sağlayıcınızda bir CNAME veya A kaydı ekleyin; B1 SSL sertifikasını otomatik olarak düzenler."
+          },
+          {
+            "q": "Kod yazmayı bilmem gerekir mi?",
+            "a": "Hayır. Sayfalar bölümleri ve öğeleri sürükleyip bırakarak oluşturulur. İsterseniz özel CSS ve JavaScript de kullanabilirsiniz."
+          },
+          {
+            "q": "Herkese açık web sitesi olmadan B1'i kullanabilir miyiz?",
+            "a": "Evet. Herkese açık siteyi kapatıp B1'i yalnızca üye uygulaması, bağış ve kayıtlar için kullanabilirsiniz."
+          }
+        ]
+      },
+      "giving": {
+        "name": "Çevrim İçi Bağış",
+        "meta": {
+          "title": "Kiliseler İçin Platform Ücretsiz Çevrim İçi Bağış | B1.church",
+          "description": "B1 platform ücreti olmadan çevrim içi kilise bağışı. Kendi Stripe, PayPal veya Paystack hesabınızı kullanın: düzenli bağış, ACH, Apple Pay, fonlar, taahhütler ve yıl sonu dökümleri."
+        },
+        "hero": {
+          "eyebrow": "Çevrim içi bağış",
+          "title": "Platform ücreti olmayan çevrim içi bağış",
+          "subtitle": "B1 para akışının içinde yer almaz. Kiliseniz kendi ödeme hesabını bağlar, bağışlar doğrudan size ulaşır ve B1 üzerine hiçbir şey eklemez. Yalnızca ödeme sağlayıcınızın ücretini ödersiniz."
+        },
+        "sections": [
+          {
+            "title": "Sizin hesabınız, sizin paranız",
+            "body": "Her kilise kendi ödeme geçidini bağlar. Kart bilgileri ChurchApps sunucularına hiç uğramaz.",
+            "bullets": [
+              "Stripe; tek seferlik bağışlarda Apple Pay ve Google Pay dahil",
+              "PayPal, Venmo düğmeleriyle birlikte",
+              "Afrika genelinde Paystack; mobil para ve banka havalesi desteğiyle",
+              "Banka (ACH) bağışları; misafirler için anında doğrulama ile"
+            ]
+          },
+          {
+            "title": "Gerçekte ne kadar tutar?",
+            "body": "B1 platform ücreti almaz ve ücretli paketi yoktur. Tek maliyet, bize değil ödeme sağlayıcınıza giden işlem ücretidir.",
+            "bullets": [
+              "Stripe, uygun kâr amacı gütmeyen kuruluşlara indirimli oranlar sunar (kartla yapılan her bağış için 2.2% + $0.30)",
+              "Bağışçılar işlem ücretini kendilerinin karşılamayı seçebilir",
+              "Stripe ile 15 para biriminde çoklu para birimli bağış"
+            ]
+          },
+          {
+            "title": "Kendini toparlayan düzenli bağış",
+            "body": "Üyeler düzenli bağışlarını kurar ve uygulamadan yönetir.",
+            "bullets": [
+              "Stripe düzenli bağışlarını istediğiniz zaman duraklatın veya sürdürün",
+              "Başarısız bağışlar tek bir listede Yeniden Dene düğmesiyle görünür",
+              "Bağış başarısız olduğunda bağışçıya e-posta gider; 3 ve 7 gün sonra tekrar hatırlatılır"
+            ]
+          },
+          {
+            "title": "Fonlar, kampanyalar ve taahhütler",
+            "body": "Bağışçılara net seçenekler sunun ve her hedefi takip edin.",
+            "bullets": [
+              "Vergiden düşülebilir ve gizli fonlar",
+              "Fon ve tutarı önceden ayarlayan bağış bağlantıları",
+              "Hedefli, ilerleme çubuklu kampanyalar ile taahhüt edilen ve verilen toplamların karşılaştırması",
+              "Anonim bağışlar"
+            ]
+          },
+          {
+            "title": "Nakit, çekler ve kayıtlar",
+            "body": "Verilen her şey, kişi verilerinizin yanında tek bir yerde toplanır.",
+            "bullets": [
+              "Nakit ve çekler için toplu kayıt",
+              "Eksik Stripe işlemlerini içe aktarma",
+              "Logonuzu taşıyan yıl sonu dökümleri; Kanada, Avustralya ve Yeni Zelanda biçimleri dahil",
+              "Üyeler kendi bağış geçmişlerini görüntüleyip yazdırabilir"
+            ]
+          }
+        ],
+        "faqTitle": "Çevrim içi bağış hakkında sorular",
+        "faq": [
+          {
+            "q": "B1 bağışlardan pay alıyor mu?",
+            "a": "Hayır. B1'in platform ücreti yoktur. Bağışlar doğrudan kilisenizin kendi Stripe, PayPal veya Paystack hesabına gider ve yalnızca o sağlayıcının ücretini ödersiniz."
+          },
+          {
+            "q": "B1 hangi ödeme sağlayıcılarıyla çalışır?",
+            "a": "Stripe, PayPal (Venmo ile) ve Paystack. Kingdom Funding beta olarak kullanılabilir."
+          },
+          {
+            "q": "Üyeler telefondan bağış yapabilir mi?",
+            "a": "Evet. Üyeler kilise uygulamasından veya web sitesinden bağış yapar, düzenli bağış kurar ve tüm bağış geçmişini görür."
+          },
+          {
+            "q": "Nakit ve çek bağışlarını kaydedebilir miyiz?",
+            "a": "Evet. Toplu olarak girin; böylece her bağış yıl sonu dökümlerinde yer alır."
+          }
+        ]
+      },
+      "checkin": {
+        "name": "Check-in Sistemi",
+        "meta": {
+          "title": "Çocuk Hizmeti İçin Ücretsiz Kilise Check-in Yazılımı | B1.church",
+          "description": "Self servis kiosklar, isim etiketleri, eşleşen veli teslim kodları, QR ile misafir kaydı, oda oranları ve katılım raporlarıyla ücretsiz kilise check-in'i. Uygun fiyatlı tabletlerde çalışır."
+        },
+        "hero": {
+          "eyebrow": "Kilise check-in",
+          "title": "Her aile için hızlı ve güvenli check-in",
+          "subtitle": "Aileler kioskta veya telefonlarından check-in yapar, çocuklar eşleşen teslim koduyla isim etiketi alır ve katılım kendiliğinden kaydedilir. Ücretsiz; uygun fiyatlı tabletler ve etiket yazıcılarıyla."
+        },
+        "sections": [
+          {
+            "title": "Self servis kiosklar",
+            "body": "B1 check-in uygulamasını uygun fiyatlı bir tablette çalıştırın.",
+            "bullets": [
+              "Önerilen: Samsung Galaxy Tab A-series veya Amazon Fire HD 10",
+              "Aileler kendilerini telefon numarasının son 4 hanesiyle veya adlarıyla bulur",
+              "Herkes yaş ve sınıf yönlendirmesiyle doğru odaya yerleştirilir",
+              "Kiosk renkleri ve boşta kalma ekranı slayt gösterisi kilisenize uyar"
+            ]
+          },
+          {
+            "title": "İsim etiketleri ve teslim kodları",
+            "body": "Her çocuk için bir isim etiketi, veli için de aynı 4 karakterli güvenlik kodunu taşıyan bir teslim fişi yazdırın.",
+            "bullets": [
+              "DK-1201 etiketli Brother QL etiket yazıcıları (QL-1110NWB önerilir)",
+              "Kendi etiketlerinizi tasarlayın",
+              "Etiketi istediğiniz zaman yeniden yazdırın"
+            ]
+          },
+          {
+            "title": "Yerleşik çocuk güvenliği",
+            "body": "Gönüllülerin çocukları güvende tutmasına yardımcı olan çıkış ve oda araçları.",
+            "bullets": [
+              "Güvenlik koduyla, kamera veya barkod okuyucuyla taratılarak çıkış",
+              "Yetkili ve yetkisiz teslim alma listeleri",
+              "Uyarı veren veya engelleyen oda kapasitesi ve gönüllü oranları",
+              "Veliyi çağırın veya acil durum kısa mesajı gönderin (bir mesaj sağlayıcısı gerektirir)"
+            ]
+          },
+          {
+            "title": "Misafirlere hoş geldiniz",
+            "body": "İlk kez gelen aileler kioskta veya kendi telefonlarında kayıt olabilir.",
+            "bullets": [
+              "Seçtiğiniz alanlarla QR kodlu misafir kaydı",
+              "Takip için misafirleri otomatik olarak bir gruba ekleme"
+            ]
+          },
+          {
+            "title": "Gelmeden önce check-in",
+            "body": "Üyeler tüm hanelerinin check-in'ini kilise uygulamasından yapabilir."
+          },
+          {
+            "title": "Kendiliğinden kaydedilen katılım",
+            "body": "Her check-in, B1Admin'deki katılım raporlarınızı besler.",
+            "bullets": [
+              "Haftalık özet, katılım eğilimi ve grup bazında katılım",
+              "Her ibadet saati için check-in aralıkları",
+              "Check-in kullanılmayan ibadetler için yalnızca kişi sayısı girişi"
+            ]
+          }
+        ],
+        "faqTitle": "Check-in hakkında sorular",
+        "faq": [
+          {
+            "q": "Hangi donanıma ihtiyacımız var?",
+            "a": "Her kiosk için bir tablet ve isim etiketi istiyorsanız bir Brother QL etiket yazıcısı. Önerilen tabletler arasında Samsung Galaxy Tab A-series ve Amazon Fire HD 10 bulunur."
+          },
+          {
+            "q": "Check-in yazılımı ücretsiz mi?",
+            "a": "Evet. Check-in, barındırma dahil ücretsiz olan B1'in bir parçasıdır. Yalnızca donanımı satın alırsınız."
+          },
+          {
+            "q": "Veliler çocuklarını nasıl teslim alır?",
+            "a": "Her çocuğun isim etiketi ile velinin teslim fişi aynı 4 karakterli kodu taşır. Gönüllüler teslim sırasında kodu kontrol eder veya tarar."
+          },
+          {
+            "q": "Ziyaretçiler check-in yapabilir mi?",
+            "a": "Evet. Misafirler kioskta eklenebilir veya bir QR kodu tarayıp kendi telefonlarından kayıt olabilir."
+          }
+        ]
+      },
+      "about": {
+        "name": "Hakkında",
+        "meta": {
+          "title": "B1 Hakkında: Kâr Amacı Gütmeyen Ücretsiz Yazılım | B1.church",
+          "description": "B1, 501(c)(3) statüsündeki kâr amacı gütmeyen Live Church Solutions tarafından geliştirilen ücretsiz, açık kaynaklı kilise yönetim yazılımıdır. Neden ücretsiz, kim destekliyor, neler bekleyebilirsiniz."
+        },
+        "hero": {
+          "eyebrow": "B1 hakkında",
+          "title": "Kâr amacı gütmeyen bir kuruluşun geliştirdiği ücretsiz kilise yazılımı",
+          "subtitle": "B1, 501(c)(3) statüsündeki kâr amacı gütmeyen hizmet kuruluşu Live Church Solutions (EIN 45-5349618) tarafından geliştirilir. Bütçesi ne olursa olsun her kilisenin modern teknolojiyi hak ettiğine inanıyoruz."
+        },
+        "sections": [
+          {
+            "title": "B1 nasıl ücretsiz?",
+            "body": "B1 bir iş değil, bir hizmettir. Geliştirme ve barındırma bağışlarla karşılanır ve Google Ad Grants ile desteklenir; bu yüzden kiliseler yazılım için hiçbir şey ödemez.",
+            "bullets": [
+              "Ücretli paket yok, üye başına ücret yok, özellik sınırı yok",
+              "Barındırma dahil",
+              "Bağışlarda platform ücreti yok"
+            ]
+          },
+          {
+            "title": "Yine de ödemeniz gerekebilecekler",
+            "body": "Resmin tamamını baştan bilmenizi istiyoruz.",
+            "bullets": [
+              "Kendi ödeme sağlayıcınıza ödenen kart ve banka işlem ücretleri",
+              "Kiosk check-in kullanırsanız tabletler ve etiket yazıcıları",
+              "Kısa mesaj göndermek istiyorsanız bir mesaj sağlayıcısı",
+              "Özel alan adı kullanıyorsanız alan adınız",
+              "100 MB'ı aşan ek dosya depolama; Google Drive, Dropbox, OneDrive veya S3 bağlayarak da karşılayabilirsiniz"
+            ]
+          },
+          {
+            "title": "Açık kaynak",
+            "body": "B1'in tüm kodu GitHub'da yaklaşık 20 depoda herkese açıktır.",
+            "bullets": [
+              "Herkes nasıl çalıştığını inceleyebilir",
+              "İsterseniz Docker ile veya tek tıkla Railway şablonuyla kendi sunucunuzda çalıştırın"
+            ]
+          },
+          {
+            "title": "Verileriniz sizin kalır",
+            "body": "Hiçbir bağımlılık yok.",
+            "bullets": [
+              "B1 Transfer ile Planning Center, Breeze, Tithe.ly, Pushpay (CCB) veya herhangi bir CSV ya da Excel dosyasından içe aktarın",
+              "Kişilerin, grupların, bağışların, katılımın ve formların tam yedeğini dışa aktarın",
+              "Verilerinizi Breeze veya Planning Center biçimlerine dönüştürün"
+            ]
+          },
+          {
+            "title": "Ücretsiz araçlardan oluşan bir aile",
+            "body": "B1, FreeShow sunum yazılımı ve Lessons.church müfredatıyla birlikte ChurchApps'in bir parçasıdır. Tek bir ücretsiz hesap hepsinde geçerlidir."
+          }
+        ],
+        "faqTitle": "B1 hakkında sorular",
+        "faq": [
+          {
+            "q": "B1 gerçekten ücretsiz mi?",
+            "a": "Evet. Yazılım ve barındırma ücretsizdir; paket yok, bağışlarda platform ücreti yok. Yalnızca kendi ödeme sağlayıcınıza kart işlem ücreti gibi dış maliyetleri ve check-in kiosklarını kullanırsanız donanımı ödersiniz."
+          },
+          {
+            "q": "B1'in arkasında kim var?",
+            "a": "ChurchApps adı altında FreeShow ve Lessons.church'ü de geliştiren, 501(c)(3) statüsündeki kâr amacı gütmeyen hizmet kuruluşu Live Church Solutions (EIN 45-5349618)."
+          },
+          {
+            "q": "B1 ileride ücret almaya başlar mı?",
+            "a": "B1 abonelikle değil bağış ve hibelerle desteklenir ve kodu açık kaynaktır. Ayrılmak isterseniz her şeyi dışa aktarabilirsiniz."
+          },
+          {
+            "q": "Nasıl yardım alırız?",
+            "a": "support.churchapps.org adresindeki yardım merkezini ziyaret edin veya support@churchapps.org adresine e-posta gönderin."
+          }
+        ]
       }
     },
     "notFound": {

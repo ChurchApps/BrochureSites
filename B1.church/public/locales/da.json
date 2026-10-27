@@ -417,13 +417,24 @@
       "meta": {
         "hubTitle": "Sådan klarer B1 sig i sammenligning",
         "hubDescription": "B1 er kirkesystemet, du starter med. Medlemmer, gaver, check-in, hjemmeside, medlemsapp, gudstjenesteplanlægning. 0 $ for altid. 501(c)(3).",
-        "detailTitle": "B1.church vs {{competitor}} - sammenligning af gratis kirkesoftware",
+        "detailTitle": "Gratis alternativ til {{competitor}} | B1.church vs {{competitor}}",
         "descriptions": {
           "planning-center": "B1 er hele pakken til 0 $. Ingen betalte moduler.",
           "pushpay": "Pushpay er en betalt gaveplatform. B1 inkluderer gaver uden platformgebyr, plus medlemmer, check-in, hjemmeside og gudstjenesteplanlægning.",
           "tithely": "Tithe.ly er et gavefirma med kirkesoftware ved siden af. B1 er kirkesystemet, 100 % gratis inkl. hosting. Gaver er inkluderet. Stripe for nonprofits koster 2,2 % + 0,30 $; Tithe.lys \"gratis\" gaver koster 2,9 % + 0,30 $.",
           "breeze": "Breeze er et betalt, enkelt kirkesystem, som folk nævner, når de forlader Planning Center. B1 koster 0 $ og inkluderer hjemmeside, gaver uden platformgebyr, check-in og gudstjenesteplanlægning. Vi importerer dine medlemmer fra Breeze."
         }
+      },
+      "switching": {
+        "title": "Skift fra {{competitor}}",
+        "steps": [
+          "Opret din gratis B1-konto. Det tager et par minutter og kræver intet kreditkort.",
+          "Importér dine personer, grupper og gavedata med B1 Transfer, som læser eksport fra Planning Center, Breeze, Tithe.ly og Pushpay (CCB) eller en hvilken som helst CSV- eller Excel-fil.",
+          "Tilslut din kirkes egen Stripe-, PayPal- eller Paystack-konto til onlinegaver.",
+          "Udgiv jeres hjemmeside og medlemsapp, og opsæt check-in, hvis I bruger det.",
+          "Inviter din menighed til at logge ind."
+        ],
+        "note": "Skiftet du mening? Eksportér en komplet sikkerhedskopi når som helst, eller konvertér dine data tilbage til Breeze- eller Planning Center-format."
       },
       "notFound": {
         "title": "Sådan sammenligner B1 sig",
@@ -850,6 +861,420 @@
           "title": "Rollebaseret adgang",
           "description": "Sikre tilladelser til medarbejdere og frivillige"
         }
+      }
+    },
+    "pages": {
+      "app": {
+        "name": "Kirkeapp",
+        "meta": {
+          "title": "Gratis kirkeapp til jeres medlemmer | B1.church",
+          "description": "En gratis medlemsapp med kirkens navn og logo: oversigt, grupper, beskeder, gaver, check-in, prædikener og push-notifikationer. Installeres fra kirkens hjemmeside."
+        },
+        "hero": {
+          "eyebrow": "Gratis kirkeapp",
+          "title": "Din kirkes egen app, gratis",
+          "subtitle": "Medlemmerne får ét sted til grupper, beskeder, gaver, check-in, prædikener og begivenheder. Den bærer kirkens navn og logo, installeres fra kirkens hjemmeside på få sekunder og er altid opdateret."
+        },
+        "sections": [
+          {
+            "title": "Installeres på få sekunder",
+            "body": "Jeres app bor på kirkens B1-adresse og installeres direkte på startskærmen, i fuld skærm og med badge for ulæste beskeder.",
+            "bullets": [
+              "iPhone: åbn kirkens hjemmeside i Safari, tryk på Del og derefter Føj til hjemmeskærm",
+              "Android: installation med ét tryk fra Chrome",
+              "Besøgende på computer ser en QR-kode, så de kan sende den til telefonen",
+              "Medlemmer logger ind med e-mail, Google eller Microsoft"
+            ]
+          },
+          {
+            "title": "Grupper og beskeder",
+            "body": "Smågrupper, tjenestegrene og teams holder kontakten uden en separat chat-app.",
+            "bullets": [
+              "Se grupper og bed om at blive medlem",
+              "Gruppechat og meddelelser kun til ledere",
+              "Tilmelding til begivenheder: Kommer, Måske eller Kan ikke",
+              "Private beskeder, med en mindstealder, som du selv bestemmer"
+            ]
+          },
+          {
+            "title": "En medlemsoversigt, du styrer",
+            "body": "Medlemmer kan finde hinanden og kontakte hinanden via besked, opkald eller sms. Du bestemmer, hvem der ser hvad.",
+            "bullets": [
+              "Søgning med billeder og profiler",
+              "Synlighedsniveauer: alle, medlemmer, kun grupper, gruppeledere eller kun medarbejdere"
+            ]
+          },
+          {
+            "title": "Notifikationer, der faktisk når frem",
+            "body": "Push-notifikationer, en klokke i appen og e-mail, med sms som valgfrit tilvalg.",
+            "bullets": [
+              "Hvert medlem vælger indstillinger for hver type og en daglig e-mailoversigt",
+              "Stilletid, så ingen bliver forstyrret midt om natten"
+            ]
+          },
+          {
+            "title": "Gaver, check-in og tjeneste",
+            "body": "Den samme app klarer det, medlemmerne gør hver uge.",
+            "bullets": [
+              "Giv en enkelt gang eller opret faste gaver, og se din gavehistorik",
+              "Check hele husstanden ind, før I ankommer",
+              "Se tjenesteopgaver og meld dig som frivillig",
+              "Tilmeld familiemedlemmer til begivenheder, også betalte"
+            ]
+          },
+          {
+            "title": "Prædikener og Bibelen",
+            "body": "Hold folk forbundet med undervisningen i løbet af ugen.",
+            "bullets": [
+              "Prædikenbibliotek og livestream med chat",
+              "Indbygget bibellæser og dagens vers",
+              "Medarbejdere vælger, hvilke faner der vises, og hvad besøgende ser, før de logger ind"
+            ]
+          }
+        ],
+        "faqTitle": "Spørgsmål om kirkeappen",
+        "faq": [
+          {
+            "q": "Hvad koster kirkeappen?",
+            "a": "Ingenting. Medlemsappen, hosting og alle funktioner er gratis. B1 er bygget af Live Church Solutions, en nonprofitorganisation under 501(c)(3)."
+          },
+          {
+            "q": "Viser appen vores kirkes navn og logo?",
+            "a": "Ja. Medlemmer installerer den fra kirkens B1-hjemmeside, og den bærer kirkens navn og logo."
+          },
+          {
+            "q": "Skal medlemmer installere noget for at bruge den?",
+            "a": "Nej. Den virker i enhver browser, og medlemmer, der vil have et ikon på startskærmen, kan installere den med få tryk."
+          },
+          {
+            "q": "Virker den offline?",
+            "a": "Appen kræver internetforbindelse; den gemmer ikke indhold til brug offline."
+          }
+        ]
+      },
+      "websiteBuilder": {
+        "name": "Hjemmesidebygger",
+        "meta": {
+          "title": "Gratis hjemmesidebygger til kirker med hosting | B1.church",
+          "description": "Byg kirkens hjemmeside gratis med træk-og-slip-sektioner, prædikener, begivenheder, gaver, formularer og blog. Eget domæne og SSL inkluderet. Ingen hostingregning."
+        },
+        "hero": {
+          "eyebrow": "Gratis hjemmesidebygger til kirker",
+          "title": "En kirkehjemmeside, der passer sig selv",
+          "subtitle": "Træk-og-slip-sider, der henter prædikener, begivenheder, grupper, gudstjenestetider og gaver direkte fra B1, så jeres hjemmeside aldrig er forældet. Hosting, SSL og eget domæne er med uden beregning."
+        },
+        "sections": [
+          {
+            "title": "Kom i gang på få minutter",
+            "body": "Hver kirke får en færdig hjemmeside på yourchurch.b1.church samme dag, den tilmelder sig.",
+            "bullets": [
+              "Peg dit eget domæne hertil med en CNAME- eller A-record",
+              "SSL-certifikater oprettes automatisk",
+              "Byg flere hjemmesider til samme kirke, hvis du har brug for det"
+            ]
+          },
+          {
+            "title": "Træk-og-slip-sideeditor",
+            "body": "Byg sider af sektioner og elementer. Start med en skabelon (forside, om os, gudstjenester, gaver og mere) eller et tomt kolonnelayout.",
+            "bullets": [
+              "Tekst, billeder, knapper, kort, gallerier, vidnesbyrd, FAQ og tabeller",
+              "Video, podcast fra et RSS-feed, livestream-afspiller, kort og indlejringer",
+              "Nedtælling, nøgletal, medarbejderoversigt og logoelementer"
+            ]
+          },
+          {
+            "title": "Indhold, der opdaterer sig selv",
+            "body": "Kirkespecifikke elementer læser fra den samme database, som jeres medarbejdere allerede bruger.",
+            "bullets": [
+              "Kalender som månedsoversigt eller kommende begivenheder, med en side til hver begivenhed",
+              "Gudstjenestetider fra jeres opsætning af fremmøde",
+              "Gruppeoversigt, formularer og tilmeldinger",
+              "Gaveformularer og statuslinjer for indsamlinger"
+            ]
+          },
+          {
+            "title": "Prædikener og livestream",
+            "body": "Et prædikenbibliotek med afspilningslister for serier og en side til hver prædiken.",
+            "bullets": [
+              "Masseimport fra YouTube eller Vimeo",
+              "Livestream-program med chat"
+            ]
+          },
+          {
+            "title": "Blog indbygget",
+            "body": "Skriv nyheder og andagter på /blog med et RSS-feed.",
+            "bullets": [
+              "Kladder, planlagte indlæg, kategorier og tags",
+              "Valgfrie kommentarer via Hyvor Talk, FastComments eller Disqus"
+            ]
+          },
+          {
+            "title": "Dit udtryk, dine regler",
+            "body": "Farver, skrifttyper, afstande, logoer og navigation bestemmer du selv.",
+            "bullets": [
+              "Sider for alle, kun medlemmer, kun medarbejdere eller bestemte grupper",
+              "Metabeskrivelser, billede til sociale medier, omdirigeringer og Google Analytics 4",
+              "Meddelelsesbanner og eget CSS eller JavaScript"
+            ]
+          }
+        ],
+        "faqTitle": "Spørgsmål om hjemmesidebyggeren",
+        "faq": [
+          {
+            "q": "Er hjemmesidebyggeren til kirker virkelig gratis?",
+            "a": "Ja. Bygger, hosting, SSL og understøttelse af eget domæne er gratis. Du betaler kun din domæneudbyder for selve domænenavnet."
+          },
+          {
+            "q": "Kan jeg bruge mit eget domæne?",
+            "a": "Ja. Tilføj en CNAME- eller A-record hos din udbyder, så udsteder B1 automatisk SSL-certifikatet."
+          },
+          {
+            "q": "Skal jeg kunne kode?",
+            "a": "Nej. Siderne bygges ved at trække sektioner og elementer ind. Eget CSS og JavaScript er der, hvis du vil bruge det."
+          },
+          {
+            "q": "Kan vi bruge B1 uden en offentlig hjemmeside?",
+            "a": "Ja. Du kan slå den offentlige hjemmeside fra og bruge B1 kun til medlemsappen, gaver og tilmeldinger."
+          }
+        ]
+      },
+      "giving": {
+        "name": "Onlinegaver",
+        "meta": {
+          "title": "Gratis onlinegaver til kirker uden platformsgebyr | B1.church",
+          "description": "Onlinegaver til kirker uden B1-platformsgebyr. Brug din egen Stripe-, PayPal- eller Paystack-konto: faste gaver, ACH, Apple Pay, fonde, tilsagn og årsopgørelser."
+        },
+        "hero": {
+          "eyebrow": "Onlinegaver",
+          "title": "Onlinegaver uden platformsgebyr",
+          "subtitle": "B1 sidder aldrig i pengestrømmen. Din kirke tilslutter sin egen betalingskonto, gaverne går direkte til jer, og B1 lægger intet oveni. I betaler kun jeres betalingsudbyders takst."
+        },
+        "sections": [
+          {
+            "title": "Din konto, dine penge",
+            "body": "Hver kirke tilslutter sin egen betalingsgateway. Kortoplysninger rører aldrig ChurchApps' servere.",
+            "bullets": [
+              "Stripe, inklusive Apple Pay og Google Pay ved engangsgaver",
+              "PayPal, med Venmo-knapper",
+              "Paystack i hele Afrika, med mobilbetaling og bankoverførsel",
+              "Bankgaver (ACH), med øjeblikkelig verificering for gæster"
+            ]
+          },
+          {
+            "title": "Hvad det faktisk koster",
+            "body": "B1 tager intet platformsgebyr og har ingen betalte abonnementer. Den eneste udgift er din betalingsudbyders takst, som går til dem, ikke til os.",
+            "bullets": [
+              "Stripe tilbyder nedsatte takster til berettigede nonprofitorganisationer (2.2% + $0.30 pr. kortgave)",
+              "Givere kan vælge selv at dække betalingsgebyret",
+              "Gaver i flere valutaer med Stripe i 15 valutaer"
+            ]
+          },
+          {
+            "title": "Faste gaver, der klarer sig selv",
+            "body": "Medlemmer opretter faste gaver og administrerer dem fra appen.",
+            "bullets": [
+              "Sæt Stripe-faste gaver på pause eller genoptag dem, når som helst",
+              "Mislykkede gaver vises i én liste med en knap til nyt forsøg",
+              "Givere får en e-mail, når en gave mislykkes, og igen efter 3 og 7 dage"
+            ]
+          },
+          {
+            "title": "Fonde, indsamlinger og tilsagn",
+            "body": "Giv givere klare valg, og følg hvert mål.",
+            "bullets": [
+              "Fradragsberettigede og skjulte fonde",
+              "Gavelinks med forudindstillet fond og beløb",
+              "Indsamlinger med mål, statuslinjer og totaler for lovet i forhold til givet",
+              "Anonyme gaver"
+            ]
+          },
+          {
+            "title": "Kontanter, checks og regnskab",
+            "body": "Alt, hvad der gives, samles ét sted sammen med jeres persondata.",
+            "bullets": [
+              "Bundtregistrering af kontanter og checks",
+              "Importér manglende Stripe-transaktioner",
+              "Årsopgørelser med jeres logo, også i formater til Canada, Australien og New Zealand",
+              "Medlemmer kan se og udskrive deres egen gavehistorik"
+            ]
+          }
+        ],
+        "faqTitle": "Spørgsmål om onlinegaver",
+        "faq": [
+          {
+            "q": "Tager B1 en andel af gaverne?",
+            "a": "Nej. B1 har intet platformsgebyr. Gaver går direkte til din kirkes egen Stripe-, PayPal- eller Paystack-konto, og du betaler kun den udbyders takst."
+          },
+          {
+            "q": "Hvilke betalingsudbydere virker med B1?",
+            "a": "Stripe, PayPal (med Venmo) og Paystack. Kingdom Funding er tilgængelig i beta."
+          },
+          {
+            "q": "Kan medlemmer give fra telefonen?",
+            "a": "Ja. Medlemmer giver fra kirkeappen eller hjemmesiden, opretter faste gaver og ser hele deres gavehistorik."
+          },
+          {
+            "q": "Kan vi registrere kontante gaver og checks?",
+            "a": "Ja. Indtast dem i bundter, så hver gave kommer med på årsopgørelserne."
+          }
+        ]
+      },
+      "checkin": {
+        "name": "Børne-check-in",
+        "meta": {
+          "title": "Gratis check-in til kirker og børnearbejde | B1.church",
+          "description": "Gratis check-in til kirker med selvbetjeningskiosker, navneskilte, matchende afhentningskoder, gæsteregistrering med QR, rumnormeringer og fremmødeoversigter. Kører på billige tablets."
+        },
+        "hero": {
+          "eyebrow": "Kirkens check-in",
+          "title": "Hurtigt og sikkert check-in til hver familie",
+          "subtitle": "Familier checker ind på en kiosk eller fra telefonen, børn får navneskilte med en matchende afhentningskode, og fremmødet registrerer sig selv. Gratis, med billige tablets og labelprintere."
+        },
+        "sections": [
+          {
+            "title": "Selvbetjeningskiosker",
+            "body": "Kør B1's check-in-app på en billig tablet.",
+            "bullets": [
+              "Anbefalet: Samsung Galaxy Tab A-series eller Amazon Fire HD 10",
+              "Familier slår sig selv op via de sidste 4 cifre i et telefonnummer eller via navn",
+              "Hver person placeres i det rette lokale, med vejledning om alder og klassetrin",
+              "Kioskens farver og et diasshow på pauseskærmen matcher jeres kirke"
+            ]
+          },
+          {
+            "title": "Navneskilte og afhentningskoder",
+            "body": "Print en navnelabel til hvert barn og en afhentningsseddel til forælderen med den samme sikkerhedskode på 4 tegn.",
+            "bullets": [
+              "Brother QL-labelprintere (QL-1110NWB anbefales) med DK-1201-labels",
+              "Design jeres egne labels",
+              "Print en label igen, når som helst"
+            ]
+          },
+          {
+            "title": "Børnesikkerhed indbygget",
+            "body": "Afhentnings- og lokaleværktøjer, der hjælper frivillige med at passe på børnene.",
+            "bullets": [
+              "Afhentning med sikkerhedskode, scannet med kamera eller stregkodescanner",
+              "Lister over godkendte og ikke-godkendte afhentere",
+              "Lokalekapacitet og normeringer for frivillige, der advarer eller blokerer",
+              "Tilkald en forælder eller send en nødsms (kræver en sms-udbyder)"
+            ]
+          },
+          {
+            "title": "Gæster er velkomne",
+            "body": "Familier, der kommer første gang, kan registrere sig på kiosken eller på deres egen telefon.",
+            "bullets": [
+              "Gæsteregistrering med QR-kode og de felter, du vælger",
+              "Tilføj automatisk gæster til en gruppe til opfølgning"
+            ]
+          },
+          {
+            "title": "Check ind, før I ankommer",
+            "body": "Medlemmer kan checke hele husstanden ind fra kirkeappen."
+          },
+          {
+            "title": "Fremmøde, der registrerer sig selv",
+            "body": "Hvert check-in indgår i jeres fremmødeoversigter i B1Admin.",
+            "bullets": [
+              "Ugeoversigt, fremmødetendens og fremmøde pr. gruppe",
+              "Check-in-vinduer for hvert gudstjenestetidspunkt",
+              "Registrering af kun antal for gudstjenester uden check-in"
+            ]
+          }
+        ],
+        "faqTitle": "Spørgsmål om check-in",
+        "faq": [
+          {
+            "q": "Hvilket udstyr har vi brug for?",
+            "a": "En tablet til hver kiosk og, hvis I vil have navneskilte, en Brother QL-labelprinter. Anbefalede tablets er blandt andet Samsung Galaxy Tab A-series og Amazon Fire HD 10."
+          },
+          {
+            "q": "Er check-in-softwaren gratis?",
+            "a": "Ja. Check-in er en del af B1, som er gratis inklusive hosting. Du køber kun udstyret."
+          },
+          {
+            "q": "Hvordan henter forældre deres børn?",
+            "a": "Hvert barns navneskilt og forælderens afhentningsseddel har samme kode på 4 tegn. Frivillige tjekker koden eller scanner den ved afhentning."
+          },
+          {
+            "q": "Kan besøgende checke ind?",
+            "a": "Ja. Gæster kan tilføjes på kiosken eller scanne en QR-kode for at registrere sig på deres egen telefon."
+          }
+        ]
+      },
+      "about": {
+        "name": "Om B1",
+        "meta": {
+          "title": "Om B1: gratis kirkesoftware fra en nonprofit | B1.church",
+          "description": "B1 er gratis open source-kirkesoftware bygget af Live Church Solutions, en nonprofitorganisation under 501(c)(3). Hvordan den er gratis, hvem der finansierer den, og hvad du kan forvente."
+        },
+        "hero": {
+          "eyebrow": "Om B1",
+          "title": "Gratis kirkesoftware, bygget af en nonprofit",
+          "subtitle": "B1 er bygget af Live Church Solutions, en nonprofit-tjeneste under 501(c)(3) (EIN 45-5349618). Vi tror på, at enhver kirke fortjener moderne teknologi, uanset budget."
+        },
+        "sections": [
+          {
+            "title": "Hvordan kan B1 være gratis?",
+            "body": "B1 er en tjeneste, ikke en forretning. Udvikling og hosting finansieres af gaver og støttes af Google Ad Grants, så kirker aldrig betaler for softwaren.",
+            "bullets": [
+              "Ingen betalte abonnementer, ingen pris pr. medlem, ingen funktionsgrænser",
+              "Hosting er inkluderet",
+              "Intet platformsgebyr på gaver"
+            ]
+          },
+          {
+            "title": "Hvad du stadig kan komme til at betale for",
+            "body": "Vi vil gerne, at du kender det fulde billede fra start.",
+            "bullets": [
+              "Gebyrer for kort- og bankbehandling, som betales til din egen betalingsudbyder",
+              "Tablets og labelprintere, hvis du bruger kiosk-check-in",
+              "En sms-udbyder, hvis du vil sende sms-beskeder",
+              "Dit domænenavn, hvis du bruger et eget",
+              "Ekstra fillagring ud over 100 MB, som du også kan dække ved at tilknytte Google Drive, Dropbox, OneDrive eller S3"
+            ]
+          },
+          {
+            "title": "Åben kildekode",
+            "body": "Al B1's kode er offentlig på GitHub fordelt på omkring 20 repositories.",
+            "bullets": [
+              "Alle kan se, hvordan det virker",
+              "Selvhost med Docker eller en Railway-skabelon med ét klik, hvis du foretrækker det"
+            ]
+          },
+          {
+            "title": "Dine data forbliver dine",
+            "body": "Der er ingen binding.",
+            "bullets": [
+              "Importér fra Planning Center, Breeze, Tithe.ly, Pushpay (CCB) eller en hvilken som helst CSV- eller Excel-fil med B1 Transfer",
+              "Eksportér en komplet sikkerhedskopi af personer, grupper, gaver, fremmøde og formularer",
+              "Konvertér dine data til Breeze- eller Planning Center-formater"
+            ]
+          },
+          {
+            "title": "En familie af gratis værktøjer",
+            "body": "B1 er en del af ChurchApps sammen med præsentationssoftwaren FreeShow og undervisningsmaterialet Lessons.church. Én gratis konto virker i dem alle."
+          }
+        ],
+        "faqTitle": "Spørgsmål om B1",
+        "faq": [
+          {
+            "q": "Er B1 virkelig gratis?",
+            "a": "Ja. Softwaren og hostingen er gratis, uden abonnementer og uden platformsgebyr på gaver. Du betaler kun eksterne udgifter som kortgebyrer til din egen betalingsudbyder og udstyr, hvis du bruger check-in-kiosker."
+          },
+          {
+            "q": "Hvem står bag B1?",
+            "a": "Live Church Solutions, en nonprofit-tjeneste under 501(c)(3) (EIN 45-5349618), som under navnet ChurchApps også bygger FreeShow og Lessons.church."
+          },
+          {
+            "q": "Begynder B1 at tage penge senere?",
+            "a": "B1 finansieres af gaver og tilskud, ikke abonnementer, og koden er open source. Hvis du nogensinde vil forlade B1, kan du eksportere alt."
+          },
+          {
+            "q": "Hvordan får vi hjælp?",
+            "a": "Besøg hjælpecenteret på support.churchapps.org eller skriv til support@churchapps.org."
+          }
+        ]
       }
     },
     "notFound": {

@@ -417,13 +417,24 @@
       "meta": {
         "hubTitle": "Kako se B1 primerja",
         "hubDescription": "B1 je sistem za upravljanje cerkve, s katerim začnete. Ljudje, darovi, prijava, spletna stran, aplikacija za člane, načrtovanje bogoslužja. Za vedno 0 $. 501(c)(3).",
-        "detailTitle": "B1.church proti {{competitor}} - primerjava brezplačne cerkvene programske opreme",
+        "detailTitle": "Brezplačna alternativa za {{competitor}} | B1.church proti {{competitor}}",
         "descriptions": {
           "planning-center": "B1 je celoten paket za 0 $. Brez plačljivih dodatnih modulov.",
           "pushpay": "Pushpay je plačljiva platforma za darovanje. B1 vključuje darovanje brez provizije platforme ter ljudi, prijavo, spletno stran in načrtovanje bogoslužja.",
           "tithely": "Tithe.ly je podjetje za darovanje s priloženo cerkveno programsko opremo. B1 je sistem za upravljanje cerkve, 100 % brezplačen vključno z gostovanjem. Darovanje je vključeno. Stripe za neprofitne organizacije stane 2,2 % + 0,30 $; »brezplačno« darovanje pri Tithe.ly stane 2,9 % + 0,30 $.",
           "breeze": "Breeze je plačljiv, preprost sistem za upravljanje cerkve, ki ga omenjajo tisti, ki zapuščajo Planning Center. B1 stane 0 $ in vključuje spletno stran, darovanje brez provizije platforme, prijavo in načrtovanje bogoslužja. Vaše ljudi uvozimo iz Breeze."
         }
+      },
+      "switching": {
+        "title": "Prehod s {{competitor}}",
+        "steps": [
+          "Ustvarite brezplačen račun B1. Vzame nekaj minut in ne zahteva kreditne kartice.",
+          "Uvozite ljudi, skupine in evidence darov z B1 Transfer, ki bere izvoze iz Planning Center, Breeze, Tithe.ly in Pushpay (CCB) ali katero koli datoteko CSV ali Excel.",
+          "Povežite lasten račun Stripe, PayPal ali Paystack vaše cerkve za spletno darovanje.",
+          "Objavite spletno stran in aplikacijo za člane ter nastavite prijavo, če jo uporabljate.",
+          "Povabite občestvo, naj se prijavi."
+        ],
+        "note": "Ste si premislili? Kadar koli izvozite popolno varnostno kopijo ali pretvorite podatke nazaj v obliko Breeze ali Planning Center."
       },
       "notFound": {
         "title": "Kako se B1 primerja",
@@ -850,6 +861,420 @@
           "title": "Dostop na podlagi vlog",
           "description": "Varna dovoljenja za zaposlene in prostovoljce"
         }
+      }
+    },
+    "pages": {
+      "app": {
+        "name": "Cerkvena aplikacija",
+        "meta": {
+          "title": "Brezplačna cerkvena aplikacija za vaše člane | B1.church",
+          "description": "Brezplačna aplikacija za člane z imenom in logotipom vaše cerkve: imenik, skupine, sporočila, darovanje, prijava, pridige in potisna obvestila. Namesti se z vaše spletne strani."
+        },
+        "hero": {
+          "eyebrow": "Brezplačna cerkvena aplikacija",
+          "title": "Aplikacija vaše cerkve, brezplačno",
+          "subtitle": "Člani dobijo eno mesto za skupine, sporočila, darovanje, prijavo, pridige in dogodke. Nosi ime in logotip vaše cerkve, se v nekaj sekundah namesti z vaše spletne strani in je vedno posodobljena."
+        },
+        "sections": [
+          {
+            "title": "Namestitev v nekaj sekundah",
+            "body": "Vaša aplikacija živi na naslovu B1 vaše cerkve in se namesti naravnost na začetni zaslon, čez cel zaslon in z značko neprebranih sporočil.",
+            "bullets": [
+              "iPhone: odprite spletno stran cerkve v brskalniku Safari, tapnite Deli in nato Dodaj na začetni zaslon",
+              "Android: namestitev z enim dotikom iz brskalnika Chrome",
+              "Obiskovalci z računalnika vidijo kodo QR, s katero aplikacijo pošljejo na telefon",
+              "Člani se prijavijo z e-pošto, Googlom ali Microsoftom"
+            ]
+          },
+          {
+            "title": "Skupine in sporočanje",
+            "body": "Male skupine, službe in ekipe ostanejo povezane brez ločene klepetalne aplikacije.",
+            "bullets": [
+              "Brskanje po skupinah in prošnja za včlanitev",
+              "Skupinski klepet in obvestila samo za vodje",
+              "Odgovori na dogodke: Pridem, Morda ali Ne morem",
+              "Zasebna sporočila z nastavitvijo najnižje starosti, ki jo določite vi"
+            ]
+          },
+          {
+            "title": "Imenik pod vašim nadzorom",
+            "body": "Člani se lahko najdejo in stopijo v stik s sporočilom, klicem ali SMS-om. Vi odločate, kdo vidi kaj.",
+            "bullets": [
+              "Iskanje s fotografijami in profili",
+              "Ravni vidnosti: vsi, člani, samo skupine, vodje skupin ali samo osebje"
+            ]
+          },
+          {
+            "title": "Obvestila, ki jih ljudje res prejmejo",
+            "body": "Potisna obvestila, zvonček v aplikaciji in e-pošta, po želji tudi SMS.",
+            "bullets": [
+              "Vsak član izbere nastavitve po vrstah obvestil in dnevni povzetek po e-pošti",
+              "Tihe ure, da nikogar ne zbudimo opolnoči"
+            ]
+          },
+          {
+            "title": "Darovanje, prijava in služenje",
+            "body": "Ista aplikacija pokrije vse, kar člani počnejo vsak teden.",
+            "bullets": [
+              "Darujte enkrat ali nastavite ponavljajoče se darove in oglejte si zgodovino darovanja",
+              "Prijavite celotno družino, še preden pridete",
+              "Oglejte si zadolžitve za služenje in se prijavite kot prostovoljec",
+              "Prijavite družinske člane na dogodke, tudi plačljive"
+            ]
+          },
+          {
+            "title": "Pridige in Sveto pismo",
+            "body": "Ljudi povežite z oznanjevanjem tudi med tednom.",
+            "bullets": [
+              "Knjižnica pridig in prenos v živo s klepetom",
+              "Vgrajen bralnik Svetega pisma in vrstica dneva",
+              "Osebje izbere, kateri zavihki so prikazani in kaj vidijo obiskovalci, preden se prijavijo"
+            ]
+          }
+        ],
+        "faqTitle": "Vprašanja o cerkveni aplikaciji",
+        "faq": [
+          {
+            "q": "Koliko stane cerkvena aplikacija?",
+            "a": "Nič. Aplikacija za člane, gostovanje in vse funkcije so brezplačni. B1 razvija Live Church Solutions, neprofitna organizacija 501(c)(3)."
+          },
+          {
+            "q": "Ali aplikacija prikazuje ime in logotip naše cerkve?",
+            "a": "Da. Člani jo namestijo z vaše spletne strani B1 in nosi ime ter logotip vaše cerkve."
+          },
+          {
+            "q": "Ali morajo člani kaj namestiti, da jo uporabljajo?",
+            "a": "Ne. Deluje v vsakem brskalniku, člani, ki želijo ikono na začetnem zaslonu, pa jo namestijo z nekaj dotiki."
+          },
+          {
+            "q": "Ali deluje brez povezave?",
+            "a": "Aplikacija potrebuje internetno povezavo; vsebine ne shranjuje za uporabo brez povezave."
+          }
+        ]
+      },
+      "websiteBuilder": {
+        "name": "Izdelovalec spletnih strani",
+        "meta": {
+          "title": "Brezplačen izdelovalec cerkvenih spletnih strani | B1.church",
+          "description": "Brezplačno izdelajte spletno stran cerkve z razdelki povleci in spusti, pridigami, dogodki, darovanjem, obrazci in blogom. Lastna domena in SSL vključena. Brez računa za gostovanje."
+        },
+        "hero": {
+          "eyebrow": "Brezplačen izdelovalec cerkvenih spletnih strani",
+          "title": "Spletna stran cerkve, ki se vodi sama",
+          "subtitle": "Strani povleci in spusti, ki pridige, dogodke, skupine, urnike bogoslužij in darovanje črpajo neposredno iz B1, zato vaša stran nikoli ni zastarela. Gostovanje, SSL in lastna domena so vključeni brez stroška."
+        },
+        "sections": [
+          {
+            "title": "Začnite v nekaj minutah",
+            "body": "Vsaka cerkev ob prijavi takoj dobi pripravljeno stran na yourchurch.b1.church.",
+            "bullets": [
+              "Lastno domeno usmerite z zapisom CNAME ali A",
+              "Certifikati SSL so samodejni",
+              "Za eno cerkev lahko izdelate več spletnih strani, če jih potrebujete"
+            ]
+          },
+          {
+            "title": "Urejevalnik strani povleci in spusti",
+            "body": "Strani gradite iz razdelkov in elementov. Začnite s predlogo (naslovnica, o nas, bogoslužja, darovanje in več) ali s praznim stolpčnim postavitvenim načrtom.",
+            "bullets": [
+              "Besedilo, slike, gumbi, kartice, galerije, pričevanja, pogosta vprašanja in tabele",
+              "Video, podcast iz vira RSS, predvajalnik prenosa v živo, zemljevidi in vdelave",
+              "Odštevalnik, statistika, mreža osebja in elementi z logotipi"
+            ]
+          },
+          {
+            "title": "Vsebina, ki se posodablja sama",
+            "body": "Cerkveni elementi berejo iz iste baze podatkov, ki jo že uporablja vaše osebje.",
+            "bullets": [
+              "Koledar kot mesečna mreža ali prihajajoči dogodki, z lastno stranjo za vsak dogodek",
+              "Urniki bogoslužij iz vaših nastavitev prisotnosti",
+              "Brskalnik po skupinah, obrazci in prijave",
+              "Obrazci za darovanje in vrstice napredka kampanj"
+            ]
+          },
+          {
+            "title": "Pridige in prenos v živo",
+            "body": "Knjižnica pridig s seznami po serijah in stranjo za vsako oznanilo.",
+            "bullets": [
+              "Množični uvoz s platform YouTube ali Vimeo",
+              "Urnik prenosov v živo s klepetom"
+            ]
+          },
+          {
+            "title": "Vgrajen blog",
+            "body": "Objavljajte novice in premišljevanja na /blog z virom RSS.",
+            "bullets": [
+              "Osnutki, načrtovane objave, kategorije in oznake",
+              "Neobvezni komentarji prek Hyvor Talk, FastComments ali Disqus"
+            ]
+          },
+          {
+            "title": "Vaš videz, vaša pravila",
+            "body": "Barve, pisave, razmiki, logotipi in navigacija so v celoti vaši.",
+            "bullets": [
+              "Strani za vse, samo za člane, samo za osebje ali za izbrane skupine",
+              "Meta opisi, družbena slika, preusmeritve in Google Analytics 4",
+              "Pasica z obvestilom ter lasten CSS ali JavaScript"
+            ]
+          }
+        ],
+        "faqTitle": "Vprašanja o izdelovalcu spletnih strani",
+        "faq": [
+          {
+            "q": "Ali je izdelovalec cerkvenih spletnih strani res brezplačen?",
+            "a": "Da. Izdelovalec, gostovanje, SSL in podpora lastni domeni so brezplačni. Plačate le registrarju za samo ime domene."
+          },
+          {
+            "q": "Ali lahko uporabim svojo domeno?",
+            "a": "Da. Pri registrarju dodajte zapis CNAME ali A, B1 pa samodejno izda certifikat SSL."
+          },
+          {
+            "q": "Ali moram znati programirati?",
+            "a": "Ne. Strani sestavite z vlečenjem razdelkov in elementov. Lasten CSS in JavaScript sta na voljo, če ju želite."
+          },
+          {
+            "q": "Ali lahko B1 uporabljamo brez javne spletne strani?",
+            "a": "Da. Javno stran lahko izklopite in B1 uporabljate samo za aplikacijo za člane, darovanje in prijave."
+          }
+        ]
+      },
+      "giving": {
+        "name": "Spletno darovanje",
+        "meta": {
+          "title": "Brezplačno spletno darovanje za cerkve, brez provizije | B1.church",
+          "description": "Spletno darovanje za cerkve brez provizije platforme B1. Uporabite svoj račun Stripe, PayPal ali Paystack: ponavljajoči darovi, ACH, Apple Pay, skladi, zaobljube in letni izpiski."
+        },
+        "hero": {
+          "eyebrow": "Spletno darovanje",
+          "title": "Spletno darovanje brez provizije platforme",
+          "subtitle": "B1 nikoli ni v poti denarja. Vaša cerkev poveže svoj plačilni račun, darovi gredo naravnost k vam, B1 pa ne doda ničesar. Plačate le tarifo svojega ponudnika plačil."
+        },
+        "sections": [
+          {
+            "title": "Vaš račun, vaš denar",
+            "body": "Vsaka cerkev poveže svoj plačilni prehod. Podatki o karticah se nikoli ne dotaknejo strežnikov ChurchApps.",
+            "bullets": [
+              "Stripe, vključno z Apple Pay in Google Pay pri enkratnih darovih",
+              "PayPal z gumbi Venmo",
+              "Paystack po Afriki, z mobilnim denarjem in bančnim nakazilom",
+              "Darovi z bančnega računa (ACH) s takojšnjim preverjanjem za goste"
+            ]
+          },
+          {
+            "title": "Koliko dejansko stane",
+            "body": "B1 ne zaračunava provizije platforme in nima plačljivih paketov. Edini strošek je tarifa vašega ponudnika plačil, ki gre njemu, ne nam.",
+            "bullets": [
+              "Stripe ponuja znižane tarife upravičenim neprofitnim organizacijam (2,2 % + 0,30 $ na darilo s kartico)",
+              "Darovalci se lahko odločijo, da pokrijejo stroške obdelave",
+              "Darovanje v več valutah s Stripom v 15 valutah"
+            ]
+          },
+          {
+            "title": "Ponavljajoči darovi, ki si opomorejo sami",
+            "body": "Člani nastavijo ponavljajoče se darove in jih upravljajo v aplikaciji.",
+            "bullets": [
+              "Ponavljajoče se darove prek Stripa lahko kadar koli začasno ustavite ali nadaljujete",
+              "Neuspeli darovi so na enem seznamu z gumbom Poskusi znova",
+              "Darovalec prejme e-pošto ob neuspelem darovanju in ponovno čez 3 in 7 dni"
+            ]
+          },
+          {
+            "title": "Skladi, kampanje in zaobljube",
+            "body": "Darovalcem ponudite jasne izbire in spremljajte vsak cilj.",
+            "bullets": [
+              "Davčno priznani in skriti skladi",
+              "Povezave za darovanje z vnaprej izbranim skladom in zneskom",
+              "Kampanje s cilji, vrsticami napredka in seštevki zaobljubljenega in darovanega",
+              "Anonimni darovi"
+            ]
+          },
+          {
+            "title": "Gotovina, čeki in evidence",
+            "body": "Vse, kar je darovano, pristane na enem mestu, ob podatkih o ljudeh.",
+            "bullets": [
+              "Paketni vnos gotovine in čekov",
+              "Uvoz manjkajočih transakcij Stripe",
+              "Letni izpiski z vašim logotipom, tudi v oblikah za Kanado, Avstralijo in Novo Zelandijo",
+              "Člani si lahko ogledajo in natisnejo svojo zgodovino darovanja"
+            ]
+          }
+        ],
+        "faqTitle": "Vprašanja o spletnem darovanju",
+        "faq": [
+          {
+            "q": "Ali B1 zadrži del darov?",
+            "a": "Ne. B1 nima provizije platforme. Darovi gredo neposredno na račun Stripe, PayPal ali Paystack vaše cerkve, vi pa plačate samo tarifo tega ponudnika."
+          },
+          {
+            "q": "Kateri ponudniki plačil delujejo z B1?",
+            "a": "Stripe, PayPal (z Venmo) in Paystack. Kingdom Funding je na voljo v beta različici."
+          },
+          {
+            "q": "Ali lahko člani darujejo s telefona?",
+            "a": "Da. Člani darujejo iz cerkvene aplikacije ali spletne strani, nastavijo ponavljajoče se darove in vidijo celotno zgodovino darovanja."
+          },
+          {
+            "q": "Ali lahko vnesemo darove v gotovini in s čeki?",
+            "a": "Da. Vnesite jih v paketih, da se vsak dar pojavi v letnih izpiskih."
+          }
+        ]
+      },
+      "checkin": {
+        "name": "Prijava",
+        "meta": {
+          "title": "Brezplačna cerkvena prijava za službo z otroki | B1.church",
+          "description": "Brezplačna cerkvena prijava s kioski za samopostrežno prijavo, imenskimi kartami, ujemajočimi se kodami za prevzem, registracijo gostov s kodo QR, razmerji v sobah in poročili o prisotnosti. Deluje na cenovno ugodnih tablicah."
+        },
+        "hero": {
+          "eyebrow": "Cerkvena prijava",
+          "title": "Hitra in varna prijava za vsako družino",
+          "subtitle": "Družine se prijavijo na kiosku ali s telefona, otroci dobijo imenske kartice z ujemajočo se kodo za prevzem, prisotnost pa se zabeleži sama. Brezplačno, na cenovno ugodnih tablicah in tiskalnikih nalepk."
+        },
+        "sections": [
+          {
+            "title": "Kioski za samopostrežno prijavo",
+            "body": "Aplikacijo za prijavo B1 poganjajte na cenovno ugodni tablici.",
+            "bullets": [
+              "Priporočeno: Samsung Galaxy Tab A-series ali Amazon Fire HD 10",
+              "Družine se poiščejo same po zadnjih 4 števkah telefonske številke ali po imenu",
+              "Vsaka oseba je razporejena v pravo sobo, s smernicami glede starosti in razreda",
+              "Barve kioska in diaprojekcija na mirujočem zaslonu se ujemajo z vašo cerkvijo"
+            ]
+          },
+          {
+            "title": "Imenske kartice in kode za prevzem",
+            "body": "Natisnite imensko nalepko za vsakega otroka in listek za prevzem za starša z isto 4-mestno varnostno kodo.",
+            "bullets": [
+              "Tiskalniki nalepk Brother QL (priporočen QL-1110NWB) z nalepkami DK-1201",
+              "Oblikujte lastne nalepke",
+              "Nalepko lahko kadar koli natisnete znova"
+            ]
+          },
+          {
+            "title": "Varnost otrok že vgrajena",
+            "body": "Orodja za odjavo in sobe, ki prostovoljcem pomagajo varovati otroke.",
+            "bullets": [
+              "Odjava z varnostno kodo, prebrano s kamero ali čitalnikom črtne kode",
+              "Seznama pooblaščenih in nepooblaščenih oseb za prevzem",
+              "Zmogljivost sob in razmerja prostovoljcev, ki opozorijo ali blokirajo",
+              "Pozovite starša ali pošljite nujno SMS-sporočilo (zahteva ponudnika SMS)"
+            ]
+          },
+          {
+            "title": "Gostje so dobrodošli",
+            "body": "Družine, ki prvič obiščejo cerkev, se lahko registrirajo na kiosku ali na svojem telefonu.",
+            "bullets": [
+              "Registracija gostov s kodo QR s polji, ki jih izberete",
+              "Samodejno dodajanje gostov v skupino za nadaljnje spremljanje"
+            ]
+          },
+          {
+            "title": "Prijava, še preden pridete",
+            "body": "Člani lahko prijavijo celotno gospodinjstvo iz cerkvene aplikacije."
+          },
+          {
+            "title": "Prisotnost, ki se beleži sama",
+            "body": "Vsaka prijava napaja vaša poročila o prisotnosti v B1Admin.",
+            "bullets": [
+              "Tedenski povzetek, trend prisotnosti in prisotnost po skupinah",
+              "Okna za prijavo za vsak termin bogoslužja",
+              "Vnos samo števila navzočih za bogoslužja brez prijave"
+            ]
+          }
+        ],
+        "faqTitle": "Vprašanja o prijavi",
+        "faq": [
+          {
+            "q": "Kakšno opremo potrebujemo?",
+            "a": "Tablico za vsak kiosk in, če želite imenske kartice, tiskalnik nalepk Brother QL. Priporočene tablice so Samsung Galaxy Tab A-series in Amazon Fire HD 10."
+          },
+          {
+            "q": "Ali je programska oprema za prijavo brezplačna?",
+            "a": "Da. Prijava je del B1, ki je brezplačen, vključno z gostovanjem. Kupite le strojno opremo."
+          },
+          {
+            "q": "Kako starši prevzamejo otroke?",
+            "a": "Otrokova imenska kartica in starševski listek za prevzem imata isto 4-mestno kodo. Prostovoljci kodo preverijo ali skenirajo ob prevzemu."
+          },
+          {
+            "q": "Ali se lahko prijavijo obiskovalci?",
+            "a": "Da. Goste lahko dodate na kiosku ali pa skenirajo kodo QR in se registrirajo na svojem telefonu."
+          }
+        ]
+      },
+      "about": {
+        "name": "O nas",
+        "meta": {
+          "title": "O B1: brezplačna cerkvena programska oprema | B1.church",
+          "description": "B1 je brezplačna odprtokodna programska oprema za cerkve, ki jo razvija Live Church Solutions, neprofitna organizacija 501(c)(3). Kako je brezplačna, kdo jo financira in kaj lahko pričakujete."
+        },
+        "hero": {
+          "eyebrow": "O B1",
+          "title": "Brezplačna cerkvena programska oprema neprofitne organizacije",
+          "subtitle": "B1 razvija Live Church Solutions, neprofitna služba 501(c)(3) (EIN 45-5349618). Verjamemo, da si vsaka cerkev zasluži sodobno tehnologijo, ne glede na proračun."
+        },
+        "sections": [
+          {
+            "title": "Kako je B1 brezplačen?",
+            "body": "B1 je služba, ne podjetje. Razvoj in gostovanje financirajo darovi, podpirajo pa ga tudi Google Ad Grants, zato cerkve za programsko opremo nikoli ne plačajo.",
+            "bullets": [
+              "Brez plačljivih paketov, brez cene na člana, brez omejitev funkcij",
+              "Gostovanje je vključeno",
+              "Brez provizije platforme pri darovih"
+            ]
+          },
+          {
+            "title": "Za kaj boste morda še vedno plačali",
+            "body": "Želimo, da od začetka poznate celotno sliko.",
+            "bullets": [
+              "Stroški obdelave kartic in bančnih nakazil, ki jih plačate svojemu ponudniku plačil",
+              "Tablice in tiskalniki nalepk, če uporabljate prijavo na kioskih",
+              "Ponudnik SMS, če želite pošiljati SMS-sporočila",
+              "Ime domene, če uporabljate lastno",
+              "Dodaten prostor za datoteke nad 100 MB, ki ga lahko pokrijete tudi s povezavo Google Drive, Dropbox, OneDrive ali S3"
+            ]
+          },
+          {
+            "title": "Odprta koda",
+            "body": "Vsa koda B1 je javna na GitHubu, razporejena v okoli 20 repozitorijev.",
+            "bullets": [
+              "Vsakdo lahko preveri, kako deluje",
+              "Če želite, jo namestite sami z Dockerjem ali predlogo Railway z enim klikom"
+            ]
+          },
+          {
+            "title": "Vaši podatki ostanejo vaši",
+            "body": "Nobene zaklenitve ni.",
+            "bullets": [
+              "Uvoz iz Planning Center, Breeze, Tithe.ly, Pushpay (CCB) ali katere koli datoteke CSV ali Excel z B1 Transfer",
+              "Izvoz popolne varnostne kopije ljudi, skupin, darov, prisotnosti in obrazcev",
+              "Pretvorba podatkov v oblike Breeze ali Planning Center"
+            ]
+          },
+          {
+            "title": "Ena družina brezplačnih orodij",
+            "body": "B1 je del ChurchApps, skupaj s programom za predstavitve FreeShow in učnim gradivom Lessons.church. En brezplačen račun deluje v vseh."
+          }
+        ],
+        "faqTitle": "Vprašanja o B1",
+        "faq": [
+          {
+            "q": "Ali je B1 res brezplačen?",
+            "a": "Da. Programska oprema in gostovanje sta brezplačna, brez paketov in brez provizije platforme pri darovih. Plačate le zunanje stroške, kot so provizije za obdelavo kartic pri vašem ponudniku plačil, in strojno opremo, če uporabljate prijavne kioske."
+          },
+          {
+            "q": "Kdo stoji za B1?",
+            "a": "Live Church Solutions, neprofitna služba 501(c)(3) (EIN 45-5349618), ki pod imenom ChurchApps razvija tudi FreeShow in Lessons.church."
+          },
+          {
+            "q": "Ali bo B1 pozneje začel zaračunavati?",
+            "a": "B1 financirajo darovi in donacije, ne naročnine, koda pa je odprta. Če boste kdaj želeli oditi, lahko izvozite vse."
+          },
+          {
+            "q": "Kako dobimo pomoč?",
+            "a": "Obiščite center za pomoč na support.churchapps.org ali pišite na support@churchapps.org."
+          }
+        ]
       }
     },
     "notFound": {

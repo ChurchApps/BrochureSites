@@ -1,8 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
-import { useNavigate, useLocation } from "react-router-dom";
-import { useLanguage } from "@/context/LanguageContext";
-import { LANG_HOME_REGEX } from "@/constants/languages";
+import LocaleLink from "@/components/LocaleLink";
+import { FEATURE_PAGES } from "@/constants/pages";
 import {
   Mail,
   Phone,
@@ -16,29 +15,6 @@ import {
 
 const Footer = () => {
   const { t } = useTranslation();
-  const { localePath } = useLanguage();
-  const navigate = useNavigate();
-  const location = useLocation();
-
-  const scrollToSection = (sectionId: string) => {
-    if (!LANG_HOME_REGEX.test(location.pathname)) {
-      // Navigate to home first, then scroll
-      navigate(localePath("/"));
-      setTimeout(() => {
-        const element = document.getElementById(sectionId);
-        if (element) {
-          element.scrollIntoView({ behavior: "smooth" });
-        }
-      }, 100);
-    } else {
-      // Already on home, just scroll
-      const element = document.getElementById(sectionId);
-      if (element) {
-        element.scrollIntoView({ behavior: "smooth" });
-      }
-    }
-  };
-
   return (
     <footer id="contact" className="bg-ink text-ink-foreground">
       <div className="container mx-auto px-4 py-16">
@@ -86,10 +62,12 @@ const Footer = () => {
           <div className="space-y-6">
             <h3 className="text-lg font-semibold text-ink-foreground">{t("brochure.footer.product")}</h3>
             <ul className="space-y-3">
-              <li><button onClick={() => scrollToSection("features")} className="text-ink-muted hover:text-ink-foreground transition-colors text-left">{t("brochure.footer.mobileFeatures")}</button></li>
-              <li><button onClick={() => scrollToSection("siteBuilder")} className="text-ink-muted hover:text-ink-foreground transition-colors text-left">{t("brochure.footer.websiteBuilder")}</button></li>
-              <li><button onClick={() => navigate(localePath("/church-management"))} className="text-ink-muted hover:text-ink-foreground transition-colors text-left">{t("brochure.header.churchManagement")}</button></li>
-              <li><button onClick={() => navigate(localePath("/faq"))} className="text-ink-muted hover:text-ink-foreground transition-colors text-left">{t("brochure.footer.faq")}</button></li>
+              {FEATURE_PAGES.filter((p) => p.key !== "about").map((p) => (
+                <li key={p.key}><LocaleLink to={`/${p.slug}`} className="text-ink-muted hover:text-ink-foreground transition-colors">{t(`brochure.pages.${p.key}.name`)}</LocaleLink></li>
+              ))}
+              <li><LocaleLink to="/church-management" className="text-ink-muted hover:text-ink-foreground transition-colors">{t("brochure.header.churchManagement")}</LocaleLink></li>
+              <li><LocaleLink to="/compare" className="text-ink-muted hover:text-ink-foreground transition-colors">{t("brochure.compare.hubTitle")}</LocaleLink></li>
+              <li><LocaleLink to="/faq" className="text-ink-muted hover:text-ink-foreground transition-colors">{t("brochure.footer.faq")}</LocaleLink></li>
               <li><a href="https://churchapps.org/" target="_blank" rel="noopener noreferrer" className="text-ink-muted hover:text-ink-foreground transition-colors">{t("brochure.footer.aboutChurchApps")}</a></li>
             </ul>
           </div>
@@ -97,7 +75,7 @@ const Footer = () => {
           <div className="space-y-6">
             <h3 className="text-lg font-semibold text-ink-foreground">{t("brochure.footer.appsAndResources")}</h3>
             <ul className="space-y-3">
-              <li><button onClick={() => navigate(localePath("/faq"))} className="text-ink-muted hover:text-ink-foreground transition-colors text-left">{t("brochure.footer.installApp")}</button></li>
+              <li><LocaleLink to="/church-app" className="text-ink-muted hover:text-ink-foreground transition-colors">{t("brochure.footer.installApp")}</LocaleLink></li>
               <li><a href="https://support.churchapps.org/" target="_blank" rel="noopener noreferrer" className="text-ink-muted hover:text-ink-foreground transition-colors">{t("brochure.footer.helpCenter")}</a></li>
               <li><a href="https://freeshow.app/" target="_blank" rel="noopener noreferrer" className="text-ink-muted hover:text-ink-foreground transition-colors">FreeShow</a></li>
               <li><a href="https://lessons.church/" target="_blank" rel="noopener noreferrer" className="text-ink-muted hover:text-ink-foreground transition-colors">Lessons.church</a></li>
@@ -134,7 +112,7 @@ const Footer = () => {
           <div className="flex items-center gap-6">
             <a href="https://churchapps.org/privacy" target="_blank" rel="noopener noreferrer" className="text-ink-muted hover:text-ink-foreground transition-colors text-sm">Privacy Policy</a>
             <a href="https://churchapps.org/terms" target="_blank" rel="noopener noreferrer" className="text-ink-muted hover:text-ink-foreground transition-colors text-sm">Terms of Service</a>
-            <a href="https://churchapps.org/about" target="_blank" rel="noopener noreferrer" className="text-ink-muted hover:text-ink-foreground transition-colors text-sm">About</a>
+            <LocaleLink to="/about" className="text-ink-muted hover:text-ink-foreground transition-colors text-sm">{t("brochure.pages.about.name")}</LocaleLink>
           </div>
         </div>
       </div>
