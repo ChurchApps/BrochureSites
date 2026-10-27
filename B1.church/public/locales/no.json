@@ -11,6 +11,10 @@
       "getStartedFree": "Kom i gang gratis"
     },
     "home": {
+      "meta": {
+        "title": "B1 Church - Gratis menighetsapp og nettstedbygger | Komplett menighetsplattform",
+        "description": "100 % gratis menighetsadministrasjon med medlemsapp, nettstedbygger, digitale gaver og innsjekking. Én plattform, én database, laget av en ideell organisasjon. Gratis for alltid."
+      },
       "hero": {
         "eyebrow": "Gratis menighetsprogramvare med åpen kildekode",
         "headline": "Alt menigheten din trenger for å",
@@ -410,6 +414,17 @@
       "viewDocumentation": "Se dokumentasjon"
     },
     "compare": {
+      "meta": {
+        "hubTitle": "Slik står B1 seg i sammenligning",
+        "hubDescription": "B1 er menighetssystemet du starter med. Medlemmer, gaver, innsjekking, nettside, medlemsapp, gudstjenesteplanlegging. 0 $ for alltid. 501(c)(3).",
+        "detailTitle": "B1.church vs {{competitor}} - sammenligning av gratis menighetsprogramvare",
+        "descriptions": {
+          "planning-center": "B1 er hele pakken for 0 $. Ingen betalte tilleggsmoduler.",
+          "pushpay": "Pushpay er en betalt gaveplattform. B1 inkluderer gaver uten plattformgebyr, i tillegg til medlemmer, innsjekking, nettside og gudstjenesteplanlegging.",
+          "tithely": "Tithe.ly er et giverselskap med menighetsprogramvare på kjøpet. B1 er menighetssystemet, 100 % gratis inkludert hosting. Gaver er inkludert. Stripe for ideelle organisasjoner koster 2,2 % + 0,30 $; Tithe.lys \"gratis\" gaver koster 2,9 % + 0,30 $.",
+          "breeze": "Breeze er et betalt, enkelt menighetssystem som mange nevner når de forlater Planning Center. B1 koster 0 $ og inkluderer nettside, gaver uten plattformgebyr, innsjekking og gudstjenesteplanlegging. Vi importerer medlemmene dine fra Breeze."
+        }
+      },
       "notFound": {
         "title": "Sammenligning ikke funnet",
         "subtitle": "Sjekk ut våre tilgjengelige sammenligninger:"
@@ -671,6 +686,10 @@
       "priceB1Note": "No tiers. No platform fee on gifts."
     },
     "churchManagement": {
+      "meta": {
+        "title": "Gratis menighetsadministrasjon (inkludert hosting) | B1.church",
+        "description": "Medlemmer, gaver, innsjekking, nettside, medlemsapp og gudstjenesteplanlegging. Én plattform. 0 $ for alltid."
+      },
       "hero": {
         "title": "Gratis",
         "titleHighlight": "programvare for menighetsadministrasjon",

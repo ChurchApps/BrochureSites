@@ -11,6 +11,10 @@
       "getStartedFree": "Mulai Gratis"
     },
     "home": {
+      "meta": {
+        "title": "B1 Church - Aplikasi Gereja & Pembuat Situs Web Gratis | Platform Gereja Lengkap",
+        "description": "Platform manajemen gereja 100% gratis dengan aplikasi jemaat, pembuat situs web, persembahan digital, dan check-in. Satu platform, satu basis data, dibuat oleh organisasi nirlaba. Gratis selamanya."
+      },
       "hero": {
         "eyebrow": "Perangkat lunak gereja gratis dan open source",
         "headline": "Semua yang gereja Anda butuhkan untuk",
@@ -410,6 +414,17 @@
       "viewDocumentation": "Lihat Dokumentasi"
     },
     "compare": {
+      "meta": {
+        "hubTitle": "Perbandingan B1",
+        "hubDescription": "B1 adalah sistem manajemen gereja tempat Anda memulai. Jemaat, persembahan, check-in, situs web, aplikasi jemaat, perencanaan ibadah. $0 selamanya. 501(c)(3).",
+        "detailTitle": "B1.church vs {{competitor}} - Perbandingan Software Gereja Gratis",
+        "descriptions": {
+          "planning-center": "B1 adalah paket lengkap seharga $0. Tanpa biaya tambahan per modul.",
+          "pushpay": "Pushpay adalah platform persembahan berbayar. B1 menyertakan persembahan tanpa biaya platform, ditambah jemaat, check-in, situs web, dan perencanaan ibadah.",
+          "tithely": "Tithe.ly adalah perusahaan persembahan yang dilengkapi software gereja. B1 adalah sistem manajemen gereja, 100% gratis termasuk hosting. Persembahan sudah termasuk. Stripe untuk nirlaba 2,2% + $0,30; persembahan \"gratis\" Tithe.ly 2,9% + $0,30.",
+          "breeze": "Breeze adalah sistem manajemen gereja sederhana yang berbayar, yang sering disebut oleh mereka yang meninggalkan Planning Center. B1 seharga $0 dan mencakup situs web, persembahan tanpa biaya platform, check-in, dan perencanaan ibadah. Kami mengimpor data jemaat dari Breeze."
+        }
+      },
       "notFound": {
         "title": "Perbandingan Tidak Ditemukan",
         "subtitle": "Lihat perbandingan kami yang tersedia:"
@@ -671,6 +686,10 @@
       "priceB1Note": "No tiers. No platform fee on gifts."
     },
     "churchManagement": {
+      "meta": {
+        "title": "Software Manajemen Gereja Gratis (Termasuk Hosting) | B1.church",
+        "description": "Jemaat, persembahan, check-in, situs web, aplikasi jemaat, dan perencanaan ibadah. Satu platform. $0 selamanya."
+      },
       "hero": {
         "title": "Gratis",
         "titleHighlight": "Perangkat Lunak Manajemen Gereja",

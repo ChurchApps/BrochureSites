@@ -60,12 +60,7 @@ const Compare = () => {
   const ctaDescription = t("brochure.compare.ctaDescription", { lng: "en" });
 
   useEffect(() => {
-    if (!data) {
-      document.title = hubTitle;
-      return;
-    }
-
-    document.title = `B1.church vs ${data.competitor} - Free Church Software Comparison`;
+    if (!data) return;
 
     const schema = {
       "@context": "https://schema.org",
@@ -103,7 +98,7 @@ const Compare = () => {
       const el = document.getElementById("compare-schema");
       if (el) el.remove();
     };
-  }, [data, hubTitle]);
+  }, [data]);
 
   const renderFeatureValue = (value: boolean | string) => {
     if (value === true || value === "Yes") {
@@ -133,8 +128,8 @@ const Compare = () => {
       <div className="min-h-screen bg-background">
         <Seo
           path="/compare"
-          title={hubTitle}
-          description={hubSubtitle}
+          title={t("brochure.compare.meta.hubTitle")}
+          description={t("brochure.compare.meta.hubDescription")}
         />
         <Header />
         <main className="container mx-auto px-4 py-24">
@@ -171,8 +166,8 @@ const Compare = () => {
     <div className="min-h-screen bg-background">
       <Seo
         path={`/compare/${competitor}`}
-        title={`B1.church vs ${data.competitor} - Free Church Software Comparison`}
-        description={data.description}
+        title={t("brochure.compare.meta.detailTitle", { competitor: data.competitor })}
+        description={t(`brochure.compare.meta.descriptions.${competitor}`, { defaultValue: data.description })}
       />
       <Header />
 

@@ -11,6 +11,10 @@
       "getStartedFree": "Začnite zadarmo"
     },
     "home": {
+      "meta": {
+        "title": "B1 Church - Bezplatná cirkevná aplikácia a tvorba webu | Kompletná platforma pre zbory",
+        "description": "100 % bezplatná platforma na správu zboru s aplikáciou pre členov, tvorbou webu, online darmi a check-inom. Jedna platforma, jedna databáza, vytvorená neziskovou organizáciou. Navždy zadarmo."
+      },
       "hero": {
         "eyebrow": "Bezplatný cirkevný softvér s otvoreným kódom",
         "headline": "Všetko, čo vaša cirkev potrebuje, aby mohla",
@@ -410,6 +414,17 @@
       "viewDocumentation": "Zobraziť dokumentáciu"
     },
     "compare": {
+      "meta": {
+        "hubTitle": "Ako si B1 stojí v porovnaní",
+        "hubDescription": "B1 je systém na správu zboru, s ktorým začnete. Ľudia, dary, check-in, web, aplikácia pre členov, plánovanie bohoslužieb. Navždy za 0 $. 501(c)(3).",
+        "detailTitle": "B1.church vs {{competitor}} - porovnanie bezplatného softvéru pre zbory",
+        "descriptions": {
+          "planning-center": "B1 je celý balík za 0 $. Žiadne platené moduly navyše.",
+          "pushpay": "Pushpay je platená platforma na dary. B1 zahŕňa dary bez poplatku za platformu a k tomu ľudí, check-in, web a plánovanie bohoslužieb.",
+          "tithely": "Tithe.ly je firma na dary s pridaným softvérom pre zbory. B1 je systém na správu zboru, 100 % zadarmo vrátane hostingu. Dary sú súčasťou. Stripe pre neziskovky stojí 2,2 % + 0,30 $; „bezplatné“ dary Tithe.ly stoja 2,9 % + 0,30 $.",
+          "breeze": "Breeze je platený, jednoduchý systém na správu zboru, ktorý spomínajú tí, čo odchádzajú z Planning Center. B1 stojí 0 $ a zahŕňa web, dary bez poplatku za platformu, check-in a plánovanie bohoslužieb. Ľudí z Breeze naimportujeme."
+        }
+      },
       "notFound": {
         "title": "Porovnanie sa nenašlo",
         "subtitle": "Pozrite si naše dostupné porovnania:"
@@ -671,6 +686,10 @@
       "priceB1Note": "No tiers. No platform fee on gifts."
     },
     "churchManagement": {
+      "meta": {
+        "title": "Bezplatný softvér na správu zboru (vrátane hostingu) | B1.church",
+        "description": "Ľudia, dary, check-in, web, aplikácia pre členov a plánovanie bohoslužieb. Jedna platforma. Navždy za 0 $."
+      },
       "hero": {
         "title": "Bezplatný",
         "titleHighlight": "softvér na správu cirkvi",

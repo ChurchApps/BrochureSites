@@ -11,6 +11,10 @@
       "getStartedFree": "Kezdje el ingyen"
     },
     "home": {
+      "meta": {
+        "title": "B1 Church - Ingyenes gyülekezeti alkalmazás és weboldalkészítő | Teljes gyülekezeti platform",
+        "description": "100%-ban ingyenes gyülekezetkezelő platform tagi alkalmazással, weboldalkészítővel, online adományozással és bejelentkezéssel. Egy platform, egy adatbázis, nonprofit szervezet fejlesztésében. Örökre ingyenes."
+      },
       "hero": {
         "eyebrow": "Ingyenes, nyílt forráskódú gyülekezeti szoftver",
         "headline": "Minden, amire a gyülekezetének szüksége van, hogy",
@@ -410,6 +414,17 @@
       "viewDocumentation": "Dokumentáció megtekintése"
     },
     "compare": {
+      "meta": {
+        "hubTitle": "Hogyan teljesít a B1 az összevetésben",
+        "hubDescription": "A B1 az a gyülekezetkezelő rendszer, amellyel elindulhatsz. Tagok, adományok, bejelentkezés, weboldal, tagi alkalmazás, istentisztelet-tervezés. Örökre 0 $. 501(c)(3).",
+        "detailTitle": "B1.church vs {{competitor}} - ingyenes gyülekezeti szoftverek összehasonlítása",
+        "descriptions": {
+          "planning-center": "A B1 a teljes csomag 0 $-ért. Nincsenek fizetős kiegészítő modulok.",
+          "pushpay": "A Pushpay fizetős adományozási platform. A B1 platformdíj nélküli adományozást kínál, valamint tagnyilvántartást, bejelentkezést, weboldalt és istentisztelet-tervezést.",
+          "tithely": "A Tithe.ly adományozási cég, amelyhez gyülekezeti szoftver tartozik. A B1 a gyülekezetkezelő rendszer, 100%-ban ingyenes tárhellyel együtt. Az adományozás benne van. A Stripe nonprofit díja 2,2% + 0,30 $; a Tithe.ly „ingyenes” adományozása 2,9% + 0,30 $.",
+          "breeze": "A Breeze fizetős, egyszerű gyülekezetkezelő rendszer, amelyet a Planning Centert elhagyók gyakran említenek. A B1 0 $, és tartalmazza a weboldalt, a platformdíj nélküli adományozást, a bejelentkezést és az istentisztelet-tervezést. A Breeze-ből átvesszük a tagjaidat."
+        }
+      },
       "notFound": {
         "title": "Összehasonlítás nem található",
         "subtitle": "Nézze meg elérhető összehasonlításainkat:"
@@ -671,6 +686,10 @@
       "priceB1Note": "No tiers. No platform fee on gifts."
     },
     "churchManagement": {
+      "meta": {
+        "title": "Ingyenes gyülekezetkezelő szoftver (tárhellyel együtt) | B1.church",
+        "description": "Tagok, adományok, bejelentkezés, weboldal, tagi alkalmazás és istentisztelet-tervezés. Egy platform. Örökre 0 $."
+      },
       "hero": {
         "title": "Ingyenes",
         "titleHighlight": "Gyülekezetkezelő szoftver",

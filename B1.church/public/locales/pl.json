@@ -11,6 +11,10 @@
       "getStartedFree": "Zacznij za darmo"
     },
     "home": {
+      "meta": {
+        "title": "B1 Church - Darmowa aplikacja dla kościoła i kreator stron | Kompletna platforma",
+        "description": "W 100% darmowa platforma do zarządzania kościołem z aplikacją dla członków, kreatorem stron, darowiznami online i rejestracją obecności. Jedna platforma, jedna baza danych, stworzona przez organizację non-profit. Za darmo na zawsze."
+      },
       "hero": {
         "eyebrow": "Darmowe oprogramowanie dla kościołów o otwartym kodzie",
         "headline": "Wszystko, czego twój kościół potrzebuje, by",
@@ -410,6 +414,17 @@
       "viewDocumentation": "Zobacz dokumentację"
     },
     "compare": {
+      "meta": {
+        "hubTitle": "Jak wypada B1 w porównaniu",
+        "hubDescription": "B1 to system do zarządzania kościołem, od którego zaczynasz. Ludzie, darowizny, rejestracja obecności, strona internetowa, aplikacja dla członków, planowanie nabożeństw. 0 $ na zawsze. 501(c)(3).",
+        "detailTitle": "B1.church vs {{competitor}} - porównanie darmowego oprogramowania dla kościołów",
+        "descriptions": {
+          "planning-center": "B1 to cały pakiet za 0 $. Bez płatnych dodatkowych modułów.",
+          "pushpay": "Pushpay to płatna platforma darowizn. B1 obejmuje darowizny bez opłaty za platformę, a także ludzi, rejestrację obecności, stronę internetową i planowanie nabożeństw.",
+          "tithely": "Tithe.ly to firma od darowizn z dołączonym oprogramowaniem dla kościołów. B1 to system do zarządzania kościołem, w 100% darmowy wraz z hostingiem. Darowizny są w cenie. Stripe dla organizacji non-profit kosztuje 2,2% + 0,30 $; „darmowe” darowizny Tithe.ly kosztują 2,9% + 0,30 $.",
+          "breeze": "Breeze to płatny, prosty system do zarządzania kościołem, wymieniany przez osoby odchodzące z Planning Center. B1 kosztuje 0 $ i obejmuje stronę internetową, darowizny bez opłaty za platformę, rejestrację obecności i planowanie nabożeństw. Importujemy Twoich ludzi z Breeze."
+        }
+      },
       "notFound": {
         "title": "Nie znaleziono porównania",
         "subtitle": "Sprawdź nasze dostępne porównania:"
@@ -671,6 +686,10 @@
       "priceB1Note": "No tiers. No platform fee on gifts."
     },
     "churchManagement": {
+      "meta": {
+        "title": "Darmowe oprogramowanie do zarządzania kościołem (z hostingiem) | B1.church",
+        "description": "Ludzie, darowizny, rejestracja obecności, strona internetowa, aplikacja dla członków i planowanie nabożeństw. Jedna platforma. 0 $ na zawsze."
+      },
       "hero": {
         "title": "Darmowe",
         "titleHighlight": "Oprogramowanie do zarządzania kościołem",

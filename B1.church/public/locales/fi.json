@@ -11,6 +11,10 @@
       "getStartedFree": "Aloita ilmaiseksi"
     },
     "home": {
+      "meta": {
+        "title": "B1 Church - Ilmainen seurakuntasovellus ja verkkosivutyökalu | Kattava seurakunta-alusta",
+        "description": "100 % ilmainen seurakunnan hallinta-alusta, jossa jäsensovellus, verkkosivutyökalu, digitaaliset lahjoitukset ja sisäänkirjautuminen. Yksi alusta, yksi tietokanta, voittoa tavoittelemattoman järjestön rakentama. Ilmainen ikuisesti."
+      },
       "hero": {
         "eyebrow": "Ilmainen, avoimen lähdekoodin seurakuntaohjelmisto",
         "headline": "Kaikki mitä seurakuntasi tarvitsee",
@@ -410,6 +414,17 @@
       "viewDocumentation": "Katso dokumentaatio"
     },
     "compare": {
+      "meta": {
+        "hubTitle": "Miten B1 vertautuu",
+        "hubDescription": "B1 on seurakunnan hallintajärjestelmä, jolla aloitat. Ihmiset, lahjoitukset, sisäänkirjautuminen, verkkosivut, jäsensovellus, jumalanpalvelusten suunnittelu. 0 $ ikuisesti. 501(c)(3).",
+        "detailTitle": "B1.church vs {{competitor}} - ilmaisten seurakuntaohjelmistojen vertailu",
+        "descriptions": {
+          "planning-center": "B1 on koko kokonaisuus hintaan 0 $. Ei maksullisia lisämoduuleja.",
+          "pushpay": "Pushpay on maksullinen lahjoitusalusta. B1 sisältää lahjoitukset ilman alustamaksua sekä ihmiset, sisäänkirjautumisen, verkkosivut ja jumalanpalvelusten suunnittelun.",
+          "tithely": "Tithe.ly on lahjoitusyritys, jonka kylkeen on lisätty seurakuntaohjelmisto. B1 on seurakunnan hallintajärjestelmä, 100 % ilmainen hosting mukaan lukien. Lahjoitukset sisältyvät. Stripe voittoa tavoittelemattomille maksaa 2,2 % + 0,30 $; Tithe.lyn \"ilmaiset\" lahjoitukset maksavat 2,9 % + 0,30 $.",
+          "breeze": "Breeze on maksullinen, yksinkertainen seurakunnan hallintajärjestelmä, jonka Planning Centeristä lähtevät usein mainitsevat. B1 maksaa 0 $ ja sisältää verkkosivut, lahjoitukset ilman alustamaksua, sisäänkirjautumisen ja jumalanpalvelusten suunnittelun. Tuomme ihmiset Breezestä."
+        }
+      },
       "notFound": {
         "title": "Vertailua ei löytynyt",
         "subtitle": "Tutustu saatavilla oleviin vertailuihin:"
@@ -671,6 +686,10 @@
       "priceB1Note": "No tiers. No platform fee on gifts."
     },
     "churchManagement": {
+      "meta": {
+        "title": "Ilmainen seurakunnan hallintaohjelmisto (sisältää hostingin) | B1.church",
+        "description": "Ihmiset, lahjoitukset, sisäänkirjautuminen, verkkosivut, jäsensovellus ja jumalanpalvelusten suunnittelu. Yksi alusta. 0 $ ikuisesti."
+      },
       "hero": {
         "title": "Ilmainen",
         "titleHighlight": "seurakunnan hallintaohjelmisto",

@@ -11,6 +11,10 @@
       "getStartedFree": "Kostenlos starten"
     },
     "home": {
+      "meta": {
+        "title": "B1 Church - Kostenlose Gemeinde-App & Website-Baukasten | Komplette Gemeindeplattform",
+        "description": "100 % kostenlose Gemeindeverwaltung mit Mitglieder-App, Website-Baukasten, Online-Spenden und Check-in. Eine Plattform, eine Datenbank, entwickelt von einer gemeinnützigen Organisation. Für immer kostenlos."
+      },
       "hero": {
         "eyebrow": "Kostenlose Open-Source-Software für Gemeinden",
         "headline": "Alles, was Ihre Gemeinde braucht, um",
@@ -410,6 +414,17 @@
       "viewDocumentation": "Dokumentation ansehen"
     },
     "compare": {
+      "meta": {
+        "hubTitle": "B1 im Vergleich",
+        "hubDescription": "B1 ist die Gemeindeverwaltung, mit der Sie starten. Personen, Spenden, Check-in, Website, Mitglieder-App, Gottesdienstplanung. Für immer 0 $. 501(c)(3).",
+        "detailTitle": "B1.church vs. {{competitor}} - Vergleich kostenloser Gemeindesoftware",
+        "descriptions": {
+          "planning-center": "B1 ist das komplette Paket für 0 $. Keine kostenpflichtigen Zusatzmodule.",
+          "pushpay": "Pushpay ist eine kostenpflichtige Spendenplattform. B1 enthält Spenden ohne Plattformgebühr, dazu Personen, Check-in, Website und Gottesdienstplanung.",
+          "tithely": "Tithe.ly ist ein Spendenunternehmen mit angehängter Gemeindesoftware. B1 ist die Gemeindeverwaltung, 100 % kostenlos inklusive Hosting. Spenden sind inbegriffen. Stripe für Gemeinnützige kostet 2,2 % + 0,30 $; die „kostenlosen“ Spenden von Tithe.ly kosten 2,9 % + 0,30 $.",
+          "breeze": "Breeze ist eine kostenpflichtige, einfache Gemeindeverwaltung, die oft genannt wird, wenn Gemeinden Planning Center verlassen. B1 kostet 0 $ und enthält Website, Spenden ohne Plattformgebühr, Check-in und Gottesdienstplanung. Wir importieren Ihre Personen aus Breeze."
+        }
+      },
       "notFound": {
         "title": "Vergleich nicht gefunden",
         "subtitle": "Sehen Sie sich unsere verfügbaren Vergleiche an:"
@@ -671,6 +686,10 @@
       "priceB1Note": "No tiers. No platform fee on gifts."
     },
     "churchManagement": {
+      "meta": {
+        "title": "Kostenlose Gemeindeverwaltungssoftware (inklusive Hosting) | B1.church",
+        "description": "Personen, Spenden, Check-in, Website, Mitglieder-App und Gottesdienstplanung. Eine Plattform. Für immer 0 $."
+      },
       "hero": {
         "title": "Kostenlose",
         "titleHighlight": "Gemeindeverwaltungssoftware",

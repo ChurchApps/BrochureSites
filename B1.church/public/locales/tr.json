@@ -11,6 +11,10 @@
       "getStartedFree": "Ücretsiz Başlayın"
     },
     "home": {
+      "meta": {
+        "title": "B1 Church - Ücretsiz Kilise Uygulaması ve Web Sitesi Oluşturucu | Eksiksiz Kilise Platformu",
+        "description": "Üye uygulaması, web sitesi oluşturucu, dijital bağış ve yoklama girişi sunan %100 ücretsiz kilise yönetim platformu. Tek platform, tek veritabanı, kâr amacı gütmeyen bir kuruluş tarafından geliştirildi. Sonsuza dek ücretsiz."
+      },
       "hero": {
         "eyebrow": "Ücretsiz, açık kaynaklı kilise yazılımı",
         "headline": "Kilisenizin ihtiyaç duyduğu her şey:",
@@ -410,6 +414,17 @@
       "viewDocumentation": "Belgeleri Görüntüle"
     },
     "compare": {
+      "meta": {
+        "hubTitle": "B1 Karşılaştırması",
+        "hubDescription": "B1, başlangıç için kilise yönetim sistemidir. Kişiler, bağışlar, yoklama, web sitesi, üye uygulaması, ibadet planlaması. Sonsuza dek 0 $. 501(c)(3).",
+        "detailTitle": "B1.church ile {{competitor}} - Ücretsiz Kilise Yazılımı Karşılaştırması",
+        "descriptions": {
+          "planning-center": "B1, tüm paketi 0 dolara sunar. Ücretli ek modül yok.",
+          "pushpay": "Pushpay ücretli bir bağış platformudur. B1; platform ücreti olmadan bağışın yanı sıra kişiler, yoklama, web sitesi ve ibadet planlamasını da içerir.",
+          "tithely": "Tithe.ly, yanında kilise yazılımı olan bir bağış şirketidir. B1 ise kilise yönetim sistemidir; barındırma dahil %100 ücretsizdir. Bağış dahildir. Kâr amacı gütmeyenler için Stripe %2,2 + 0,30 $; Tithe.ly'nin \"ücretsiz\" bağışı ise %2,9 + 0,30 $.",
+          "breeze": "Breeze ücretli ve basit bir kilise yönetim sistemidir; Planning Center'dan ayrılanlar sıkça Breeze'i anar. B1 ücretsizdir ve web sitesi, platform ücretsiz bağış, yoklama ve ibadet planlamasını içerir. Breeze'deki kişilerinizi içe aktarırız."
+        }
+      },
       "notFound": {
         "title": "Karşılaştırma Bulunamadı",
         "subtitle": "Mevcut karşılaştırmalarımıza göz atın:"
@@ -671,6 +686,10 @@
       "priceB1Note": "No tiers. No platform fee on gifts."
     },
     "churchManagement": {
+      "meta": {
+        "title": "Ücretsiz Kilise Yönetim Yazılımı (Barındırma Dahil) | B1.church",
+        "description": "Kişiler, bağışlar, yoklama, web sitesi, üye uygulaması ve ibadet planlaması. Tek platform. Sonsuza dek 0 $."
+      },
       "hero": {
         "title": "Ücretsiz",
         "titleHighlight": "Kilise Yönetim Yazılımı",

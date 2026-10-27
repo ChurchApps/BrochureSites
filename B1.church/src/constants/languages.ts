@@ -69,3 +69,8 @@ const LANG_ALTERNATION = SUPPORTED_LANGS.join("|");
 export const LANG_PATH_REGEX = new RegExp(`^/(${LANG_ALTERNATION})`);
 
 export const LANG_HOME_REGEX = new RegExp(`^/(${LANG_ALTERNATION})/?$`);
+
+export const langFromPath = (path: string) => {
+  const seg = path.replace(/^\//, "").split("/")[0];
+  return SUPPORTED_LANGS.includes(seg) ? seg : "en";
+};

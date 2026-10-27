@@ -11,6 +11,10 @@
       "getStartedFree": "Začněte zdarma"
     },
     "home": {
+      "meta": {
+        "title": "B1 Church - Bezplatná církevní aplikace a tvorba webu | Kompletní platforma pro sbory",
+        "description": "100% bezplatná platforma pro správu sboru s aplikací pro členy, tvorbou webu, online dary a check-inem. Jedna platforma, jedna databáze, vytvořeno neziskovou organizací. Navždy zdarma."
+      },
       "hero": {
         "eyebrow": "Bezplatný církevní software s otevřeným kódem",
         "headline": "Vše, co vaše církev potřebuje, aby mohla",
@@ -410,6 +414,17 @@
       "viewDocumentation": "Zobrazit dokumentaci"
     },
     "compare": {
+      "meta": {
+        "hubTitle": "Jak si B1 stojí ve srovnání",
+        "hubDescription": "B1 je systém pro správu sboru, se kterým začnete. Lidé, dary, check-in, web, aplikace pro členy, plánování bohoslužeb. Navždy za 0 $. 501(c)(3).",
+        "detailTitle": "B1.church vs {{competitor}} - srovnání bezplatného softwaru pro sbory",
+        "descriptions": {
+          "planning-center": "B1 je celý balík za 0 $. Žádné placené moduly navíc.",
+          "pushpay": "Pushpay je placená platforma pro dary. B1 zahrnuje dary bez poplatku za platformu a k tomu lidi, check-in, web a plánování bohoslužeb.",
+          "tithely": "Tithe.ly je firma na dary s přidaným softwarem pro sbory. B1 je systém pro správu sboru, 100% zdarma včetně hostingu. Dary jsou součástí. Stripe pro neziskovky stojí 2,2 % + 0,30 $; „bezplatné“ dary Tithe.ly stojí 2,9 % + 0,30 $.",
+          "breeze": "Breeze je placený, jednoduchý systém pro správu sboru, který zmiňují ti, kdo odcházejí z Planning Center. B1 stojí 0 $ a zahrnuje web, dary bez poplatku za platformu, check-in a plánování bohoslužeb. Lidi z Breeze naimportujeme."
+        }
+      },
       "notFound": {
         "title": "Srovnání nenalezeno",
         "subtitle": "Podívejte se na naše dostupná srovnání:"
@@ -671,6 +686,10 @@
       "priceB1Note": "No tiers. No platform fee on gifts."
     },
     "churchManagement": {
+      "meta": {
+        "title": "Bezplatný software pro správu sboru (včetně hostingu) | B1.church",
+        "description": "Lidé, dary, check-in, web, aplikace pro členy a plánování bohoslužeb. Jedna platforma. Navždy za 0 $."
+      },
       "hero": {
         "title": "Bezplatný",
         "titleHighlight": "software pro správu sboru",

@@ -11,6 +11,10 @@
       "getStartedFree": "Comece Grátis"
     },
     "home": {
+      "meta": {
+        "title": "B1 Church - App gratuito para igrejas e criador de sites | Plataforma completa",
+        "description": "Plataforma de gestão de igrejas 100% gratuita com app para membros, criador de sites, ofertas digitais e check-in. Uma plataforma, um banco de dados, criada por uma organização sem fins lucrativos. Grátis para sempre."
+      },
       "hero": {
         "eyebrow": "Software gratuito e de código aberto para igrejas",
         "headline": "Tudo o que a sua igreja precisa para",
@@ -410,6 +414,17 @@
       "viewDocumentation": "Ver Documentação"
     },
     "compare": {
+      "meta": {
+        "hubTitle": "Como o B1 se compara",
+        "hubDescription": "O B1 é o sistema de gestão de igrejas para começar. Pessoas, ofertas, check-in, site, app para membros, planejamento de cultos. US$ 0 para sempre. 501(c)(3).",
+        "detailTitle": "B1.church vs {{competitor}} - Comparação de software gratuito para igrejas",
+        "descriptions": {
+          "planning-center": "O B1 é a plataforma completa por US$ 0. Sem pagar por módulos extras.",
+          "pushpay": "O Pushpay é uma plataforma de ofertas paga. O B1 inclui ofertas sem taxa de plataforma, além de pessoas, check-in, site e planejamento de cultos.",
+          "tithely": "O Tithe.ly é uma empresa de ofertas com um software para igrejas acoplado. O B1 é o sistema de gestão de igrejas, 100% gratuito com hospedagem incluída. As ofertas estão incluídas. O Stripe para organizações sem fins lucrativos cobra 2,2% + US$ 0,30; as ofertas \"grátis\" do Tithe.ly custam 2,9% + US$ 0,30.",
+          "breeze": "O Breeze é um sistema de gestão de igrejas simples e pago, citado por quem sai do Planning Center. O B1 custa US$ 0 e inclui site, ofertas sem taxa de plataforma, check-in e planejamento de cultos. Importamos suas pessoas do Breeze."
+        }
+      },
       "notFound": {
         "title": "Comparação Não Encontrada",
         "subtitle": "Confira nossas comparações disponíveis:"
@@ -671,6 +686,10 @@
       "priceB1Note": "No tiers. No platform fee on gifts."
     },
     "churchManagement": {
+      "meta": {
+        "title": "Software gratuito de gestão de igrejas (hospedagem incluída) | B1.church",
+        "description": "Pessoas, ofertas, check-in, site, app para membros e planejamento de cultos. Uma plataforma. US$ 0 para sempre."
+      },
       "hero": {
         "title": "Software Gratuito de",
         "titleHighlight": "Gestão de Igreja",

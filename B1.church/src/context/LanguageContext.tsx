@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useEffect } from "react";
 import { useParams, useNavigate, useLocation, Navigate } from "react-router-dom";
-import i18n from "i18next";
+import i18n, { loadLanguage } from "@/i18n";
 import { SUPPORTED_LANGS, LANG_PATH_REGEX } from "@/constants/languages";
 
 interface LanguageContextType {
@@ -17,15 +17,6 @@ const LanguageContext = createContext<LanguageContextType>({
 
 export const useLanguage = () => useContext(LanguageContext);
 
-const loadLanguage = async (lang: string) => {
-  try {
-    const data = await fetch(`/locales/${lang}.json`).then(r => r.json());
-    i18n.addResourceBundle(lang, "translation", data, true, true);
-  } catch (e) {
-    console.warn("Failed to load translations for", lang, e);
-  }
-};
-
 export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const { lang: paramLang } = useParams<{ lang: string }>();
   const navigate = useNavigate();
@@ -38,13 +29,13 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
     const switchLang = async () => {
       if (!i18n.isInitialized) {
         const onInit = async () => {
-          if (!i18n.hasResourceBundle(lang, "translation")) await loadLanguage(lang);
+          await loadLanguage(lang);
           if (i18n.language !== lang) i18n.changeLanguage(lang);
         };
         i18n.on("initialized", onInit);
         return () => { i18n.off("initialized", onInit); };
       }
-      if (!i18n.hasResourceBundle(lang, "translation")) await loadLanguage(lang);
+      await loadLanguage(lang);
       if (i18n.language !== lang) i18n.changeLanguage(lang);
     };
     switchLang();

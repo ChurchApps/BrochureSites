@@ -11,6 +11,10 @@
       "getStartedFree": "Kom igång gratis"
     },
     "home": {
+      "meta": {
+        "title": "B1 Church - Gratis kyrkapp och webbplatsbyggare | Komplett kyrkplattform",
+        "description": "100 % gratis kyrkadministration med medlemsapp, webbplatsbyggare, digitala gåvor och incheckning. En plattform, en databas, byggd av en ideell organisation. Gratis för alltid."
+      },
       "hero": {
         "eyebrow": "Gratis församlingsprogram med öppen källkod",
         "headline": "Allt din församling behöver för att",
@@ -410,6 +414,17 @@
       "viewDocumentation": "Visa dokumentation"
     },
     "compare": {
+      "meta": {
+        "hubTitle": "Så står sig B1 i jämförelse",
+        "hubDescription": "B1 är kyrksystemet du börjar med. Medlemmar, gåvor, incheckning, webbplats, medlemsapp, gudstjänstplanering. 0 $ för alltid. 501(c)(3).",
+        "detailTitle": "B1.church vs {{competitor}} - jämförelse av gratis kyrkprogram",
+        "descriptions": {
+          "planning-center": "B1 är hela paketet för 0 $. Inga betalda tilläggsmoduler.",
+          "pushpay": "Pushpay är en betald gåvoplattform. B1 inkluderar gåvor utan plattformsavgift, plus medlemmar, incheckning, webbplats och gudstjänstplanering.",
+          "tithely": "Tithe.ly är ett gåvoföretag med kyrkprogram på köpet. B1 är kyrksystemet, 100 % gratis inklusive hosting. Gåvor ingår. Stripe för ideella organisationer kostar 2,2 % + 0,30 $; Tithe.lys \"gratis\" gåvor kostar 2,9 % + 0,30 $.",
+          "breeze": "Breeze är ett betalt, enkelt kyrksystem som många nämner när de lämnar Planning Center. B1 kostar 0 $ och inkluderar webbplats, gåvor utan plattformsavgift, incheckning och gudstjänstplanering. Vi importerar dina medlemmar från Breeze."
+        }
+      },
       "notFound": {
         "title": "Jämförelse hittades inte",
         "subtitle": "Kolla in våra tillgängliga jämförelser:"
@@ -671,6 +686,10 @@
       "priceB1Note": "No tiers. No platform fee on gifts."
     },
     "churchManagement": {
+      "meta": {
+        "title": "Gratis kyrkadministrationsprogram (inklusive hosting) | B1.church",
+        "description": "Medlemmar, gåvor, incheckning, webbplats, medlemsapp och gudstjänstplanering. En plattform. 0 $ för alltid."
+      },
       "hero": {
         "title": "Gratis",
         "titleHighlight": "Programvara för församlingsadministration",

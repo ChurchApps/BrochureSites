@@ -14,14 +14,16 @@ import MissionSection from "@/components/home/MissionSection";
 import FinalCta from "@/components/home/FinalCta";
 import Footer from "@/components/Footer";
 import Seo from "@/components/Seo";
+import { useTranslation } from "react-i18next";
 
 const Index = () => {
+  const { t } = useTranslation();
   return (
     <div className="min-h-screen bg-background">
       <Seo
         path="/"
-        title="B1 Church - Free Church App & Website Builder | Complete Church Platform"
-        description="100% free church management platform with a member app, website builder, digital giving, and check-in. One platform, one database, built by a nonprofit. Free forever."
+        title={t("brochure.home.meta.title")}
+        description={t("brochure.home.meta.description")}
       />
       <Header />
       <main>

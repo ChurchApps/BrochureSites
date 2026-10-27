@@ -11,6 +11,10 @@
       "getStartedFree": "Get Started Free"
     },
     "home": {
+      "meta": {
+        "title": "B1 Church - Free Church App & Website Builder | Complete Church Platform",
+        "description": "100% free church management platform with a member app, website builder, digital giving, and check-in. One platform, one database, built by a nonprofit. Free forever."
+      },
       "hero": {
         "eyebrow": "Free, open-source church software",
         "headline": "Everything your church needs to",
@@ -410,6 +414,17 @@
       "viewDocumentation": "View Documentation"
     },
     "compare": {
+      "meta": {
+        "hubTitle": "How B1 compares",
+        "hubDescription": "B1 is the ChMS you start on. People, giving, check-in, website, member app, worship planning. $0 forever. 501(c)(3).",
+        "detailTitle": "B1.church vs {{competitor}} - Free Church Software Comparison",
+        "descriptions": {
+          "planning-center": "B1 is the whole stack at $0. No module step-up.",
+          "pushpay": "Pushpay is a paid giving platform. B1 includes giving with no platform fee, plus people, check-in, website, and worship planning.",
+          "tithely": "Tithe.ly is a giving company with church software attached. B1 is the ChMS, 100% free including hosting. Giving is included. Stripe nonprofit is 2.2% + $0.30; Tithe.ly \"free\" giving is 2.9% + $0.30.",
+          "breeze": "Breeze is a paid, simple ChMS. People leaving Planning Center name Breeze. B1 is $0 and includes the website, giving with no platform fee, check-in, and worship planning. We import Breeze people."
+        }
+      },
       "notFound": {
         "title": "How B1 compares",
         "subtitle": "B1 is the ChMS you start on. People, giving, check-in, website, member app, worship planning. $0 forever. 501(c)(3)."
@@ -499,6 +514,10 @@
       }
     },
     "churchManagement": {
+      "meta": {
+        "title": "Free Church Management Software (Including Hosting) | B1.church",
+        "description": "People, giving, check-in, website, member app, and worship planning. One platform. $0 forever."
+      },
       "hero": {
         "title": "Free",
         "titleHighlight": "Church Management Software",

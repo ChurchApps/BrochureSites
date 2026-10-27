@@ -11,6 +11,10 @@
       "getStartedFree": "Cala Mahhala"
     },
     "home": {
+      "meta": {
+        "title": "B1 Church - I-App Yelibandla Yamahhala Nesakhi Sewebhusayithi | Inkhundla Lephelele Yelibandla",
+        "description": "Inkhundla yekuphatsa libandla yamahhala ngalokuphelele, lenayo i-app yemalunga, sakhi sewebhusayithi, kunikela ngedijithali kanye nekubhalisa. Inkhundla yinye, sizindzalwati sinye, yakhiwe yinhlangano lengenzi inzuzo. Mahhala phakadze."
+      },
       "hero": {
         "eyebrow": "I-software yelibandla yamahhala, yemtfombo lovulekile",
         "headline": "Konkhe libandla lakho lelikudzingako kute",
@@ -410,6 +414,17 @@
       "viewDocumentation": "Buka Imibhalo"
     },
     "compare": {
+      "meta": {
+        "hubTitle": "B1 Icatsaniswa Njani",
+        "hubDescription": "B1 luhlelo lwekuphatsa libandla longacala ngalo. Bantfu, kunikela, kubhalisa, iwebhusayithi, i-app yemalunga, kuhlela kukhonta. $0 phakadze. 501(c)(3).",
+        "detailTitle": "B1.church vs {{competitor}} - Kucatsanisa Tinhlelo Telibandla Temahhala",
+        "descriptions": {
+          "planning-center": "B1 iphakheji yonkhe nge-$0. Akukho kubhadalela ema-module langetiwe.",
+          "pushpay": "Pushpay yinkhundla yekunikela lekhokhelwako. B1 ifaka kunikela ngaphandle kwemali yenkhundla, kanye nebantfu, kubhalisa, iwebhusayithi nekuhlela kukhonta.",
+          "tithely": "Tithe.ly yinkampani yekunikela lenaluhlelo lwelibandla. B1 luhlelo lwekuphatsa libandla, lwamahhala ngalokuphelele kuhlanganise ne-hosting. Kunikela kufakiwe. Stripe yetinhlangano letingenzi inzuzo yi-2.2% + $0.30; kunikela \"kwamahhala\" kwa-Tithe.ly ku-2.9% + $0.30.",
+          "breeze": "Breeze luhlelo lwekuphatsa libandla lolulula lolukhokhelwako, labashiya Planning Center bavame kulubala. B1 yi-$0 futsi ifaka iwebhusayithi, kunikela ngaphandle kwemali yenkhundla, kubhalisa nekuhlela kukhonta. Siyabangenisa bantfu bakho kusuka ku-Breeze."
+        }
+      },
       "notFound": {
         "title": "Kucatsanisa Akutfolakali",
         "subtitle": "Buka kucatsanisa kwetfu lokukhona:"
@@ -671,6 +686,10 @@
       "priceB1Note": "No tiers. No platform fee on gifts."
     },
     "churchManagement": {
+      "meta": {
+        "title": "Luhlelo Lwekuphatsa Libandla Lwamahhala (Kuhlanganise Ne-hosting) | B1.church",
+        "description": "Bantfu, kunikela, kubhalisa, iwebhusayithi, i-app yemalunga kanye nekuhlela kukhonta. Inkhundla yinye. $0 phakadze."
+      },
       "hero": {
         "title": "I-Software Yekuphatsa Libandla",
         "titleHighlight": "Yamahhala",

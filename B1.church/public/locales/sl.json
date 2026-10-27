@@ -11,6 +11,10 @@
       "getStartedFree": "Začnite brezplačno"
     },
     "home": {
+      "meta": {
+        "title": "B1 Church - Brezplačna cerkvena aplikacija in izdelovalec spletnih strani | Celovita platforma",
+        "description": "100-odstotno brezplačna platforma za upravljanje cerkve z aplikacijo za člane, izdelovalcem spletnih strani, spletnimi darovi in prijavo. Ena platforma, ena podatkovna baza, ustvarila jo je neprofitna organizacija. Za vedno brezplačno."
+      },
       "hero": {
         "eyebrow": "Brezplačna odprtokodna programska oprema za cerkve",
         "headline": "Vse, kar vaša cerkev potrebuje, da se",
@@ -410,6 +414,17 @@
       "viewDocumentation": "Ogled dokumentacije"
     },
     "compare": {
+      "meta": {
+        "hubTitle": "Kako se B1 primerja",
+        "hubDescription": "B1 je sistem za upravljanje cerkve, s katerim začnete. Ljudje, darovi, prijava, spletna stran, aplikacija za člane, načrtovanje bogoslužja. Za vedno 0 $. 501(c)(3).",
+        "detailTitle": "B1.church proti {{competitor}} - primerjava brezplačne cerkvene programske opreme",
+        "descriptions": {
+          "planning-center": "B1 je celoten paket za 0 $. Brez plačljivih dodatnih modulov.",
+          "pushpay": "Pushpay je plačljiva platforma za darovanje. B1 vključuje darovanje brez provizije platforme ter ljudi, prijavo, spletno stran in načrtovanje bogoslužja.",
+          "tithely": "Tithe.ly je podjetje za darovanje s priloženo cerkveno programsko opremo. B1 je sistem za upravljanje cerkve, 100 % brezplačen vključno z gostovanjem. Darovanje je vključeno. Stripe za neprofitne organizacije stane 2,2 % + 0,30 $; »brezplačno« darovanje pri Tithe.ly stane 2,9 % + 0,30 $.",
+          "breeze": "Breeze je plačljiv, preprost sistem za upravljanje cerkve, ki ga omenjajo tisti, ki zapuščajo Planning Center. B1 stane 0 $ in vključuje spletno stran, darovanje brez provizije platforme, prijavo in načrtovanje bogoslužja. Vaše ljudi uvozimo iz Breeze."
+        }
+      },
       "notFound": {
         "title": "Primerjava ni najdena",
         "subtitle": "Oglejte si naše razpoložljive primerjave:"
@@ -671,6 +686,10 @@
       "priceB1Note": "No tiers. No platform fee on gifts."
     },
     "churchManagement": {
+      "meta": {
+        "title": "Brezplačna programska oprema za upravljanje cerkve (vključno z gostovanjem) | B1.church",
+        "description": "Ljudje, darovi, prijava, spletna stran, aplikacija za člane in načrtovanje bogoslužja. Ena platforma. Za vedno 0 $."
+      },
       "hero": {
         "title": "Brezplačna",
         "titleHighlight": "programska oprema za upravljanje cerkve",

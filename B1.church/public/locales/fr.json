@@ -11,6 +11,10 @@
       "getStartedFree": "Commencer gratuitement"
     },
     "home": {
+      "meta": {
+        "title": "B1 Church - Application d'église gratuite et créateur de site web | Plateforme complète",
+        "description": "Plateforme de gestion d'église 100 % gratuite avec application pour les membres, créateur de site web, dons en ligne et enregistrement des présences. Une plateforme, une base de données, conçue par une organisation à but non lucratif. Gratuite pour toujours."
+      },
       "hero": {
         "eyebrow": "Logiciel d'église gratuit et open source",
         "headline": "Tout ce dont votre église a besoin pour",
@@ -410,6 +414,17 @@
       "viewDocumentation": "Consulter la documentation"
     },
     "compare": {
+      "meta": {
+        "hubTitle": "Comment B1 se compare",
+        "hubDescription": "B1 est le logiciel de gestion d'église avec lequel vous démarrez. Membres, dons, enregistrement des présences, site web, application pour les membres, planification des cultes. 0 $ pour toujours. 501(c)(3).",
+        "detailTitle": "B1.church vs {{competitor}} - Comparatif de logiciels d'église gratuits",
+        "descriptions": {
+          "planning-center": "B1, c'est toute la plateforme pour 0 $. Aucun module payant en plus.",
+          "pushpay": "Pushpay est une plateforme de dons payante. B1 inclut les dons sans frais de plateforme, ainsi que les membres, l'enregistrement des présences, le site web et la planification des cultes.",
+          "tithely": "Tithe.ly est une société de dons à laquelle s'ajoute un logiciel d'église. B1 est le logiciel de gestion d'église, 100 % gratuit hébergement inclus. Les dons sont inclus. Stripe pour les associations coûte 2,2 % + 0,30 $ ; les dons « gratuits » de Tithe.ly coûtent 2,9 % + 0,30 $.",
+          "breeze": "Breeze est un logiciel de gestion d'église simple et payant, souvent cité par ceux qui quittent Planning Center. B1 coûte 0 $ et inclut le site web, les dons sans frais de plateforme, l'enregistrement des présences et la planification des cultes. Nous importons vos membres depuis Breeze."
+        }
+      },
       "notFound": {
         "title": "Comparaison introuvable",
         "subtitle": "Consultez nos comparaisons disponibles :"
@@ -671,6 +686,10 @@
       "priceB1Note": "No tiers. No platform fee on gifts."
     },
     "churchManagement": {
+      "meta": {
+        "title": "Logiciel de gestion d'église gratuit (hébergement inclus) | B1.church",
+        "description": "Membres, dons, enregistrement des présences, site web, application pour les membres et planification des cultes. Une seule plateforme. 0 $ pour toujours."
+      },
       "hero": {
         "title": "Logiciel gratuit de",
         "titleHighlight": "gestion d'église",

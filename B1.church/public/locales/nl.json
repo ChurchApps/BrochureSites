@@ -11,6 +11,10 @@
       "getStartedFree": "Gratis beginnen"
     },
     "home": {
+      "meta": {
+        "title": "B1 Church - Gratis kerkapp & websitebouwer | Compleet kerkplatform",
+        "description": "100% gratis kerkbeheerplatform met ledenapp, websitebouwer, digitaal geven en inchecken. Eén platform, één database, gebouwd door een non-profitorganisatie. Voor altijd gratis."
+      },
       "hero": {
         "eyebrow": "Gratis, open-source kerksoftware",
         "headline": "Alles wat je kerk nodig heeft om te",
@@ -410,6 +414,17 @@
       "viewDocumentation": "Documentatie bekijken"
     },
     "compare": {
+      "meta": {
+        "hubTitle": "Hoe B1 zich verhoudt",
+        "hubDescription": "B1 is het kerkbeheersysteem waarmee je begint. Leden, giften, inchecken, website, ledenapp, dienstplanning. Voor altijd $0. 501(c)(3).",
+        "detailTitle": "B1.church vs {{competitor}} - Vergelijking van gratis kerksoftware",
+        "descriptions": {
+          "planning-center": "B1 is het complete pakket voor $0. Geen betaalde extra modules.",
+          "pushpay": "Pushpay is een betaald giftenplatform. B1 bevat giften zonder platformkosten, plus leden, inchecken, website en dienstplanning.",
+          "tithely": "Tithe.ly is een giftenbedrijf met kerksoftware erbij. B1 is het kerkbeheersysteem, 100% gratis inclusief hosting. Giften zijn inbegrepen. Stripe voor non-profits kost 2,2% + $0,30; de \"gratis\" giften van Tithe.ly kosten 2,9% + $0,30.",
+          "breeze": "Breeze is een betaald, eenvoudig kerkbeheersysteem dat vaak wordt genoemd door wie Planning Center verlaat. B1 kost $0 en bevat de website, giften zonder platformkosten, inchecken en dienstplanning. We importeren je leden uit Breeze."
+        }
+      },
       "notFound": {
         "title": "Vergelijking niet gevonden",
         "subtitle": "Bekijk onze beschikbare vergelijkingen:"
@@ -671,6 +686,10 @@
       "priceB1Note": "No tiers. No platform fee on gifts."
     },
     "churchManagement": {
+      "meta": {
+        "title": "Gratis kerkbeheersoftware (inclusief hosting) | B1.church",
+        "description": "Leden, giften, inchecken, website, ledenapp en dienstplanning. Eén platform. Voor altijd $0."
+      },
       "hero": {
         "title": "Gratis",
         "titleHighlight": "Kerkbeheersoftware",

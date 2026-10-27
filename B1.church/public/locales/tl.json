@@ -11,6 +11,10 @@
       "getStartedFree": "Magsimula nang Libre"
     },
     "home": {
+      "meta": {
+        "title": "B1 Church - Libreng Church App at Website Builder | Kumpletong Plataporma ng Simbahan",
+        "description": "100% libreng plataporma sa pamamahala ng simbahan na may app para sa miyembro, website builder, digital na pagbibigay, at check-in. Isang plataporma, isang database, gawa ng isang nonprofit. Libre magpakailanman."
+      },
       "hero": {
         "eyebrow": "Libre at open-source na software para sa simbahan",
         "headline": "Lahat ng kailangan ng inyong simbahan para",
@@ -410,6 +414,17 @@
       "viewDocumentation": "Tingnan ang Dokumentasyon"
     },
     "compare": {
+      "meta": {
+        "hubTitle": "Paano Ikinukumpara ang B1",
+        "hubDescription": "Ang B1 ang sistema sa pamamahala ng simbahan na pagsisimulan mo. Mga miyembro, pagbibigay, check-in, website, app para sa miyembro, pagpaplano ng pagsamba. $0 magpakailanman. 501(c)(3).",
+        "detailTitle": "B1.church vs {{competitor}} - Paghahambing ng Libreng Software ng Simbahan",
+        "descriptions": {
+          "planning-center": "Ang B1 ay buong pakete sa halagang $0. Walang bayad na dagdag na module.",
+          "pushpay": "Ang Pushpay ay isang bayad na plataporma para sa pagbibigay. Kasama sa B1 ang pagbibigay nang walang bayad sa plataporma, pati na ang mga miyembro, check-in, website, at pagpaplano ng pagsamba.",
+          "tithely": "Ang Tithe.ly ay kumpanya ng pagbibigay na may kasamang software ng simbahan. Ang B1 ang sistema sa pamamahala ng simbahan, 100% libre kasama ang hosting. Kasama ang pagbibigay. Ang Stripe para sa nonprofit ay 2.2% + $0.30; ang \"libreng\" pagbibigay ng Tithe.ly ay 2.9% + $0.30.",
+          "breeze": "Ang Breeze ay isang bayad at simpleng sistema sa pamamahala ng simbahan na binabanggit ng mga umaalis sa Planning Center. Ang B1 ay $0 at kasama ang website, pagbibigay nang walang bayad sa plataporma, check-in, at pagpaplano ng pagsamba. Ini-import namin ang iyong mga miyembro mula sa Breeze."
+        }
+      },
       "notFound": {
         "title": "Hindi Natagpuan ang Paghahambing",
         "subtitle": "Tingnan po ang aming mga available na paghahambing:"
@@ -671,6 +686,10 @@
       "priceB1Note": "No tiers. No platform fee on gifts."
     },
     "churchManagement": {
+      "meta": {
+        "title": "Libreng Software sa Pamamahala ng Simbahan (Kasama ang Hosting) | B1.church",
+        "description": "Mga miyembro, pagbibigay, check-in, website, app para sa miyembro, at pagpaplano ng pagsamba. Isang plataporma. $0 magpakailanman."
+      },
       "hero": {
         "title": "Libreng",
         "titleHighlight": "Software ng Pamamahala ng Simbahan",

@@ -11,6 +11,10 @@
       "getStartedFree": "免费开始"
     },
     "home": {
+      "meta": {
+        "title": "B1 Church - 免费教会应用与网站搭建工具 | 一站式教会平台",
+        "description": "100% 免费的教会管理平台，包含会友应用、网站搭建工具、在线奉献和签到功能。一个平台，一个数据库，由非营利组织打造。永久免费。"
+      },
       "hero": {
         "eyebrow": "免费开源的教会软件",
         "headline": "教会所需的一切，帮助您",
@@ -410,6 +414,17 @@
       "viewDocumentation": "查看文档"
     },
     "compare": {
+      "meta": {
+        "hubTitle": "B1 对比",
+        "hubDescription": "B1 是您入门的教会管理系统。会友管理、奉献、签到、网站、会友应用、敬拜安排。永久 $0。501(c)(3)。",
+        "detailTitle": "B1.church 与 {{competitor}} - 免费教会软件对比",
+        "descriptions": {
+          "planning-center": "B1 以 $0 提供整套功能，无需为模块额外付费。",
+          "pushpay": "Pushpay 是付费的奉献平台。B1 提供无平台费的奉献功能，并包含会友管理、签到、网站和敬拜安排。",
+          "tithely": "Tithe.ly 是一家附带教会软件的奉献公司。B1 是教会管理系统，含托管 100% 免费，奉献功能也已包含。Stripe 非营利费率为 2.2% + $0.30；Tithe.ly 的“免费”奉献为 2.9% + $0.30。",
+          "breeze": "Breeze 是一款付费的简易教会管理系统，离开 Planning Center 的人常会提到它。B1 售价 $0，包含网站、无平台费的奉献、签到和敬拜安排。我们可以从 Breeze 导入您的会友数据。"
+        }
+      },
       "notFound": {
         "title": "未找到比较",
         "subtitle": "查看我们可用的比较："
@@ -671,6 +686,10 @@
       "priceB1Note": "No tiers. No platform fee on gifts."
     },
     "churchManagement": {
+      "meta": {
+        "title": "免费教会管理软件（含托管） | B1.church",
+        "description": "会友管理、奉献、签到、网站、会友应用和敬拜安排。一个平台，永久 $0。"
+      },
       "hero": {
         "title": "免费",
         "titleHighlight": "教会管理软件",

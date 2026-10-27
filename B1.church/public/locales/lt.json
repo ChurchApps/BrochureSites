@@ -11,6 +11,10 @@
       "getStartedFree": "Pradėti nemokamai"
     },
     "home": {
+      "meta": {
+        "title": "B1 Church - Nemokama bažnyčios programėlė ir svetainių kūrimo įrankis | Visa bažnyčios platforma",
+        "description": "100 % nemokama bažnyčios valdymo platforma su narių programėle, svetainių kūrimo įrankiu, skaitmeninėmis aukomis ir registracija. Viena platforma, viena duomenų bazė, sukurta ne pelno organizacijos. Nemokama visam laikui."
+      },
       "hero": {
         "eyebrow": "Nemokama atvirojo kodo programinė įranga bažnyčioms",
         "headline": "Viskas, ko reikia jūsų bažnyčiai, kad galėtų",
@@ -410,6 +414,17 @@
       "viewDocumentation": "Peržiūrėti dokumentaciją"
     },
     "compare": {
+      "meta": {
+        "hubTitle": "Kaip B1 atrodo palyginus",
+        "hubDescription": "B1 – bažnyčios valdymo sistema, nuo kurios pradedate. Žmonės, aukos, registracija, svetainė, narių programėlė, pamaldų planavimas. 0 $ visam laikui. 501(c)(3).",
+        "detailTitle": "B1.church prieš {{competitor}} - nemokamos bažnyčios programinės įrangos palyginimas",
+        "descriptions": {
+          "planning-center": "B1 – visas paketas už 0 $. Jokių mokamų papildomų modulių.",
+          "pushpay": "Pushpay – mokama aukojimo platforma. B1 apima aukas be platformos mokesčio, taip pat žmones, registraciją, svetainę ir pamaldų planavimą.",
+          "tithely": "Tithe.ly – aukojimo įmonė su pridėta bažnyčios programine įranga. B1 – bažnyčios valdymo sistema, 100 % nemokama kartu su priegloba. Aukos įtrauktos. Stripe ne pelno organizacijoms kainuoja 2,2 % + 0,30 $; „nemokamos“ Tithe.ly aukos kainuoja 2,9 % + 0,30 $.",
+          "breeze": "Breeze – mokama, paprasta bažnyčios valdymo sistema, kurią mini paliekantys Planning Center. B1 kainuoja 0 $ ir apima svetainę, aukas be platformos mokesčio, registraciją ir pamaldų planavimą. Žmones iš Breeze importuojame."
+        }
+      },
       "notFound": {
         "title": "Palyginimas nerastas",
         "subtitle": "Peržiūrėkite mūsų prieinamus palyginimus:"
@@ -671,6 +686,10 @@
       "priceB1Note": "No tiers. No platform fee on gifts."
     },
     "churchManagement": {
+      "meta": {
+        "title": "Nemokama bažnyčios valdymo programinė įranga (su priegloba) | B1.church",
+        "description": "Žmonės, aukos, registracija, svetainė, narių programėlė ir pamaldų planavimas. Viena platforma. 0 $ visam laikui."
+      },
       "hero": {
         "title": "Nemokama",
         "titleHighlight": "bažnyčios valdymo programinė įranga",

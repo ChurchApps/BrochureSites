@@ -11,6 +11,10 @@
       "getStartedFree": "Bắt đầu miễn phí"
     },
     "home": {
+      "meta": {
+        "title": "B1 Church - Ứng dụng nhà thờ & công cụ tạo website miễn phí | Nền tảng nhà thờ toàn diện",
+        "description": "Nền tảng quản lý nhà thờ miễn phí 100% với ứng dụng cho tín hữu, công cụ tạo website, dâng hiến trực tuyến và điểm danh. Một nền tảng, một cơ sở dữ liệu, do một tổ chức phi lợi nhuận phát triển. Miễn phí mãi mãi."
+      },
       "hero": {
         "eyebrow": "Phần mềm quản lý hội thánh miễn phí, mã nguồn mở",
         "headline": "Mọi điều hội thánh bạn cần để",
@@ -410,6 +414,17 @@
       "viewDocumentation": "Xem Tài liệu"
     },
     "compare": {
+      "meta": {
+        "hubTitle": "B1 so sánh thế nào",
+        "hubDescription": "B1 là hệ thống quản lý nhà thờ để bạn bắt đầu. Tín hữu, dâng hiến, điểm danh, website, ứng dụng cho tín hữu, lên kế hoạch thờ phượng. $0 mãi mãi. 501(c)(3).",
+        "detailTitle": "B1.church và {{competitor}} - So sánh phần mềm nhà thờ miễn phí",
+        "descriptions": {
+          "planning-center": "B1 là trọn bộ với giá $0. Không phải trả thêm cho từng mô-đun.",
+          "pushpay": "Pushpay là nền tảng dâng hiến trả phí. B1 bao gồm dâng hiến không thu phí nền tảng, cùng với quản lý tín hữu, điểm danh, website và lên kế hoạch thờ phượng.",
+          "tithely": "Tithe.ly là công ty dâng hiến kèm theo phần mềm nhà thờ. B1 là hệ thống quản lý nhà thờ, miễn phí 100% kể cả hosting. Dâng hiến đã được bao gồm. Stripe cho tổ chức phi lợi nhuận là 2,2% + $0,30; dâng hiến \"miễn phí\" của Tithe.ly là 2,9% + $0,30.",
+          "breeze": "Breeze là hệ thống quản lý nhà thờ đơn giản và trả phí, thường được nhắc đến bởi những người rời Planning Center. B1 có giá $0 và bao gồm website, dâng hiến không thu phí nền tảng, điểm danh và lên kế hoạch thờ phượng. Chúng tôi nhập dữ liệu tín hữu từ Breeze."
+        }
+      },
       "notFound": {
         "title": "Không tìm thấy So sánh",
         "subtitle": "Hãy xem các so sánh có sẵn của chúng tôi:"
@@ -671,6 +686,10 @@
       "priceB1Note": "No tiers. No platform fee on gifts."
     },
     "churchManagement": {
+      "meta": {
+        "title": "Phần mềm quản lý nhà thờ miễn phí (bao gồm hosting) | B1.church",
+        "description": "Tín hữu, dâng hiến, điểm danh, website, ứng dụng cho tín hữu và lên kế hoạch thờ phượng. Một nền tảng. $0 mãi mãi."
+      },
       "hero": {
         "title": "Phần mềm",
         "titleHighlight": "Quản lý Hội thánh Miễn phí",
