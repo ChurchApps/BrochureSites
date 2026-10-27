@@ -30,6 +30,7 @@ export const routes: RouteRecord[] = [
       { path: "compare/:competitor", element: <LanguageRedirect /> },
       { path: "vs", element: <HtmlRedirect to={PCO_COMPARE} /> },
       { path: "vs/planning-center", element: <HtmlRedirect to={PCO_COMPARE} /> },
+      { path: "404", element: <NotFound /> },
       {
         path: ":lang",
         element: <LanguageLayout />,
