@@ -24,7 +24,7 @@
         "ctaSecondary": "Nézze meg működés közben",
         "trust": [
           "Örökre ingyenes — nincsenek csomagok és próbaidőszakok",
-          "Nincsenek további tranzakciós díjak",
+          "Nincs B1 platformdíj az adományokon",
           "Nyílt forráskód a GitHubon",
           "501(c)(3) szolgálat 2012 óta"
         ]
@@ -62,7 +62,7 @@
         }
       },
       "connect": {
-        "eyebrow": "A B1 mobilalkalmazás",
+        "eyebrow": "PWA · telepítés a gyülekezet weboldaláról",
         "title": "Az emberei kapcsolatban",
         "titleAccent": "egész héten.",
         "lead": "Adjon a gyülekezetének egy helyet, ahová a vasárnapok között is tartozhat. A B1 alkalmazás a tagnévsort, a csoportokat, az üzeneteket és az igehirdetéseket a közössége minden telefonjára elviszi.",
@@ -277,8 +277,8 @@
       "titleHighlight": "mindenütt szeretik",
       "subtitle": "Csatlakozzon azokhoz a növekvő gyülekezetekhez, amelyek teljesen ingyenes platformunkkal átalakították szolgálatukat. Íme, mit mondanak a lelkészek és gyülekezeti vezetők a B1-ről.",
       "stats": {
-        "churchesValue": "100+",
-        "churchesLabel": "Gyülekezet világszerte",
+        "churchesValue": "501(c)(3)",
+        "churchesLabel": "Nonprofit szolgálat",
         "freeValue": "Ingyenes",
         "freeLabel": "Örökkön örökké",
         "openValue": "Nyílt",
@@ -336,7 +336,7 @@
       "faq": "GYIK",
       "aboutChurchApps": "A ChurchApps-ról",
       "appsAndResources": "Alkalmazások és erőforrások",
-      "installApp": "Mobilalkalmazás telepítése",
+      "installApp": "Telepítés a gyülekezet weboldaláról",
       "helpCenter": "Súgóközpont",
       "contact": "Kapcsolat",
       "availableWorldwide": "Világszerte elérhető"
@@ -349,35 +349,35 @@
       "items": [
         {
           "question": "Valóban 100%-ban ingyenes a B1.church?",
-          "answer": "Igen, a B1.church teljesen ingyenes, nincsenek rejtett díjak, prémium szintek és tranzakciós díjak az adományoknál. Mi egy 501(c)(3) non-profit szolgálat vagyunk, amely úgy véli, hogy minden gyülekezet megérdemli a modern technológiához való hozzáférést, költségvetéstől függetlenül. Platformunkat adományok és a Google Ad Grants finanszírozza."
+          "answer": "Igen. A tárhelyelt B1 örökre $0. Nincsenek csomagok, nincs személyenkénti korlát. A Live Church Solutions 501(c)(3) szervezet (EIN 45-5349618). Nyilvános 990-es nyomtatvány. Az adományok után a Stripe-nak vagy a PayPalnak fizet. A B1 hozzáad: $0."
         },
         {
           "question": "Milyen funkciókat tartalmaz a B1.church?",
-          "answer": "A B1.church teljes gyülekezetkezelő platformot tartalmaz: közvetlenül a weboldaláról telepíthető mobilalkalmazást a tagoknak, fogd-és-vidd weboldal-készítőt, online adakozást további platformdíjak nélkül, gyermek-bejelentkezési rendszert biztonsági kódokkal, tagnyilvántartást, jelenlétkövetést, csoportkezelést, istentisztelet-tervezést, énektárat, igehirdetés-kezelést és Biblia-integrációt."
+          "answer": "Emberek, adakozás, check-in, weboldalkészítő, tagi alkalmazás, csoportok, jelenlét, istentisztelet-tervezés és énektár."
         },
         {
           "question": "Hogyan hasonlítható össze a B1.church a Planning Center-rel?",
-          "answer": "A B1.church 100%-ban ingyenes, míg a Planning Center modulonként fizet ($0-299+/hó). A B1 ingyenesen tartalmaz mobilalkalmazást és weboldal-szerkesztőt, míg a Planning Center extra díjat számít fel a Church Center-ért, és nem tartalmaz weboldal-szerkesztőt. Mindkettő kínál gyülekezetkezelési funkciókat, de a B1 mindent egy ingyenes csomagban biztosít."
+          "answer": "A Planning Center People ingyenes. A többi PCO-termék ingyenes szintet kínál, utána a növekedéssel együtt fizet. A Church Center alapfunkciói ingyenesek. A B1 a teljes csomag $0-ért, modulonkénti felárak nélkül."
         },
         {
           "question": "Hogyan hasonlítható össze a B1.church a Pushpay-jel?",
-          "answer": "A B1.church teljesen ingyenes, míg a Pushpay havi $300-1000+ dollárba kerül. A B1 nem számít fel tranzakciós díjat az adományozásnál, míg a Pushpay az adományok bizonyos százalékát levonja. A B1 nyílt forráskódú és teljes gyülekezetkezelést tartalmaz, míg a Pushpay zárt forráskódú és elsősorban az adományozásra fókuszál."
+          "answer": "A Pushpay fizetős adakozási platform. A B1 platformdíj nélküli adakozást tartalmaz, plusz a gyülekezetkezelő szoftver többi részét, $0-ért. A kártya- vagy ACH-díjakat továbbra is Ön fizeti."
         },
         {
           "question": "Hogyan hasonlítható össze a B1.church a Tithe.ly-val?",
-          "answer": "A B1.church teljesen ingyenes, tranzakciós díjak nélkül. A Tithe.ly ingyenes szintet kínál, de prémium funkciókért díjat számít fel, és minden adomány bizonyos százalékát levonja. A B1 teljes gyülekezetkezelő szoftvert tartalmaz, míg a Tithe.ly ChMS rendszere külön fizetős termék."
+          "answer": "A Tithe.ly adakozási cég fizetős gyülekezetkezelő szoftverrel. A B1 maga a gyülekezetkezelő szoftver, 100%-ban ingyenes, tárhellyel együtt. Az adakozás benne van. A Stripe nonprofit díja 2,2% + $0.30; a Tithe.ly „ingyenes” adakozása 2,9% + $0.30."
         },
         {
           "question": "Hogyan hasonlítható össze a B1.church a Breeze ChMS-sel?",
-          "answer": "A B1.church ingyenes, míg a Breeze $72/hó díjtól indul. A B1 teljes mobilalkalmazást és weboldal-szerkesztőt tartalmaz, míg a Breeze korlátozott mobil funkciókkal rendelkezik és nincs weboldal-szerkesztője. Mindkettő kínál gyülekezetkezelést, de a B1 több funkciót biztosít díjmentesen."
+          "answer": "A Breeze fizetős, egyszerű gyülekezetkezelő szoftver. A B1 $0, és tartalmazza a weboldalt, a platformdíj nélküli adakozást, a check-int és az istentisztelet-tervezést. A Breeze-ből importáljuk az embereket."
         },
         {
           "question": "Kap a gyülekezetem mobilalkalmazást?",
-          "answer": "Igen. A B1 a gyülekezetének saját arculatú mobilalkalmazás-élményt ad telepíthető webalkalmazásként (PWA). A tagok megnyitják a gyülekezet oldalát, rákoppintanak a „Hozzáadás a kezdőképernyőhöz” lehetőségre, és egy teljes képernyős alkalmazást kapnak a gyülekezet nevével és logójával. A frissítések azonnal mindenkihez eljutnak."
+          "answer": "A tagok a gyülekezet weboldaláról telepítik az alkalmazást. Hozzáadás a kezdőképernyőhöz."
         },
         {
           "question": "Támogatja a B1.church az online adományozást?",
-          "answer": "Igen, a B1.church biztonságos online adományozást kínál bankkártyás és banki átutalásos támogatással. Beállíthat ismétlődő adományokat, kezelhet több alapot és adományozási előzményeket biztosíthat adóbevallásokhoz. Közvetlen Stripe integrációt használunk, B1 platformdíjak nélkül - gyülekezete közvetlenül a Stripe-pal tárgyalja meg a díjakat (általában körülbelül 2.9% + 30¢)."
+          "answer": "Igen. Stripe vagy PayPal. Rendszeres adományok, alapok, kimutatások. A B1 hozzáad: $0."
         },
         {
           "question": "Készíthetek weboldalt a B1.church-csel?",
@@ -385,7 +385,7 @@
         },
         {
           "question": "Van bejelentkezés a B1.church-ben a gyermekszolgálathoz?",
-          "answer": "Igen, a B1.church tartalmaz egy intelligens bejelentkezési rendszert érintésmentes önkiszolgáló kioszkokkal, családi bejelentkezéssel, automatikus csoportbeosztásokkal, gyermek elhozásához szükséges biztonsági kódokkal, valamint jelenlét-követéssel és jelentésekkel."
+          "answer": "Igen. Névkártyák, biztonsági kódok, jelenlét."
         },
         {
           "question": "Nyílt forráskódú a B1.church?",
@@ -426,264 +426,204 @@
         }
       },
       "notFound": {
-        "title": "Összehasonlítás nem található",
-        "subtitle": "Nézze meg elérhető összehasonlításainkat:"
+        "title": "Hogyan viszonyul a B1",
+        "subtitle": "A B1 az a gyülekezetkezelő szoftver, amellyel érdemes kezdeni. Emberek, adakozás, check-in, weboldal, tagi alkalmazás, istentisztelet-tervezés. Örökre $0. 501(c)(3)."
       },
+      "hubTitle": "Hogyan teljesít a B1 az összevetésben",
+      "hubSubtitle": "A B1 az a gyülekezetkezelő rendszer, amellyel elindulhatsz. Tagok, adományok, bejelentkezés, weboldal, tagi alkalmazás, istentisztelet-tervezés. Örökre 0 $. 501(c)(3).",
       "b1vsPrefix": "B1 vs",
-      "noHiddenFees": "Nincsenek rejtett díjak, soha",
-      "plusTransactionFees": "Plusz tranzakciós díjak",
+      "noHiddenFees": "Nincsenek csomagok. Nincs platformdíj az adományokon.",
+      "plusTransactionFees": "",
+      "priceB1Label": "$0 / month",
+      "priceB1Note": "Nincsenek csomagok. Nincs platformdíj az adományokon.",
       "featureColumn": "Funkció",
       "ourTake": "Véleményünk",
-      "ctaTitle": "Készen áll megspórolni gyülekezetének pénzét?",
-      "ctaDescription": "Váltson a B1.church-re, és fordítsa szoftveres költségvetését a szolgálatra.",
+      "ctaTitle": "Kapja meg a teljes csomagot $0-ért",
+      "ctaDescription": "A B1 a teljes csomag $0-ért.",
       "ctaButton": "Kezdje el ingyen",
       "otherComparisons": "Egyéb összehasonlítások",
       "competitors": {
         "planning-center": {
           "name": "Planning Center",
-          "tagline": "Ingyenes alternatíva a Planning Center-hez",
-          "description": "A Planning Center egy népszerű gyülekezetkezelő platform moduláris árazással. A B1.church hasonló funkciókat kínál teljesen ingyen.",
+          "tagline": "A teljes csomag $0-ért",
+          "description": "A B1 a teljes csomag $0-ért. Nincsenek modulfelárak.",
           "features": [
             {
-              "name": "Tagsági adatbázis",
-              "b1": true,
-              "competitor": true
+              "name": "Személyek adatbázisa",
+              "b1": "Tartalmazza",
+              "competitor": "Ingyenes, korlátlan"
             },
             {
-              "name": "Bejelentkezési rendszer",
-              "b1": true,
-              "competitor": "$99/mo"
+              "name": "Adakozás",
+              "b1": "Nincs B1 platformdíj",
+              "competitor": "Feldolgozás; fizetős adakozás a növekedéssel"
             },
             {
-              "name": "Online adományozás",
-              "b1": "Nincs B1 díj",
-              "competitor": "Platform + Stripe díjak"
-            },
-            {
-              "name": "Csoportkezelés",
-              "b1": true,
-              "competitor": "$50/mo"
+              "name": "Check-in",
+              "b1": "Tartalmazza",
+              "competitor": "Tartalmazza"
             },
             {
               "name": "Istentisztelet-tervezés",
-              "b1": true,
-              "competitor": "$14-99/mo"
+              "b1": "Tartalmazza",
+              "competitor": "Tartalmazza"
             },
             {
-              "name": "Mobilalkalmazás",
-              "b1": "Ingyenes márkázott alkalmazás",
-              "competitor": "$0-199/mo"
+              "name": "Tagi alkalmazás",
+              "b1": "A gyülekezet weboldaláról",
+              "competitor": "Church Center"
             },
             {
-              "name": "Weboldal-szerkesztő",
-              "b1": true,
-              "competitor": false
+              "name": "Weboldalkészítő",
+              "b1": "Tartalmazza",
+              "competitor": "Nem tartalmazza"
             },
             {
-              "name": "Prédikációkezelés",
-              "b1": true,
-              "competitor": false
-            },
-            {
-              "name": "Többtelephely",
-              "b1": true,
-              "competitor": "Extra költség"
+              "name": "Importálás",
+              "b1": "Emberek a Planning Centerből",
+              "competitor": "—"
             },
             {
               "name": "Nyílt forráskód",
-              "b1": true,
-              "competitor": false
+              "b1": "Igen",
+              "competitor": "Nem"
             }
           ],
-          "pricingB1": "100% Ingyenes",
-          "pricingCompetitor": "$0 - $500+/month depending on modules",
-          "verdict": "A B1.church minden alapvető funkciót biztosít, amit a Planning Center, a moduláris árazás bonyolultsága nélkül. Ha a költségvetés aggodalomra ad okot, a B1 az egyértelmű választás."
+          "pricingB1": "$0 / hó",
+          "pricingCompetitor": "Ingyenes kezdés, utána fizetős modulok",
+          "verdict": "A B1 az emberek, az adakozás, a check-in, a weboldal és az istentisztelet-tervezés egy helyen, $0-ért. Nincsenek modulfelárak. A tárhely benne van."
         },
         "pushpay": {
           "name": "Pushpay",
-          "tagline": "Ingyenes alternatíva a Pushpay-hez",
-          "description": "A Pushpay a mobil adományozásról ismert, de jelentős havi költségekkel és tranzakciós díjakkal jár. A B1.church adományozást kínál nulla platformdíjjal.",
+          "tagline": "Adakozás és a gyülekezetkezelő szoftver többi része, $0-ért",
+          "description": "A Pushpay fizetős adakozási platform. A B1 platformdíj nélküli adakozást tartalmaz, plusz az embereket, a check-int, a weboldalt és az istentisztelet-tervezést.",
           "features": [
             {
-              "name": "Online adományozás",
-              "b1": "Nincs B1 díj",
-              "competitor": "Platform + Stripe díjak"
+              "name": "Adakozás",
+              "b1": "Nincs B1 platformdíj",
+              "competitor": "Fizetős platform + feldolgozás"
             },
             {
-              "name": "Ismétlődő adományok",
-              "b1": true,
-              "competitor": true
+              "name": "Rendszeres adományok",
+              "b1": "Tartalmazza",
+              "competitor": "Tartalmazza"
             },
             {
-              "name": "Mobilalkalmazás",
-              "b1": "Ingyenes márkázott alkalmazás",
-              "competitor": "Benne foglaltatik"
+              "name": "Személyek adatbázisa",
+              "b1": "Tartalmazza",
+              "competitor": "Gyakran felár ellenében"
             },
             {
-              "name": "Tagsági adatbázis",
-              "b1": true,
-              "competitor": "ChMS extra"
+              "name": "Check-in",
+              "b1": "Tartalmazza",
+              "competitor": "Gyakran felár ellenében"
             },
             {
-              "name": "Bejelentkezési rendszer",
-              "b1": true,
-              "competitor": "Extra költség"
+              "name": "Tagi alkalmazás",
+              "b1": "A gyülekezet weboldaláról",
+              "competitor": "Tartalmazza"
             },
             {
-              "name": "Weboldal-szerkesztő",
-              "b1": true,
-              "competitor": false
-            },
-            {
-              "name": "Csoportkezelés",
-              "b1": true,
-              "competitor": "Extra költség"
-            },
-            {
-              "name": "Adományozási nyilatkozatok",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Alapkezelés",
-              "b1": true,
-              "competitor": true
+              "name": "Weboldalkészítő",
+              "b1": "Tartalmazza",
+              "competitor": "Nem tartalmazza"
             },
             {
               "name": "Nyílt forráskód",
-              "b1": true,
-              "competitor": false
+              "b1": "Igen",
+              "competitor": "Nem"
             }
           ],
-          "pricingB1": "100% Ingyenes",
-          "pricingCompetitor": "$300 - $1,000+/month",
-          "verdict": "A Pushpay funkciógazdag, de drága. A B1.church összehasonlítható adományozási funkciókat kínál, valamint teljes gyülekezetkezelést díjmentesen. A megtakarítások átirányíthatók a szolgálatra."
+          "pricingB1": "$0 / hó",
+          "pricingCompetitor": "Havi díj + feldolgozás",
+          "verdict": "Fizessen a Pushpaynak, ha az ő adakozási rendszerüket szeretné, és meg tudja fizetni a platformot. Kezdje a B1-gyel, ha a teljes gyülekezeti csomagot és $0 szoftvert szeretne. A kártya- vagy ACH-díjakat mindkét esetben Ön fizeti."
         },
         "tithely": {
           "name": "Tithe.ly",
-          "tagline": "Ingyenes alternatíva a Tithe.ly-hez",
-          "description": "A Tithe.ly gyülekezeti adományozási és kezelési eszközöket kínál freemium árazással. A B1.church mindent ingyen biztosít, tranzakciós díjak nélkül.",
+          "tagline": "Ők sajátították ki az „ingyenes” szót. Mi nem veszünk le belőle semmit.",
+          "description": "A Tithe.ly adakozási cég, gyülekezeti szoftverrel kiegészítve. A B1 maga a gyülekezetkezelő szoftver, 100%-ban ingyenes, tárhellyel együtt. Az adakozás benne van. A Stripe nonprofit díja 2,2% + $0.30; a Tithe.ly „ingyenes” adakozása 2,9% + $0.30.",
           "features": [
             {
-              "name": "Online adományozás",
-              "b1": "Nincs B1 díj",
-              "competitor": "Platform + Stripe díjak"
+              "name": "Adakozás",
+              "b1": "Stripe nonprofit 2,2% + $0.30",
+              "competitor": "Tithe.ly „ingyenes” 2,9% + $0.30"
             },
             {
-              "name": "Ismétlődő adományok",
-              "b1": true,
-              "competitor": true
+              "name": "Személyek adatbázisa",
+              "b1": "Tartalmazza",
+              "competitor": "Fizetős gyülekezetkezelés"
             },
             {
-              "name": "Mobilalkalmazás",
-              "b1": "Ingyenes márkázott alkalmazás",
-              "competitor": "$99/mo"
+              "name": "Check-in",
+              "b1": "Tartalmazza",
+              "competitor": "Fizetős kiegészítő"
             },
             {
-              "name": "Tagsági adatbázis",
-              "b1": true,
-              "competitor": "$99/mo"
+              "name": "Tagi alkalmazás",
+              "b1": "A gyülekezet weboldaláról",
+              "competitor": "Fizetős"
             },
             {
-              "name": "Bejelentkezési rendszer",
-              "b1": true,
-              "competitor": "$49/mo"
-            },
-            {
-              "name": "Weboldal-szerkesztő",
-              "b1": true,
-              "competitor": "$49/mo"
-            },
-            {
-              "name": "Csoportkezelés",
-              "b1": true,
-              "competitor": "$99/mo"
-            },
-            {
-              "name": "Prédikációkezelés",
-              "b1": true,
-              "competitor": "$49/mo"
-            },
-            {
-              "name": "Többtelephely",
-              "b1": true,
-              "competitor": "Extra költség"
+              "name": "Weboldalkészítő",
+              "b1": "Tartalmazza",
+              "competitor": "Fizetős kiegészítő"
             },
             {
               "name": "Nyílt forráskód",
-              "b1": true,
-              "competitor": false
+              "b1": "Igen",
+              "competitor": "Nem"
             }
           ],
-          "pricingB1": "100% Ingyenes",
-          "pricingCompetitor": "Free tier + $49-199/mo for features",
-          "verdict": "A Tithe.ly ingyenes szintje korlátozott. A teljes funkcionalitás eléréséhez a költségek gyorsan összeadódnak. A B1.church az első naptól mindent tartalmaz, felminősítési nyomás nélkül."
+          "pricingB1": "$0 / hó",
+          "pricingCompetitor": "Ingyenes adakozási oldal, fizetős gyülekezetkezelés",
+          "verdict": "A Tithe.ly ingyenes adakozást és fizetős gyülekezetkezelést árul. A B1 a gyülekezeti szoftver, tárhellyel együtt. A Stripe nonprofit díja 2,2% + $0.30, szemben a Tithe.ly „ingyenes” 2,9% + $0.30 díjával. Nincs fizetős szint, amely feloldaná az embereket, a check-int vagy a weboldalt."
         },
         "breeze": {
-          "name": "Breeze ChMS",
-          "tagline": "Ingyenes alternatíva a Breeze ChMS-hez",
-          "description": "A Breeze egy egyszerű gyülekezetkezelő rendszer egyértelmű árazással. A B1.church több funkciót kínál díjmentesen.",
+          "name": "Breeze",
+          "tagline": "Fizetős és egyszerű, vagy $0 és teljes",
+          "description": "A Breeze fizetős, egyszerű gyülekezetkezelő szoftver. A Planning Centert elhagyók a Breeze-t említik. A B1 $0, és tartalmazza a weboldalt, a platformdíj nélküli adakozást, a check-int és az istentisztelet-tervezést. A Breeze-ből importáljuk az embereket.",
           "features": [
             {
-              "name": "Tagsági adatbázis",
-              "b1": true,
-              "competitor": true
+              "name": "Személyek adatbázisa",
+              "b1": "Tartalmazza",
+              "competitor": "Tartalmazza"
             },
             {
-              "name": "Adománykezelés",
-              "b1": "Nincs B1 díj",
-              "competitor": "2.9% + 30¢"
+              "name": "Adakozás",
+              "b1": "Nincs B1 platformdíj",
+              "competitor": "Fizetős feldolgozás"
             },
             {
-              "name": "Bejelentkezési rendszer",
-              "b1": true,
-              "competitor": "Alapszintű"
+              "name": "Check-in",
+              "b1": "Tartalmazza",
+              "competitor": "Tartalmazza"
             },
             {
-              "name": "Mobilalkalmazás",
-              "b1": "Ingyenes márkázott alkalmazás",
-              "competitor": "Korlátozott"
+              "name": "Tagi alkalmazás",
+              "b1": "A gyülekezet weboldaláról",
+              "competitor": "Breeze mobil"
             },
             {
-              "name": "Weboldal-szerkesztő",
-              "b1": true,
-              "competitor": false
+              "name": "Weboldalkészítő",
+              "b1": "Tartalmazza",
+              "competitor": "Nem tartalmazza"
             },
             {
-              "name": "Csoportkezelés",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Eseménykezelés",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Önkéntes-ütemezés",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Többtelephely",
-              "b1": true,
-              "competitor": false
+              "name": "Importálás",
+              "b1": "A Breeze-ből importáljuk az embereket",
+              "competitor": "—"
             },
             {
               "name": "Nyílt forráskód",
-              "b1": true,
-              "competitor": false
+              "b1": "Igen",
+              "competitor": "Nem"
             }
           ],
-          "pricingB1": "100% Ingyenes",
-          "pricingCompetitor": "$72 - $135/month",
-          "verdict": "A Breeze egyszerű és megfizethető, de a B1.church egyszerűbb a költségvetés számára (ingyen!), miközben több funkciót kínál, például weboldal-szerkesztőt és teljes mobilalkalmazást."
+          "pricingB1": "$0 / hó",
+          "pricingCompetitor": "Havi díjas",
+          "verdict": "Válassza a Breeze-t, ha kifinomult fizetős terméket szeretne, és elhagyja a Planning Centert. Válassza a B1-et, ha a weboldalt és az adakozást ugyanabban a $0 rendszerben szeretné."
         }
-      },
-      "hubTitle": "How B1 compares",
-      "hubSubtitle": "B1 is the ChMS you start on. People, giving, check-in, website, member app, worship planning. $0 forever. 501(c)(3).",
-      "priceB1Label": "$0 / month",
-      "priceB1Note": "No tiers. No platform fee on gifts."
+      }
     },
     "churchManagement": {
       "meta": {
@@ -693,20 +633,58 @@
       "hero": {
         "title": "Ingyenes",
         "titleHighlight": "Gyülekezetkezelő szoftver",
-        "titleLine2": "Teljes szolgálati platform",
-        "description": "Professzionális <strong>gyülekezetkezelő szoftver</strong> jelenlét-követéssel, tagsági adatbázissal, adománykezeléssel és kommunikációs eszközökkel. Teljesen <strong>ingyenes gyülekezeti szoftver</strong>, amelyet a Live Church Solutions, egy 501(c)(3) non-profit szolgálat biztosít. Csatlakozzon több mint 100 gyülekezethez, akik ezreket takarítanak meg a szolgálati szoftverköltségeken.",
+        "titleLine2": "Tárhellyel együtt.",
+        "description": "Emberek, adakozás, check-in, weboldal, tagi alkalmazás és istentisztelet-tervezés. Egy platform. Örökre $0.",
         "ctaPrimary": "Kezdje el ingyen",
-        "ctaSecondary": "Próbálja ki a demót",
-        "trustLine": "Növekvő gyülekezetek megbízható eszköze világszerte",
-        "trustFree": "Teljesen ingyenes örökre",
-        "trustNonProfit": "501(c)(3) non-profit szolgálat",
-        "trustOpenSource": "Nyílt forráskódú"
+        "ctaSecondary": "Nézze meg, hogyan viszonyul a B1",
+        "trustLine": "Mit kap valójában",
+        "trustFree": "501(c)(3)",
+        "trustNonProfit": "Nincsenek csomagok",
+        "trustOpenSource": "A tárhely benne van"
       },
+      "freeMeaning": {
+        "eyebrow": "Ingyenes gyülekezetkezelő szoftver",
+        "title": "Az ingyenes a szoftvert és a tárhelyet jelenti.",
+        "lead": "A gyülekezetek embereket, adakozást, check-int, weboldalt, tagi alkalmazást és istentisztelet-tervezést kapnak havi szoftverszámla nélkül.",
+        "items": [
+          {
+            "title": "A szoftver és a tárhely ingyenes",
+            "description": "A platform valóban 100%-ban ingyenes, tárhellyel együtt. Nincs próbaidőszak, nincs gyülekezetméret-korlát, és nincs szükség előfizetésre az emberek, az adakozás, a check-in, a csoportok, a weboldal vagy a jelenlét feloldásához."
+          },
+          {
+            "title": "Az adakozás benne van",
+            "description": "Az online adakozás a platform része. A B1 nem számít fel platformdíjat az adományokon."
+          },
+          {
+            "title": "Nyílt forráskód a ChurchAppstól",
+            "description": "A B1 a ChurchApps csomag része. Elolvashatja a kódot, exportálhatja az adatait, vagy saját szerveren is futtathatja."
+          }
+        ],
+        "compareLink": "Nézze meg, hogyan viszonyul a B1"
+      },
+      "highlights": [
+        {
+          "number": "$0",
+          "label": "Szoftver és tárhely"
+        },
+        {
+          "number": "100%",
+          "label": "Örökre ingyenes"
+        },
+        {
+          "number": "Egy",
+          "label": "Közös adatbázis"
+        },
+        {
+          "number": "Nyílt",
+          "label": "Forráskód a GitHubon"
+        }
+      ],
       "featuresHeader": {
-        "title": "Teljes körű",
-        "titleHighlight": "Gyülekezetkezelő rendszer",
-        "titleSuffix": "funkciói",
-        "description": "Professzionális gyülekezeti adatbázis-szoftver tagkezeléssel, jelenlét-követéssel, adománykezeléssel és szolgálati kommunikációs eszközökkel. Ingyenes gyülekezetkezelő rendszer, amelyet kifejezetten növekvő gyülekezetek és többtelephelyes gyülekezetek számára terveztünk."
+        "title": "Egy",
+        "titleHighlight": "ingyenes gyülekezetkezelő",
+        "titleSuffix": "eszköztár",
+        "description": "Emberek, adakozás, check-in, csoportok, weboldal és jelenlét egyetlen adatbázisban. A tárhely benne van. Ezen az oldalon semmit sem adunk el kiegészítőként."
       },
       "checkinStations": {
         "title": "Önkiszolgáló bejelentkezési állomások",
@@ -755,7 +733,7 @@
       "testimonials": {
         "title": "Gyülekezetek szerte",
         "titleHighlight": "mindenütt szeretik",
-        "subtitle": "Csatlakozzon azokhoz a növekvő gyülekezetekhez, amelyek teljesen ingyenes platformunkkal átalakították szolgálatukat. Íme, mit mondanak a lelkészek és gyülekezeti vezetők.",
+        "subtitle": "Lelkipásztorok és gyülekezeti adminisztrátorok, akiknek ingyenes gyülekezetkezelő szoftveres eszközök kellettek — és abbahagyták a havi szoftverszámla fizetését.",
         "items": [
           {
             "content": "Ezt a platformot minden vasárnap használjuk a jelenlét követésére és a vasárnapi iskolás gyermekeinket is beleértve minden résztvevő nyilvántartására. Korlátozott költségvetésű misszionáriusokként értékeljük, hogy ez a szoftver ingyenes és hatékony."
@@ -771,7 +749,7 @@
       "aboutSection": {
         "title": "Ingyenes",
         "titleHighlight": "gyülekezeti szoftverünkről",
-        "description": "Átfogó <strong>gyülekezetkezelő szoftver</strong>, amelyet teljesen ingyenesen biztosít keresztény gyülekezetek és szolgálatok számára a <strong>Live Church Solutions</strong>, egy 2012-ben alapított 501(c)(3) non-profit szervezet. Küldetésünk, hogy segítsünk a gyülekezeteknek professzionális <strong>szolgálati szoftvert</strong> bevezetni a gyülekezeti adminisztrációs rendszerek tipikus magas költségei nélkül."
+        "description": "A B1 ingyenes gyülekezetkezelő szoftver a <strong>Live Church Solutions</strong> és a nyílt forráskódú <strong>ChurchApps</strong> csomag jóvoltából. A tárhely benne van. A termék az emberek, az adakozás, a check-in, a csoportok, a weboldal és a jelenlét — nem egy ingyenes próbaidőszak, amelyből árajánlat lesz."
       },
       "stats": [
         {
@@ -780,9 +758,9 @@
           "description": "Úgy véljük, ezt a pénzt jobban lehet hasznosítani"
         },
         {
-          "number": "100+",
-          "label": "Platformunkat már használó gyülekezet",
-          "description": "Elégedett felhasználók növekvő közössége"
+          "number": "$0",
+          "label": "A tárhely benne van",
+          "description": "Az alkalmazás, a weboldal és az adminisztrációs eszközök a mi költségünkre futnak"
         },
         {
           "number": "2012",
@@ -803,24 +781,25 @@
       },
       "allFeatures": {
         "title": "Minden, amire szüksége van, teljesen ingyen",
-        "subtitle": "Nincs próbaidőszak, tagsági korlát, rejtett díjak",
+        "subtitle": "Nincs próbaidőszak, nincs tagkorlát, nincsenek rejtett díjak — tárhellyel együtt",
         "items": [
           "Teljes tagsági adatbázis részletes profilokkal",
           "Jelenlét-követés önkiszolgáló bejelentkezési alkalmazással",
           "Csoportok és kiscsoportok kezelése",
           "Adománykezelés részletes jelentésekkel",
-          "Egyéni űrlapok és adatgyűjtés",
+          "Gyülekezeti weboldalkészítő",
+          "Egyedi űrlapok és adatgyűjtés",
           "E-mailes kommunikációs eszközök",
           "Eseménykezelés és ütemezés",
           "Adatimport meglévő rendszerekből",
-          "Több telephelyes támogatás",
-          "Szerepkör-alapú hozzáférés és jogosultságok",
-          "Nyílt forráskód GitHub hozzáféréssel"
+          "Több helyszín és több campus támogatása",
+          "Szerepköralapú hozzáférés és jogosultságok",
+          "Nyílt forráskód GitHub-hozzáféréssel"
         ]
       },
       "cta": {
-        "title": "Készen áll leállni a gyülekezetkezelő szoftverért való fizetéssel?",
-        "description": "Csatlakozzon a világ gyülekezeteihez, amelyek áttértek egy teljesen ingyenes, nyílt forráskódú megoldásra, amelyet egy szolgálat épített szolgálatok számára.",
+        "title": "Készen áll, hogy abbahagyja a gyülekezeti szoftver fizetését?",
+        "description": "A B1 a teljes csomag $0-ért. A tárhely benne van.",
         "primaryButton": "Kezdje el ingyen",
         "secondaryButton": "Próbálja ki a demót"
       },

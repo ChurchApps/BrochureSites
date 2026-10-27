@@ -24,7 +24,7 @@
         "ctaSecondary": "立即体验",
         "trust": [
           "永久免费——没有套餐，没有试用期",
-          "不加收任何交易费用",
+          "B1 不对奉献收取平台费",
           "在 GitHub 上开源",
           "始于 2012 年的 501(c)(3) 非营利事工"
         ]
@@ -62,7 +62,7 @@
         }
       },
       "connect": {
-        "eyebrow": "B1 移动应用",
+        "eyebrow": "PWA · 从教会网站安装",
         "title": "让您的会众，",
         "titleAccent": "一周七天保持连接。",
         "lead": "在主日之外，也给教会一个共同的家。B1 应用将会友通讯录、小组、消息和讲道送到每位会众的手机上。",
@@ -277,8 +277,8 @@
       "titleHighlight": "喜爱",
       "subtitle": "加入已通过我们完全免费的平台实现事工转型的成长中教会。以下是牧师和教会管理员对 B1 的评价。",
       "stats": {
-        "churchesValue": "100+",
-        "churchesLabel": "服务全球教会",
+        "churchesValue": "501(c)(3)",
+        "churchesLabel": "非营利事工",
         "freeValue": "免费",
         "freeLabel": "永远如此",
         "openValue": "开放",
@@ -336,7 +336,7 @@
       "faq": "常见问题",
       "aboutChurchApps": "关于 ChurchApps",
       "appsAndResources": "应用与资源",
-      "installApp": "安装移动应用",
+      "installApp": "从教会网站安装",
       "helpCenter": "帮助中心",
       "contact": "联系我们",
       "availableWorldwide": "全球可用"
@@ -349,35 +349,35 @@
       "items": [
         {
           "question": "B1.church 真的是 100% 免费的吗？",
-          "answer": "是的，B1.church 完全免费，没有隐藏费用、没有高级套餐、没有捐献交易手续费。我们是一个 501(c)(3) 非营利事工组织，相信每个教会都应该能够使用现代技术，不受预算限制。我们的平台由捐款和 Google Ad Grants 资助。"
+          "answer": "是的。托管版 B1 永久 $0。没有套餐，不限人数。Live Church Solutions 是 501(c)(3) 非营利组织（EIN 45-5349618），990 表公开。您只需向 Stripe 或 PayPal 支付奉献手续费，B1 额外收取 $0。"
         },
         {
           "question": "B1.church 包含哪些功能？",
-          "answer": "B1.church 包含一个完整的教会管理平台：直接从您的网站安装的会友移动应用、拖拽式网站构建器、不加收平台费用的在线奉献、带安全码的儿童签到系统、会友数据库、出席管理、小组管理、崇拜规划、诗歌库、讲道管理以及圣经集成。"
+          "answer": "会友、奉献、签到、网站构建器、会友应用、小组、考勤、聚会规划和诗歌库。"
         },
         {
           "question": "B1.church 与 Planning Center 相比如何？",
-          "answer": "B1.church 100% 免费，而 Planning Center 按模块收费（$0-299+/月）。B1 免费包含移动应用和网站构建器，而 Planning Center 的 Church Center 需额外付费且不包含网站构建器。两者都提供教会管理功能，但 B1 将所有功能打包在一个免费套餐中。"
+          "answer": "Planning Center People 免费。其他 PCO 产品有免费版，之后随规模增长付费。Church Center 基础功能免费。B1 是 $0 的完整套件，无需按模块升级。"
         },
         {
           "question": "B1.church 与 Pushpay 相比如何？",
-          "answer": "B1.church 完全免费，而 Pushpay 费用为 $300-1000+/月。B1 的奉献功能不收取交易手续费，而 Pushpay 从捐献中抽取百分比。B1 是开源的，包含完整的教会管理功能，而 Pushpay 是专有软件，主要专注于奉献。"
+          "answer": "Pushpay 是付费奉献平台。B1 包含不收平台费的奉献功能，以及其余全部教会管理功能，仅需 $0。您仍需支付刷卡或 ACH 费率。"
         },
         {
           "question": "B1.church 与 Tithe.ly 相比如何？",
-          "answer": "B1.church 完全免费且无交易手续费。Tithe.ly 提供免费版但对高级功能收费，并从每笔捐献中抽取百分比。B1 包含完整的教会管理软件，而 Tithe.ly 的 ChMS 是单独的付费产品。"
+          "answer": "Tithe.ly 是奉献公司，另附付费教会管理系统。B1 是 100% 免费的教会管理系统，含托管，并包含奉献功能。Stripe 非营利费率为 2.2% + $0.30；Tithe.ly“免费”奉献为 2.9% + $0.30。"
         },
         {
           "question": "B1.church 与 Breeze ChMS 相比如何？",
-          "answer": "B1.church 免费，而 Breeze 起价 $72/月。B1 包含完整的移动应用和网站构建器，而 Breeze 的移动功能有限且没有网站构建器。两者都提供教会管理功能，但 B1 免费提供更多功能。"
+          "answer": "Breeze 是付费的简易教会管理系统。B1 为 $0，包含网站、不收平台费的奉献、签到和敬拜规划。我们支持导入 Breeze 会友数据。"
         },
         {
           "question": "我的教会会有自己的移动应用吗？",
-          "answer": "会的。B1 以可安装的网页应用（PWA）形式，为您的教会提供专属品牌的移动应用体验。会友打开教会网站，点击“添加到主屏幕”，就能获得带有教会名称和标志的全屏应用。更新即刻送达每个人。"
+          "answer": "会友从教会网站安装应用，选择“添加到主屏幕”即可。"
         },
         {
           "question": "B1.church 支持在线奉献吗？",
-          "answer": "是的，B1.church 包含安全的在线奉献功能，支持信用卡和银行转账。您可以设置定期捐献、管理多个基金，并提供奉献记录用于税务报表。我们使用直接的 Stripe 集成，B1 平台不收取任何费用 - 您的教会直接与 Stripe 协商费率（通常约 2.9% + 30¢）。"
+          "answer": "是的。支持 Stripe 或 PayPal。定期奉献、基金、年度报表。B1 额外收取 $0。"
         },
         {
           "question": "我可以用 B1.church 建立网站吗？",
@@ -385,7 +385,7 @@
         },
         {
           "question": "B1.church 有儿童事工签到功能吗？",
-          "answer": "有的，B1.church 包含智能签到系统，支持无接触式自助服务终端、家庭签到、自动分组、儿童接送安全码以及带报告的出勤追踪。"
+          "answer": "是的。姓名标签、安全码、考勤。"
         },
         {
           "question": "B1.church 是开源的吗？",
@@ -426,264 +426,204 @@
         }
       },
       "notFound": {
-        "title": "未找到比较",
-        "subtitle": "查看我们可用的比较："
+        "title": "B1 如何比较",
+        "subtitle": "B1 是您起步的教会管理系统。会友、奉献、签到、网站、会友应用、敬拜规划。永久 $0。501(c)(3)。"
       },
+      "hubTitle": "B1 对比",
+      "hubSubtitle": "B1 是您入门的教会管理系统。会友管理、奉献、签到、网站、会友应用、敬拜安排。永久 $0。501(c)(3)。",
       "b1vsPrefix": "B1 vs",
-      "noHiddenFees": "无隐藏费用，永久免费",
-      "plusTransactionFees": "另加交易手续费",
+      "noHiddenFees": "没有套餐。不对奉献收取平台费。",
+      "plusTransactionFees": "",
+      "priceB1Label": "$0 / month",
+      "priceB1Note": "没有套餐分级。奉献不收平台费。",
       "featureColumn": "功能",
       "ourTake": "我们的观点",
-      "ctaTitle": "准备好为您的教会节省开支了吗？",
-      "ctaDescription": "切换到 B1.church，将软件预算重新投入事工。",
+      "ctaTitle": "以 $0 获得完整套件",
+      "ctaDescription": "B1 是 $0 的完整套件。",
       "ctaButton": "免费开始",
       "otherComparisons": "其他比较",
       "competitors": {
         "planning-center": {
           "name": "Planning Center",
-          "tagline": "Planning Center 的免费替代方案",
-          "description": "Planning Center 是一个流行的教会管理平台，采用模块化定价。B1.church 完全免费地提供类似功能。",
+          "tagline": "$0 的完整套件",
+          "description": "B1 是 $0 的完整套件。无需按模块升级。",
           "features": [
             {
-              "name": "会员数据库",
-              "b1": true,
-              "competitor": true
+              "name": "会友数据库",
+              "b1": "已包含",
+              "competitor": "免费，不限人数"
             },
             {
-              "name": "签到系统",
-              "b1": true,
-              "competitor": "$99/月"
+              "name": "奉献",
+              "b1": "B1 不收平台费",
+              "competitor": "仅处理费；随规模增长需付费奉献"
             },
             {
-              "name": "在线奉献",
-              "b1": "B1 无费用",
-              "competitor": "平台费 + Stripe 费用"
+              "name": "签到",
+              "b1": "已包含",
+              "competitor": "已包含"
             },
             {
-              "name": "小组管理",
-              "b1": true,
-              "competitor": "$50/月"
+              "name": "聚会规划",
+              "b1": "已包含",
+              "competitor": "已包含"
             },
             {
-              "name": "礼拜规划",
-              "b1": true,
-              "competitor": "$14-99/月"
-            },
-            {
-              "name": "移动应用",
-              "b1": "免费品牌应用",
-              "competitor": "$0-199/月"
+              "name": "会友应用",
+              "b1": "来自教会网站",
+              "competitor": "Church Center"
             },
             {
               "name": "网站构建器",
-              "b1": true,
-              "competitor": false
+              "b1": "已包含",
+              "competitor": "不包含"
             },
             {
-              "name": "讲道管理",
-              "b1": true,
-              "competitor": false
-            },
-            {
-              "name": "多堂点",
-              "b1": true,
-              "competitor": "额外费用"
+              "name": "导入",
+              "b1": "来自 Planning Center 的会友",
+              "competitor": "—"
             },
             {
               "name": "开源",
-              "b1": true,
-              "competitor": false
+              "b1": "是",
+              "competitor": "否"
             }
           ],
-          "pricingB1": "100% 免费",
-          "pricingCompetitor": "$0 - $500+/月，取决于模块",
-          "verdict": "B1.church 提供 Planning Center 的所有核心功能，没有模块化定价的复杂性。如果预算是一个考虑因素，B1 是明智的选择。"
+          "pricingB1": "$0 / 月",
+          "pricingCompetitor": "免费起步，之后按模块付费",
+          "verdict": "B1 以 $0 提供会友、奉献、签到、网站和敬拜规划。无需按模块升级。含托管。"
         },
         "pushpay": {
           "name": "Pushpay",
-          "tagline": "Pushpay 的免费替代方案",
-          "description": "Pushpay 以移动奉献著称，但伴随着高昂的月费和交易手续费。B1.church 提供零平台费用的奉献功能。",
+          "tagline": "奉献加上其余全部教会管理功能，仅需 $0",
+          "description": "Pushpay 是付费奉献平台。B1 包含不收平台费的奉献功能，以及会友、签到、网站和敬拜规划。",
           "features": [
             {
-              "name": "在线奉献",
-              "b1": "B1 无费用",
-              "competitor": "平台费 + Stripe 费用"
+              "name": "奉献",
+              "b1": "B1 不收平台费",
+              "competitor": "付费平台 + 处理费"
             },
             {
-              "name": "定期捐献",
-              "b1": true,
-              "competitor": true
+              "name": "定期奉献",
+              "b1": "已包含",
+              "competitor": "已包含"
             },
             {
-              "name": "移动应用",
-              "b1": "免费品牌应用",
-              "competitor": "包含"
+              "name": "会友数据库",
+              "b1": "已包含",
+              "competitor": "通常需额外付费"
             },
             {
-              "name": "会员数据库",
-              "b1": true,
-              "competitor": "ChMS 额外付费"
+              "name": "签到",
+              "b1": "已包含",
+              "competitor": "通常需额外付费"
             },
             {
-              "name": "签到系统",
-              "b1": true,
-              "competitor": "额外费用"
+              "name": "会友应用",
+              "b1": "来自教会网站",
+              "competitor": "已包含"
             },
             {
               "name": "网站构建器",
-              "b1": true,
-              "competitor": false
-            },
-            {
-              "name": "小组管理",
-              "b1": true,
-              "competitor": "额外费用"
-            },
-            {
-              "name": "奉献报表",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "基金管理",
-              "b1": true,
-              "competitor": true
+              "b1": "已包含",
+              "competitor": "不包含"
             },
             {
               "name": "开源",
-              "b1": true,
-              "competitor": false
+              "b1": "是",
+              "competitor": "否"
             }
           ],
-          "pricingB1": "100% 免费",
-          "pricingCompetitor": "$300 - $1,000+/月",
-          "verdict": "Pushpay 功能丰富但价格昂贵。B1.church 提供类似的奉献功能以及完整的教会管理，完全免费。节省的费用可以重新投入事工。"
+          "pricingB1": "$0 / 月",
+          "pricingCompetitor": "按月付费 + 处理费",
+          "verdict": "如果您想用 Pushpay 的奉献通道并负担得起平台费，就选择 Pushpay。如果您想要完整的教会套件和 $0 软件，就从 B1 开始。无论哪种，您仍需支付刷卡或 ACH 费率。"
         },
         "tithely": {
           "name": "Tithe.ly",
-          "tagline": "Tithe.ly 的免费替代方案",
-          "description": "Tithe.ly 提供教会奉献和管理工具，采用免费增值定价。B1.church 提供所有功能且完全免费，不收取交易手续费。",
+          "tagline": "他们占用了“免费”二字。我们不抽成。",
+          "description": "Tithe.ly 是附带教会软件的奉献公司。B1 是 100% 免费的教会管理系统，含托管，并包含奉献功能。Stripe 非营利费率为 2.2% + $0.30；Tithe.ly“免费”奉献为 2.9% + $0.30。",
           "features": [
             {
-              "name": "在线奉献",
-              "b1": "B1 无费用",
-              "competitor": "平台费 + Stripe 费用"
+              "name": "奉献",
+              "b1": "Stripe 非营利 2.2% + $0.30",
+              "competitor": "Tithe.ly“免费” 2.9% + $0.30"
             },
             {
-              "name": "定期捐献",
-              "b1": true,
-              "competitor": true
+              "name": "会友数据库",
+              "b1": "已包含",
+              "competitor": "付费教会管理系统"
             },
             {
-              "name": "移动应用",
-              "b1": "免费品牌应用",
-              "competitor": "$99/月"
+              "name": "签到",
+              "b1": "已包含",
+              "competitor": "付费附加项"
             },
             {
-              "name": "会员数据库",
-              "b1": true,
-              "competitor": "$99/月"
-            },
-            {
-              "name": "签到系统",
-              "b1": true,
-              "competitor": "$49/月"
+              "name": "会友应用",
+              "b1": "来自教会网站",
+              "competitor": "付费"
             },
             {
               "name": "网站构建器",
-              "b1": true,
-              "competitor": "$49/月"
-            },
-            {
-              "name": "小组管理",
-              "b1": true,
-              "competitor": "$99/月"
-            },
-            {
-              "name": "讲道管理",
-              "b1": true,
-              "competitor": "$49/月"
-            },
-            {
-              "name": "多堂点",
-              "b1": true,
-              "competitor": "额外费用"
+              "b1": "已包含",
+              "competitor": "付费附加项"
             },
             {
               "name": "开源",
-              "b1": true,
-              "competitor": false
+              "b1": "是",
+              "competitor": "否"
             }
           ],
-          "pricingB1": "100% 免费",
-          "pricingCompetitor": "免费版 + $49-199/月获取更多功能",
-          "verdict": "Tithe.ly 的免费版功能有限。要获得完整功能，费用会迅速累积。B1.church 从第一天起就包含所有功能，没有升级压力。"
+          "pricingB1": "$0 / 月",
+          "pricingCompetitor": "奉献页面免费，教会管理系统付费",
+          "verdict": "Tithe.ly 销售免费奉献和付费教会管理系统。B1 是含托管的教会软件。Stripe 非营利费率为 2.2% + $0.30，而 Tithe.ly“免费”奉献为 2.9% + $0.30。无需付费升级即可使用会友、签到或网站功能。"
         },
         "breeze": {
-          "name": "Breeze ChMS",
-          "tagline": "Breeze ChMS 的免费替代方案",
-          "description": "Breeze 是一个简单的教会管理系统，定价直观。B1.church 免费提供更多功能。",
+          "name": "Breeze",
+          "tagline": "付费且简单，对比 $0 且完整",
+          "description": "Breeze 是付费的简易教会管理系统。离开 Planning Center 的人常会提到 Breeze。B1 为 $0，包含网站、不收平台费的奉献、签到和敬拜规划。我们支持导入 Breeze 会友数据。",
           "features": [
             {
-              "name": "会员数据库",
-              "b1": true,
-              "competitor": true
+              "name": "会友数据库",
+              "b1": "已包含",
+              "competitor": "已包含"
             },
             {
-              "name": "奉献管理",
-              "b1": "B1 无费用",
-              "competitor": "2.9% + 30¢"
+              "name": "奉献",
+              "b1": "B1 不收平台费",
+              "competitor": "付费处理"
             },
             {
-              "name": "签到系统",
-              "b1": true,
-              "competitor": "基础版"
+              "name": "签到",
+              "b1": "已包含",
+              "competitor": "已包含"
             },
             {
-              "name": "移动应用",
-              "b1": "免费品牌应用",
-              "competitor": "有限"
+              "name": "会友应用",
+              "b1": "来自教会网站",
+              "competitor": "Breeze 移动应用"
             },
             {
               "name": "网站构建器",
-              "b1": true,
-              "competitor": false
+              "b1": "已包含",
+              "competitor": "不包含"
             },
             {
-              "name": "小组管理",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "活动管理",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "志愿者排班",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "多堂点",
-              "b1": true,
-              "competitor": false
+              "name": "导入",
+              "b1": "我们支持导入 Breeze 会友",
+              "competitor": "—"
             },
             {
               "name": "开源",
-              "b1": true,
-              "competitor": false
+              "b1": "是",
+              "competitor": "否"
             }
           ],
-          "pricingB1": "100% 免费",
-          "pricingCompetitor": "$72 - $135/月",
-          "verdict": "Breeze 简单且价格实惠，但 B1.church 对预算更友好（免费！），同时提供更多功能，如网站构建器和完整的移动应用。"
+          "pricingB1": "$0 / 月",
+          "pricingCompetitor": "按月付费",
+          "verdict": "如果您想要精致的付费产品，并且正在离开 Planning Center，请选择 Breeze。如果您想让网站和奉献在同一个 $0 系统中，请选择 B1。"
         }
-      },
-      "hubTitle": "How B1 compares",
-      "hubSubtitle": "B1 is the ChMS you start on. People, giving, check-in, website, member app, worship planning. $0 forever. 501(c)(3).",
-      "priceB1Label": "$0 / month",
-      "priceB1Note": "No tiers. No platform fee on gifts."
+      }
     },
     "churchManagement": {
       "meta": {
@@ -693,20 +633,58 @@
       "hero": {
         "title": "免费",
         "titleHighlight": "教会管理软件",
-        "titleLine2": "完整的事工平台",
-        "description": "专业的<strong>教会管理软件</strong>，包含出勤追踪、会员数据库、奉献管理和沟通工具。由 Live Church Solutions（一个 501(c)(3) 非营利事工组织）提供的完全<strong>免费教会软件</strong>。加入 100 多个在事工软件费用上节省了数千美元的教会。",
+        "titleLine2": "含托管。",
+        "description": "会友、奉献、签到、网站、会友应用和敬拜规划。一个平台。永久 $0。",
         "ctaPrimary": "免费开始",
-        "ctaSecondary": "试用演示",
-        "trustLine": "受到全球成长中教会的信赖",
-        "trustFree": "完全永久免费",
-        "trustNonProfit": "501(c)(3) 非营利事工",
-        "trustOpenSource": "开源"
+        "ctaSecondary": "了解 B1 如何比较",
+        "trustLine": "您实际获得什么",
+        "trustFree": "501(c)(3)",
+        "trustNonProfit": "没有套餐",
+        "trustOpenSource": "含托管"
       },
+      "freeMeaning": {
+        "eyebrow": "免费教会管理软件",
+        "title": "免费，指的是软件和托管。",
+        "lead": "教会无需每月支付教会管理系统费用，即可拥有会友管理、奉献、签到、网站、会友应用和敬拜规划。",
+        "items": [
+          {
+            "title": "软件与托管均免费",
+            "description": "平台真正 100% 免费，含托管。没有试用期，不限教会规模，无需升级即可使用会友、奉献、签到、小组、网站或考勤功能。"
+          },
+          {
+            "title": "已包含奉献功能",
+            "description": "在线奉献是平台的一部分。B1 不对奉献额外收取平台费。"
+          },
+          {
+            "title": "来自 ChurchApps 的开源软件",
+            "description": "B1 是 ChurchApps 套件的一部分。您可以查看源代码、导出数据或自行托管。"
+          }
+        ],
+        "compareLink": "了解 B1 如何比较"
+      },
+      "highlights": [
+        {
+          "number": "$0",
+          "label": "软件与托管"
+        },
+        {
+          "number": "100%",
+          "label": "永久免费"
+        },
+        {
+          "number": "一个",
+          "label": "共享数据库"
+        },
+        {
+          "number": "开放",
+          "label": "源代码在 GitHub"
+        }
+      ],
       "featuresHeader": {
-        "title": "完整的",
-        "titleHighlight": "教会管理系统",
-        "titleSuffix": "功能",
-        "description": "专业的教会数据库软件，包含会员管理、出勤追踪、奉献管理和事工沟通工具。专为成长中的教会和多堂点教会设计的免费教会管理系统。"
+        "title": "一个",
+        "titleHighlight": "免费教会管理",
+        "titleSuffix": "工具包",
+        "description": "会友、奉献、签到、小组、网站和考勤集于一个数据库。含托管。本页没有任何内容作为附加项出售。"
       },
       "checkinStations": {
         "title": "自助签到终端",
@@ -755,7 +733,7 @@
       "testimonials": {
         "title": "深受各地教会",
         "titleHighlight": "喜爱",
-        "subtitle": "加入已通过我们完全免费的平台实现事工转型的成长中教会。以下是牧师和教会管理员的评价。",
+        "subtitle": "需要免费教会管理软件工具的牧者和教会行政人员——并且不再每月支付教会管理系统费用。",
         "items": [
           {
             "content": "我们每个主日都使用这个平台来追踪出勤并记录所有参加者，包括主日学的孩子们。作为预算有限的传教士，我们非常感谢这个软件是免费且有效的。"
@@ -771,7 +749,7 @@
       "aboutSection": {
         "title": "关于我们的",
         "titleHighlight": "免费教会软件",
-        "description": "由 <strong>Live Church Solutions</strong>（一个成立于 2012 年的 501(c)(3) 非营利组织）完全免费提供给基督教教会和事工的全面<strong>教会管理软件</strong>。我们的使命是帮助教会部署专业的<strong>事工软件</strong>，免除教会管理系统通常的高昂费用。"
+        "description": "B1 是来自 <strong>Live Church Solutions</strong> 和开源 <strong>ChurchApps</strong> 套件的免费教会管理软件。含托管。产品包括会友、奉献、签到、小组、网站和考勤——不是最后变成报价单的免费试用。"
       },
       "stats": [
         {
@@ -780,9 +758,9 @@
           "description": "我们相信这笔钱可以得到更好的利用"
         },
         {
-          "number": "100+",
-          "label": "已在使用我们平台的教会",
-          "description": "不断壮大的满意用户社区"
+          "number": "$0",
+          "label": "含托管",
+          "description": "应用、网站和管理工具均由我们运行"
         },
         {
           "number": "2012",
@@ -803,24 +781,25 @@
       },
       "allFeatures": {
         "title": "您所需的一切，完全免费",
-        "subtitle": "无试用期，无会员限制，无隐藏费用",
+        "subtitle": "没有试用期，没有会友人数限制，没有隐藏费用——含托管",
         "items": [
           "完整的会员数据库，支持详细档案",
           "出勤追踪，支持自助签到应用",
           "小组和团契管理",
           "奉献管理，支持详细报告",
-          "自定义表单和数据收集",
-          "邮件通讯工具",
-          "活动管理和排程",
+          "教会网站构建器",
+          "自定义表单与数据收集",
+          "电子邮件沟通工具",
+          "活动管理与排程",
           "从现有系统导入数据",
-          "多堂点和多地点支持",
-          "基于角色的访问和权限控制",
-          "开源，可在 GitHub 上访问"
+          "多堂会与多校区支持",
+          "基于角色的访问与权限",
+          "开源，可访问 GitHub"
         ]
       },
       "cta": {
-        "title": "准备好停止为教会管理软件付费了吗？",
-        "description": "加入全球已切换到完全免费、开源解决方案的教会，该方案由事工团队打造，为事工服务。",
+        "title": "准备好不再为教会软件付费了吗？",
+        "description": "B1 是 $0 的完整套件。含托管。",
         "primaryButton": "免费开始",
         "secondaryButton": "试用演示"
       },

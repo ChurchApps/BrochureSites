@@ -24,7 +24,7 @@
         "ctaSecondary": "Lihat Cara Kerjanya",
         "trust": [
           "Gratis selamanya — tanpa paket berjenjang, tanpa masa uji coba",
-          "Tanpa biaya transaksi tambahan",
+          "Tanpa biaya platform B1 untuk persembahan",
           "Open source di GitHub",
           "Pelayanan nirlaba 501(c)(3) sejak 2012"
         ]
@@ -62,7 +62,7 @@
         }
       },
       "connect": {
-        "eyebrow": "Aplikasi Seluler B1",
+        "eyebrow": "PWA · pasang dari situs gereja Anda",
         "title": "Jemaat Anda terhubung",
         "titleAccent": "sepanjang minggu.",
         "lead": "Berikan gereja Anda satu tempat untuk tetap terhubung di antara hari Minggu. Aplikasi B1 menghadirkan direktori jemaat, grup, pesan, dan khotbah ke setiap ponsel di jemaat Anda.",
@@ -277,8 +277,8 @@
       "titleHighlight": "di Mana-mana",
       "subtitle": "Bergabunglah dengan gereja-gereja yang sedang bertumbuh yang telah mengubah pelayanan mereka dengan platform kami yang sepenuhnya gratis. Inilah yang dikatakan para pendeta dan administrator gereja tentang B1.",
       "stats": {
-        "churchesValue": "100+",
-        "churchesLabel": "Gereja di seluruh dunia",
+        "churchesValue": "501(c)(3)",
+        "churchesLabel": "Pelayanan nirlaba",
         "freeValue": "Gratis",
         "freeLabel": "Selamanya & selalu",
         "openValue": "Terbuka",
@@ -336,7 +336,7 @@
       "faq": "FAQ",
       "aboutChurchApps": "Tentang ChurchApps",
       "appsAndResources": "Aplikasi & Sumber Daya",
-      "installApp": "Pasang Aplikasi Seluler",
+      "installApp": "Pasang dari situs gereja Anda",
       "helpCenter": "Pusat Bantuan",
       "contact": "Kontak",
       "availableWorldwide": "Tersedia di Seluruh Dunia"
@@ -349,35 +349,35 @@
       "items": [
         {
           "question": "Apakah B1.church benar-benar 100% gratis?",
-          "answer": "Ya, B1.church sepenuhnya gratis tanpa biaya tersembunyi, tanpa tingkat premium, dan tanpa biaya transaksi pada donasi. Kami adalah pelayanan nirlaba 501(c)(3) yang percaya bahwa setiap gereja berhak mengakses teknologi modern tanpa memandang anggaran. Platform kami didanai oleh donasi dan Google Ad Grants."
+          "answer": "Ya. B1 hosting gratis $0 selamanya. Tanpa paket bertingkat, tanpa batas jumlah orang. Live Church Solutions adalah 501(c)(3) (EIN 45-5349618). Formulir 990 terbuka untuk publik. Anda membayar Stripe atau PayPal untuk persembahan. B1 menambahkan $0."
         },
         {
           "question": "Fitur apa saja yang termasuk dalam B1.church?",
-          "answer": "B1.church mencakup platform manajemen gereja lengkap: aplikasi seluler jemaat yang dipasang langsung dari situs web Anda, pembuat situs web drag-and-drop, persembahan online tanpa biaya platform tambahan, sistem check-in anak dengan kode keamanan, basis data jemaat, pelacakan kehadiran, manajemen grup, perencanaan ibadah, pustaka lagu, manajemen khotbah, dan integrasi Alkitab."
+          "answer": "Data jemaat, persembahan, check-in, pembuat situs web, aplikasi jemaat, kelompok, kehadiran, perencanaan ibadah, dan pustaka lagu."
         },
         {
           "question": "Bagaimana B1.church dibandingkan dengan Planning Center?",
-          "answer": "B1.church 100% gratis sementara Planning Center mengenakan biaya per modul ($0-299+/bulan). B1 menyertakan aplikasi mobile dan pembuat situs web tanpa biaya, sementara Planning Center mengenakan biaya tambahan untuk Church Center dan tidak menyertakan pembuat situs web. Keduanya menawarkan fitur manajemen gereja, tetapi B1 menyediakan semuanya dalam satu paket gratis."
+          "answer": "Planning Center People gratis. Produk PCO lainnya punya paket gratis, lalu Anda membayar seiring pertumbuhan. Fitur dasar Church Center gratis. B1 adalah seluruh paket lengkap seharga $0 tanpa tambahan biaya per modul."
         },
         {
           "question": "Bagaimana B1.church dibandingkan dengan Pushpay?",
-          "answer": "B1.church sepenuhnya gratis sementara Pushpay berbiaya $300-1000+/bulan. B1 tidak memiliki biaya transaksi pada pemberian, sementara Pushpay mengambil persentase dari donasi. B1 adalah open source dan mencakup manajemen gereja penuh, sementara Pushpay bersifat proprietary dan berfokus terutama pada pemberian."
+          "answer": "Pushpay adalah platform persembahan berbayar. B1 menyertakan persembahan tanpa biaya platform, plus seluruh ChMS lainnya, seharga $0. Anda tetap membayar tarif kartu atau ACH."
         },
         {
           "question": "Bagaimana B1.church dibandingkan dengan Tithe.ly?",
-          "answer": "B1.church sepenuhnya gratis tanpa biaya transaksi. Tithe.ly menawarkan tingkat gratis tetapi mengenakan biaya untuk fitur premium dan mengambil persentase dari setiap donasi. B1 menyertakan perangkat lunak manajemen gereja penuh, sementara ChMS Tithe.ly adalah produk berbayar terpisah."
+          "answer": "Tithe.ly adalah perusahaan persembahan dengan ChMS berbayar. B1 adalah ChMS yang 100% gratis termasuk hosting. Persembahan sudah termasuk. Stripe nirlaba 2,2% + $0.30; persembahan \"gratis\" Tithe.ly 2,9% + $0.30."
         },
         {
           "question": "Bagaimana B1.church dibandingkan dengan Breeze ChMS?",
-          "answer": "B1.church gratis sementara Breeze dimulai dari $72/bulan. B1 menyertakan aplikasi mobile penuh dan pembuat situs web, sementara Breeze memiliki fitur mobile yang terbatas dan tidak ada pembuat situs web. Keduanya menawarkan manajemen gereja, tetapi B1 menyediakan lebih banyak fitur tanpa biaya."
+          "answer": "Breeze adalah ChMS sederhana yang berbayar. B1 seharga $0 dan sudah termasuk situs web, persembahan tanpa biaya platform, check-in, dan perencanaan ibadah. Kami mengimpor data jemaat Breeze."
         },
         {
           "question": "Apakah gereja saya mendapat aplikasi seluler?",
-          "answer": "Ya. B1 memberi gereja Anda pengalaman aplikasi seluler dengan identitas sendiri sebagai aplikasi web yang dapat dipasang (PWA). Jemaat membuka situs gereja Anda, mengetuk 'Tambahkan ke Layar Utama', dan mendapatkan aplikasi layar penuh dengan nama dan logo gereja Anda. Pembaruan langsung sampai ke semua orang."
+          "answer": "Jemaat memasang aplikasi dari situs gereja Anda. Tambahkan ke Layar Utama."
         },
         {
           "question": "Apakah B1.church mendukung pemberian online?",
-          "answer": "Ya, B1.church menyertakan pemberian online yang aman dengan dukungan kartu kredit dan transfer bank. Anda dapat mengatur donasi berulang, mengelola beberapa dana, dan menyediakan riwayat pemberian untuk laporan pajak. Kami menggunakan integrasi langsung dengan Stripe tanpa biaya platform B1 - gereja Anda menegosiasikan tarif langsung dengan Stripe (biasanya sekitar 2.9% + 30¢)."
+          "answer": "Ya. Stripe atau PayPal. Persembahan berulang, dana, laporan. B1 menambahkan $0."
         },
         {
           "question": "Bisakah saya membangun situs web dengan B1.church?",
@@ -385,7 +385,7 @@
         },
         {
           "question": "Apakah B1.church memiliki check-in untuk pelayanan anak?",
-          "answer": "Ya, B1.church menyertakan sistem check-in pintar dengan kios swalayan tanpa sentuh, check-in keluarga, penugasan kelompok otomatis, kode keamanan untuk penjemputan anak, dan pelacakan kehadiran dengan laporan."
+          "answer": "Ya. Tanda nama, kode keamanan, kehadiran."
         },
         {
           "question": "Apakah B1.church open source?",
@@ -426,264 +426,204 @@
         }
       },
       "notFound": {
-        "title": "Perbandingan Tidak Ditemukan",
-        "subtitle": "Lihat perbandingan kami yang tersedia:"
+        "title": "Perbandingan B1",
+        "subtitle": "B1 adalah ChMS untuk memulai. Data jemaat, persembahan, check-in, situs web, aplikasi jemaat, perencanaan ibadah. $0 selamanya. 501(c)(3)."
       },
+      "hubTitle": "Perbandingan B1",
+      "hubSubtitle": "B1 adalah sistem manajemen gereja tempat Anda memulai. Jemaat, persembahan, check-in, situs web, aplikasi jemaat, perencanaan ibadah. $0 selamanya. 501(c)(3).",
       "b1vsPrefix": "B1 vs",
-      "noHiddenFees": "Tidak ada biaya tersembunyi, selamanya",
-      "plusTransactionFees": "Plus biaya transaksi",
+      "noHiddenFees": "Tanpa paket bertingkat. Tanpa biaya platform untuk persembahan.",
+      "plusTransactionFees": "",
+      "priceB1Label": "$0 / month",
+      "priceB1Note": "Tanpa paket bertingkat. Tanpa biaya platform untuk persembahan.",
       "featureColumn": "Fitur",
       "ourTake": "Pandangan Kami",
-      "ctaTitle": "Siap menghemat uang gereja Anda?",
-      "ctaDescription": "Beralihlah ke B1.church dan alihkan anggaran perangkat lunak Anda ke pelayanan.",
+      "ctaTitle": "Dapatkan paket lengkap seharga $0",
+      "ctaDescription": "B1 adalah paket lengkap seharga $0.",
       "ctaButton": "Mulai Gratis",
       "otherComparisons": "Perbandingan Lain",
       "competitors": {
         "planning-center": {
           "name": "Planning Center",
-          "tagline": "Alternatif gratis untuk Planning Center",
-          "description": "Planning Center adalah platform manajemen gereja populer dengan harga modular. B1.church menawarkan fitur serupa sepenuhnya gratis.",
+          "tagline": "Paket lengkap seharga $0",
+          "description": "B1 adalah paket lengkap seharga $0. Tanpa tambahan biaya per modul.",
           "features": [
             {
-              "name": "Basis Data Anggota",
-              "b1": true,
-              "competitor": true
+              "name": "Basis data jemaat",
+              "b1": "Termasuk",
+              "competitor": "Gratis, tanpa batas"
             },
             {
-              "name": "Sistem Check-in",
-              "b1": true,
-              "competitor": "$99/mo"
+              "name": "Persembahan",
+              "b1": "Tanpa biaya platform B1",
+              "competitor": "Pemrosesan; Persembahan berbayar seiring pertumbuhan"
             },
             {
-              "name": "Pemberian Online",
-              "b1": "Tanpa biaya B1",
-              "competitor": "Biaya Platform + Stripe"
-            },
-            {
-              "name": "Manajemen Kelompok",
-              "b1": true,
-              "competitor": "$50/mo"
-            },
-            {
-              "name": "Perencanaan Ibadah",
-              "b1": true,
-              "competitor": "$14-99/mo"
-            },
-            {
-              "name": "Aplikasi Mobile",
-              "b1": "Aplikasi bermerek gratis",
-              "competitor": "$0-199/mo"
-            },
-            {
-              "name": "Pembuat Situs Web",
-              "b1": true,
-              "competitor": false
-            },
-            {
-              "name": "Manajemen Khotbah",
-              "b1": true,
-              "competitor": false
-            },
-            {
-              "name": "Multi-Kampus",
-              "b1": true,
-              "competitor": "Biaya tambahan"
-            },
-            {
-              "name": "Open Source",
-              "b1": true,
-              "competitor": false
-            }
-          ],
-          "pricingB1": "100% Gratis",
-          "pricingCompetitor": "$0 - $500+/bulan tergantung modul",
-          "verdict": "B1.church menyediakan semua fitur inti Planning Center tanpa kerumitan harga modular. Jika anggaran menjadi perhatian, B1 adalah pilihan yang jelas."
-        },
-        "pushpay": {
-          "name": "Pushpay",
-          "tagline": "Alternatif gratis untuk Pushpay",
-          "description": "Pushpay dikenal untuk pemberian mobile tetapi hadir dengan biaya bulanan dan biaya transaksi yang signifikan. B1.church menawarkan pemberian dengan biaya platform nol.",
-          "features": [
-            {
-              "name": "Pemberian Online",
-              "b1": "Tanpa biaya B1",
-              "competitor": "Biaya Platform + Stripe"
-            },
-            {
-              "name": "Donasi Berulang",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Aplikasi Mobile",
-              "b1": "Aplikasi bermerek gratis",
+              "name": "Check-in",
+              "b1": "Termasuk",
               "competitor": "Termasuk"
             },
             {
-              "name": "Basis Data Anggota",
-              "b1": true,
-              "competitor": "ChMS tambahan"
+              "name": "Perencanaan ibadah",
+              "b1": "Termasuk",
+              "competitor": "Termasuk"
             },
             {
-              "name": "Sistem Check-in",
-              "b1": true,
-              "competitor": "Biaya tambahan"
+              "name": "Aplikasi jemaat",
+              "b1": "Dari situs gereja Anda",
+              "competitor": "Church Center"
             },
             {
-              "name": "Pembuat Situs Web",
-              "b1": true,
-              "competitor": false
+              "name": "Pembuat situs web",
+              "b1": "Termasuk",
+              "competitor": "Tidak termasuk"
             },
             {
-              "name": "Manajemen Kelompok",
-              "b1": true,
-              "competitor": "Biaya tambahan"
+              "name": "Impor",
+              "b1": "Data jemaat dari Planning Center",
+              "competitor": "—"
             },
             {
-              "name": "Laporan Pemberian",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Manajemen Dana",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Open Source",
-              "b1": true,
-              "competitor": false
+              "name": "Sumber terbuka",
+              "b1": "Ya",
+              "competitor": "Tidak"
             }
           ],
-          "pricingB1": "100% Gratis",
-          "pricingCompetitor": "$300 - $1,000+/bulan",
-          "verdict": "Pushpay kaya fitur tetapi mahal. B1.church menawarkan fitur pemberian yang sebanding plus manajemen gereja penuh tanpa biaya. Penghematan dapat dialihkan ke pelayanan."
+          "pricingB1": "$0 / bulan",
+          "pricingCompetitor": "Gratis di awal, lalu modul berbayar",
+          "verdict": "B1 mencakup data jemaat, persembahan, check-in, situs web, dan perencanaan ibadah seharga $0. Tanpa tambahan biaya per modul. Hosting termasuk."
+        },
+        "pushpay": {
+          "name": "Pushpay",
+          "tagline": "Persembahan plus seluruh ChMS lainnya, seharga $0",
+          "description": "Pushpay adalah platform persembahan berbayar. B1 menyertakan persembahan tanpa biaya platform, plus data jemaat, check-in, situs web, dan perencanaan ibadah.",
+          "features": [
+            {
+              "name": "Persembahan",
+              "b1": "Tanpa biaya platform B1",
+              "competitor": "Platform berbayar + pemrosesan"
+            },
+            {
+              "name": "Persembahan berulang",
+              "b1": "Termasuk",
+              "competitor": "Termasuk"
+            },
+            {
+              "name": "Basis data jemaat",
+              "b1": "Termasuk",
+              "competitor": "Sering kali biaya tambahan"
+            },
+            {
+              "name": "Check-in",
+              "b1": "Termasuk",
+              "competitor": "Sering kali biaya tambahan"
+            },
+            {
+              "name": "Aplikasi jemaat",
+              "b1": "Dari situs gereja Anda",
+              "competitor": "Termasuk"
+            },
+            {
+              "name": "Pembuat situs web",
+              "b1": "Termasuk",
+              "competitor": "Tidak termasuk"
+            },
+            {
+              "name": "Sumber terbuka",
+              "b1": "Ya",
+              "competitor": "Tidak"
+            }
+          ],
+          "pricingB1": "$0 / bulan",
+          "pricingCompetitor": "Bayar bulanan + pemrosesan",
+          "verdict": "Pilih Pushpay jika Anda menginginkan jalur persembahan mereka dan mampu membayar platformnya. Mulailah dengan B1 jika Anda menginginkan seluruh paket untuk gereja dan perangkat lunak seharga $0. Anda tetap membayar tarif kartu atau ACH dalam kedua kasus."
         },
         "tithely": {
           "name": "Tithe.ly",
-          "tagline": "Alternatif gratis untuk Tithe.ly",
-          "description": "Tithe.ly menawarkan alat pemberian dan manajemen gereja dengan harga freemium. B1.church menyediakan semuanya gratis tanpa biaya transaksi.",
+          "tagline": "Mereka memakai kata gratis. Kami tidak mengambil potongan.",
+          "description": "Tithe.ly adalah perusahaan persembahan dengan perangkat lunak gereja sebagai tambahan. B1 adalah ChMS yang 100% gratis termasuk hosting. Persembahan sudah termasuk. Stripe nirlaba 2,2% + $0.30; persembahan \"gratis\" Tithe.ly 2,9% + $0.30.",
           "features": [
             {
-              "name": "Pemberian Online",
-              "b1": "Tanpa biaya B1",
-              "competitor": "Biaya Platform + Stripe"
+              "name": "Persembahan",
+              "b1": "Stripe nirlaba 2,2% + $0.30",
+              "competitor": "Tithe.ly \"gratis\" 2,9% + $0.30"
             },
             {
-              "name": "Donasi Berulang",
-              "b1": true,
-              "competitor": true
+              "name": "Basis data jemaat",
+              "b1": "Termasuk",
+              "competitor": "ChMS berbayar"
             },
             {
-              "name": "Aplikasi Mobile",
-              "b1": "Aplikasi bermerek gratis",
-              "competitor": "$99/mo"
+              "name": "Check-in",
+              "b1": "Termasuk",
+              "competitor": "Tambahan berbayar"
             },
             {
-              "name": "Basis Data Anggota",
-              "b1": true,
-              "competitor": "$99/mo"
+              "name": "Aplikasi jemaat",
+              "b1": "Dari situs gereja Anda",
+              "competitor": "Berbayar"
             },
             {
-              "name": "Sistem Check-in",
-              "b1": true,
-              "competitor": "$49/mo"
+              "name": "Pembuat situs web",
+              "b1": "Termasuk",
+              "competitor": "Tambahan berbayar"
             },
             {
-              "name": "Pembuat Situs Web",
-              "b1": true,
-              "competitor": "$49/mo"
-            },
-            {
-              "name": "Manajemen Kelompok",
-              "b1": true,
-              "competitor": "$99/mo"
-            },
-            {
-              "name": "Manajemen Khotbah",
-              "b1": true,
-              "competitor": "$49/mo"
-            },
-            {
-              "name": "Multi-Kampus",
-              "b1": true,
-              "competitor": "Biaya tambahan"
-            },
-            {
-              "name": "Open Source",
-              "b1": true,
-              "competitor": false
+              "name": "Sumber terbuka",
+              "b1": "Ya",
+              "competitor": "Tidak"
             }
           ],
-          "pricingB1": "100% Gratis",
-          "pricingCompetitor": "Tingkat gratis + $49-199/bulan untuk fitur",
-          "verdict": "Tingkat gratis Tithe.ly terbatas. Untuk mendapatkan fungsionalitas penuh, biaya meningkat dengan cepat. B1.church menyertakan semuanya sejak hari pertama tanpa tekanan upgrade."
+          "pricingB1": "$0 / bulan",
+          "pricingCompetitor": "Halaman persembahan gratis, ChMS berbayar",
+          "verdict": "Tithe.ly menjual persembahan gratis dan ChMS berbayar. B1 adalah perangkat lunak gereja, termasuk hosting. Stripe nirlaba 2,2% + $0.30 dibandingkan Tithe.ly \"gratis\" 2,9% + $0.30. Tanpa paket berbayar untuk membuka data jemaat, check-in, atau situs web."
         },
         "breeze": {
-          "name": "Breeze ChMS",
-          "tagline": "Alternatif gratis untuk Breeze ChMS",
-          "description": "Breeze adalah sistem manajemen gereja sederhana dengan harga yang langsung. B1.church menawarkan lebih banyak fitur tanpa biaya.",
+          "name": "Breeze",
+          "tagline": "Berbayar dan sederhana vs $0 dan lengkap",
+          "description": "Breeze adalah ChMS sederhana yang berbayar. Orang yang meninggalkan Planning Center menyebut Breeze. B1 seharga $0 dan sudah termasuk situs web, persembahan tanpa biaya platform, check-in, dan perencanaan ibadah. Kami mengimpor data jemaat Breeze.",
           "features": [
             {
-              "name": "Basis Data Anggota",
-              "b1": true,
-              "competitor": true
+              "name": "Basis data jemaat",
+              "b1": "Termasuk",
+              "competitor": "Termasuk"
             },
             {
-              "name": "Manajemen Pemberian",
-              "b1": "Tanpa biaya B1",
-              "competitor": "2.9% + 30¢"
+              "name": "Persembahan",
+              "b1": "Tanpa biaya platform B1",
+              "competitor": "Pemrosesan berbayar"
             },
             {
-              "name": "Sistem Check-in",
-              "b1": true,
-              "competitor": "Dasar"
+              "name": "Check-in",
+              "b1": "Termasuk",
+              "competitor": "Termasuk"
             },
             {
-              "name": "Aplikasi Mobile",
-              "b1": "Aplikasi bermerek gratis",
-              "competitor": "Terbatas"
+              "name": "Aplikasi jemaat",
+              "b1": "Dari situs gereja Anda",
+              "competitor": "Breeze mobile"
             },
             {
-              "name": "Pembuat Situs Web",
-              "b1": true,
-              "competitor": false
+              "name": "Pembuat situs web",
+              "b1": "Termasuk",
+              "competitor": "Tidak termasuk"
             },
             {
-              "name": "Manajemen Kelompok",
-              "b1": true,
-              "competitor": true
+              "name": "Impor",
+              "b1": "Kami mengimpor data jemaat Breeze",
+              "competitor": "—"
             },
             {
-              "name": "Manajemen Acara",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Penjadwalan Relawan",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Multi-Kampus",
-              "b1": true,
-              "competitor": false
-            },
-            {
-              "name": "Open Source",
-              "b1": true,
-              "competitor": false
+              "name": "Sumber terbuka",
+              "b1": "Ya",
+              "competitor": "Tidak"
             }
           ],
-          "pricingB1": "100% Gratis",
-          "pricingCompetitor": "$72 - $135/bulan",
-          "verdict": "Breeze sederhana dan terjangkau, tetapi B1.church lebih sederhana untuk anggaran (gratis!) sambil menawarkan lebih banyak fitur seperti pembuat situs web dan aplikasi mobile penuh."
+          "pricingB1": "$0 / bulan",
+          "pricingCompetitor": "Bayar bulanan",
+          "verdict": "Pilih Breeze jika Anda menginginkan produk berbayar yang rapi dan Anda meninggalkan Planning Center. Pilih B1 jika Anda menginginkan situs web dan persembahan dalam satu sistem seharga $0."
         }
-      },
-      "hubTitle": "How B1 compares",
-      "hubSubtitle": "B1 is the ChMS you start on. People, giving, check-in, website, member app, worship planning. $0 forever. 501(c)(3).",
-      "priceB1Label": "$0 / month",
-      "priceB1Note": "No tiers. No platform fee on gifts."
+      }
     },
     "churchManagement": {
       "meta": {
@@ -693,20 +633,58 @@
       "hero": {
         "title": "Gratis",
         "titleHighlight": "Perangkat Lunak Manajemen Gereja",
-        "titleLine2": "Platform Pelayanan Lengkap",
-        "description": "<strong>Perangkat lunak manajemen gereja</strong> profesional dengan pelacakan kehadiran, basis data anggota, manajemen pemberian, dan alat komunikasi. <strong>Perangkat lunak gereja gratis</strong> sepenuhnya yang disediakan oleh Live Church Solutions, pelayanan nirlaba 501(c)(3). Bergabunglah dengan 100+ gereja yang menghemat ribuan dolar dari biaya perangkat lunak pelayanan.",
+        "titleLine2": "Termasuk hosting.",
+        "description": "Data jemaat, persembahan, check-in, situs web, aplikasi jemaat, dan perencanaan ibadah. Satu platform. $0 selamanya.",
         "ctaPrimary": "Mulai Gratis",
-        "ctaSecondary": "Coba Demo",
-        "trustLine": "Dipercaya oleh Gereja yang Sedang Bertumbuh di Seluruh Dunia",
-        "trustFree": "Sepenuhnya Gratis Selamanya",
-        "trustNonProfit": "Pelayanan Nirlaba 501(c)(3)",
-        "trustOpenSource": "Open Source"
+        "ctaSecondary": "Lihat perbandingan B1",
+        "trustLine": "Apa yang sebenarnya Anda dapatkan",
+        "trustFree": "501(c)(3)",
+        "trustNonProfit": "Tanpa paket bertingkat",
+        "trustOpenSource": "Hosting termasuk"
       },
+      "freeMeaning": {
+        "eyebrow": "Perangkat lunak manajemen gereja gratis",
+        "title": "Gratis berarti perangkat lunak dan hosting.",
+        "lead": "Gereja mendapatkan data jemaat, persembahan, check-in, situs web, aplikasi jemaat, dan perencanaan ibadah tanpa tagihan ChMS bulanan.",
+        "items": [
+          {
+            "title": "Perangkat lunak dan hosting gratis",
+            "description": "Platform ini benar-benar 100% gratis, termasuk hosting. Tanpa masa percobaan, tanpa batas ukuran gereja, dan tanpa upgrade untuk membuka data jemaat, persembahan, check-in, kelompok, situs web, atau kehadiran."
+          },
+          {
+            "title": "Persembahan sudah termasuk",
+            "description": "Persembahan online adalah bagian dari platform. B1 tidak menambahkan biaya platform untuk persembahan."
+          },
+          {
+            "title": "Sumber terbuka dari ChurchApps",
+            "description": "B1 adalah bagian dari rangkaian ChurchApps. Anda dapat membaca kodenya, mengekspor data, atau menjalankannya sendiri (self-host)."
+          }
+        ],
+        "compareLink": "Lihat perbandingan B1"
+      },
+      "highlights": [
+        {
+          "number": "$0",
+          "label": "Perangkat lunak dan hosting"
+        },
+        {
+          "number": "100%",
+          "label": "Gratis selamanya"
+        },
+        {
+          "number": "Satu",
+          "label": "Basis data bersama"
+        },
+        {
+          "number": "Terbuka",
+          "label": "Kode sumber di GitHub"
+        }
+      ],
       "featuresHeader": {
-        "title": "Lengkap",
-        "titleHighlight": "Sistem Manajemen Gereja",
-        "titleSuffix": "Fitur",
-        "description": "Perangkat lunak basis data gereja profesional dengan manajemen anggota, pelacakan kehadiran, administrasi pemberian, dan alat komunikasi pelayanan. Sistem manajemen gereja gratis yang dirancang khusus untuk jemaat yang sedang bertumbuh dan gereja multi-kampus."
+        "title": "Satu",
+        "titleHighlight": "manajemen gereja gratis",
+        "titleSuffix": "perangkat lengkap",
+        "description": "Data jemaat, persembahan, check-in, kelompok, situs web, dan kehadiran dalam satu basis data. Hosting termasuk. Tidak ada di halaman ini yang dijual sebagai tambahan."
       },
       "checkinStations": {
         "title": "Stasiun Check-in Swalayan",
@@ -755,7 +733,7 @@
       "testimonials": {
         "title": "Dicintai oleh Gereja",
         "titleHighlight": "di Mana-mana",
-        "subtitle": "Bergabunglah dengan gereja-gereja yang sedang bertumbuh yang telah mengubah pelayanan mereka dengan platform kami yang sepenuhnya gratis. Inilah yang dikatakan para pendeta dan administrator gereja.",
+        "subtitle": "Pendeta dan administrator gereja yang membutuhkan perangkat lunak manajemen gereja gratis — dan berhenti membayar tagihan ChMS bulanan.",
         "items": [
           {
             "content": "Kami menggunakan platform ini setiap hari Minggu untuk melacak kehadiran dan menyimpan catatan semua yang hadir, termasuk anak-anak Sekolah Minggu kami. Sebagai misionaris dengan anggaran terbatas, kami menghargai bahwa perangkat lunak ini gratis dan efektif."
@@ -771,7 +749,7 @@
       "aboutSection": {
         "title": "Tentang Kami",
         "titleHighlight": "Perangkat Lunak Gereja Gratis",
-        "description": "<strong>Perangkat lunak manajemen gereja</strong> yang komprehensif disediakan sepenuhnya gratis untuk gereja Kristen dan pelayanan oleh <strong>Live Church Solutions</strong>, organisasi nirlaba 501(c)(3) yang didirikan pada tahun 2012. Misi kami adalah membantu gereja mengimplementasikan <strong>perangkat lunak pelayanan</strong> profesional tanpa biaya tinggi yang biasanya dari sistem administrasi gereja."
+        "description": "B1 adalah perangkat lunak manajemen gereja gratis dari <strong>Live Church Solutions</strong> dan rangkaian sumber terbuka <strong>ChurchApps</strong>. Hosting termasuk. Produknya mencakup data jemaat, persembahan, check-in, kelompok, situs web, dan kehadiran — bukan uji coba gratis yang berujung penawaran harga."
       },
       "stats": [
         {
@@ -780,9 +758,9 @@
           "description": "Kami percaya uang ini dapat digunakan dengan lebih baik"
         },
         {
-          "number": "100+",
-          "label": "Gereja sudah menggunakan platform kami",
-          "description": "Komunitas pengguna yang puas dan terus bertumbuh"
+          "number": "$0",
+          "label": "Hosting termasuk",
+          "description": "Aplikasi, situs web, dan alat admin berjalan di server kami"
         },
         {
           "number": "2012",
@@ -803,24 +781,25 @@
       },
       "allFeatures": {
         "title": "Semua yang Anda Butuhkan, Sepenuhnya Gratis",
-        "subtitle": "Tidak ada masa uji coba, tidak ada batas anggota, tidak ada biaya tersembunyi",
+        "subtitle": "Tanpa masa percobaan, tanpa batas anggota, tanpa biaya tersembunyi — hosting termasuk",
         "items": [
           "Basis data anggota lengkap dengan profil terperinci",
           "Pelacakan kehadiran dengan aplikasi check-in mandiri",
           "Manajemen kelompok dan kelompok kecil",
           "Manajemen pemberian dengan pelaporan terperinci",
+          "Pembuat situs web gereja",
           "Formulir kustom dan pengumpulan data",
           "Alat komunikasi email",
           "Manajemen dan penjadwalan acara",
           "Impor data dari sistem yang sudah ada",
           "Dukungan multi-situs dan multi-kampus",
           "Akses dan izin berbasis peran",
-          "Open source dengan akses GitHub"
+          "Sumber terbuka dengan akses GitHub"
         ]
       },
       "cta": {
-        "title": "Siap Berhenti Membayar untuk Perangkat Lunak Manajemen Gereja?",
-        "description": "Bergabunglah dengan gereja-gereja di seluruh dunia yang telah beralih ke solusi open-source yang sepenuhnya gratis yang dibangun oleh pelayanan, untuk pelayanan.",
+        "title": "Siap berhenti membayar perangkat lunak gereja?",
+        "description": "B1 adalah paket lengkap seharga $0. Hosting termasuk.",
         "primaryButton": "Mulai Gratis",
         "secondaryButton": "Coba Demo"
       },

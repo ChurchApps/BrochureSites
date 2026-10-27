@@ -6,6 +6,7 @@
     <meta name="keywords" content="free church app, church management software, church website builder, digital giving, church platform, church communication, church check-in, church community" />
     <meta name="author" content="B1 Church" />
     <meta name="robots" content="index, follow" />
+    <link rel="preload" href="/fonts/plus-jakarta-sans-latin-normal.woff2" as="font" type="font/woff2" crossorigin />
     <!-- Per-page <title>, description, canonical, and og/twitter title+description
          are set by the <Seo> component (src/components/Seo.tsx). Only constant,
          page-independent defaults live here. -->
@@ -23,61 +24,83 @@
     <meta name="twitter:image" content="https://b1.church/og-image.png" />
     <meta name="twitter:image:alt" content="B1 Church - Free Church Platform Logo" />
 
-    <!-- Structured Data -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "B1 Church",
-      "url": "https://b1.church",
-      "logo": "https://b1.church/b1-church-logo.png",
-      "description": "100% free, open-source church management platform with a member app, website builder, digital giving, check-in, and community features.",
-      "sameAs": [
-        "https://churchapps.org",
-        "https://github.com/ChurchApps"
-      ],
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "contactType": "customer service",
-        "email": "support@churchapps.org",
-        "telephone": "+1-918-994-2638"
-      },
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "USD",
-        "description": "Free church management platform"
-      }
-    }
-    </script>
-
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "B1 Church Platform",
-      "applicationCategory": "BusinessApplication",
-      "operatingSystem": "Web",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "USD"
-      },
-      "description": "100% free church management software, including hosting. People, giving, check-in, groups, website, and attendance. Open source from ChurchApps.",
-      "features": [
-        "Member Mobile App (PWA)",
-        "Church Management (B1Admin)",
-        "Digital Giving",
-        "Self-Service Check-in",
-        "Church Website Builder",
-        "Sermon Management & Live Streaming",
-        "Workflow Automation",
-        "Bible Integration"
-      ],
-      "publisher": {
-        "@type": "Organization",
-        "name": "B1 Church"
-      }
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://b1.church/#organization",
+          "name": "B1 Church",
+          "alternateName": "B1.church",
+          "url": "https://b1.church/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://b1.church/b1-church-logo-square.png",
+            "width": 180,
+            "height": 180
+          },
+          "image": "https://b1.church/og-image.png",
+          "description": "Free, open-source church management platform with a member app, website builder, digital giving, check-in, and worship planning.",
+          "sameAs": [
+            "https://github.com/ChurchApps"
+          ],
+          "parentOrganization": {
+            "@type": "NonprofitOrganization",
+            "@id": "https://churchapps.org/#organization",
+            "name": "Live Church Solutions",
+            "alternateName": "ChurchApps",
+            "url": "https://churchapps.org/",
+            "nonprofitStatus": "Nonprofit501c3",
+            "taxID": "45-5349618"
+          },
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer service",
+            "email": "support@churchapps.org",
+            "telephone": "+1-918-994-2638",
+            "availableLanguage": "English"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://b1.church/#website",
+          "url": "https://b1.church/",
+          "name": "B1 Church",
+          "publisher": {
+            "@id": "https://b1.church/#organization"
+          }
+        },
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://b1.church/#software",
+          "name": "B1 Church",
+          "url": "https://b1.church/",
+          "image": "https://b1.church/og-image.png",
+          "applicationCategory": "BusinessApplication",
+          "operatingSystem": "Web, iOS, Android",
+          "isAccessibleForFree": true,
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          "description": "100% free church management software, including hosting. People, giving, check-in, groups, website, member app, and worship planning. Open source from ChurchApps.",
+          "featureList": [
+            "Member mobile app (PWA)",
+            "Church management (B1Admin)",
+            "Digital giving with no platform fee",
+            "Self-service check-in",
+            "Church website builder",
+            "Worship planning and song library",
+            "Sermons and live streaming",
+            "Workflow automation"
+          ],
+          "publisher": {
+            "@id": "https://b1.church/#organization"
+          }
+        }
+      ]
     }
     </script>
 
@@ -91,9 +114,6 @@
       gtag('config', 'G-3RQGLEE47Y');
       gtag('event', 'page_view', { send_to: 'G-3RQGLEE47Y' });
     </script>
-
-    <!-- Material Icons Font -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 
   </head>
 

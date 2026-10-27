@@ -36,6 +36,7 @@ const FAQ = () => {
         path="/faq"
         title={t("brochure.faq.documentTitle")}
         description={t("brochure.faq.pageSubtitle")}
+        breadcrumbs={[{ name: t("brochure.footer.faq"), path: "/faq" }]}
       />
       <Head>
         <script id="faq-schema" type="application/ld+json">{JSON.stringify(faqSchema)}</script>

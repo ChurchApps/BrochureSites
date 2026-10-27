@@ -4,10 +4,16 @@ import { SUPPORTED_LANGS } from "@/constants/languages";
 
 const SITE = "https://b1.church";
 
+interface Crumb {
+  name: string;
+  path: string;
+}
+
 interface SeoProps {
   title: string;
   description: string;
   path: string;
+  breadcrumbs?: Crumb[];
   jsonLd?: Record<string, unknown>;
 }
 
@@ -18,10 +24,31 @@ const urlFor = (lang: string, path: string) => {
 };
 
 // Canonical URL prevents subpage deduplication to homepage.
-const Seo = ({ title, description, path, jsonLd }: SeoProps) => {
+const Seo = ({ title, description, path, breadcrumbs, jsonLd }: SeoProps) => {
   const { lang } = useLanguage();
   const url = urlFor(lang, path);
-  const schema = jsonLd ? { ...jsonLd, url: (jsonLd.url as string) || url } : null;
+  const crumbs = breadcrumbs && [{ name: "B1 Church", path: "/" }, ...breadcrumbs];
+  const graph = [
+    {
+      "@type": "WebPage",
+      "@id": `${url}#webpage`,
+      url,
+      name: title,
+      description,
+      inLanguage: lang,
+      isPartOf: { "@id": `${SITE}/#website` },
+      about: { "@id": `${SITE}/#software` },
+      ...(crumbs && { breadcrumb: { "@id": `${url}#breadcrumb` } }),
+      ...jsonLd
+    },
+    ...(crumbs ? [
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${url}#breadcrumb`,
+        itemListElement: crumbs.map((c, i) => ({ "@type": "ListItem", position: i + 1, name: c.name, item: urlFor(lang, c.path) }))
+      }
+    ] : [])
+  ];
   return (
     <Head>
       <title>{title}</title>
@@ -34,7 +61,7 @@ const Seo = ({ title, description, path, jsonLd }: SeoProps) => {
       <meta property="og:url" content={url} />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
-      {schema && <script type="application/ld+json">{JSON.stringify(schema)}</script>}
+      <script type="application/ld+json">{JSON.stringify({ "@context": "https://schema.org", "@graph": graph })}</script>
     </Head>
   );
 };

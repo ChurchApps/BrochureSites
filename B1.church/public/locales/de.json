@@ -24,7 +24,7 @@
         "ctaSecondary": "In Aktion erleben",
         "trust": [
           "Für immer kostenlos — keine Tarife, keine Testphasen",
-          "Keine zusätzlichen Transaktionsgebühren",
+          "Keine B1-Plattformgebühr auf Spenden",
           "Open Source auf GitHub",
           "501(c)(3)-Werk seit 2012"
         ]
@@ -62,7 +62,7 @@
         }
       },
       "connect": {
-        "eyebrow": "Die B1 Mobile App",
+        "eyebrow": "PWA · Installation über die Website Ihrer Gemeinde",
         "title": "Ihre Menschen, verbunden —",
         "titleAccent": "die ganze Woche lang.",
         "lead": "Geben Sie Ihrer Gemeinde einen Ort der Zugehörigkeit, auch zwischen den Sonntagen. Die B1-App bringt Mitgliederverzeichnis, Gruppen, Nachrichten und Predigten auf jedes Smartphone Ihrer Gemeinde.",
@@ -277,8 +277,8 @@
       "titleHighlight": "überall",
       "subtitle": "Schließen Sie sich wachsenden Gemeinden an, die ihren Dienst mit unserer komplett kostenlosen Plattform transformiert haben. Hier erfahren Sie, was Pastoren und Gemeindeverwalter über B1 sagen.",
       "stats": {
-        "churchesValue": "100+",
-        "churchesLabel": "Gemeinden weltweit",
+        "churchesValue": "501(c)(3)",
+        "churchesLabel": "Gemeinnütziges Werk",
         "freeValue": "Kostenlos",
         "freeLabel": "Für immer & ewig",
         "openValue": "Offener",
@@ -336,7 +336,7 @@
       "faq": "FAQ",
       "aboutChurchApps": "Über ChurchApps",
       "appsAndResources": "Apps & Ressourcen",
-      "installApp": "Mobile App installieren",
+      "installApp": "Über die Website Ihrer Gemeinde installieren",
       "helpCenter": "Hilfecenter",
       "contact": "Kontakt",
       "availableWorldwide": "Weltweit verfügbar"
@@ -349,35 +349,35 @@
       "items": [
         {
           "question": "Ist B1.church wirklich 100% kostenlos?",
-          "answer": "Ja, B1.church ist komplett kostenlos – ohne versteckte Gebühren, ohne Premium-Stufen und ohne Transaktionsgebühren auf Spenden. Wir sind ein gemeinnütziger 501(c)(3)-Verein, der davon überzeugt ist, dass jede Gemeinde Zugang zu moderner Technologie verdient – unabhängig vom Budget. Unsere Plattform wird durch Spenden und Google Ad Grants finanziert."
+          "answer": "Ja. Das gehostete B1 kostet für immer $0. Keine Tarifstufen, keine Obergrenze pro Person. Live Church Solutions ist eine 501(c)(3) (EIN 45-5349618). Öffentliches Formular 990. Sie zahlen nur Stripe oder PayPal auf Spenden. B1 berechnet $0 dazu."
         },
         {
           "question": "Welche Funktionen umfasst B1.church?",
-          "answer": "B1.church umfasst eine komplette Plattform für die Gemeindeverwaltung: eine direkt über Ihre Website installierbare Mitglieder-App, einen Website-Baukasten per Drag-and-drop, Online-Spenden ohne zusätzliche Plattformgebühren, ein Kinder-Check-in-System mit Sicherheitscodes, Mitgliederdatenbank, Anwesenheitserfassung, Gruppenverwaltung, Gottesdienstplanung, Liedbibliothek, Predigtverwaltung und Bibelintegration."
+          "answer": "Personen, Spenden, Check-in, Website-Baukasten, Mitglieder-App, Gruppen, Anwesenheit, Gottesdienstplanung und eine Liedbibliothek."
         },
         {
           "question": "Wie schneidet B1.church im Vergleich zu Planning Center ab?",
-          "answer": "B1.church ist 100% kostenlos, während Planning Center pro Modul Gebühren erhebt ($0–299+/Monat). B1 enthält eine mobile App und einen Website-Baukasten ohne zusätzliche Kosten, während Planning Center für Church Center extra berechnet und keinen Website-Baukasten anbietet. Beide bieten Funktionen zur Gemeindeverwaltung, aber B1 stellt alles in einem kostenlosen Paket bereit."
+          "answer": "Planning Center People ist kostenlos. Andere PCO-Produkte haben kostenlose Stufen, danach zahlen Sie mit dem Wachstum. Die Grundfunktionen von Church Center sind kostenlos. B1 ist das ganze Paket für $0, ohne Aufpreis pro Modul."
         },
         {
           "question": "Wie schneidet B1.church im Vergleich zu Pushpay ab?",
-          "answer": "B1.church ist komplett kostenlos, während Pushpay $300–1000+/Monat kostet. B1 erhebt keine Transaktionsgebühren auf Spenden, während Pushpay einen Prozentsatz der Spenden einbehält. B1 ist Open Source und bietet eine vollständige Gemeindeverwaltung, während Pushpay proprietär ist und sich hauptsächlich auf Spenden konzentriert."
+          "answer": "Pushpay ist eine kostenpflichtige Spendenplattform. B1 enthält Spenden ohne Plattformgebühr plus den Rest der Gemeindeverwaltung, für $0. Karten- oder ACH-Gebühren zahlen Sie weiterhin."
         },
         {
           "question": "Wie schneidet B1.church im Vergleich zu Tithe.ly ab?",
-          "answer": "B1.church ist vollständig kostenlos und ohne Transaktionsgebühren. Tithe.ly bietet eine kostenlose Stufe an, erhebt aber Gebühren für Premium-Funktionen und nimmt einen Prozentsatz jeder Spende. B1 enthält eine vollständige Gemeindeverwaltungssoftware, während das ChMS von Tithe.ly ein separates Bezahlprodukt ist."
+          "answer": "Tithe.ly ist ein Spendenanbieter mit kostenpflichtiger Gemeindeverwaltung. B1 ist die Gemeindeverwaltung, 100 % kostenlos inklusive Hosting. Spenden sind enthalten. Stripe für Non-Profits kostet 2.2% + $0.30; die „kostenlosen“ Spenden von Tithe.ly 2.9% + $0.30."
         },
         {
           "question": "Wie schneidet B1.church im Vergleich zu Breeze ChMS ab?",
-          "answer": "B1.church ist kostenlos, während Breeze ab $72/Monat kostet. B1 enthält eine vollständige mobile App und einen Website-Baukasten, während Breeze eingeschränkte mobile Funktionen und keinen Website-Baukasten bietet. Beide bieten Gemeindeverwaltung, aber B1 bietet mehr Funktionen ohne Kosten."
+          "answer": "Breeze ist eine kostenpflichtige, einfache Gemeindeverwaltung. B1 kostet $0 und enthält die Website, Spenden ohne Plattformgebühr, Check-in und Gottesdienstplanung. Wir importieren Ihre Breeze-Personen."
         },
         {
           "question": "Bekommt meine Gemeinde eine mobile App?",
-          "answer": "Ja. B1 bietet Ihrer Gemeinde ein eigenes App-Erlebnis als installierbare Web-App (PWA). Mitglieder öffnen die Website Ihrer Gemeinde, tippen auf 'Zum Startbildschirm hinzufügen' und erhalten eine Vollbild-App mit Name und Logo Ihrer Gemeinde. Updates erreichen alle sofort."
+          "answer": "Mitglieder installieren die App über die Website Ihrer Gemeinde. Zum Startbildschirm hinzufügen."
         },
         {
           "question": "Unterstützt B1.church Online-Spenden?",
-          "answer": "Ja, B1.church bietet sichere Online-Spenden per Kreditkarte und Banküberweisung. Sie können wiederkehrende Spenden einrichten, mehrere Fonds verwalten und Spendenhistorien für Steuerbescheinigungen bereitstellen. Wir nutzen eine direkte Stripe-Integration ohne B1-Plattformgebühren – Ihre Gemeinde verhandelt die Konditionen direkt mit Stripe (in der Regel ca. 2,9% + 30¢)."
+          "answer": "Ja. Stripe oder PayPal. Wiederkehrende Spenden, Fonds, Spendenbescheinigungen. B1 berechnet $0 dazu."
         },
         {
           "question": "Kann ich mit B1.church eine Website erstellen?",
@@ -385,7 +385,7 @@
         },
         {
           "question": "Hat B1.church ein Check-in-System für den Kinderdienst?",
-          "answer": "Ja, B1.church enthält ein intelligentes Check-in-System mit kontaktlosen Self-Service-Kiosken, Familien-Check-in, automatischer Gruppenzuordnung, Sicherheitscodes für die Kinderabholung und Anwesenheitserfassung mit Berichten."
+          "answer": "Ja. Namensschilder, Sicherheitscodes, Anwesenheit."
         },
         {
           "question": "Ist B1.church Open Source?",
@@ -426,264 +426,204 @@
         }
       },
       "notFound": {
-        "title": "Vergleich nicht gefunden",
-        "subtitle": "Sehen Sie sich unsere verfügbaren Vergleiche an:"
+        "title": "So schneidet B1 im Vergleich ab",
+        "subtitle": "B1 ist die Gemeindeverwaltung, mit der Sie starten. Personen, Spenden, Check-in, Website, Mitglieder-App, Gottesdienstplanung. Für immer $0. 501(c)(3)."
       },
+      "hubTitle": "B1 im Vergleich",
+      "hubSubtitle": "B1 ist die Gemeindeverwaltung, mit der Sie starten. Personen, Spenden, Check-in, Website, Mitglieder-App, Gottesdienstplanung. Für immer 0 $. 501(c)(3).",
       "b1vsPrefix": "B1 vs",
-      "noHiddenFees": "Keine versteckten Gebühren, für immer",
-      "plusTransactionFees": "Zuzüglich Transaktionsgebühren",
+      "noHiddenFees": "Keine Tarifstufen. Keine Plattformgebühr auf Spenden.",
+      "plusTransactionFees": "",
+      "priceB1Label": "$0 / month",
+      "priceB1Note": "Keine Tarife. Keine Plattformgebühr auf Spenden.",
       "featureColumn": "Funktion",
       "ourTake": "Unsere Einschätzung",
-      "ctaTitle": "Bereit, Ihrer Gemeinde Geld zu sparen?",
-      "ctaDescription": "Wechseln Sie zu B1.church und investieren Sie Ihr Softwarebudget in den Gemeindedienst.",
+      "ctaTitle": "Das ganze Paket für $0",
+      "ctaDescription": "B1 ist das ganze Paket für $0.",
       "ctaButton": "Kostenlos starten",
       "otherComparisons": "Weitere Vergleiche",
       "competitors": {
         "planning-center": {
           "name": "Planning Center",
-          "tagline": "Kostenlose Alternative zu Planning Center",
-          "description": "Planning Center ist eine beliebte Gemeindeverwaltungsplattform mit modularer Preisgestaltung. B1.church bietet vergleichbare Funktionen komplett kostenlos.",
+          "tagline": "Das ganze Paket für $0",
+          "description": "B1 ist das ganze Paket für $0. Kein Aufpreis pro Modul.",
           "features": [
             {
-              "name": "Mitgliederdatenbank",
-              "b1": true,
-              "competitor": true
+              "name": "Personendatenbank",
+              "b1": "Enthalten",
+              "competitor": "Kostenlos, unbegrenzt"
             },
             {
-              "name": "Check-in-System",
-              "b1": true,
-              "competitor": "$99/Monat"
+              "name": "Spenden",
+              "b1": "Keine B1-Plattformgebühr",
+              "competitor": "Zahlungsabwicklung; kostenpflichtige Spenden bei Wachstum"
             },
             {
-              "name": "Online-Spenden",
-              "b1": "Keine B1-Gebühren",
-              "competitor": "Plattform- + Stripe-Gebühren"
-            },
-            {
-              "name": "Gruppenverwaltung",
-              "b1": true,
-              "competitor": "$50/Monat"
+              "name": "Check-in",
+              "b1": "Enthalten",
+              "competitor": "Enthalten"
             },
             {
               "name": "Gottesdienstplanung",
-              "b1": true,
-              "competitor": "$14–99/Monat"
+              "b1": "Enthalten",
+              "competitor": "Enthalten"
             },
             {
-              "name": "Mobile App",
-              "b1": "Kostenlose App mit eigenem Branding",
-              "competitor": "$0–199/Monat"
+              "name": "Mitglieder-App",
+              "b1": "Über die Website Ihrer Gemeinde",
+              "competitor": "Church Center"
             },
             {
               "name": "Website-Baukasten",
-              "b1": true,
-              "competitor": false
+              "b1": "Enthalten",
+              "competitor": "Nicht enthalten"
             },
             {
-              "name": "Predigtverwaltung",
-              "b1": true,
-              "competitor": false
-            },
-            {
-              "name": "Mehrere Standorte",
-              "b1": true,
-              "competitor": "Zusatzkosten"
+              "name": "Import",
+              "b1": "Personen aus Planning Center",
+              "competitor": "—"
             },
             {
               "name": "Open Source",
-              "b1": true,
-              "competitor": false
+              "b1": "Ja",
+              "competitor": "Nein"
             }
           ],
-          "pricingB1": "100% kostenlos",
-          "pricingCompetitor": "$0 – $500+/Monat je nach Modulen",
-          "verdict": "B1.church bietet alle Kernfunktionen von Planning Center ohne die komplexe modulare Preisgestaltung. Wenn das Budget eine Rolle spielt, ist B1 die klare Wahl."
+          "pricingB1": "$0 / Monat",
+          "pricingCompetitor": "Zum Start kostenlos, danach kostenpflichtige Module",
+          "verdict": "B1 bietet Personen, Spenden, Check-in, Website und Gottesdienstplanung für $0. Kein Aufpreis pro Modul. Hosting inklusive."
         },
         "pushpay": {
           "name": "Pushpay",
-          "tagline": "Kostenlose Alternative zu Pushpay",
-          "description": "Pushpay ist bekannt für mobiles Spenden, verursacht aber erhebliche monatliche Kosten und Transaktionsgebühren. B1.church bietet Spendenfunktionen ohne Plattformgebühren.",
+          "tagline": "Spenden plus der Rest der Gemeindeverwaltung, für $0",
+          "description": "Pushpay ist eine kostenpflichtige Spendenplattform. B1 enthält Spenden ohne Plattformgebühr, dazu Personen, Check-in, Website und Gottesdienstplanung.",
           "features": [
             {
-              "name": "Online-Spenden",
-              "b1": "Keine B1-Gebühren",
-              "competitor": "Plattform- + Stripe-Gebühren"
+              "name": "Spenden",
+              "b1": "Keine B1-Plattformgebühr",
+              "competitor": "Kostenpflichtige Plattform + Zahlungsabwicklung"
             },
             {
               "name": "Wiederkehrende Spenden",
-              "b1": true,
-              "competitor": true
+              "b1": "Enthalten",
+              "competitor": "Enthalten"
             },
             {
-              "name": "Mobile App",
-              "b1": "Kostenlose App mit eigenem Branding",
-              "competitor": "Inklusive"
+              "name": "Personendatenbank",
+              "b1": "Enthalten",
+              "competitor": "Oft extra"
             },
             {
-              "name": "Mitgliederdatenbank",
-              "b1": true,
-              "competitor": "ChMS extra"
+              "name": "Check-in",
+              "b1": "Enthalten",
+              "competitor": "Oft extra"
             },
             {
-              "name": "Check-in-System",
-              "b1": true,
-              "competitor": "Zusatzkosten"
+              "name": "Mitglieder-App",
+              "b1": "Über die Website Ihrer Gemeinde",
+              "competitor": "Enthalten"
             },
             {
               "name": "Website-Baukasten",
-              "b1": true,
-              "competitor": false
-            },
-            {
-              "name": "Gruppenverwaltung",
-              "b1": true,
-              "competitor": "Zusatzkosten"
-            },
-            {
-              "name": "Spendenbescheinigungen",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Fondsverwaltung",
-              "b1": true,
-              "competitor": true
+              "b1": "Enthalten",
+              "competitor": "Nicht enthalten"
             },
             {
               "name": "Open Source",
-              "b1": true,
-              "competitor": false
+              "b1": "Ja",
+              "competitor": "Nein"
             }
           ],
-          "pricingB1": "100% kostenlos",
-          "pricingCompetitor": "$300 – $1.000+/Monat",
-          "verdict": "Pushpay bietet viele Funktionen, ist aber teuer. B1.church bietet vergleichbare Spendenfunktionen plus eine vollständige Gemeindeverwaltung ohne Kosten. Die Einsparungen können direkt in den Gemeindedienst fließen."
+          "pricingB1": "$0 / Monat",
+          "pricingCompetitor": "Monatlich kostenpflichtig + Zahlungsabwicklung",
+          "verdict": "Zahlen Sie Pushpay, wenn Sie deren Spendenschiene wollen und sich die Plattform leisten können. Starten Sie mit B1, wenn Sie das ganze Gemeindepaket und Software für $0 wollen. Karten- oder ACH-Gebühren zahlen Sie in beiden Fällen."
         },
         "tithely": {
           "name": "Tithe.ly",
-          "tagline": "Kostenlose Alternative zu Tithe.ly",
-          "description": "Tithe.ly bietet Spenden- und Verwaltungstools für Gemeinden mit Freemium-Preisgestaltung. B1.church stellt alles kostenlos und ohne Transaktionsgebühren bereit.",
+          "tagline": "Sie besetzen das Wort „kostenlos“. Wir kassieren keinen Anteil.",
+          "description": "Tithe.ly ist ein Spendenanbieter mit angehängter Gemeindesoftware. B1 ist die Gemeindeverwaltung, 100 % kostenlos inklusive Hosting. Spenden sind enthalten. Stripe für Non-Profits kostet 2.2% + $0.30; die „kostenlosen“ Spenden von Tithe.ly 2.9% + $0.30.",
           "features": [
             {
-              "name": "Online-Spenden",
-              "b1": "Keine B1-Gebühren",
-              "competitor": "Plattform- + Stripe-Gebühren"
+              "name": "Spenden",
+              "b1": "Stripe für Non-Profits 2.2% + $0.30",
+              "competitor": "Tithe.ly „kostenlos“ 2.9% + $0.30"
             },
             {
-              "name": "Wiederkehrende Spenden",
-              "b1": true,
-              "competitor": true
+              "name": "Personendatenbank",
+              "b1": "Enthalten",
+              "competitor": "Kostenpflichtige Gemeindeverwaltung"
             },
             {
-              "name": "Mobile App",
-              "b1": "Kostenlose App mit eigenem Branding",
-              "competitor": "$99/Monat"
+              "name": "Check-in",
+              "b1": "Enthalten",
+              "competitor": "Kostenpflichtige Erweiterung"
             },
             {
-              "name": "Mitgliederdatenbank",
-              "b1": true,
-              "competitor": "$99/Monat"
-            },
-            {
-              "name": "Check-in-System",
-              "b1": true,
-              "competitor": "$49/Monat"
+              "name": "Mitglieder-App",
+              "b1": "Über die Website Ihrer Gemeinde",
+              "competitor": "Kostenpflichtig"
             },
             {
               "name": "Website-Baukasten",
-              "b1": true,
-              "competitor": "$49/Monat"
-            },
-            {
-              "name": "Gruppenverwaltung",
-              "b1": true,
-              "competitor": "$99/Monat"
-            },
-            {
-              "name": "Predigtverwaltung",
-              "b1": true,
-              "competitor": "$49/Monat"
-            },
-            {
-              "name": "Mehrere Standorte",
-              "b1": true,
-              "competitor": "Zusatzkosten"
+              "b1": "Enthalten",
+              "competitor": "Kostenpflichtige Erweiterung"
             },
             {
               "name": "Open Source",
-              "b1": true,
-              "competitor": false
+              "b1": "Ja",
+              "competitor": "Nein"
             }
           ],
-          "pricingB1": "100% kostenlos",
-          "pricingCompetitor": "Kostenlose Stufe + $49–199/Monat für Funktionen",
-          "verdict": "Die kostenlose Stufe von Tithe.ly ist eingeschränkt. Für den vollen Funktionsumfang summieren sich die Kosten schnell. B1.church enthält von Anfang an alles – ohne Upgrade-Druck."
+          "pricingB1": "$0 / Monat",
+          "pricingCompetitor": "Kostenlose Spendenseite, kostenpflichtige Gemeindeverwaltung",
+          "verdict": "Tithe.ly verkauft kostenlose Spenden und eine kostenpflichtige Gemeindeverwaltung. B1 ist die Gemeindesoftware, inklusive Hosting. Stripe für Non-Profits kostet 2.2% + $0.30, die „kostenlosen“ Spenden von Tithe.ly 2.9% + $0.30. Keine kostenpflichtige Stufe, um Personen, Check-in oder die Website freizuschalten."
         },
         "breeze": {
-          "name": "Breeze ChMS",
-          "tagline": "Kostenlose Alternative zu Breeze ChMS",
-          "description": "Breeze ist ein einfaches Gemeindeverwaltungssystem mit transparenter Preisgestaltung. B1.church bietet mehr Funktionen ohne Kosten.",
+          "name": "Breeze",
+          "tagline": "Kostenpflichtig und einfach vs. $0 und komplett",
+          "description": "Breeze ist eine kostenpflichtige, einfache Gemeindeverwaltung. Wer Planning Center verlässt, nennt Breeze. B1 kostet $0 und enthält die Website, Spenden ohne Plattformgebühr, Check-in und Gottesdienstplanung. Wir importieren Ihre Breeze-Personen.",
           "features": [
             {
-              "name": "Mitgliederdatenbank",
-              "b1": true,
-              "competitor": true
+              "name": "Personendatenbank",
+              "b1": "Enthalten",
+              "competitor": "Enthalten"
             },
             {
-              "name": "Spendenverwaltung",
-              "b1": "Keine B1-Gebühren",
-              "competitor": "2,9% + 30¢"
+              "name": "Spenden",
+              "b1": "Keine B1-Plattformgebühr",
+              "competitor": "Kostenpflichtige Zahlungsabwicklung"
             },
             {
-              "name": "Check-in-System",
-              "b1": true,
-              "competitor": "Einfach"
+              "name": "Check-in",
+              "b1": "Enthalten",
+              "competitor": "Enthalten"
             },
             {
-              "name": "Mobile App",
-              "b1": "Kostenlose App mit eigenem Branding",
-              "competitor": "Eingeschränkt"
+              "name": "Mitglieder-App",
+              "b1": "Über die Website Ihrer Gemeinde",
+              "competitor": "Breeze Mobile"
             },
             {
               "name": "Website-Baukasten",
-              "b1": true,
-              "competitor": false
+              "b1": "Enthalten",
+              "competitor": "Nicht enthalten"
             },
             {
-              "name": "Gruppenverwaltung",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Veranstaltungsverwaltung",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Ehrenamtlichen-Planung",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Mehrere Standorte",
-              "b1": true,
-              "competitor": false
+              "name": "Import",
+              "b1": "Wir importieren Breeze-Personen",
+              "competitor": "—"
             },
             {
               "name": "Open Source",
-              "b1": true,
-              "competitor": false
+              "b1": "Ja",
+              "competitor": "Nein"
             }
           ],
-          "pricingB1": "100% kostenlos",
-          "pricingCompetitor": "$72 – $135/Monat",
-          "verdict": "Breeze ist einfach und erschwinglich, aber B1.church ist noch einfacher für das Budget (kostenlos!) und bietet dabei mehr Funktionen wie einen Website-Baukasten und eine vollständige mobile App."
+          "pricingB1": "$0 / Monat",
+          "pricingCompetitor": "Monatlich kostenpflichtig",
+          "verdict": "Wählen Sie Breeze, wenn Sie ein ausgereiftes kostenpflichtiges Produkt wollen und Planning Center verlassen. Wählen Sie B1, wenn Sie Website und Spenden im selben $0-System wollen."
         }
-      },
-      "hubTitle": "How B1 compares",
-      "hubSubtitle": "B1 is the ChMS you start on. People, giving, check-in, website, member app, worship planning. $0 forever. 501(c)(3).",
-      "priceB1Label": "$0 / month",
-      "priceB1Note": "No tiers. No platform fee on gifts."
+      }
     },
     "churchManagement": {
       "meta": {
@@ -693,20 +633,58 @@
       "hero": {
         "title": "Kostenlose",
         "titleHighlight": "Gemeindeverwaltungssoftware",
-        "titleLine2": "Vollständige Gemeindeplattform",
-        "description": "Professionelle <strong>Gemeindeverwaltungssoftware</strong> mit Anwesenheitserfassung, Mitgliederdatenbank, Spendenverwaltung und Kommunikationswerkzeugen. Komplett <strong>kostenlose Gemeindesoftware</strong> bereitgestellt von Live Church Solutions, einem gemeinnützigen 501(c)(3)-Verein. Schließen Sie sich über 100 Gemeinden an, die Tausende bei Softwarekosten sparen.",
+        "titleLine2": "Hosting inklusive.",
+        "description": "Personen, Spenden, Check-in, Website, Mitglieder-App und Gottesdienstplanung. Eine Plattform. Für immer $0.",
         "ctaPrimary": "Kostenlos starten",
-        "ctaSecondary": "Demo testen",
-        "trustLine": "Von wachsenden Gemeinden weltweit geschätzt",
-        "trustFree": "Komplett für immer kostenlos",
-        "trustNonProfit": "Gemeinnütziger 501(c)(3)-Verein",
-        "trustOpenSource": "Open Source"
+        "ctaSecondary": "B1 im Vergleich ansehen",
+        "trustLine": "Was Sie wirklich bekommen",
+        "trustFree": "501(c)(3)",
+        "trustNonProfit": "Keine Tarifstufen",
+        "trustOpenSource": "Hosting inklusive"
       },
+      "freeMeaning": {
+        "eyebrow": "Kostenlose Gemeindeverwaltungssoftware",
+        "title": "Kostenlos heißt: die Software und das Hosting.",
+        "lead": "Gemeinden erhalten Personen, Spenden, Check-in, Website, Mitglieder-App und Gottesdienstplanung ohne monatliche Rechnung für die Gemeindeverwaltung.",
+        "items": [
+          {
+            "title": "Software und Hosting sind kostenlos",
+            "description": "Die Plattform ist wirklich zu 100 % kostenlos, inklusive Hosting. Keine Testphase, keine Obergrenze für die Gemeindegröße und kein Upgrade, um Personen, Spenden, Check-in, Gruppen, Website oder Anwesenheit freizuschalten."
+          },
+          {
+            "title": "Spenden sind enthalten",
+            "description": "Online-Spenden sind Teil der Plattform. B1 erhebt keine Plattformgebühr auf Spenden."
+          },
+          {
+            "title": "Open Source von ChurchApps",
+            "description": "B1 gehört zur ChurchApps-Suite. Sie können den Code einsehen, Ihre Daten exportieren oder selbst hosten."
+          }
+        ],
+        "compareLink": "B1 im Vergleich ansehen"
+      },
+      "highlights": [
+        {
+          "number": "$0",
+          "label": "Software und Hosting"
+        },
+        {
+          "number": "100%",
+          "label": "Für immer kostenlos"
+        },
+        {
+          "number": "Eine",
+          "label": "Gemeinsame Datenbank"
+        },
+        {
+          "number": "Offen",
+          "label": "Quellcode auf GitHub"
+        }
+      ],
       "featuresHeader": {
-        "title": "Komplettes",
-        "titleHighlight": "Gemeindeverwaltungssystem",
-        "titleSuffix": "Funktionen",
-        "description": "Professionelle Gemeindedatenbank mit Mitgliederverwaltung, Anwesenheitserfassung, Spendenverwaltung und Kommunikationswerkzeugen für den Gemeindedienst. Kostenloses Gemeindeverwaltungssystem, speziell für wachsende Gemeinden und Gemeinden mit mehreren Standorten entwickelt."
+        "title": "Eine",
+        "titleHighlight": "kostenlose Gemeindeverwaltung",
+        "titleSuffix": "Werkzeugkasten",
+        "description": "Personen, Spenden, Check-in, Gruppen, Website und Anwesenheit in einer Datenbank. Hosting ist inklusive. Nichts auf dieser Seite wird als Zusatz verkauft."
       },
       "checkinStations": {
         "title": "Self-Service-Check-in-Stationen",
@@ -755,7 +733,7 @@
       "testimonials": {
         "title": "Geschätzt von Gemeinden",
         "titleHighlight": "überall",
-        "subtitle": "Schließen Sie sich wachsenden Gemeinden an, die ihren Dienst mit unserer komplett kostenlosen Plattform transformiert haben. Hier erfahren Sie, was Pastoren und Gemeindeverwalter sagen.",
+        "subtitle": "Pastoren und Gemeindeverwalter, die kostenlose Werkzeuge für die Gemeindeverwaltung brauchten — und die monatliche Rechnung für die Gemeindesoftware los sind.",
         "items": [
           {
             "content": "Wir nutzen diese Plattform jeden Sonntag, um die Anwesenheit zu erfassen und Aufzeichnungen über alle Teilnehmenden zu führen, einschließlich unserer Sonntagsschulkinder. Als Missionare mit begrenztem Budget schätzen wir es sehr, dass diese Software kostenlos und effektiv ist."
@@ -771,7 +749,7 @@
       "aboutSection": {
         "title": "Über unsere",
         "titleHighlight": "kostenlose Gemeindesoftware",
-        "description": "Umfassende <strong>Gemeindeverwaltungssoftware</strong>, komplett kostenlos für christliche Gemeinden und Dienste bereitgestellt von <strong>Live Church Solutions</strong>, einem 2012 gegründeten gemeinnützigen 501(c)(3)-Verein. Unsere Mission ist es, Gemeinden bei der Einführung professioneller <strong>Verwaltungssoftware</strong> zu helfen – ohne die typischen hohen Kosten für kirchliche Verwaltungssysteme."
+        "description": "B1 ist kostenlose Gemeindeverwaltungssoftware von <strong>Live Church Solutions</strong> und der Open-Source-Suite <strong>ChurchApps</strong>. Hosting ist inklusive. Das Produkt umfasst Personen, Spenden, Check-in, Gruppen, Website und Anwesenheit — keine kostenlose Testversion, die in ein Angebot übergeht."
       },
       "stats": [
         {
@@ -780,9 +758,9 @@
           "description": "Wir glauben, dass dieses Geld besser eingesetzt werden kann"
         },
         {
-          "number": "100+",
-          "label": "Gemeinden nutzen bereits unsere Plattform",
-          "description": "Wachsende Gemeinschaft zufriedener Nutzer"
+          "number": "$0",
+          "label": "Hosting inklusive",
+          "description": "App, Website und Admin-Werkzeuge laufen bei uns"
         },
         {
           "number": "2012",
@@ -803,24 +781,25 @@
       },
       "allFeatures": {
         "title": "Alles, was Sie brauchen – komplett kostenlos",
-        "subtitle": "Keine Testphasen, keine Mitgliederlimits, keine versteckten Gebühren",
+        "subtitle": "Keine Testzeiträume, keine Mitgliederlimits, keine versteckten Gebühren — Hosting inklusive",
         "items": [
           "Vollständige Mitgliederdatenbank mit detaillierten Profilen",
           "Anwesenheitserfassung mit Self-Check-in-App",
           "Gruppen- und Kleingruppenverwaltung",
           "Spendenverwaltung mit detaillierten Berichten",
+          "Website-Baukasten für Gemeinden",
           "Individuelle Formulare und Datenerfassung",
           "E-Mail-Kommunikationswerkzeuge",
           "Veranstaltungsverwaltung und Terminplanung",
           "Datenimport aus bestehenden Systemen",
-          "Multi-Standort-Unterstützung",
-          "Rollenbasierter Zugriff und Berechtigungen",
+          "Unterstützung für mehrere Standorte und Campus",
+          "Rollenbasierte Zugriffe und Berechtigungen",
           "Open Source mit GitHub-Zugang"
         ]
       },
       "cta": {
-        "title": "Bereit, für Gemeindeverwaltungssoftware nicht mehr zu bezahlen?",
-        "description": "Schließen Sie sich Gemeinden weltweit an, die auf eine komplett kostenlose, Open-Source-Lösung umgestiegen sind – entwickelt von einer Gemeinde, für Gemeinden.",
+        "title": "Bereit, nicht mehr für Gemeindesoftware zu zahlen?",
+        "description": "B1 ist das ganze Paket für $0. Hosting inklusive.",
         "primaryButton": "Kostenlos starten",
         "secondaryButton": "Demo testen"
       },

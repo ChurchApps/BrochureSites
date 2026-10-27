@@ -24,7 +24,7 @@
         "ctaSecondary": "Nasıl Çalıştığını Görün",
         "trust": [
           "Sonsuza dek ücretsiz — paket yok, deneme süresi yok",
-          "Ek işlem ücreti yok",
+          "Bağışlarda B1 platform ücreti yok",
           "GitHub'da açık kaynak",
           "2012'den beri 501(c)(3) statüsünde bir hizmet"
         ]
@@ -62,7 +62,7 @@
         }
       },
       "connect": {
-        "eyebrow": "B1 Mobil Uygulaması",
+        "eyebrow": "PWA · kilisenizin sitesinden yükleyin",
         "title": "Topluluğunuz,",
         "titleAccent": "tüm hafta bağlantıda.",
         "lead": "Kilisenize pazarlar arasında da ait olunacak bir yer verin. B1 uygulaması üye rehberini, grupları, mesajları ve vaazları topluluğunuzdaki her telefona taşır.",
@@ -277,8 +277,8 @@
       "titleHighlight": "Tarafından Seviliyor",
       "subtitle": "Tamamen ücretsiz platformumuzla hizmetlerini dönüştüren büyüyen kiliselere katılın. İşte papazların ve kilise yöneticilerinin B1 hakkında söyledikleri.",
       "stats": {
-        "churchesValue": "100+",
-        "churchesLabel": "Dünya genelinde kilise",
+        "churchesValue": "501(c)(3)",
+        "churchesLabel": "Kâr amacı gütmeyen hizmet",
         "freeValue": "Ücretsiz",
         "freeLabel": "Sonsuza dek, her zaman",
         "openValue": "Açık",
@@ -336,7 +336,7 @@
       "faq": "SSS",
       "aboutChurchApps": "ChurchApps Hakkında",
       "appsAndResources": "Uygulamalar ve Kaynaklar",
-      "installApp": "Mobil Uygulamayı Kurun",
+      "installApp": "Kilisenizin sitesinden yükleyin",
       "helpCenter": "Yardım Merkezi",
       "contact": "İletişim",
       "availableWorldwide": "Dünya Çapında Mevcut"
@@ -349,35 +349,35 @@
       "items": [
         {
           "question": "B1.church gerçekten %100 ücretsiz mi?",
-          "answer": "Evet, B1.church tamamen ücretsizdir; gizli ücret, premium kademe veya bağışlar üzerinde işlem ücreti yoktur. Her kilisenin bütçesinden bağımsız olarak modern teknolojiye erişmeyi hak ettiğine inanan 501(c)(3) kâr amacı gütmeyen bir hizmetiz. Platformumuz bağışlarla ve Google Ad Grants ile finanse edilmektedir."
+          "answer": "Evet. Barındırılan B1 sonsuza dek $0 olarak ücretsizdir. Paket kademesi yok, kişi sınırı yok. Live Church Solutions bir 501(c)(3) kuruluşudur (EIN 45-5349618). Form 990 herkese açıktır. Bağışlarda yalnızca Stripe veya PayPal'a ödeme yaparsınız. B1 ekstra bir şey eklemez: $0."
         },
         {
           "question": "B1.church hangi özellikleri içeriyor?",
-          "answer": "B1.church eksiksiz bir kilise yönetim platformu sunar: doğrudan web sitenizden kurulan üye mobil uygulaması, sürükle-bırak web sitesi oluşturucu, ek platform ücreti olmayan çevrim içi bağış, güvenlik kodlu çocuk giriş sistemi, üye veritabanı, katılım takibi, grup yönetimi, ibadet planlama, ilahi kitaplığı, vaaz yönetimi ve Kutsal Kitap entegrasyonu."
+          "answer": "Kişiler, bağış, check-in, web sitesi oluşturucu, üye uygulaması, gruplar, yoklama, ibadet planlama ve şarkı kütüphanesi."
         },
         {
           "question": "B1.church Planning Center ile nasıl karşılaştırılır?",
-          "answer": "B1.church %100 ücretsizdir, Planning Center ise modül başına ücret alır ($0-299+/ay). B1 ücretsiz olarak mobil uygulama ve web sitesi oluşturucu içerirken, Planning Center Church Center için ek ücret alır ve web sitesi oluşturucu içermez. Her ikisi de kilise yönetim özellikleri sunar, ancak B1 her şeyi tek bir ücretsiz pakette sağlar."
+          "answer": "Planning Center People ücretsizdir. Diğer PCO ürünlerinin ücretsiz katmanları vardır, büyüdükçe ödersiniz. Church Center'ın temel özellikleri ücretsizdir. B1, modül yükseltmesi olmadan tüm paketi $0 olarak sunar."
         },
         {
           "question": "B1.church Pushpay ile nasıl karşılaştırılır?",
-          "answer": "B1.church tamamen ücretsizdir, Pushpay ise aylık $300-1000+ tutarındadır. B1'de bağışlarda işlem ücreti yoktur, Pushpay ise bağışlardan bir yüzde alır. B1 açık kaynaklıdır ve eksiksiz kilise yönetimi içerir, Pushpay ise tescilli ve öncelikle bağışlara odaklanmıştır."
+          "answer": "Pushpay ücretli bir bağış platformudur. B1, platform ücreti olmayan bağışı ve ChMS'in geri kalanını $0 olarak içerir. Kart veya ACH oranlarını yine de ödersiniz."
         },
         {
           "question": "B1.church Tithe.ly ile nasıl karşılaştırılır?",
-          "answer": "B1.church tamamen ücretsizdir ve işlem ücreti yoktur. Tithe.ly ücretsiz bir kademe sunar ancak premium özellikler için ücret alır ve her bağıştan bir yüzde kesinti yapar. B1 tam kilise yönetim yazılımı içerir, Tithe.ly'nin ChMS'i ise ayrı ücretli bir üründür."
+          "answer": "Tithe.ly, ücretli bir ChMS'i olan bir bağış şirketidir. B1, barındırma dahil %100 ücretsiz bir ChMS'tir. Bağış dahildir. Stripe kâr amacı gütmeyen oranı %2,2 + $0.30; Tithe.ly \"ücretsiz\" bağış oranı %2,9 + $0.30."
         },
         {
           "question": "B1.church Breeze ChMS ile nasıl karşılaştırılır?",
-          "answer": "B1.church ücretsizdir, Breeze ise aylık $72'den başlar. B1 tam bir mobil uygulama ve web sitesi oluşturucu içerirken, Breeze'in sınırlı mobil özellikleri vardır ve web sitesi oluşturucusu yoktur. Her ikisi de kilise yönetimi sunar, ancak B1 hiçbir ücret ödemeden daha fazla özellik sağlar."
+          "answer": "Breeze ücretli ve basit bir ChMS'tir. B1 $0 olarak web sitesini, platform ücretsiz bağışı, check-in'i ve ibadet planlamayı içerir. Breeze kişilerini içe aktarıyoruz."
         },
         {
           "question": "Kilisem bir mobil uygulamaya sahip olur mu?",
-          "answer": "Evet. B1, kilisenize kurulabilir bir web uygulaması (PWA) olarak markalı bir mobil uygulama deneyimi sunar. Üyeler kilisenizin sitesini açar, 'Ana Ekrana Ekle'ye dokunur ve kilisenizin adı ile logosunu taşıyan tam ekran bir uygulamaya kavuşur. Güncellemeler herkese anında ulaşır."
+          "answer": "Üyeler uygulamayı kilisenizin sitesinden yükler. Ana Ekrana Ekle."
         },
         {
           "question": "B1.church çevrimiçi bağışları destekliyor mu?",
-          "answer": "Evet, B1.church kredi kartı ve banka havalesi desteğiyle güvenli çevrimiçi bağış içerir. Yinelenen bağışlar ayarlayabilir, birden fazla fonu yönetebilir ve vergi beyannameleri için bağış geçmişi sağlayabilirsiniz. B1 platform ücreti olmadan doğrudan Stripe entegrasyonu kullanıyoruz - kiliseniz oranları doğrudan Stripe ile pazarlık eder (genellikle yaklaşık 2.9% + 30¢)."
+          "answer": "Evet. Stripe veya PayPal. Düzenli bağışlar, fonlar, ekstreler. B1 ekstra bir şey eklemez: $0."
         },
         {
           "question": "B1.church ile bir web sitesi oluşturabilir miyim?",
@@ -385,7 +385,7 @@
         },
         {
           "question": "B1.church'ün çocuk hizmetleri için girişi var mı?",
-          "answer": "Evet, B1.church temassız self-servis kiosklar, aile girişi, otomatik grup atamaları, çocuk teslim alma için güvenlik kodları ve raporlarla katılım takibi içeren akıllı bir giriş sistemi içerir."
+          "answer": "Evet. İsim etiketleri, güvenlik kodları, yoklama."
         },
         {
           "question": "B1.church açık kaynaklı mı?",
@@ -426,264 +426,204 @@
         }
       },
       "notFound": {
-        "title": "Karşılaştırma Bulunamadı",
-        "subtitle": "Mevcut karşılaştırmalarımıza göz atın:"
+        "title": "B1 nasıl karşılaştırılır",
+        "subtitle": "B1, başlayacağınız ChMS'tir. Kişiler, bağış, check-in, web sitesi, üye uygulaması, ibadet planlama. Sonsuza dek $0. 501(c)(3)."
       },
+      "hubTitle": "B1 Karşılaştırması",
+      "hubSubtitle": "B1, başlangıç için kilise yönetim sistemidir. Kişiler, bağışlar, yoklama, web sitesi, üye uygulaması, ibadet planlaması. Sonsuza dek 0 $. 501(c)(3).",
       "b1vsPrefix": "B1 vs",
-      "noHiddenFees": "Sonsuza kadar gizli ücret yok",
-      "plusTransactionFees": "Ayrıca işlem ücretleri",
+      "noHiddenFees": "Kademe yok. Bağışlarda platform ücreti yok.",
+      "plusTransactionFees": "",
+      "priceB1Label": "$0 / month",
+      "priceB1Note": "Paket yok. Bağışlarda platform ücreti yok.",
       "featureColumn": "Özellik",
       "ourTake": "Bizim Görüşümüz",
-      "ctaTitle": "Kilisenizin parasından tasarruf etmeye hazır mısınız?",
-      "ctaDescription": "B1.church'e geçin ve yazılım bütçenizi hizmete yönlendirin.",
+      "ctaTitle": "Tüm paketi $0 olarak edinin",
+      "ctaDescription": "B1, tüm paket $0 olarak.",
       "ctaButton": "Ücretsiz Başlayın",
       "otherComparisons": "Diğer Karşılaştırmalar",
       "competitors": {
         "planning-center": {
           "name": "Planning Center",
-          "tagline": "Planning Center'a ücretsiz alternatif",
-          "description": "Planning Center, modüler fiyatlandırmaya sahip popüler bir kilise yönetim platformudur. B1.church benzer özellikleri tamamen ücretsiz olarak sunar.",
+          "tagline": "Tüm paket $0 olarak",
+          "description": "B1, tüm paket $0 olarak. Modül yükseltmesi yok.",
           "features": [
             {
-              "name": "Üye Veritabanı",
-              "b1": true,
-              "competitor": true
+              "name": "Kişi veritabanı",
+              "b1": "Dahil",
+              "competitor": "Ücretsiz, sınırsız"
             },
             {
-              "name": "Giriş Sistemi",
-              "b1": true,
-              "competitor": "$99/mo"
+              "name": "Bağış",
+              "b1": "B1 platform ücreti yok",
+              "competitor": "İşlem ücreti; büyüdükçe ücretli Giving"
             },
             {
-              "name": "Çevrimiçi Bağış",
-              "b1": "B1 ücreti yok",
-              "competitor": "Platform + Stripe ücretleri"
-            },
-            {
-              "name": "Grup Yönetimi",
-              "b1": true,
-              "competitor": "$50/mo"
-            },
-            {
-              "name": "Ayin Planlama",
-              "b1": true,
-              "competitor": "$14-99/mo"
-            },
-            {
-              "name": "Mobil Uygulama",
-              "b1": "Ücretsiz markalı uygulama",
-              "competitor": "$0-199/mo"
-            },
-            {
-              "name": "Web Sitesi Oluşturucu",
-              "b1": true,
-              "competitor": false
-            },
-            {
-              "name": "Vaaz Yönetimi",
-              "b1": true,
-              "competitor": false
-            },
-            {
-              "name": "Çoklu Kampüs",
-              "b1": true,
-              "competitor": "Ek maliyet"
-            },
-            {
-              "name": "Açık Kaynak",
-              "b1": true,
-              "competitor": false
-            }
-          ],
-          "pricingB1": "100% Ücretsiz",
-          "pricingCompetitor": "Modüllere bağlı olarak aylık $0 - $500+",
-          "verdict": "B1.church, Planning Center'ın tüm temel özelliklerini modüler fiyatlandırma karmaşıklığı olmadan sağlar. Bütçe bir endişe kaynağıysa, B1 açık seçimdir."
-        },
-        "pushpay": {
-          "name": "Pushpay",
-          "tagline": "Pushpay'e ücretsiz alternatif",
-          "description": "Pushpay mobil bağışıyla tanınır ancak önemli aylık maliyetler ve işlem ücretleriyle birlikte gelir. B1.church sıfır platform ücretiyle bağış sunar.",
-          "features": [
-            {
-              "name": "Çevrimiçi Bağış",
-              "b1": "B1 ücreti yok",
-              "competitor": "Platform + Stripe ücretleri"
-            },
-            {
-              "name": "Yinelenen Bağışlar",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Mobil Uygulama",
-              "b1": "Ücretsiz markalı uygulama",
+              "name": "Check-in",
+              "b1": "Dahil",
               "competitor": "Dahil"
             },
             {
-              "name": "Üye Veritabanı",
-              "b1": true,
-              "competitor": "ChMS ekstra"
+              "name": "Hizmet planlama",
+              "b1": "Dahil",
+              "competitor": "Dahil"
             },
             {
-              "name": "Giriş Sistemi",
-              "b1": true,
-              "competitor": "Ek maliyet"
+              "name": "Üye uygulaması",
+              "b1": "Kilisenizin sitesinden",
+              "competitor": "Church Center"
             },
             {
-              "name": "Web Sitesi Oluşturucu",
-              "b1": true,
-              "competitor": false
+              "name": "Web sitesi oluşturucu",
+              "b1": "Dahil",
+              "competitor": "Dahil değil"
             },
             {
-              "name": "Grup Yönetimi",
-              "b1": true,
-              "competitor": "Ek maliyet"
+              "name": "İçe aktarma",
+              "b1": "Planning Center kişileri",
+              "competitor": "—"
             },
             {
-              "name": "Bağış Beyannameleri",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Fon Yönetimi",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Açık Kaynak",
-              "b1": true,
-              "competitor": false
+              "name": "Açık kaynak",
+              "b1": "Evet",
+              "competitor": "Hayır"
             }
           ],
-          "pricingB1": "100% Ücretsiz",
-          "pricingCompetitor": "$300 - $1,000+/month",
-          "verdict": "Pushpay zengin özelliklere sahiptir ancak pahalıdır. B1.church karşılaştırılabilir bağış özelliklerinin yanı sıra tam kilise yönetimini ücretsiz olarak sunar. Tasarruflar hizmete yönlendirilebilir."
+          "pricingB1": "$0 / ay",
+          "pricingCompetitor": "Başlangıç ücretsiz, sonra ücretli modüller",
+          "verdict": "B1, kişiler, bağış, check-in, web sitesi ve ibadet planlamayı $0 olarak sunar. Modül yükseltmesi yok. Barındırma dahil."
+        },
+        "pushpay": {
+          "name": "Pushpay",
+          "tagline": "Bağış ve ChMS'in geri kalanı, $0 olarak",
+          "description": "Pushpay ücretli bir bağış platformudur. B1, platform ücreti olmayan bağışın yanında kişileri, check-in'i, web sitesini ve ibadet planlamayı içerir.",
+          "features": [
+            {
+              "name": "Bağış",
+              "b1": "B1 platform ücreti yok",
+              "competitor": "Ücretli platform + işlem ücreti"
+            },
+            {
+              "name": "Düzenli bağışlar",
+              "b1": "Dahil",
+              "competitor": "Dahil"
+            },
+            {
+              "name": "Kişi veritabanı",
+              "b1": "Dahil",
+              "competitor": "Çoğunlukla ekstra"
+            },
+            {
+              "name": "Check-in",
+              "b1": "Dahil",
+              "competitor": "Çoğunlukla ekstra"
+            },
+            {
+              "name": "Üye uygulaması",
+              "b1": "Kilisenizin sitesinden",
+              "competitor": "Dahil"
+            },
+            {
+              "name": "Web sitesi oluşturucu",
+              "b1": "Dahil",
+              "competitor": "Dahil değil"
+            },
+            {
+              "name": "Açık kaynak",
+              "b1": "Evet",
+              "competitor": "Hayır"
+            }
+          ],
+          "pricingB1": "$0 / ay",
+          "pricingCompetitor": "Aylık ücret + işlem ücreti",
+          "verdict": "Bağış altyapılarını istiyor ve platform ücretini karşılayabiliyorsanız Pushpay'e ödeme yapın. Kilisenin tüm paketini ve $0 yazılımı istiyorsanız B1 ile başlayın. Her iki durumda da kart veya ACH oranlarını yine de ödersiniz."
         },
         "tithely": {
           "name": "Tithe.ly",
-          "tagline": "Tithe.ly'ye ücretsiz alternatif",
-          "description": "Tithe.ly freemium fiyatlandırmayla kilise bağış ve yönetim araçları sunar. B1.church her şeyi işlem ücreti olmadan ücretsiz olarak sağlar.",
+          "tagline": "\"Ücretsiz\" kelimesi onların. Biz pay almıyoruz.",
+          "description": "Tithe.ly, kilise yazılımı da sunan bir bağış şirketidir. B1, barındırma dahil %100 ücretsiz bir ChMS'tir. Bağış dahildir. Stripe kâr amacı gütmeyen oranı %2,2 + $0.30; Tithe.ly \"ücretsiz\" bağış oranı %2,9 + $0.30.",
           "features": [
             {
-              "name": "Çevrimiçi Bağış",
-              "b1": "B1 ücreti yok",
-              "competitor": "Platform + Stripe ücretleri"
+              "name": "Bağış",
+              "b1": "Stripe kâr amacı gütmeyen %2,2 + $0.30",
+              "competitor": "Tithe.ly \"ücretsiz\" %2,9 + $0.30"
             },
             {
-              "name": "Yinelenen Bağışlar",
-              "b1": true,
-              "competitor": true
+              "name": "Kişi veritabanı",
+              "b1": "Dahil",
+              "competitor": "Ücretli ChMS"
             },
             {
-              "name": "Mobil Uygulama",
-              "b1": "Ücretsiz markalı uygulama",
-              "competitor": "$99/mo"
+              "name": "Check-in",
+              "b1": "Dahil",
+              "competitor": "Ücretli ek"
             },
             {
-              "name": "Üye Veritabanı",
-              "b1": true,
-              "competitor": "$99/mo"
+              "name": "Üye uygulaması",
+              "b1": "Kilisenizin sitesinden",
+              "competitor": "Ücretli"
             },
             {
-              "name": "Giriş Sistemi",
-              "b1": true,
-              "competitor": "$49/mo"
+              "name": "Web sitesi oluşturucu",
+              "b1": "Dahil",
+              "competitor": "Ücretli ek"
             },
             {
-              "name": "Web Sitesi Oluşturucu",
-              "b1": true,
-              "competitor": "$49/mo"
-            },
-            {
-              "name": "Grup Yönetimi",
-              "b1": true,
-              "competitor": "$99/mo"
-            },
-            {
-              "name": "Vaaz Yönetimi",
-              "b1": true,
-              "competitor": "$49/mo"
-            },
-            {
-              "name": "Çoklu Kampüs",
-              "b1": true,
-              "competitor": "Ek maliyet"
-            },
-            {
-              "name": "Açık Kaynak",
-              "b1": true,
-              "competitor": false
+              "name": "Açık kaynak",
+              "b1": "Evet",
+              "competitor": "Hayır"
             }
           ],
-          "pricingB1": "100% Ücretsiz",
-          "pricingCompetitor": "Ücretsiz kademe + özellikler için aylık $49-199",
-          "verdict": "Tithe.ly'nin ücretsiz kademesi sınırlıdır. Tam işlevsellik elde etmek için maliyetler hızla artar. B1.church, ilk günden itibaren yükseltme baskısı olmadan her şeyi içerir."
+          "pricingB1": "$0 / ay",
+          "pricingCompetitor": "Ücretsiz bağış sayfası, ücretli ChMS",
+          "verdict": "Tithe.ly ücretsiz bağış ve ücretli ChMS satar. B1, barındırma dahil kilise yazılımıdır. Stripe kâr amacı gütmeyen oranı %2,2 + $0.30, Tithe.ly \"ücretsiz\" oranı ise %2,9 + $0.30. Kişileri, check-in'i veya web sitesini açmak için ücretli kademe yok."
         },
         "breeze": {
-          "name": "Breeze ChMS",
-          "tagline": "Breeze ChMS'e ücretsiz alternatif",
-          "description": "Breeze, basit fiyatlandırmaya sahip basit bir kilise yönetim sistemidir. B1.church hiçbir ücret ödemeden daha fazla özellik sunar.",
+          "name": "Breeze",
+          "tagline": "Ücretli ve basit, karşısında $0 ve eksiksiz",
+          "description": "Breeze ücretli ve basit bir ChMS'tir. Planning Center'dan ayrılanlar Breeze'i anar. B1 $0 olarak web sitesini, platform ücretsiz bağışı, check-in'i ve ibadet planlamayı içerir. Breeze kişilerini içe aktarıyoruz.",
           "features": [
             {
-              "name": "Üye Veritabanı",
-              "b1": true,
-              "competitor": true
+              "name": "Kişi veritabanı",
+              "b1": "Dahil",
+              "competitor": "Dahil"
             },
             {
-              "name": "Bağış Yönetimi",
-              "b1": "B1 ücreti yok",
-              "competitor": "2.9% + 30¢"
+              "name": "Bağış",
+              "b1": "B1 platform ücreti yok",
+              "competitor": "Ücretli işlem"
             },
             {
-              "name": "Giriş Sistemi",
-              "b1": true,
-              "competitor": "Temel"
+              "name": "Check-in",
+              "b1": "Dahil",
+              "competitor": "Dahil"
             },
             {
-              "name": "Mobil Uygulama",
-              "b1": "Ücretsiz markalı uygulama",
-              "competitor": "Sınırlı"
+              "name": "Üye uygulaması",
+              "b1": "Kilisenizin sitesinden",
+              "competitor": "Breeze mobil"
             },
             {
-              "name": "Web Sitesi Oluşturucu",
-              "b1": true,
-              "competitor": false
+              "name": "Web sitesi oluşturucu",
+              "b1": "Dahil",
+              "competitor": "Dahil değil"
             },
             {
-              "name": "Grup Yönetimi",
-              "b1": true,
-              "competitor": true
+              "name": "İçe aktarma",
+              "b1": "Breeze kişilerini içe aktarıyoruz",
+              "competitor": "—"
             },
             {
-              "name": "Etkinlik Yönetimi",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Gönüllü Planlama",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Çoklu Kampüs",
-              "b1": true,
-              "competitor": false
-            },
-            {
-              "name": "Açık Kaynak",
-              "b1": true,
-              "competitor": false
+              "name": "Açık kaynak",
+              "b1": "Evet",
+              "competitor": "Hayır"
             }
           ],
-          "pricingB1": "100% Ücretsiz",
-          "pricingCompetitor": "$72 - $135/month",
-          "verdict": "Breeze basit ve uygun fiyatlıdır, ancak B1.church bütçe açısından daha da basittir (ücretsiz!) ve web sitesi oluşturucu ile tam mobil uygulama gibi daha fazla özellik sunar."
+          "pricingB1": "$0 / ay",
+          "pricingCompetitor": "Aylık ücretli",
+          "verdict": "Cilalı, ücretli bir ürün istiyor ve Planning Center'dan ayrılıyorsanız Breeze'i seçin. Web sitesi ve bağışı aynı $0 sistemde istiyorsanız B1'i seçin."
         }
-      },
-      "hubTitle": "How B1 compares",
-      "hubSubtitle": "B1 is the ChMS you start on. People, giving, check-in, website, member app, worship planning. $0 forever. 501(c)(3).",
-      "priceB1Label": "$0 / month",
-      "priceB1Note": "No tiers. No platform fee on gifts."
+      }
     },
     "churchManagement": {
       "meta": {
@@ -693,20 +633,58 @@
       "hero": {
         "title": "Ücretsiz",
         "titleHighlight": "Kilise Yönetim Yazılımı",
-        "titleLine2": "Eksiksiz Hizmet Platformu",
-        "description": "Katılım takibi, üye veritabanı, bağış yönetimi ve iletişim araçlarıyla profesyonel <strong>kilise yönetim yazılımı</strong>. 501(c)(3) kâr amacı gütmeyen bir hizmet olan <strong>Live Church Solutions</strong> tarafından tamamen <strong>ücretsiz kilise yazılımı</strong> olarak sunulmaktadır. Hizmet yazılımı maliyetlerinden binlerce tasarruf eden 100+ kiliseye katılın.",
+        "titleLine2": "Barındırma dahil.",
+        "description": "Kişiler, bağış, check-in, web sitesi, üye uygulaması ve ibadet planlama. Tek platform. Sonsuza dek $0.",
         "ctaPrimary": "Ücretsiz Başlayın",
-        "ctaSecondary": "Demoyu Deneyin",
-        "trustLine": "Dünya Çapında Büyüyen Kiliselerin Güveni",
-        "trustFree": "Sonsuza Kadar Tamamen Ücretsiz",
-        "trustNonProfit": "501(c)(3) Kâr Amacı Gütmeyen Hizmet",
-        "trustOpenSource": "Açık Kaynak"
+        "ctaSecondary": "B1 nasıl karşılaştırılır",
+        "trustLine": "Gerçekte ne elde edersiniz",
+        "trustFree": "501(c)(3)",
+        "trustNonProfit": "Kademe yok",
+        "trustOpenSource": "Barındırma dahil"
       },
+      "freeMeaning": {
+        "eyebrow": "Ücretsiz kilise yönetim yazılımı",
+        "title": "Ücretsiz; yazılım ve barındırma demek.",
+        "lead": "Kiliseler, aylık ChMS faturası olmadan kişiler, bağış, check-in, web sitesi, üye uygulaması ve ibadet planlamaya sahip olur.",
+        "items": [
+          {
+            "title": "Yazılım ve barındırma ücretsiz",
+            "description": "Platform, barındırma dahil gerçekten %100 ücretsizdir. Deneme yok, kilise büyüklüğü sınırı yok; kişileri, bağışı, check-in'i, grupları, web sitesini veya yoklamayı açmak için yükseltme yok."
+          },
+          {
+            "title": "Bağış dahil",
+            "description": "Çevrimiçi bağış platformun bir parçasıdır. B1, bağışlara platform ücreti eklemez."
+          },
+          {
+            "title": "ChurchApps'ten açık kaynak",
+            "description": "B1, ChurchApps paketinin bir parçasıdır. Kodu okuyabilir, verilerinizi dışa aktarabilir veya kendiniz barındırabilirsiniz."
+          }
+        ],
+        "compareLink": "B1 nasıl karşılaştırılır"
+      },
+      "highlights": [
+        {
+          "number": "$0",
+          "label": "Yazılım ve barındırma"
+        },
+        {
+          "number": "%100",
+          "label": "Sonsuza dek ücretsiz"
+        },
+        {
+          "number": "Tek",
+          "label": "Ortak veritabanı"
+        },
+        {
+          "number": "Açık",
+          "label": "GitHub'da kaynak kod"
+        }
+      ],
       "featuresHeader": {
-        "title": "Eksiksiz",
-        "titleHighlight": "Kilise Yönetim Sistemi",
-        "titleSuffix": "Özellikleri",
-        "description": "Üye yönetimi, katılım takibi, bağış yönetimi ve hizmet iletişim araçlarıyla profesyonel kilise veritabanı yazılımı. Büyüyen cemaatler ve çok kampüslü kiliseler için özel olarak tasarlanmış ücretsiz kilise yönetim sistemi."
+        "title": "Tek",
+        "titleHighlight": "ücretsiz kilise yönetimi",
+        "titleSuffix": "araç seti",
+        "description": "Kişiler, bağış, check-in, gruplar, web sitesi ve yoklama tek veritabanında. Barındırma dahil. Bu sayfadaki hiçbir şey ek ürün olarak satılmaz."
       },
       "checkinStations": {
         "title": "Self-Servis Giriş İstasyonları",
@@ -755,7 +733,7 @@
       "testimonials": {
         "title": "Her Yerde Kiliseler",
         "titleHighlight": "Tarafından Seviliyor",
-        "subtitle": "Tamamen ücretsiz platformumuzla hizmetlerini dönüştüren büyüyen kiliselere katılın. İşte papazların ve kilise yöneticilerinin söyledikleri.",
+        "subtitle": "Ücretsiz kilise yönetim yazılımı araçlarına ihtiyaç duyan ve aylık ChMS faturası ödemeyi bırakan pastörler ve kilise yöneticileri.",
         "items": [
           {
             "content": "Bu platformu her Pazar katılımı takip etmek ve Pazar okulu çocuklarımız dahil katılan herkesin kayıtlarını tutmak için kullanıyoruz. Sınırlı bütçeli misyonerler olarak bu yazılımın ücretsiz ve etkili olmasını takdir ediyoruz."
@@ -771,7 +749,7 @@
       "aboutSection": {
         "title": "Hakkında",
         "titleHighlight": "Ücretsiz Kilise Yazılımımız",
-        "description": "Hristiyan kiliseleri ve hizmetlerine 2012'de kurulan 501(c)(3) kâr amacı gütmeyen <strong>Live Church Solutions</strong> tarafından tamamen ücretsiz olarak sunulan kapsamlı <strong>kilise yönetim yazılımı</strong>. Misyonumuz, kiliselerin kilise yönetim sistemlerinin tipik yüksek maliyetleri olmadan profesyonel <strong>hizmet yazılımı</strong> uygulamalarına yardımcı olmaktır."
+        "description": "B1, <strong>Live Church Solutions</strong> ve açık kaynaklı <strong>ChurchApps</strong> paketinden ücretsiz kilise yönetim yazılımıdır. Barındırma dahil. Ürün; kişiler, bağış, check-in, gruplar, web sitesi ve yoklamadır; fiyat teklifine dönüşen ücretsiz bir deneme değil."
       },
       "stats": [
         {
@@ -780,9 +758,9 @@
           "description": "Bu paranın daha iyi bir amaç için kullanılabileceğine inanıyoruz"
         },
         {
-          "number": "100+",
-          "label": "Platformumuzu zaten kullanan kiliseler",
-          "description": "Memnun kullanıcılardan oluşan büyüyen topluluk"
+          "number": "$0",
+          "label": "Barındırma dahil",
+          "description": "Uygulama, web sitesi ve yönetim araçları bizim üzerimizde çalışır"
         },
         {
           "number": "2012",
@@ -803,24 +781,25 @@
       },
       "allFeatures": {
         "title": "İhtiyacınız Olan Her Şey, Tamamen Ücretsiz",
-        "subtitle": "Deneme süresi yok, üye sınırı yok, gizli ücret yok",
+        "subtitle": "Deneme süresi yok, üye sınırı yok, gizli ücret yok; barındırma dahil",
         "items": [
           "Detaylı profillerle eksiksiz üye veritabanı",
           "Self-giriş uygulamasıyla katılım takibi",
           "Gruplar ve küçük grup yönetimi",
           "Detaylı raporlamayla bağış yönetimi",
+          "Kilise web sitesi oluşturucu",
           "Özel formlar ve veri toplama",
           "E-posta iletişim araçları",
           "Etkinlik yönetimi ve planlama",
-          "Mevcut sistemlerden veri içe aktarma",
+          "Mevcut sistemlerden veri aktarımı",
           "Çoklu site ve çoklu kampüs desteği",
-          "Rol tabanlı erişim ve izinler",
-          "GitHub erişimli açık kaynak"
+          "Role dayalı erişim ve izinler",
+          "GitHub erişimiyle açık kaynak"
         ]
       },
       "cta": {
-        "title": "Kilise Yönetim Yazılımı İçin Ödeme Yapmayı Bırakmaya Hazır mısınız?",
-        "description": "Dünya çapında, hizmet için hizmet tarafından geliştirilen tamamen ücretsiz, açık kaynaklı bir çözüme geçiş yapan kiliselere katılın.",
+        "title": "Kilise yazılımına ödeme yapmayı bırakmaya hazır mısınız?",
+        "description": "B1, tüm paket $0 olarak. Barındırma dahil.",
         "primaryButton": "Ücretsiz Başlayın",
         "secondaryButton": "Demoyu Deneyin"
       },

@@ -24,7 +24,7 @@
         "ctaSecondary": "Xem thực tế",
         "trust": [
           "Miễn phí mãi mãi — không gói trả phí, không dùng thử",
-          "Không thu thêm phí giao dịch",
+          "B1 không thu phí nền tảng trên khoản dâng hiến",
           "Mã nguồn mở trên GitHub",
           "Mục vụ 501(c)(3) từ năm 2012"
         ]
@@ -62,7 +62,7 @@
         }
       },
       "connect": {
-        "eyebrow": "Ứng dụng di động B1",
+        "eyebrow": "PWA · cài đặt từ website hội thánh của bạn",
         "title": "Hội thánh của bạn, kết nối",
         "titleAccent": "suốt cả tuần.",
         "lead": "Hãy cho hội thánh một nơi để gắn bó giữa những ngày Chúa nhật. Ứng dụng B1 mang danh bạ tín hữu, các nhóm, tin nhắn và bài giảng đến điện thoại của từng người trong hội chúng.",
@@ -277,8 +277,8 @@
       "titleHighlight": "Khắp Nơi",
       "subtitle": "Hãy tham gia cùng các hội thánh đang phát triển đã biến đổi mục vụ của họ với nền tảng hoàn toàn miễn phí của chúng tôi. Đây là những gì các mục sư và quản trị viên hội thánh nói về B1.",
       "stats": {
-        "churchesValue": "100+",
-        "churchesLabel": "Hội thánh trên toàn thế giới",
+        "churchesValue": "501(c)(3)",
+        "churchesLabel": "Mục vụ phi lợi nhuận",
         "freeValue": "Miễn phí",
         "freeLabel": "Mãi mãi và luôn luôn",
         "openValue": "Mở",
@@ -336,7 +336,7 @@
       "faq": "Câu hỏi thường gặp",
       "aboutChurchApps": "Về ChurchApps",
       "appsAndResources": "Ứng dụng & Tài nguyên",
-      "installApp": "Cài đặt ứng dụng di động",
+      "installApp": "Cài đặt từ website hội thánh của bạn",
       "helpCenter": "Trung tâm Trợ giúp",
       "contact": "Liên hệ",
       "availableWorldwide": "Có sẵn trên Toàn thế giới"
@@ -349,35 +349,35 @@
       "items": [
         {
           "question": "B1.church có thực sự 100% miễn phí không?",
-          "answer": "Vâng, B1.church hoàn toàn miễn phí, không có phí ẩn, không có gói cao cấp và không có phí giao dịch trên các khoản quyên góp. Chúng tôi là một mục vụ phi lợi nhuận 501(c)(3) tin rằng mọi hội thánh đều xứng đáng được tiếp cận công nghệ hiện đại bất kể ngân sách. Nền tảng của chúng tôi được tài trợ bởi các khoản quyên góp và Google Ad Grants."
+          "answer": "Có. B1 bản lưu trữ sẵn miễn phí $0 mãi mãi. Không có gói, không giới hạn số người. Live Church Solutions là tổ chức 501(c)(3) (EIN 45-5349618). Mẫu 990 công khai. Bạn chỉ trả phí cho Stripe hoặc PayPal trên các khoản dâng hiến. B1 cộng thêm $0."
         },
         {
           "question": "B1.church bao gồm những tính năng gì?",
-          "answer": "B1.church bao gồm một nền tảng quản lý hội thánh hoàn chỉnh: ứng dụng di động cho tín hữu cài đặt ngay từ website của bạn, công cụ tạo website kéo-thả, dâng hiến trực tuyến không thu thêm phí nền tảng, hệ thống check-in trẻ em với mã an ninh, cơ sở dữ liệu tín hữu, theo dõi chuyên cần, quản lý nhóm, lên kế hoạch buổi nhóm, thư viện bài hát, quản lý bài giảng và tích hợp Kinh Thánh."
+          "answer": "Tín hữu, dâng hiến, check-in, trình tạo website, ứng dụng cho tín hữu, nhóm, điểm danh, lập kế hoạch buổi nhóm và thư viện bài hát."
         },
         {
           "question": "B1.church so sánh với Planning Center như thế nào?",
-          "answer": "B1.church 100% miễn phí trong khi Planning Center tính phí theo từng mô-đun ($0-299+/tháng). B1 bao gồm ứng dụng di động và trình tạo trang web miễn phí, trong khi Planning Center tính thêm phí cho Church Center và không bao gồm trình tạo trang web. Cả hai đều cung cấp các tính năng quản lý hội thánh, nhưng B1 cung cấp mọi thứ trong một gói miễn phí."
+          "answer": "Planning Center People miễn phí. Các sản phẩm PCO khác có gói miễn phí, sau đó bạn trả thêm khi phát triển. Các tính năng cơ bản của Church Center miễn phí. B1 là trọn bộ với $0, không phải nâng cấp từng mô-đun."
         },
         {
           "question": "B1.church so sánh với Pushpay như thế nào?",
-          "answer": "B1.church hoàn toàn miễn phí trong khi Pushpay có giá $300-1000+/tháng. B1 không có phí giao dịch khi dâng hiến, trong khi Pushpay lấy một phần trăm các khoản quyên góp. B1 là mã nguồn mở và bao gồm quản lý hội thánh đầy đủ, trong khi Pushpay là độc quyền và chủ yếu tập trung vào dâng hiến."
+          "answer": "Pushpay là nền tảng dâng hiến trả phí. B1 đã gồm dâng hiến không thu phí nền tảng, cùng toàn bộ phần mềm quản lý hội thánh còn lại, với $0. Bạn vẫn trả phí thẻ hoặc ACH."
         },
         {
           "question": "B1.church so sánh với Tithe.ly như thế nào?",
-          "answer": "B1.church hoàn toàn miễn phí, không có phí giao dịch. Tithe.ly cung cấp gói miễn phí nhưng tính phí cho các tính năng cao cấp và lấy một phần trăm của mỗi khoản quyên góp. B1 bao gồm phần mềm quản lý hội thánh đầy đủ, trong khi ChMS của Tithe.ly là một sản phẩm trả phí riêng biệt."
+          "answer": "Tithe.ly là công ty dâng hiến có kèm phần mềm quản lý hội thánh trả phí. B1 là phần mềm quản lý hội thánh miễn phí 100%, kể cả lưu trữ. Đã bao gồm dâng hiến. Stripe dành cho tổ chức phi lợi nhuận là 2,2% + $0.30; dâng hiến \"miễn phí\" của Tithe.ly là 2,9% + $0.30."
         },
         {
           "question": "B1.church so sánh với Breeze ChMS như thế nào?",
-          "answer": "B1.church miễn phí trong khi Breeze bắt đầu từ $72/tháng. B1 bao gồm ứng dụng di động đầy đủ và trình tạo trang web, trong khi Breeze có các tính năng di động hạn chế và không có trình tạo trang web. Cả hai đều cung cấp quản lý hội thánh, nhưng B1 cung cấp nhiều tính năng hơn mà không tốn phí."
+          "answer": "Breeze là phần mềm quản lý hội thánh đơn giản, trả phí. B1 là $0 và gồm website, dâng hiến không thu phí nền tảng, check-in và lập kế hoạch thờ phượng. Chúng tôi nhập dữ liệu tín hữu từ Breeze."
         },
         {
           "question": "Hội thánh của tôi có được ứng dụng di động không?",
-          "answer": "Có. B1 mang đến cho hội thánh của bạn trải nghiệm ứng dụng di động mang thương hiệu riêng dưới dạng ứng dụng web có thể cài đặt (PWA). Tín hữu mở trang web của hội thánh, chạm 'Thêm vào màn hình chính' và nhận được ứng dụng toàn màn hình với tên và logo của hội thánh. Các bản cập nhật đến với mọi người ngay lập tức."
+          "answer": "Tín hữu cài đặt ứng dụng từ website hội thánh của bạn. Chọn Thêm vào Màn hình chính."
         },
         {
           "question": "B1.church có hỗ trợ dâng hiến trực tuyến không?",
-          "answer": "Vâng, B1.church bao gồm dâng hiến trực tuyến an toàn với hỗ trợ thẻ tín dụng và chuyển khoản ngân hàng. Bạn có thể thiết lập các khoản quyên góp định kỳ, quản lý nhiều quỹ và cung cấp lịch sử dâng hiến cho biên lai thuế. Chúng tôi sử dụng tích hợp Stripe trực tiếp mà không có phí nền tảng B1 - hội thánh của bạn thương lượng mức phí trực tiếp với Stripe (thường khoảng 2.9% + 30¢)."
+          "answer": "Có. Stripe hoặc PayPal. Dâng hiến định kỳ, quỹ, báo cáo. B1 cộng thêm $0."
         },
         {
           "question": "Tôi có thể xây dựng một trang web với B1.church không?",
@@ -385,7 +385,7 @@
         },
         {
           "question": "B1.church có tính năng điểm danh cho mục vụ thiếu nhi không?",
-          "answer": "Vâng, B1.church bao gồm một hệ thống điểm danh thông minh với các ki-ốt tự phục vụ không tiếp xúc, điểm danh gia đình, phân nhóm tự động, mã bảo mật để đón trẻ và theo dõi điểm danh với các báo cáo."
+          "answer": "Có. Thẻ tên, mã an ninh, điểm danh."
         },
         {
           "question": "B1.church có phải là mã nguồn mở không?",
@@ -426,264 +426,204 @@
         }
       },
       "notFound": {
-        "title": "Không tìm thấy So sánh",
-        "subtitle": "Hãy xem các so sánh có sẵn của chúng tôi:"
+        "title": "B1 so sánh thế nào",
+        "subtitle": "B1 là phần mềm quản lý hội thánh để bạn bắt đầu. Tín hữu, dâng hiến, check-in, website, ứng dụng cho tín hữu, lập kế hoạch thờ phượng. $0 mãi mãi. 501(c)(3)."
       },
+      "hubTitle": "B1 so sánh thế nào",
+      "hubSubtitle": "B1 là hệ thống quản lý nhà thờ để bạn bắt đầu. Tín hữu, dâng hiến, điểm danh, website, ứng dụng cho tín hữu, lên kế hoạch thờ phượng. $0 mãi mãi. 501(c)(3).",
       "b1vsPrefix": "B1 so với",
-      "noHiddenFees": "Không có phí ẩn, mãi mãi",
-      "plusTransactionFees": "Cộng với phí giao dịch",
+      "noHiddenFees": "Không có gói. Không thu phí nền tảng trên khoản dâng hiến.",
+      "plusTransactionFees": "",
+      "priceB1Label": "$0 / month",
+      "priceB1Note": "Không chia gói. Không thu phí nền tảng trên tiền dâng.",
       "featureColumn": "Tính năng",
       "ourTake": "Quan điểm của Chúng tôi",
-      "ctaTitle": "Sẵn sàng tiết kiệm tiền cho hội thánh của bạn?",
-      "ctaDescription": "Chuyển sang B1.church và chuyển ngân sách phần mềm của bạn sang mục vụ.",
+      "ctaTitle": "Nhận trọn bộ với $0",
+      "ctaDescription": "B1 là trọn bộ với $0.",
       "ctaButton": "Bắt đầu miễn phí",
       "otherComparisons": "Các So sánh Khác",
       "competitors": {
         "planning-center": {
           "name": "Planning Center",
-          "tagline": "Giải pháp thay thế miễn phí cho Planning Center",
-          "description": "Planning Center là một nền tảng quản lý hội thánh phổ biến với giá theo mô-đun. B1.church cung cấp các tính năng tương tự hoàn toàn miễn phí.",
+          "tagline": "Trọn bộ với $0",
+          "description": "B1 là trọn bộ với $0. Không phải nâng cấp mô-đun.",
           "features": [
             {
-              "name": "Cơ sở dữ liệu Thành viên",
-              "b1": true,
-              "competitor": true
+              "name": "Cơ sở dữ liệu tín hữu",
+              "b1": "Đã bao gồm",
+              "competitor": "Miễn phí, không giới hạn"
             },
             {
-              "name": "Hệ thống Điểm danh",
-              "b1": true,
-              "competitor": "$99/mo"
+              "name": "Dâng hiến",
+              "b1": "B1 không thu phí nền tảng",
+              "competitor": "Phí xử lý; dâng hiến trả phí khi lớn mạnh"
             },
             {
-              "name": "Dâng hiến Trực tuyến",
-              "b1": "Không phí B1",
-              "competitor": "Phí nền tảng + Stripe"
+              "name": "Check-in",
+              "b1": "Đã bao gồm",
+              "competitor": "Đã bao gồm"
             },
             {
-              "name": "Quản lý Nhóm",
-              "b1": true,
-              "competitor": "$50/mo"
+              "name": "Lập kế hoạch buổi nhóm",
+              "b1": "Đã bao gồm",
+              "competitor": "Đã bao gồm"
             },
             {
-              "name": "Lên Kế hoạch Buổi lễ",
-              "b1": true,
-              "competitor": "$14-99/mo"
+              "name": "Ứng dụng cho tín hữu",
+              "b1": "Từ website hội thánh",
+              "competitor": "Church Center"
             },
             {
-              "name": "Ứng dụng Di động",
-              "b1": "Ứng dụng có thương hiệu miễn phí",
-              "competitor": "$0-199/mo"
+              "name": "Trình tạo website",
+              "b1": "Đã bao gồm",
+              "competitor": "Không bao gồm"
             },
             {
-              "name": "Trình tạo Trang Web",
-              "b1": true,
-              "competitor": false
-            },
-            {
-              "name": "Quản lý Bài giảng",
-              "b1": true,
-              "competitor": false
-            },
-            {
-              "name": "Đa Cơ sở",
-              "b1": true,
-              "competitor": "Chi phí bổ sung"
+              "name": "Nhập dữ liệu",
+              "b1": "Tín hữu từ Planning Center",
+              "competitor": "—"
             },
             {
               "name": "Mã nguồn mở",
-              "b1": true,
-              "competitor": false
+              "b1": "Có",
+              "competitor": "Không"
             }
           ],
-          "pricingB1": "100% Miễn phí",
-          "pricingCompetitor": "$0 - $500+/month depending on modules",
-          "verdict": "B1.church cung cấp tất cả các tính năng cốt lõi của Planning Center mà không có sự phức tạp của giá theo mô-đun. Nếu ngân sách là mối quan tâm, B1 là lựa chọn rõ ràng."
+          "pricingB1": "$0 / tháng",
+          "pricingCompetitor": "Miễn phí để bắt đầu, sau đó trả phí theo mô-đun",
+          "verdict": "B1 gồm tín hữu, dâng hiến, check-in, website và lập kế hoạch thờ phượng với $0. Không phải nâng cấp mô-đun. Đã bao gồm lưu trữ."
         },
         "pushpay": {
           "name": "Pushpay",
-          "tagline": "Giải pháp thay thế miễn phí cho Pushpay",
-          "description": "Pushpay được biết đến với dâng hiến di động nhưng đi kèm với chi phí hằng tháng đáng kể và phí giao dịch. B1.church cung cấp dâng hiến với không có phí nền tảng.",
+          "tagline": "Dâng hiến cùng toàn bộ phần mềm quản lý hội thánh, với $0",
+          "description": "Pushpay là nền tảng dâng hiến trả phí. B1 đã gồm dâng hiến không thu phí nền tảng, cùng tín hữu, check-in, website và lập kế hoạch thờ phượng.",
           "features": [
             {
-              "name": "Dâng hiến Trực tuyến",
-              "b1": "Không phí B1",
-              "competitor": "Phí nền tảng + Stripe"
+              "name": "Dâng hiến",
+              "b1": "B1 không thu phí nền tảng",
+              "competitor": "Nền tảng trả phí + phí xử lý"
             },
             {
-              "name": "Quyên góp Định kỳ",
-              "b1": true,
-              "competitor": true
+              "name": "Dâng hiến định kỳ",
+              "b1": "Đã bao gồm",
+              "competitor": "Đã bao gồm"
             },
             {
-              "name": "Ứng dụng Di động",
-              "b1": "Ứng dụng có thương hiệu miễn phí",
-              "competitor": "Bao gồm"
+              "name": "Cơ sở dữ liệu tín hữu",
+              "b1": "Đã bao gồm",
+              "competitor": "Thường tính thêm"
             },
             {
-              "name": "Cơ sở dữ liệu Thành viên",
-              "b1": true,
-              "competitor": "ChMS thêm phí"
+              "name": "Check-in",
+              "b1": "Đã bao gồm",
+              "competitor": "Thường tính thêm"
             },
             {
-              "name": "Hệ thống Điểm danh",
-              "b1": true,
-              "competitor": "Chi phí bổ sung"
+              "name": "Ứng dụng cho tín hữu",
+              "b1": "Từ website hội thánh",
+              "competitor": "Đã bao gồm"
             },
             {
-              "name": "Trình tạo Trang Web",
-              "b1": true,
-              "competitor": false
-            },
-            {
-              "name": "Quản lý Nhóm",
-              "b1": true,
-              "competitor": "Chi phí bổ sung"
-            },
-            {
-              "name": "Biên lai Dâng hiến",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Quản lý Quỹ",
-              "b1": true,
-              "competitor": true
+              "name": "Trình tạo website",
+              "b1": "Đã bao gồm",
+              "competitor": "Không bao gồm"
             },
             {
               "name": "Mã nguồn mở",
-              "b1": true,
-              "competitor": false
+              "b1": "Có",
+              "competitor": "Không"
             }
           ],
-          "pricingB1": "100% Miễn phí",
-          "pricingCompetitor": "$300 - $1,000+/month",
-          "verdict": "Pushpay giàu tính năng nhưng đắt đỏ. B1.church cung cấp các tính năng dâng hiến tương đương cộng với quản lý hội thánh đầy đủ mà không tốn phí. Khoản tiết kiệm có thể được chuyển hướng vào mục vụ."
+          "pricingB1": "$0 / tháng",
+          "pricingCompetitor": "Trả phí hằng tháng + phí xử lý",
+          "verdict": "Hãy trả phí cho Pushpay nếu bạn muốn kênh dâng hiến của họ và đủ khả năng chi trả nền tảng. Hãy bắt đầu với B1 nếu bạn muốn trọn bộ cho hội thánh và phần mềm $0. Dù chọn bên nào, bạn vẫn trả phí thẻ hoặc ACH."
         },
         "tithely": {
           "name": "Tithe.ly",
-          "tagline": "Giải pháp thay thế miễn phí cho Tithe.ly",
-          "description": "Tithe.ly cung cấp các công cụ dâng hiến và quản lý hội thánh với giá freemium. B1.church cung cấp mọi thứ miễn phí mà không có phí giao dịch.",
+          "tagline": "Họ giữ chữ miễn phí. Chúng tôi không lấy một đồng.",
+          "description": "Tithe.ly là công ty dâng hiến có kèm phần mềm hội thánh. B1 là phần mềm quản lý hội thánh miễn phí 100%, kể cả lưu trữ. Đã bao gồm dâng hiến. Stripe dành cho tổ chức phi lợi nhuận là 2,2% + $0.30; dâng hiến \"miễn phí\" của Tithe.ly là 2,9% + $0.30.",
           "features": [
             {
-              "name": "Dâng hiến Trực tuyến",
-              "b1": "Không phí B1",
-              "competitor": "Phí nền tảng + Stripe"
+              "name": "Dâng hiến",
+              "b1": "Stripe phi lợi nhuận 2,2% + $0.30",
+              "competitor": "Tithe.ly \"miễn phí\" 2,9% + $0.30"
             },
             {
-              "name": "Quyên góp Định kỳ",
-              "b1": true,
-              "competitor": true
+              "name": "Cơ sở dữ liệu tín hữu",
+              "b1": "Đã bao gồm",
+              "competitor": "Phần mềm quản lý trả phí"
             },
             {
-              "name": "Ứng dụng Di động",
-              "b1": "Ứng dụng có thương hiệu miễn phí",
-              "competitor": "$99/mo"
+              "name": "Check-in",
+              "b1": "Đã bao gồm",
+              "competitor": "Tiện ích trả phí"
             },
             {
-              "name": "Cơ sở dữ liệu Thành viên",
-              "b1": true,
-              "competitor": "$99/mo"
+              "name": "Ứng dụng cho tín hữu",
+              "b1": "Từ website hội thánh",
+              "competitor": "Trả phí"
             },
             {
-              "name": "Hệ thống Điểm danh",
-              "b1": true,
-              "competitor": "$49/mo"
-            },
-            {
-              "name": "Trình tạo Trang Web",
-              "b1": true,
-              "competitor": "$49/mo"
-            },
-            {
-              "name": "Quản lý Nhóm",
-              "b1": true,
-              "competitor": "$99/mo"
-            },
-            {
-              "name": "Quản lý Bài giảng",
-              "b1": true,
-              "competitor": "$49/mo"
-            },
-            {
-              "name": "Đa Cơ sở",
-              "b1": true,
-              "competitor": "Chi phí bổ sung"
+              "name": "Trình tạo website",
+              "b1": "Đã bao gồm",
+              "competitor": "Tiện ích trả phí"
             },
             {
               "name": "Mã nguồn mở",
-              "b1": true,
-              "competitor": false
+              "b1": "Có",
+              "competitor": "Không"
             }
           ],
-          "pricingB1": "100% Miễn phí",
-          "pricingCompetitor": "Free tier + $49-199/mo for features",
-          "verdict": "Gói miễn phí của Tithe.ly bị hạn chế. Để có được chức năng đầy đủ, chi phí tăng lên nhanh chóng. B1.church bao gồm mọi thứ ngay từ ngày đầu mà không có áp lực nâng cấp."
+          "pricingB1": "$0 / tháng",
+          "pricingCompetitor": "Trang dâng hiến miễn phí, phần mềm quản lý trả phí",
+          "verdict": "Tithe.ly bán dâng hiến miễn phí và phần mềm quản lý hội thánh trả phí. B1 là phần mềm hội thánh, đã gồm lưu trữ. Stripe dành cho tổ chức phi lợi nhuận là 2,2% + $0.30 so với dâng hiến \"miễn phí\" của Tithe.ly là 2,9% + $0.30. Không có gói trả phí nào để mở khóa tín hữu, check-in hay website."
         },
         "breeze": {
-          "name": "Breeze ChMS",
-          "tagline": "Giải pháp thay thế miễn phí cho Breeze ChMS",
-          "description": "Breeze là một hệ thống quản lý hội thánh đơn giản với giá cả minh bạch. B1.church cung cấp nhiều tính năng hơn mà không tốn phí.",
+          "name": "Breeze",
+          "tagline": "Trả phí và đơn giản so với $0 và đầy đủ",
+          "description": "Breeze là phần mềm quản lý hội thánh đơn giản, trả phí. Những người rời Planning Center thường nhắc đến Breeze. B1 là $0 và gồm website, dâng hiến không thu phí nền tảng, check-in và lập kế hoạch thờ phượng. Chúng tôi nhập dữ liệu tín hữu từ Breeze.",
           "features": [
             {
-              "name": "Cơ sở dữ liệu Thành viên",
-              "b1": true,
-              "competitor": true
+              "name": "Cơ sở dữ liệu tín hữu",
+              "b1": "Đã bao gồm",
+              "competitor": "Đã bao gồm"
             },
             {
-              "name": "Quản lý Dâng hiến",
-              "b1": "Không phí B1",
-              "competitor": "2.9% + 30¢"
+              "name": "Dâng hiến",
+              "b1": "B1 không thu phí nền tảng",
+              "competitor": "Phí xử lý trả phí"
             },
             {
-              "name": "Hệ thống Điểm danh",
-              "b1": true,
-              "competitor": "Cơ bản"
+              "name": "Check-in",
+              "b1": "Đã bao gồm",
+              "competitor": "Đã bao gồm"
             },
             {
-              "name": "Ứng dụng Di động",
-              "b1": "Ứng dụng có thương hiệu miễn phí",
-              "competitor": "Hạn chế"
+              "name": "Ứng dụng cho tín hữu",
+              "b1": "Từ website hội thánh",
+              "competitor": "Ứng dụng di động Breeze"
             },
             {
-              "name": "Trình tạo Trang Web",
-              "b1": true,
-              "competitor": false
+              "name": "Trình tạo website",
+              "b1": "Đã bao gồm",
+              "competitor": "Không bao gồm"
             },
             {
-              "name": "Quản lý Nhóm",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Quản lý Sự kiện",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Lên Lịch Tình nguyện viên",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Đa Cơ sở",
-              "b1": true,
-              "competitor": false
+              "name": "Nhập dữ liệu",
+              "b1": "Chúng tôi nhập dữ liệu tín hữu từ Breeze",
+              "competitor": "—"
             },
             {
               "name": "Mã nguồn mở",
-              "b1": true,
-              "competitor": false
+              "b1": "Có",
+              "competitor": "Không"
             }
           ],
-          "pricingB1": "100% Miễn phí",
-          "pricingCompetitor": "$72 - $135/month",
-          "verdict": "Breeze đơn giản và hợp túi tiền, nhưng B1.church còn đơn giản hơn về ngân sách (miễn phí!) đồng thời cung cấp nhiều tính năng hơn như trình tạo trang web và ứng dụng di động đầy đủ."
+          "pricingB1": "$0 / tháng",
+          "pricingCompetitor": "Trả phí hằng tháng",
+          "verdict": "Chọn Breeze nếu bạn muốn một sản phẩm trả phí chỉn chu và đang rời Planning Center. Chọn B1 nếu bạn muốn website và dâng hiến trong cùng một hệ thống $0."
         }
-      },
-      "hubTitle": "How B1 compares",
-      "hubSubtitle": "B1 is the ChMS you start on. People, giving, check-in, website, member app, worship planning. $0 forever. 501(c)(3).",
-      "priceB1Label": "$0 / month",
-      "priceB1Note": "No tiers. No platform fee on gifts."
+      }
     },
     "churchManagement": {
       "meta": {
@@ -693,20 +633,58 @@
       "hero": {
         "title": "Phần mềm",
         "titleHighlight": "Quản lý Hội thánh Miễn phí",
-        "titleLine2": "Nền tảng Mục vụ Toàn diện",
-        "description": "<strong>Phần mềm quản lý hội thánh</strong> chuyên nghiệp với theo dõi điểm danh, cơ sở dữ liệu thành viên, quản lý dâng hiến và các công cụ giao tiếp. <strong>Phần mềm hội thánh miễn phí</strong> hoàn toàn được cung cấp bởi Live Church Solutions, một mục vụ phi lợi nhuận 501(c)(3). Hãy tham gia cùng 100+ hội thánh đang tiết kiệm hàng ngàn đô la chi phí phần mềm mục vụ.",
-        "ctaPrimary": "Bắt đầu Miễn phí",
-        "ctaSecondary": "Thử Bản demo",
-        "trustLine": "Được Tin cậy bởi các Hội thánh Đang Phát triển Trên Toàn thế giới",
-        "trustFree": "Hoàn toàn Miễn phí Mãi mãi",
-        "trustNonProfit": "Mục vụ Phi lợi nhuận 501(c)(3)",
-        "trustOpenSource": "Mã nguồn mở"
+        "titleLine2": "Đã bao gồm lưu trữ.",
+        "description": "Tín hữu, dâng hiến, check-in, website, ứng dụng cho tín hữu và lập kế hoạch thờ phượng. Một nền tảng. $0 mãi mãi.",
+        "ctaPrimary": "Bắt đầu miễn phí",
+        "ctaSecondary": "Xem B1 so sánh thế nào",
+        "trustLine": "Bạn thực sự nhận được gì",
+        "trustFree": "501(c)(3)",
+        "trustNonProfit": "Không có gói",
+        "trustOpenSource": "Đã bao gồm lưu trữ"
       },
+      "freeMeaning": {
+        "eyebrow": "Phần mềm quản lý hội thánh miễn phí",
+        "title": "Miễn phí nghĩa là cả phần mềm lẫn lưu trữ.",
+        "lead": "Hội thánh có tín hữu, dâng hiến, check-in, website, ứng dụng cho tín hữu và lập kế hoạch thờ phượng mà không phải trả hóa đơn hằng tháng cho phần mềm quản lý.",
+        "items": [
+          {
+            "title": "Phần mềm và lưu trữ đều miễn phí",
+            "description": "Nền tảng thực sự miễn phí 100%, kể cả lưu trữ. Không dùng thử, không giới hạn quy mô hội thánh, không phải nâng cấp để mở khóa tín hữu, dâng hiến, check-in, nhóm, website hay điểm danh."
+          },
+          {
+            "title": "Đã bao gồm dâng hiến",
+            "description": "Dâng hiến trực tuyến là một phần của nền tảng. B1 không thu thêm phí nền tảng trên khoản dâng hiến."
+          },
+          {
+            "title": "Mã nguồn mở từ ChurchApps",
+            "description": "B1 thuộc bộ ứng dụng ChurchApps. Bạn có thể đọc mã nguồn, xuất dữ liệu hoặc tự lưu trữ."
+          }
+        ],
+        "compareLink": "Xem B1 so sánh thế nào"
+      },
+      "highlights": [
+        {
+          "number": "$0",
+          "label": "Phần mềm và lưu trữ"
+        },
+        {
+          "number": "100%",
+          "label": "Miễn phí mãi mãi"
+        },
+        {
+          "number": "Một",
+          "label": "Cơ sở dữ liệu dùng chung"
+        },
+        {
+          "number": "Mở",
+          "label": "Mã nguồn trên GitHub"
+        }
+      ],
       "featuresHeader": {
-        "title": "Tính năng",
-        "titleHighlight": "Hệ thống Quản lý Hội thánh",
-        "titleSuffix": "Toàn diện",
-        "description": "Phần mềm cơ sở dữ liệu hội thánh chuyên nghiệp với quản lý thành viên, theo dõi điểm danh, quản trị dâng hiến và các công cụ giao tiếp mục vụ. Hệ thống quản lý hội thánh miễn phí được thiết kế dành riêng cho các hội chúng đang phát triển và các hội thánh đa cơ sở."
+        "title": "Một",
+        "titleHighlight": "quản lý hội thánh miễn phí",
+        "titleSuffix": "bộ công cụ",
+        "description": "Tín hữu, dâng hiến, check-in, nhóm, website và điểm danh trong một cơ sở dữ liệu. Đã bao gồm lưu trữ. Không có gì trên trang này được bán như tiện ích trả phí."
       },
       "checkinStations": {
         "title": "Trạm Điểm danh Tự phục vụ",
@@ -755,7 +733,7 @@
       "testimonials": {
         "title": "Được Yêu mến bởi các Hội thánh",
         "titleHighlight": "Khắp Nơi",
-        "subtitle": "Hãy tham gia cùng các hội thánh đang phát triển đã biến đổi mục vụ của họ với nền tảng hoàn toàn miễn phí của chúng tôi. Đây là những gì các mục sư và quản trị viên hội thánh nói.",
+        "subtitle": "Mục sư và quản trị viên hội thánh cần công cụ quản lý hội thánh miễn phí — và đã thôi trả hóa đơn hằng tháng cho phần mềm.",
         "items": [
           {
             "content": "Chúng tôi sử dụng nền tảng này mỗi Chúa nhật để theo dõi điểm danh và lưu giữ hồ sơ của tất cả những người tham dự, bao gồm cả các em thiếu nhi học Trường Chúa nhật. Là những nhà truyền giáo với ngân sách hạn chế, chúng tôi đánh giá cao việc phần mềm này miễn phí và hiệu quả."
@@ -771,7 +749,7 @@
       "aboutSection": {
         "title": "Về",
         "titleHighlight": "Phần mềm Hội thánh Miễn phí của Chúng tôi",
-        "description": "<strong>Phần mềm quản lý hội thánh</strong> toàn diện được cung cấp hoàn toàn miễn phí cho các hội thánh và mục vụ Cơ Đốc bởi <strong>Live Church Solutions</strong>, một tổ chức phi lợi nhuận 501(c)(3) được thành lập vào năm 2012. Sứ mệnh của chúng tôi là giúp các hội thánh triển khai <strong>phần mềm mục vụ</strong> chuyên nghiệp mà không phải chịu các chi phí cao thông thường của các hệ thống quản lý hội thánh."
+        "description": "B1 là phần mềm quản lý hội thánh miễn phí từ <strong>Live Church Solutions</strong> và bộ ứng dụng mã nguồn mở <strong>ChurchApps</strong>. Đã bao gồm lưu trữ. Sản phẩm gồm tín hữu, dâng hiến, check-in, nhóm, website và điểm danh — không phải bản dùng thử rồi chuyển thành báo giá."
       },
       "stats": [
         {
@@ -780,9 +758,9 @@
           "description": "Chúng tôi tin rằng số tiền này có thể được sử dụng tốt hơn"
         },
         {
-          "number": "100+",
-          "label": "Hội thánh đã sử dụng nền tảng của chúng tôi",
-          "description": "Cộng đồng người dùng hài lòng đang phát triển"
+          "number": "$0",
+          "label": "Đã bao gồm lưu trữ",
+          "description": "Ứng dụng, website và công cụ quản trị đều do chúng tôi vận hành"
         },
         {
           "number": "2012",
@@ -803,24 +781,25 @@
       },
       "allFeatures": {
         "title": "Mọi Thứ Bạn Cần, Hoàn toàn Miễn phí",
-        "subtitle": "Không có thời gian dùng thử, không giới hạn thành viên, không phí ẩn",
+        "subtitle": "Không thời gian dùng thử, không giới hạn tín hữu, không phí ẩn — đã bao gồm lưu trữ",
         "items": [
           "Cơ sở dữ liệu thành viên đầy đủ với hồ sơ chi tiết",
           "Theo dõi điểm danh với ứng dụng tự điểm danh",
           "Quản lý nhóm và nhóm nhỏ",
           "Quản lý dâng hiến với báo cáo chi tiết",
+          "Trình tạo website hội thánh",
           "Biểu mẫu tùy chỉnh và thu thập dữ liệu",
-          "Các công cụ giao tiếp qua email",
+          "Công cụ liên lạc qua email",
           "Quản lý và lên lịch sự kiện",
           "Nhập dữ liệu từ các hệ thống hiện có",
-          "Hỗ trợ đa cơ sở và đa chi nhánh",
-          "Truy cập và quyền theo vai trò",
-          "Mã nguồn mở với truy cập GitHub"
+          "Hỗ trợ nhiều địa điểm và nhiều cơ sở",
+          "Phân quyền truy cập theo vai trò",
+          "Mã nguồn mở, truy cập trên GitHub"
         ]
       },
       "cta": {
-        "title": "Sẵn sàng Ngừng Trả tiền cho Phần mềm Quản lý Hội thánh?",
-        "description": "Hãy tham gia cùng các hội thánh trên toàn thế giới đã chuyển sang một giải pháp hoàn toàn miễn phí, mã nguồn mở được xây dựng bởi một mục vụ, dành cho các mục vụ.",
+        "title": "Sẵn sàng thôi trả phí phần mềm hội thánh?",
+        "description": "B1 là trọn bộ với $0. Đã bao gồm lưu trữ.",
         "primaryButton": "Bắt đầu Miễn phí",
         "secondaryButton": "Thử Bản demo"
       },

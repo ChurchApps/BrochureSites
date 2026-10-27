@@ -24,7 +24,7 @@
         "ctaSecondary": "Podívejte se, jak to funguje",
         "trust": [
           "Zdarma navždy — žádné tarify, žádné zkušební verze",
-          "Žádné dodatečné transakční poplatky",
+          "Žádný poplatek platformy B1 z darů",
           "Open source na GitHub",
           "Nezisková služba 501(c)(3) od roku 2012"
         ]
@@ -62,7 +62,7 @@
         }
       },
       "connect": {
-        "eyebrow": "Mobilní aplikace B1",
+        "eyebrow": "PWA · instalace z webu vašeho sboru",
         "title": "Vaši lidé ve spojení",
         "titleAccent": "po celý týden.",
         "lead": "Dejte své církvi jedno místo, kam patřit i mezi nedělemi. Aplikace B1 přináší adresář členů, skupiny, zprávy a kázání do každého telefonu ve vašem sboru.",
@@ -277,8 +277,8 @@
       "titleHighlight": "po celém světě",
       "subtitle": "Přidejte se k rostoucím sborům, které proměnily svou službu s naší zcela bezplatnou platformou. Zde je, co říkají pastoři a správci sborů o B1.",
       "stats": {
-        "churchesValue": "100+",
-        "churchesLabel": "Církví po celém světě",
+        "churchesValue": "501(c)(3)",
+        "churchesLabel": "Nezisková služba",
         "freeValue": "Zdarma",
         "freeLabel": "Navždy a napořád",
         "openValue": "Otevřený",
@@ -336,7 +336,7 @@
       "faq": "Časté dotazy",
       "aboutChurchApps": "O ChurchApps",
       "appsAndResources": "Aplikace a zdroje",
-      "installApp": "Nainstalovat mobilní aplikaci",
+      "installApp": "Instalace z webu vašeho sboru",
       "helpCenter": "Centrum nápovědy",
       "contact": "Kontakt",
       "availableWorldwide": "Dostupné po celém světě"
@@ -349,35 +349,35 @@
       "items": [
         {
           "question": "Je B1.church opravdu 100% zdarma?",
-          "answer": "Ano, B1.church je zcela zdarma bez skrytých poplatků, bez prémiových úrovní a bez transakčních poplatků z darů. Jsme nezisková služba 501(c)(3), která věří, že každý sbor si zaslouží přístup k moderním technologiím bez ohledu na rozpočet. Naše platforma je financována z darů a Google Ad Grants."
+          "answer": "Ano. Hostovaný B1 je navždy za $0. Žádné tarify, žádný limit počtu osob. Live Church Solutions je organizace 501(c)(3) (EIN 45-5349618) s veřejným formulářem 990. U darů platíte Stripe nebo PayPal. B1 přidává $0."
         },
         {
           "question": "Jaké funkce B1.church nabízí?",
-          "answer": "B1.church zahrnuje kompletní platformu pro správu církve: mobilní aplikaci pro členy instalovatelnou přímo z vašeho webu, tvorbu webu stylem přetáhni a pusť, online dárcovství bez dodatečných poplatků platformy, systém dětského check-inu s bezpečnostními kódy, databázi členů, sledování docházky, správu skupin, plánování bohoslužeb, knihovnu písní, správu kázání a integraci Bible."
+          "answer": "Lidé, dary, check-in, tvůrce webu, aplikace pro členy, skupiny, docházka, plánování bohoslužeb a knihovna písní."
         },
         {
           "question": "Jak se B1.church srovnává s Planning Center?",
-          "answer": "B1.church je 100% zdarma, zatímco Planning Center si účtuje za moduly ($0-299+/měsíc). B1 zahrnuje mobilní aplikaci a nástroj pro tvorbu webu zdarma, zatímco Planning Center si účtuje za Church Center a neobsahuje nástroj pro tvorbu webu. Oba nabízejí funkce pro správu sboru, ale B1 poskytuje vše v jednom bezplatném balíčku."
+          "answer": "Planning Center People je zdarma. Ostatní produkty PCO mají bezplatné tarify a pak platíte s růstem. Základ Church Center je zdarma. B1 je celý balík za $0 bez nutnosti přecházet na vyšší moduly."
         },
         {
           "question": "Jak se B1.church srovnává s Pushpay?",
-          "answer": "B1.church je zcela zdarma, zatímco Pushpay stojí $300-1000+/měsíc. B1 nemá žádné transakční poplatky z darů, zatímco Pushpay si bere procento z darů. B1 je open source a zahrnuje kompletní správu sboru, zatímco Pushpay je proprietární a zaměřený především na dárcovství."
+          "answer": "Pushpay je placená platforma pro dary. B1 zahrnuje dary bez poplatku platformy a k tomu zbytek ChMS za $0. Sazby za karty nebo ACH platíte i tak."
         },
         {
           "question": "Jak se B1.church srovnává s Tithe.ly?",
-          "answer": "B1.church je zcela zdarma bez transakčních poplatků. Tithe.ly nabízí bezplatnou verzi, ale účtuje si za prémiové funkce a bere si procento z každého daru. B1 zahrnuje kompletní software pro správu sboru, zatímco ChMS od Tithe.ly je samostatný placený produkt."
+          "answer": "Tithe.ly je firma zaměřená na dary s placeným ChMS. B1 je ChMS 100% zdarma včetně hostingu. Dary jsou součástí. Stripe pro neziskovky je 2,2 % + $0.30; „bezplatné“ dary Tithe.ly jsou 2,9 % + $0.30."
         },
         {
           "question": "Jak se B1.church srovnává s Breeze ChMS?",
-          "answer": "B1.church je zdarma, zatímco Breeze začíná na $72/měsíc. B1 zahrnuje kompletní mobilní aplikaci a nástroj pro tvorbu webu, zatímco Breeze má omezené mobilní funkce a žádný nástroj pro tvorbu webu. Oba nabízejí správu sboru, ale B1 poskytuje více funkcí zdarma."
+          "answer": "Breeze je placený, jednoduchý ChMS. B1 je za $0 a zahrnuje web, dary bez poplatku platformy, check-in a plánování bohoslužeb. Lidi z Breeze importujeme."
         },
         {
           "question": "Získá moje církev mobilní aplikaci?",
-          "answer": "Ano. B1 dává vaší církvi vlastní značkovou mobilní aplikaci v podobě instalovatelné webové aplikace (PWA). Členové otevřou web vaší církve, klepnou na „Přidat na plochu“ a získají celoobrazovkovou aplikaci se jménem a logem vaší církve. Aktualizace se ke všem dostanou okamžitě."
+          "answer": "Členové si aplikaci nainstalují z webu vašeho sboru. Stačí ji přidat na plochu."
         },
         {
           "question": "Podporuje B1.church online dárcovství?",
-          "answer": "Ano, B1.church zahrnuje bezpečné online dárcovství s podporou platebních karet a bankovních převodů. Můžete nastavit pravidelné dary, spravovat více fondů a poskytovat historii darů pro daňová potvrzení. Používáme přímou integraci se Stripe bez poplatků platformy B1 – váš sbor si sazby sjednává přímo se Stripe (obvykle kolem 2.9% + 30¢)."
+          "answer": "Ano. Stripe nebo PayPal. Pravidelné dary, fondy, výpisy. B1 přidává $0."
         },
         {
           "question": "Mohu si s B1.church vytvořit web?",
@@ -385,7 +385,7 @@
         },
         {
           "question": "Má B1.church registraci pro dětskou službu?",
-          "answer": "Ano, B1.church zahrnuje chytrý registrační systém s bezkontaktními samoobslužnými kiosky, rodinnou registrací, automatickým přiřazením do skupin, bezpečnostními kódy pro vyzvednutí dětí a sledováním docházky s reporty."
+          "answer": "Ano. Jmenovky, bezpečnostní kódy, docházka."
         },
         {
           "question": "Je B1.church open source?",
@@ -426,264 +426,204 @@
         }
       },
       "notFound": {
-        "title": "Srovnání nenalezeno",
-        "subtitle": "Podívejte se na naše dostupná srovnání:"
+        "title": "Jak si B1 stojí v porovnání",
+        "subtitle": "B1 je ChMS, se kterým začnete. Lidé, dary, check-in, web, aplikace pro členy, plánování bohoslužeb. Navždy za $0. 501(c)(3)."
       },
+      "hubTitle": "Jak si B1 stojí ve srovnání",
+      "hubSubtitle": "B1 je systém pro správu sboru, se kterým začnete. Lidé, dary, check-in, web, aplikace pro členy, plánování bohoslužeb. Navždy za 0 $. 501(c)(3).",
       "b1vsPrefix": "B1 vs",
-      "noHiddenFees": "Žádné skryté poplatky, navždy",
-      "plusTransactionFees": "Plus transakční poplatky",
+      "noHiddenFees": "Žádné tarify. Žádný poplatek platformy z darů.",
+      "plusTransactionFees": "",
+      "priceB1Label": "$0 / month",
+      "priceB1Note": "Žádné tarify. Žádný poplatek za platformu z darů.",
       "featureColumn": "Funkce",
       "ourTake": "Náš názor",
-      "ctaTitle": "Jste připraveni ušetřit vašemu sboru peníze?",
-      "ctaDescription": "Přejděte na B1.church a přesměrujte svůj softwarový rozpočet do služby.",
+      "ctaTitle": "Získejte celý balík za $0",
+      "ctaDescription": "B1 je celý balík za $0.",
       "ctaButton": "Začněte zdarma",
       "otherComparisons": "Další srovnání",
       "competitors": {
         "planning-center": {
           "name": "Planning Center",
-          "tagline": "Bezplatná alternativa k Planning Center",
-          "description": "Planning Center je populární platforma pro správu sboru s modulárním cenovým modelem. B1.church nabízí podobné funkce zcela zdarma.",
+          "tagline": "Celý balík za $0",
+          "description": "B1 je celý balík za $0. Bez přechodu na vyšší moduly.",
           "features": [
             {
-              "name": "Databáze členů",
-              "b1": true,
-              "competitor": true
+              "name": "Databáze lidí",
+              "b1": "Součástí",
+              "competitor": "Zdarma, neomezeně"
             },
             {
-              "name": "Registrační systém",
-              "b1": true,
-              "competitor": "$99/mo"
+              "name": "Dary",
+              "b1": "Bez poplatku platformy B1",
+              "competitor": "Zpracování; placené dary s růstem"
             },
             {
-              "name": "Online dárcovství",
-              "b1": "Žádné poplatky B1",
-              "competitor": "Poplatky platformy + Stripe"
-            },
-            {
-              "name": "Správa skupin",
-              "b1": true,
-              "competitor": "$50/mo"
+              "name": "Check-in",
+              "b1": "Součástí",
+              "competitor": "Součástí"
             },
             {
               "name": "Plánování bohoslužeb",
-              "b1": true,
-              "competitor": "$14-99/mo"
+              "b1": "Součástí",
+              "competitor": "Součástí"
             },
             {
-              "name": "Mobilní aplikace",
-              "b1": "Bezplatná značková aplikace",
-              "competitor": "$0-199/mo"
+              "name": "Aplikace pro členy",
+              "b1": "Z webu vašeho sboru",
+              "competitor": "Church Center"
             },
             {
-              "name": "Nástroj pro tvorbu webu",
-              "b1": true,
-              "competitor": false
+              "name": "Tvůrce webu",
+              "b1": "Součástí",
+              "competitor": "Není součástí"
             },
             {
-              "name": "Správa kázání",
-              "b1": true,
-              "competitor": false
+              "name": "Import",
+              "b1": "Lidé z Planning Center",
+              "competitor": "—"
             },
             {
-              "name": "Více poboček",
-              "b1": true,
-              "competitor": "Příplatek"
-            },
-            {
-              "name": "Open Source",
-              "b1": true,
-              "competitor": false
+              "name": "Open source",
+              "b1": "Ano",
+              "competitor": "Ne"
             }
           ],
-          "pricingB1": "100% zdarma",
-          "pricingCompetitor": "$0 - $500+/měsíc podle modulů",
-          "verdict": "B1.church poskytuje všechny klíčové funkce Planning Center bez složitého modulárního cenového modelu. Pokud je rozpočet otázkou, B1 je jasnou volbou."
+          "pricingB1": "$0 / měsíc",
+          "pricingCompetitor": "Start zdarma, pak placené moduly",
+          "verdict": "B1 jsou lidé, dary, check-in, web a plánování bohoslužeb za $0. Bez přechodu na vyšší moduly. Hosting v ceně."
         },
         "pushpay": {
           "name": "Pushpay",
-          "tagline": "Bezplatná alternativa k Pushpay",
-          "description": "Pushpay je známý pro mobilní dárcovství, ale přichází se značnými měsíčními náklady a transakčními poplatky. B1.church nabízí dárcovství s nulovými poplatky platformy.",
+          "tagline": "Dary plus zbytek ChMS, za $0",
+          "description": "Pushpay je placená platforma pro dary. B1 zahrnuje dary bez poplatku platformy, plus lidi, check-in, web a plánování bohoslužeb.",
           "features": [
             {
-              "name": "Online dárcovství",
-              "b1": "Žádné poplatky B1",
-              "competitor": "Poplatky platformy + Stripe"
+              "name": "Dary",
+              "b1": "Bez poplatku platformy B1",
+              "competitor": "Placená platforma + zpracování"
             },
             {
               "name": "Pravidelné dary",
-              "b1": true,
-              "competitor": true
+              "b1": "Součástí",
+              "competitor": "Součástí"
             },
             {
-              "name": "Mobilní aplikace",
-              "b1": "Bezplatná značková aplikace",
-              "competitor": "V ceně"
+              "name": "Databáze lidí",
+              "b1": "Součástí",
+              "competitor": "Často za příplatek"
             },
             {
-              "name": "Databáze členů",
-              "b1": true,
-              "competitor": "ChMS za příplatek"
+              "name": "Check-in",
+              "b1": "Součástí",
+              "competitor": "Často za příplatek"
             },
             {
-              "name": "Registrační systém",
-              "b1": true,
-              "competitor": "Příplatek"
+              "name": "Aplikace pro členy",
+              "b1": "Z webu vašeho sboru",
+              "competitor": "Součástí"
             },
             {
-              "name": "Nástroj pro tvorbu webu",
-              "b1": true,
-              "competitor": false
+              "name": "Tvůrce webu",
+              "b1": "Součástí",
+              "competitor": "Není součástí"
             },
             {
-              "name": "Správa skupin",
-              "b1": true,
-              "competitor": "Příplatek"
-            },
-            {
-              "name": "Potvrzení o darech",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Správa fondů",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Open Source",
-              "b1": true,
-              "competitor": false
+              "name": "Open source",
+              "b1": "Ano",
+              "competitor": "Ne"
             }
           ],
-          "pricingB1": "100% zdarma",
-          "pricingCompetitor": "$300 - $1,000+/měsíc",
-          "verdict": "Pushpay má bohaté funkce, ale je drahý. B1.church nabízí srovnatelné funkce dárcovství plus kompletní správu sboru zdarma. Ušetřené prostředky lze přesměrovat do služby."
+          "pricingB1": "$0 / měsíc",
+          "pricingCompetitor": "Měsíční platba + zpracování",
+          "verdict": "Platte Pushpay, pokud chcete jejich systém darů a platforma se vám vyplatí. Začněte s B1, pokud chcete celý sborový balík a software za $0. Sazby za karty nebo ACH platíte tak či tak."
         },
         "tithely": {
           "name": "Tithe.ly",
-          "tagline": "Bezplatná alternativa k Tithe.ly",
-          "description": "Tithe.ly nabízí nástroje pro sborové dárcovství a správu s freemium cenovým modelem. B1.church poskytuje vše zdarma bez transakčních poplatků.",
+          "tagline": "Oni vlastní slovo zdarma. My si nebereme provizi.",
+          "description": "Tithe.ly je firma zaměřená na dary s přidaným sborovým softwarem. B1 je ChMS 100% zdarma včetně hostingu. Dary jsou součástí. Stripe pro neziskovky je 2,2 % + $0.30; „bezplatné“ dary Tithe.ly jsou 2,9 % + $0.30.",
           "features": [
             {
-              "name": "Online dárcovství",
-              "b1": "Žádné poplatky B1",
-              "competitor": "Poplatky platformy + Stripe"
+              "name": "Dary",
+              "b1": "Stripe pro neziskovky 2,2 % + $0.30",
+              "competitor": "Tithe.ly „zdarma“ 2,9 % + $0.30"
             },
             {
-              "name": "Pravidelné dary",
-              "b1": true,
-              "competitor": true
+              "name": "Databáze lidí",
+              "b1": "Součástí",
+              "competitor": "Placený ChMS"
             },
             {
-              "name": "Mobilní aplikace",
-              "b1": "Bezplatná značková aplikace",
-              "competitor": "$99/mo"
+              "name": "Check-in",
+              "b1": "Součástí",
+              "competitor": "Placený doplněk"
             },
             {
-              "name": "Databáze členů",
-              "b1": true,
-              "competitor": "$99/mo"
+              "name": "Aplikace pro členy",
+              "b1": "Z webu vašeho sboru",
+              "competitor": "Placené"
             },
             {
-              "name": "Registrační systém",
-              "b1": true,
-              "competitor": "$49/mo"
+              "name": "Tvůrce webu",
+              "b1": "Součástí",
+              "competitor": "Placený doplněk"
             },
             {
-              "name": "Nástroj pro tvorbu webu",
-              "b1": true,
-              "competitor": "$49/mo"
-            },
-            {
-              "name": "Správa skupin",
-              "b1": true,
-              "competitor": "$99/mo"
-            },
-            {
-              "name": "Správa kázání",
-              "b1": true,
-              "competitor": "$49/mo"
-            },
-            {
-              "name": "Více poboček",
-              "b1": true,
-              "competitor": "Příplatek"
-            },
-            {
-              "name": "Open Source",
-              "b1": true,
-              "competitor": false
+              "name": "Open source",
+              "b1": "Ano",
+              "competitor": "Ne"
             }
           ],
-          "pricingB1": "100% zdarma",
-          "pricingCompetitor": "Bezplatná úroveň + $49-199/mo za funkce",
-          "verdict": "Bezplatná úroveň Tithe.ly je omezená. Chcete-li získat plnou funkčnost, náklady se rychle sčítají. B1.church zahrnuje vše od prvního dne bez tlaku na upgrade."
+          "pricingB1": "$0 / měsíc",
+          "pricingCompetitor": "Bezplatná stránka darů, placený ChMS",
+          "verdict": "Tithe.ly prodává bezplatné dary a placený ChMS. B1 je sborový software včetně hostingu. Stripe pro neziskovky je 2,2 % + $0.30 oproti „bezplatným“ darům Tithe.ly za 2,9 % + $0.30. Žádný placený tarif pro odemčení lidí, check-inu ani webu."
         },
         "breeze": {
-          "name": "Breeze ChMS",
-          "tagline": "Bezplatná alternativa k Breeze ChMS",
-          "description": "Breeze je jednoduchý systém pro správu sboru s přímočarým cenovým modelem. B1.church nabízí více funkcí zdarma.",
+          "name": "Breeze",
+          "tagline": "Placené a jednoduché vs. $0 a kompletní",
+          "description": "Breeze je placený, jednoduchý ChMS. Lidé odcházející z Planning Center zmiňují Breeze. B1 je za $0 a zahrnuje web, dary bez poplatku platformy, check-in a plánování bohoslužeb. Lidi z Breeze importujeme.",
           "features": [
             {
-              "name": "Databáze členů",
-              "b1": true,
-              "competitor": true
+              "name": "Databáze lidí",
+              "b1": "Součástí",
+              "competitor": "Součástí"
             },
             {
-              "name": "Správa dárcovství",
-              "b1": "Žádné poplatky B1",
-              "competitor": "2.9% + 30¢"
+              "name": "Dary",
+              "b1": "Bez poplatku platformy B1",
+              "competitor": "Placené zpracování"
             },
             {
-              "name": "Registrační systém",
-              "b1": true,
-              "competitor": "Základní"
+              "name": "Check-in",
+              "b1": "Součástí",
+              "competitor": "Součástí"
             },
             {
-              "name": "Mobilní aplikace",
-              "b1": "Bezplatná značková aplikace",
-              "competitor": "Omezené"
+              "name": "Aplikace pro členy",
+              "b1": "Z webu vašeho sboru",
+              "competitor": "Mobilní Breeze"
             },
             {
-              "name": "Nástroj pro tvorbu webu",
-              "b1": true,
-              "competitor": false
+              "name": "Tvůrce webu",
+              "b1": "Součástí",
+              "competitor": "Není součástí"
             },
             {
-              "name": "Správa skupin",
-              "b1": true,
-              "competitor": true
+              "name": "Import",
+              "b1": "Lidi z Breeze importujeme",
+              "competitor": "—"
             },
             {
-              "name": "Správa událostí",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Plánování dobrovolníků",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Více poboček",
-              "b1": true,
-              "competitor": false
-            },
-            {
-              "name": "Open Source",
-              "b1": true,
-              "competitor": false
+              "name": "Open source",
+              "b1": "Ano",
+              "competitor": "Ne"
             }
           ],
-          "pricingB1": "100% zdarma",
-          "pricingCompetitor": "$72 - $135/měsíc",
-          "verdict": "Breeze je jednoduchý a dostupný, ale B1.church je jednodušší pro rozpočet (zdarma!) a zároveň nabízí více funkcí, jako je nástroj pro tvorbu webu a plnohodnotnou mobilní aplikaci."
+          "pricingB1": "$0 / měsíc",
+          "pricingCompetitor": "Měsíční platba",
+          "verdict": "Zvolte Breeze, pokud chcete vyladěný placený produkt a odcházíte z Planning Center. Zvolte B1, pokud chcete web i dary v jednom systému za $0."
         }
-      },
-      "hubTitle": "How B1 compares",
-      "hubSubtitle": "B1 is the ChMS you start on. People, giving, check-in, website, member app, worship planning. $0 forever. 501(c)(3).",
-      "priceB1Label": "$0 / month",
-      "priceB1Note": "No tiers. No platform fee on gifts."
+      }
     },
     "churchManagement": {
       "meta": {
@@ -693,20 +633,58 @@
       "hero": {
         "title": "Bezplatný",
         "titleHighlight": "software pro správu sboru",
-        "titleLine2": "Kompletní platforma pro službu",
-        "description": "Profesionální <strong>software pro správu sboru</strong> se sledováním docházky, databází členů, správou dárcovství a komunikačními nástroji. Zcela <strong>bezplatný sborový software</strong> poskytovaný Live Church Solutions, neziskovou službou 501(c)(3). Přidejte se k více než 100 sborům, které šetří tisíce na nákladech za software pro službu.",
+        "titleLine2": "Včetně hostingu.",
+        "description": "Lidé, dary, check-in, web, aplikace pro členy a plánování bohoslužeb. Jedna platforma. Navždy za $0.",
         "ctaPrimary": "Začněte zdarma",
-        "ctaSecondary": "Vyzkoušet demo",
-        "trustLine": "Důvěřují nám rostoucí sbory po celém světě",
-        "trustFree": "Zcela zdarma navždy",
-        "trustNonProfit": "Nezisková služba 501(c)(3)",
-        "trustOpenSource": "Open Source"
+        "ctaSecondary": "Podívejte se, jak si B1 stojí v porovnání",
+        "trustLine": "Co skutečně získáte",
+        "trustFree": "501(c)(3)",
+        "trustNonProfit": "Žádné tarify",
+        "trustOpenSource": "Hosting v ceně"
       },
+      "freeMeaning": {
+        "eyebrow": "Bezplatný software pro správu sboru",
+        "title": "Zdarma znamená software i hosting.",
+        "lead": "Sbory získají lidi, dary, check-in, web, aplikaci pro členy a plánování bohoslužeb bez měsíčního účtu za ChMS.",
+        "items": [
+          {
+            "title": "Software i hosting zdarma",
+            "description": "Platforma je opravdu 100% zdarma, včetně hostingu. Žádná zkušební doba, žádný limit velikosti sboru a žádné upgrady pro odemčení lidí, darů, check-inu, skupin, webu ani docházky."
+          },
+          {
+            "title": "Dary jsou součástí",
+            "description": "Online dary jsou součástí platformy. B1 nepřidává žádný poplatek platformy z darů."
+          },
+          {
+            "title": "Open source od ChurchApps",
+            "description": "B1 je součástí sady ChurchApps. Můžete si přečíst kód, exportovat svá data nebo si ho hostovat sami."
+          }
+        ],
+        "compareLink": "Podívejte se, jak si B1 stojí v porovnání"
+      },
+      "highlights": [
+        {
+          "number": "$0",
+          "label": "Software a hosting"
+        },
+        {
+          "number": "100 %",
+          "label": "Navždy zdarma"
+        },
+        {
+          "number": "Jedna",
+          "label": "Sdílená databáze"
+        },
+        {
+          "number": "Otevřený",
+          "label": "Zdrojový kód na GitHub"
+        }
+      ],
       "featuresHeader": {
-        "title": "Kompletní",
-        "titleHighlight": "systém pro správu sboru",
-        "titleSuffix": "funkce",
-        "description": "Profesionální databázový software pro sbory se správou členů, sledováním docházky, administrací dárcovství a nástroji pro sborovou komunikaci. Bezplatný systém pro správu sboru navržený speciálně pro rostoucí sbory a sbory s více pobočkami."
+        "title": "Jedna",
+        "titleHighlight": "bezplatná správa sboru",
+        "titleSuffix": "nástrojů",
+        "description": "Lidé, dary, check-in, skupiny, web a docházka v jedné databázi. Hosting je v ceně. Nic na této stránce se neprodává jako doplněk."
       },
       "checkinStations": {
         "title": "Samoobslužné registrační stanice",
@@ -755,7 +733,7 @@
       "testimonials": {
         "title": "Milují nás sbory",
         "titleHighlight": "po celém světě",
-        "subtitle": "Přidejte se k rostoucím sborům, které proměnily svou službu s naší zcela bezplatnou platformou. Zde je, co říkají pastoři a správci sborů.",
+        "subtitle": "Pastoři a administrátoři sborů, kteří potřebovali bezplatný software pro správu sboru — a přestali platit měsíční účet za ChMS.",
         "items": [
           {
             "content": "Tuto platformu používáme každou neděli ke sledování docházky a vedení záznamů o všech účastnících, včetně dětí z nedělní školky. Jako misionáři s omezeným rozpočtem oceňujeme, že tento software je zdarma a efektivní."
@@ -771,7 +749,7 @@
       "aboutSection": {
         "title": "O našem",
         "titleHighlight": "bezplatném sborovém softwaru",
-        "description": "Komplexní <strong>software pro správu sboru</strong> poskytovaný zcela zdarma křesťanským sborům a službám organizací <strong>Live Church Solutions</strong>, neziskovou organizací 501(c)(3) založenou v roce 2012. Naším posláním je pomáhat sborům zavádět profesionální <strong>software pro službu</strong> bez typicky vysokých nákladů na systémy pro sborovou administrativu."
+        "description": "B1 je bezplatný software pro správu sboru od <strong>Live Church Solutions</strong> a open source sady <strong>ChurchApps</strong>. Hosting je v ceně. Produkt tvoří lidé, dary, check-in, skupiny, web a docházka — ne zkušební verze, která skončí nabídkou ceny."
       },
       "stats": [
         {
@@ -780,9 +758,9 @@
           "description": "Věříme, že tyto peníze lze využít lépe"
         },
         {
-          "number": "100+",
-          "label": "sborů již používá naši platformu",
-          "description": "Rostoucí společenství spokojených uživatelů"
+          "number": "$0",
+          "label": "Hosting v ceně",
+          "description": "Aplikace, web i správcovské nástroje běží na naše náklady"
         },
         {
           "number": "2012",
@@ -803,15 +781,16 @@
       },
       "allFeatures": {
         "title": "Vše, co potřebujete, zcela zdarma",
-        "subtitle": "Žádná zkušební období, žádné limity členů, žádné skryté poplatky",
+        "subtitle": "Žádné zkušební doby, žádné limity členů, žádné skryté poplatky — hosting v ceně",
         "items": [
           "Kompletní databáze členů s podrobnými profily",
           "Sledování docházky s aplikací pro samoregistraci",
           "Správa skupin a malých skupinek",
           "Správa dárcovství s podrobným reportingem",
+          "Tvůrce webu pro sbory",
           "Vlastní formuláře a sběr dat",
           "Nástroje pro e-mailovou komunikaci",
-          "Správa a plánování událostí",
+          "Správa a plánování akcí",
           "Import dat ze stávajících systémů",
           "Podpora více míst a poboček",
           "Přístup a oprávnění podle rolí",
@@ -819,8 +798,8 @@
         ]
       },
       "cta": {
-        "title": "Jste připraveni přestat platit za software pro správu sboru?",
-        "description": "Přidejte se k sborům po celém světě, které přešly na zcela bezplatné, open source řešení vytvořené službou pro služby.",
+        "title": "Chcete přestat platit za sborový software?",
+        "description": "B1 je celý balík za $0. Hosting v ceně.",
         "primaryButton": "Začněte zdarma",
         "secondaryButton": "Vyzkoušet demo"
       },

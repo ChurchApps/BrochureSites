@@ -24,7 +24,7 @@
         "ctaSecondary": "Tingnan Kung Paano Gumagana",
         "trust": [
           "Libre magpakailanman — walang tier, walang trial",
-          "Walang dagdag na transaction fee",
+          "Walang platform fee ng B1 sa mga handog",
           "Open source sa GitHub",
           "501(c)(3) na ministeryo mula pa noong 2012"
         ]
@@ -62,7 +62,7 @@
         }
       },
       "connect": {
-        "eyebrow": "Ang B1 Mobile App",
+        "eyebrow": "PWA · i-install mula sa website ng inyong simbahan",
         "title": "Ang inyong mga kaanib, konektado",
         "titleAccent": "buong linggo.",
         "lead": "Bigyan ang inyong simbahan ng iisang lugar na mapagsasamahan sa pagitan ng mga Linggo. Dinadala ng B1 app ang inyong member directory, mga grupo, mensahe, at sermon sa bawat telepono sa inyong kongregasyon.",
@@ -277,8 +277,8 @@
       "titleHighlight": "sa Lahat ng Dako",
       "subtitle": "Sumali sa mga lumalagong simbahan na nagbago ng kanilang ministeryo gamit ang aming ganap na libreng plataporma. Narito po ang sinasabi ng mga pastor at administrador ng simbahan tungkol sa B1.",
       "stats": {
-        "churchesValue": "100+",
-        "churchesLabel": "Mga simbahan sa buong mundo",
+        "churchesValue": "501(c)(3)",
+        "churchesLabel": "Nonprofit na ministeryo",
         "freeValue": "Libre",
         "freeLabel": "Magpakailanman at palagi",
         "openValue": "Open",
@@ -336,7 +336,7 @@
       "faq": "FAQ",
       "aboutChurchApps": "Tungkol sa ChurchApps",
       "appsAndResources": "Mga App at Resource",
-      "installApp": "I-install ang Mobile App",
+      "installApp": "I-install mula sa website ng inyong simbahan",
       "helpCenter": "Help Center",
       "contact": "Makipag-ugnayan",
       "availableWorldwide": "Available sa Buong Mundo"
@@ -349,35 +349,35 @@
       "items": [
         {
           "question": "Talagang 100% libre po ba ang B1.church?",
-          "answer": "Opo, ang B1.church ay ganap na libre na walang nakatagong bayad, walang premium tier, at walang transaction fee sa mga donasyon. Kami po ay isang 501(c)(3) nonprofit na ministeryo na naniniwala na ang bawat simbahan ay nararapat na magkaroon ng access sa modernong teknolohiya anuman ang budget. Ang aming plataporma ay pinopondohan ng mga donasyon at Google Ad Grants."
+          "answer": "Oo. Ang hosted na B1 ay $0 habambuhay. Walang tier, walang limitasyon sa bilang ng tao. Ang Live Church Solutions ay isang 501(c)(3) (EIN 45-5349618). Pampubliko ang Form 990. Stripe o PayPal lang ang babayaran ninyo sa mga handog. Walang idinaragdag ang B1: $0."
         },
         {
           "question": "Anong mga feature ang kasama sa B1.church?",
-          "answer": "Kasama sa B1.church ang kumpletong platform sa pamamahala ng simbahan: member mobile app na direktang nai-install mula sa inyong website, drag-and-drop na website builder, online giving na walang dagdag na platform fee, check-in system para sa mga bata na may security code, member database, pagsubaybay ng attendance, pamamahala ng mga grupo, pagpaplano ng serbisyo, aklatan ng mga awit, pamamahala ng mga sermon, at integrasyon ng Bibliya."
+          "answer": "Mga tao, pagbibigay, check-in, website builder, member app, mga grupo, attendance, pagpaplano ng serbisyo, at library ng mga awit."
         },
         {
           "question": "Paano po nagkukumpara ang B1.church sa Planning Center?",
-          "answer": "Ang B1.church ay 100% libre habang ang Planning Center ay naniningil bawat module ($0-299+/buwan). Kasama sa B1 ang isang mobile app at website builder nang walang bayad, habang ang Planning Center ay naniningil ng dagdag para sa Church Center at walang kasamang website builder. Parehong nag-aalok ng mga tampok sa pamamahala ng simbahan, ngunit ibinibigay ng B1 ang lahat sa iisang libreng pakete."
+          "answer": "Libre ang Planning Center People. May libreng tier ang ibang produkto ng PCO, pero magbabayad kayo habang lumalaki. Libre ang mga pangunahing bahagi ng Church Center. Ang B1 ay ang buong stack sa halagang $0, walang module na kailangang i-upgrade."
         },
         {
           "question": "Paano po nagkukumpara ang B1.church sa Pushpay?",
-          "answer": "Ang B1.church ay ganap na libre habang ang Pushpay ay nagkakahalaga ng $300-1000+/buwan. Walang transaction fee ang B1 sa pag-abuloy, habang kumukuha ang Pushpay ng porsyento ng mga donasyon. Ang B1 ay open source at kasama ang buong pamamahala ng simbahan, habang ang Pushpay ay proprietary at pangunahing nakatuon sa pag-abuloy."
+          "answer": "Ang Pushpay ay bayad na platform sa pagbibigay. Kasama sa B1 ang pagbibigay na walang platform fee, pati ang iba pang bahagi ng ChMS, sa halagang $0. Magbabayad pa rin kayo ng karaniwang singil sa card o ACH."
         },
         {
           "question": "Paano po nagkukumpara ang B1.church sa Tithe.ly?",
-          "answer": "Ang B1.church ay ganap na libre na walang transaction fee. Nag-aalok ang Tithe.ly ng libreng tier ngunit naniningil para sa mga premium na tampok at kumukuha ng porsyento sa bawat donasyon. Kasama sa B1 ang buong software ng pamamahala ng simbahan, habang ang ChMS ng Tithe.ly ay isang hiwalay na bayad na produkto."
+          "answer": "Ang Tithe.ly ay kumpanya sa pagbibigay na may bayad na ChMS. Ang B1 ay ChMS na 100% libre, kasama ang hosting. Kasama ang pagbibigay. Ang Stripe nonprofit ay 2.2% + $0.30; ang \"libreng\" pagbibigay ng Tithe.ly ay 2.9% + $0.30."
         },
         {
           "question": "Paano po nagkukumpara ang B1.church sa Breeze ChMS?",
-          "answer": "Ang B1.church ay libre habang ang Breeze ay nagsisimula sa $72/buwan. Kasama sa B1 ang isang buong mobile app at website builder, habang ang Breeze ay may limitadong mga tampok sa mobile at walang website builder. Parehong nag-aalok ng pamamahala ng simbahan, ngunit higit na maraming tampok ang ibinibigay ng B1 nang walang bayad."
+          "answer": "Ang Breeze ay bayad at simpleng ChMS. Ang B1 ay $0 at kasama ang website, pagbibigay na walang platform fee, check-in, at pagpaplano ng pagsamba. Ini-import namin ang mga tao mula sa Breeze."
         },
         {
           "question": "Magkakaroon ba ng mobile app ang simbahan ko?",
-          "answer": "Oo. Binibigyan ng B1 ang inyong simbahan ng branded na karanasan ng mobile app bilang installable web app (PWA). Bubuksan ng mga miyembro ang site ng inyong simbahan, ita-tap ang 'Add to Home Screen', at makakakuha sila ng full-screen na app na may pangalan at logo ng inyong simbahan. Agad na nakakarating sa lahat ang mga update."
+          "answer": "Ini-install ng mga kaanib ang app mula sa website ng inyong simbahan. I-add sa Home Screen."
         },
         {
           "question": "Sinusuportahan po ba ng B1.church ang online na pag-abuloy?",
-          "answer": "Opo, kasama sa B1.church ang ligtas na online na pag-abuloy na may suporta sa credit card at bank transfer. Maaari po kayong mag-set up ng ulit-ulit na donasyon, pamahalaan ang maraming pondo, at magbigay ng kasaysayan ng pag-abuloy para sa mga tax statement. Gumagamit kami ng direktang integrasyon sa Stripe na walang bayad sa plataporma ng B1 - ang inyong simbahan ay nakikipag-negotiate ng mga rate nang direkta sa Stripe (karaniwang mga 2.9% + 30¢)."
+          "answer": "Oo. Stripe o PayPal. May paulit-ulit na handog, mga pondo, at mga statement. Walang idinaragdag ang B1: $0."
         },
         {
           "question": "Maaari po ba akong bumuo ng website gamit ang B1.church?",
@@ -385,7 +385,7 @@
         },
         {
           "question": "May check-in po ba ang B1.church para sa ministeryo ng mga bata?",
-          "answer": "Opo, kasama sa B1.church ang isang smart na sistema ng check-in na may contactless na self-service na kiosk, family check-in, awtomatikong pagtatalaga ng grupo, mga security code para sa pagsundo ng bata, at pagsubaybay sa pagdalo na may mga ulat."
+          "answer": "Oo. Mga name tag, security code, at attendance."
         },
         {
           "question": "Open source po ba ang B1.church?",
@@ -426,264 +426,204 @@
         }
       },
       "notFound": {
-        "title": "Hindi Natagpuan ang Paghahambing",
-        "subtitle": "Tingnan po ang aming mga available na paghahambing:"
+        "title": "Paano ihambing ang B1",
+        "subtitle": "Ang B1 ang ChMS na masisimulan ninyo. Mga tao, pagbibigay, check-in, website, member app, pagpaplano ng pagsamba. $0 habambuhay. 501(c)(3)."
       },
+      "hubTitle": "Paano Ikinukumpara ang B1",
+      "hubSubtitle": "Ang B1 ang sistema sa pamamahala ng simbahan na pagsisimulan mo. Mga miyembro, pagbibigay, check-in, website, app para sa miyembro, pagpaplano ng pagsamba. $0 magpakailanman. 501(c)(3).",
       "b1vsPrefix": "B1 vs",
-      "noHiddenFees": "Walang nakatagong bayad, magpakailanman",
-      "plusTransactionFees": "May karagdagang transaction fee",
+      "noHiddenFees": "Walang tier. Walang platform fee sa mga handog.",
+      "plusTransactionFees": "",
+      "priceB1Label": "$0 / month",
+      "priceB1Note": "Walang tier. Walang bayad sa plataporma sa mga handog.",
       "featureColumn": "Tampok",
       "ourTake": "Aming Opinyon",
-      "ctaTitle": "Handa na po bang makatipid ang inyong simbahan?",
-      "ctaDescription": "Lumipat sa B1.church at ilaan ang inyong budget sa software para sa ministeryo.",
+      "ctaTitle": "Kunin ang buong stack sa halagang $0",
+      "ctaDescription": "Ang B1 ay ang buong stack sa halagang $0.",
       "ctaButton": "Magsimula nang Libre",
       "otherComparisons": "Iba Pang Paghahambing",
       "competitors": {
         "planning-center": {
           "name": "Planning Center",
-          "tagline": "Libreng alternatibo sa Planning Center",
-          "description": "Ang Planning Center ay isang tanyag na plataporma ng pamamahala ng simbahan na may modular na presyo. Nag-aalok ang B1.church ng mga katulad na tampok nang ganap na libre.",
+          "tagline": "Ang buong stack sa halagang $0",
+          "description": "Ang B1 ay ang buong stack sa halagang $0. Walang module na kailangang i-upgrade.",
           "features": [
             {
-              "name": "Database ng Miyembro",
-              "b1": true,
-              "competitor": true
+              "name": "Database ng mga tao",
+              "b1": "Kasama",
+              "competitor": "Libre, walang limitasyon"
             },
             {
-              "name": "Sistema ng Check-in",
-              "b1": true,
-              "competitor": "$99/buwan"
+              "name": "Pagbibigay",
+              "b1": "Walang platform fee ang B1",
+              "competitor": "Processing; bayad na Giving habang lumalaki"
             },
             {
-              "name": "Online na Pag-abuloy",
-              "b1": "Walang bayad sa B1",
-              "competitor": "Bayad sa platform + Stripe"
-            },
-            {
-              "name": "Pamamahala ng Grupo",
-              "b1": true,
-              "competitor": "$50/buwan"
-            },
-            {
-              "name": "Pagpaplano ng Serbisyo",
-              "b1": true,
-              "competitor": "$14-99/buwan"
-            },
-            {
-              "name": "Mobile App",
-              "b1": "Libreng branded app",
-              "competitor": "$0-199/buwan"
-            },
-            {
-              "name": "Website Builder",
-              "b1": true,
-              "competitor": false
-            },
-            {
-              "name": "Pamamahala ng Sermon",
-              "b1": true,
-              "competitor": false
-            },
-            {
-              "name": "Multi-Campus",
-              "b1": true,
-              "competitor": "Karagdagang bayad"
-            },
-            {
-              "name": "Open Source",
-              "b1": true,
-              "competitor": false
-            }
-          ],
-          "pricingB1": "100% Libre",
-          "pricingCompetitor": "$0 - $500+/buwan depende sa mga module",
-          "verdict": "Ibinibigay ng B1.church ang lahat ng pangunahing tampok ng Planning Center nang walang komplikadong modular na presyo. Kung ang budget ay isang alalahanin, ang B1 ang malinaw na pagpipilian."
-        },
-        "pushpay": {
-          "name": "Pushpay",
-          "tagline": "Libreng alternatibo sa Pushpay",
-          "description": "Ang Pushpay ay kilala sa mobile na pag-abuloy ngunit may kasamang malaking buwanang gastos at transaction fee. Nag-aalok ang B1.church ng pag-abuloy na walang bayad sa plataporma.",
-          "features": [
-            {
-              "name": "Online na Pag-abuloy",
-              "b1": "Walang bayad sa B1",
-              "competitor": "Bayad sa platform + Stripe"
-            },
-            {
-              "name": "Ulit-ulit na Donasyon",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Mobile App",
-              "b1": "Libreng branded app",
+              "name": "Check-in",
+              "b1": "Kasama",
               "competitor": "Kasama"
             },
             {
-              "name": "Database ng Miyembro",
-              "b1": true,
-              "competitor": "Dagdag ang ChMS"
+              "name": "Pagpaplano ng serbisyo",
+              "b1": "Kasama",
+              "competitor": "Kasama"
             },
             {
-              "name": "Sistema ng Check-in",
-              "b1": true,
-              "competitor": "Karagdagang bayad"
+              "name": "Member app",
+              "b1": "Mula sa website ng inyong simbahan",
+              "competitor": "Church Center"
             },
             {
-              "name": "Website Builder",
-              "b1": true,
-              "competitor": false
+              "name": "Website builder",
+              "b1": "Kasama",
+              "competitor": "Hindi kasama"
             },
             {
-              "name": "Pamamahala ng Grupo",
-              "b1": true,
-              "competitor": "Karagdagang bayad"
+              "name": "Import",
+              "b1": "Mga tao mula sa Planning Center",
+              "competitor": "—"
             },
             {
-              "name": "Mga Statement ng Pag-abuloy",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Pamamahala ng Pondo",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Open Source",
-              "b1": true,
-              "competitor": false
+              "name": "Open source",
+              "b1": "Oo",
+              "competitor": "Hindi"
             }
           ],
-          "pricingB1": "100% Libre",
-          "pricingCompetitor": "$300 - $1,000+/buwan",
-          "verdict": "Ang Pushpay ay mayaman sa tampok ngunit mahal. Nag-aalok ang B1.church ng katulad na mga tampok sa pag-abuloy kasama ang buong pamamahala ng simbahan nang walang bayad. Ang matitipid ay maaaring ilaan sa ministeryo."
+          "pricingB1": "$0 / buwan",
+          "pricingCompetitor": "Libre sa simula, saka bayad na mga module",
+          "verdict": "Ang B1 ay mga tao, pagbibigay, check-in, website, at pagpaplano ng pagsamba sa halagang $0. Walang module na kailangang i-upgrade. Kasama ang hosting."
+        },
+        "pushpay": {
+          "name": "Pushpay",
+          "tagline": "Pagbibigay at ang iba pang bahagi ng ChMS, sa halagang $0",
+          "description": "Ang Pushpay ay bayad na platform sa pagbibigay. Kasama sa B1 ang pagbibigay na walang platform fee, pati mga tao, check-in, website, at pagpaplano ng pagsamba.",
+          "features": [
+            {
+              "name": "Pagbibigay",
+              "b1": "Walang platform fee ang B1",
+              "competitor": "Bayad na platform + processing"
+            },
+            {
+              "name": "Paulit-ulit na handog",
+              "b1": "Kasama",
+              "competitor": "Kasama"
+            },
+            {
+              "name": "Database ng mga tao",
+              "b1": "Kasama",
+              "competitor": "Madalas may dagdag na bayad"
+            },
+            {
+              "name": "Check-in",
+              "b1": "Kasama",
+              "competitor": "Madalas may dagdag na bayad"
+            },
+            {
+              "name": "Member app",
+              "b1": "Mula sa website ng inyong simbahan",
+              "competitor": "Kasama"
+            },
+            {
+              "name": "Website builder",
+              "b1": "Kasama",
+              "competitor": "Hindi kasama"
+            },
+            {
+              "name": "Open source",
+              "b1": "Oo",
+              "competitor": "Hindi"
+            }
+          ],
+          "pricingB1": "$0 / buwan",
+          "pricingCompetitor": "Buwanang bayad + processing",
+          "verdict": "Magbayad sa Pushpay kung gusto ninyo ang kanilang giving rail at kaya ninyo ang bayad sa platform. Magsimula sa B1 kung gusto ninyo ang buong stack ng simbahan at software na $0. Magbabayad pa rin kayo ng singil sa card o ACH sa alinman."
         },
         "tithely": {
           "name": "Tithe.ly",
-          "tagline": "Libreng alternatibo sa Tithe.ly",
-          "description": "Nag-aalok ang Tithe.ly ng mga kasangkapan sa pag-abuloy at pamamahala ng simbahan na may freemium na presyo. Ibinibigay ng B1.church ang lahat nang libre na walang transaction fee.",
+          "tagline": "Sila ang may-ari ng salitang libre. Hindi kami kumukuha ng bahagi.",
+          "description": "Ang Tithe.ly ay kumpanya sa pagbibigay na may kasamang church software. Ang B1 ay ChMS na 100% libre, kasama ang hosting. Kasama ang pagbibigay. Ang Stripe nonprofit ay 2.2% + $0.30; ang \"libreng\" pagbibigay ng Tithe.ly ay 2.9% + $0.30.",
           "features": [
             {
-              "name": "Online na Pag-abuloy",
-              "b1": "Walang bayad sa B1",
-              "competitor": "Bayad sa platform + Stripe"
+              "name": "Pagbibigay",
+              "b1": "Stripe nonprofit 2.2% + $0.30",
+              "competitor": "Tithe.ly \"libre\" 2.9% + $0.30"
             },
             {
-              "name": "Ulit-ulit na Donasyon",
-              "b1": true,
-              "competitor": true
+              "name": "Database ng mga tao",
+              "b1": "Kasama",
+              "competitor": "Bayad na ChMS"
             },
             {
-              "name": "Mobile App",
-              "b1": "Libreng branded app",
-              "competitor": "$99/buwan"
+              "name": "Check-in",
+              "b1": "Kasama",
+              "competitor": "Bayad na add-on"
             },
             {
-              "name": "Database ng Miyembro",
-              "b1": true,
-              "competitor": "$99/buwan"
+              "name": "Member app",
+              "b1": "Mula sa website ng inyong simbahan",
+              "competitor": "Bayad"
             },
             {
-              "name": "Sistema ng Check-in",
-              "b1": true,
-              "competitor": "$49/buwan"
+              "name": "Website builder",
+              "b1": "Kasama",
+              "competitor": "Bayad na add-on"
             },
             {
-              "name": "Website Builder",
-              "b1": true,
-              "competitor": "$49/buwan"
-            },
-            {
-              "name": "Pamamahala ng Grupo",
-              "b1": true,
-              "competitor": "$99/buwan"
-            },
-            {
-              "name": "Pamamahala ng Sermon",
-              "b1": true,
-              "competitor": "$49/buwan"
-            },
-            {
-              "name": "Multi-Campus",
-              "b1": true,
-              "competitor": "Karagdagang bayad"
-            },
-            {
-              "name": "Open Source",
-              "b1": true,
-              "competitor": false
+              "name": "Open source",
+              "b1": "Oo",
+              "competitor": "Hindi"
             }
           ],
-          "pricingB1": "100% Libre",
-          "pricingCompetitor": "Libreng tier + $49-199/buwan para sa mga tampok",
-          "verdict": "Limitado ang libreng tier ng Tithe.ly. Para makuha ang buong functionality, mabilis na tumataas ang gastos. Kasama sa B1.church ang lahat mula sa unang araw nang walang pressure na mag-upgrade."
+          "pricingB1": "$0 / buwan",
+          "pricingCompetitor": "Libreng giving page, bayad na ChMS",
+          "verdict": "Nagbebenta ang Tithe.ly ng libreng pagbibigay at bayad na ChMS. Ang B1 ay church software na kasama ang hosting. Ang Stripe nonprofit ay 2.2% + $0.30 kumpara sa \"libre\" ng Tithe.ly na 2.9% + $0.30. Walang bayad na tier para ma-unlock ang mga tao, check-in, o ang website."
         },
         "breeze": {
-          "name": "Breeze ChMS",
-          "tagline": "Libreng alternatibo sa Breeze ChMS",
-          "description": "Ang Breeze ay isang simpleng sistema ng pamamahala ng simbahan na may tuwiran na presyo. Nag-aalok ang B1.church ng mas maraming tampok nang walang bayad.",
+          "name": "Breeze",
+          "tagline": "Bayad at simple vs $0 at kumpleto",
+          "description": "Ang Breeze ay bayad at simpleng ChMS. Ang mga umaalis sa Planning Center ay Breeze ang binabanggit. Ang B1 ay $0 at kasama ang website, pagbibigay na walang platform fee, check-in, at pagpaplano ng pagsamba. Ini-import namin ang mga tao mula sa Breeze.",
           "features": [
             {
-              "name": "Database ng Miyembro",
-              "b1": true,
-              "competitor": true
+              "name": "Database ng mga tao",
+              "b1": "Kasama",
+              "competitor": "Kasama"
             },
             {
-              "name": "Pamamahala ng Pag-abuloy",
-              "b1": "Walang bayad sa B1",
-              "competitor": "2.9% + 30¢"
+              "name": "Pagbibigay",
+              "b1": "Walang platform fee ang B1",
+              "competitor": "Bayad na processing"
             },
             {
-              "name": "Sistema ng Check-in",
-              "b1": true,
-              "competitor": "Pangunahin"
+              "name": "Check-in",
+              "b1": "Kasama",
+              "competitor": "Kasama"
             },
             {
-              "name": "Mobile App",
-              "b1": "Libreng branded app",
-              "competitor": "Limitado"
+              "name": "Member app",
+              "b1": "Mula sa website ng inyong simbahan",
+              "competitor": "Breeze mobile"
             },
             {
-              "name": "Website Builder",
-              "b1": true,
-              "competitor": false
+              "name": "Website builder",
+              "b1": "Kasama",
+              "competitor": "Hindi kasama"
             },
             {
-              "name": "Pamamahala ng Grupo",
-              "b1": true,
-              "competitor": true
+              "name": "Import",
+              "b1": "Ini-import namin ang mga tao mula sa Breeze",
+              "competitor": "—"
             },
             {
-              "name": "Pamamahala ng Kaganapan",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Pag-iskedyul ng Boluntaryo",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Multi-Campus",
-              "b1": true,
-              "competitor": false
-            },
-            {
-              "name": "Open Source",
-              "b1": true,
-              "competitor": false
+              "name": "Open source",
+              "b1": "Oo",
+              "competitor": "Hindi"
             }
           ],
-          "pricingB1": "100% Libre",
-          "pricingCompetitor": "$72 - $135/buwan",
-          "verdict": "Ang Breeze ay simple at abot-kaya, ngunit ang B1.church ay mas magaan sa budget (libre!) habang nag-aalok ng mas maraming tampok tulad ng website builder at buong mobile app."
+          "pricingB1": "$0 / buwan",
+          "pricingCompetitor": "Buwanang bayad",
+          "verdict": "Piliin ang Breeze kung gusto ninyo ng pulidong bayad na produkto at aalis kayo sa Planning Center. Piliin ang B1 kung gusto ninyo ang website at pagbibigay sa iisang sistemang $0."
         }
-      },
-      "hubTitle": "How B1 compares",
-      "hubSubtitle": "B1 is the ChMS you start on. People, giving, check-in, website, member app, worship planning. $0 forever. 501(c)(3).",
-      "priceB1Label": "$0 / month",
-      "priceB1Note": "No tiers. No platform fee on gifts."
+      }
     },
     "churchManagement": {
       "meta": {
@@ -693,20 +633,58 @@
       "hero": {
         "title": "Libreng",
         "titleHighlight": "Software ng Pamamahala ng Simbahan",
-        "titleLine2": "Kumpletong Plataporma ng Ministeryo",
-        "description": "Propesyonal na <strong>software ng pamamahala ng simbahan</strong> na may pagsubaybay sa pagdalo, database ng miyembro, pamamahala ng pag-abuloy, at mga kasangkapan sa komunikasyon. Ganap na <strong>libreng software para sa simbahan</strong> na ibinibigay ng Live Church Solutions, isang 501(c)(3) non-profit na ministeryo. Sumali sa mahigit 100 simbahang nakakatipid ng libo-libo sa gastos sa software ng ministeryo.",
+        "titleLine2": "Kasama ang hosting.",
+        "description": "Mga tao, pagbibigay, check-in, website, member app, at pagpaplano ng pagsamba. Isang platform. $0 habambuhay.",
         "ctaPrimary": "Magsimula nang Libre",
-        "ctaSecondary": "Subukan ang Demo",
-        "trustLine": "Pinagkakatiwalaan ng mga Lumalagong Simbahan sa Buong Mundo",
-        "trustFree": "Ganap na Libre Magpakailanman",
-        "trustNonProfit": "501(c)(3) Non-Profit na Ministeryo",
-        "trustOpenSource": "Open Source"
+        "ctaSecondary": "Tingnan kung paano ihambing ang B1",
+        "trustLine": "Ang talagang makukuha ninyo",
+        "trustFree": "501(c)(3)",
+        "trustNonProfit": "Walang tier",
+        "trustOpenSource": "Kasama ang hosting"
       },
+      "freeMeaning": {
+        "eyebrow": "Libreng church management software",
+        "title": "Libre ang software at ang hosting.",
+        "lead": "Nakukuha ng mga simbahan ang mga tao, pagbibigay, check-in, website, member app, at pagpaplano ng pagsamba nang walang buwanang bayarin sa ChMS.",
+        "items": [
+          {
+            "title": "Libre ang software at hosting",
+            "description": "Ang platform ay tunay na 100% libre, kasama ang hosting. Walang trial, walang limitasyon sa laki ng simbahan, at walang upgrade para ma-unlock ang mga tao, pagbibigay, check-in, mga grupo, website, o attendance."
+          },
+          {
+            "title": "Kasama ang pagbibigay",
+            "description": "Bahagi ng platform ang online na pagbibigay. Walang idinaragdag na platform fee ang B1 sa mga handog."
+          },
+          {
+            "title": "Open source mula sa ChurchApps",
+            "description": "Ang B1 ay bahagi ng ChurchApps suite. Mababasa ninyo ang code, mae-export ang inyong data, o maaari ninyong i-self-host."
+          }
+        ],
+        "compareLink": "Tingnan kung paano ihambing ang B1"
+      },
+      "highlights": [
+        {
+          "number": "$0",
+          "label": "Software at hosting"
+        },
+        {
+          "number": "100%",
+          "label": "Libre habambuhay"
+        },
+        {
+          "number": "Isa",
+          "label": "Nakabahaging database"
+        },
+        {
+          "number": "Bukas",
+          "label": "Source sa GitHub"
+        }
+      ],
       "featuresHeader": {
-        "title": "Kumpletong",
-        "titleHighlight": "Sistema ng Pamamahala ng Simbahan",
-        "titleSuffix": "Mga Tampok",
-        "description": "Propesyonal na software ng database ng simbahan na may pamamahala ng miyembro, pagsubaybay sa pagdalo, administrasyon ng pag-abuloy, at mga kasangkapan sa komunikasyon ng ministeryo. Libreng sistema ng pamamahala ng simbahan na partikular na idinisenyo para sa mga lumalagong kongregasyon at simbahang may maraming campus."
+        "title": "Isa",
+        "titleHighlight": "libreng church management",
+        "titleSuffix": "toolkit",
+        "description": "Mga tao, pagbibigay, check-in, mga grupo, website, at attendance sa iisang database. Kasama ang hosting. Walang ibinebentang add-on sa pahinang ito."
       },
       "checkinStations": {
         "title": "Mga Self-Serve na Istasyon ng Check-in",
@@ -755,7 +733,7 @@
       "testimonials": {
         "title": "Minamahal ng mga Simbahan",
         "titleHighlight": "sa Lahat ng Dako",
-        "subtitle": "Sumali sa mga lumalagong simbahan na nagbago ng kanilang ministeryo gamit ang aming ganap na libreng plataporma. Narito po ang sinasabi ng mga pastor at administrador ng simbahan.",
+        "subtitle": "Mga pastor at tagapangasiwa ng simbahan na naghanap ng libreng church management software, at tumigil nang magbayad ng buwanang bayarin sa ChMS.",
         "items": [
           {
             "content": "Ginagamit namin ang platapormang ito tuwing Linggo upang subaybayan ang pagdalo at magtago ng talaan ng lahat ng dumadalo, kabilang ang mga bata sa Sunday school. Bilang mga misyonero na may limitadong budget, pinahahalagahan po namin na ang software na ito ay libre at epektibo."
@@ -771,7 +749,7 @@
       "aboutSection": {
         "title": "Tungkol sa Aming",
         "titleHighlight": "Libreng Software para sa Simbahan",
-        "description": "Komprehensibong <strong>software ng pamamahala ng simbahan</strong> na ibinibigay nang ganap na libre sa mga Kristiyanong simbahan at ministeryo ng <strong>Live Church Solutions</strong>, isang 501(c)(3) non-profit na itinatag noong 2012. Ang aming misyon ay tulungan ang mga simbahan na ipatupad ang propesyonal na <strong>software ng ministeryo</strong> nang walang karaniwang mataas na gastos ng mga sistema ng administrasyon ng simbahan."
+        "description": "Ang B1 ay libreng church management software mula sa <strong>Live Church Solutions</strong> at sa open-source na <strong>ChurchApps</strong> suite. Kasama ang hosting. Ang produkto ay mga tao, pagbibigay, check-in, mga grupo, website, at attendance, hindi libreng trial na nauuwi sa presyo."
       },
       "stats": [
         {
@@ -780,9 +758,9 @@
           "description": "Naniniwala kami na maaaring gamitin nang mas mabuti ang perang ito"
         },
         {
-          "number": "100+",
-          "label": "Mga simbahang gumagamit na ng aming plataporma",
-          "description": "Lumalagong komunidad ng mga nasisiyahang gumagamit"
+          "number": "$0",
+          "label": "Kasama ang hosting",
+          "description": "Tumatakbo sa amin ang app, website, at mga admin tool"
         },
         {
           "number": "2012",
@@ -803,24 +781,25 @@
       },
       "allFeatures": {
         "title": "Lahat ng Kailangan Ninyo, Ganap na Libre",
-        "subtitle": "Walang trial period, walang limitasyon sa miyembro, walang nakatagong bayad",
+        "subtitle": "Walang trial period, walang limitasyon sa kaanib, walang nakatagong bayarin. Kasama ang hosting",
         "items": [
           "Kumpletong database ng miyembro na may detalyadong profile",
           "Pagsubaybay sa pagdalo na may self check-in app",
           "Mga grupo at pamamahala ng maliliit na grupo",
           "Pamamahala ng pag-abuloy na may detalyadong pag-uulat",
-          "Mga custom na form at pagkolekta ng datos",
-          "Mga kasangkapan sa email na komunikasyon",
-          "Pamamahala ng kaganapan at pag-iskedyul",
-          "Pag-import ng datos mula sa mga umiiral na sistema",
-          "Suporta para sa multi-site at multi-campus",
-          "Role-based na access at mga pahintulot",
+          "Website builder ng simbahan",
+          "Mga custom form at pangongolekta ng data",
+          "Mga tool sa komunikasyon sa email",
+          "Pamamahala at pag-iskedyul ng mga event",
+          "Pag-import ng data mula sa mga umiiral na sistema",
+          "Suporta sa maraming site at campus",
+          "Access at mga pahintulot batay sa tungkulin",
           "Open source na may access sa GitHub"
         ]
       },
       "cta": {
-        "title": "Handa na po Bang Tumigil sa Pagbabayad para sa Software ng Pamamahala ng Simbahan?",
-        "description": "Sumali sa mga simbahan sa buong mundo na lumipat na sa isang ganap na libre at open-source na solusyon na ginawa ng isang ministeryo, para sa mga ministeryo.",
+        "title": "Handa na bang tumigil sa pagbabayad para sa church software?",
+        "description": "Ang B1 ay ang buong stack sa halagang $0. Kasama ang hosting.",
         "primaryButton": "Magsimula nang Libre",
         "secondaryButton": "Subukan ang Demo"
       },

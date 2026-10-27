@@ -24,7 +24,7 @@
         "ctaSecondary": "Oglejte si v praksi",
         "trust": [
           "Brezplačno za vedno — brez paketov in preizkusnih obdobij",
-          "Brez dodatnih transakcijskih provizij",
+          "Brez provizije platforme B1 pri darovih",
           "Odprta koda na GitHub",
           "Neprofitna organizacija 501(c)(3) od leta 2012"
         ]
@@ -62,7 +62,7 @@
         }
       },
       "connect": {
-        "eyebrow": "Mobilna aplikacija B1",
+        "eyebrow": "PWA · namestitev s spletne strani vaše skupnosti",
         "title": "Vaši ljudje povezani",
         "titleAccent": "ves teden.",
         "lead": "Dajte svoji cerkvi en prostor pripadnosti tudi med nedeljama. Aplikacija B1 prinaša imenik članov, skupine, sporočila in pridige na vsak telefon v vaši skupnosti.",
@@ -277,8 +277,8 @@
       "titleHighlight": "povsod",
       "subtitle": "Pridružite se rastočim cerkvam, ki so preoblikovale svojo službo z našo popolnoma brezplačno platformo. Tole povedo pastorji in cerkveni upravitelji o B1.",
       "stats": {
-        "churchesValue": "100+",
-        "churchesLabel": "Cerkva po vsem svetu",
+        "churchesValue": "501(c)(3)",
+        "churchesLabel": "Neprofitno poslanstvo",
         "freeValue": "Brezplačno",
         "freeLabel": "Za vedno in vselej",
         "openValue": "Odprta",
@@ -336,7 +336,7 @@
       "faq": "Pogosta vprašanja",
       "aboutChurchApps": "O ChurchApps",
       "appsAndResources": "Aplikacije in viri",
-      "installApp": "Namestite mobilno aplikacijo",
+      "installApp": "Namestite s spletne strani vaše skupnosti",
       "helpCenter": "Center za pomoč",
       "contact": "Kontakt",
       "availableWorldwide": "Na voljo po vsem svetu"
@@ -349,35 +349,35 @@
       "items": [
         {
           "question": "Ali je B1.church res 100% brezplačen?",
-          "answer": "Da, B1.church je popolnoma brezplačen brez skritih stroškov, brez premijskih ravni in brez provizij za transakcije pri darovanju. Smo neprofitna služba 501(c)(3), ki verjame, da si vsaka cerkev zasluži dostop do sodobne tehnologije ne glede na proračun. Našo platformo financirajo darila in Google Ad Grants."
+          "answer": "Da. Gostovani B1 je za vedno $0. Brez paketov in brez omejitve števila ljudi. Live Church Solutions je organizacija 501(c)(3) (EIN 45-5349618). Javni obrazec 990. Stripe ali PayPal plačate le za obdelavo darov. B1 doda $0."
         },
         {
           "question": "Katere funkcije vključuje B1.church?",
-          "answer": "B1.church vključuje celovito platformo za upravljanje cerkve: mobilno aplikacijo za člane, ki se namesti neposredno z vaše spletne strani, izdelovalnik spletnih strani po načelu povleci in spusti, spletno darovanje brez dodatnih provizij platforme, sistem za prijavo otrok z varnostnimi kodami, bazo članov, spremljanje obiskanosti, upravljanje skupin, načrtovanje bogoslužij, knjižnico pesmi, upravljanje pridig in integracijo Svetega pisma."
+          "answer": "Ljudje, darovanje, prijava na srečanja, graditelj spletnih strani, aplikacija za člane, skupine, prisotnost, načrtovanje bogoslužij in knjižnica pesmi."
         },
         {
           "question": "Kako se B1.church primerja s Planning Center?",
-          "answer": "B1.church je 100% brezplačen, medtem ko Planning Center zaračunava po modulu ($0-299+/mesec). B1 brezplačno vključuje mobilno aplikacijo in graditelj spletne strani, medtem ko Planning Center zaračunava dodatno za Church Center in ne vključuje graditelja spletne strani. Oba ponujata funkcije za upravljanje cerkve, vendar B1 vse zagotovi v enem brezplačnem paketu."
+          "answer": "Planning Center People je brezplačen. Drugi izdelki PCO imajo brezplačne ravni, nato plačujete glede na rast. Osnove Church Center so brezplačne. B1 je celoten paket za $0 brez doplačil za module."
         },
         {
           "question": "Kako se B1.church primerja s Pushpay?",
-          "answer": "B1.church je popolnoma brezplačen, medtem ko Pushpay stane $300-1000+/mesec. B1 nima provizij za transakcije pri darovanju, medtem ko Pushpay vzame odstotek darila. B1 je odprtokoden in vključuje celovito upravljanje cerkve, medtem ko je Pushpay lastniški in primarno osredotočen na darovanje."
+          "answer": "Pushpay je plačljiva platforma za darovanje. B1 vključuje darovanje brez provizije platforme ter preostali sistem za upravljanje cerkve, za $0. Provizije za kartice ali ACH še vedno plačate."
         },
         {
           "question": "Kako se B1.church primerja s Tithe.ly?",
-          "answer": "B1.church je popolnoma brezplačen brez provizij za transakcije. Tithe.ly ponuja brezplačno raven, a zaračunava za premijske funkcije in vzame odstotek od vsakega darila. B1 vključuje celovito programsko opremo za upravljanje cerkve, medtem ko je ChMS pri Tithe.ly ločen plačljiv izdelek."
+          "answer": "Tithe.ly je podjetje za darovanje s plačljivim sistemom za upravljanje cerkve. B1 je sistem za upravljanje cerkve, 100 % brezplačen, vključno z gostovanjem. Darovanje je vključeno. Stripe za neprofitne organizacije je 2,2 % + $0,30; »brezplačno« darovanje Tithe.ly je 2,9 % + $0,30."
         },
         {
           "question": "Kako se B1.church primerja z Breeze ChMS?",
-          "answer": "B1.church je brezplačen, medtem ko se Breeze začne pri $72/mesec. B1 vključuje celovito mobilno aplikacijo in graditelj spletne strani, medtem ko ima Breeze omejene mobilne funkcije in nima graditelja spletne strani. Oba ponujata upravljanje cerkve, vendar B1 zagotovi več funkcij brezplačno."
+          "answer": "Breeze je plačljiv, preprost sistem za upravljanje cerkve. B1 je za $0 in vključuje spletno stran, darovanje brez provizije platforme, prijavo na srečanja in načrtovanje bogoslužij. Ljudi iz Breeze uvozimo."
         },
         {
           "question": "Ali moja cerkev dobi mobilno aplikacijo?",
-          "answer": "Da. B1 vaši cerkvi omogoči lastno mobilno aplikacijo v obliki namestljive spletne aplikacije (PWA). Člani odprejo spletno stran vaše cerkve, tapnejo »Dodaj na začetni zaslon« in dobijo celozaslonsko aplikacijo z imenom in logotipom vaše cerkve. Posodobitve do vseh pridejo takoj."
+          "answer": "Člani aplikacijo namestijo s spletne strani vaše skupnosti. Dodajte na začetni zaslon."
         },
         {
           "question": "Ali B1.church podpira spletno darovanje?",
-          "answer": "Da, B1.church vključuje varno spletno darovanje s podporo za kreditne kartice in bančna nakazila. Nastavite lahko ponavljajoča se darila, upravljate več skladov in zagotovite zgodovino darovanja za davčne izpiske. Uporabljamo neposredno integracijo s Stripe brez provizij platforme B1 - vaša cerkev se pogaja o stopnjah neposredno s Stripe (običajno približno 2.9% + 30¢)."
+          "answer": "Da. Stripe ali PayPal. Ponavljajoči se darovi, skladi, izpiski. B1 doda $0."
         },
         {
           "question": "Ali lahko z B1.church zgradim spletno stran?",
@@ -385,7 +385,7 @@
         },
         {
           "question": "Ali ima B1.church prijavo za otroško službo?",
-          "answer": "Da, B1.church vključuje pametni sistem prijave z brezstičnimi samopostrežnimi kioski, družinsko prijavo, samodejnimi razporeditvami v skupine, varnostnimi kodami za prevzem otrok in sledenjem udeležbi s poročili."
+          "answer": "Da. Priponke z imeni, varnostne kode, prisotnost."
         },
         {
           "question": "Ali je B1.church odprtokoden?",
@@ -426,264 +426,204 @@
         }
       },
       "notFound": {
-        "title": "Primerjava ni najdena",
-        "subtitle": "Oglejte si naše razpoložljive primerjave:"
+        "title": "Kako se B1 primerja",
+        "subtitle": "B1 je sistem za upravljanje cerkve, s katerim začnete. Ljudje, darovanje, prijava na srečanja, spletna stran, aplikacija za člane, načrtovanje bogoslužij. $0 za vedno. 501(c)(3)."
       },
+      "hubTitle": "Kako se B1 primerja",
+      "hubSubtitle": "B1 je sistem za upravljanje cerkve, s katerim začnete. Ljudje, darovi, prijava, spletna stran, aplikacija za člane, načrtovanje bogoslužja. Za vedno 0 $. 501(c)(3).",
       "b1vsPrefix": "B1 proti",
-      "noHiddenFees": "Brez skritih stroškov, za vedno",
-      "plusTransactionFees": "Plus provizije za transakcije",
+      "noHiddenFees": "Brez paketov. Brez provizije platforme pri darovih.",
+      "plusTransactionFees": "",
+      "priceB1Label": "$0 / month",
+      "priceB1Note": "Brez paketov. Brez provizije platforme na darove.",
       "featureColumn": "Funkcija",
       "ourTake": "Naše mnenje",
-      "ctaTitle": "Ste pripravljeni prihraniti denar svoje cerkve?",
-      "ctaDescription": "Preklopite na B1.church in preusmerite proračun za programsko opremo v službo.",
+      "ctaTitle": "Pridobite celoten paket za $0",
+      "ctaDescription": "B1 je celoten paket za $0.",
       "ctaButton": "Začnite brezplačno",
       "otherComparisons": "Druge primerjave",
       "competitors": {
         "planning-center": {
           "name": "Planning Center",
-          "tagline": "Brezplačna alternativa Planning Center",
-          "description": "Planning Center je priljubljena platforma za upravljanje cerkve z modularnim cenikom. B1.church ponuja podobne funkcije popolnoma brezplačno.",
+          "tagline": "Celoten paket za $0",
+          "description": "B1 je celoten paket za $0. Brez doplačil za module.",
           "features": [
             {
-              "name": "Baza članov",
-              "b1": true,
-              "competitor": true
+              "name": "Zbirka ljudi",
+              "b1": "Vključeno",
+              "competitor": "Brezplačno, neomejeno"
             },
             {
-              "name": "Sistem prijave",
-              "b1": true,
-              "competitor": "$99/mo"
+              "name": "Darovanje",
+              "b1": "Brez provizije platforme B1",
+              "competitor": "Obdelava; plačljivo darovanje z rastjo"
             },
             {
-              "name": "Spletno darovanje",
-              "b1": "Brez provizij B1",
-              "competitor": "Provizije platforme + Stripe"
-            },
-            {
-              "name": "Upravljanje skupin",
-              "b1": true,
-              "competitor": "$50/mo"
-            },
-            {
-              "name": "Načrtovanje bogoslužij",
-              "b1": true,
-              "competitor": "$14-99/mo"
-            },
-            {
-              "name": "Mobilna aplikacija",
-              "b1": "Brezplačna aplikacija z znamko",
-              "competitor": "$0-199/mo"
-            },
-            {
-              "name": "Graditelj spletne strani",
-              "b1": true,
-              "competitor": false
-            },
-            {
-              "name": "Upravljanje pridig",
-              "b1": true,
-              "competitor": false
-            },
-            {
-              "name": "Več kampusov",
-              "b1": true,
-              "competitor": "Dodaten strošek"
-            },
-            {
-              "name": "Odprta koda",
-              "b1": true,
-              "competitor": false
-            }
-          ],
-          "pricingB1": "100% brezplačno",
-          "pricingCompetitor": "$0 - $500+/mesec glede na module",
-          "verdict": "B1.church zagotavlja vse osnovne funkcije Planning Center brez zapletenosti modularnega cenika. Če je proračun skrb, je B1 jasna izbira."
-        },
-        "pushpay": {
-          "name": "Pushpay",
-          "tagline": "Brezplačna alternativa Pushpay",
-          "description": "Pushpay je znan po mobilnem darovanju, a prinaša visoke mesečne stroške in provizije za transakcije. B1.church ponuja darovanje brez provizij platforme.",
-          "features": [
-            {
-              "name": "Spletno darovanje",
-              "b1": "Brez provizij B1",
-              "competitor": "Provizije platforme + Stripe"
-            },
-            {
-              "name": "Ponavljajoča se darila",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Mobilna aplikacija",
-              "b1": "Brezplačna aplikacija z znamko",
+              "name": "Prijava na srečanja",
+              "b1": "Vključeno",
               "competitor": "Vključeno"
             },
             {
-              "name": "Baza članov",
-              "b1": true,
-              "competitor": "ChMS dodatno"
+              "name": "Načrtovanje bogoslužij",
+              "b1": "Vključeno",
+              "competitor": "Vključeno"
             },
             {
-              "name": "Sistem prijave",
-              "b1": true,
-              "competitor": "Dodaten strošek"
+              "name": "Aplikacija za člane",
+              "b1": "S spletne strani vaše skupnosti",
+              "competitor": "Church Center"
             },
             {
-              "name": "Graditelj spletne strani",
-              "b1": true,
-              "competitor": false
+              "name": "Graditelj spletnih strani",
+              "b1": "Vključeno",
+              "competitor": "Ni vključeno"
             },
             {
-              "name": "Upravljanje skupin",
-              "b1": true,
-              "competitor": "Dodaten strošek"
-            },
-            {
-              "name": "Izpiski darovanja",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Upravljanje skladov",
-              "b1": true,
-              "competitor": true
+              "name": "Uvoz",
+              "b1": "Ljudje iz Planning Center",
+              "competitor": "—"
             },
             {
               "name": "Odprta koda",
-              "b1": true,
-              "competitor": false
+              "b1": "Da",
+              "competitor": "Ne"
             }
           ],
-          "pricingB1": "100% brezplačno",
-          "pricingCompetitor": "$300 - $1,000+/mesec",
-          "verdict": "Pushpay je bogat s funkcijami, a drag. B1.church ponuja primerljive funkcije darovanja plus celovito upravljanje cerkve brezplačno. Prihranke lahko preusmerite v službo."
+          "pricingB1": "$0 / mesec",
+          "pricingCompetitor": "Brezplačen začetek, nato plačljivi moduli",
+          "verdict": "B1 so ljudje, darovanje, prijava na srečanja, spletna stran in načrtovanje bogoslužij za $0. Brez doplačil za module. Gostovanje vključeno."
+        },
+        "pushpay": {
+          "name": "Pushpay",
+          "tagline": "Darovanje in preostali sistem za upravljanje cerkve za $0",
+          "description": "Pushpay je plačljiva platforma za darovanje. B1 vključuje darovanje brez provizije platforme ter ljudi, prijavo na srečanja, spletno stran in načrtovanje bogoslužij.",
+          "features": [
+            {
+              "name": "Darovanje",
+              "b1": "Brez provizije platforme B1",
+              "competitor": "Plačljiva platforma + obdelava"
+            },
+            {
+              "name": "Ponavljajoči se darovi",
+              "b1": "Vključeno",
+              "competitor": "Vključeno"
+            },
+            {
+              "name": "Zbirka ljudi",
+              "b1": "Vključeno",
+              "competitor": "Pogosto za doplačilo"
+            },
+            {
+              "name": "Prijava na srečanja",
+              "b1": "Vključeno",
+              "competitor": "Pogosto za doplačilo"
+            },
+            {
+              "name": "Aplikacija za člane",
+              "b1": "S spletne strani vaše skupnosti",
+              "competitor": "Vključeno"
+            },
+            {
+              "name": "Graditelj spletnih strani",
+              "b1": "Vključeno",
+              "competitor": "Ni vključeno"
+            },
+            {
+              "name": "Odprta koda",
+              "b1": "Da",
+              "competitor": "Ne"
+            }
+          ],
+          "pricingB1": "$0 / mesec",
+          "pricingCompetitor": "Mesečna naročnina + obdelava",
+          "verdict": "Plačajte Pushpay, če želite njihov sistem darovanja in si lahko privoščite platformo. Začnite z B1, če želite celoten paket za cerkev in programsko opremo za $0. Provizije za kartice ali ACH plačate v vsakem primeru."
         },
         "tithely": {
           "name": "Tithe.ly",
-          "tagline": "Brezplačna alternativa Tithe.ly",
-          "description": "Tithe.ly ponuja orodja za cerkveno darovanje in upravljanje s freemium cenikom. B1.church zagotavlja vse brezplačno brez provizij za transakcije.",
+          "tagline": "Besedo brezplačno imajo oni. Mi ne vzamemo deleža.",
+          "description": "Tithe.ly je podjetje za darovanje s priloženo cerkveno programsko opremo. B1 je sistem za upravljanje cerkve, 100 % brezplačen, vključno z gostovanjem. Darovanje je vključeno. Stripe za neprofitne organizacije je 2,2 % + $0,30; »brezplačno« darovanje Tithe.ly je 2,9 % + $0,30.",
           "features": [
             {
-              "name": "Spletno darovanje",
-              "b1": "Brez provizij B1",
-              "competitor": "Provizije platforme + Stripe"
+              "name": "Darovanje",
+              "b1": "Stripe za neprofitne 2,2 % + $0,30",
+              "competitor": "Tithe.ly »brezplačno« 2,9 % + $0,30"
             },
             {
-              "name": "Ponavljajoča se darila",
-              "b1": true,
-              "competitor": true
+              "name": "Zbirka ljudi",
+              "b1": "Vključeno",
+              "competitor": "Plačljiv sistem za upravljanje"
             },
             {
-              "name": "Mobilna aplikacija",
-              "b1": "Brezplačna aplikacija z znamko",
-              "competitor": "$99/mo"
+              "name": "Prijava na srečanja",
+              "b1": "Vključeno",
+              "competitor": "Plačljiv dodatek"
             },
             {
-              "name": "Baza članov",
-              "b1": true,
-              "competitor": "$99/mo"
+              "name": "Aplikacija za člane",
+              "b1": "S spletne strani vaše skupnosti",
+              "competitor": "Plačljivo"
             },
             {
-              "name": "Sistem prijave",
-              "b1": true,
-              "competitor": "$49/mo"
-            },
-            {
-              "name": "Graditelj spletne strani",
-              "b1": true,
-              "competitor": "$49/mo"
-            },
-            {
-              "name": "Upravljanje skupin",
-              "b1": true,
-              "competitor": "$99/mo"
-            },
-            {
-              "name": "Upravljanje pridig",
-              "b1": true,
-              "competitor": "$49/mo"
-            },
-            {
-              "name": "Več kampusov",
-              "b1": true,
-              "competitor": "Dodaten strošek"
+              "name": "Graditelj spletnih strani",
+              "b1": "Vključeno",
+              "competitor": "Plačljiv dodatek"
             },
             {
               "name": "Odprta koda",
-              "b1": true,
-              "competitor": false
+              "b1": "Da",
+              "competitor": "Ne"
             }
           ],
-          "pricingB1": "100% brezplačno",
-          "pricingCompetitor": "Brezplačna raven + $49-199/mo za funkcije",
-          "verdict": "Brezplačna raven Tithe.ly je omejena. Za polno funkcionalnost se stroški hitro seštejejo. B1.church vključuje vse od prvega dne brez pritiska na nadgradnjo."
+          "pricingB1": "$0 / mesec",
+          "pricingCompetitor": "Brezplačna stran za darovanje, plačljiv sistem za upravljanje",
+          "verdict": "Tithe.ly prodaja »brezplačno« darovanje in plačljiv sistem za upravljanje cerkve. B1 je cerkvena programska oprema, vključno z gostovanjem. Stripe za neprofitne organizacije je 2,2 % + $0,30 proti »brezplačnemu« Tithe.ly po 2,9 % + $0,30. Brez plačljivega paketa za odklep ljudi, prijave na srečanja ali spletne strani."
         },
         "breeze": {
-          "name": "Breeze ChMS",
-          "tagline": "Brezplačna alternativa Breeze ChMS",
-          "description": "Breeze je preprost sistem za upravljanje cerkve z jasnim cenikom. B1.church ponuja več funkcij brezplačno.",
+          "name": "Breeze",
+          "tagline": "Plačljivo in preprosto proti $0 in celovito",
+          "description": "Breeze je plačljiv, preprost sistem za upravljanje cerkve. Ljudje, ki zapuščajo Planning Center, omenjajo Breeze. B1 je za $0 in vključuje spletno stran, darovanje brez provizije platforme, prijavo na srečanja in načrtovanje bogoslužij. Ljudi iz Breeze uvozimo.",
           "features": [
             {
-              "name": "Baza članov",
-              "b1": true,
-              "competitor": true
+              "name": "Zbirka ljudi",
+              "b1": "Vključeno",
+              "competitor": "Vključeno"
             },
             {
-              "name": "Upravljanje darovanja",
-              "b1": "Brez provizij B1",
-              "competitor": "2.9% + 30¢"
+              "name": "Darovanje",
+              "b1": "Brez provizije platforme B1",
+              "competitor": "Plačljiva obdelava"
             },
             {
-              "name": "Sistem prijave",
-              "b1": true,
-              "competitor": "Osnovno"
+              "name": "Prijava na srečanja",
+              "b1": "Vključeno",
+              "competitor": "Vključeno"
             },
             {
-              "name": "Mobilna aplikacija",
-              "b1": "Brezplačna aplikacija z znamko",
-              "competitor": "Omejeno"
+              "name": "Aplikacija za člane",
+              "b1": "S spletne strani vaše skupnosti",
+              "competitor": "Mobilna aplikacija Breeze"
             },
             {
-              "name": "Graditelj spletne strani",
-              "b1": true,
-              "competitor": false
+              "name": "Graditelj spletnih strani",
+              "b1": "Vključeno",
+              "competitor": "Ni vključeno"
             },
             {
-              "name": "Upravljanje skupin",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Upravljanje dogodkov",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Razporejanje prostovoljcev",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Več kampusov",
-              "b1": true,
-              "competitor": false
+              "name": "Uvoz",
+              "b1": "Ljudi iz Breeze uvozimo",
+              "competitor": "—"
             },
             {
               "name": "Odprta koda",
-              "b1": true,
-              "competitor": false
+              "b1": "Da",
+              "competitor": "Ne"
             }
           ],
-          "pricingB1": "100% brezplačno",
-          "pricingCompetitor": "$72 - $135/mesec",
-          "verdict": "Breeze je preprost in dostopen, a B1.church je enostavnejši za proračun (brezplačen!) in hkrati ponuja več funkcij, kot sta graditelj spletne strani in celovita mobilna aplikacija."
+          "pricingB1": "$0 / mesec",
+          "pricingCompetitor": "Mesečna naročnina",
+          "verdict": "Izberite Breeze, če želite dodelan plačljiv izdelek in zapuščate Planning Center. Izberite B1, če želite spletno stran in darovanje v istem sistemu za $0."
         }
-      },
-      "hubTitle": "How B1 compares",
-      "hubSubtitle": "B1 is the ChMS you start on. People, giving, check-in, website, member app, worship planning. $0 forever. 501(c)(3).",
-      "priceB1Label": "$0 / month",
-      "priceB1Note": "No tiers. No platform fee on gifts."
+      }
     },
     "churchManagement": {
       "meta": {
@@ -693,20 +633,58 @@
       "hero": {
         "title": "Brezplačna",
         "titleHighlight": "programska oprema za upravljanje cerkve",
-        "titleLine2": "Celovita služboša platforma",
-        "description": "Profesionalna <strong>programska oprema za upravljanje cerkve</strong> s sledenjem udeležbi, bazo članov, upravljanjem darovanja in komunikacijskimi orodji. Popolnoma <strong>brezplačna cerkvena programska oprema</strong>, ki jo zagotavlja Live Church Solutions, neprofitna služba 501(c)(3). Pridružite se več kot 100 cerkvam, ki prihranijo na tisoče pri stroških za služboso programsko opremo.",
+        "titleLine2": "Vključno z gostovanjem.",
+        "description": "Ljudje, darovanje, prijava na srečanja, spletna stran, aplikacija za člane in načrtovanje bogoslužij. Ena platforma. $0 za vedno.",
         "ctaPrimary": "Začnite brezplačno",
-        "ctaSecondary": "Preizkusite demo",
-        "trustLine": "Zaupajo nam rastoče cerkve po vsem svetu",
-        "trustFree": "Popolnoma brezplačno za vedno",
-        "trustNonProfit": "Neprofitna služba 501(c)(3)",
-        "trustOpenSource": "Odprta koda"
+        "ctaSecondary": "Oglejte si, kako se B1 primerja",
+        "trustLine": "Kaj res dobite",
+        "trustFree": "501(c)(3)",
+        "trustNonProfit": "Brez paketov",
+        "trustOpenSource": "Gostovanje vključeno"
       },
+      "freeMeaning": {
+        "eyebrow": "Brezplačna programska oprema za upravljanje cerkve",
+        "title": "Brezplačno pomeni programsko opremo in gostovanje.",
+        "lead": "Cerkve dobijo ljudi, darovanje, prijavo na srečanja, spletno stran, aplikacijo za člane in načrtovanje bogoslužij brez mesečnega računa za sistem za upravljanje.",
+        "items": [
+          {
+            "title": "Programska oprema in gostovanje sta brezplačna",
+            "description": "Platforma je resnično 100 % brezplačna, vključno z gostovanjem. Brez preizkusnega obdobja, brez omejitve velikosti cerkve in brez nadgradnje za odklep ljudi, darovanja, prijave na srečanja, skupin, spletne strani ali prisotnosti."
+          },
+          {
+            "title": "Darovanje je vključeno",
+            "description": "Spletno darovanje je del platforme. B1 pri darovih ne zaračuna provizije platforme."
+          },
+          {
+            "title": "Odprta koda od ChurchApps",
+            "description": "B1 je del paketa ChurchApps. Kodo lahko preberete, izvozite svoje podatke ali sistem postavite sami."
+          }
+        ],
+        "compareLink": "Oglejte si, kako se B1 primerja"
+      },
+      "highlights": [
+        {
+          "number": "$0",
+          "label": "Programska oprema in gostovanje"
+        },
+        {
+          "number": "100 %",
+          "label": "Za vedno brezplačno"
+        },
+        {
+          "number": "Ena",
+          "label": "Skupna zbirka podatkov"
+        },
+        {
+          "number": "Odprta",
+          "label": "Izvorna koda na GitHubu"
+        }
+      ],
       "featuresHeader": {
-        "title": "Celovit",
-        "titleHighlight": "sistem za upravljanje cerkve",
-        "titleSuffix": "Funkcije",
-        "description": "Profesionalna programska oprema za cerkveno bazo podatkov z upravljanjem članov, sledenjem udeležbi, upravljanjem darovanja in orodji za komunikacijo v službi. Brezplačen sistem za upravljanje cerkve, posebej zasnovan za rastoče skupnosti in večkampusne cerkve."
+        "title": "Ena",
+        "titleHighlight": "brezplačno upravljanje cerkve",
+        "titleSuffix": "orodjarna",
+        "description": "Ljudje, darovanje, prijava na srečanja, skupine, spletna stran in prisotnost v eni zbirki podatkov. Gostovanje je vključeno. Nič na tej strani se ne prodaja kot dodatek."
       },
       "checkinStations": {
         "title": "Samopostrežne prijavne postaje",
@@ -755,7 +733,7 @@
       "testimonials": {
         "title": "Priljubljeno med cerkvami",
         "titleHighlight": "povsod",
-        "subtitle": "Pridružite se rastočim cerkvam, ki so preoblikovale svojo službo z našo popolnoma brezplačno platformo. Tole povedo pastorji in cerkveni upravitelji.",
+        "subtitle": "Pastorji in cerkveni administratorji, ki so potrebovali brezplačna orodja za upravljanje cerkve — in nehali plačevati mesečni račun za sistem za upravljanje.",
         "items": [
           {
             "content": "To platformo uporabljamo vsako nedeljo za sledenje udeležbi in vodenje evidenc vseh, ki prihajajo, vključno z našimi otroki v nedeljski šoli. Kot misijonarji z omejenim proračunom cenimo, da je ta programska oprema brezplačna in učinkovita."
@@ -771,7 +749,7 @@
       "aboutSection": {
         "title": "O naši",
         "titleHighlight": "brezplačni cerkveni programski opremi",
-        "description": "Celovito <strong>programsko opremo za upravljanje cerkve</strong> popolnoma brezplačno zagotavljajo krščanskim cerkvam in službam <strong>Live Church Solutions</strong>, neprofitna organizacija 501(c)(3), ustanovljena leta 2012. Naše poslanstvo je pomagati cerkvam implementirati profesionalno <strong>služboso programsko opremo</strong> brez običajnih visokih stroškov sistemov za cerkveno upravljanje."
+        "description": "B1 je brezplačna programska oprema za upravljanje cerkve podjetja <strong>Live Church Solutions</strong> in odprtokodnega paketa <strong>ChurchApps</strong>. Gostovanje je vključeno. Izdelek so ljudje, darovanje, prijava na srečanja, skupine, spletna stran in prisotnost — ne preizkusna različica, ki se spremeni v ponudbo."
       },
       "stats": [
         {
@@ -780,9 +758,9 @@
           "description": "Verjamemo, da se ta denar lahko bolje uporabi"
         },
         {
-          "number": "100+",
-          "label": "Cerkva že uporablja našo platformo",
-          "description": "Rastoča skupnost zadovoljnih uporabnikov"
+          "number": "$0",
+          "label": "Gostovanje vključeno",
+          "description": "Aplikacija, spletna stran in skrbniška orodja tečejo pri nas"
         },
         {
           "number": "2012",
@@ -803,24 +781,25 @@
       },
       "allFeatures": {
         "title": "Vse, kar potrebujete, popolnoma brezplačno",
-        "subtitle": "Brez poskusnih obdobij, brez omejitev števila članov, brez skritih stroškov",
+        "subtitle": "Brez preizkusnih obdobij, brez omejitev članov, brez skritih stroškov — gostovanje vključeno",
         "items": [
           "Celovita baza članov s podrobnimi profili",
           "Sledenje udeležbi z aplikacijo za samoprijavo",
           "Upravljanje skupin in majhnih skupin",
           "Upravljanje darovanja s podrobnim poročanjem",
+          "Graditelj spletne strani cerkve",
           "Obrazci po meri in zbiranje podatkov",
           "Orodja za e-poštno komunikacijo",
-          "Upravljanje dogodkov in razporejanje",
+          "Upravljanje dogodkov in urnikov",
           "Uvoz podatkov iz obstoječih sistemov",
-          "Podpora za več mest in več kampusov",
-          "Dostop in dovoljenja na podlagi vlog",
-          "Odprta koda z dostopom do GitHub"
+          "Podpora za več lokacij in kampusov",
+          "Dostop in dovoljenja glede na vloge",
+          "Odprta koda z dostopom do GitHuba"
         ]
       },
       "cta": {
-        "title": "Ste pripravljeni prenehati plačevati za programsko opremo za upravljanje cerkve?",
-        "description": "Pridružite se cerkvam po vsem svetu, ki so prešle na popolnoma brezplačno, odprtokodno rešitev, ki jo je zgradila služba za službe.",
+        "title": "Ste pripravljeni nehati plačevati za cerkveno programsko opremo?",
+        "description": "B1 je celoten paket za $0. Gostovanje vključeno.",
         "primaryButton": "Začnite brezplačno",
         "secondaryButton": "Preizkusite demo"
       },

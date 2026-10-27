@@ -24,7 +24,7 @@
         "ctaSecondary": "Se det i aktion",
         "trust": [
           "Gratis for altid — ingen abonnementer, ingen prøveperioder",
-          "Ingen ekstra transaktionsgebyrer",
+          "Intet B1-platformsgebyr på gaver",
           "Open source på GitHub",
           "501(c)(3)-tjeneste siden 2012"
         ]
@@ -62,7 +62,7 @@
         }
       },
       "connect": {
-        "eyebrow": "B1-mobilappen",
+        "eyebrow": "PWA · installér fra jeres kirkes hjemmeside",
         "title": "Dine mennesker, forbundet —",
         "titleAccent": "hele ugen.",
         "lead": "Giv din kirke ét sted at høre til mellem søndagene. B1-appen bringer medlemsoversigt, grupper, beskeder og prædikener ud på alle telefoner i menigheden.",
@@ -277,8 +277,8 @@
       "titleHighlight": "Overalt",
       "subtitle": "Slut dig til voksende kirker, der har transformeret deres tjeneste med vores fuldstændig gratis platform. Her er, hvad præster og kirkeadministratorer siger om B1.",
       "stats": {
-        "churchesValue": "100+",
-        "churchesLabel": "Kirker verden over",
+        "churchesValue": "501(c)(3)",
+        "churchesLabel": "Nonprofit-tjeneste",
         "freeValue": "Gratis",
         "freeLabel": "For evigt & altid",
         "openValue": "Åben",
@@ -336,7 +336,7 @@
       "faq": "Ofte stillede spørgsmål",
       "aboutChurchApps": "Om ChurchApps",
       "appsAndResources": "Apps og ressourcer",
-      "installApp": "Installer mobilappen",
+      "installApp": "Installér fra jeres kirkes hjemmeside",
       "helpCenter": "Hjælpecenter",
       "contact": "Kontakt",
       "availableWorldwide": "Tilgængelig på verdensplan"
@@ -349,35 +349,35 @@
       "items": [
         {
           "question": "Er B1.church virkelig 100% gratis?",
-          "answer": "Ja, B1.church er fuldstændig gratis uden skjulte gebyrer, uden premium-niveauer og uden transaktionsgebyrer på donationer. Vi er en 501(c)(3) nonprofit-menighed, der tror på, at enhver kirke fortjener adgang til moderne teknologi uanset budget. Vores platform finansieres af donationer og Google Ad Grants."
+          "answer": "Ja. Hostet B1 er gratis for altid, $0. Ingen abonnementer, ingen grænse pr. person. Live Church Solutions er en 501(c)(3) (EIN 45-5349618) med offentlig 990. Du betaler Stripe eller PayPal på gaver. B1 lægger $0 til."
         },
         {
           "question": "Hvilke funktioner indeholder B1.church?",
-          "answer": "B1.church indeholder en komplet platform til kirkeadministration: en medlemsapp, der installeres direkte fra jeres hjemmeside, en træk-og-slip-hjemmesidebygger, onlinegaver uden ekstra platformgebyrer, et børne-check-in-system med sikkerhedskoder, medlemsdatabase, fremmøderegistrering, gruppestyring, gudstjenesteplanlægning, sangbibliotek, prædikenarkiv og bibelintegration."
+          "answer": "Personer, gaver, check-in, hjemmesidebygger, medlemsapp, grupper, fremmøde, gudstjenesteplanlægning og et sangbibliotek."
         },
         {
           "question": "Hvordan sammenlignes B1.church med Planning Center?",
-          "answer": "B1.church er 100% gratis, mens Planning Center opkræver pr. modul ($0-299+/md). B1 inkluderer en mobilapp og hjemmesidebygger gratis, mens Planning Center opkræver ekstra for Church Center og ikke inkluderer en hjemmesidebygger. Begge tilbyder kirkeadministrationsfunktioner, men B1 leverer alt i én gratis pakke."
+          "answer": "Planning Center People er gratis. Andre PCO-produkter har gratis niveauer, og så betaler du, efterhånden som I vokser. Church Center-grundfunktioner er gratis. B1 er hele pakken til $0 uden trin op til flere moduler."
         },
         {
           "question": "Hvordan sammenlignes B1.church med Pushpay?",
-          "answer": "B1.church er fuldstændig gratis, mens Pushpay koster $300-1000+/md. B1 har ingen transaktionsgebyrer på gaver, mens Pushpay tager en procentdel af donationerne. B1 er åben kildekode og inkluderer fuld kirkeadministration, mens Pushpay er proprietær og primært fokuseret på gaver."
+          "answer": "Pushpay er en betalt gaveplatform. B1 inkluderer gaver uden platformsgebyr plus resten af kirkesystemet, til $0. Du betaler stadig kort- eller ACH-gebyrer."
         },
         {
           "question": "Hvordan sammenlignes B1.church med Tithe.ly?",
-          "answer": "B1.church er helt gratis uden transaktionsgebyrer. Tithe.ly tilbyder et gratis niveau, men opkræver for premiumfunktioner og tager en procentdel af hver donation. B1 inkluderer komplet kirkeadministrationssoftware, mens Tithe.lys ChMS er et separat betalt produkt."
+          "answer": "Tithe.ly er et gavefirma med et betalt kirkesystem. B1 er kirkesystemet, 100 % gratis inklusive hosting. Gaver er inkluderet. Stripe for nonprofit er 2,2 % + $0.30; Tithe.ly's \"gratis\" gaver er 2,9 % + $0.30."
         },
         {
           "question": "Hvordan sammenlignes B1.church med Breeze ChMS?",
-          "answer": "B1.church er gratis, mens Breeze starter ved $72/md. B1 inkluderer en fuld mobilapp og hjemmesidebygger, mens Breeze har begrænsede mobilfunktioner og ingen hjemmesidebygger. Begge tilbyder kirkeadministration, men B1 leverer flere funktioner uden omkostninger."
+          "answer": "Breeze er et betalt, enkelt kirkesystem. B1 er $0 og inkluderer hjemmesiden, gaver uden platformsgebyr, check-in og gudstjenesteplanlægning. Vi importerer Breeze-personer."
         },
         {
           "question": "Får min kirke en mobilapp?",
-          "answer": "Ja. B1 giver din kirke en app-oplevelse i jeres eget navn som installerbar webapp (PWA). Medlemmer åbner kirkens hjemmeside, trykker på 'Føj til hjemmeskærm' og får en fuldskærmsapp med kirkens navn og logo. Opdateringer når alle med det samme."
+          "answer": "Medlemmer installerer appen fra jeres kirkes hjemmeside. Føj til startskærmen."
         },
         {
           "question": "Understøtter B1.church online-gaver?",
-          "answer": "Ja, B1.church inkluderer sikre online-gaver med understøttelse af kreditkort og bankoverførsler. Du kan oprette tilbagevendende donationer, administrere flere fonde og levere gavehistorik til skatteopgørelser. Vi bruger direkte Stripe-integration uden B1-platformgebyrer - din kirke forhandler satser direkte med Stripe (typisk omkring 2,9% + 30¢)."
+          "answer": "Ja. Stripe eller PayPal. Tilbagevendende gaver, fonde, opgørelser. B1 lægger $0 til."
         },
         {
           "question": "Kan jeg bygge en hjemmeside med B1.church?",
@@ -385,7 +385,7 @@
         },
         {
           "question": "Har B1.church check-in til børnetjeneste?",
-          "answer": "Ja, B1.church inkluderer et smart check-in-system med kontaktløse selvbetjeningskiosker, familiecheck-in, automatiske gruppetildelinger, sikkerhedskoder til afhentning af børn samt registrering af fremmøde med rapporter."
+          "answer": "Ja. Navneskilte, sikkerhedskoder, fremmøde."
         },
         {
           "question": "Er B1.church åben kildekode?",
@@ -426,264 +426,204 @@
         }
       },
       "notFound": {
-        "title": "Sammenligning ikke fundet",
-        "subtitle": "Se vores tilgængelige sammenligninger:"
+        "title": "Sådan sammenligner B1 sig",
+        "subtitle": "B1 er kirkesystemet, du starter med. Personer, gaver, check-in, hjemmeside, medlemsapp, gudstjenesteplanlægning. $0 for altid. 501(c)(3)."
       },
+      "hubTitle": "Sådan klarer B1 sig i sammenligning",
+      "hubSubtitle": "B1 er kirkesystemet, du starter med. Medlemmer, gaver, check-in, hjemmeside, medlemsapp, gudstjenesteplanlægning. 0 $ for altid. 501(c)(3).",
       "b1vsPrefix": "B1 vs",
-      "noHiddenFees": "Ingen skjulte gebyrer, for altid",
-      "plusTransactionFees": "Plus transaktionsgebyrer",
+      "noHiddenFees": "Ingen abonnementer. Intet platformsgebyr på gaver.",
+      "plusTransactionFees": "",
+      "priceB1Label": "$0 / month",
+      "priceB1Note": "Ingen niveauer. Intet platformgebyr på gaver.",
       "featureColumn": "Funktion",
       "ourTake": "Vores vurdering",
-      "ctaTitle": "Klar til at spare din kirke penge?",
-      "ctaDescription": "Skift til B1.church og omdirigér dit softwarebudget til tjenesten.",
+      "ctaTitle": "Få hele pakken til $0",
+      "ctaDescription": "B1 er hele pakken til $0.",
       "ctaButton": "Kom gratis i gang",
       "otherComparisons": "Andre sammenligninger",
       "competitors": {
         "planning-center": {
           "name": "Planning Center",
-          "tagline": "Gratis alternativ til Planning Center",
-          "description": "Planning Center er en populær kirkeadministrationsplatform med modulær prissætning. B1.church tilbyder lignende funktioner fuldstændig gratis.",
+          "tagline": "Hele pakken til $0",
+          "description": "B1 er hele pakken til $0. Intet trin op til flere moduler.",
           "features": [
             {
-              "name": "Medlemsdatabase",
-              "b1": true,
-              "competitor": true
+              "name": "Persondatabase",
+              "b1": "Inkluderet",
+              "competitor": "Gratis, ubegrænset"
             },
             {
-              "name": "Check-in-system",
-              "b1": true,
-              "competitor": "$99/mo"
+              "name": "Gaver",
+              "b1": "Intet B1-platformsgebyr",
+              "competitor": "Betalingsbehandling; betalte gaver, når I vokser"
             },
             {
-              "name": "Online-gaver",
-              "b1": "Ingen B1-gebyrer",
-              "competitor": "Platforms- + Stripe-gebyrer"
-            },
-            {
-              "name": "Gruppeadministration",
-              "b1": true,
-              "competitor": "$50/mo"
-            },
-            {
-              "name": "Gudstjenesteplanlægning",
-              "b1": true,
-              "competitor": "$14-99/mo"
-            },
-            {
-              "name": "Mobilapp",
-              "b1": "Gratis brandet app",
-              "competitor": "$0-199/mo"
-            },
-            {
-              "name": "Hjemmesidebygger",
-              "b1": true,
-              "competitor": false
-            },
-            {
-              "name": "Prædikenadministration",
-              "b1": true,
-              "competitor": false
-            },
-            {
-              "name": "Flerkampus",
-              "b1": true,
-              "competitor": "Ekstra omkostning"
-            },
-            {
-              "name": "Åben kildekode",
-              "b1": true,
-              "competitor": false
-            }
-          ],
-          "pricingB1": "100% gratis",
-          "pricingCompetitor": "$0 - $500+/måned afhængigt af moduler",
-          "verdict": "B1.church leverer alle kernefunktionerne i Planning Center uden den modulære prissætnings kompleksitet. Hvis budgettet er en bekymring, er B1 det klare valg."
-        },
-        "pushpay": {
-          "name": "Pushpay",
-          "tagline": "Gratis alternativ til Pushpay",
-          "description": "Pushpay er kendt for mobile gaver, men kommer med betydelige månedlige omkostninger og transaktionsgebyrer. B1.church tilbyder gaver uden platformgebyrer.",
-          "features": [
-            {
-              "name": "Online-gaver",
-              "b1": "Ingen B1-gebyrer",
-              "competitor": "Platforms- + Stripe-gebyrer"
-            },
-            {
-              "name": "Tilbagevendende donationer",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Mobilapp",
-              "b1": "Gratis brandet app",
+              "name": "Check-in",
+              "b1": "Inkluderet",
               "competitor": "Inkluderet"
             },
             {
-              "name": "Medlemsdatabase",
-              "b1": true,
-              "competitor": "ChMS ekstra"
+              "name": "Gudstjenesteplanlægning",
+              "b1": "Inkluderet",
+              "competitor": "Inkluderet"
             },
             {
-              "name": "Check-in-system",
-              "b1": true,
-              "competitor": "Ekstra omkostning"
+              "name": "Medlemsapp",
+              "b1": "Fra jeres kirkes hjemmeside",
+              "competitor": "Church Center"
             },
             {
               "name": "Hjemmesidebygger",
-              "b1": true,
-              "competitor": false
+              "b1": "Inkluderet",
+              "competitor": "Ikke inkluderet"
             },
             {
-              "name": "Gruppeadministration",
-              "b1": true,
-              "competitor": "Ekstra omkostning"
+              "name": "Import",
+              "b1": "Personer fra Planning Center",
+              "competitor": "—"
             },
             {
-              "name": "Gaveopgørelser",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Fondsstyring",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Åben kildekode",
-              "b1": true,
-              "competitor": false
+              "name": "Open source",
+              "b1": "Ja",
+              "competitor": "Nej"
             }
           ],
-          "pricingB1": "100% gratis",
-          "pricingCompetitor": "$300 - $1,000+/måned",
-          "verdict": "Pushpay er funktionsrig, men dyr. B1.church tilbyder sammenlignelige gavefunktioner plus fuld kirkeadministration uden omkostninger. Besparelserne kan omdirigeres til tjenesten."
+          "pricingB1": "$0 / måned",
+          "pricingCompetitor": "Gratis at starte, derefter betalte moduler",
+          "verdict": "B1 er personer, gaver, check-in, hjemmeside og gudstjenesteplanlægning til $0. Intet trin op til flere moduler. Hosting inkluderet."
+        },
+        "pushpay": {
+          "name": "Pushpay",
+          "tagline": "Gaver plus resten af kirkesystemet, til $0",
+          "description": "Pushpay er en betalt gaveplatform. B1 inkluderer gaver uden platformsgebyr, plus personer, check-in, hjemmeside og gudstjenesteplanlægning.",
+          "features": [
+            {
+              "name": "Gaver",
+              "b1": "Intet B1-platformsgebyr",
+              "competitor": "Betalt platform + betalingsbehandling"
+            },
+            {
+              "name": "Tilbagevendende gaver",
+              "b1": "Inkluderet",
+              "competitor": "Inkluderet"
+            },
+            {
+              "name": "Persondatabase",
+              "b1": "Inkluderet",
+              "competitor": "Ofte ekstra"
+            },
+            {
+              "name": "Check-in",
+              "b1": "Inkluderet",
+              "competitor": "Ofte ekstra"
+            },
+            {
+              "name": "Medlemsapp",
+              "b1": "Fra jeres kirkes hjemmeside",
+              "competitor": "Inkluderet"
+            },
+            {
+              "name": "Hjemmesidebygger",
+              "b1": "Inkluderet",
+              "competitor": "Ikke inkluderet"
+            },
+            {
+              "name": "Open source",
+              "b1": "Ja",
+              "competitor": "Nej"
+            }
+          ],
+          "pricingB1": "$0 / måned",
+          "pricingCompetitor": "Betalt månedligt + betalingsbehandling",
+          "verdict": "Betal Pushpay, hvis I vil have deres gavesystem og har råd til platformen. Start med B1, hvis I vil have hele kirkepakken og software til $0. I betaler under alle omstændigheder kort- eller ACH-gebyrer."
         },
         "tithely": {
           "name": "Tithe.ly",
-          "tagline": "Gratis alternativ til Tithe.ly",
-          "description": "Tithe.ly tilbyder værktøjer til kirkelige gaver og administration med freemium-prissætning. B1.church leverer alt gratis uden transaktionsgebyrer.",
+          "tagline": "De ejer ordet gratis. Vi tager ikke en andel.",
+          "description": "Tithe.ly er et gavefirma med kirkesoftware på siden. B1 er kirkesystemet, 100 % gratis inklusive hosting. Gaver er inkluderet. Stripe for nonprofit er 2,2 % + $0.30; Tithe.ly's \"gratis\" gaver er 2,9 % + $0.30.",
           "features": [
             {
-              "name": "Online-gaver",
-              "b1": "Ingen B1-gebyrer",
-              "competitor": "Platforms- + Stripe-gebyrer"
+              "name": "Gaver",
+              "b1": "Stripe for nonprofit 2,2 % + $0.30",
+              "competitor": "Tithe.ly \"gratis\" 2,9 % + $0.30"
             },
             {
-              "name": "Tilbagevendende donationer",
-              "b1": true,
-              "competitor": true
+              "name": "Persondatabase",
+              "b1": "Inkluderet",
+              "competitor": "Betalt kirkesystem"
             },
             {
-              "name": "Mobilapp",
-              "b1": "Gratis brandet app",
-              "competitor": "$99/mo"
+              "name": "Check-in",
+              "b1": "Inkluderet",
+              "competitor": "Betalt tilkøb"
             },
             {
-              "name": "Medlemsdatabase",
-              "b1": true,
-              "competitor": "$99/mo"
-            },
-            {
-              "name": "Check-in-system",
-              "b1": true,
-              "competitor": "$49/mo"
+              "name": "Medlemsapp",
+              "b1": "Fra jeres kirkes hjemmeside",
+              "competitor": "Betalt"
             },
             {
               "name": "Hjemmesidebygger",
-              "b1": true,
-              "competitor": "$49/mo"
+              "b1": "Inkluderet",
+              "competitor": "Betalt tilkøb"
             },
             {
-              "name": "Gruppeadministration",
-              "b1": true,
-              "competitor": "$99/mo"
-            },
-            {
-              "name": "Prædikenadministration",
-              "b1": true,
-              "competitor": "$49/mo"
-            },
-            {
-              "name": "Flerkampus",
-              "b1": true,
-              "competitor": "Ekstra omkostning"
-            },
-            {
-              "name": "Åben kildekode",
-              "b1": true,
-              "competitor": false
+              "name": "Open source",
+              "b1": "Ja",
+              "competitor": "Nej"
             }
           ],
-          "pricingB1": "100% gratis",
-          "pricingCompetitor": "Gratis niveau + $49-199/mo for funktioner",
-          "verdict": "Tithe.lys gratis niveau er begrænset. For at få fuld funktionalitet stiger omkostningerne hurtigt. B1.church inkluderer alt fra dag ét uden opgraderingspres."
+          "pricingB1": "$0 / måned",
+          "pricingCompetitor": "Gratis gaveside, betalt kirkesystem",
+          "verdict": "Tithe.ly sælger gratis gaver og et betalt kirkesystem. B1 er kirkesoftwaren, inklusive hosting. Stripe for nonprofit er 2,2 % + $0.30 mod Tithe.ly's \"gratis\" til 2,9 % + $0.30. Intet betalt niveau for at låse op for personer, check-in eller hjemmesiden."
         },
         "breeze": {
-          "name": "Breeze ChMS",
-          "tagline": "Gratis alternativ til Breeze ChMS",
-          "description": "Breeze er et enkelt kirkeadministrationssystem med ligetil prissætning. B1.church tilbyder flere funktioner uden omkostninger.",
+          "name": "Breeze",
+          "tagline": "Betalt og enkelt vs. $0 og komplet",
+          "description": "Breeze er et betalt, enkelt kirkesystem. Folk, der forlader Planning Center, nævner Breeze. B1 er $0 og inkluderer hjemmesiden, gaver uden platformsgebyr, check-in og gudstjenesteplanlægning. Vi importerer Breeze-personer.",
           "features": [
             {
-              "name": "Medlemsdatabase",
-              "b1": true,
-              "competitor": true
+              "name": "Persondatabase",
+              "b1": "Inkluderet",
+              "competitor": "Inkluderet"
             },
             {
-              "name": "Gaveadministration",
-              "b1": "Ingen B1-gebyrer",
-              "competitor": "2.9% + 30¢"
+              "name": "Gaver",
+              "b1": "Intet B1-platformsgebyr",
+              "competitor": "Betalt betalingsbehandling"
             },
             {
-              "name": "Check-in-system",
-              "b1": true,
-              "competitor": "Basis"
+              "name": "Check-in",
+              "b1": "Inkluderet",
+              "competitor": "Inkluderet"
             },
             {
-              "name": "Mobilapp",
-              "b1": "Gratis brandet app",
-              "competitor": "Begrænset"
+              "name": "Medlemsapp",
+              "b1": "Fra jeres kirkes hjemmeside",
+              "competitor": "Breeze-mobilapp"
             },
             {
               "name": "Hjemmesidebygger",
-              "b1": true,
-              "competitor": false
+              "b1": "Inkluderet",
+              "competitor": "Ikke inkluderet"
             },
             {
-              "name": "Gruppeadministration",
-              "b1": true,
-              "competitor": true
+              "name": "Import",
+              "b1": "Vi importerer Breeze-personer",
+              "competitor": "—"
             },
             {
-              "name": "Begivenhedsadministration",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Frivilligplanlægning",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Flerkampus",
-              "b1": true,
-              "competitor": false
-            },
-            {
-              "name": "Åben kildekode",
-              "b1": true,
-              "competitor": false
+              "name": "Open source",
+              "b1": "Ja",
+              "competitor": "Nej"
             }
           ],
-          "pricingB1": "100% gratis",
-          "pricingCompetitor": "$72 - $135/måned",
-          "verdict": "Breeze er enkel og overkommelig, men B1.church er endnu enklere for budgettet (gratis!), samtidig med at den tilbyder flere funktioner som en hjemmesidebygger og en fuld mobilapp."
+          "pricingB1": "$0 / måned",
+          "pricingCompetitor": "Betalt månedligt",
+          "verdict": "Vælg Breeze, hvis I vil have et poleret betalt produkt og forlader Planning Center. Vælg B1, hvis I vil have hjemmeside og gaver i det samme $0-system."
         }
-      },
-      "hubTitle": "How B1 compares",
-      "hubSubtitle": "B1 is the ChMS you start on. People, giving, check-in, website, member app, worship planning. $0 forever. 501(c)(3).",
-      "priceB1Label": "$0 / month",
-      "priceB1Note": "No tiers. No platform fee on gifts."
+      }
     },
     "churchManagement": {
       "meta": {
@@ -693,20 +633,58 @@
       "hero": {
         "title": "Gratis",
         "titleHighlight": "Kirkeadministrationssoftware",
-        "titleLine2": "Komplet menighedsplatform",
-        "description": "Professionel <strong>kirkeadministrationssoftware</strong> med sporing af fremmøde, medlemsdatabase, gaveadministration og kommunikationsværktøjer. Fuldstændig <strong>gratis kirkesoftware</strong> leveret af Live Church Solutions, en 501(c)(3) nonprofit-menighed. Slut dig til 100+ kirker, der sparer tusinder på omkostninger til menighedssoftware.",
+        "titleLine2": "Inklusive hosting.",
+        "description": "Personer, gaver, check-in, hjemmeside, medlemsapp og gudstjenesteplanlægning. Én platform. $0 for altid.",
         "ctaPrimary": "Kom gratis i gang",
-        "ctaSecondary": "Prøv demo",
-        "trustLine": "Betroet af voksende kirker verden over",
-        "trustFree": "Fuldstændig gratis for altid",
-        "trustNonProfit": "501(c)(3) nonprofit-menighed",
-        "trustOpenSource": "Åben kildekode"
+        "ctaSecondary": "Se, hvordan B1 sammenligner sig",
+        "trustLine": "Hvad du faktisk får",
+        "trustFree": "501(c)(3)",
+        "trustNonProfit": "Ingen abonnementer",
+        "trustOpenSource": "Hosting inkluderet"
       },
+      "freeMeaning": {
+        "eyebrow": "Gratis kirkeadministrationssoftware",
+        "title": "Gratis betyder softwaren og hostingen.",
+        "lead": "Kirker får personer, gaver, check-in, en hjemmeside, en medlemsapp og gudstjenesteplanlægning uden en månedlig regning for kirkesystemet.",
+        "items": [
+          {
+            "title": "Software og hosting er gratis",
+            "description": "Platformen er helt og holdent 100 % gratis, inklusive hosting. Ingen prøveperiode, ingen grænse for kirkens størrelse og ingen opgradering for at låse op for personer, gaver, check-in, grupper, hjemmeside eller fremmøde."
+          },
+          {
+            "title": "Gaver er inkluderet",
+            "description": "Onlinegaver er en del af platformen. B1 lægger intet platformsgebyr på gaver."
+          },
+          {
+            "title": "Open source fra ChurchApps",
+            "description": "B1 er en del af ChurchApps-pakken. Du kan læse koden, eksportere dine data eller selv hoste det."
+          }
+        ],
+        "compareLink": "Se, hvordan B1 sammenligner sig"
+      },
+      "highlights": [
+        {
+          "number": "$0",
+          "label": "Software og hosting"
+        },
+        {
+          "number": "100 %",
+          "label": "Gratis for altid"
+        },
+        {
+          "number": "Én",
+          "label": "Fælles database"
+        },
+        {
+          "number": "Åben",
+          "label": "Kildekode på GitHub"
+        }
+      ],
       "featuresHeader": {
-        "title": "Komplet",
-        "titleHighlight": "Kirkeadministrationssystem",
-        "titleSuffix": "Funktioner",
-        "description": "Professionel kirkedatabase-software med medlemsadministration, sporing af fremmøde, gaveadministration og kommunikationsværktøjer til menigheden. Gratis kirkeadministrationssystem designet specifikt til voksende menigheder og flerkampuskirker."
+        "title": "Én",
+        "titleHighlight": "gratis kirkeadministrations-",
+        "titleSuffix": "værktøjskasse",
+        "description": "Personer, gaver, check-in, grupper, hjemmeside og fremmøde i én database. Hosting er inkluderet. Intet på denne side sælges som tilkøb."
       },
       "checkinStations": {
         "title": "Selvbetjenings-check-in-stationer",
@@ -755,7 +733,7 @@
       "testimonials": {
         "title": "Elsket af kirker",
         "titleHighlight": "Overalt",
-        "subtitle": "Slut dig til voksende kirker, der har transformeret deres tjeneste med vores fuldstændig gratis platform. Her er, hvad præster og kirkeadministratorer har at sige.",
+        "subtitle": "Præster og kirkeadministratorer, der havde brug for gratis værktøjer til kirkeadministration — og holdt op med at betale en månedlig regning for kirkesystemet.",
         "items": [
           {
             "content": "Vi bruger denne platform hver søndag til at spore fremmøde og føre optegnelser over alle, der deltager, inklusive vores søndagsskolebørn. Som missionærer med et begrænset budget sætter vi pris på, at denne software er gratis og effektiv."
@@ -771,7 +749,7 @@
       "aboutSection": {
         "title": "Om vores",
         "titleHighlight": "Gratis kirkesoftware",
-        "description": "Omfattende <strong>kirkeadministrationssoftware</strong> leveret fuldstændig gratis til kristne kirker og menigheder af <strong>Live Church Solutions</strong>, en 501(c)(3) nonprofit grundlagt i 2012. Vores mission er at hjælpe kirker med at implementere professionel <strong>menighedssoftware</strong> uden de typiske høje omkostninger ved kirkeadministrationssystemer."
+        "description": "B1 er gratis kirkeadministrationssoftware fra <strong>Live Church Solutions</strong> og open source-pakken <strong>ChurchApps</strong>. Hosting er inkluderet. Produktet er personer, gaver, check-in, grupper, hjemmeside og fremmøde — ikke en gratis prøveversion, der ender i et tilbud."
       },
       "stats": [
         {
@@ -780,9 +758,9 @@
           "description": "Vi tror, at disse penge kan bruges bedre"
         },
         {
-          "number": "100+",
-          "label": "Kirker bruger allerede vores platform",
-          "description": "Voksende fællesskab af tilfredse brugere"
+          "number": "$0",
+          "label": "Hosting inkluderet",
+          "description": "Appen, hjemmesiden og administrationsværktøjerne kører for vores regning"
         },
         {
           "number": "2012",
@@ -803,24 +781,25 @@
       },
       "allFeatures": {
         "title": "Alt hvad du har brug for, fuldstændig gratis",
-        "subtitle": "Ingen prøveperioder, ingen medlemsbegrænsninger, ingen skjulte gebyrer",
+        "subtitle": "Ingen prøveperioder, ingen medlemsgrænser, ingen skjulte gebyrer — hosting inkluderet",
         "items": [
           "Komplet medlemsdatabase med detaljerede profiler",
           "Sporing af fremmøde med selv-check-in-app",
           "Grupper og administration af smågrupper",
           "Gaveadministration med detaljeret rapportering",
+          "Hjemmesidebygger til kirker",
           "Tilpassede formularer og dataindsamling",
-          "Værktøjer til e-mailkommunikation",
-          "Begivenhedsadministration og planlægning",
+          "E-mailkommunikationsværktøjer",
+          "Begivenhedsstyring og planlægning",
           "Dataimport fra eksisterende systemer",
-          "Flerstedsbaseret og flerkampus-understøttelse",
+          "Understøttelse af flere lokationer og kampusser",
           "Rollebaseret adgang og tilladelser",
-          "Åben kildekode med GitHub-adgang"
+          "Open source med adgang via GitHub"
         ]
       },
       "cta": {
-        "title": "Klar til at stoppe med at betale for kirkeadministrationssoftware?",
-        "description": "Slut dig til kirker verden over, der har skiftet til en fuldstændig gratis, åben kildekode-løsning bygget af en menighed, til menigheder.",
+        "title": "Klar til at stoppe med at betale for kirkesoftware?",
+        "description": "B1 er hele pakken til $0. Hosting inkluderet.",
         "primaryButton": "Kom gratis i gang",
         "secondaryButton": "Prøv demo"
       },

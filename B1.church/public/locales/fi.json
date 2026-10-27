@@ -24,7 +24,7 @@
         "ctaSecondary": "Katso miten se toimii",
         "trust": [
           "Ilmainen ikuisesti — ei hintaportaita, ei kokeilujaksoja",
-          "Ei ylimääräisiä transaktiomaksuja",
+          "Ei B1:n alustamaksua lahjoituksista",
           "Avoin lähdekoodi GitHubissa",
           "501(c)(3)-järjestö vuodesta 2012"
         ]
@@ -62,7 +62,7 @@
         }
       },
       "connect": {
-        "eyebrow": "B1-mobiilisovellus",
+        "eyebrow": "PWA · asennus seurakuntasi verkkosivulta",
         "title": "Seurakuntalaisesi yhteydessä",
         "titleAccent": "läpi viikon.",
         "lead": "Anna seurakunnallesi yksi paikka, johon kuulua sunnuntaiden välilläkin. B1-sovellus tuo jäsenluettelon, ryhmät, viestit ja saarnat jokaiseen puhelimeen seurakunnassasi.",
@@ -277,8 +277,8 @@
       "titleHighlight": "kaikkialla",
       "subtitle": "Liity kasvaviin seurakuntiin, jotka ovat mullistaneet palvelutyönsä täysin ilmaisella alustallamme. Tässä on, mitä pastorit ja seurakunnan hallinnoijat sanovat B1:stä.",
       "stats": {
-        "churchesValue": "100+",
-        "churchesLabel": "Seurakuntaa ympäri maailman",
+        "churchesValue": "501(c)(3)",
+        "churchesLabel": "Voittoa tavoittelematon palvelutyö",
         "freeValue": "Ilmainen",
         "freeLabel": "Ikuisesti ja aina",
         "openValue": "Avoin",
@@ -336,7 +336,7 @@
       "faq": "UKK",
       "aboutChurchApps": "Tietoa ChurchAppsista",
       "appsAndResources": "Sovellukset ja resurssit",
-      "installApp": "Asenna mobiilisovellus",
+      "installApp": "Asenna seurakuntasi verkkosivulta",
       "helpCenter": "Ohjekeskus",
       "contact": "Yhteystiedot",
       "availableWorldwide": "Saatavilla maailmanlaajuisesti"
@@ -349,35 +349,35 @@
       "items": [
         {
           "question": "Onko B1.church todella 100 % ilmainen?",
-          "answer": "Kyllä, B1.church on täysin ilmainen ilman piilokuluja, premium-tasoja tai lahjoitusten käsittelymaksuja. Olemme 501(c)(3)-rekisteröity voittoa tavoittelematon palvelutyö, joka uskoo, että jokainen seurakunta ansaitsee pääsyn moderniin teknologiaan budjetista riippumatta. Alustamme rahoitetaan lahjoituksilla ja Google Ad Grants -avustuksilla."
+          "answer": "Kyllä. Isännöity B1 on $0 ikuisesti. Ei hintatasoja, ei henkilökohtaista rajaa. Live Church Solutions on 501(c)(3)-yhteisö (EIN 45-5349618). Julkinen 990-lomake. Maksat lahjoituksista vain Stripelle tai PayPalille. B1 lisää $0."
         },
         {
           "question": "Mitä ominaisuuksia B1.church sisältää?",
-          "answer": "B1.church sisältää täyden seurakunnanhallinta-alustan: jäsenten mobiilisovelluksen, joka asennetaan suoraan verkkosivuiltasi, vedä ja pudota -kotisivutyökalun, verkkolahjoitukset ilman ylimääräisiä alustamaksuja, lasten sisäänkirjausjärjestelmän turvakoodeineen, jäsenrekisterin, läsnäolon seurannan, ryhmien hallinnan, tilaisuuksien suunnittelun, laulukirjaston, saarnojen hallinnan ja Raamattu-integraation."
+          "answer": "Henkilöt, lahjoitukset, sisäänkirjaus, verkkosivutyökalu, jäsensovellus, ryhmät, läsnäolot, jumalanpalvelusten suunnittelu ja laulukirjasto."
         },
         {
           "question": "Miten B1.church vertautuu Planning Centeriin?",
-          "answer": "B1.church on 100 % ilmainen, kun taas Planning Center veloittaa moduulikohtaisesti ($0–299+/kk). B1 sisältää mobiilisovelluksen ja verkkosivujen rakennustyökalun ilmaiseksi, kun taas Planning Center veloittaa lisää Church Centeristä eikä sisällä verkkosivutyökalua. Molemmat tarjoavat seurakunnanhallinnan ominaisuuksia, mutta B1 tarjoaa kaiken yhdessä ilmaisessa paketissa."
+          "answer": "Planning Center People on ilmainen. Muissa PCO-tuotteissa on ilmaiset tasot, ja sen jälkeen maksat kasvun mukaan. Church Centerin perusosat ovat ilmaisia. B1 on koko paketti hintaan $0 ilman moduulikohtaisia lisämaksuja."
         },
         {
           "question": "Miten B1.church vertautuu Pushpayhin?",
-          "answer": "B1.church on täysin ilmainen, kun taas Pushpay maksaa $300-1000+/kk. B1:llä ei ole lahjoitusten käsittelymaksuja, kun taas Pushpay ottaa prosenttiosuuden lahjoituksista. B1 on avointa lähdekoodia ja sisältää kattavan seurakunnanhallinnan, kun taas Pushpay on suljettu ja keskittyy pääasiassa lahjoittamiseen."
+          "answer": "Pushpay on maksullinen lahjoitusalusta. B1 sisältää lahjoitukset ilman alustamaksua sekä muun seurakuntaohjelmiston hintaan $0. Kortti- tai ACH-maksut maksat silti."
         },
         {
           "question": "Miten B1.church vertautuu Tithe.lyhin?",
-          "answer": "B1.church on täysin ilmainen ilman käsittelymaksuja. Tithe.ly tarjoaa ilmaisen tason mutta veloittaa premium-ominaisuuksista ja ottaa prosenttiosuuden jokaisesta lahjoituksesta. B1 sisältää kattavan seurakunnan hallintaohjelmiston, kun taas Tithe.lyn ChMS on erillinen maksullinen tuote."
+          "answer": "Tithe.ly on lahjoitusyritys, jolla on maksullinen seurakuntaohjelmisto. B1 on seurakuntaohjelmisto, 100 % ilmainen palvelinpalvelu mukaan lukien. Lahjoitukset sisältyvät. Stripen voittoa tavoittelemattomien hinta on 2.2% + $0.30; Tithe.lyn \"ilmaiset\" lahjoitukset maksavat 2.9% + $0.30."
         },
         {
           "question": "Miten B1.church vertautuu Breeze ChMS:ään?",
-          "answer": "B1.church on ilmainen, kun taas Breezen hinnat alkavat $72/kk. B1 sisältää kattavan mobiilisovelluksen ja verkkosivujen rakennustyökalun, kun taas Breezellä on rajalliset mobiiliominaisuudet eikä verkkosivujen rakennustyökalua. Molemmat tarjoavat seurakunnanhallintaa, mutta B1 tarjoaa enemmän ominaisuuksia ilmaiseksi."
+          "answer": "Breeze on maksullinen, yksinkertainen seurakuntaohjelmisto. B1 on $0 ja sisältää verkkosivut, lahjoitukset ilman alustamaksua, sisäänkirjauksen ja jumalanpalvelusten suunnittelun. Tuomme Breezen henkilötiedot."
         },
         {
           "question": "Saako seurakuntani mobiilisovelluksen?",
-          "answer": "Kyllä. B1 antaa seurakunnallesi oman brändätyn mobiilisovelluskokemuksen asennettavana verkkosovelluksena (PWA). Jäsenet avaavat seurakuntasi sivuston, napauttavat 'Lisää aloitusnäyttöön' ja saavat koko näytön sovelluksen seurakuntasi nimellä ja logolla. Päivitykset tavoittavat kaikki heti."
+          "answer": "Jäsenet asentavat sovelluksen seurakuntasi verkkosivulta. Lisää aloitusnäyttöön."
         },
         {
           "question": "Tukeeko B1.church verkkolahjoittamista?",
-          "answer": "Kyllä, B1.church sisältää turvallisen verkkolahjoittamisen luottokortilla ja tilisiirrolla. Voit asettaa toistuvia lahjoituksia, hallita useita rahastoja ja tarjota lahjoitushistorian verotodistuksia varten. Käytämme suoraa Stripe-integraatiota ilman B1-alustan maksuja—seurakuntasi neuvottelee hinnat suoraan Stripen kanssa (tyypillisesti noin 2.9% + 30¢)."
+          "answer": "Kyllä. Stripe tai PayPal. Toistuvat lahjoitukset, rahastot, yhteenvedot. B1 lisää $0."
         },
         {
           "question": "Voinko rakentaa verkkosivuston B1.churchilla?",
@@ -385,7 +385,7 @@
         },
         {
           "question": "Onko B1.churchilla sisäänkirjautuminen lastentyötä varten?",
-          "answer": "Kyllä, B1.church sisältää älykkään sisäänkirjautumisjärjestelmän kontaktivapailla itsepalvelupäätteillä, perhesisäänkirjautumisella, automaattisella ryhmäjaolla, turvakoodeilla lasten noutoa varten sekä osallistumisen seurannalla ja raporteilla."
+          "answer": "Kyllä. Nimitarrat, turvakoodit, läsnäolot."
         },
         {
           "question": "Onko B1.church avointa lähdekoodia?",
@@ -426,264 +426,204 @@
         }
       },
       "notFound": {
-        "title": "Vertailua ei löytynyt",
-        "subtitle": "Tutustu saatavilla oleviin vertailuihin:"
+        "title": "Näin B1 vertautuu",
+        "subtitle": "B1 on seurakuntaohjelmisto, jolla aloitat. Henkilöt, lahjoitukset, sisäänkirjaus, verkkosivut, jäsensovellus, jumalanpalvelusten suunnittelu. $0 ikuisesti. 501(c)(3)."
       },
+      "hubTitle": "Miten B1 vertautuu",
+      "hubSubtitle": "B1 on seurakunnan hallintajärjestelmä, jolla aloitat. Ihmiset, lahjoitukset, sisäänkirjautuminen, verkkosivut, jäsensovellus, jumalanpalvelusten suunnittelu. 0 $ ikuisesti. 501(c)(3).",
       "b1vsPrefix": "B1 vs",
-      "noHiddenFees": "Ei piilokuluja, koskaan",
-      "plusTransactionFees": "Lisäksi käsittelymaksut",
+      "noHiddenFees": "Ei hintatasoja. Ei alustamaksua lahjoituksista.",
+      "plusTransactionFees": "",
+      "priceB1Label": "$0 / month",
+      "priceB1Note": "Ei hintatasoja. Ei alustamaksua lahjoituksista.",
       "featureColumn": "Ominaisuus",
       "ourTake": "Näkemyksemme",
-      "ctaTitle": "Valmis säästämään seurakuntasi rahoja?",
-      "ctaDescription": "Vaihda B1.churchiin ja ohjaa ohjelmistobudjettisi palvelutyöhön.",
+      "ctaTitle": "Koko paketti hintaan $0",
+      "ctaDescription": "B1 on koko paketti hintaan $0.",
       "ctaButton": "Aloita ilmaiseksi",
       "otherComparisons": "Muut vertailut",
       "competitors": {
         "planning-center": {
           "name": "Planning Center",
-          "tagline": "Ilmainen vaihtoehto Planning Centerille",
-          "description": "Planning Center on suosittu seurakunnan hallinta-alusta moduulikohtaisella hinnoittelulla. B1.church tarjoaa samanlaiset ominaisuudet täysin ilmaiseksi.",
+          "tagline": "Koko paketti hintaan $0",
+          "description": "B1 on koko paketti hintaan $0. Ei moduulikohtaisia lisämaksuja.",
           "features": [
             {
-              "name": "Jäsentietokanta",
-              "b1": true,
-              "competitor": true
+              "name": "Henkilötietokanta",
+              "b1": "Sisältyy",
+              "competitor": "Ilmainen, rajaton"
             },
             {
-              "name": "Sisäänkirjautumisjärjestelmä",
-              "b1": true,
-              "competitor": "$99/mo"
+              "name": "Lahjoitukset",
+              "b1": "Ei B1:n alustamaksua",
+              "competitor": "Maksunkäsittely; maksulliset lahjoitukset kasvun myötä"
             },
             {
-              "name": "Verkkolahjoittaminen",
-              "b1": "Ei B1-maksuja",
-              "competitor": "Platform + Stripe fees"
-            },
-            {
-              "name": "Ryhmien hallinta",
-              "b1": true,
-              "competitor": "$50/mo"
-            },
-            {
-              "name": "Jumalanpalvelussuunnittelu",
-              "b1": true,
-              "competitor": "$14-99/mo"
-            },
-            {
-              "name": "Mobiilisovellus",
-              "b1": "Ilmainen brändätty sovellus",
-              "competitor": "$0-199/mo"
-            },
-            {
-              "name": "Verkkosivujen rakennustyökalu",
-              "b1": true,
-              "competitor": false
-            },
-            {
-              "name": "Saarnahallinta",
-              "b1": true,
-              "competitor": false
-            },
-            {
-              "name": "Monikampus",
-              "b1": true,
-              "competitor": "Lisämaksu"
-            },
-            {
-              "name": "Avoin lähdekoodi",
-              "b1": true,
-              "competitor": false
-            }
-          ],
-          "pricingB1": "100 % ilmainen",
-          "pricingCompetitor": "$0 - $500+/kk moduuleista riippuen",
-          "verdict": "B1.church tarjoaa kaikki Planning Centerin ydinominaisuudet ilman moduulihinnoittelun monimutkaisuutta. Jos budjetti on huolena, B1 on selkeä valinta."
-        },
-        "pushpay": {
-          "name": "Pushpay",
-          "tagline": "Ilmainen vaihtoehto Pushpaylle",
-          "description": "Pushpay tunnetaan mobiililahjoittamisesta, mutta siihen liittyy merkittäviä kuukausikustannuksia ja käsittelymaksuja. B1.church tarjoaa lahjoittamisen ilman alustamaksuja.",
-          "features": [
-            {
-              "name": "Verkkolahjoittaminen",
-              "b1": "Ei B1-maksuja",
-              "competitor": "Platform + Stripe fees"
-            },
-            {
-              "name": "Toistuvat lahjoitukset",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Mobiilisovellus",
-              "b1": "Ilmainen brändätty sovellus",
+              "name": "Sisäänkirjaus",
+              "b1": "Sisältyy",
               "competitor": "Sisältyy"
             },
             {
-              "name": "Jäsentietokanta",
-              "b1": true,
-              "competitor": "ChMS lisämaksu"
+              "name": "Jumalanpalvelusten suunnittelu",
+              "b1": "Sisältyy",
+              "competitor": "Sisältyy"
             },
             {
-              "name": "Sisäänkirjautumisjärjestelmä",
-              "b1": true,
-              "competitor": "Lisämaksu"
+              "name": "Jäsensovellus",
+              "b1": "Seurakuntasi verkkosivulta",
+              "competitor": "Church Center"
             },
             {
-              "name": "Verkkosivujen rakennustyökalu",
-              "b1": true,
-              "competitor": false
+              "name": "Verkkosivutyökalu",
+              "b1": "Sisältyy",
+              "competitor": "Ei sisälly"
             },
             {
-              "name": "Ryhmien hallinta",
-              "b1": true,
-              "competitor": "Lisämaksu"
-            },
-            {
-              "name": "Lahjoitusilmoitukset",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Rahastojen hallinta",
-              "b1": true,
-              "competitor": true
+              "name": "Tuonti",
+              "b1": "Henkilöt Planning Centeristä",
+              "competitor": "—"
             },
             {
               "name": "Avoin lähdekoodi",
-              "b1": true,
-              "competitor": false
+              "b1": "Kyllä",
+              "competitor": "Ei"
             }
           ],
-          "pricingB1": "100 % ilmainen",
-          "pricingCompetitor": "$300 - $1,000+/kk",
-          "verdict": "Pushpay on ominaisuuksiltaan rikas mutta kallis. B1.church tarjoaa vastaavat lahjoitusominaisuudet sekä kattavan seurakunnanhallinnan ilmaiseksi. Säästöt voi ohjata palvelutyöhön."
+          "pricingB1": "$0 / kk",
+          "pricingCompetitor": "Aloitus ilmaiseksi, sitten maksulliset moduulit",
+          "verdict": "B1 sisältää henkilöt, lahjoitukset, sisäänkirjauksen, verkkosivut ja jumalanpalvelusten suunnittelun hintaan $0. Ei moduulikohtaisia lisämaksuja. Palvelinpalvelu mukana."
         },
-        "tithely": {
-          "name": "Tithe.ly",
-          "tagline": "Ilmainen vaihtoehto Tithe.lylle",
-          "description": "Tithe.ly tarjoaa seurakunnan lahjoitus- ja hallintatyökaluja freemium-hinnoittelulla. B1.church tarjoaa kaiken ilmaiseksi ilman käsittelymaksuja.",
+        "pushpay": {
+          "name": "Pushpay",
+          "tagline": "Lahjoitukset ja muu seurakuntaohjelmisto hintaan $0",
+          "description": "Pushpay on maksullinen lahjoitusalusta. B1 sisältää lahjoitukset ilman alustamaksua sekä henkilöt, sisäänkirjauksen, verkkosivut ja jumalanpalvelusten suunnittelun.",
           "features": [
             {
-              "name": "Verkkolahjoittaminen",
-              "b1": "Ei B1-maksuja",
-              "competitor": "Platform + Stripe fees"
+              "name": "Lahjoitukset",
+              "b1": "Ei B1:n alustamaksua",
+              "competitor": "Maksullinen alusta + maksunkäsittely"
             },
             {
               "name": "Toistuvat lahjoitukset",
-              "b1": true,
-              "competitor": true
+              "b1": "Sisältyy",
+              "competitor": "Sisältyy"
             },
             {
-              "name": "Mobiilisovellus",
-              "b1": "Ilmainen brändätty sovellus",
-              "competitor": "$99/mo"
+              "name": "Henkilötietokanta",
+              "b1": "Sisältyy",
+              "competitor": "Usein lisämaksua"
             },
             {
-              "name": "Jäsentietokanta",
-              "b1": true,
-              "competitor": "$99/mo"
+              "name": "Sisäänkirjaus",
+              "b1": "Sisältyy",
+              "competitor": "Usein lisämaksua"
             },
             {
-              "name": "Sisäänkirjautumisjärjestelmä",
-              "b1": true,
-              "competitor": "$49/mo"
+              "name": "Jäsensovellus",
+              "b1": "Seurakuntasi verkkosivulta",
+              "competitor": "Sisältyy"
             },
             {
-              "name": "Verkkosivujen rakennustyökalu",
-              "b1": true,
-              "competitor": "$49/mo"
-            },
-            {
-              "name": "Ryhmien hallinta",
-              "b1": true,
-              "competitor": "$99/mo"
-            },
-            {
-              "name": "Saarnahallinta",
-              "b1": true,
-              "competitor": "$49/mo"
-            },
-            {
-              "name": "Monikampus",
-              "b1": true,
-              "competitor": "Lisämaksu"
+              "name": "Verkkosivutyökalu",
+              "b1": "Sisältyy",
+              "competitor": "Ei sisälly"
             },
             {
               "name": "Avoin lähdekoodi",
-              "b1": true,
-              "competitor": false
+              "b1": "Kyllä",
+              "competitor": "Ei"
             }
           ],
-          "pricingB1": "100 % ilmainen",
-          "pricingCompetitor": "Ilmainen taso + $49-199/kk ominaisuuksista",
-          "verdict": "Tithe.lyn ilmainen taso on rajallinen. Täyden toiminnallisuuden saaminen kasvattaa kustannuksia nopeasti. B1.church sisältää kaiken ensimmäisestä päivästä alkaen ilman päivityspainetta."
+          "pricingB1": "$0 / kk",
+          "pricingCompetitor": "Kuukausimaksu + maksunkäsittely",
+          "verdict": "Maksa Pushpaylle, jos haluat heidän lahjoitusratkaisunsa ja sinulla on varaa alustaan. Aloita B1:llä, jos haluat koko seurakunnan paketin ja ohjelmiston hintaan $0. Kortti- tai ACH-maksut maksat kummassakin tapauksessa."
         },
-        "breeze": {
-          "name": "Breeze ChMS",
-          "tagline": "Ilmainen vaihtoehto Breeze ChMS:lle",
-          "description": "Breeze on yksinkertainen seurakunnan hallintajärjestelmä selkeällä hinnoittelulla. B1.church tarjoaa enemmän ominaisuuksia ilmaiseksi.",
+        "tithely": {
+          "name": "Tithe.ly",
+          "tagline": "He omistavat sanan ilmainen. Me emme ota osuutta.",
+          "description": "Tithe.ly on lahjoitusyritys, jolla on seurakuntaohjelmisto liitteenä. B1 on seurakuntaohjelmisto, 100 % ilmainen palvelinpalvelu mukaan lukien. Lahjoitukset sisältyvät. Stripen voittoa tavoittelemattomien hinta on 2.2% + $0.30; Tithe.lyn \"ilmaiset\" lahjoitukset maksavat 2.9% + $0.30.",
           "features": [
             {
-              "name": "Jäsentietokanta",
-              "b1": true,
-              "competitor": true
+              "name": "Lahjoitukset",
+              "b1": "Stripe voittoa tavoittelemattomille 2.2% + $0.30",
+              "competitor": "Tithe.ly \"ilmainen\" 2.9% + $0.30"
             },
             {
-              "name": "Lahjoitusten hallinta",
-              "b1": "Ei B1-maksuja",
-              "competitor": "2.9% + 30¢"
+              "name": "Henkilötietokanta",
+              "b1": "Sisältyy",
+              "competitor": "Maksullinen seurakuntaohjelmisto"
             },
             {
-              "name": "Sisäänkirjautumisjärjestelmä",
-              "b1": true,
-              "competitor": "Perustaso"
+              "name": "Sisäänkirjaus",
+              "b1": "Sisältyy",
+              "competitor": "Maksullinen lisäosa"
             },
             {
-              "name": "Mobiilisovellus",
-              "b1": "Ilmainen brändätty sovellus",
-              "competitor": "Rajallinen"
+              "name": "Jäsensovellus",
+              "b1": "Seurakuntasi verkkosivulta",
+              "competitor": "Maksullinen"
             },
             {
-              "name": "Verkkosivujen rakennustyökalu",
-              "b1": true,
-              "competitor": false
-            },
-            {
-              "name": "Ryhmien hallinta",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Tapahtumien hallinta",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Vapaaehtoisten aikataulutus",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Monikampus",
-              "b1": true,
-              "competitor": false
+              "name": "Verkkosivutyökalu",
+              "b1": "Sisältyy",
+              "competitor": "Maksullinen lisäosa"
             },
             {
               "name": "Avoin lähdekoodi",
-              "b1": true,
-              "competitor": false
+              "b1": "Kyllä",
+              "competitor": "Ei"
             }
           ],
-          "pricingB1": "100 % ilmainen",
-          "pricingCompetitor": "$72 - $135/kk",
-          "verdict": "Breeze on yksinkertainen ja edullinen, mutta B1.church on yksinkertaisempi budjetille (ilmainen!) ja tarjoaa enemmän ominaisuuksia, kuten verkkosivujen rakennustyökalun ja kattavan mobiilisovelluksen."
+          "pricingB1": "$0 / kk",
+          "pricingCompetitor": "Ilmainen lahjoitussivu, maksullinen seurakuntaohjelmisto",
+          "verdict": "Tithe.ly myy ilmaisia lahjoituksia ja maksullista seurakuntaohjelmistoa. B1 on seurakuntaohjelmisto palvelinpalvelu mukana. Stripen voittoa tavoittelemattomien hinta on 2.2% + $0.30, Tithe.lyn \"ilmaisten\" lahjoitusten 2.9% + $0.30. Ei maksullista tasoa, jolla avataan henkilöt, sisäänkirjaus tai verkkosivut."
+        },
+        "breeze": {
+          "name": "Breeze",
+          "tagline": "Maksullinen ja yksinkertainen vs. $0 ja kattava",
+          "description": "Breeze on maksullinen, yksinkertainen seurakuntaohjelmisto. Planning Centeristä lähtevät mainitsevat Breezen. B1 on $0 ja sisältää verkkosivut, lahjoitukset ilman alustamaksua, sisäänkirjauksen ja jumalanpalvelusten suunnittelun. Tuomme Breezen henkilötiedot.",
+          "features": [
+            {
+              "name": "Henkilötietokanta",
+              "b1": "Sisältyy",
+              "competitor": "Sisältyy"
+            },
+            {
+              "name": "Lahjoitukset",
+              "b1": "Ei B1:n alustamaksua",
+              "competitor": "Maksullinen maksunkäsittely"
+            },
+            {
+              "name": "Sisäänkirjaus",
+              "b1": "Sisältyy",
+              "competitor": "Sisältyy"
+            },
+            {
+              "name": "Jäsensovellus",
+              "b1": "Seurakuntasi verkkosivulta",
+              "competitor": "Breezen mobiilisovellus"
+            },
+            {
+              "name": "Verkkosivutyökalu",
+              "b1": "Sisältyy",
+              "competitor": "Ei sisälly"
+            },
+            {
+              "name": "Tuonti",
+              "b1": "Tuomme Breezen henkilötiedot",
+              "competitor": "—"
+            },
+            {
+              "name": "Avoin lähdekoodi",
+              "b1": "Kyllä",
+              "competitor": "Ei"
+            }
+          ],
+          "pricingB1": "$0 / kk",
+          "pricingCompetitor": "Kuukausimaksu",
+          "verdict": "Valitse Breeze, jos haluat hiotun maksullisen tuotteen ja olet lähdössä Planning Centeristä. Valitse B1, jos haluat verkkosivut ja lahjoitukset samaan $0-järjestelmään."
         }
-      },
-      "hubTitle": "How B1 compares",
-      "hubSubtitle": "B1 is the ChMS you start on. People, giving, check-in, website, member app, worship planning. $0 forever. 501(c)(3).",
-      "priceB1Label": "$0 / month",
-      "priceB1Note": "No tiers. No platform fee on gifts."
+      }
     },
     "churchManagement": {
       "meta": {
@@ -693,20 +633,58 @@
       "hero": {
         "title": "Ilmainen",
         "titleHighlight": "seurakunnan hallintaohjelmisto",
-        "titleLine2": "Kattava palvelutyön alusta",
-        "description": "Ammattimainen <strong>seurakunnan hallintaohjelmisto</strong> osallistumisen seurannalla, jäsentietokannalla, lahjoitusten hallinnalla ja viestintätyökaluilla. Täysin <strong>ilmainen seurakuntaohjelmisto</strong>, jonka tarjoaa Live Church Solutions, 501(c)(3)-rekisteröity voittoa tavoittelematon palvelutyö. Liity yli 100 seurakuntaan, jotka säästävät tuhansia palvelutyön ohjelmistokuluissa.",
+        "titleLine2": "Palvelinpalvelu mukana.",
+        "description": "Henkilöt, lahjoitukset, sisäänkirjaus, verkkosivut, jäsensovellus ja jumalanpalvelusten suunnittelu. Yksi alusta. $0 ikuisesti.",
         "ctaPrimary": "Aloita ilmaiseksi",
-        "ctaSecondary": "Kokeile demoa",
-        "trustLine": "Kasvavien seurakuntien luottama kaikkialla maailmassa",
-        "trustFree": "Täysin ilmainen ikuisesti",
-        "trustNonProfit": "501(c)(3)-voittoa tavoittelematon palvelutyö",
-        "trustOpenSource": "Avoin lähdekoodi"
+        "ctaSecondary": "Katso, miten B1 vertautuu",
+        "trustLine": "Mitä todella saat",
+        "trustFree": "501(c)(3)",
+        "trustNonProfit": "Ei hintatasoja",
+        "trustOpenSource": "Palvelinpalvelu mukana"
       },
+      "freeMeaning": {
+        "eyebrow": "Ilmainen seurakuntaohjelmisto",
+        "title": "Ilmainen tarkoittaa sekä ohjelmistoa että palvelinpalvelua.",
+        "lead": "Seurakunnat saavat henkilöt, lahjoitukset, sisäänkirjauksen, verkkosivut, jäsensovelluksen ja jumalanpalvelusten suunnittelun ilman kuukausittaista ohjelmistolaskua.",
+        "items": [
+          {
+            "title": "Ohjelmisto ja palvelinpalvelu ovat ilmaisia",
+            "description": "Alusta on todella 100 % ilmainen, palvelinpalvelu mukaan lukien. Ei kokeilujaksoa, ei seurakunnan kokoon sidottua rajaa eikä päivitystä, jolla avattaisiin henkilöt, lahjoitukset, sisäänkirjaus, ryhmät, verkkosivut tai läsnäolot."
+          },
+          {
+            "title": "Lahjoitukset sisältyvät",
+            "description": "Verkkolahjoitukset kuuluvat alustaan. B1 ei lisää lahjoituksiin alustamaksua."
+          },
+          {
+            "title": "Avoin lähdekoodi ChurchAppsilta",
+            "description": "B1 kuuluu ChurchApps-kokonaisuuteen. Voit lukea koodin, viedä tietosi ulos tai isännöidä itse."
+          }
+        ],
+        "compareLink": "Katso, miten B1 vertautuu"
+      },
+      "highlights": [
+        {
+          "number": "$0",
+          "label": "Ohjelmisto ja palvelinpalvelu"
+        },
+        {
+          "number": "100%",
+          "label": "Ilmainen ikuisesti"
+        },
+        {
+          "number": "Yksi",
+          "label": "Yhteinen tietokanta"
+        },
+        {
+          "number": "Avoin",
+          "label": "Lähdekoodi GitHubissa"
+        }
+      ],
       "featuresHeader": {
-        "title": "Kattava",
-        "titleHighlight": "Seurakunnan hallintajärjestelmä",
-        "titleSuffix": "ominaisuudet",
-        "description": "Ammattimainen seurakunnan tietokantaohjelmisto, jossa on jäsenhallinta, osallistumisen seuranta, lahjoitushallinto ja palvelutyön viestintätyökalut. Ilmainen seurakunnan hallintajärjestelmä, joka on suunniteltu erityisesti kasvaville seurakunnille ja monikampusseurakunnille."
+        "title": "Yksi",
+        "titleHighlight": "ilmainen seurakuntahallinta",
+        "titleSuffix": "työkalupakki",
+        "description": "Henkilöt, lahjoitukset, sisäänkirjaus, ryhmät, verkkosivut ja läsnäolot yhdessä tietokannassa. Palvelinpalvelu on mukana. Mitään tällä sivulla ei myydä lisäosana."
       },
       "checkinStations": {
         "title": "Itsepalvelu-sisäänkirjautumispisteet",
@@ -755,7 +733,7 @@
       "testimonials": {
         "title": "Seurakuntien rakastama",
         "titleHighlight": "kaikkialla",
-        "subtitle": "Liity kasvaviin seurakuntiin, jotka ovat mullistaneet palvelutyönsä täysin ilmaisella alustallamme. Tässä on, mitä pastorit ja seurakunnan hallinnoijat sanovat.",
+        "subtitle": "Pastorit ja seurakuntien hallintohenkilöt, jotka tarvitsivat ilmaisia seurakuntahallinnan työkaluja — ja lopettivat kuukausittaisen ohjelmistolaskun maksamisen.",
         "items": [
           {
             "content": "Käytämme tätä alustaa joka sunnuntai osallistumisen seurantaan ja kirjanpitoon kaikista osallistujista, mukaan lukien sunnuntaikoulun lapsista. Rajallisella budjetilla toimivina lähetystyöntekijöinä arvostamme sitä, että tämä ohjelmisto on ilmainen ja tehokas."
@@ -771,7 +749,7 @@
       "aboutSection": {
         "title": "Tietoa",
         "titleHighlight": "ilmaisesta seurakuntaohjelmistostamme",
-        "description": "Kattava <strong>seurakunnan hallintaohjelmisto</strong>, jonka <strong>Live Church Solutions</strong>, vuonna 2012 perustettu 501(c)(3)-voittoa tavoittelematon organisaatio, tarjoaa täysin ilmaiseksi kristillisille seurakunnille ja palvelutöille. Missiomme on auttaa seurakuntia käyttöönottamaan ammattimainen <strong>palvelutyön ohjelmisto</strong> ilman seurakuntahallintojärjestelmien tyypillisiä korkeita kustannuksia."
+        "description": "B1 on ilmainen seurakuntaohjelmisto, jonka tarjoavat <strong>Live Church Solutions</strong> ja avoimen lähdekoodin <strong>ChurchApps</strong>-kokonaisuus. Palvelinpalvelu on mukana. Tuote sisältää henkilöt, lahjoitukset, sisäänkirjauksen, ryhmät, verkkosivut ja läsnäolot — ei ilmaista kokeilua, joka päättyy tarjoukseen."
       },
       "stats": [
         {
@@ -780,9 +758,9 @@
           "description": "Uskomme, että nämä rahat voidaan käyttää paremmin"
         },
         {
-          "number": "100+",
-          "label": "Seurakuntaa käyttää jo alustaamme",
-          "description": "Kasvava tyytyväisten käyttäjien yhteisö"
+          "number": "$0",
+          "label": "Palvelinpalvelu mukana",
+          "description": "Sovellus, verkkosivut ja hallintatyökalut pyörivät meillä"
         },
         {
           "number": "2012",
@@ -803,24 +781,25 @@
       },
       "allFeatures": {
         "title": "Kaikki mitä tarvitset, täysin ilmaiseksi",
-        "subtitle": "Ei kokeilujaksoja, ei jäsenrajoituksia, ei piilokuluja",
+        "subtitle": "Ei kokeilujaksoja, ei jäsenrajoja, ei piilokuluja — palvelinpalvelu mukana",
         "items": [
           "Kattava jäsentietokanta yksityiskohtaisilla profiileilla",
           "Osallistumisen seuranta itse-sisäänkirjautumissovelluksella",
           "Ryhmien ja pienryhmien hallinta",
           "Lahjoitusten hallinta yksityiskohtaisella raportoinnilla",
-          "Mukautetut lomakkeet ja tiedonkeruu",
-          "Sähköpostiviestintätyökalut",
+          "Seurakunnan verkkosivutyökalu",
+          "Mukautetut lomakkeet ja tietojen keruu",
+          "Sähköpostiviestinnän työkalut",
           "Tapahtumien hallinta ja aikataulutus",
-          "Tietojen tuonti olemassa olevista järjestelmistä",
-          "Monitoimipiste- ja monikampustuki",
-          "Roolipohjainen käyttöoikeus ja luvat",
-          "Avoin lähdekoodi GitHub-pääsyllä"
+          "Tietojen tuonti nykyisistä järjestelmistä",
+          "Usean toimipisteen ja kampuksen tuki",
+          "Roolipohjaiset käyttöoikeudet",
+          "Avoin lähdekoodi ja GitHub-pääsy"
         ]
       },
       "cta": {
-        "title": "Valmis lopettamaan seurakunnan hallintaohjelmistosta maksamisen?",
-        "description": "Liity maailmanlaajuisiin seurakuntiin, jotka ovat vaihtaneet täysin ilmaiseen, avoimen lähdekoodin ratkaisuun, jonka on rakentanut palvelutyö palvelutöitä varten.",
+        "title": "Valmis lopettamaan seurakuntaohjelmiston maksamisen?",
+        "description": "B1 on koko paketti hintaan $0. Palvelinpalvelu mukana.",
         "primaryButton": "Aloita ilmaiseksi",
         "secondaryButton": "Kokeile demoa"
       },

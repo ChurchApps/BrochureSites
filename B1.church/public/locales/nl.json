@@ -24,7 +24,7 @@
         "ctaSecondary": "Bekijk het in actie",
         "trust": [
           "Voor altijd gratis — geen abonnementen, geen proefperiodes",
-          "Geen extra transactiekosten",
+          "Geen B1-platformkosten op giften",
           "Open source op GitHub",
           "501(c)(3)-bediening sinds 2012"
         ]
@@ -62,7 +62,7 @@
         }
       },
       "connect": {
-        "eyebrow": "De B1 Mobile App",
+        "eyebrow": "PWA · installeer vanaf de website van je kerk",
         "title": "Je mensen, verbonden —",
         "titleAccent": "de hele week door.",
         "lead": "Geef je kerk één plek om bij te horen, ook tussen de zondagen door. De B1-app brengt je ledenlijst, groepen, berichten en preken naar elke telefoon in je gemeente.",
@@ -277,8 +277,8 @@
       "titleHighlight": "Overal",
       "subtitle": "Sluit je aan bij groeiende kerken die hun bediening hebben getransformeerd met ons volledig gratis platform. Dit is wat voorgangers en kerkadministrators te zeggen hebben over B1.",
       "stats": {
-        "churchesValue": "100+",
-        "churchesLabel": "Kerken wereldwijd",
+        "churchesValue": "501(c)(3)",
+        "churchesLabel": "Non-profitbediening",
         "freeValue": "Gratis",
         "freeLabel": "Voor eeuwig & altijd",
         "openValue": "Open",
@@ -336,7 +336,7 @@
       "faq": "Veelgestelde vragen",
       "aboutChurchApps": "Over ChurchApps",
       "appsAndResources": "Apps en bronnen",
-      "installApp": "Installeer de mobiele app",
+      "installApp": "Installeer vanaf de website van je kerk",
       "helpCenter": "Helpcentrum",
       "contact": "Contact",
       "availableWorldwide": "Wereldwijd beschikbaar"
@@ -349,35 +349,35 @@
       "items": [
         {
           "question": "Is B1.church echt 100% gratis?",
-          "answer": "Ja, B1.church is volledig gratis zonder verborgen kosten, zonder premium-niveaus en zonder transactiekosten op donaties. We zijn een 501(c)(3) non-profit bediening die gelooft dat elke kerk toegang verdient tot moderne technologie, ongeacht het budget. Ons platform wordt gefinancierd door donaties en Google Ad Grants."
+          "answer": "Ja. Gehost B1 is voor altijd $0. Geen abonnementen, geen limiet per persoon. Live Church Solutions is een 501(c)(3) (EIN 45-5349618). Openbare 990. Je betaalt Stripe of PayPal over giften. B1 voegt $0 toe."
         },
         {
           "question": "Welke functies biedt B1.church?",
-          "answer": "B1.church omvat een compleet platform voor kerkbeheer: een mobiele leden-app die rechtstreeks vanaf je website wordt geïnstalleerd, een drag-and-drop websitebouwer, online geven zonder extra platformkosten, een kinder-check-in-systeem met veiligheidscodes, ledendatabase, aanwezigheidsregistratie, groepsbeheer, dienstplanning, liedbibliotheek, prekenbeheer en Bijbelintegratie."
+          "answer": "Mensen, geven, check-in, websitebouwer, leden-app, groepen, aanwezigheid, dienstplanning en een liedbibliotheek."
         },
         {
           "question": "Hoe verhoudt B1.church zich tot Planning Center?",
-          "answer": "B1.church is 100% gratis, terwijl Planning Center per module kosten rekent ($0-299+/maand). B1 bevat een mobiele app en websitebouwer zonder kosten, terwijl Planning Center extra kosten rekent voor Church Center en geen websitebouwer biedt. Beide bieden kerkbeheerfuncties, maar B1 biedt alles in één gratis pakket."
+          "answer": "Planning Center People is gratis. Andere PCO-producten hebben gratis niveaus, daarna betaal je naarmate je groeit. Church Center-basisfuncties zijn gratis. B1 is het hele pakket voor $0 zonder extra kosten per module."
         },
         {
           "question": "Hoe verhoudt B1.church zich tot Pushpay?",
-          "answer": "B1.church is volledig gratis, terwijl Pushpay $300-1000+/maand kost. B1 rekent geen transactiekosten op giften, terwijl Pushpay een percentage van donaties neemt. B1 is open source en bevat volledig kerkbeheer, terwijl Pushpay propriëtair is en zich voornamelijk richt op geven."
+          "answer": "Pushpay is een betaald gevenplatform. B1 bevat geven zonder platformkosten, plus de rest van het ChMS, voor $0. Je betaalt nog steeds de kaart- of ACH-tarieven."
         },
         {
           "question": "Hoe verhoudt B1.church zich tot Tithe.ly?",
-          "answer": "B1.church is volledig gratis zonder transactiekosten. Tithe.ly biedt een gratis niveau maar rekent kosten voor premiumfuncties en neemt een percentage van elke donatie. B1 bevat volledige kerkbeheersoftware, terwijl Tithe.ly's ChMS een apart betaald product is."
+          "answer": "Tithe.ly is een gevenbedrijf met een betaald ChMS. B1 is het ChMS, 100% gratis inclusief hosting. Geven is inbegrepen. Stripe non-profit is 2.2% + $0.30; Tithe.ly \"gratis\" geven is 2.9% + $0.30."
         },
         {
           "question": "Hoe verhoudt B1.church zich tot Breeze ChMS?",
-          "answer": "B1.church is gratis, terwijl Breeze begint bij $72/maand. B1 bevat een volwaardige mobiele app en websitebouwer, terwijl Breeze beperkte mobiele functies heeft en geen websitebouwer. Beide bieden kerkbeheer, maar B1 biedt meer functies zonder kosten."
+          "answer": "Breeze is een betaald, eenvoudig ChMS. B1 is $0 en bevat de website, geven zonder platformkosten, check-in en eredienstplanning. We importeren Breeze-mensen."
         },
         {
           "question": "Krijgt mijn kerk een mobiele app?",
-          "answer": "Ja. B1 geeft je kerk een eigen app-ervaring als installeerbare web-app (PWA). Leden openen de site van je kerk, tikken op 'Zet op beginscherm' en krijgen een app op volledig scherm met de naam en het logo van je kerk. Updates bereiken iedereen direct."
+          "answer": "Leden installeren de app vanaf de website van je kerk. Kies Zet op beginscherm."
         },
         {
           "question": "Ondersteunt B1.church online geven?",
-          "answer": "Ja, B1.church bevat veilig online geven met ondersteuning voor creditcard en bankoverschrijving. Je kunt terugkerende donaties instellen, meerdere fondsen beheren en gevengeschiedenis aanbieden voor belastingoverzichten. We gebruiken directe Stripe-integratie zonder B1-platformkosten - je kerk onderhandelt rechtstreeks tarieven met Stripe (doorgaans rond 2.9% + 30¢)."
+          "answer": "Ja. Stripe of PayPal. Terugkerende giften, fondsen, overzichten. B1 voegt $0 toe."
         },
         {
           "question": "Kan ik een website bouwen met B1.church?",
@@ -385,7 +385,7 @@
         },
         {
           "question": "Heeft B1.church een incheckfunctie voor kinderkerk?",
-          "answer": "Ja, B1.church bevat een slim incheksysteem met contactloze zelfbediening-kiosken, gezinsinchecken, automatische groepstoewijzingen, beveiligingscodes voor het ophalen van kinderen en aanwezigheidsregistratie met rapporten."
+          "answer": "Ja. Naamkaartjes, beveiligingscodes, aanwezigheid."
         },
         {
           "question": "Is B1.church open source?",
@@ -426,264 +426,204 @@
         }
       },
       "notFound": {
-        "title": "Vergelijking niet gevonden",
-        "subtitle": "Bekijk onze beschikbare vergelijkingen:"
+        "title": "Zo verhoudt B1 zich",
+        "subtitle": "B1 is het ChMS om mee te beginnen. Mensen, geven, check-in, website, leden-app, eredienstplanning. $0 voor altijd. 501(c)(3)."
       },
+      "hubTitle": "Hoe B1 zich verhoudt",
+      "hubSubtitle": "B1 is het kerkbeheersysteem waarmee je begint. Leden, giften, inchecken, website, ledenapp, dienstplanning. Voor altijd $0. 501(c)(3).",
       "b1vsPrefix": "B1 vs",
-      "noHiddenFees": "Geen verborgen kosten, voor altijd",
-      "plusTransactionFees": "Plus transactiekosten",
+      "noHiddenFees": "Geen abonnementen. Geen platformkosten op giften.",
+      "plusTransactionFees": "",
+      "priceB1Label": "$0 / month",
+      "priceB1Note": "Geen abonnementen. Geen platformkosten op giften.",
       "featureColumn": "Functie",
       "ourTake": "Onze mening",
-      "ctaTitle": "Klaar om je kerk geld te besparen?",
-      "ctaDescription": "Stap over naar B1.church en besteed je softwarebudget aan bediening.",
+      "ctaTitle": "Krijg het hele pakket voor $0",
+      "ctaDescription": "B1 is het hele pakket voor $0.",
       "ctaButton": "Gratis beginnen",
       "otherComparisons": "Andere vergelijkingen",
       "competitors": {
         "planning-center": {
           "name": "Planning Center",
-          "tagline": "Gratis alternatief voor Planning Center",
-          "description": "Planning Center is een populair kerkbeheerplatform met modulaire prijzen. B1.church biedt vergelijkbare functies volledig gratis.",
+          "tagline": "Het hele pakket voor $0",
+          "description": "B1 is het hele pakket voor $0. Geen extra kosten per module.",
           "features": [
             {
               "name": "Ledendatabase",
-              "b1": true,
-              "competitor": true
+              "b1": "Inbegrepen",
+              "competitor": "Gratis, onbeperkt"
             },
             {
-              "name": "Incheksysteem",
-              "b1": true,
-              "competitor": "$99/mo"
+              "name": "Geven",
+              "b1": "Geen B1-platformkosten",
+              "competitor": "Verwerking; betaald Geven naarmate je groeit"
             },
             {
-              "name": "Online geven",
-              "b1": "Geen B1-kosten",
-              "competitor": "Platform + Stripe-kosten"
-            },
-            {
-              "name": "Groepsbeheer",
-              "b1": true,
-              "competitor": "$50/mo"
+              "name": "Check-in",
+              "b1": "Inbegrepen",
+              "competitor": "Inbegrepen"
             },
             {
               "name": "Dienstplanning",
-              "b1": true,
-              "competitor": "$14-99/mo"
+              "b1": "Inbegrepen",
+              "competitor": "Inbegrepen"
             },
             {
-              "name": "Mobiele app",
-              "b1": "Gratis app met eigen merknaam",
-              "competitor": "$0-199/mo"
+              "name": "Leden-app",
+              "b1": "Vanaf de website van je kerk",
+              "competitor": "Church Center"
             },
             {
               "name": "Websitebouwer",
-              "b1": true,
-              "competitor": false
+              "b1": "Inbegrepen",
+              "competitor": "Niet inbegrepen"
             },
             {
-              "name": "Prekenbeheer",
-              "b1": true,
-              "competitor": false
-            },
-            {
-              "name": "Multi-campus",
-              "b1": true,
-              "competitor": "Extra kosten"
+              "name": "Import",
+              "b1": "Mensen uit Planning Center",
+              "competitor": "—"
             },
             {
               "name": "Open source",
-              "b1": true,
-              "competitor": false
+              "b1": "Ja",
+              "competitor": "Nee"
             }
           ],
-          "pricingB1": "100% Gratis",
-          "pricingCompetitor": "$0 - $500+/maand afhankelijk van modules",
-          "verdict": "B1.church biedt alle kernfuncties van Planning Center zonder de complexiteit van modulaire prijzen. Als het budget een punt is, is B1 de duidelijke keuze."
+          "pricingB1": "$0 / maand",
+          "pricingCompetitor": "Gratis om te starten, daarna betaalde modules",
+          "verdict": "B1 is mensen, geven, check-in, website en eredienstplanning voor $0. Geen extra kosten per module. Hosting inbegrepen."
         },
         "pushpay": {
           "name": "Pushpay",
-          "tagline": "Gratis alternatief voor Pushpay",
-          "description": "Pushpay staat bekend om mobiel geven, maar gaat gepaard met aanzienlijke maandelijkse kosten en transactiekosten. B1.church biedt geven met nul platformkosten.",
+          "tagline": "Geven plus de rest van het ChMS, voor $0",
+          "description": "Pushpay is een betaald gevenplatform. B1 bevat geven zonder platformkosten, plus mensen, check-in, website en eredienstplanning.",
           "features": [
             {
-              "name": "Online geven",
-              "b1": "Geen B1-kosten",
-              "competitor": "Platform + Stripe-kosten"
+              "name": "Geven",
+              "b1": "Geen B1-platformkosten",
+              "competitor": "Betaald platform + verwerking"
             },
             {
-              "name": "Terugkerende donaties",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Mobiele app",
-              "b1": "Gratis app met eigen merknaam",
+              "name": "Terugkerende giften",
+              "b1": "Inbegrepen",
               "competitor": "Inbegrepen"
             },
             {
               "name": "Ledendatabase",
-              "b1": true,
-              "competitor": "ChMS extra"
+              "b1": "Inbegrepen",
+              "competitor": "Vaak extra"
             },
             {
-              "name": "Incheksysteem",
-              "b1": true,
-              "competitor": "Extra kosten"
+              "name": "Check-in",
+              "b1": "Inbegrepen",
+              "competitor": "Vaak extra"
+            },
+            {
+              "name": "Leden-app",
+              "b1": "Vanaf de website van je kerk",
+              "competitor": "Inbegrepen"
             },
             {
               "name": "Websitebouwer",
-              "b1": true,
-              "competitor": false
-            },
-            {
-              "name": "Groepsbeheer",
-              "b1": true,
-              "competitor": "Extra kosten"
-            },
-            {
-              "name": "Gevenoverzichten",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Fondsbeheer",
-              "b1": true,
-              "competitor": true
+              "b1": "Inbegrepen",
+              "competitor": "Niet inbegrepen"
             },
             {
               "name": "Open source",
-              "b1": true,
-              "competitor": false
+              "b1": "Ja",
+              "competitor": "Nee"
             }
           ],
-          "pricingB1": "100% Gratis",
-          "pricingCompetitor": "$300 - $1,000+/maand",
-          "verdict": "Pushpay biedt veel functies, maar is duur. B1.church biedt vergelijkbare gevenfuncties plus volledig kerkbeheer, zonder kosten. De besparingen kunnen worden besteed aan de bediening."
+          "pricingB1": "$0 / maand",
+          "pricingCompetitor": "Maandelijks betaald + verwerking",
+          "verdict": "Betaal Pushpay als je hun gevensysteem wilt en het platform kunt betalen. Begin met B1 als je de hele kerkomgeving en software voor $0 wilt. Je betaalt in beide gevallen nog steeds kaart- of ACH-tarieven."
         },
         "tithely": {
           "name": "Tithe.ly",
-          "tagline": "Gratis alternatief voor Tithe.ly",
-          "description": "Tithe.ly biedt kerkgift- en beheertools met freemium-prijzen. B1.church biedt alles gratis zonder transactiekosten.",
+          "tagline": "Zij claimen het woord gratis. Wij nemen geen deel van je giften.",
+          "description": "Tithe.ly is een gevenbedrijf met kerksoftware erbij. B1 is het ChMS, 100% gratis inclusief hosting. Geven is inbegrepen. Stripe non-profit is 2.2% + $0.30; Tithe.ly \"gratis\" geven is 2.9% + $0.30.",
           "features": [
             {
-              "name": "Online geven",
-              "b1": "Geen B1-kosten",
-              "competitor": "Platform + Stripe-kosten"
-            },
-            {
-              "name": "Terugkerende donaties",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Mobiele app",
-              "b1": "Gratis app met eigen merknaam",
-              "competitor": "$99/mo"
+              "name": "Geven",
+              "b1": "Stripe non-profit 2.2% + $0.30",
+              "competitor": "Tithe.ly \"gratis\" 2.9% + $0.30"
             },
             {
               "name": "Ledendatabase",
-              "b1": true,
-              "competitor": "$99/mo"
+              "b1": "Inbegrepen",
+              "competitor": "Betaald ChMS"
             },
             {
-              "name": "Incheksysteem",
-              "b1": true,
-              "competitor": "$49/mo"
+              "name": "Check-in",
+              "b1": "Inbegrepen",
+              "competitor": "Betaalde add-on"
+            },
+            {
+              "name": "Leden-app",
+              "b1": "Vanaf de website van je kerk",
+              "competitor": "Betaald"
             },
             {
               "name": "Websitebouwer",
-              "b1": true,
-              "competitor": "$49/mo"
-            },
-            {
-              "name": "Groepsbeheer",
-              "b1": true,
-              "competitor": "$99/mo"
-            },
-            {
-              "name": "Prekenbeheer",
-              "b1": true,
-              "competitor": "$49/mo"
-            },
-            {
-              "name": "Multi-campus",
-              "b1": true,
-              "competitor": "Extra kosten"
+              "b1": "Inbegrepen",
+              "competitor": "Betaalde add-on"
             },
             {
               "name": "Open source",
-              "b1": true,
-              "competitor": false
+              "b1": "Ja",
+              "competitor": "Nee"
             }
           ],
-          "pricingB1": "100% Gratis",
-          "pricingCompetitor": "Gratis niveau + $49-199/mo voor functies",
-          "verdict": "Het gratis niveau van Tithe.ly is beperkt. Om volledige functionaliteit te krijgen, lopen de kosten snel op. B1.church bevat alles vanaf dag één zonder druk om te upgraden."
+          "pricingB1": "$0 / maand",
+          "pricingCompetitor": "Gratis gevenpagina, betaald ChMS",
+          "verdict": "Tithe.ly verkoopt gratis geven en een betaald ChMS. B1 is de kerksoftware, inclusief hosting. Stripe non-profit is 2.2% + $0.30 tegenover Tithe.ly \"gratis\" met 2.9% + $0.30. Geen betaald niveau nodig om mensen, check-in of de website te ontgrendelen."
         },
         "breeze": {
-          "name": "Breeze ChMS",
-          "tagline": "Gratis alternatief voor Breeze ChMS",
-          "description": "Breeze is een eenvoudig kerkbeheersysteem met duidelijke prijzen. B1.church biedt meer functies zonder kosten.",
+          "name": "Breeze",
+          "tagline": "Betaald en eenvoudig versus $0 en compleet",
+          "description": "Breeze is een betaald, eenvoudig ChMS. Mensen die Planning Center verlaten noemen Breeze. B1 is $0 en bevat de website, geven zonder platformkosten, check-in en eredienstplanning. We importeren Breeze-mensen.",
           "features": [
             {
               "name": "Ledendatabase",
-              "b1": true,
-              "competitor": true
+              "b1": "Inbegrepen",
+              "competitor": "Inbegrepen"
             },
             {
-              "name": "Gevenbeheer",
-              "b1": "Geen B1-kosten",
-              "competitor": "2.9% + 30¢"
+              "name": "Geven",
+              "b1": "Geen B1-platformkosten",
+              "competitor": "Betaalde verwerking"
             },
             {
-              "name": "Incheksysteem",
-              "b1": true,
-              "competitor": "Basis"
+              "name": "Check-in",
+              "b1": "Inbegrepen",
+              "competitor": "Inbegrepen"
             },
             {
-              "name": "Mobiele app",
-              "b1": "Gratis app met eigen merknaam",
-              "competitor": "Beperkt"
+              "name": "Leden-app",
+              "b1": "Vanaf de website van je kerk",
+              "competitor": "Breeze mobiel"
             },
             {
               "name": "Websitebouwer",
-              "b1": true,
-              "competitor": false
+              "b1": "Inbegrepen",
+              "competitor": "Niet inbegrepen"
             },
             {
-              "name": "Groepsbeheer",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Evenementenbeheer",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Vrijwilligersplanning",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Multi-campus",
-              "b1": true,
-              "competitor": false
+              "name": "Import",
+              "b1": "We importeren Breeze-mensen",
+              "competitor": "—"
             },
             {
               "name": "Open source",
-              "b1": true,
-              "competitor": false
+              "b1": "Ja",
+              "competitor": "Nee"
             }
           ],
-          "pricingB1": "100% Gratis",
-          "pricingCompetitor": "$72 - $135/maand",
-          "verdict": "Breeze is eenvoudig en betaalbaar, maar B1.church is eenvoudiger voor het budget (gratis!) en biedt meer functies zoals een websitebouwer en een volwaardige mobiele app."
+          "pricingB1": "$0 / maand",
+          "pricingCompetitor": "Maandelijks betaald",
+          "verdict": "Kies Breeze als je een verzorgd betaald product wilt en Planning Center verlaat. Kies B1 als je de website en geven in hetzelfde $0-systeem wilt."
         }
-      },
-      "hubTitle": "How B1 compares",
-      "hubSubtitle": "B1 is the ChMS you start on. People, giving, check-in, website, member app, worship planning. $0 forever. 501(c)(3).",
-      "priceB1Label": "$0 / month",
-      "priceB1Note": "No tiers. No platform fee on gifts."
+      }
     },
     "churchManagement": {
       "meta": {
@@ -693,20 +633,58 @@
       "hero": {
         "title": "Gratis",
         "titleHighlight": "Kerkbeheersoftware",
-        "titleLine2": "Compleet bedieningsplatform",
-        "description": "Professionele <strong>kerkbeheersoftware</strong> met aanwezigheidsregistratie, ledendatabase, gevenbeheer en communicatiehulpmiddelen. Volledig <strong>gratis kerksoftware</strong> aangeboden door Live Church Solutions, een 501(c)(3) non-profit bediening. Sluit je aan bij 100+ kerken die duizenden besparen op kosten van bedieningssoftware.",
-        "ctaPrimary": "Begin gratis",
-        "ctaSecondary": "Probeer de demo",
-        "trustLine": "Vertrouwd door groeiende kerken wereldwijd",
-        "trustFree": "Voor altijd volledig gratis",
-        "trustNonProfit": "501(c)(3) non-profit bediening",
-        "trustOpenSource": "Open source"
+        "titleLine2": "Inclusief hosting.",
+        "description": "Mensen, geven, check-in, website, leden-app en eredienstplanning. Eén platform. $0 voor altijd.",
+        "ctaPrimary": "Gratis aan de slag",
+        "ctaSecondary": "Bekijk hoe B1 zich verhoudt",
+        "trustLine": "Wat je echt krijgt",
+        "trustFree": "501(c)(3)",
+        "trustNonProfit": "Geen abonnementen",
+        "trustOpenSource": "Hosting inbegrepen"
       },
+      "freeMeaning": {
+        "eyebrow": "Gratis kerkbeheersoftware",
+        "title": "Gratis betekent de software én de hosting.",
+        "lead": "Kerken krijgen mensen, geven, check-in, een website, een leden-app en eredienstplanning zonder maandelijkse ChMS-rekening.",
+        "items": [
+          {
+            "title": "Software en hosting zijn gratis",
+            "description": "Het platform is echt 100% gratis, inclusief hosting. Geen proefperiode, geen limiet op kerkgrootte en geen upgrade nodig voor mensen, geven, check-in, groepen, website of aanwezigheid."
+          },
+          {
+            "title": "Geven is inbegrepen",
+            "description": "Online geven is onderdeel van het platform. B1 rekent geen platformkosten op giften."
+          },
+          {
+            "title": "Open source van ChurchApps",
+            "description": "B1 maakt deel uit van de ChurchApps-suite. Je kunt de code lezen, je gegevens exporteren of zelf hosten."
+          }
+        ],
+        "compareLink": "Bekijk hoe B1 zich verhoudt"
+      },
+      "highlights": [
+        {
+          "number": "$0",
+          "label": "Software en hosting"
+        },
+        {
+          "number": "100%",
+          "label": "Voor altijd gratis"
+        },
+        {
+          "number": "Eén",
+          "label": "Gedeelde database"
+        },
+        {
+          "number": "Open",
+          "label": "Broncode op GitHub"
+        }
+      ],
       "featuresHeader": {
-        "title": "Compleet",
-        "titleHighlight": "Kerkbeheersysteem",
-        "titleSuffix": "Functies",
-        "description": "Professionele kerkdatabasesoftware met ledenbeheer, aanwezigheidsregistratie, gevenbeheer en communicatiehulpmiddelen voor de bediening. Gratis kerkbeheersysteem, speciaal ontworpen voor groeiende gemeenten en multi-campus kerken."
+        "title": "Eén",
+        "titleHighlight": "gratis kerkbeheer",
+        "titleSuffix": "toolkit",
+        "description": "Mensen, geven, check-in, groepen, website en aanwezigheid in één database. Hosting is inbegrepen. Niets op deze pagina wordt als add-on verkocht."
       },
       "checkinStations": {
         "title": "Zelfbediening-incheckstations",
@@ -755,7 +733,7 @@
       "testimonials": {
         "title": "Geliefd bij kerken",
         "titleHighlight": "Overal",
-        "subtitle": "Sluit je aan bij groeiende kerken die hun bediening hebben getransformeerd met ons volledig gratis platform. Dit is wat voorgangers en kerkadministrators te zeggen hebben.",
+        "subtitle": "Predikanten en kerkbeheerders die gratis kerkbeheersoftware nodig hadden — en stopten met het betalen van een maandelijkse ChMS-rekening.",
         "items": [
           {
             "content": "We gebruiken dit platform elke zondag om aanwezigheid bij te houden en registraties te bewaren van iedereen die aanwezig is, inclusief onze zondagsschoolkinderen. Als zendelingen met een beperkt budget waarderen we het dat deze software gratis en effectief is."
@@ -771,7 +749,7 @@
       "aboutSection": {
         "title": "Over onze",
         "titleHighlight": "Gratis kerksoftware",
-        "description": "Uitgebreide <strong>kerkbeheersoftware</strong> die volledig gratis wordt aangeboden aan christelijke kerken en bedieningen door <strong>Live Church Solutions</strong>, een 501(c)(3) non-profit opgericht in 2012. Onze missie is om kerken te helpen professionele <strong>bedieningssoftware</strong> te implementeren zonder de gebruikelijk hoge kosten van kerkadministratiesystemen."
+        "description": "B1 is gratis kerkbeheersoftware van <strong>Live Church Solutions</strong> en de open-source <strong>ChurchApps</strong>-suite. Hosting is inbegrepen. Het product is mensen, geven, check-in, groepen, website en aanwezigheid — geen gratis proefperiode die in een offerte verandert."
       },
       "stats": [
         {
@@ -780,9 +758,9 @@
           "description": "Wij geloven dat dit geld beter besteed kan worden"
         },
         {
-          "number": "100+",
-          "label": "Kerken gebruiken ons platform al",
-          "description": "Groeiende gemeenschap van tevreden gebruikers"
+          "number": "$0",
+          "label": "Hosting inbegrepen",
+          "description": "De app, website en beheertools draaien op ons"
         },
         {
           "number": "2012",
@@ -803,24 +781,25 @@
       },
       "allFeatures": {
         "title": "Alles wat je nodig hebt, volledig gratis",
-        "subtitle": "Geen proefperiodes, geen ledenlimieten, geen verborgen kosten",
+        "subtitle": "Geen proefperiodes, geen ledenlimieten, geen verborgen kosten — hosting inbegrepen",
         "items": [
           "Volledige ledendatabase met gedetailleerde profielen",
           "Aanwezigheidsregistratie met zelf-incheck-app",
           "Groeps- en kleine groepbeheer",
           "Gevenbeheer met gedetailleerde rapportage",
-          "Aangepaste formulieren en gegevensverzameling",
-          "E-mailcommunicatiehulpmiddelen",
+          "Kerkwebsitebouwer",
+          "Eigen formulieren en gegevensverzameling",
+          "E-mailcommunicatietools",
           "Evenementenbeheer en planning",
-          "Gegevensimport vanuit bestaande systemen",
-          "Multi-site en multi-campus ondersteuning",
-          "Op rollen gebaseerde toegang en machtigingen",
-          "Open source met GitHub-toegang"
+          "Gegevensimport uit bestaande systemen",
+          "Ondersteuning voor meerdere locaties en campussen",
+          "Toegang en rechten op basis van rollen",
+          "Open source met toegang via GitHub"
         ]
       },
       "cta": {
-        "title": "Klaar om te stoppen met betalen voor kerkbeheersoftware?",
-        "description": "Sluit je aan bij kerken wereldwijd die zijn overgestapt op een volledig gratis, open source oplossing, gebouwd door een bediening, voor bedieningen.",
+        "title": "Klaar om te stoppen met betalen voor kerksoftware?",
+        "description": "B1 is het hele pakket voor $0. Hosting inbegrepen.",
         "primaryButton": "Begin gratis",
         "secondaryButton": "Probeer de demo"
       },

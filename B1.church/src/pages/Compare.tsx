@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import Header from "@/components/Header";
@@ -30,7 +29,7 @@ const Compare = () => {
   const { t } = useTranslation();
   const { competitor } = useParams<{ competitor: string }>();
 
-  const rawCompetitorData = t("brochure.compare.competitors", { returnObjects: true, lng: "en" });
+  const rawCompetitorData = t("brochure.compare.competitors", { returnObjects: true });
   const competitorData = (typeof rawCompetitorData === "object" && !Array.isArray(rawCompetitorData)) ? rawCompetitorData as Record<string, any> : {};
 
   const comparisons: Record<string, ComparisonData> = Object.keys(competitorData).reduce(
@@ -52,53 +51,12 @@ const Compare = () => {
 
   const hubSlugs = COMPETITOR_SLUGS.filter((slug) => comparisons[slug]);
   const data = competitor ? comparisons[competitor] : null;
-  const hubTitle = t("brochure.compare.hubTitle", { lng: "en" });
-  const hubSubtitle = t("brochure.compare.hubSubtitle", { lng: "en" });
-  const priceB1Label = t("brochure.compare.priceB1Label", { lng: "en" });
-  const priceB1Note = t("brochure.compare.priceB1Note", { lng: "en" });
-  const ctaTitle = t("brochure.compare.ctaTitle", { lng: "en" });
-  const ctaDescription = t("brochure.compare.ctaDescription", { lng: "en" });
-
-  useEffect(() => {
-    if (!data) return;
-
-    const schema = {
-      "@context": "https://schema.org",
-      "@type": "WebPage",
-      "name": `B1.church vs ${data.competitor} Comparison`,
-      "description": data.description,
-      "mainEntity": {
-        "@type": "ItemList",
-        "itemListElement": [
-          {
-            "@type": "SoftwareApplication",
-            "name": "B1.church",
-            "applicationCategory": "BusinessApplication",
-            "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
-          },
-          {
-            "@type": "SoftwareApplication",
-            "name": data.competitor,
-            "applicationCategory": "BusinessApplication"
-          }
-        ]
-      }
-    };
-
-    const existingSchema = document.getElementById("compare-schema");
-    if (existingSchema) existingSchema.remove();
-
-    const script = document.createElement("script");
-    script.id = "compare-schema";
-    script.type = "application/ld+json";
-    script.text = JSON.stringify(schema);
-    document.head.appendChild(script);
-
-    return () => {
-      const el = document.getElementById("compare-schema");
-      if (el) el.remove();
-    };
-  }, [data]);
+  const hubTitle = t("brochure.compare.hubTitle");
+  const hubSubtitle = t("brochure.compare.hubSubtitle");
+  const priceB1Label = t("brochure.compare.priceB1Label");
+  const priceB1Note = t("brochure.compare.priceB1Note");
+  const ctaTitle = t("brochure.compare.ctaTitle");
+  const ctaDescription = t("brochure.compare.ctaDescription");
 
   const renderFeatureValue = (value: boolean | string) => {
     if (value === true || value === "Yes") {
@@ -130,6 +88,7 @@ const Compare = () => {
           path="/compare"
           title={t("brochure.compare.meta.hubTitle")}
           description={t("brochure.compare.meta.hubDescription")}
+          breadcrumbs={[{ name: t("brochure.compare.meta.hubTitle"), path: "/compare" }]}
         />
         <Header />
         <main className="container mx-auto px-4 py-24">
@@ -168,6 +127,19 @@ const Compare = () => {
         path={`/compare/${competitor}`}
         title={t("brochure.compare.meta.detailTitle", { competitor: data.competitor })}
         description={t(`brochure.compare.meta.descriptions.${competitor}`, { defaultValue: data.description })}
+        breadcrumbs={[
+          { name: t("brochure.compare.meta.hubTitle"), path: "/compare" },
+          { name: data.competitor, path: `/compare/${competitor}` }
+        ]}
+        jsonLd={{
+          mainEntity: {
+            "@type": "ItemList",
+            itemListElement: [
+              { "@type": "ListItem", position: 1, item: { "@id": "https://b1.church/#software" } },
+              { "@type": "ListItem", position: 2, item: { "@type": "SoftwareApplication", name: data.competitor, applicationCategory: "BusinessApplication" } }
+            ]
+          }
+        }}
       />
       <Header />
 

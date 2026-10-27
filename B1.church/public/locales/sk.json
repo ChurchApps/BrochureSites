@@ -24,7 +24,7 @@
         "ctaSecondary": "Pozrite si to v akcii",
         "trust": [
           "Zadarmo navždy — žiadne balíky, žiadne skúšobné verzie",
-          "Žiadne dodatočné transakčné poplatky",
+          "Žiadny poplatok platformy B1 za dary",
           "Open source na GitHub",
           "Nezisková služba 501(c)(3) od roku 2012"
         ]
@@ -62,7 +62,7 @@
         }
       },
       "connect": {
-        "eyebrow": "Mobilná aplikácia B1",
+        "eyebrow": "PWA · inštalácia z webu vášho zboru",
         "title": "Vaši ľudia v spojení",
         "titleAccent": "po celý týždeň.",
         "lead": "Dajte svojej cirkvi jedno miesto, kam patriť aj medzi nedeľami. Aplikácia B1 prináša adresár členov, skupiny, správy a kázne do každého telefónu vo vašom zbore.",
@@ -277,8 +277,8 @@
       "titleHighlight": "všade",
       "subtitle": "Pridajte sa k rastúcim cirkvám, ktoré premenili svoju službu s našou úplne bezplatnou platformou. Tu je, čo pastori a administrátori cirkví hovoria o B1.",
       "stats": {
-        "churchesValue": "100+",
-        "churchesLabel": "Cirkví po celom svete",
+        "churchesValue": "501(c)(3)",
+        "churchesLabel": "Nezisková služba",
         "freeValue": "Zadarmo",
         "freeLabel": "Navždy a naveky",
         "openValue": "Otvorený",
@@ -336,7 +336,7 @@
       "faq": "Časté otázky",
       "aboutChurchApps": "O ChurchApps",
       "appsAndResources": "Aplikácie a zdroje",
-      "installApp": "Nainštalovať mobilnú aplikáciu",
+      "installApp": "Nainštalujte z webu vášho zboru",
       "helpCenter": "Centrum pomoci",
       "contact": "Kontakt",
       "availableWorldwide": "Dostupné celosvetovo"
@@ -349,35 +349,35 @@
       "items": [
         {
           "question": "Je B1.church naozaj 100% zadarmo?",
-          "answer": "Áno, B1.church je úplne zadarmo bez skrytých poplatkov, bez prémiových úrovní a bez transakčných poplatkov za dary. Sme nezisková služba 501(c)(3), ktorá verí, že každá cirkev si zaslúži prístup k modernej technológii bez ohľadu na rozpočet. Naša platforma je financovaná z darov a grantov Google Ad Grants."
+          "answer": "Áno. Hostovaný B1 je za $0 navždy. Bez balíkov a bez limitu počtu ľudí. Live Church Solutions je organizácia 501(c)(3) (EIN 45-5349618). Verejný formulár 990. Stripe alebo PayPal platíte len za spracovanie darov. B1 pridáva $0."
         },
         {
           "question": "Aké funkcie B1.church obsahuje?",
-          "answer": "B1.church obsahuje kompletnú platformu na správu cirkvi: mobilnú aplikáciu pre členov inštalovateľnú priamo z vášho webu, tvorbu webu štýlom potiahni a pusti, online darcovstvo bez dodatočných poplatkov platformy, systém detského check-inu s bezpečnostnými kódmi, databázu členov, sledovanie účasti, správu skupín, plánovanie bohoslužieb, knižnicu piesní, správu kázní a integráciu Biblie."
+          "answer": "Ľudia, darovanie, check-in, tvorca webu, aplikácia pre členov, skupiny, dochádzka, plánovanie bohoslužieb a knižnica piesní."
         },
         {
           "question": "Ako sa B1.church porovnáva s Planning Center?",
-          "answer": "B1.church je 100% zadarmo, zatiaľ čo Planning Center spoplatňuje každý modul ($0-299+/mesiac). B1 obsahuje mobilnú aplikáciu a tvorcu webov bezplatne, zatiaľ čo Planning Center účtuje extra za Church Center a neobsahuje tvorcu webov. Obaja ponúkajú funkcie na správu cirkvi, ale B1 poskytuje všetko v jednom bezplatnom balíku."
+          "answer": "Planning Center People je zadarmo. Ostatné produkty PCO majú bezplatné úrovne, potom platíte podľa rastu. Základ Church Center je zadarmo. B1 je celý balík za $0 bez doplácania za moduly."
         },
         {
           "question": "Ako sa B1.church porovnáva s Pushpay?",
-          "answer": "B1.church je úplne zadarmo, zatiaľ čo Pushpay stojí $300-1000+/mesiac. B1 nemá žiadne transakčné poplatky pri daroch, zatiaľ čo Pushpay si berie percento z darov. B1 je open source a obsahuje kompletnú správu cirkvi, kým Pushpay je proprietárny a zameraný hlavne na darovanie."
+          "answer": "Pushpay je platená platforma na darovanie. B1 obsahuje darovanie bez poplatku platformy plus zvyšok systému na správu zboru, za $0. Poplatky za karty alebo ACH platíte aj tak."
         },
         {
           "question": "Ako sa B1.church porovnáva s Tithe.ly?",
-          "answer": "B1.church je úplne zadarmo bez transakčných poplatkov. Tithe.ly ponúka bezplatnú úroveň, ale účtuje za prémiové funkcie a berie si percento z každého daru. B1 obsahuje kompletný softvér na správu cirkvi, zatiaľ čo ChMS od Tithe.ly je samostatný platený produkt."
+          "answer": "Tithe.ly je spoločnosť zameraná na darovanie s platným systémom na správu zboru. B1 je systém na správu zboru, 100 % zadarmo vrátane hostingu. Darovanie je súčasťou. Stripe pre neziskové organizácie je 2,2 % + $0,30; „bezplatné“ darovanie Tithe.ly je 2,9 % + $0,30."
         },
         {
           "question": "Ako sa B1.church porovnáva s Breeze ChMS?",
-          "answer": "B1.church je zadarmo, zatiaľ čo Breeze začína na $72/mesiac. B1 obsahuje plnohodnotnú mobilnú aplikáciu a tvorcu webov, kým Breeze má obmedzené mobilné funkcie a žiadneho tvorcu webov. Obaja ponúkajú správu cirkvi, ale B1 poskytuje viac funkcií bez poplatkov."
+          "answer": "Breeze je platný, jednoduchý systém na správu zboru. B1 je za $0 a zahŕňa web, darovanie bez poplatku platformy, check-in a plánovanie bohoslužieb. Ľudí z Breeze importujeme."
         },
         {
           "question": "Získa moja cirkev mobilnú aplikáciu?",
-          "answer": "Áno. B1 dáva vašej cirkvi vlastnú značkovú mobilnú aplikáciu v podobe inštalovateľnej webovej aplikácie (PWA). Členovia otvoria web vašej cirkvi, ťuknú na „Pridať na plochu“ a získajú celoobrazovkovú aplikáciu s názvom a logom vašej cirkvi. Aktualizácie sa ku všetkým dostanú okamžite."
+          "answer": "Členovia si aplikáciu nainštalujú z webu vášho zboru. Pridajte ju na plochu."
         },
         {
           "question": "Podporuje B1.church online darovanie?",
-          "answer": "Áno, B1.church zahŕňa bezpečné online darovanie s podporou kreditných kariet a bankových prevodov. Môžete nastaviť opakujúce sa dary, spravovať viaceré fondy a poskytovať históriu darov pre daňové potvrdenia. Používame priamu integráciu so Stripe bez poplatkov platformy B1 – vaša cirkev si dohodne sadzby priamo so Stripe (zvyčajne okolo 2.9% + 30¢)."
+          "answer": "Áno. Stripe alebo PayPal. Opakované dary, fondy, výpisy. B1 pridáva $0."
         },
         {
           "question": "Môžem si s B1.church postaviť web?",
@@ -385,7 +385,7 @@
         },
         {
           "question": "Má B1.church prihlasovanie pre detskú službu?",
-          "answer": "Áno, B1.church zahŕňa inteligentný systém prihlasovania s bezkontaktnými samoobslužnými kioskami, rodinným prihlasovaním, automatickým priradením do skupín, bezpečnostnými kódmi na vyzdvihnutie detí a sledovaním dochádzky s reportmi."
+          "answer": "Áno. Menovky, bezpečnostné kódy, dochádzka."
         },
         {
           "question": "Je B1.church open source?",
@@ -426,264 +426,204 @@
         }
       },
       "notFound": {
-        "title": "Porovnanie sa nenašlo",
-        "subtitle": "Pozrite si naše dostupné porovnania:"
+        "title": "Ako si B1 stojí v porovnaní",
+        "subtitle": "B1 je systém na správu zboru, s ktorým sa oplatí začať. Ľudia, darovanie, check-in, web, aplikácia pre členov, plánovanie bohoslužieb. $0 navždy. 501(c)(3)."
       },
+      "hubTitle": "Ako si B1 stojí v porovnaní",
+      "hubSubtitle": "B1 je systém na správu zboru, s ktorým začnete. Ľudia, dary, check-in, web, aplikácia pre členov, plánovanie bohoslužieb. Navždy za 0 $. 501(c)(3).",
       "b1vsPrefix": "B1 vs",
-      "noHiddenFees": "Žiadne skryté poplatky, navždy",
-      "plusTransactionFees": "Plus transakčné poplatky",
+      "noHiddenFees": "Bez balíkov. Bez poplatku platformy za dary.",
+      "plusTransactionFees": "",
+      "priceB1Label": "$0 / month",
+      "priceB1Note": "Žiadne tarify. Žiadny poplatok za platformu z darov.",
       "featureColumn": "Funkcia",
       "ourTake": "Náš názor",
-      "ctaTitle": "Pripravení ušetriť svojej cirkvi peniaze?",
-      "ctaDescription": "Prejdite na B1.church a presmerujte svoj rozpočet na softvér do služby.",
+      "ctaTitle": "Získajte celý balík za $0",
+      "ctaDescription": "B1 je celý balík za $0.",
       "ctaButton": "Začnite zadarmo",
       "otherComparisons": "Ďalšie porovnania",
       "competitors": {
         "planning-center": {
           "name": "Planning Center",
-          "tagline": "Bezplatná alternatíva k Planning Center",
-          "description": "Planning Center je populárna platforma na správu cirkvi s modulovým cenníkom. B1.church ponúka podobné funkcie úplne zadarmo.",
+          "tagline": "Celý balík za $0",
+          "description": "B1 je celý balík za $0. Bez doplácania za moduly.",
           "features": [
             {
-              "name": "Databáza členov",
-              "b1": true,
-              "competitor": true
+              "name": "Databáza ľudí",
+              "b1": "V cene",
+              "competitor": "Zadarmo, bez limitu"
             },
             {
-              "name": "Systém prihlasovania",
-              "b1": true,
-              "competitor": "$99/mo"
+              "name": "Darovanie",
+              "b1": "Bez poplatku platformy B1",
+              "competitor": "Spracovanie; platené darovanie podľa rastu"
             },
             {
-              "name": "Online darovanie",
-              "b1": "Žiadne poplatky B1",
-              "competitor": "Poplatky platformy + Stripe"
-            },
-            {
-              "name": "Správa skupín",
-              "b1": true,
-              "competitor": "$50/mo"
-            },
-            {
-              "name": "Plánovanie bohoslužieb",
-              "b1": true,
-              "competitor": "$14-99/mo"
-            },
-            {
-              "name": "Mobilná aplikácia",
-              "b1": "Bezplatná aplikácia s brandingom",
-              "competitor": "$0-199/mo"
-            },
-            {
-              "name": "Tvorca webu",
-              "b1": true,
-              "competitor": false
-            },
-            {
-              "name": "Správa kázní",
-              "b1": true,
-              "competitor": false
-            },
-            {
-              "name": "Viac lokalít",
-              "b1": true,
-              "competitor": "Za príplatok"
-            },
-            {
-              "name": "Open Source",
-              "b1": true,
-              "competitor": false
-            }
-          ],
-          "pricingB1": "100% zadarmo",
-          "pricingCompetitor": "$0 - $500+/mesiac v závislosti od modulov",
-          "verdict": "B1.church poskytuje všetky základné funkcie Planning Center bez zložitosti modulového cenníka. Ak je rozpočet problémom, B1 je jasná voľba."
-        },
-        "pushpay": {
-          "name": "Pushpay",
-          "tagline": "Bezplatná alternatíva k Pushpay",
-          "description": "Pushpay je známy pre mobilné darovanie, ale prináša významné mesačné náklady a transakčné poplatky. B1.church ponúka darovanie s nulovými poplatkami platformy.",
-          "features": [
-            {
-              "name": "Online darovanie",
-              "b1": "Žiadne poplatky B1",
-              "competitor": "Poplatky platformy + Stripe"
-            },
-            {
-              "name": "Opakujúce sa dary",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Mobilná aplikácia",
-              "b1": "Bezplatná aplikácia s brandingom",
+              "name": "Check-in",
+              "b1": "V cene",
               "competitor": "V cene"
             },
             {
-              "name": "Databáza členov",
-              "b1": true,
-              "competitor": "ChMS extra"
+              "name": "Plánovanie bohoslužieb",
+              "b1": "V cene",
+              "competitor": "V cene"
             },
             {
-              "name": "Systém prihlasovania",
-              "b1": true,
-              "competitor": "Za príplatok"
+              "name": "Aplikácia pre členov",
+              "b1": "Z webu vášho zboru",
+              "competitor": "Church Center"
             },
             {
               "name": "Tvorca webu",
-              "b1": true,
-              "competitor": false
+              "b1": "V cene",
+              "competitor": "Nie je v cene"
             },
             {
-              "name": "Správa skupín",
-              "b1": true,
-              "competitor": "Za príplatok"
+              "name": "Import",
+              "b1": "Ľudia z Planning Center",
+              "competitor": "—"
             },
             {
-              "name": "Potvrdenia o daroch",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Správa fondov",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Open Source",
-              "b1": true,
-              "competitor": false
+              "name": "Otvorený kód",
+              "b1": "Áno",
+              "competitor": "Nie"
             }
           ],
-          "pricingB1": "100% zadarmo",
-          "pricingCompetitor": "$300 - $1,000+/mesiac",
-          "verdict": "Pushpay je funkčne bohatý, ale drahý. B1.church ponúka porovnateľné funkcie darovania plus kompletnú správu cirkvi bez poplatkov. Úspory je možné presmerovať do služby."
+          "pricingB1": "$0 / mesiac",
+          "pricingCompetitor": "Zadarmo na začiatok, potom platené moduly",
+          "verdict": "B1 sú ľudia, darovanie, check-in, web a plánovanie bohoslužieb za $0. Bez doplácania za moduly. Hosting v cene."
+        },
+        "pushpay": {
+          "name": "Pushpay",
+          "tagline": "Darovanie plus zvyšok systému na správu zboru za $0",
+          "description": "Pushpay je platená platforma na darovanie. B1 obsahuje darovanie bez poplatku platformy plus ľudí, check-in, web a plánovanie bohoslužieb.",
+          "features": [
+            {
+              "name": "Darovanie",
+              "b1": "Bez poplatku platformy B1",
+              "competitor": "Platená platforma + spracovanie"
+            },
+            {
+              "name": "Opakované dary",
+              "b1": "V cene",
+              "competitor": "V cene"
+            },
+            {
+              "name": "Databáza ľudí",
+              "b1": "V cene",
+              "competitor": "Často za príplatok"
+            },
+            {
+              "name": "Check-in",
+              "b1": "V cene",
+              "competitor": "Často za príplatok"
+            },
+            {
+              "name": "Aplikácia pre členov",
+              "b1": "Z webu vášho zboru",
+              "competitor": "V cene"
+            },
+            {
+              "name": "Tvorca webu",
+              "b1": "V cene",
+              "competitor": "Nie je v cene"
+            },
+            {
+              "name": "Otvorený kód",
+              "b1": "Áno",
+              "competitor": "Nie"
+            }
+          ],
+          "pricingB1": "$0 / mesiac",
+          "pricingCompetitor": "Mesačný poplatok + spracovanie",
+          "verdict": "Platte Pushpay, ak chcete ich systém darovania a môžete si platformu dovoliť. Začnite s B1, ak chcete celý balík pre zbor a softvér za $0. Poplatky za karty alebo ACH platíte tak či onak."
         },
         "tithely": {
           "name": "Tithe.ly",
-          "tagline": "Bezplatná alternatíva k Tithe.ly",
-          "description": "Tithe.ly ponúka nástroje cirkevného darovania a správy s freemium cenníkom. B1.church poskytuje všetko zadarmo bez transakčných poplatkov.",
+          "tagline": "Slovo zadarmo vlastnia oni. My si neberieme podiel.",
+          "description": "Tithe.ly je spoločnosť zameraná na darovanie, ku ktorej patrí softvér pre zbory. B1 je systém na správu zboru, 100 % zadarmo vrátane hostingu. Darovanie je súčasťou. Stripe pre neziskové organizácie je 2,2 % + $0,30; „bezplatné“ darovanie Tithe.ly je 2,9 % + $0,30.",
           "features": [
             {
-              "name": "Online darovanie",
-              "b1": "Žiadne poplatky B1",
-              "competitor": "Poplatky platformy + Stripe"
+              "name": "Darovanie",
+              "b1": "Stripe pre neziskovky 2,2 % + $0,30",
+              "competitor": "Tithe.ly „zadarmo“ 2,9 % + $0,30"
             },
             {
-              "name": "Opakujúce sa dary",
-              "b1": true,
-              "competitor": true
+              "name": "Databáza ľudí",
+              "b1": "V cene",
+              "competitor": "Platený systém na správu zboru"
             },
             {
-              "name": "Mobilná aplikácia",
-              "b1": "Bezplatná aplikácia s brandingom",
-              "competitor": "$99/mo"
+              "name": "Check-in",
+              "b1": "V cene",
+              "competitor": "Platený doplnok"
             },
             {
-              "name": "Databáza členov",
-              "b1": true,
-              "competitor": "$99/mo"
-            },
-            {
-              "name": "Systém prihlasovania",
-              "b1": true,
-              "competitor": "$49/mo"
+              "name": "Aplikácia pre členov",
+              "b1": "Z webu vášho zboru",
+              "competitor": "Platené"
             },
             {
               "name": "Tvorca webu",
-              "b1": true,
-              "competitor": "$49/mo"
+              "b1": "V cene",
+              "competitor": "Platený doplnok"
             },
             {
-              "name": "Správa skupín",
-              "b1": true,
-              "competitor": "$99/mo"
-            },
-            {
-              "name": "Správa kázní",
-              "b1": true,
-              "competitor": "$49/mo"
-            },
-            {
-              "name": "Viac lokalít",
-              "b1": true,
-              "competitor": "Za príplatok"
-            },
-            {
-              "name": "Open Source",
-              "b1": true,
-              "competitor": false
+              "name": "Otvorený kód",
+              "b1": "Áno",
+              "competitor": "Nie"
             }
           ],
-          "pricingB1": "100% zadarmo",
-          "pricingCompetitor": "Bezplatná úroveň + $49-199/mo za funkcie",
-          "verdict": "Bezplatná úroveň Tithe.ly je obmedzená. Na získanie plnej funkčnosti sa náklady rýchlo sčítavajú. B1.church obsahuje všetko od prvého dňa bez tlaku na upgrade."
+          "pricingB1": "$0 / mesiac",
+          "pricingCompetitor": "Bezplatná stránka na darovanie, platený systém na správu zboru",
+          "verdict": "Tithe.ly predáva „bezplatné“ darovanie a platený systém na správu zboru. B1 je softvér pre zbor vrátane hostingu. Stripe pre neziskové organizácie je 2,2 % + $0,30 oproti „bezplatnému“ Tithe.ly za 2,9 % + $0,30. Žiadny platený balík na odomknutie ľudí, check-inu alebo webu."
         },
         "breeze": {
-          "name": "Breeze ChMS",
-          "tagline": "Bezplatná alternatíva k Breeze ChMS",
-          "description": "Breeze je jednoduchý systém správy cirkvi s priamočiarym cenníkom. B1.church ponúka viac funkcií bez poplatkov.",
+          "name": "Breeze",
+          "tagline": "Platené a jednoduché vs. $0 a kompletné",
+          "description": "Breeze je platný, jednoduchý systém na správu zboru. Ľudia odchádzajúci z Planning Center spomínajú Breeze. B1 je za $0 a zahŕňa web, darovanie bez poplatku platformy, check-in a plánovanie bohoslužieb. Ľudí z Breeze importujeme.",
           "features": [
             {
-              "name": "Databáza členov",
-              "b1": true,
-              "competitor": true
+              "name": "Databáza ľudí",
+              "b1": "V cene",
+              "competitor": "V cene"
             },
             {
-              "name": "Správa darov",
-              "b1": "Žiadne poplatky B1",
-              "competitor": "2.9% + 30¢"
+              "name": "Darovanie",
+              "b1": "Bez poplatku platformy B1",
+              "competitor": "Platené spracovanie"
             },
             {
-              "name": "Systém prihlasovania",
-              "b1": true,
-              "competitor": "Základný"
+              "name": "Check-in",
+              "b1": "V cene",
+              "competitor": "V cene"
             },
             {
-              "name": "Mobilná aplikácia",
-              "b1": "Bezplatná aplikácia s brandingom",
-              "competitor": "Obmedzená"
+              "name": "Aplikácia pre členov",
+              "b1": "Z webu vášho zboru",
+              "competitor": "Mobilná aplikácia Breeze"
             },
             {
               "name": "Tvorca webu",
-              "b1": true,
-              "competitor": false
+              "b1": "V cene",
+              "competitor": "Nie je v cene"
             },
             {
-              "name": "Správa skupín",
-              "b1": true,
-              "competitor": true
+              "name": "Import",
+              "b1": "Ľudí z Breeze importujeme",
+              "competitor": "—"
             },
             {
-              "name": "Správa udalostí",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Plánovanie dobrovoľníkov",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Viac lokalít",
-              "b1": true,
-              "competitor": false
-            },
-            {
-              "name": "Open Source",
-              "b1": true,
-              "competitor": false
+              "name": "Otvorený kód",
+              "b1": "Áno",
+              "competitor": "Nie"
             }
           ],
-          "pricingB1": "100% zadarmo",
-          "pricingCompetitor": "$72 - $135/mesiac",
-          "verdict": "Breeze je jednoduchý a cenovo dostupný, ale B1.church je ešte jednoduchší pre rozpočet (zadarmo!) a zároveň ponúka viac funkcií, ako je tvorca webu a plnohodnotná mobilná aplikácia."
+          "pricingB1": "$0 / mesiac",
+          "pricingCompetitor": "Platené mesačne",
+          "verdict": "Vyberte si Breeze, ak chcete prepracovaný platený produkt a odchádzate z Planning Center. Vyberte si B1, ak chcete web a darovanie v jednom systéme za $0."
         }
-      },
-      "hubTitle": "How B1 compares",
-      "hubSubtitle": "B1 is the ChMS you start on. People, giving, check-in, website, member app, worship planning. $0 forever. 501(c)(3).",
-      "priceB1Label": "$0 / month",
-      "priceB1Note": "No tiers. No platform fee on gifts."
+      }
     },
     "churchManagement": {
       "meta": {
@@ -693,20 +633,58 @@
       "hero": {
         "title": "Bezplatný",
         "titleHighlight": "softvér na správu cirkvi",
-        "titleLine2": "Kompletná platforma pre službu",
-        "description": "Profesionálny <strong>softvér na správu cirkvi</strong> so sledovaním dochádzky, databázou členov, správou darov a komunikačnými nástrojmi. Úplne <strong>bezplatný cirkevný softvér</strong> poskytovaný spoločnosťou Live Church Solutions, neziskovou službou 501(c)(3). Pridajte sa k viac ako 100 cirkvám, ktoré šetria tisíce na nákladoch na softvér pre službu.",
-        "ctaPrimary": "Začnite zadarmo",
-        "ctaSecondary": "Vyskúšať demo",
-        "trustLine": "Dôveruje nám rastúci počet cirkví na celom svete",
-        "trustFree": "Úplne zadarmo navždy",
-        "trustNonProfit": "Nezisková služba 501(c)(3)",
-        "trustOpenSource": "Open Source"
+        "titleLine2": "Vrátane hostingu.",
+        "description": "Ľudia, darovanie, check-in, web, aplikácia pre členov a plánovanie bohoslužieb. Jedna platforma. $0 navždy.",
+        "ctaPrimary": "Začať zadarmo",
+        "ctaSecondary": "Pozrite si, ako si B1 stojí v porovnaní",
+        "trustLine": "Čo naozaj dostanete",
+        "trustFree": "501(c)(3)",
+        "trustNonProfit": "Bez balíkov",
+        "trustOpenSource": "Hosting v cene"
       },
+      "freeMeaning": {
+        "eyebrow": "Bezplatný systém na správu zboru",
+        "title": "Zadarmo znamená softvér aj hosting.",
+        "lead": "Zbory získajú ľudí, darovanie, check-in, web, aplikáciu pre členov a plánovanie bohoslužieb bez mesačného účtu za systém na správu zboru.",
+        "items": [
+          {
+            "title": "Softvér a hosting sú zadarmo",
+            "description": "Platforma je skutočne 100 % zadarmo vrátane hostingu. Žiadna skúšobná doba, žiadny limit veľkosti zboru a žiadny upgrade na odomknutie ľudí, darovania, check-inu, skupín, webu alebo dochádzky."
+          },
+          {
+            "title": "Darovanie je v cene",
+            "description": "Online darovanie je súčasťou platformy. B1 nepridáva za dary žiadny poplatok platformy."
+          },
+          {
+            "title": "Otvorený kód od ChurchApps",
+            "description": "B1 je súčasťou balíka ChurchApps. Kód si môžete prečítať, exportovať svoje dáta alebo si systém prevádzkovať sami."
+          }
+        ],
+        "compareLink": "Pozrite si, ako si B1 stojí v porovnaní"
+      },
+      "highlights": [
+        {
+          "number": "$0",
+          "label": "Softvér a hosting"
+        },
+        {
+          "number": "100 %",
+          "label": "Navždy zadarmo"
+        },
+        {
+          "number": "Jedna",
+          "label": "Spoločná databáza"
+        },
+        {
+          "number": "Otvorený",
+          "label": "Zdrojový kód na GitHube"
+        }
+      ],
       "featuresHeader": {
-        "title": "Kompletný",
-        "titleHighlight": "systém správy cirkvi",
-        "titleSuffix": "Funkcie",
-        "description": "Profesionálny softvér na databázu cirkvi so správou členov, sledovaním dochádzky, administráciou darov a komunikačnými nástrojmi služby. Bezplatný systém správy cirkvi navrhnutý špeciálne pre rastúce zbory a cirkvi s viacerými lokalitami."
+        "title": "Jedna",
+        "titleHighlight": "bezplatnú správu zboru",
+        "titleSuffix": "nástroje",
+        "description": "Ľudia, darovanie, check-in, skupiny, web a dochádzka v jednej databáze. Hosting je v cene. Nič na tejto stránke sa nepredáva ako doplnok."
       },
       "checkinStations": {
         "title": "Samoobslužné stanice prihlasovania",
@@ -755,7 +733,7 @@
       "testimonials": {
         "title": "Milovaný cirkvami",
         "titleHighlight": "všade",
-        "subtitle": "Pridajte sa k rastúcim cirkvám, ktoré premenili svoju službu s našou úplne bezplatnou platformou. Tu je, čo hovoria pastori a administrátori cirkví.",
+        "subtitle": "Pastori a administrátori zborov, ktorí potrebovali bezplatné nástroje na správu zboru — a prestali platiť mesačný účet za systém na správu zboru.",
         "items": [
           {
             "content": "Túto platformu používame každú nedeľu na sledovanie dochádzky a vedenie záznamov o každom, kto sa zúčastní, vrátane našich detí v nedeľnej škole. Ako misionári s obmedzeným rozpočtom oceňujeme, že je tento softvér zadarmo a efektívny."
@@ -771,7 +749,7 @@
       "aboutSection": {
         "title": "O našom",
         "titleHighlight": "bezplatnom cirkevnom softvéri",
-        "description": "Komplexný <strong>softvér na správu cirkvi</strong> poskytovaný úplne zadarmo kresťanským cirkvám a službám spoločnosťou <strong>Live Church Solutions</strong>, neziskovkou 501(c)(3) založenou v roku 2012. Naším poslaním je pomáhať cirkvám implementovať profesionálny <strong>softvér pre službu</strong> bez typických vysokých nákladov systémov cirkevnej administrácie."
+        "description": "B1 je bezplatný softvér na správu zboru od <strong>Live Church Solutions</strong> a open-source balíka <strong>ChurchApps</strong>. Hosting je v cene. Produktom sú ľudia, darovanie, check-in, skupiny, web a dochádzka — nie skúšobná verzia, ktorá sa zmení na cenovú ponuku."
       },
       "stats": [
         {
@@ -780,9 +758,9 @@
           "description": "Veríme, že tieto peniaze môžu byť použité lepšie"
         },
         {
-          "number": "100+",
-          "label": "Cirkví už používa našu platformu",
-          "description": "Rastúca komunita spokojných používateľov"
+          "number": "$0",
+          "label": "Hosting v cene",
+          "description": "Aplikácia, web a administrátorské nástroje bežia u nás"
         },
         {
           "number": "2012",
@@ -803,24 +781,25 @@
       },
       "allFeatures": {
         "title": "Všetko, čo potrebujete, úplne zadarmo",
-        "subtitle": "Žiadne skúšobné obdobia, žiadne limity členov, žiadne skryté poplatky",
+        "subtitle": "Žiadne skúšobné doby, žiadne limity členov, žiadne skryté poplatky — hosting v cene",
         "items": [
           "Kompletná databáza členov s podrobnými profilmi",
           "Sledovanie dochádzky so samoobslužnou aplikáciou prihlasovania",
           "Správa skupín a malých skupín",
           "Správa darov s podrobným reportingom",
-          "Vlastné formuláre a zber dát",
-          "Nástroje e-mailovej komunikácie",
+          "Tvorca webu zboru",
+          "Vlastné formuláre a zber údajov",
+          "Nástroje na e-mailovú komunikáciu",
           "Správa udalostí a plánovanie",
           "Import dát z existujúcich systémov",
-          "Podpora viacerých lokalít a zborov",
+          "Podpora viacerých pobočiek a lokalít",
           "Prístup a oprávnenia podľa rolí",
-          "Open source s prístupom na GitHub"
+          "Otvorený kód s prístupom na GitHub"
         ]
       },
       "cta": {
-        "title": "Pripravení prestať platiť za softvér na správu cirkvi?",
-        "description": "Pridajte sa k cirkvám po celom svete, ktoré prešli na úplne bezplatné, open-source riešenie vytvorené službou pre služby.",
+        "title": "Pripravení prestať platiť za softvér pre zbor?",
+        "description": "B1 je celý balík za $0. Hosting v cene.",
         "primaryButton": "Začnite zadarmo",
         "secondaryButton": "Vyskúšať demo"
       },

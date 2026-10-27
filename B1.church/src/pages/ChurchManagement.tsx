@@ -137,24 +137,13 @@ const ChurchManagement = () => {
   const rawHighlights = t("brochure.churchManagement.highlights", { returnObjects: true });
   const highlightItems = Array.isArray(rawHighlights) ? rawHighlights as { number: string; label: string }[] : [];
 
-  const churchManagementSchema = {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    name: "B1.church",
-    applicationCategory: "BusinessApplication",
-    operatingSystem: "Web",
-    description: t("brochure.churchManagement.meta.description"),
-    offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
-    featureList: ["People", "Giving", "Check-in", "Website", "Member app", "Worship planning"]
-  };
-
   return (
     <div className="min-h-screen bg-background">
       <Seo
         path="/church-management"
         title={t("brochure.churchManagement.meta.title")}
         description={t("brochure.churchManagement.meta.description")}
-        jsonLd={churchManagementSchema}
+        breadcrumbs={[{ name: t("brochure.header.churchManagement"), path: "/church-management" }]}
       />
       <Header />
 

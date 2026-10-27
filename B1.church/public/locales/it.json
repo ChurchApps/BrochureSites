@@ -24,7 +24,7 @@
         "ctaSecondary": "Guardalo in azione",
         "trust": [
           "Gratuito per sempre — niente piani, niente prove",
-          "Nessuna commissione aggiuntiva sulle transazioni",
+          "Nessuna commissione di piattaforma B1 sulle donazioni",
           "Open source su GitHub",
           "Ministero 501(c)(3) dal 2012"
         ]
@@ -62,7 +62,7 @@
         }
       },
       "connect": {
-        "eyebrow": "L'app mobile B1",
+        "eyebrow": "PWA · installa dal sito della tua chiesa",
         "title": "La tua comunità, connessa",
         "titleAccent": "tutta la settimana.",
         "lead": "Dai alla tua chiesa un luogo a cui appartenere tra una domenica e l'altra. L'app B1 porta l'elenco dei membri, i gruppi, i messaggi e i sermoni su ogni telefono della tua congregazione.",
@@ -277,8 +277,8 @@
       "titleHighlight": "Tutto il Mondo",
       "subtitle": "Unitevi alle chiese in crescita che hanno trasformato il loro ministero con la nostra piattaforma completamente gratuita. Ecco cosa dicono i pastori e gli amministratori ecclesiali di B1.",
       "stats": {
-        "churchesValue": "100+",
-        "churchesLabel": "Chiese nel mondo",
+        "churchesValue": "501(c)(3)",
+        "churchesLabel": "Ministero no profit",
         "freeValue": "Gratis",
         "freeLabel": "Per sempre",
         "openValue": "Aperto",
@@ -336,7 +336,7 @@
       "faq": "Domande Frequenti",
       "aboutChurchApps": "Informazioni su ChurchApps",
       "appsAndResources": "App e Risorse",
-      "installApp": "Installa l'app mobile",
+      "installApp": "Installa dal sito della tua chiesa",
       "helpCenter": "Centro Assistenza",
       "contact": "Contatti",
       "availableWorldwide": "Disponibile in Tutto il Mondo"
@@ -349,35 +349,35 @@
       "items": [
         {
           "question": "B1.church è davvero gratuito al 100%?",
-          "answer": "Sì, B1.church è completamente gratuito senza costi nascosti, senza livelli premium e senza commissioni sulle donazioni. Siamo un ministero non-profit 501(c)(3) che crede che ogni chiesa meriti l'accesso alla tecnologia moderna indipendentemente dal budget. La nostra piattaforma è finanziata da donazioni e Google Ad Grants."
+          "answer": "Sì. B1 in hosting è a $0 per sempre. Nessun livello, nessun limite di persone. Live Church Solutions è una 501(c)(3) (EIN 45-5349618). Modulo 990 pubblico. Paghi Stripe o PayPal sulle donazioni. B1 aggiunge $0."
         },
         {
           "question": "Quali funzionalità include B1.church?",
-          "answer": "B1.church include una piattaforma completa per la gestione della chiesa: un'app mobile per i membri installabile direttamente dal tuo sito web, un costruttore di siti web drag-and-drop, donazioni online senza commissioni di piattaforma aggiuntive, un sistema di check-in per bambini con codici di sicurezza, database dei membri, monitoraggio delle presenze, gestione dei gruppi, pianificazione dei culti, archivio dei canti, gestione dei sermoni e integrazione con la Bibbia."
+          "answer": "Persone, donazioni, check-in, creatore di siti web, app per i membri, gruppi, presenze, pianificazione dei culti e libreria di canti."
         },
         {
           "question": "Come si confronta B1.church con Planning Center?",
-          "answer": "B1.church è gratuito al 100% mentre Planning Center addebita per modulo ($0-299+/mese). B1 include un'app mobile e un creatore di siti web senza costi, mentre Planning Center addebita extra per Church Center e non include un creatore di siti web. Entrambi offrono funzionalità di gestione ecclesiale, ma B1 fornisce tutto in un unico pacchetto gratuito."
+          "answer": "Planning Center People è gratuito. Gli altri prodotti PCO hanno livelli gratuiti, poi paghi man mano che cresci. Le funzioni essenziali di Church Center sono gratuite. B1 è tutto il pacchetto a $0 senza costi aggiuntivi per modulo."
         },
         {
           "question": "Come si confronta B1.church con Pushpay?",
-          "answer": "B1.church è completamente gratuito mentre Pushpay costa $300-1000+/mese. B1 non ha commissioni sulle offerte, mentre Pushpay trattiene una percentuale sulle donazioni. B1 è open source e include la gestione completa della chiesa, mentre Pushpay è proprietario e focalizzato principalmente sulle offerte."
+          "answer": "Pushpay è una piattaforma di donazioni a pagamento. B1 include le donazioni senza commissioni di piattaforma, più tutto il resto del ChMS, a $0. Paghi comunque le tariffe di carta o ACH."
         },
         {
           "question": "Come si confronta B1.church con Tithe.ly?",
-          "answer": "B1.church è interamente gratuito senza commissioni sulle transazioni. Tithe.ly offre un livello gratuito ma addebita per le funzionalità premium e trattiene una percentuale su ogni donazione. B1 include il software completo di gestione ecclesiale, mentre il ChMS di Tithe.ly è un prodotto a pagamento separato."
+          "answer": "Tithe.ly è un'azienda di donazioni con un ChMS a pagamento. B1 è il ChMS, gratuito al 100% hosting incluso. Le donazioni sono incluse. Stripe no profit è 2,2% + $0.30; le donazioni \"gratuite\" di Tithe.ly sono 2,9% + $0.30."
         },
         {
           "question": "Come si confronta B1.church con Breeze ChMS?",
-          "answer": "B1.church è gratuito mentre Breeze parte da $72/mese. B1 include un'app mobile completa e un creatore di siti web, mentre Breeze ha funzionalità mobile limitate e nessun creatore di siti web. Entrambi offrono gestione ecclesiale, ma B1 fornisce più funzionalità senza alcun costo."
+          "answer": "Breeze è un ChMS semplice a pagamento. B1 è a $0 e include sito web, donazioni senza commissioni di piattaforma, check-in e pianificazione dei culti. Importiamo le persone da Breeze."
         },
         {
           "question": "La mia chiesa avrà un'app mobile?",
-          "answer": "Sì. B1 offre alla tua chiesa un'esperienza di app mobile personalizzata sotto forma di applicazione web installabile (PWA). I membri aprono il sito della tua chiesa, toccano 'Aggiungi alla schermata Home' e ottengono un'app a schermo intero con il nome e il logo della tua chiesa. Gli aggiornamenti arrivano a tutti all'istante."
+          "answer": "I membri installano l'app dal sito della tua chiesa. Aggiungi alla schermata Home."
         },
         {
           "question": "B1.church supporta le offerte online?",
-          "answer": "Sì, B1.church include offerte online sicure con supporto per carte di credito e bonifici bancari. Potete impostare donazioni ricorrenti, gestire fondi multipli e fornire lo storico delle offerte per le dichiarazioni fiscali. Utilizziamo l'integrazione diretta con Stripe senza commissioni della piattaforma B1 - la vostra chiesa negozia le tariffe direttamente con Stripe (tipicamente circa 2.9% + 30¢)."
+          "answer": "Sì. Stripe o PayPal. Donazioni ricorrenti, fondi, rendiconti. B1 aggiunge $0."
         },
         {
           "question": "Posso creare un sito web con B1.church?",
@@ -385,7 +385,7 @@
         },
         {
           "question": "B1.church ha il check-in per il ministero dei bambini?",
-          "answer": "Sì, B1.church include un sistema di check-in intelligente con chioschi self-service contactless, check-in familiare, assegnazioni automatiche ai gruppi, codici di sicurezza per il ritiro dei bambini e monitoraggio delle presenze con report."
+          "answer": "Sì. Badge nominativi, codici di sicurezza, presenze."
         },
         {
           "question": "B1.church è open source?",
@@ -426,264 +426,204 @@
         }
       },
       "notFound": {
-        "title": "Confronto Non Trovato",
-        "subtitle": "Consultate i nostri confronti disponibili:"
+        "title": "Come si confronta B1",
+        "subtitle": "B1 è il ChMS da cui iniziare. Persone, donazioni, check-in, sito web, app per i membri, pianificazione dei culti. $0 per sempre. 501(c)(3)."
       },
+      "hubTitle": "Come si confronta B1",
+      "hubSubtitle": "B1 è il gestionale per chiese da cui partire. Persone, donazioni, check-in, sito web, app per i membri, pianificazione del culto. 0 $ per sempre. 501(c)(3).",
       "b1vsPrefix": "B1 vs",
-      "noHiddenFees": "Nessun costo nascosto, per sempre",
-      "plusTransactionFees": "Più commissioni sulle transazioni",
+      "noHiddenFees": "Nessun livello. Nessuna commissione di piattaforma sulle donazioni.",
+      "plusTransactionFees": "",
+      "priceB1Label": "$0 / month",
+      "priceB1Note": "Nessun piano. Nessuna commissione di piattaforma sulle donazioni.",
       "featureColumn": "Funzionalità",
       "ourTake": "Il Nostro Parere",
-      "ctaTitle": "Pronti a far risparmiare la vostra chiesa?",
-      "ctaDescription": "Passate a B1.church e reindirizzate il vostro budget software al ministero.",
+      "ctaTitle": "Ottieni tutto il pacchetto a $0",
+      "ctaDescription": "B1 è tutto il pacchetto a $0.",
       "ctaButton": "Inizia Gratis",
       "otherComparisons": "Altri Confronti",
       "competitors": {
         "planning-center": {
           "name": "Planning Center",
-          "tagline": "Alternativa gratuita a Planning Center",
-          "description": "Planning Center è una popolare piattaforma di gestione ecclesiale con prezzi modulari. B1.church offre funzionalità simili in modo completamente gratuito.",
+          "tagline": "Tutto il pacchetto a $0",
+          "description": "B1 è tutto il pacchetto a $0. Nessun costo aggiuntivo per modulo.",
           "features": [
             {
-              "name": "Database Membri",
-              "b1": true,
-              "competitor": true
+              "name": "Database delle persone",
+              "b1": "Incluso",
+              "competitor": "Gratuito, illimitato"
             },
             {
-              "name": "Sistema Check-in",
-              "b1": true,
-              "competitor": "$99/mese"
+              "name": "Donazioni",
+              "b1": "Nessuna commissione di piattaforma B1",
+              "competitor": "Elaborazione; donazioni a pagamento man mano che cresci"
             },
             {
-              "name": "Offerte Online",
-              "b1": "Nessuna commissione B1",
-              "competitor": "Commissioni piattaforma + Stripe"
+              "name": "Check-in",
+              "b1": "Incluso",
+              "competitor": "Incluso"
             },
             {
-              "name": "Gestione Gruppi",
-              "b1": true,
-              "competitor": "$50/mese"
+              "name": "Pianificazione dei culti",
+              "b1": "Incluso",
+              "competitor": "Incluso"
             },
             {
-              "name": "Pianificazione Funzioni",
-              "b1": true,
-              "competitor": "$14-99/mese"
+              "name": "App per i membri",
+              "b1": "Dal sito della tua chiesa",
+              "competitor": "Church Center"
             },
             {
-              "name": "App Mobile",
-              "b1": "App brandizzata gratuita",
-              "competitor": "$0-199/mese"
+              "name": "Creatore di siti web",
+              "b1": "Incluso",
+              "competitor": "Non incluso"
             },
             {
-              "name": "Creatore Siti Web",
-              "b1": true,
-              "competitor": false
+              "name": "Importazione",
+              "b1": "Persone da Planning Center",
+              "competitor": "—"
             },
             {
-              "name": "Gestione Sermoni",
-              "b1": true,
-              "competitor": false
-            },
-            {
-              "name": "Multi-Sede",
-              "b1": true,
-              "competitor": "Costo extra"
-            },
-            {
-              "name": "Open Source",
-              "b1": true,
-              "competitor": false
+              "name": "Open source",
+              "b1": "Sì",
+              "competitor": "No"
             }
           ],
-          "pricingB1": "100% Gratuito",
-          "pricingCompetitor": "$0 - $500+/mese a seconda dei moduli",
-          "verdict": "B1.church fornisce tutte le funzionalità principali di Planning Center senza la complessità dei prezzi modulari. Se il budget è una preoccupazione, B1 è la scelta chiara."
+          "pricingB1": "$0 / mese",
+          "pricingCompetitor": "Gratis all'inizio, poi moduli a pagamento",
+          "verdict": "B1 è persone, donazioni, check-in, sito web e pianificazione dei culti a $0. Nessun costo aggiuntivo per modulo. Hosting incluso."
         },
         "pushpay": {
           "name": "Pushpay",
-          "tagline": "Alternativa gratuita a Pushpay",
-          "description": "Pushpay è noto per le offerte mobili ma comporta costi mensili significativi e commissioni sulle transazioni. B1.church offre le offerte con zero commissioni di piattaforma.",
+          "tagline": "Donazioni più tutto il resto del ChMS, a $0",
+          "description": "Pushpay è una piattaforma di donazioni a pagamento. B1 include le donazioni senza commissioni di piattaforma, più persone, check-in, sito web e pianificazione dei culti.",
           "features": [
             {
-              "name": "Offerte Online",
-              "b1": "Nessuna commissione B1",
-              "competitor": "Commissioni piattaforma + Stripe"
+              "name": "Donazioni",
+              "b1": "Nessuna commissione di piattaforma B1",
+              "competitor": "Piattaforma a pagamento + elaborazione"
             },
             {
-              "name": "Donazioni Ricorrenti",
-              "b1": true,
-              "competitor": true
+              "name": "Donazioni ricorrenti",
+              "b1": "Incluso",
+              "competitor": "Incluso"
             },
             {
-              "name": "App Mobile",
-              "b1": "App brandizzata gratuita",
-              "competitor": "Inclusa"
+              "name": "Database delle persone",
+              "b1": "Incluso",
+              "competitor": "Spesso a parte"
             },
             {
-              "name": "Database Membri",
-              "b1": true,
-              "competitor": "ChMS extra"
+              "name": "Check-in",
+              "b1": "Incluso",
+              "competitor": "Spesso a parte"
             },
             {
-              "name": "Sistema Check-in",
-              "b1": true,
-              "competitor": "Costo extra"
+              "name": "App per i membri",
+              "b1": "Dal sito della tua chiesa",
+              "competitor": "Incluso"
             },
             {
-              "name": "Creatore Siti Web",
-              "b1": true,
-              "competitor": false
+              "name": "Creatore di siti web",
+              "b1": "Incluso",
+              "competitor": "Non incluso"
             },
             {
-              "name": "Gestione Gruppi",
-              "b1": true,
-              "competitor": "Costo extra"
-            },
-            {
-              "name": "Dichiarazioni Offerte",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Gestione Fondi",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Open Source",
-              "b1": true,
-              "competitor": false
+              "name": "Open source",
+              "b1": "Sì",
+              "competitor": "No"
             }
           ],
-          "pricingB1": "100% Gratuito",
-          "pricingCompetitor": "$300 - $1,000+/mese",
-          "verdict": "Pushpay è ricco di funzionalità ma costoso. B1.church offre funzionalità di offerta comparabili più la gestione completa della chiesa senza alcun costo. I risparmi possono essere reindirizzati al ministero."
+          "pricingB1": "$0 / mese",
+          "pricingCompetitor": "Canone mensile + elaborazione",
+          "verdict": "Scegli Pushpay se vuoi il loro sistema di donazioni e puoi permetterti la piattaforma. Inizia con B1 se vuoi tutto il necessario per la chiesa e un software a $0. In entrambi i casi paghi comunque le tariffe di carta o ACH."
         },
         "tithely": {
           "name": "Tithe.ly",
-          "tagline": "Alternativa gratuita a Tithe.ly",
-          "description": "Tithe.ly offre strumenti per le offerte e la gestione ecclesiale con prezzi freemium. B1.church fornisce tutto gratuitamente senza commissioni sulle transazioni.",
+          "tagline": "Loro si prendono la parola gratis. Noi non prendiamo commissioni.",
+          "description": "Tithe.ly è un'azienda di donazioni con un software per chiese in aggiunta. B1 è il ChMS, gratuito al 100% hosting incluso. Le donazioni sono incluse. Stripe no profit è 2,2% + $0.30; le donazioni \"gratuite\" di Tithe.ly sono 2,9% + $0.30.",
           "features": [
             {
-              "name": "Offerte Online",
-              "b1": "Nessuna commissione B1",
-              "competitor": "Commissioni piattaforma + Stripe"
+              "name": "Donazioni",
+              "b1": "Stripe no profit 2,2% + $0.30",
+              "competitor": "Tithe.ly \"gratis\" 2,9% + $0.30"
             },
             {
-              "name": "Donazioni Ricorrenti",
-              "b1": true,
-              "competitor": true
+              "name": "Database delle persone",
+              "b1": "Incluso",
+              "competitor": "ChMS a pagamento"
             },
             {
-              "name": "App Mobile",
-              "b1": "App brandizzata gratuita",
-              "competitor": "$99/mese"
+              "name": "Check-in",
+              "b1": "Incluso",
+              "competitor": "Componente aggiuntivo a pagamento"
             },
             {
-              "name": "Database Membri",
-              "b1": true,
-              "competitor": "$99/mese"
+              "name": "App per i membri",
+              "b1": "Dal sito della tua chiesa",
+              "competitor": "A pagamento"
             },
             {
-              "name": "Sistema Check-in",
-              "b1": true,
-              "competitor": "$49/mese"
+              "name": "Creatore di siti web",
+              "b1": "Incluso",
+              "competitor": "Componente aggiuntivo a pagamento"
             },
             {
-              "name": "Creatore Siti Web",
-              "b1": true,
-              "competitor": "$49/mese"
-            },
-            {
-              "name": "Gestione Gruppi",
-              "b1": true,
-              "competitor": "$99/mese"
-            },
-            {
-              "name": "Gestione Sermoni",
-              "b1": true,
-              "competitor": "$49/mese"
-            },
-            {
-              "name": "Multi-Sede",
-              "b1": true,
-              "competitor": "Costo extra"
-            },
-            {
-              "name": "Open Source",
-              "b1": true,
-              "competitor": false
+              "name": "Open source",
+              "b1": "Sì",
+              "competitor": "No"
             }
           ],
-          "pricingB1": "100% Gratuito",
-          "pricingCompetitor": "Livello gratuito + $49-199/mese per le funzionalità",
-          "verdict": "Il livello gratuito di Tithe.ly è limitato. Per ottenere la piena funzionalità, i costi aumentano rapidamente. B1.church include tutto fin dal primo giorno senza pressioni per l'upgrade."
+          "pricingB1": "$0 / mese",
+          "pricingCompetitor": "Pagina di donazioni gratuita, ChMS a pagamento",
+          "verdict": "Tithe.ly vende donazioni gratuite e un ChMS a pagamento. B1 è il software per la chiesa, hosting incluso. Stripe no profit è 2,2% + $0.30 contro il \"gratuito\" di Tithe.ly al 2,9% + $0.30. Nessun livello a pagamento per sbloccare persone, check-in o sito web."
         },
         "breeze": {
-          "name": "Breeze ChMS",
-          "tagline": "Alternativa gratuita a Breeze ChMS",
-          "description": "Breeze è un sistema semplice di gestione ecclesiale con prezzi diretti. B1.church offre più funzionalità senza alcun costo.",
+          "name": "Breeze",
+          "tagline": "A pagamento e semplice vs $0 e completo",
+          "description": "Breeze è un ChMS semplice a pagamento. Chi lascia Planning Center cita Breeze. B1 è a $0 e include sito web, donazioni senza commissioni di piattaforma, check-in e pianificazione dei culti. Importiamo le persone da Breeze.",
           "features": [
             {
-              "name": "Database Membri",
-              "b1": true,
-              "competitor": true
+              "name": "Database delle persone",
+              "b1": "Incluso",
+              "competitor": "Incluso"
             },
             {
-              "name": "Gestione Offerte",
-              "b1": "Nessuna commissione B1",
-              "competitor": "2.9% + 30¢"
+              "name": "Donazioni",
+              "b1": "Nessuna commissione di piattaforma B1",
+              "competitor": "Elaborazione a pagamento"
             },
             {
-              "name": "Sistema Check-in",
-              "b1": true,
-              "competitor": "Base"
+              "name": "Check-in",
+              "b1": "Incluso",
+              "competitor": "Incluso"
             },
             {
-              "name": "App Mobile",
-              "b1": "App brandizzata gratuita",
-              "competitor": "Limitata"
+              "name": "App per i membri",
+              "b1": "Dal sito della tua chiesa",
+              "competitor": "Breeze mobile"
             },
             {
-              "name": "Creatore Siti Web",
-              "b1": true,
-              "competitor": false
+              "name": "Creatore di siti web",
+              "b1": "Incluso",
+              "competitor": "Non incluso"
             },
             {
-              "name": "Gestione Gruppi",
-              "b1": true,
-              "competitor": true
+              "name": "Importazione",
+              "b1": "Importiamo le persone da Breeze",
+              "competitor": "—"
             },
             {
-              "name": "Gestione Eventi",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Programmazione Volontari",
-              "b1": true,
-              "competitor": true
-            },
-            {
-              "name": "Multi-Sede",
-              "b1": true,
-              "competitor": false
-            },
-            {
-              "name": "Open Source",
-              "b1": true,
-              "competitor": false
+              "name": "Open source",
+              "b1": "Sì",
+              "competitor": "No"
             }
           ],
-          "pricingB1": "100% Gratuito",
-          "pricingCompetitor": "$72 - $135/mese",
-          "verdict": "Breeze è semplice e conveniente, ma B1.church è ancora più leggero sul budget (gratuito!) offrendo al contempo più funzionalità come il creatore di siti web e un'app mobile completa."
+          "pricingB1": "$0 / mese",
+          "pricingCompetitor": "Canone mensile",
+          "verdict": "Scegli Breeze se vuoi un prodotto a pagamento curato e stai lasciando Planning Center. Scegli B1 se vuoi sito web e donazioni nello stesso sistema a $0."
         }
-      },
-      "hubTitle": "How B1 compares",
-      "hubSubtitle": "B1 is the ChMS you start on. People, giving, check-in, website, member app, worship planning. $0 forever. 501(c)(3).",
-      "priceB1Label": "$0 / month",
-      "priceB1Note": "No tiers. No platform fee on gifts."
+      }
     },
     "churchManagement": {
       "meta": {
@@ -693,20 +633,58 @@
       "hero": {
         "title": "Software Gratuito di",
         "titleHighlight": "Gestione della Chiesa",
-        "titleLine2": "Piattaforma Ministeriale Completa",
-        "description": "<strong>Software professionale di gestione della chiesa</strong> con monitoraggio presenze, database dei membri, gestione offerte e strumenti di comunicazione. <strong>Software ecclesiale completamente gratuito</strong> fornito da Live Church Solutions, un ministero non-profit 501(c)(3). Unitevi alle oltre 100 chiese che risparmiano migliaia sui costi del software ministeriale.",
-        "ctaPrimary": "Inizia Gratis",
-        "ctaSecondary": "Prova la Demo",
-        "trustLine": "Scelto da Chiese in Crescita in Tutto il Mondo",
-        "trustFree": "Completamente Gratuito per Sempre",
-        "trustNonProfit": "Ministero Non-Profit 501(c)(3)",
-        "trustOpenSource": "Open Source"
+        "titleLine2": "Hosting incluso.",
+        "description": "Persone, donazioni, check-in, sito web, app per i membri e pianificazione dei culti. Un'unica piattaforma. $0 per sempre.",
+        "ctaPrimary": "Inizia gratis",
+        "ctaSecondary": "Scopri come si confronta B1",
+        "trustLine": "Cosa ottieni davvero",
+        "trustFree": "501(c)(3)",
+        "trustNonProfit": "Nessun livello",
+        "trustOpenSource": "Hosting incluso"
       },
+      "freeMeaning": {
+        "eyebrow": "Software gratuito per la gestione della chiesa",
+        "title": "Gratis significa software e hosting.",
+        "lead": "Le chiese ottengono persone, donazioni, check-in, un sito web, un'app per i membri e la pianificazione dei culti senza un canone mensile per il ChMS.",
+        "items": [
+          {
+            "title": "Software e hosting gratuiti",
+            "description": "La piattaforma è davvero gratuita al 100%, hosting incluso. Nessuna prova, nessun limite alla dimensione della chiesa e nessun upgrade per sbloccare persone, donazioni, check-in, gruppi, sito web o presenze."
+          },
+          {
+            "title": "Donazioni incluse",
+            "description": "Le donazioni online fanno parte della piattaforma. B1 non aggiunge alcuna commissione di piattaforma sulle donazioni."
+          },
+          {
+            "title": "Open source da ChurchApps",
+            "description": "B1 fa parte della suite ChurchApps. Puoi leggere il codice, esportare i tuoi dati o installarlo sui tuoi server."
+          }
+        ],
+        "compareLink": "Scopri come si confronta B1"
+      },
+      "highlights": [
+        {
+          "number": "$0",
+          "label": "Software e hosting"
+        },
+        {
+          "number": "100%",
+          "label": "Gratis per sempre"
+        },
+        {
+          "number": "Un",
+          "label": "Database condiviso"
+        },
+        {
+          "number": "Aperto",
+          "label": "Codice su GitHub"
+        }
+      ],
       "featuresHeader": {
-        "title": "Funzionalità Complete del",
-        "titleHighlight": "Sistema di Gestione della Chiesa",
-        "titleSuffix": "",
-        "description": "Software professionale per il database ecclesiale con gestione dei membri, monitoraggio presenze, amministrazione delle offerte e strumenti di comunicazione per il ministero. Sistema gratuito di gestione della chiesa progettato specificamente per congregazioni in crescita e chiese multi-sede."
+        "title": "Un",
+        "titleHighlight": "gestione della chiesa gratuita",
+        "titleSuffix": "completa",
+        "description": "Persone, donazioni, check-in, gruppi, sito web e presenze in un unico database. Hosting incluso. Nulla in questa pagina viene venduto come componente aggiuntivo."
       },
       "checkinStations": {
         "title": "Stazioni di Check-in Self-Service",
@@ -755,7 +733,7 @@
       "testimonials": {
         "title": "Amato dalle Chiese di",
         "titleHighlight": "Tutto il Mondo",
-        "subtitle": "Unitevi alle chiese in crescita che hanno trasformato il loro ministero con la nostra piattaforma completamente gratuita. Ecco cosa dicono i pastori e gli amministratori ecclesiali.",
+        "subtitle": "Pastori e amministratori di chiesa che cercavano strumenti software gratuiti per la gestione della chiesa — e hanno smesso di pagare un canone mensile per il ChMS.",
         "items": [
           {
             "content": "Utilizziamo questa piattaforma ogni domenica per monitorare le presenze e tenere i registri di tutti i partecipanti, inclusi i bambini della scuola domenicale. Come missionari con un budget limitato, apprezziamo che questo software sia gratuito ed efficace."
@@ -771,7 +749,7 @@
       "aboutSection": {
         "title": "Informazioni sul Nostro",
         "titleHighlight": "Software Ecclesiale Gratuito",
-        "description": "<strong>Software completo di gestione della chiesa</strong> fornito completamente gratuito alle chiese e ai ministeri cristiani da <strong>Live Church Solutions</strong>, un'organizzazione non-profit 501(c)(3) fondata nel 2012. La nostra missione è aiutare le chiese a implementare <strong>software ministeriale</strong> professionale senza i tipici alti costi dei sistemi di amministrazione ecclesiale."
+        "description": "B1 è un software gratuito per la gestione della chiesa di <strong>Live Church Solutions</strong> e della suite open source <strong>ChurchApps</strong>. Hosting incluso. Il prodotto comprende persone, donazioni, check-in, gruppi, sito web e presenze — non una prova gratuita che si trasforma in un preventivo."
       },
       "stats": [
         {
@@ -780,9 +758,9 @@
           "description": "Crediamo che questo denaro possa essere utilizzato meglio"
         },
         {
-          "number": "100+",
-          "label": "Chiese già utilizzano la nostra piattaforma",
-          "description": "Una comunità in crescita di utenti soddisfatti"
+          "number": "$0",
+          "label": "Hosting incluso",
+          "description": "L'app, il sito web e gli strumenti di amministrazione girano sui nostri server"
         },
         {
           "number": "2012",
@@ -803,24 +781,25 @@
       },
       "allFeatures": {
         "title": "Tutto Ciò di Cui Avete Bisogno, Completamente Gratuito",
-        "subtitle": "Nessun periodo di prova, nessun limite di membri, nessun costo nascosto",
+        "subtitle": "Nessun periodo di prova, nessun limite di membri, nessun costo nascosto — hosting incluso",
         "items": [
           "Database completo dei membri con profili dettagliati",
           "Monitoraggio presenze con app di check-in self-service",
           "Gestione gruppi e piccoli gruppi",
           "Gestione offerte con reportistica dettagliata",
+          "Creatore di siti web per la chiesa",
           "Moduli personalizzati e raccolta dati",
-          "Strumenti di comunicazione email",
-          "Gestione eventi e programmazione",
-          "Importazione dati da sistemi esistenti",
-          "Supporto multi-sede e multi-campus",
-          "Accesso e permessi basati sui ruoli",
-          "Open source con accesso GitHub"
+          "Strumenti di comunicazione via email",
+          "Gestione e programmazione degli eventi",
+          "Importazione dati dai sistemi esistenti",
+          "Supporto multi-sito e multi-sede",
+          "Accesso e autorizzazioni basati sui ruoli",
+          "Open source con accesso a GitHub"
         ]
       },
       "cta": {
-        "title": "Pronti a Smettere di Pagare per il Software di Gestione Ecclesiale?",
-        "description": "Unitevi alle chiese di tutto il mondo che sono passate a una soluzione completamente gratuita e open source, creata da un ministero, per i ministeri.",
+        "title": "Pronto a smettere di pagare per il software della chiesa?",
+        "description": "B1 è tutto il pacchetto a $0. Hosting incluso.",
         "primaryButton": "Inizia Gratis",
         "secondaryButton": "Prova la Demo"
       },
