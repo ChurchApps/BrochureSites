@@ -3,11 +3,11 @@ import { useEffect, useRef, useState } from 'react';
 export default function Providers() {
   const providers = [
     { name: 'SignPresenter', logo: '/images/providers/signpresenter.png', url: 'https://www.signpresenter.com/churches' },
-    { name: 'B1.Church', logo: '/images/providers/b1church-dark.png', url: 'https://b1.church/' },
+    { name: 'B1.Church', logo: '/images/providers/b1church-dark.webp', url: 'https://b1.church/' },
     { name: 'Lessons.church', logo: '/images/providers/lessons-church.png', url: 'https://lessons.church/' },
-    { name: 'The Bible Project', logo: '/images/providers/bibleproject.png', url: 'https://bibleproject.com/' },
+    { name: 'The Bible Project', logo: '/images/providers/bibleproject.webp', url: 'https://bibleproject.com/' },
     { name: 'Jesus Film', logo: '/images/providers/jesus-film.webp', url: 'https://www.jesusfilm.org/' },
-    { name: 'Dropbox', logo: '/images/providers/dropbox.png', url: 'https://dropbox.com/' },
+    { name: 'Dropbox', logo: '/images/providers/dropbox.webp', url: 'https://dropbox.com/' },
   ];
 
   const trackRef = useRef(null);
@@ -62,10 +62,14 @@ export default function Providers() {
               target="_blank"
               rel="noopener noreferrer"
               className="provider-card"
+              aria-hidden={i >= providers.length ? 'true' : undefined}
+              tabIndex={i >= providers.length ? -1 : undefined}
             >
               <img
                 src={provider.logo}
-                alt={provider.name}
+                alt={i < providers.length ? provider.name : ''}
+                loading="lazy"
+                decoding="async"
               />
             </a>
           ))}

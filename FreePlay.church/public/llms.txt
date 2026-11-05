@@ -1,0 +1,30 @@
+# FreePlay
+
+> FreePlay is a free TV app that plays church and kids ministry curriculum on Apple TV, Amazon Fire TV, and Android TV (including onn. devices). Teachers browse lessons on the TV, download them with one click, and play them offline with just the TV remote, so there is no laptop, cables, or playlist to manage on Sunday morning.
+
+## Quick Facts
+- Price: 100% free, no subscriptions or hidden fees
+- Platforms: Apple TV (tvOS), Amazon Fire TV / Fire Stick, Android TV. Not available on Roku. Not a phone app.
+- Offline: lessons download in advance and play without an internet connection
+- Content providers: Lessons.church, BibleProject, Jesus Film, SignPresenter, B1.church, Dropbox
+- Developer: Live Church Solutions (ChurchApps), a 501(c)(3) nonprofit, EIN 45-5349618
+
+## Download
+- [Apple App Store (Apple TV)](https://apps.apple.com/us/app/freeplay-church/id6758970546)
+- [Google Play (Android TV)](https://play.google.com/store/apps/details?id=church.freeplay)
+- [Amazon Appstore (Fire TV)](https://www.amazon.com/Live-Church-Solutions-FreePLay/dp/B0GMC4S3RS/)
+
+## How It Works
+1. Browse lessons from content providers on the TV
+2. Click once to download a lesson
+3. Press play with the remote
+
+## Documentation
+- [FreePlay overview](https://support.churchapps.org/docs/freeplay/)
+- [Content providers](https://support.churchapps.org/docs/freeplay/content-providers/)
+- [Pairing modes](https://support.churchapps.org/docs/freeplay/getting-started/pairing-modes)
+
+## Related
+- [Lessons.church](https://lessons.church/): free church curriculum that plays in FreePlay
+- [B1.church](https://b1.church/): free church management platform from the same nonprofit
+- [ChurchApps](https://churchapps.org/): the nonprofit behind FreePlay
