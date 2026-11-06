@@ -1,4 +1,5 @@
-// CloudFront Function (cloudfront-js-2.0), viewer-request on the freeplay.church distribution.
+// CloudFront Function (cloudfront-js-2.0) "freeplay-church-redirects", viewer-request on the freeplay.church
+// distribution E1EEPU4J2PLX59. Already published; change it in AWS through the churchapps gateway, not CI.
 // 301s www.freeplay.church and any .../index.html URL to the canonical https://freeplay.church/... URL,
 // keeping the query string (freeplay.church/pair?code=... must survive the hop).
 function handler(event) {
