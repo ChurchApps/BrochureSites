@@ -4,8 +4,12 @@ export default function Footer() {
       <div className="footer-content">
         <div className="footer-logo">
           <img
-            src="/images/logos/freeplay-white.png"
+            src="/images/logos/freeplay-white-512.png"
             alt="FreePlay"
+            width="512"
+            height="128"
+            loading="lazy"
+            decoding="async"
           />
         </div>
 

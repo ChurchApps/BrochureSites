@@ -23,18 +23,24 @@ export default function CTA() {
             <img
               src="/images/badges/app-store-badge-apple.svg"
               alt="Download on Apple App Store"
+              loading="lazy"
+              decoding="async"
             />
           </a>
           <a href="https://play.google.com/store/apps/details?id=church.freeplay" target="_blank" rel="noopener noreferrer">
             <img
               src="/images/badges/app-store-badge-google.png"
               alt="Get it on Google Play"
+              loading="lazy"
+              decoding="async"
             />
           </a>
           <a href="https://www.amazon.com/Live-Church-Solutions-FreePLay/dp/B0GMC4S3RS/" target="_blank" rel="noopener noreferrer">
             <img
               src="/images/badges/app-store-badge-amazon.png"
               alt="Available on Amazon"
+              loading="lazy"
+              decoding="async"
             />
           </a>
         </div>

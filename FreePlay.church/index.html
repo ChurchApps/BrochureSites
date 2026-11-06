@@ -4,60 +4,108 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="/images/logos/fp-icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="FreePlay - The Future of Church Curriculum Has Arrived. Available on Apple TV, Fire TV, and Android TV." />
+    <title>FreePlay: Free Church Curriculum TV App (Plays Offline)</title>
+    <meta name="description" content="Free TV app that plays church and kids ministry curriculum on Apple TV, Fire TV, and Android TV. Download lessons once, then play offline with just the remote." />
+    <link rel="canonical" href="https://freeplay.church/" />
 
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://freeplay.church" />
-    <meta property="og:title" content="FreePlay - Church Curriculum for TV" />
-    <meta property="og:description" content="The future of church curriculum has arrived. Free TV app for Apple TV, Fire TV, and Android TV. Download lessons and play offline with just a remote." />
-    <meta property="og:image" content="https://freeplay.church/images/tv-interface-hero.png" />
-    <meta property="og:image:alt" content="FreePlay TV interface showing church curriculum" />
+    <meta property="og:url" content="https://freeplay.church/" />
+    <meta property="og:title" content="FreePlay: Free Church Curriculum TV App" />
+    <meta property="og:description" content="Play church and kids ministry lessons on Apple TV, Fire TV, and Android TV. Download once, play offline, control it with the remote. 100% free." />
+    <meta property="og:image" content="https://freeplay.church/images/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Teacher using the FreePlay TV app to show a BibleProject lesson to kids" />
     <meta property="og:site_name" content="FreePlay" />
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:url" content="https://freeplay.church" />
-    <meta name="twitter:title" content="FreePlay - Church Curriculum for TV" />
-    <meta name="twitter:description" content="Free TV app for Apple TV, Fire TV, and Android TV. Download lessons and play offline with just a remote." />
-    <meta name="twitter:image" content="https://freeplay.church/images/tv-interface-hero.png" />
-    <meta name="twitter:image:alt" content="FreePlay TV interface showing church curriculum" />
-
-    <title>FreePlay - Church Curriculum for TV</title>
+    <meta name="twitter:title" content="FreePlay: Free Church Curriculum TV App" />
+    <meta name="twitter:description" content="Play church and kids ministry lessons on Apple TV, Fire TV, and Android TV. Download once, play offline, control it with the remote. 100% free." />
+    <meta name="twitter:image" content="https://freeplay.church/images/og-image.jpg" />
+    <meta name="twitter:image:alt" content="Teacher using the FreePlay TV app to show a BibleProject lesson to kids" />
 
     <!-- Structured Data for Search Engines -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "FreePlay",
-      "description": "Free TV app for churches. Stream curriculum, sermons, and media to Apple TV, Fire TV, and Android TV.",
-      "url": "https://freeplay.church",
-      "applicationCategory": "ReligiousApp",
-      "operatingSystem": "Apple TV, Fire TV, Android TV",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "USD"
-      },
-      "provider": {
-        "@type": "NGO",
-        "name": "Live Church Solutions",
-        "url": "https://churchapps.org",
-        "taxID": "45-5349618",
-        "email": "support@churchapps.org",
-        "telephone": "(918) 860-0053",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "P.O. Box 1553",
-          "addressLocality": "Broken Arrow",
-          "addressRegion": "OK",
-          "postalCode": "74013",
-          "addressCountry": "US"
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://freeplay.church/#organization",
+          "name": "FreePlay",
+          "url": "https://freeplay.church/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://freeplay.church/images/logos/fp-icon.png",
+            "width": 128,
+            "height": 128
+          },
+          "parentOrganization": {
+            "@type": "NonprofitOrganization",
+            "@id": "https://churchapps.org/#organization",
+            "name": "Live Church Solutions",
+            "alternateName": "ChurchApps",
+            "url": "https://churchapps.org/",
+            "nonprofitStatus": "Nonprofit501c3",
+            "taxID": "45-5349618"
+          },
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer support",
+            "email": "support@churchapps.org",
+            "telephone": "+1-918-994-2638",
+            "url": "https://support.churchapps.org/docs/freeplay/",
+            "availableLanguage": "English"
+          },
+          "sameAs": [
+            "https://github.com/ChurchApps"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://freeplay.church/#website",
+          "url": "https://freeplay.church/",
+          "name": "FreePlay",
+          "publisher": { "@id": "https://freeplay.church/#organization" }
+        },
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://freeplay.church/#app",
+          "name": "FreePlay",
+          "alternateName": "FreePlay Church",
+          "url": "https://freeplay.church/",
+          "description": "Free TV app that plays church and kids ministry curriculum from providers like Lessons.church, BibleProject, and Jesus Film on Apple TV, Fire TV, and Android TV. Lessons download in advance and play offline, controlled with the TV remote.",
+          "image": "https://freeplay.church/images/og-image.jpg",
+          "screenshot": [
+            "https://freeplay.church/images/screenshots/screenshot-01.webp",
+            "https://freeplay.church/images/screenshots/screenshot-02.webp",
+            "https://freeplay.church/images/screenshots/screenshot-03.webp"
+          ],
+          "applicationCategory": "EducationalApplication",
+          "operatingSystem": "tvOS, Fire OS, Android TV",
+          "isAccessibleForFree": true,
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          "featureList": [
+            "Plays downloaded lessons offline",
+            "Controlled entirely with the TV remote",
+            "One-click lesson downloads",
+            "Content from Lessons.church, BibleProject, Jesus Film, SignPresenter, B1.church, and Dropbox",
+            "Pair a TV to a church classroom to load that day's scheduled lesson"
+          ],
+          "sameAs": [
+            "https://apps.apple.com/us/app/freeplay-church/id6758970546",
+            "https://play.google.com/store/apps/details?id=church.freeplay",
+            "https://www.amazon.com/Live-Church-Solutions-FreePLay/dp/B0GMC4S3RS/"
+          ],
+          "publisher": { "@id": "https://freeplay.church/#organization" }
         }
-      }
+      ]
     }
     </script>
-
-    <!-- HubSpot Tracking -->
 
     <!-- Google Analytics & Ads Conversion Tracking -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-RG91ZN80HC"></script>

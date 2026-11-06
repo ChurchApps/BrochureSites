@@ -1,0 +1,57 @@
+name: Deploy FreePlay.church
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy-freeplay
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Deploy FreePlay.church
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: FreePlay.church
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Enable Corepack
+        run: corepack enable
+
+      - name: Setup Node.js
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: '22'
+          cache: 'yarn'
+          cache-dependency-path: FreePlay.church/yarn.lock
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@e1253824e5c10ff9df46874f81ed3ec929e19cfd # v6.3.0
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-2
+
+      - name: Install Dependencies
+        run: yarn install --immutable
+
+      - name: Deploy
+        run: yarn deploy-prod
+
+      - name: Smoke
+        run: |
+          for i in $(seq 1 20); do
+            html=$(curl -fsS "https://freeplay.church/?smoke=$GITHUB_RUN_ID-$i" || true)
+            if echo "$html" | grep -q 'heroimage-classroomscene.webp' && echo "$html" | grep -q 'rel="canonical"'; then
+              echo "Live home page is the new build."; exit 0
+            fi
+            echo "Waiting for the CloudFront invalidation ($i/20)..."; sleep 15
+          done
+          echo "::error::Live home page is still the old build after 5 minutes."; exit 1

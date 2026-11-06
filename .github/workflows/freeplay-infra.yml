@@ -1,0 +1,129 @@
+name: FreePlay.church infra (redirects + 404)
+
+# Run once with apply=false to print the current CloudFront/S3 setup, then with apply=true to:
+#  - publish FreePlay.church/infra/redirects.js as a CloudFront Function and attach it (viewer-request)
+#    to the default behavior, so www.freeplay.church and /index.html 301 to https://freeplay.church/
+#  - set the S3 website error document to 404.html (deploy FreePlay.church first so the file exists)
+on:
+  workflow_dispatch:
+    inputs:
+      apply:
+        description: Apply changes (false = inspect only)
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: freeplay-infra
+  cancel-in-progress: false
+
+env:
+  DIST_ID: E1EEPU4J2PLX59
+  BUCKET: freeplay-church-web
+  FN_NAME: freeplay-church-redirects
+
+jobs:
+  infra:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@e1253824e5c10ff9df46874f81ed3ec929e19cfd # v6.3.0
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-1
+
+      - name: Inspect
+        run: |
+          set -euo pipefail
+          aws cloudfront get-distribution-config --id "$DIST_ID" > dist.json
+          jq '.DistributionConfig | {
+                Aliases: .Aliases.Items,
+                DefaultRootObject,
+                Origins: [.Origins.Items[].DomainName],
+                DefaultFunctions: .DefaultCacheBehavior.FunctionAssociations,
+                DefaultLambdas: .DefaultCacheBehavior.LambdaFunctionAssociations,
+                OtherBehaviors: [(.CacheBehaviors.Items // [])[] | .PathPattern],
+                CustomErrorResponses
+              }' dist.json
+          echo "--- bucket website"
+          aws s3api get-bucket-website --bucket "$BUCKET" || echo "(no website config)"
+          echo "--- function"
+          aws cloudfront describe-function --name "$FN_NAME" 2>/dev/null | jq '.FunctionSummary | {Name, Status, Stage: .FunctionMetadata.Stage}' || echo "(function does not exist yet)"
+
+      - name: Guard
+        if: inputs.apply
+        run: |
+          set -euo pipefail
+          jq -e '.DistributionConfig.Aliases.Items | index("www.freeplay.church")' dist.json >/dev/null \
+            || echo "::warning::www.freeplay.church is not an alias of $DIST_ID; the function will only handle /index.html here."
+          other=$(jq -r --arg n "$FN_NAME" '[(.DistributionConfig.DefaultCacheBehavior.FunctionAssociations.Items // [])[]
+                    | select(.EventType=="viewer-request") | select(.FunctionARN | endswith("/" + $n) | not)] | length' dist.json)
+          [ "$other" = "0" ] || { echo "::error::Another viewer-request function is already attached; not replacing it."; exit 1; }
+          lam=$(jq -r '[(.DistributionConfig.DefaultCacheBehavior.LambdaFunctionAssociations.Items // [])[] | select(.EventType=="viewer-request")] | length' dist.json)
+          [ "$lam" = "0" ] || { echo "::error::A viewer-request Lambda@Edge is attached; not adding a function alongside it."; exit 1; }
+          aws s3api head-object --bucket "$BUCKET" --key 404.html >/dev/null \
+            || { echo "::error::s3://$BUCKET/404.html is missing. Run the Deploy FreePlay.church workflow first."; exit 1; }
+
+      - name: Publish redirect function
+        if: inputs.apply
+        run: |
+          set -euo pipefail
+          code=FreePlay.church/infra/redirects.js
+          if etag=$(aws cloudfront describe-function --name "$FN_NAME" --query ETag --output text 2>/dev/null); then
+            etag=$(aws cloudfront update-function --name "$FN_NAME" --if-match "$etag" \
+              --function-config Comment="freeplay.church canonical redirects",Runtime=cloudfront-js-2.0 \
+              --function-code "fileb://$code" --query ETag --output text)
+          else
+            etag=$(aws cloudfront create-function --name "$FN_NAME" \
+              --function-config Comment="freeplay.church canonical redirects",Runtime=cloudfront-js-2.0 \
+              --function-code "fileb://$code" --query ETag --output text)
+          fi
+
+          test_case() {
+            printf '%s' "$1" > event.json
+            out=$(aws cloudfront test-function --name "$FN_NAME" --if-match "$etag" --stage DEVELOPMENT \
+              --event-object fileb://event.json --query TestResult.FunctionOutput --output text)
+            echo "$out" | jq -c .
+            echo "$out" | jq -e "$2" >/dev/null || { echo "::error::test failed: $2"; exit 1; }
+          }
+          test_case '{"version":"1.0","context":{"eventType":"viewer-request"},"viewer":{"ip":"1.2.3.4"},"request":{"method":"GET","uri":"/pair","headers":{"host":{"value":"www.freeplay.church"}},"cookies":{},"querystring":{"code":{"value":"AB12"}}}}' \
+            '.response.statusCode==301 and .response.headers.location.value=="https://freeplay.church/pair?code=AB12"'
+          test_case '{"version":"1.0","context":{"eventType":"viewer-request"},"viewer":{"ip":"1.2.3.4"},"request":{"method":"GET","uri":"/index.html","headers":{"host":{"value":"freeplay.church"}},"cookies":{},"querystring":{}}}' \
+            '.response.statusCode==301 and .response.headers.location.value=="https://freeplay.church/"'
+          test_case '{"version":"1.0","context":{"eventType":"viewer-request"},"viewer":{"ip":"1.2.3.4"},"request":{"method":"GET","uri":"/","headers":{"host":{"value":"freeplay.church"}},"cookies":{},"querystring":{}}}' \
+            '.request.uri=="/"'
+
+          aws cloudfront publish-function --name "$FN_NAME" --if-match "$etag" > /dev/null
+          aws cloudfront describe-function --name "$FN_NAME" --stage LIVE --query FunctionSummary.FunctionMetadata.FunctionARN --output text > fn_arn.txt
+          echo "Published $(cat fn_arn.txt)"
+
+      - name: Attach function to distribution
+        if: inputs.apply
+        run: |
+          set -euo pipefail
+          aws cloudfront get-distribution-config --id "$DIST_ID" > dist.json
+          etag=$(jq -r .ETag dist.json)
+          jq --arg arn "$(cat fn_arn.txt)" '.DistributionConfig
+              | .DefaultCacheBehavior.FunctionAssociations = {Quantity: 1, Items: [{FunctionARN: $arn, EventType: "viewer-request"}]}' \
+            dist.json > new-config.json
+          aws cloudfront update-distribution --id "$DIST_ID" --if-match "$etag" \
+            --distribution-config file://new-config.json --query Distribution.Status --output text
+
+      - name: Set S3 website 404 page
+        if: inputs.apply
+        run: |
+          set -euo pipefail
+          current=$(aws s3api get-bucket-website --bucket "$BUCKET" 2>/dev/null || echo '{}')
+          if echo "$current" | jq -e '.RedirectAllRequestsTo' >/dev/null; then
+            echo "::error::Bucket website redirects all requests; not changing it."; exit 1
+          fi
+          echo "$current" | jq '{IndexDocument: (.IndexDocument // {Suffix: "index.html"}), ErrorDocument: {Key: "404.html"}}
+                                + (if .RoutingRules then {RoutingRules} else {} end)' > website.json
+          cat website.json
+          aws s3api put-bucket-website --bucket "$BUCKET" --website-configuration file://website.json

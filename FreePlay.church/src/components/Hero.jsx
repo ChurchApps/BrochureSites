@@ -9,8 +9,10 @@ export default function Hero() {
       <div className="hero-bg">
         <div className="hero-bg-overlay"></div>
         <img
-          src="/images/hero-bg.jpg"
+          src="/images/hero-bg.webp"
           alt=""
+          width="1920"
+          height="1080"
         />
       </div>
 
@@ -30,9 +32,12 @@ export default function Hero() {
 
         <div className="hero-image-wrapper">
           <img
-            src="/images/nanobananapro/heroimage-classroomscene.png"
-            alt="Teacher and kids in bright classroom watching Bible Project on FreePlay"
+            src="/images/nanobananapro/heroimage-classroomscene.webp"
+            alt="Teacher and kids in a bright classroom watching a BibleProject lesson on FreePlay"
             className="hero-image"
+            width="1376"
+            height="768"
+            fetchPriority="high"
           />
         </div>
 

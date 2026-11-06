@@ -3,20 +3,23 @@ export default function HowItWorks() {
     {
       number: 1,
       title: 'Browse lessons on the TV',
+      alt: 'FreePlay TV app home screen showing lessons from content providers',
       description: 'Explore our growing library of curriculum from trusted providers',
-      image: '/images/screenshots/screenshot-01.png',
+      image: '/images/screenshots/screenshot-01.webp',
     },
     {
       number: 2,
       title: 'Click once to download',
+      alt: 'FreePlay lesson screen with a one-click download button',
       description: 'One-click download makes it simple to get content ready',
-      image: '/images/screenshots/screenshot-02.png',
+      image: '/images/screenshots/screenshot-02.webp',
     },
     {
       number: 3,
       title: 'Press play with the remote',
+      alt: 'FreePlay playing a downloaded church lesson full screen on a TV',
       description: 'Start the lesson with a single button press',
-      image: '/images/screenshots/screenshot-03.png',
+      image: '/images/screenshots/screenshot-03.webp',
     },
   ];
 
@@ -41,7 +44,11 @@ export default function HowItWorks() {
             <div className="step-image">
               <img
                 src={step.image}
-                alt={step.title}
+                alt={step.alt}
+                width="1280"
+                height="720"
+                loading="lazy"
+                decoding="async"
               />
             </div>
 

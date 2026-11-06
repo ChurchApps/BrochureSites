@@ -19,8 +19,10 @@ export default function Navigation() {
       <div className="nav-container">
         <div className="nav-logo">
           <img
-            src="/images/logos/freeplay-white.png"
+            src="/images/logos/freeplay-white-512.png"
             alt="FreePlay"
+            width="512"
+            height="128"
           />
         </div>
 
