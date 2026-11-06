@@ -50,7 +50,11 @@ jobs:
           for i in $(seq 1 20); do
             html=$(curl -fsS "https://freeplay.church/?smoke=$GITHUB_RUN_ID-$i" || true)
             if echo "$html" | grep -q 'heroimage-classroomscene.webp' && echo "$html" | grep -q 'rel="canonical"'; then
-              echo "Live home page is the new build."; exit 0
+              echo "Live home page is the new build."
+              # The TV app's QR code opens /pair?code=... (no slash); S3 must serve it, not redirect and drop the code.
+              status=$(curl -s -o /dev/null -w '%{http_code}' "https://freeplay.church/pair?code=SMOKE$GITHUB_RUN_ID")
+              [ "$status" = "200" ] || { echo "::error::/pair?code= returned $status, expected 200"; exit 1; }
+              exit 0
             fi
             echo "Waiting for the CloudFront invalidation ($i/20)..."; sleep 15
           done
